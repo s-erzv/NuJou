@@ -1,0 +1,259 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  /* Global academic typeface */
+  html {
+    font-family: 'Times New Roman', Times, Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-white text-slate-800;
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif;
+  }
+
+  ::selection {
+    @apply bg-sky-200 text-sky-900;
+  }
+}
+
+@layer components {
+  .container-academic {
+    @apply mx-auto w-full max-w-5xl px-4 sm:px-6;
+  }
+
+  /* Reading view — mimic a printed academic paper */
+  .paper {
+    @apply bg-white text-slate-900 leading-relaxed;
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  .paper p {
+    @apply mb-4;
+    text-indent: 1.75rem;
+  }
+
+  .paper p.no-indent {
+    text-indent: 0;
+  }
+
+  .paper h2 {
+    @apply mt-8 mb-3 text-xl font-bold uppercase tracking-wide text-slate-900;
+    text-align: left;
+  }
+
+  .paper h3 {
+    @apply mt-6 mb-2 text-lg font-bold text-slate-900;
+    text-align: left;
+  }
+
+  .paper ul {
+    @apply mb-4 ml-6 list-disc space-y-1;
+    text-align: left;
+  }
+
+  .paper ol {
+    @apply mb-4 ml-6 list-decimal space-y-1;
+    text-align: left;
+  }
+
+  .paper blockquote {
+    @apply my-4 border-l-4 border-sky-300 bg-sky-50 py-2 pl-4 pr-3 italic text-slate-700;
+    text-align: left;
+    text-indent: 0;
+  }
+
+  .paper table {
+    @apply my-5 w-full border-collapse text-sm;
+  }
+
+  .paper th,
+  .paper td {
+    @apply border border-slate-300 px-3 py-2 align-top;
+    text-align: left;
+    text-indent: 0;
+  }
+
+  .paper th {
+    @apply bg-sky-50 font-bold;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-sky-600 px-5 py-2.5
+      font-semibold text-white shadow-card transition hover:bg-sky-700
+      focus:outline-none focus:ring-2 focus:ring-sky-400 disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-sky-200 bg-white px-5 py-2.5
+      font-semibold text-sky-700 transition hover:bg-sky-50
+      focus:outline-none focus:ring-2 focus:ring-sky-400 disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  /* Buttons get a subtle press feedback */
+  .btn-primary:active,
+  .btn-ghost:active {
+    transform: translateY(1px) scale(0.99);
+  }
+}
+
+@layer utilities {
+  /* ---- Keyframes ---- */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes pop {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.12);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes floaty {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes pulseRing {
+    0% {
+      box-shadow: 0 0 0 0 rgba(14, 165, 233, 0.5);
+    }
+    70% {
+      box-shadow: 0 0 0 12px rgba(14, 165, 233, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(14, 165, 233, 0);
+    }
+  }
+
+  @keyframes shimmer {
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  @keyframes gradientPan {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  /* ---- Applied helpers ---- */
+  .animate-fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease forwards;
+  }
+
+  .animate-pop {
+    animation: pop 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .animate-floaty {
+    animation: floaty 6s ease-in-out infinite;
+  }
+
+  .pulse-ring {
+    animation: pulseRing 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  /* Scroll reveal: element hidden until .is-visible is toggled by IntersectionObserver */
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .text-gradient {
+    background: linear-gradient(100deg, #075985, #0ea5e9, #38bdf8, #0284c7);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientPan 8s ease infinite;
+  }
+
+  .hero-glow {
+    background: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.18), transparent 60%);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-fade-in-up,
+    .animate-fade-in,
+    .animate-pop,
+    .animate-floaty,
+    .pulse-ring,
+    .text-gradient {
+      animation: none !important;
+      opacity: 1 !important;
+      transform: none !important;
+    }
+    .reveal {
+      opacity: 1 !important;
+      transform: none !important;
+    }
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "id": 2,
+  "slug": "struktur-imrad",
+  "title": "Struktur & Anatomi Jurnal",
+  "subtitle": "Menguasai kerangka IMRaD",
+  "goal": "Mengenal setiap bagian artikel jurnal dari judul sampai daftar pustaka, memahami IMRaD secara mendalam, dan tahu apa yang boleh dan tidak boleh ditulis di tiap bagian.",
+  "estimatedMinutes": 35,
+  "sections": [
+    {
+      "id": "2-1",
+      "title": "Kenapa Struktur Itu Penting",
+      "blocks": [
+        { "type": "heading", "text": "Struktur = Peta untuk Pembaca" },
+        { "type": "paragraph", "text": "Artikel jurnal bukan tulisan panjang yang mengalir bebas. Ia punya urutan yang sudah disepakati bersama. Kenapa? Karena pembaca akademik itu sibuk. Mereka ingin cepat menemukan: 'apa masalahnya?', 'bagaimana caranya?', 'apa hasilnya?'. Kalau strukturnya baku, mereka tidak perlu tersesat mencari informasi." },
+        { "type": "paragraph", "text": "Anggap struktur seperti tata letak supermarket. Di mana pun kamu belanja, kasir selalu di dekat pintu keluar, sayur di area segar, dan seterusnya. Begitu juga jurnal: pembaca tahu persis di bagian mana harus mencari metode atau hasil." }
+      ]
+    },
+    {
+      "id": "2-2",
+      "title": "Peta Lengkap Bagian Artikel",
+      "blocks": [
+        { "type": "heading", "text": "Dari Judul sampai Daftar Pustaka" },
+        { "type": "list", "ordered": true, "items": [
+          "Judul — padat, spesifik, langsung mencerminkan isi penelitian.",
+          "Abstrak — ringkasan 150–250 kata (latar, tujuan, metode, hasil, simpulan).",
+          "Kata kunci — 3–5 istilah penting agar artikel mudah ditemukan.",
+          "Pendahuluan (Introduction) — latar belakang, celah riset, dan tujuan.",
+          "Metode (Methods) — cara penelitian dijalankan, cukup rinci agar bisa ditiru.",
+          "Hasil (Results) — temuan apa adanya (angka, tabel, grafik), tanpa opini.",
+          "Pembahasan (Discussion) — makna temuan dan kaitannya dengan teori.",
+          "Simpulan — jawaban singkat atas tujuan penelitian.",
+          "Daftar Pustaka — semua sumber yang dikutip dalam artikel."
+        ]},
+        { "type": "callout", "title": "Catatan", "text": "Kadang ada tambahan: ucapan terima kasih (acknowledgment), pendanaan, dan lampiran. Tapi tulang punggungnya tetap 9 bagian di atas." }
+      ]
+    },
+    {
+      "id": "2-3",
+      "title": "Mengenal IMRaD",
+      "blocks": [
+        { "type": "heading", "text": "IMRaD: Tulang Punggung Jurnal" },
+        { "type": "paragraph", "text": "IMRaD adalah singkatan dari Introduction, Methods, Results, and Discussion. Empat bagian ini menjawab empat pertanyaan pokok pembaca ilmiah secara berurutan. Kalau kamu bisa menjawab empat pertanyaan ini dengan rapi, kamu sudah menguasai inti penulisan jurnal." },
+        {
+          "type": "table",
+          "headers": ["Bagian", "Menjawab Pertanyaan", "Isi Utama"],
+          "rows": [
+            ["Introduction", "Kenapa penelitian ini penting?", "Latar belakang, celah riset (gap), tujuan/hipotesis"],
+            ["Methods", "Bagaimana penelitian dilakukan?", "Desain, sampel, alat ukur, prosedur, cara analisis"],
+            ["Results", "Apa yang ditemukan?", "Data, tabel, grafik — apa adanya, tanpa opini"],
+            ["Discussion", "Apa maknanya?", "Tafsiran, kaitan dengan teori, keterbatasan, saran"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2-4",
+      "title": "Bentuk Jam Pasir",
+      "blocks": [
+        { "type": "heading", "text": "Cara Berpikir Umum → Khusus → Umum" },
+        { "type": "paragraph", "text": "Ada trik ampuh untuk membayangkan alur artikel: bentuk JAM PASIR. Bagian atas lebar, mengecil di tengah, lalu melebar lagi di bawah." },
+        { "type": "list", "ordered": false, "items": [
+          "Introduction (lebar → sempit): mulai dari gambaran umum, lalu menyempit ke masalah spesifik yang kamu teliti.",
+          "Methods & Results (sempit): fokus penuh ke detail penelitianmu.",
+          "Discussion (sempit → lebar): mulai dari temuanmu, lalu melebar ke implikasi yang lebih luas untuk masyarakat/ilmu."
+        ]},
+        { "type": "callout", "title": "Kenapa Penting?", "text": "Dengan pola jam pasir, pembaca 'dituntun' dari hal yang mereka kenal menuju hal baru (temuanmu), lalu kembali dibawa ke gambaran besar. Alur ini terasa natural dan mudah diikuti." }
+      ]
+    },
+    {
+      "id": "2-5",
+      "title": "Introduction (Pendahuluan)",
+      "blocks": [
+        { "type": "heading", "text": "Membangun Alasan" },
+        { "type": "paragraph", "text": "Pendahuluan menjelaskan konteks, menunjukkan bahwa masih ada yang belum terjawab (celah/gap), lalu menegaskan tujuan penelitianmu. Ada pola populer bernama CARS (Create A Research Space) yang bisa kamu tiru:" },
+        { "type": "list", "ordered": true, "items": [
+          "Langkah 1 — Bangun teritori: jelaskan pentingnya topik secara umum.",
+          "Langkah 2 — Tunjukkan celah: 'namun, belum banyak penelitian yang membahas…'.",
+          "Langkah 3 — Isi celah itu: 'oleh karena itu, penelitian ini bertujuan untuk…'."
+        ]},
+        { "type": "quote", "text": "\"Meskipun banyak studi membahas motivasi belajar, masih sedikit yang meneliti pengaruh notifikasi aplikasi terhadap fokus siswa. Penelitian ini bertujuan mengisi celah tersebut.\"", "source": "Contoh penerapan pola CARS" }
+      ]
+    },
+    {
+      "id": "2-6",
+      "title": "Methods (Metode)",
+      "blocks": [
+        { "type": "heading", "text": "Resep yang Bisa Ditiru" },
+        { "type": "paragraph", "text": "Anggap bagian Metode seperti resep masakan. Resep yang baik membuat orang lain bisa memasak hidangan yang sama. Begitu pula metode: ditulis cukup rinci supaya peneliti lain bisa mengulang (replikasi) penelitianmu dan mendapat hasil serupa." },
+        { "type": "list", "ordered": false, "items": [
+          "Jenis penelitian (misalnya eksperimen, survei, kualitatif).",
+          "Siapa subjeknya (populasi & sampel, berapa jumlahnya).",
+          "Alat ukur yang dipakai (kuesioner, tes, alat lab).",
+          "Prosedur/langkah pelaksanaan.",
+          "Cara data dianalisis (uji statistik atau teknik analisis)."
+        ]},
+        { "type": "callout", "title": "Kala (Tense)", "text": "Metode melaporkan sesuatu yang SUDAH dilakukan, jadi ditulis dalam bentuk lampau (past tense) untuk naskah berbahasa Inggris: 'Data were collected…'." }
+      ]
+    },
+    {
+      "id": "2-7",
+      "title": "Results vs Discussion",
+      "blocks": [
+        { "type": "heading", "text": "Jangan Sampai Tertukar!" },
+        { "type": "paragraph", "text": "Ini kesalahan paling sering pemula: mencampur hasil dan tafsiran. Ingat rumus sederhana ini — Results = FAKTA, Discussion = MAKNA." },
+        {
+          "type": "table",
+          "headers": ["", "Results (Hasil)", "Discussion (Pembahasan)"],
+          "rows": [
+            ["Isi", "Angka, tabel, grafik apa adanya", "Tafsiran & arti dari angka itu"],
+            ["Contoh", "\"Skor rata-rata naik dari 60 ke 78.\"", "\"Kenaikan ini menunjukkan metode X efektif, sejalan dengan teori Y.\""],
+            ["Boleh opini?", "Tidak", "Ya, tapi tetap berbasis data"]
+          ]
+        },
+        { "type": "paragraph", "text": "Di Discussion juga wajib ada dua hal penting: keterbatasan penelitian (limitations) — jujur mengakui apa yang kurang; dan saran untuk penelitian berikutnya." }
+      ]
+    },
+    {
+      "id": "2-8",
+      "title": "Abstrak: Miniatur Artikel",
+      "blocks": [
+        { "type": "heading", "text": "Bagian yang Paling Sering Dibaca" },
+        { "type": "paragraph", "text": "Abstrak adalah versi mini seluruh artikel yang bisa berdiri sendiri. Sering kali orang HANYA membaca abstrak untuk memutuskan apakah artikelmu layak diunduh. Maka abstrak harus jelas dan lengkap." },
+        { "type": "subheading", "text": "Isi Abstrak yang Baik (urut)" },
+        { "type": "list", "ordered": true, "items": [
+          "Latar belakang singkat (1 kalimat).",
+          "Tujuan penelitian.",
+          "Metode yang dipakai.",
+          "Hasil utama (angka penting).",
+          "Simpulan / implikasi."
+        ]},
+        { "type": "quote", "text": "Kalau seseorang hanya membaca abstrakmu dan sudah paham inti penelitianmu, berarti abstrakmu berhasil.", "source": "Kaidah penulisan abstrak" }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-2",
+    "title": "Kuis Level 2",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q2-1",
+        "question": "IMRaD adalah singkatan dari…",
+        "options": ["Introduction, Method, Reference, Data", "Introduction, Methods, Results, and Discussion", "Idea, Model, Research, Design", "Intro, Main, Review, Detail"],
+        "answer": 1,
+        "explanation": "IMRaD = Introduction, Methods, Results, and Discussion."
+      },
+      {
+        "id": "q2-2",
+        "question": "Bagian yang menyajikan temuan TANPA opini/tafsiran adalah…",
+        "options": ["Introduction", "Methods", "Results", "Discussion"],
+        "answer": 2,
+        "explanation": "Results berisi fakta; tafsirannya ada di Discussion."
+      },
+      {
+        "id": "q2-3",
+        "question": "Panjang abstrak umumnya berkisar…",
+        "options": ["10–20 kata", "150–250 kata", "1.000–2.000 kata", "Satu halaman penuh"],
+        "answer": 1,
+        "explanation": "Abstrak biasanya 150–250 kata dan bisa berdiri sendiri."
+      },
+      {
+        "id": "q2-4",
+        "question": "Metode ditulis rinci supaya…",
+        "options": ["Artikel lebih panjang", "Peneliti lain bisa mengulang penelitian (replikasi)", "Menghindari sitasi", "Menggantikan hasil"],
+        "answer": 1,
+        "explanation": "Tujuan metode rinci adalah agar penelitian bisa ditiru/direplikasi."
+      },
+      {
+        "id": "q2-5",
+        "question": "Analogi 'resep masakan' paling cocok untuk bagian…",
+        "options": ["Abstrak", "Methods", "Daftar pustaka", "Judul"],
+        "answer": 1,
+        "explanation": "Metode ibarat resep: rinci agar orang lain bisa membuat ulang."
+      },
+      {
+        "id": "q2-6",
+        "question": "Rumus mudah membedakan Results dan Discussion adalah…",
+        "options": ["Results = makna, Discussion = fakta", "Results = fakta, Discussion = makna", "Keduanya sama", "Results = opini"],
+        "answer": 1,
+        "explanation": "Results menyajikan fakta; Discussion menjelaskan maknanya."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-2",
+    "title": "Ujian Level 2",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e2-1",
+        "question": "Penulis menaruh kalimat 'temuan ini sejalan dengan teori X' di bagian Results. Kesalahannya adalah…",
+        "options": ["Tidak ada kesalahan", "Itu tafsiran, seharusnya di Discussion", "Seharusnya di Methods", "Seharusnya di Abstrak"],
+        "answer": 1,
+        "explanation": "Membandingkan dengan teori adalah tafsiran; tempatnya di Discussion."
+      },
+      {
+        "id": "e2-2",
+        "question": "Celah penelitian (research gap) paling tepat diungkap di bagian…",
+        "options": ["Introduction", "Results", "Daftar Pustaka", "Kata Kunci"],
+        "answer": 0,
+        "explanation": "Pendahuluan membangun konteks lalu menunjukkan celah yang diisi."
+      },
+      {
+        "id": "e2-3",
+        "question": "Pola CARS dipakai untuk menyusun bagian…",
+        "options": ["Metode", "Pendahuluan", "Tabel hasil", "Abstrak grafis"],
+        "answer": 1,
+        "explanation": "CARS (Create A Research Space) adalah pola menyusun pendahuluan."
+      },
+      {
+        "id": "e2-4",
+        "question": "Keterbatasan penelitian (limitations) sebaiknya ditulis di…",
+        "options": ["Judul", "Discussion", "Kata kunci", "Metode saja"],
+        "answer": 1,
+        "explanation": "Pembahasan adalah tempat mengakui keterbatasan dan menyarankan riset lanjut."
+      },
+      {
+        "id": "e2-5",
+        "question": "Fungsi kata kunci (keywords) adalah…",
+        "options": ["Menghias abstrak", "Membantu artikel mudah ditemukan/diindeks", "Menggantikan judul", "Menambah jumlah kata"],
+        "answer": 1,
+        "explanation": "Kata kunci membantu mesin pengindeks dan pembaca menemukan artikel."
+      },
+      {
+        "id": "e2-6",
+        "question": "Urutan IMRaD yang benar adalah…",
+        "options": ["Results → Introduction → Methods → Discussion", "Introduction → Methods → Results → Discussion", "Methods → Results → Introduction → Discussion", "Discussion → Results → Methods → Introduction"],
+        "answer": 1,
+        "explanation": "Urutan baku: Introduction, Methods, Results, Discussion."
+      },
+      {
+        "id": "e2-7",
+        "question": "Abstrak yang 'mandiri' artinya…",
+        "options": ["Tidak boleh punya angka", "Bisa dipahami tanpa membaca isi artikel", "Ditulis dalam bahasa daerah", "Hanya berisi judul"],
+        "answer": 1,
+        "explanation": "Abstrak harus utuh menjelaskan inti meski dibaca terpisah."
+      },
+      {
+        "id": "e2-8",
+        "question": "Dalam bentuk 'jam pasir', bagian Discussion bergerak…",
+        "options": ["Umum ke khusus", "Khusus (temuan) ke umum (implikasi luas)", "Tetap sempit", "Acak"],
+        "answer": 1,
+        "explanation": "Discussion mulai dari temuan spesifik lalu melebar ke implikasi umum."
+      },
+      {
+        "id": "e2-9",
+        "question": "Contoh kalimat yang tepat untuk bagian Results adalah…",
+        "options": ["\"Hasil ini membuktikan teori X benar.\"", "\"Skor rata-rata naik dari 60 menjadi 78.\"", "\"Sebaiknya penelitian berikutnya menambah sampel.\"", "\"Topik ini penting bagi masyarakat.\""],
+        "answer": 1,
+        "explanation": "Results memuat fakta/angka apa adanya, seperti kenaikan skor."
+      },
+      {
+        "id": "e2-10",
+        "question": "Kenapa struktur baku memudahkan pembaca akademik?",
+        "options": ["Membuat artikel lebih indah", "Pembaca tahu persis di mana mencari tiap informasi", "Mengurangi jumlah sitasi", "Menghilangkan kebutuhan abstrak"],
+        "answer": 1,
+        "explanation": "Struktur yang bisa ditebak membuat pembaca cepat menemukan info yang dicari."
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+import type { Level } from '../types';
+import level1 from './level1.json';
+import level2 from './level2.json';
+import level3 from './level3.json';
+import level4 from './level4.json';
+import level5 from './level5.json';
+import level6 from './level6.json';
+
+// Static, ordered course data. Cast is safe because the JSON is authored
+// to match the `Level` shape in ../types.
+export const levels: Level[] = [
+  level1,
+  level2,
+  level3,
+  level4,
+  level5,
+  level6,
+] as unknown as Level[];
+
+export const getLevel = (idOrSlug: number | string): Level | undefined =>
+  levels.find((l) =>
+    typeof idOrSlug === 'number' ? l.id === idOrSlug : l.slug === idOrSlug,
+  );

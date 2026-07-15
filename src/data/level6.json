@@ -1,0 +1,261 @@
+{
+  "id": 6,
+  "slug": "proposal-metodologi",
+  "title": "Menyusun Proposal & Metodologi",
+  "subtitle": "Dari rumusan masalah hingga rancangan penelitian",
+  "goal": "Bisa menyusun proposal penelitian yang runtut: latar belakang, rumusan masalah, tujuan, memilih metode yang tepat (kualitatif/kuantitatif), serta memahami populasi-sampel, variabel, dan validitas-reliabilitas.",
+  "estimatedMinutes": 40,
+  "sections": [
+    {
+      "id": "6-1",
+      "title": "Apa Itu Proposal Penelitian?",
+      "blocks": [
+        { "type": "heading", "text": "Peta Sebelum Perjalanan" },
+        { "type": "paragraph", "text": "Proposal penelitian itu ibarat peta perjalanan sebelum kamu benar-benar berangkat. Di dalamnya kamu menjelaskan: apa yang mau diteliti, kenapa penting, dan bagaimana caranya. Kalau petanya jelas, penelitianmu tidak akan tersesat di tengah jalan." },
+        { "type": "paragraph", "text": "Proposal biasanya terdiri dari tiga bab awal: Bab 1 Pendahuluan, Bab 2 Tinjauan Pustaka, dan Bab 3 Metode Penelitian. Setelah proposal disetujui, barulah penelitian dijalankan dan dilengkapi menjadi laporan/skripsi utuh." },
+        { "type": "callout", "title": "Kenapa Harus Rapi?", "text": "Dosen pembimbing menilai proposal untuk memastikan penelitianmu layak dan bisa diselesaikan. Proposal yang jelas menghemat waktumu berbulan-bulan ke depan." }
+      ]
+    },
+    {
+      "id": "6-2",
+      "title": "Latar Belakang Masalah",
+      "blocks": [
+        { "type": "heading", "text": "Menjelaskan 'Kenapa Ini Penting'" },
+        { "type": "paragraph", "text": "Latar belakang menjawab pertanyaan: kenapa topik ini layak diteliti? Pola yang mudah diikuti adalah segitiga terbalik — mulai dari gambaran umum, menyempit ke masalah nyata, lalu ke celah yang belum terjawab." },
+        { "type": "list", "ordered": true, "items": [
+          "Mulai dari kondisi ideal (seharusnya bagaimana).",
+          "Tunjukkan kenyataan/masalah (faktanya bagaimana) — sertakan data.",
+          "Jelaskan kesenjangan (gap) antara ideal dan kenyataan.",
+          "Tegaskan kenapa masalah ini penting dan mendesak untuk diteliti."
+        ]},
+        { "type": "callout", "title": "Tips", "text": "Selalu dukung latar belakang dengan data atau fakta (dari sitasi). Latar belakang tanpa data terasa seperti opini kosong." }
+      ]
+    },
+    {
+      "id": "6-3",
+      "title": "Rumusan Masalah & Tujuan",
+      "blocks": [
+        { "type": "heading", "text": "Pertanyaan yang Ingin Dijawab" },
+        { "type": "paragraph", "text": "Rumusan masalah adalah pertanyaan inti penelitianmu, biasanya dalam bentuk kalimat tanya. Tujuan penelitian adalah 'versi pernyataan' dari rumusan masalah itu. Keduanya harus sejalan." },
+        {
+          "type": "table",
+          "headers": ["Rumusan Masalah (tanya)", "Tujuan Penelitian (pernyataan)"],
+          "rows": [
+            ["Apakah metode diskusi memengaruhi nilai siswa?", "Mengetahui pengaruh metode diskusi terhadap nilai siswa"],
+            ["Bagaimana pengalaman guru menerapkan kelas daring?", "Mendeskripsikan pengalaman guru dalam menerapkan kelas daring"]
+          ]
+        },
+        { "type": "paragraph", "text": "Perhatikan kata kerjanya: 'apakah/bagaimana' pada pertanyaan berubah menjadi 'mengetahui/mendeskripsikan' pada tujuan. Konsisten itu kuncinya." }
+      ]
+    },
+    {
+      "id": "6-4",
+      "title": "Kualitatif vs Kuantitatif",
+      "blocks": [
+        { "type": "heading", "text": "Dua Jalan Besar Penelitian" },
+        { "type": "paragraph", "text": "Sebelum memilih metode, kenali dulu dua pendekatan besar. Kuantitatif berurusan dengan ANGKA (mengukur, menghitung, menguji). Kualitatif berurusan dengan MAKNA (memahami pengalaman, alasan, dan proses)." },
+        {
+          "type": "table",
+          "headers": ["Aspek", "Kuantitatif", "Kualitatif"],
+          "rows": [
+            ["Data", "Angka, statistik", "Kata, cerita, observasi"],
+            ["Tujuan", "Menguji hipotesis, mengukur", "Memahami makna & pengalaman"],
+            ["Contoh alat", "Kuesioner berskala, tes", "Wawancara mendalam, observasi"],
+            ["Pertanyaan khas", "Seberapa besar pengaruh X?", "Bagaimana & mengapa Y terjadi?"],
+            ["Sampel", "Banyak, mewakili populasi", "Sedikit, dipilih dengan tujuan"]
+          ]
+        },
+        { "type": "callout", "title": "Ada Gabungan?", "text": "Ya! Namanya metode campuran (mixed methods) — menggabungkan angka dan makna. Cocok untuk masalah yang butuh diukur sekaligus dipahami mendalam." }
+      ]
+    },
+    {
+      "id": "6-5",
+      "title": "Populasi & Sampel",
+      "blocks": [
+        { "type": "heading", "text": "Meneliti Sebagian untuk Menyimpulkan Keseluruhan" },
+        { "type": "paragraph", "text": "Populasi adalah SELURUH kelompok yang ingin kamu pelajari (misalnya semua siswa SMA di Kota X). Karena meneliti semuanya sering mustahil, kamu mengambil sampel — sebagian kecil yang mewakili populasi." },
+        { "type": "paragraph", "text": "Analogi: mencicipi satu sendok sup untuk menilai rasa seluruh panci. Syaratnya, supnya harus diaduk rata dulu — sama seperti sampel harus dipilih dengan cara yang benar agar mewakili." },
+        { "type": "subheading", "text": "Dua Kelompok Teknik Sampling" },
+        { "type": "list", "ordered": false, "items": [
+          "Probability sampling — setiap anggota punya peluang sama dipilih (mis. random sampling). Cocok untuk kuantitatif.",
+          "Non-probability sampling — dipilih dengan pertimbangan tertentu (mis. purposive sampling: memilih narasumber yang paling paham). Umum di kualitatif."
+        ]}
+      ]
+    },
+    {
+      "id": "6-6",
+      "title": "Variabel Penelitian",
+      "blocks": [
+        { "type": "heading", "text": "Yang Diukur dan Saling Memengaruhi" },
+        { "type": "paragraph", "text": "Dalam penelitian kuantitatif, variabel adalah hal yang bisa berubah-ubah dan diukur. Dua yang paling penting:" },
+        {
+          "type": "table",
+          "headers": ["Variabel", "Peran", "Contoh"],
+          "rows": [
+            ["Bebas (independen)", "Yang memengaruhi / diubah peneliti", "Metode pembelajaran"],
+            ["Terikat (dependen)", "Yang dipengaruhi / diukur hasilnya", "Nilai ujian siswa"],
+            ["Kontrol", "Dibuat tetap agar tidak mengganggu", "Materi & durasi belajar yang sama"]
+          ]
+        },
+        { "type": "paragraph", "text": "Cara mengingat: variabel bebas adalah 'sebab', variabel terikat adalah 'akibat'. Contoh kalimat: 'Pengaruh metode pembelajaran (bebas) terhadap nilai ujian siswa (terikat)'." }
+      ]
+    },
+    {
+      "id": "6-7",
+      "title": "Validitas & Reliabilitas",
+      "blocks": [
+        { "type": "heading", "text": "Alat Ukur yang Tepat dan Konsisten" },
+        { "type": "paragraph", "text": "Kalau kamu memakai kuesioner atau tes, alat itu harus bagus. Ada dua syarat utama, dan paling mudah dipahami lewat analogi memanah ke papan target:" },
+        { "type": "list", "ordered": false, "items": [
+          "Validitas — apakah alat mengukur hal yang benar-benar ingin diukur? (Anak panah mengenai titik tengah yang tepat.)",
+          "Reliabilitas — apakah alat memberi hasil yang konsisten bila diulang? (Anak panah selalu jatuh di titik yang berdekatan.)"
+        ]},
+        { "type": "callout", "title": "Contoh Sederhana", "text": "Timbangan yang selalu menunjukkan 50 kg untuk barang 60 kg itu RELIABEL (konsisten) tapi tidak VALID (salah ukur). Alat ukur yang baik harus dua-duanya: valid dan reliabel." }
+      ]
+    },
+    {
+      "id": "6-8",
+      "title": "Kerangka Bab 3 (Metode)",
+      "blocks": [
+        { "type": "heading", "text": "Ceklis Isi Bab Metode" },
+        { "type": "paragraph", "text": "Setelah paham konsep-konsep di atas, kamu bisa menyusun Bab 3. Umumnya berisi bagian-bagian berikut:" },
+        { "type": "list", "ordered": true, "items": [
+          "Jenis & pendekatan penelitian (kualitatif/kuantitatif/campuran).",
+          "Lokasi dan waktu penelitian.",
+          "Populasi dan sampel (beserta teknik pengambilannya).",
+          "Variabel penelitian (untuk kuantitatif) atau fokus penelitian (untuk kualitatif).",
+          "Instrumen/alat pengumpul data (kuesioner, pedoman wawancara, dll.).",
+          "Teknik pengumpulan data.",
+          "Teknik analisis data (uji statistik atau analisis tematik)."
+        ]},
+        { "type": "quote", "text": "Metode yang baik membuat penelitianmu bisa dipercaya dan diulang orang lain. Rancang metode sebelum mengumpulkan data, bukan sesudahnya.", "source": "Kaidah metodologi penelitian" }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-6",
+    "title": "Kuis Level 6",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q6-1",
+        "question": "Penelitian yang berurusan dengan angka, pengukuran, dan pengujian hipotesis disebut…",
+        "options": ["Kualitatif", "Kuantitatif", "Naratif", "Deskriptif murni"],
+        "answer": 1,
+        "explanation": "Kuantitatif berfokus pada data berupa angka dan pengukuran."
+      },
+      {
+        "id": "q6-2",
+        "question": "Seluruh kelompok yang ingin diteliti disebut…",
+        "options": ["Sampel", "Populasi", "Variabel", "Instrumen"],
+        "answer": 1,
+        "explanation": "Populasi adalah keseluruhan kelompok; sampel adalah sebagian darinya."
+      },
+      {
+        "id": "q6-3",
+        "question": "Dalam 'pengaruh metode pembelajaran terhadap nilai siswa', variabel bebasnya adalah…",
+        "options": ["Nilai siswa", "Metode pembelajaran", "Jumlah siswa", "Ruang kelas"],
+        "answer": 1,
+        "explanation": "Variabel bebas adalah 'sebab' yang memengaruhi, yaitu metode pembelajaran."
+      },
+      {
+        "id": "q6-4",
+        "question": "Alat ukur yang memberi hasil konsisten bila diulang disebut…",
+        "options": ["Valid", "Reliabel", "Bias", "Acak"],
+        "answer": 1,
+        "explanation": "Reliabilitas berarti konsistensi hasil pengukuran."
+      },
+      {
+        "id": "q6-5",
+        "question": "Rumusan masalah 'Apakah X memengaruhi Y?' paling cocok diubah menjadi tujuan…",
+        "options": ["Menghibur pembaca soal X", "Mengetahui pengaruh X terhadap Y", "Menjual produk X", "Menghindari Y"],
+        "answer": 1,
+        "explanation": "Tujuan adalah versi pernyataan dari rumusan masalah yang sejalan."
+      },
+      {
+        "id": "q6-6",
+        "question": "Memilih narasumber yang paling paham topik (bukan acak) adalah contoh…",
+        "options": ["Random sampling", "Purposive sampling", "Populasi", "Variabel kontrol"],
+        "answer": 1,
+        "explanation": "Purposive sampling memilih sampel berdasarkan pertimbangan tertentu."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-6",
+    "title": "Ujian Level 6",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e6-1",
+        "question": "Pola penulisan latar belakang yang umum adalah…",
+        "options": ["Khusus lalu berhenti", "Segitiga terbalik: umum → masalah nyata → celah", "Acak tanpa urutan", "Hanya berisi kesimpulan"],
+        "answer": 1,
+        "explanation": "Latar belakang menyempit dari gambaran umum ke celah yang diteliti."
+      },
+      {
+        "id": "e6-2",
+        "question": "Pertanyaan 'Bagaimana & mengapa suatu pengalaman terjadi?' paling cocok dijawab dengan pendekatan…",
+        "options": ["Kuantitatif", "Kualitatif", "Statistik inferensial", "Eksperimen angka"],
+        "answer": 1,
+        "explanation": "Pertanyaan 'bagaimana/mengapa' tentang makna cocok untuk kualitatif."
+      },
+      {
+        "id": "e6-3",
+        "question": "Analogi 'mencicipi satu sendok sup untuk menilai satu panci' menggambarkan konsep…",
+        "options": ["Variabel", "Populasi dan sampel", "Validitas", "Hipotesis"],
+        "answer": 1,
+        "explanation": "Sampel (sesendok) dipakai untuk menyimpulkan populasi (sepanci)."
+      },
+      {
+        "id": "e6-4",
+        "question": "Timbangan yang selalu menunjukkan 50 kg untuk barang 60 kg itu…",
+        "options": ["Valid tapi tidak reliabel", "Reliabel tapi tidak valid", "Valid dan reliabel", "Tidak keduanya"],
+        "answer": 1,
+        "explanation": "Konsisten (reliabel) tetapi salah ukur (tidak valid)."
+      },
+      {
+        "id": "e6-5",
+        "question": "Variabel yang dibuat tetap agar tidak mengganggu hasil disebut variabel…",
+        "options": ["Bebas", "Terikat", "Kontrol", "Bebas ganda"],
+        "answer": 2,
+        "explanation": "Variabel kontrol dijaga tetap agar tidak memengaruhi hasil."
+      },
+      {
+        "id": "e6-6",
+        "question": "Metode yang menggabungkan angka dan makna sekaligus disebut…",
+        "options": ["Mixed methods (campuran)", "Kuantitatif murni", "Studi pustaka", "Sampling"],
+        "answer": 0,
+        "explanation": "Mixed methods menggabungkan pendekatan kuantitatif dan kualitatif."
+      },
+      {
+        "id": "e6-7",
+        "question": "Manakah yang termasuk isi Bab 3 (Metode)?",
+        "options": ["Ucapan terima kasih", "Populasi, sampel, instrumen, teknik analisis", "Sampul dan halaman judul", "Daftar isi"],
+        "answer": 1,
+        "explanation": "Bab metode memuat populasi/sampel, instrumen, dan teknik analisis data."
+      },
+      {
+        "id": "e6-8",
+        "question": "Validitas sebuah alat ukur berarti…",
+        "options": ["Hasilnya selalu sama bila diulang", "Alat mengukur hal yang benar-benar ingin diukur", "Alatnya murah", "Sampelnya banyak"],
+        "answer": 1,
+        "explanation": "Validitas = alat mengukur apa yang seharusnya diukur (tepat sasaran)."
+      },
+      {
+        "id": "e6-9",
+        "question": "Rumusan masalah dan tujuan penelitian sebaiknya…",
+        "options": ["Berbeda arah", "Sejalan dan saling bersesuaian", "Tidak berhubungan", "Ditulis di bab berbeda tanpa kaitan"],
+        "answer": 1,
+        "explanation": "Tujuan adalah bentuk pernyataan dari rumusan masalah, jadi harus sejalan."
+      },
+      {
+        "id": "e6-10",
+        "question": "Teknik sampling di mana setiap anggota populasi punya peluang sama untuk dipilih adalah…",
+        "options": ["Purposive sampling", "Probability (random) sampling", "Snowball tanpa aturan", "Sampling kebetulan"],
+        "answer": 1,
+        "explanation": "Probability sampling memberi peluang sama; cocok untuk penelitian kuantitatif."
+      }
+    ]
+  }
+}
