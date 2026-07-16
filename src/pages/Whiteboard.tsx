@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, useCallback, type PointerEvent as ReactPointerEvent } from 'react';
 import { PenIcon } from '../components/icons';
 import { useReveal } from '../lib/useReveal';
+import ClickSpark from '../components/reactbits/ClickSpark';
 
 const COLORS = ['#0f172a', '#0284c7', '#0ea5e9', '#38bdf8', '#ef4444', '#16a34a', '#f59e0b'];
 const SIZES = [2, 4, 8, 16];
@@ -231,9 +232,11 @@ export default function Whiteboard() {
           <button onClick={clear} className="btn-ghost px-4 py-1.5 text-sm">
             Bersihkan
           </button>
-          <button onClick={download} className="btn-primary px-4 py-1.5 text-sm">
-            Unduh PNG
-          </button>
+          <ClickSpark>
+            <button onClick={download} className="btn-primary px-4 py-1.5 text-sm">
+              Unduh PNG
+            </button>
+          </ClickSpark>
         </div>
       </div>
 

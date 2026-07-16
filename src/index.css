@@ -240,13 +240,98 @@
     background: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.18), transparent 60%);
   }
 
+  /* ---- React Bits-style primitives (ported, dependency-free) ---- */
+
+  /* GlassSurface: frosted glass panel with a soft top sheen */
+  .glass-surface {
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow:
+      inset 0 1px 1px rgba(255, 255, 255, 0.9),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.5),
+      0 8px 32px -8px rgba(2, 132, 199, 0.25);
+    border: 1px solid rgba(186, 230, 253, 0.7);
+  }
+
+  .glass-surface__sheen {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(115deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0) 35%);
+  }
+
+  /* ShinyText: a highlight sweeps across gradient-clipped text */
+  @keyframes shineSweep {
+    to {
+      background-position: -200% 0;
+    }
+  }
+
+  .shiny-text {
+    display: inline-block;
+    color: transparent;
+    background-image: linear-gradient(
+      110deg,
+      #0369a1 0%,
+      #0369a1 40%,
+      #bae6fd 50%,
+      #0369a1 60%,
+      #0369a1 100%
+    );
+    background-size: 250% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shineSweep 3.2s linear infinite;
+  }
+
+  /* SpotlightCard: a mouse-tracked glow revealed on hover */
+  .spotlight-host {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .spotlight-glow {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0;
+    background: radial-gradient(
+      280px circle at var(--spot-x, 50%) var(--spot-y, 50%),
+      var(--spot-color, rgba(56, 189, 248, 0.28)),
+      transparent 70%
+    );
+    transition: opacity 0.3s ease;
+  }
+
+  .spotlight-host:hover .spotlight-glow {
+    opacity: 1;
+  }
+
+  /* ClickSpark: tiny particles burst outward from a click point */
+  @keyframes clickSpark {
+    to {
+      transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(0);
+      opacity: 0;
+    }
+  }
+
+  .click-spark-dot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 9999px;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    animation: clickSpark 0.55s ease-out forwards;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .animate-fade-in-up,
     .animate-fade-in,
     .animate-pop,
     .animate-floaty,
     .pulse-ring,
-    .text-gradient {
+    .text-gradient,
+    .shiny-text {
       animation: none !important;
       opacity: 1 !important;
       transform: none !important;
@@ -254,6 +339,9 @@
     .reveal {
       opacity: 1 !important;
       transform: none !important;
+    }
+    .click-spark-dot {
+      display: none;
     }
   }
 }

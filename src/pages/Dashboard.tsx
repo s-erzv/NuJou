@@ -1,10 +1,12 @@
-import type { ReactNode } from 'react';
+import type { CSSProperties, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { levels } from '../data';
 import { useStore, XP } from '../store/useStore';
 import { LockIcon, CheckIcon, ArrowIcon, BookIcon } from '../components/icons';
 import ProgressRing from '../components/ProgressRing';
 import { useReveal } from '../lib/useReveal';
+import ShinyText from '../components/reactbits/ShinyText';
+import { useSpotlight } from '../components/reactbits/useSpotlight';
 
 const MAX_XP = levels.length * (XP.read + XP.quiz + XP.exam);
 
@@ -34,7 +36,7 @@ export default function Dashboard() {
         {/* Hero */}
         <section className="mb-10 text-center">
           <h1 className="animate-fade-in-up text-5xl font-bold leading-tight tracking-tight sm:text-6xl">
-            <span className="text-gradient">Belajar Menulis Akademik</span>
+            <ShinyText>Belajar Menulis Akademik</ShinyText>
           </h1>
           <p className="animate-fade-in-up mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-slate-600" style={{ animationDelay: '120ms' }}>
             Dari nol sampai mahir menulis KTI, esai, paper, dan jurnal — pelan-pelan, satu level satu
@@ -199,9 +201,15 @@ export default function Dashboard() {
 }
 
 function StatCard({ children }: { children: ReactNode }) {
+  const { ref, onMouseMove } = useSpotlight<HTMLDivElement>();
   return (
-    <div className="rounded-2xl border border-sky-100 bg-white/80 p-5 text-center shadow-card backdrop-blur transition hover:-translate-y-0.5 hover:shadow-lift">
-      <div className="flex flex-col items-center">{children}</div>
+    <div
+      ref={ref}
+      onMouseMove={onMouseMove}
+      className="spotlight-host rounded-2xl border border-sky-100 bg-white/80 p-5 text-center shadow-card backdrop-blur transition hover:-translate-y-0.5 hover:shadow-lift"
+    >
+      <span className="spotlight-glow" aria-hidden />
+      <div className="relative z-10 flex flex-col items-center">{children}</div>
     </div>
   );
 }
@@ -217,24 +225,29 @@ function CardWrapper({
   highlight?: boolean;
   children: ReactNode;
 }) {
+  const { ref, onMouseMove } = useSpotlight<HTMLAnchorElement & HTMLDivElement>();
   const base =
-    'block rounded-2xl border p-5 transition duration-300 ' +
+    'spotlight-host block rounded-2xl border p-5 transition duration-300 ' +
     (unlocked
       ? `bg-white shadow-card hover:-translate-y-1 hover:shadow-lift ${
           highlight ? 'border-sky-300 ring-2 ring-sky-200' : 'border-sky-100'
         }`
       : 'cursor-not-allowed border-slate-100 bg-slate-50/60');
 
+  const spotStyle = { '--spot-color': 'rgba(56, 189, 248, 0.22)' } as CSSProperties;
+
   if (unlocked) {
     return (
-      <Link to={`/level/${slug}`} className={base}>
-        {children}
+      <Link ref={ref} onMouseMove={onMouseMove} to={`/level/${slug}`} className={base} style={spotStyle}>
+        <span className="spotlight-glow" aria-hidden />
+        <div className="relative z-10">{children}</div>
       </Link>
     );
   }
   return (
-    <div className={base} aria-disabled>
-      {children}
+    <div ref={ref} onMouseMove={onMouseMove} className={base} style={spotStyle} aria-disabled>
+      <span className="spotlight-glow" aria-hidden />
+      <div className="relative z-10">{children}</div>
     </div>
   );
 }

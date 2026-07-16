@@ -5,6 +5,7 @@ import { useStore } from '../store/useStore';
 import type { Assessment as AssessmentType } from '../types';
 import { CheckIcon, ArrowIcon } from '../components/icons';
 import { burstConfetti } from '../lib/confetti';
+import ClickSpark from '../components/reactbits/ClickSpark';
 
 export default function Assessment({ kind }: { kind: 'quiz' | 'exam' }) {
   const { slug } = useParams();
@@ -219,13 +220,15 @@ export default function Assessment({ kind }: { kind: 'quiz' | 'exam' }) {
             <p className="text-sm text-slate-500">
               Terjawab {answeredCount}/{total}
             </p>
-            <button
-              onClick={handleSubmit}
-              disabled={answeredCount < total}
-              className="btn-primary"
-            >
-              Kumpulkan Jawaban
-            </button>
+            <ClickSpark>
+              <button
+                onClick={handleSubmit}
+                disabled={answeredCount < total}
+                className="btn-primary"
+              >
+                Kumpulkan Jawaban
+              </button>
+            </ClickSpark>
           </div>
         )}
       </div>

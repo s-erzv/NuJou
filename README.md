@@ -11,6 +11,9 @@ otomatis di browser (localStorage); level terkunci hingga ujian level sebelumnya
 - **React Router DOM** — routing
 - Konten kursus sebagai **JSON statis** (`src/data/*.json`) — tanpa database eksternal
 - **HTML5 Canvas** native untuk Papan Tulis (tanpa dependensi tambahan)
+- **React Bits-style primitives** (`src/components/reactbits/`) — komponen interaktif diadaptasi
+  dari [React Bits](https://reactbits.dev), ditulis ulang murni dengan React + CSS (tanpa
+  dependensi/paket baru) agar tetap ringan dan konsisten dengan tema akademik
 
 ## Menjalankan (pakai pnpm)
 
@@ -25,15 +28,33 @@ pnpm preview    # pratinjau hasil build
 
 ```
 src/
-├─ data/            # levels 1–5 (materi, kuis, ujian) sebagai JSON + index loader
-├─ store/           # Zustand store (progres + logika unlock/pass)
-├─ components/      # Layout, ContentRenderer, ikon
-├─ pages/           # Dashboard (Roadmap), Reading, Assessment (kuis/ujian),
-│                   #   Whiteboard (Papan Tulis), Ecosystem, NotFound
-├─ types.ts         # tipe konten & progres
-├─ App.tsx          # definisi rute
-└─ index.css        # tema global (Times New Roman, sky blue, layout .paper)
+├─ data/                 # levels 1–6 (materi, kuis, ujian) sebagai JSON + index loader
+├─ store/                # Zustand store (progres + logika unlock/pass)
+├─ components/
+│  ├─ reactbits/         # GlassSurface, ShinyText, SpotlightCard, ClickSpark, useSpotlight
+│  ├─ Layout.tsx          Layout, ContentRenderer, ikon
+│  └─ ...
+├─ lib/                  # useReveal (scroll-reveal), confetti
+├─ pages/                # Dashboard (Roadmap), Reading, Assessment (kuis/ujian),
+│                        #   Whiteboard (Papan Tulis), Ecosystem, NotFound
+├─ types.ts              # tipe konten & progres
+├─ App.tsx               # definisi rute
+└─ index.css             # tema global (Times New Roman, sky blue, layout .paper, efek React Bits)
 ```
+
+## Komponen React Bits
+
+Empat primitif interaktif di `src/components/reactbits/`, diadaptasi dari koleksi
+[React Bits](https://reactbits.dev) menjadi React + CSS murni (nol dependensi baru):
+
+- **GlassSurface** — panel kaca buram (frosted glass) dengan sheen lembut di bagian atas.
+  Dipakai untuk navbar mengambang di `Layout.tsx`.
+- **ShinyText** — highlight yang menyapu teks berlapis gradien secara berulang. Dipakai pada judul
+  hero di Dashboard dan Ekosistem.
+- **SpotlightCard** (+ hook `useSpotlight`) — glow lembut yang mengikuti kursor saat hover. Dipakai
+  pada kartu statistik & roadmap di Dashboard, serta kartu tools di Ekosistem.
+- **ClickSpark** — percikan partikel kecil saat tombol diklik. Dipakai pada tombol submit ujian,
+  CTA ujian di Reading, dan tombol unduh PNG di Papan Tulis.
 
 ## Fitur
 

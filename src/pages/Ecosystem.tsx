@@ -1,4 +1,6 @@
 import { useReveal } from '../lib/useReveal';
+import ShinyText from '../components/reactbits/ShinyText';
+import { useSpotlight } from '../components/reactbits/useSpotlight';
 
 type Tool = {
   name: string;
@@ -69,7 +71,7 @@ export default function Ecosystem() {
       <div className="container-academic relative py-12">
       <header className="mb-10 text-center">
         <h1 className="animate-fade-in-up font-serif text-4xl font-bold sm:text-5xl">
-          <span className="text-gradient">Ekosistem Riset & Publikasi</span>
+          <ShinyText>Ekosistem Riset & Publikasi</ShinyText>
         </h1>
         <p className="animate-fade-in-up mx-auto mt-3 max-w-2xl text-lg text-slate-600" style={{ animationDelay: '120ms' }}>
           Perangkat dan alur kerja yang digunakan peneliti sungguhan — dari mengelola referensi
@@ -100,24 +102,7 @@ export default function Ecosystem() {
             <p className="mb-4 text-slate-500">{group.blurb}</p>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {group.tools.map((tool) => (
-                <a
-                  key={tool.name}
-                  href={tool.url}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="group flex flex-col rounded-2xl border border-sky-100 bg-white p-5 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-lift"
-                >
-                  <div className="flex items-center justify-between">
-                    <h3 className="font-serif text-lg font-bold text-slate-900 group-hover:text-sky-700">
-                      {tool.name}
-                    </h3>
-                    <span className="rounded-full bg-sky-100 px-2 py-0.5 text-xs font-semibold text-sky-700">
-                      {tool.tag}
-                    </span>
-                  </div>
-                  <p className="mt-2 text-sm leading-relaxed text-slate-600">{tool.desc}</p>
-                  <span className="mt-3 text-sm font-semibold text-sky-600">Kunjungi →</span>
-                </a>
+                <ToolCard key={tool.name} tool={tool} />
               ))}
             </div>
           </section>
@@ -135,5 +120,33 @@ export default function Ecosystem() {
       </section>
       </div>
     </div>
+  );
+}
+
+function ToolCard({ tool }: { tool: Tool }) {
+  const { ref, onMouseMove } = useSpotlight<HTMLAnchorElement>();
+  return (
+    <a
+      ref={ref}
+      onMouseMove={onMouseMove}
+      href={tool.url}
+      target="_blank"
+      rel="noreferrer noopener"
+      className="spotlight-host group flex flex-col rounded-2xl border border-sky-100 bg-white p-5 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-lift"
+    >
+      <span className="spotlight-glow" aria-hidden />
+      <div className="relative z-10 flex flex-1 flex-col">
+        <div className="flex items-center justify-between">
+          <h3 className="font-serif text-lg font-bold text-slate-900 group-hover:text-sky-700">
+            {tool.name}
+          </h3>
+          <span className="rounded-full bg-sky-100 px-2 py-0.5 text-xs font-semibold text-sky-700">
+            {tool.tag}
+          </span>
+        </div>
+        <p className="mt-2 text-sm leading-relaxed text-slate-600">{tool.desc}</p>
+        <span className="mt-3 text-sm font-semibold text-sky-600">Kunjungi →</span>
+      </div>
+    </a>
   );
 }

@@ -5,6 +5,7 @@ import { useStore } from '../store/useStore';
 import ContentRenderer from '../components/ContentRenderer';
 import { ArrowIcon, CheckIcon } from '../components/icons';
 import { useReveal } from '../lib/useReveal';
+import ClickSpark from '../components/reactbits/ClickSpark';
 
 export default function Reading() {
   const { slug } = useParams();
@@ -89,17 +90,19 @@ export default function Reading() {
                 {quizPassed && <CheckIcon className="h-4 w-4" />}
                 {quizPassed ? 'Ulangi Kuis' : 'Kerjakan Kuis'}
               </Link>
-              <Link to={`/level/${level.slug}/exam`} className="btn-primary">
-                {examPassed ? (
-                  <>
-                    <CheckIcon className="h-4 w-4" /> Ujian Lulus — Tinjau
-                  </>
-                ) : (
-                  <>
-                    Ujian Level {level.id} <ArrowIcon className="h-4 w-4" />
-                  </>
-                )}
-              </Link>
+              <ClickSpark>
+                <Link to={`/level/${level.slug}/exam`} className="btn-primary">
+                  {examPassed ? (
+                    <>
+                      <CheckIcon className="h-4 w-4" /> Ujian Lulus — Tinjau
+                    </>
+                  ) : (
+                    <>
+                      Ujian Level {level.id} <ArrowIcon className="h-4 w-4" />
+                    </>
+                  )}
+                </Link>
+              </ClickSpark>
             </div>
           </div>
         </article>
