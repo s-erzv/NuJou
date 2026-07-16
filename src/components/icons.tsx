@@ -34,18 +34,6 @@ export const PenIcon = ({ className = 'h-5 w-5' }: P) => (
   </svg>
 );
 
-export const MenuIcon = ({ className = 'h-5 w-5' }: P) => (
-  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M4 6h16M4 12h16M4 18h16" />
-  </svg>
-);
-
-export const XIcon = ({ className = 'h-5 w-5' }: P) => (
-  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M18 6 6 18M6 6l12 12" />
-  </svg>
-);
-
 export const MapIcon = ({ className = 'h-5 w-5' }: P) => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M9 20 3.5 17.5V6L9 4m0 16 6-2M9 20V4m6 14 5.5 2V8.5L15 6m0 12V6m0 0L9 4" />
