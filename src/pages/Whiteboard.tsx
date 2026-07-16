@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useRef, useState, useCallback, type PointerEvent as ReactPointerEvent } from 'react';
 import { PenIcon } from '../components/icons';
 import { useReveal } from '../lib/useReveal';
 
@@ -83,19 +83,19 @@ export default function Whiteboard() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const pos = (e: React.PointerEvent) => {
+  const pos = (e: ReactPointerEvent) => {
     const rect = canvasRef.current!.getBoundingClientRect();
     return { x: e.clientX - rect.left, y: e.clientY - rect.top };
   };
 
-  const start = (e: React.PointerEvent) => {
+  const start = (e: ReactPointerEvent) => {
     e.preventDefault();
     drawing.current = true;
     last.current = pos(e);
     canvasRef.current?.setPointerCapture(e.pointerId);
   };
 
-  const move = (e: React.PointerEvent) => {
+  const move = (e: ReactPointerEvent) => {
     if (!drawing.current || !ctxRef.current || !last.current) return;
     const ctx = ctxRef.current;
     const p = pos(e);
