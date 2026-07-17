@@ -1,8 +1,8 @@
-import type { CSSProperties, ReactNode } from 'react';
-import { Link } from 'react-router-dom';
+import type { ReactNode } from 'react';
 import { levels } from '../data';
+import RoadmapPath from '../components/RoadmapPath';
 import { useStore, XP } from '../store/useStore';
-import { LockIcon, CheckIcon, ArrowIcon, BookIcon } from '../components/icons';
+import { CheckIcon } from '../components/icons';
 import ProgressRing from '../components/ProgressRing';
 import { useReveal } from '../lib/useReveal';
 import ShinyText from '../components/reactbits/ShinyText';
@@ -98,89 +98,16 @@ export default function Dashboard() {
         </section>
 
         {/* Roadmap */}
-        <section className="relative mx-auto max-w-3xl">
+        <section className="relative mx-auto max-w-3xl pb-16">
           <h2 className="reveal mb-6 text-center font-serif text-2xl font-bold text-slate-900">
             Peta Perjalanan Belajar
           </h2>
-
-          {/* Animated timeline connector */}
-          <div aria-hidden className="pointer-events-none absolute left-[27px] top-24 bottom-6 hidden w-1 rounded-full bg-sky-100 sm:block">
-            <div
-              className="w-full rounded-full bg-gradient-to-b from-sky-400 to-sky-700 transition-all duration-1000"
-              style={{ height: `${(done / total) * 100}%` }}
-            />
-          </div>
-
-          <ol className="space-y-5">
-            {levels.map((level, idx) => {
-              const unlocked = isLevelUnlocked(level.id);
-              const passed = Boolean(progress[level.id]?.exam?.passed);
-              const read = Boolean(progress[level.id]?.read);
-              const isCurrent = level.id === currentId;
-
-              return (
-                <li key={level.id} className="reveal relative" style={{ transitionDelay: `${idx * 70}ms` }}>
-                  <CardWrapper unlocked={unlocked} slug={level.slug} highlight={isCurrent}>
-                    <div className="flex items-start gap-4">
-                      {/* Node */}
-                      <div
-                        className={`relative grid h-14 w-14 shrink-0 place-items-center rounded-full text-lg font-bold ring-4 ring-white transition ${
-                          passed
-                            ? 'bg-gradient-to-br from-sky-500 to-sky-700 text-white'
-                            : unlocked
-                              ? 'bg-sky-100 text-sky-700'
-                              : 'bg-slate-100 text-slate-400'
-                        } ${isCurrent ? 'pulse-ring' : ''}`}
-                      >
-                        {passed ? <CheckIcon className="h-6 w-6" /> : level.id}
-                      </div>
-
-                      {/* Body */}
-                      <div className="min-w-0 flex-1">
-                        <div className="flex flex-wrap items-center gap-2">
-                          <span className="text-xs font-semibold uppercase tracking-wider text-sky-500">
-                            Level {level.id}
-                          </span>
-                          {passed && (
-                            <span className="rounded-full bg-sky-100 px-2 py-0.5 text-xs font-semibold text-sky-700">✓ Lulus</span>
-                          )}
-                          {isCurrent && (
-                            <span className="rounded-full bg-sky-600 px-2 py-0.5 text-xs font-semibold text-white">Lanjutkan di sini</span>
-                          )}
-                          {!unlocked && (
-                            <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-400">
-                              <LockIcon className="h-3 w-3" /> Terkunci
-                            </span>
-                          )}
-                        </div>
-                        <h3 className="mt-0.5 text-xl font-bold text-slate-900">{level.title}</h3>
-                        <p className="text-slate-500">{level.subtitle}</p>
-
-                        {unlocked ? (
-                          <div className="mt-3 flex flex-wrap items-center gap-3 text-sm text-slate-500">
-                            <span className="inline-flex items-center gap-1">
-                              <BookIcon className="h-4 w-4" /> ~{level.estimatedMinutes} menit
-                            </span>
-                            <span className="text-slate-300">·</span>
-                            <span>{level.sections.length} bagian materi</span>
-                            {read && <span className="text-sky-600">· ✓ Sudah dibaca</span>}
-                            <span className="ml-auto inline-flex items-center gap-1 font-semibold text-sky-700">
-                              {passed ? 'Tinjau ulang' : 'Mulai belajar'}
-                              <ArrowIcon className="h-4 w-4" />
-                            </span>
-                          </div>
-                        ) : (
-                          <p className="mt-3 text-sm italic text-slate-400">
-                            Lulus Ujian Level {level.id - 1} dulu untuk membuka level ini.
-                          </p>
-                        )}
-                      </div>
-                    </div>
-                  </CardWrapper>
-                </li>
-              );
-            })}
-          </ol>
+          <RoadmapPath
+            levels={levels}
+            progress={progress}
+            isLevelUnlocked={isLevelUnlocked}
+            currentId={currentId}
+          />
         </section>
 
         {done > 0 && (
@@ -210,44 +137,6 @@ function StatCard({ children }: { children: ReactNode }) {
     >
       <span className="spotlight-glow" aria-hidden />
       <div className="relative z-10 flex flex-col items-center">{children}</div>
-    </div>
-  );
-}
-
-function CardWrapper({
-  unlocked,
-  slug,
-  highlight,
-  children,
-}: {
-  unlocked: boolean;
-  slug: string;
-  highlight?: boolean;
-  children: ReactNode;
-}) {
-  const { ref, onMouseMove } = useSpotlight<HTMLAnchorElement & HTMLDivElement>();
-  const base =
-    'spotlight-host block rounded-2xl border p-5 transition duration-300 ' +
-    (unlocked
-      ? `bg-white shadow-card hover:-translate-y-1 hover:shadow-lift ${
-          highlight ? 'border-sky-300 ring-2 ring-sky-200' : 'border-sky-100'
-        }`
-      : 'cursor-not-allowed border-slate-100 bg-slate-50/60');
-
-  const spotStyle = { '--spot-color': 'rgba(56, 189, 248, 0.22)' } as CSSProperties;
-
-  if (unlocked) {
-    return (
-      <Link ref={ref} onMouseMove={onMouseMove} to={`/level/${slug}`} className={base} style={spotStyle}>
-        <span className="spotlight-glow" aria-hidden />
-        <div className="relative z-10">{children}</div>
-      </Link>
-    );
-  }
-  return (
-    <div ref={ref} onMouseMove={onMouseMove} className={base} style={spotStyle} aria-disabled>
-      <span className="spotlight-glow" aria-hidden />
-      <div className="relative z-10">{children}</div>
     </div>
   );
 }
