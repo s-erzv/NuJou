@@ -19,7 +19,8 @@ export default {
         },
       },
       fontFamily: {
-        serif: ['"Times New Roman"', 'Times', 'Georgia', 'serif'],
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        serif: ['Lora', 'Georgia', '"Times New Roman"', 'serif'],
       },
       boxShadow: {
         card: '0 1px 3px rgba(2, 132, 199, 0.08), 0 1px 2px rgba(2, 132, 199, 0.06)',

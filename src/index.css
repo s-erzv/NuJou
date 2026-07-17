@@ -13,9 +13,9 @@
     height: 100%;
   }
 
-  /* Global academic typeface */
+  /* Global typeface: Inter for UI/body, Lora (serif) reserved for headings and reading view */
   html {
-    font-family: 'Times New Roman', Times, Georgia, serif;
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
@@ -42,11 +42,20 @@
     @apply mx-auto w-full max-w-5xl px-4 sm:px-6;
   }
 
-  /* Reading view — mimic a printed academic paper */
+  /* Reading view — mimic a printed academic paper, set in a comfortable reading serif */
   .paper {
     @apply bg-white text-slate-900 leading-relaxed;
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.0625rem;
     text-align: justify;
     hyphens: auto;
+  }
+
+  @media (max-width: 640px) {
+    .paper {
+      text-align: left;
+      hyphens: none;
+    }
   }
 
   .paper p {
@@ -248,21 +257,67 @@
 
   /* ---- React Bits-style primitives (ported, dependency-free) ---- */
 
-  /* GlassSurface: frosted glass panel with a soft top sheen */
+  /* GlassSurface: liquid-glass panel — SVG chromatic-aberration displacement
+     warps whatever sits behind it, with a plain frosted-blur fallback for
+     browsers without SVG backdrop-filter support (Safari, Firefox). */
   .glass-surface {
-    background: rgba(255, 255, 255, 0.6);
-    box-shadow:
-      inset 0 1px 1px rgba(255, 255, 255, 0.9),
-      inset 0 0 0 1px rgba(255, 255, 255, 0.5),
-      0 8px 32px -8px rgba(2, 132, 199, 0.25);
-    border: 1px solid rgba(186, 230, 253, 0.7);
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    overflow: hidden;
+    transition: opacity 0.26s ease-out;
   }
 
-  .glass-surface__sheen {
+  .glass-surface__filter {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
     position: absolute;
     inset: 0;
-    pointer-events: none;
-    background: linear-gradient(115deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0) 35%);
+    opacity: 0;
+    z-index: -1;
+  }
+
+  .glass-surface__content {
+    width: 100%;
+    border-radius: inherit;
+    position: relative;
+    z-index: 1;
+  }
+
+  .glass-surface--svg {
+    background: hsl(0 0% 100% / var(--glass-frost, 0.5));
+    backdrop-filter: var(--filter-id, none) saturate(var(--glass-saturation, 1.2));
+    -webkit-backdrop-filter: saturate(var(--glass-saturation, 1.2));
+    box-shadow:
+      0 0 2px 1px rgba(2, 132, 199, 0.1) inset,
+      0 0 10px 4px rgba(2, 132, 199, 0.06) inset,
+      0 8px 32px -8px rgba(2, 132, 199, 0.25),
+      0 2px 16px 0 rgba(2, 132, 199, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .glass-surface--fallback {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(16px) saturate(1.6);
+    -webkit-backdrop-filter: blur(16px) saturate(1.6);
+    border: 1px solid rgba(186, 230, 253, 0.7);
+    box-shadow:
+      0 8px 32px -8px rgba(2, 132, 199, 0.25),
+      inset 0 1px 0 0 rgba(255, 255, 255, 0.7),
+      inset 0 -1px 0 0 rgba(255, 255, 255, 0.3);
+  }
+
+  @supports not (backdrop-filter: blur(10px)) {
+    .glass-surface--fallback {
+      background: rgba(255, 255, 255, 0.92);
+    }
+  }
+
+  .glass-surface:focus-within {
+    outline: 2px solid theme('colors.sky.400');
+    outline-offset: 2px;
   }
 
   /* ShinyText: a highlight sweeps across gradient-clipped text */
