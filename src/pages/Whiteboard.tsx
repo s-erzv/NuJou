@@ -16,35 +16,150 @@ import type {
   ToolMode,
 } from '../components/whiteboard/types';
 
-const COLORS = ['#0f172a', '#0284c7', '#0ea5e9', '#38bdf8', '#ef4444', '#16a34a', '#f59e0b'];
+const COLORS = ['#0f172a', '#3e4183', '#52559d', '#a35f2c', '#ef4444', '#436233', '#f59e0b'];
 const SIZES = [2, 4, 8, 16];
 
-const TEMPLATES: Record<string, { title: string; items: string[] }> = {
+interface FrameworkSection {
+  label: string;
+  questions: string[];
+}
+
+interface Framework {
+  title: string;
+  sections: FrameworkSection[];
+}
+
+/**
+ * Quick-insert "frameworks": each section is a set of guiding questions to
+ * answer, not just a static label — the point is to scaffold the writer's
+ * own thinking directly on the canvas, not to hand them a finished outline.
+ */
+const TEMPLATES: Record<string, Framework> = {
   imrad: {
     title: 'Kerangka IMRaD',
-    items: [
-      'Introduction — latar belakang, celah, tujuan',
-      'Methods — desain, sampel, instrumen',
-      'Results — temuan (angka/tabel)',
-      'Discussion — makna, keterbatasan, saran',
+    sections: [
+      {
+        label: 'Introduction',
+        questions: [
+          'Apa masalah atau celah (gap) yang mau kamu selesaikan?',
+          'Kenapa masalah ini penting dibahas sekarang?',
+          'Apa tujuan spesifik tulisanmu — satu kalimat?',
+        ],
+      },
+      {
+        label: 'Methods',
+        questions: [
+          'Desain penelitianmu apa (kualitatif/kuantitatif/campuran)?',
+          'Siapa atau apa subjek/data yang kamu pakai?',
+          'Instrumen apa yang dipakai untuk mengumpulkan data?',
+        ],
+      },
+      {
+        label: 'Results',
+        questions: [
+          'Temuan utama apa yang paling menjawab tujuanmu?',
+          'Data/angka apa yang mendukung temuan ini?',
+        ],
+      },
+      {
+        label: 'Discussion',
+        questions: [
+          'Apa makna temuan ini dibanding penelitian sebelumnya?',
+          'Apa keterbatasan (limitation) penelitianmu?',
+          'Apa saran untuk penelitian selanjutnya?',
+        ],
+      },
     ],
   },
   esai: {
     title: 'Kerangka Esai',
-    items: [
-      'Pendahuluan — kalimat tesis (pendirian + alasan)',
-      'Isi 1 — argumen + bukti',
-      'Isi 2 — argumen + bukti',
-      'Penutup — tegaskan tesis & simpulan',
+    sections: [
+      {
+        label: 'Pendahuluan / Tesis',
+        questions: [
+          'Apa pendirian (klaim) utamamu — satu kalimat tegas?',
+          'Kenapa pendirian ini penting atau menarik diperdebatkan?',
+        ],
+      },
+      {
+        label: 'Isi 1',
+        questions: [
+          'Argumen pertama apa yang mendukung tesismu?',
+          'Bukti atau contoh konkret apa yang mendukungnya?',
+          'Apa kemungkinan bantahan, dan bagaimana kamu menjawabnya?',
+        ],
+      },
+      {
+        label: 'Isi 2',
+        questions: [
+          'Argumen kedua apa — beda sudut dari argumen pertama?',
+          'Bukti apa yang mendukung argumen ini?',
+        ],
+      },
+      {
+        label: 'Penutup',
+        questions: [
+          'Bagaimana menegaskan tesis tanpa mengulang kata yang sama persis?',
+          'Apa "so what"-nya — kenapa pembaca harus peduli?',
+        ],
+      },
     ],
   },
   proposal: {
     title: 'Kerangka Proposal',
-    items: [
-      'Latar belakang — ideal vs kenyataan (gap)',
-      'Rumusan masalah — pertanyaan inti',
-      'Tujuan — jawaban yang dicari',
-      'Metode — populasi, sampel, analisis',
+    sections: [
+      {
+        label: 'Latar Belakang',
+        questions: [
+          'Apa kondisi ideal vs kenyataan (gap) yang kamu lihat?',
+          'Data atau fenomena apa yang menunjukkan gap ini nyata?',
+        ],
+      },
+      {
+        label: 'Rumusan Masalah',
+        questions: ['Apa pertanyaan penelitian utamamu — satu kalimat?'],
+      },
+      {
+        label: 'Tujuan',
+        questions: ['Jawaban seperti apa yang ingin kamu temukan?'],
+      },
+      {
+        label: 'Metode',
+        questions: [
+          'Siapa populasi/sampelmu?',
+          'Bagaimana cara kamu menganalisis data yang terkumpul?',
+        ],
+      },
+    ],
+  },
+  personal: {
+    title: 'Kerangka Personal Essay / Blog',
+    sections: [
+      {
+        label: 'Hook / Pembuka',
+        questions: [
+          'Momen atau cerita spesifik apa yang jadi pembuka menarik?',
+          'Perasaan atau kondisi apa yang mau kamu tunjukkan di awal?',
+        ],
+      },
+      {
+        label: 'Isi / Insight',
+        questions: [
+          'Apa pelajaran atau insight utama dari pengalamanmu?',
+          'Detail konkret/sensorik apa yang bikin cerita ini terasa hidup?',
+        ],
+      },
+      {
+        label: 'Refleksi',
+        questions: ['Bagaimana pengalaman ini mengubah cara pandangmu?'],
+      },
+      {
+        label: 'Penutup / Takeaway',
+        questions: [
+          'Satu kalimat apa yang ingin diingat pembaca setelah selesai baca?',
+          'Ada ajakan (call-to-action) untuk pembaca, kalau ada?',
+        ],
+      },
     ],
   },
 };
@@ -398,6 +513,9 @@ export default function Whiteboard() {
     const tpl = TEMPLATES[key];
     const baseX = 40;
     const baseY = 40;
+    const sectionGap = 20;
+    const questionLineHeight = 26;
+
     const newObjects: CanvasObject[] = [
       {
         id: createId('text'),
@@ -406,8 +524,8 @@ export default function Whiteboard() {
         y: baseY,
         text: tpl.title,
         fontSize: 24,
-        fill: '#0369a1',
-        width: 360,
+        fill: '#30326a',
+        width: 420,
       },
       {
         id: createId('rect'),
@@ -416,20 +534,46 @@ export default function Whiteboard() {
         y: baseY + 40,
         width: 320,
         height: 2,
-        fill: '#bae6fd',
-        stroke: '#bae6fd',
+        fill: '#c4c5e3',
+        stroke: '#c4c5e3',
       },
-      ...tpl.items.map((item, i) => ({
-        id: createId('text'),
-        kind: 'text' as const,
-        x: baseX + 8,
-        y: baseY + 64 + i * 34,
-        text: `•  ${item}`,
-        fontSize: 16,
-        fill: '#0f172a',
-        width: 420,
-      })),
     ];
+
+    let cursorY = baseY + 64;
+    for (const section of tpl.sections) {
+      newObjects.push({
+        id: createId('text'),
+        kind: 'text',
+        x: baseX,
+        y: cursorY,
+        text: section.label,
+        fontSize: 17,
+        fill: '#854b22',
+        width: 420,
+      });
+      cursorY += 28;
+
+      for (const question of section.questions) {
+        newObjects.push({
+          id: createId('text'),
+          kind: 'text',
+          x: baseX + 12,
+          y: cursorY,
+          text: `?  ${question}`,
+          fontSize: 15,
+          fill: '#0f172a',
+          width: 460,
+        });
+        // Rough wrap estimate at this font size/width (~60 chars/line) so
+        // long questions get a second line's worth of room instead of
+        // overlapping the next item.
+        const estimatedLines = Math.ceil(question.length / 58);
+        cursorY += questionLineHeight * estimatedLines;
+      }
+
+      cursorY += sectionGap;
+    }
+
     setObjects((prev) => [...prev, ...newObjects]);
   };
 
