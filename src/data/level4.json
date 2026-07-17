@@ -10,17 +10,41 @@
       "id": "4-1",
       "title": "Apa Itu 'Nada Akademik'?",
       "blocks": [
-        { "type": "heading", "text": "Menonjolkan Gagasan, Bukan Diri Sendiri" },
-        { "type": "paragraph", "text": "Nada akademik adalah 'cara bicara' tulisan ilmiah: tenang, sopan, dan berbasis bukti. Fokusnya bukan pada perasaan penulis, melainkan pada gagasan dan datanya. Karena itu, hindari ungkapan yang terlalu emosional atau terlalu pribadi." },
-        { "type": "paragraph", "text": "Banyak konvensi menyarankan memakai kalimat pasif atau frasa impersonal, seperti 'penelitian ini menunjukkan…' atau 'data mengindikasikan…', supaya perhatian pembaca tertuju pada temuannya, bukan pada 'saya'-nya penulis." },
+        {
+          "type": "heading",
+          "text": "Menonjolkan Gagasan, Bukan Diri Sendiri"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nada akademik adalah 'cara bicara' tulisan ilmiah: tenang, sopan, dan berbasis bukti. Fokusnya bukan pada perasaan penulis, melainkan pada gagasan dan datanya. Karena itu, hindari ungkapan yang terlalu emosional atau terlalu pribadi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Banyak konvensi menyarankan memakai kalimat pasif atau frasa impersonal, seperti 'penelitian ini menunjukkan…' atau 'data mengindikasikan…', supaya perhatian pembaca tertuju pada temuannya, bukan pada 'saya'-nya penulis."
+        },
         {
           "type": "table",
-          "headers": ["Kurang Akademik", "Lebih Akademik"],
+          "headers": [
+            "Kurang Akademik",
+            "Lebih Akademik"
+          ],
           "rows": [
-            ["Saya pikir metode ini bagus", "Metode ini terbukti efektif berdasarkan data"],
-            ["Pokoknya hasilnya jelek", "Hasil menunjukkan capaian di bawah target"],
-            ["Kita semua tahu bahwa…", "Sejumlah studi menunjukkan bahwa… (Sumber, tahun)"],
-            ["Banyak banget respondennya", "Responden berjumlah 240 orang"]
+            [
+              "Saya pikir metode ini bagus",
+              "Metode ini terbukti efektif berdasarkan data"
+            ],
+            [
+              "Pokoknya hasilnya jelek",
+              "Hasil menunjukkan capaian di bawah target"
+            ],
+            [
+              "Kita semua tahu bahwa…",
+              "Sejumlah studi menunjukkan bahwa… (Sumber, tahun)"
+            ],
+            [
+              "Banyak banget respondennya",
+              "Responden berjumlah 240 orang"
+            ]
           ]
         }
       ]
@@ -29,105 +53,236 @@
       "id": "4-2",
       "title": "Soal Kata Ganti (Saya/Kami)",
       "blocks": [
-        { "type": "heading", "text": "Boleh Tidak Pakai 'Saya'?" },
-        { "type": "paragraph", "text": "Ini pertanyaan klasik. Jawabannya: tergantung. Secara tradisional, tulisan akademik menghindari 'saya' dan 'menurut saya pribadi' agar terkesan objektif. Namun kini banyak jurnal modern justru menerima 'kami/we' untuk menyebut tindakan peneliti, karena dianggap lebih jujur dan jelas." },
-        { "type": "list", "ordered": false, "items": [
-          "Amannya: hindari 'saya rasa', 'menurut saya pribadi', 'kayaknya'.",
-          "Ganti dengan: 'penelitian ini', 'hasil menunjukkan', 'dapat disimpulkan'.",
-          "Kalau ragu, selalu ikuti panduan penulisan (author guidelines) jurnal atau ketentuan kampusmu."
-        ]},
-        { "type": "callout", "title": "Intinya", "text": "Bukan kata 'saya' yang dilarang, melainkan sikap SUBJEKTIF tanpa bukti. Kalau setiap klaim didukung data, tulisanmu tetap objektif." }
+        {
+          "type": "heading",
+          "text": "Boleh Tidak Pakai 'Saya'?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ini pertanyaan klasik. Jawabannya: tergantung. Secara tradisional, tulisan akademik menghindari 'saya' dan 'menurut saya pribadi' agar terkesan objektif. Namun kini banyak jurnal modern justru menerima 'kami/we' untuk menyebut tindakan peneliti, karena dianggap lebih jujur dan jelas."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Amannya: hindari 'saya rasa', 'menurut saya pribadi', 'kayaknya'.",
+            "Ganti dengan: 'penelitian ini', 'hasil menunjukkan', 'dapat disimpulkan'.",
+            "Kalau ragu, selalu ikuti panduan penulisan (author guidelines) jurnal atau ketentuan kampusmu."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Intinya",
+          "text": "Bukan kata 'saya' yang dilarang, melainkan sikap SUBJEKTIF tanpa bukti. Kalau setiap klaim didukung data, tulisanmu tetap objektif."
+        }
       ]
     },
     {
       "id": "4-3",
       "title": "Memilih Kata Baku",
       "blocks": [
-        { "type": "heading", "text": "Diksi Formal Sesuai KBBI" },
-        { "type": "paragraph", "text": "Bahasa akademik menghindari kata sehari-hari, singkatan tidak baku, dan ungkapan lisan. Gunakan istilah baku sesuai Kamus Besar Bahasa Indonesia (KBBI)." },
+        {
+          "type": "heading",
+          "text": "Diksi Formal Sesuai KBBI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bahasa akademik menghindari kata sehari-hari, singkatan tidak baku, dan ungkapan lisan. Gunakan istilah baku sesuai Kamus Besar Bahasa Indonesia (KBBI)."
+        },
         {
           "type": "table",
-          "headers": ["Hindari (informal)", "Gunakan (formal)"],
+          "headers": [
+            "Hindari (informal)",
+            "Gunakan (formal)"
+          ],
           "rows": [
-            ["bikin", "membuat / menghasilkan"],
-            ["kayak", "seperti / sebagaimana"],
-            ["nggak / gak", "tidak"],
-            ["cuma", "hanya"],
-            ["dikasih", "diberikan"],
-            ["sangat-sangat penting", "sangat penting / krusial"]
+            [
+              "bikin",
+              "membuat / menghasilkan"
+            ],
+            [
+              "kayak",
+              "seperti / sebagaimana"
+            ],
+            [
+              "nggak / gak",
+              "tidak"
+            ],
+            [
+              "cuma",
+              "hanya"
+            ],
+            [
+              "dikasih",
+              "diberikan"
+            ],
+            [
+              "sangat-sangat penting",
+              "sangat penting / krusial"
+            ]
           ]
         },
-        { "type": "paragraph", "text": "Hindari juga generalisasi berlebihan seperti 'semua orang', 'selalu', atau 'tidak pernah', kecuali memang ada bukti kuat yang mendukungnya." }
+        {
+          "type": "paragraph",
+          "text": "Hindari juga generalisasi berlebihan seperti 'semua orang', 'selalu', atau 'tidak pernah', kecuali memang ada bukti kuat yang mendukungnya."
+        }
       ]
     },
     {
       "id": "4-4",
       "title": "Berhati-hati dengan Klaim (Hedging)",
       "blocks": [
-        { "type": "heading", "text": "Ilmuwan Jarang Bilang '100% Pasti'" },
-        { "type": "paragraph", "text": "Dalam sains, kita jarang bisa benar-benar yakin 100%. Maka penulis akademik memakai bahasa yang hati-hati (disebut hedging) untuk menyatakan klaim secara jujur sesuai kekuatan buktinya." },
+        {
+          "type": "heading",
+          "text": "Ilmuwan Jarang Bilang '100% Pasti'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dalam sains, kita jarang bisa benar-benar yakin 100%. Maka penulis akademik memakai bahasa yang hati-hati (disebut hedging) untuk menyatakan klaim secara jujur sesuai kekuatan buktinya."
+        },
         {
           "type": "table",
-          "headers": ["Terlalu Berani (berisiko)", "Lebih Hati-hati (akademik)"],
+          "headers": [
+            "Terlalu Berani (berisiko)",
+            "Lebih Hati-hati (akademik)"
+          ],
           "rows": [
-            ["Metode ini pasti menaikkan nilai", "Metode ini cenderung menaikkan nilai"],
-            ["Ini membuktikan X selamanya", "Temuan ini mengindikasikan X"],
-            ["Semua siswa akan berhasil", "Sebagian besar siswa menunjukkan peningkatan"]
+            [
+              "Metode ini pasti menaikkan nilai",
+              "Metode ini cenderung menaikkan nilai"
+            ],
+            [
+              "Ini membuktikan X selamanya",
+              "Temuan ini mengindikasikan X"
+            ],
+            [
+              "Semua siswa akan berhasil",
+              "Sebagian besar siswa menunjukkan peningkatan"
+            ]
           ]
         },
-        { "type": "callout", "title": "Kata Bantu Hedging", "text": "Gunakan: cenderung, mengindikasikan, kemungkinan, sebagian besar, dapat, tampaknya. Ini membuat klaimmu terdengar dewasa dan jujur — bukan lemah." }
+        {
+          "type": "callout",
+          "title": "Kata Bantu Hedging",
+          "text": "Gunakan: cenderung, mengindikasikan, kemungkinan, sebagian besar, dapat, tampaknya. Ini membuat klaimmu terdengar dewasa dan jujur — bukan lemah."
+        }
       ]
     },
     {
       "id": "4-5",
       "title": "Kalimat Efektif",
       "blocks": [
-        { "type": "heading", "text": "Lugas, Padat, Jelas" },
-        { "type": "paragraph", "text": "Kalimat efektif menyampaikan maksud dengan tepat tanpa kata-kata yang mubazir. Ujinya sederhana: kalau sebuah kata bisa dihapus tanpa mengubah makna, hapus saja." },
+        {
+          "type": "heading",
+          "text": "Lugas, Padat, Jelas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalimat efektif menyampaikan maksud dengan tepat tanpa kata-kata yang mubazir. Ujinya sederhana: kalau sebuah kata bisa dihapus tanpa mengubah makna, hapus saja."
+        },
         {
           "type": "table",
-          "headers": ["Boros / Berbelit", "Efektif"],
+          "headers": [
+            "Boros / Berbelit",
+            "Efektif"
+          ],
           "rows": [
-            ["adalah merupakan sebuah hal yang penting", "penting"],
-            ["dalam rangka untuk meningkatkan", "untuk meningkatkan"],
-            ["melakukan sebuah kegiatan penelitian", "melakukan penelitian"],
-            ["oleh karena disebabkan hal itu", "oleh karena itu"]
+            [
+              "adalah merupakan sebuah hal yang penting",
+              "penting"
+            ],
+            [
+              "dalam rangka untuk meningkatkan",
+              "untuk meningkatkan"
+            ],
+            [
+              "melakukan sebuah kegiatan penelitian",
+              "melakukan penelitian"
+            ],
+            [
+              "oleh karena disebabkan hal itu",
+              "oleh karena itu"
+            ]
           ]
         },
-        { "type": "paragraph", "text": "Pastikan juga kalimatmu lengkap: minimal ada subjek dan predikat (siapa/apa + melakukan apa). Kalimat yang tidak jelas subjeknya membuat pembaca bingung." }
+        {
+          "type": "paragraph",
+          "text": "Pastikan juga kalimatmu lengkap: minimal ada subjek dan predikat (siapa/apa + melakukan apa). Kalimat yang tidak jelas subjeknya membuat pembaca bingung."
+        }
       ]
     },
     {
       "id": "4-6",
       "title": "Membangun Paragraf (PEEL)",
       "blocks": [
-        { "type": "heading", "text": "Satu Paragraf, Satu Gagasan" },
-        { "type": "paragraph", "text": "Paragraf yang baik hanya membahas SATU ide utama. Ada rumus mudah bernama PEEL untuk menyusunnya:" },
-        { "type": "list", "ordered": true, "items": [
-          "P (Point) — kalimat topik: nyatakan ide utama di awal paragraf.",
-          "E (Explain) — jelaskan maksud ide itu lebih lanjut.",
-          "E (Evidence) — beri bukti, data, atau contoh (dengan sitasi bila perlu).",
-          "L (Link) — tautkan kembali ke argumen besar atau ke paragraf berikutnya."
-        ]},
-        { "type": "quote", "text": "\"Pembelajaran daring memperluas akses pendidikan (Point). Artinya, siswa di daerah terpencil kini bisa mengikuti kelas yang sama dengan siswa kota (Explain). Data Kemendikbud menunjukkan kenaikan partisipasi sebesar 18% (Evidence). Perluasan akses inilah yang menjadi alasan utama mempertahankan model daring (Link).\"", "source": "Contoh paragraf PEEL" }
+        {
+          "type": "heading",
+          "text": "Satu Paragraf, Satu Gagasan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paragraf yang baik hanya membahas SATU ide utama. Ada rumus mudah bernama PEEL untuk menyusunnya:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "P (Point) — kalimat topik: nyatakan ide utama di awal paragraf.",
+            "E (Explain) — jelaskan maksud ide itu lebih lanjut.",
+            "E (Evidence) — beri bukti, data, atau contoh (dengan sitasi bila perlu).",
+            "L (Link) — tautkan kembali ke argumen besar atau ke paragraf berikutnya."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"Pembelajaran daring memperluas akses pendidikan (Point). Artinya, siswa di daerah terpencil kini bisa mengikuti kelas yang sama dengan siswa kota (Explain). Data Kemendikbud menunjukkan kenaikan partisipasi sebesar 18% (Evidence). Perluasan akses inilah yang menjadi alasan utama mempertahankan model daring (Link).\"",
+          "source": "Contoh paragraf PEEL"
+        }
       ]
     },
     {
       "id": "4-7",
       "title": "Kata Transisi",
       "blocks": [
-        { "type": "heading", "text": "Perekat Antar-Gagasan" },
-        { "type": "paragraph", "text": "Kata transisi membantu pembaca mengikuti alur berpikirmu. Ibarat rambu jalan: ia memberi tahu 'kita mau berbelok', 'ada tambahan', atau 'ini kesimpulannya'." },
+        {
+          "type": "heading",
+          "text": "Perekat Antar-Gagasan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kata transisi membantu pembaca mengikuti alur berpikirmu. Ibarat rambu jalan: ia memberi tahu 'kita mau berbelok', 'ada tambahan', atau 'ini kesimpulannya'."
+        },
         {
           "type": "table",
-          "headers": ["Fungsi", "Kata / Frasa Transisi"],
+          "headers": [
+            "Fungsi",
+            "Kata / Frasa Transisi"
+          ],
           "rows": [
-            ["Menambahkan", "selain itu, lebih lanjut, di samping itu"],
-            ["Mempertentangkan", "namun, sebaliknya, di sisi lain"],
-            ["Sebab–akibat", "oleh karena itu, akibatnya, sehingga"],
-            ["Menyimpulkan", "dengan demikian, pada akhirnya, secara keseluruhan"],
-            ["Memberi contoh", "misalnya, sebagai ilustrasi, seperti"],
-            ["Menegaskan", "bahkan, terlebih lagi, yang terpenting"]
+            [
+              "Menambahkan",
+              "selain itu, lebih lanjut, di samping itu"
+            ],
+            [
+              "Mempertentangkan",
+              "namun, sebaliknya, di sisi lain"
+            ],
+            [
+              "Sebab–akibat",
+              "oleh karena itu, akibatnya, sehingga"
+            ],
+            [
+              "Menyimpulkan",
+              "dengan demikian, pada akhirnya, secara keseluruhan"
+            ],
+            [
+              "Memberi contoh",
+              "misalnya, sebagai ilustrasi, seperti"
+            ],
+            [
+              "Menegaskan",
+              "bahkan, terlebih lagi, yang terpenting"
+            ]
           ]
         }
       ]
@@ -136,18 +291,29 @@
       "id": "4-8",
       "title": "Ringkasan Do's & Don'ts",
       "blocks": [
-        { "type": "heading", "text": "Daftar Periksa Cepat" },
-        { "type": "list", "ordered": false, "items": [
-          "DO: gunakan kalimat efektif, lugas, dan padat.",
-          "DO: dukung setiap klaim dengan data atau sitasi.",
-          "DO: jaga konsistensi istilah di seluruh naskah.",
-          "DO: pakai bahasa hati-hati (hedging) sesuai kekuatan bukti.",
-          "DON'T: memakai bahasa gaul atau singkatan lisan.",
-          "DON'T: melakukan generalisasi berlebihan tanpa bukti.",
-          "DON'T: menyisipkan opini emosional tanpa dasar.",
-          "DON'T: menulis kalimat berbelit yang membingungkan."
-        ]},
-        { "type": "quote", "text": "Kejelasan adalah bentuk kesopanan tertinggi seorang penulis kepada pembacanya. Kalau pembaca harus membaca dua kali untuk paham, kalimat itu perlu diperbaiki.", "source": "Kaidah gaya akademik" }
+        {
+          "type": "heading",
+          "text": "Daftar Periksa Cepat"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "DO: gunakan kalimat efektif, lugas, dan padat.",
+            "DO: dukung setiap klaim dengan data atau sitasi.",
+            "DO: jaga konsistensi istilah di seluruh naskah.",
+            "DO: pakai bahasa hati-hati (hedging) sesuai kekuatan bukti.",
+            "DON'T: memakai bahasa gaul atau singkatan lisan.",
+            "DON'T: melakukan generalisasi berlebihan tanpa bukti.",
+            "DON'T: menyisipkan opini emosional tanpa dasar.",
+            "DON'T: menulis kalimat berbelit yang membingungkan."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Kejelasan adalah bentuk kesopanan tertinggi seorang penulis kepada pembacanya. Kalau pembaca harus membaca dua kali untuk paham, kalimat itu perlu diperbaiki.",
+          "source": "Kaidah gaya akademik"
+        }
       ]
     }
   ],
@@ -159,42 +325,72 @@
       {
         "id": "q4-1",
         "question": "Kalimat paling akademik di antara berikut adalah…",
-        "options": ["Saya rasa hasilnya bagus banget", "Hasil menunjukkan peningkatan sebesar 18%", "Pokoknya berhasil", "Kayaknya efektif deh"],
+        "options": [
+          "Saya rasa hasilnya bagus banget",
+          "Hasil menunjukkan peningkatan sebesar 18%",
+          "Pokoknya berhasil",
+          "Kayaknya efektif deh"
+        ],
         "answer": 1,
         "explanation": "Kalimat objektif berbasis data adalah yang paling akademik."
       },
       {
         "id": "q4-2",
         "question": "Frasa transisi untuk hubungan sebab–akibat adalah…",
-        "options": ["selain itu", "oleh karena itu", "misalnya", "sebaliknya"],
+        "options": [
+          "selain itu",
+          "oleh karena itu",
+          "misalnya",
+          "sebaliknya"
+        ],
         "answer": 1,
         "explanation": "'Oleh karena itu' menandai hubungan sebab–akibat."
       },
       {
         "id": "q4-3",
         "question": "Bentuk baku dari kata 'bikin' adalah…",
-        "options": ["ngebuat", "membuat", "bkin", "buat-buatan"],
+        "options": [
+          "ngebuat",
+          "membuat",
+          "bkin",
+          "buat-buatan"
+        ],
         "answer": 1,
         "explanation": "'Membuat/menghasilkan' adalah padanan formalnya."
       },
       {
         "id": "q4-4",
         "question": "Dalam rumus PEEL, huruf pertama 'P' berarti…",
-        "options": ["Penutup", "Point (kalimat topik/ide utama)", "Paragraf", "Pujian"],
+        "options": [
+          "Penutup",
+          "Point (kalimat topik/ide utama)",
+          "Paragraf",
+          "Pujian"
+        ],
         "answer": 1,
         "explanation": "P = Point, yaitu kalimat topik yang menyatakan ide utama di awal."
       },
       {
         "id": "q4-5",
         "question": "Bahasa hati-hati (hedging) contohnya adalah…",
-        "options": ["pasti, selamanya, semua", "cenderung, mengindikasikan, kemungkinan", "banget, pokoknya", "tidak pernah, mustahil"],
+        "options": [
+          "pasti, selamanya, semua",
+          "cenderung, mengindikasikan, kemungkinan",
+          "banget, pokoknya",
+          "tidak pernah, mustahil"
+        ],
         "answer": 1,
         "explanation": "Hedging memakai kata seperti cenderung, mengindikasikan, kemungkinan."
       },
       {
         "id": "q4-6",
         "question": "Perbaikan efektif dari 'dalam rangka untuk meningkatkan' adalah…",
-        "options": ["dalam rangka meningkatkan-kan", "untuk meningkatkan", "guna dalam rangka naik", "supaya untuk naik"],
+        "options": [
+          "dalam rangka meningkatkan-kan",
+          "untuk meningkatkan",
+          "guna dalam rangka naik",
+          "supaya untuk naik"
+        ],
         "answer": 1,
         "explanation": "Kalimat efektif membuang kata mubazir: cukup 'untuk meningkatkan'."
       }
@@ -208,73 +404,157 @@
       {
         "id": "e4-1",
         "question": "Kenapa nada objektif penting dalam tulisan akademik?",
-        "options": ["Agar tulisan panjang", "Agar fokus pada gagasan & bukti, bukan emosi penulis", "Agar tidak perlu sitasi", "Agar terlihat santai"],
+        "options": [
+          "Agar tulisan panjang",
+          "Agar fokus pada gagasan & bukti, bukan emosi penulis",
+          "Agar tidak perlu sitasi",
+          "Agar terlihat santai"
+        ],
         "answer": 1,
         "explanation": "Objektivitas menjaga argumen tetap berbasis bukti, bukan perasaan."
       },
       {
         "id": "e4-2",
         "question": "Perbaikan paling tepat untuk 'Banyak banget respondennya' adalah…",
-        "options": ["Respondennya buanyak", "Responden berjumlah 240 orang", "Ada banyak sekali orang", "Respondennya tak terhitung"],
+        "options": [
+          "Respondennya buanyak",
+          "Responden berjumlah 240 orang",
+          "Ada banyak sekali orang",
+          "Respondennya tak terhitung"
+        ],
         "answer": 1,
         "explanation": "Menyebut angka spesifik menggantikan ungkapan informal yang kabur."
       },
       {
         "id": "e4-3",
         "question": "Kata transisi 'namun' berfungsi untuk…",
-        "options": ["Menambahkan", "Mempertentangkan", "Menyimpulkan", "Memberi contoh"],
+        "options": [
+          "Menambahkan",
+          "Mempertentangkan",
+          "Menyimpulkan",
+          "Memberi contoh"
+        ],
         "answer": 1,
         "explanation": "'Namun' menandai pertentangan/kontras antar-gagasan."
       },
       {
         "id": "e4-4",
         "question": "Soal kata ganti 'kami/we', sikap yang tepat adalah…",
-        "options": ["Selalu dilarang mutlak", "Ikuti panduan penulisan jurnal/kampus", "Wajib di setiap kalimat", "Hanya untuk abstrak"],
+        "options": [
+          "Selalu dilarang mutlak",
+          "Ikuti panduan penulisan jurnal/kampus",
+          "Wajib di setiap kalimat",
+          "Hanya untuk abstrak"
+        ],
         "answer": 1,
         "explanation": "Konvensi berbeda antar jurnal; ikuti author guidelines."
       },
       {
         "id": "e4-5",
         "question": "Manakah yang termasuk 'DON'T' penulisan akademik?",
-        "options": ["Mendukung klaim dengan sitasi", "Menjaga konsistensi istilah", "Menyisipkan opini emosional tanpa dasar", "Menulis lugas"],
+        "options": [
+          "Mendukung klaim dengan sitasi",
+          "Menjaga konsistensi istilah",
+          "Menyisipkan opini emosional tanpa dasar",
+          "Menulis lugas"
+        ],
         "answer": 2,
         "explanation": "Opini emosional tanpa bukti melanggar objektivitas."
       },
       {
         "id": "e4-6",
         "question": "Dalam PEEL, bagian 'Evidence' berisi…",
-        "options": ["Ide utama", "Bukti, data, atau contoh (dengan sitasi bila perlu)", "Judul", "Ucapan terima kasih"],
+        "options": [
+          "Ide utama",
+          "Bukti, data, atau contoh (dengan sitasi bila perlu)",
+          "Judul",
+          "Ucapan terima kasih"
+        ],
         "answer": 1,
         "explanation": "Evidence adalah bukti/data/contoh yang menopang ide utama."
       },
       {
         "id": "e4-7",
         "question": "Mengapa penulis akademik memakai bahasa hati-hati (hedging)?",
-        "options": ["Karena ragu-ragu dan lemah", "Karena menyatakan klaim sesuai kekuatan bukti secara jujur", "Untuk memperpanjang tulisan", "Agar terlihat sombong"],
+        "options": [
+          "Karena ragu-ragu dan lemah",
+          "Karena menyatakan klaim sesuai kekuatan bukti secara jujur",
+          "Untuk memperpanjang tulisan",
+          "Agar terlihat sombong"
+        ],
         "answer": 1,
         "explanation": "Hedging menjaga kejujuran: klaim dinyatakan sesuai bukti yang ada."
       },
       {
         "id": "e4-8",
         "question": "Kalimat 'Metode ini pasti berhasil untuk semua orang' sebaiknya diperbaiki menjadi…",
-        "options": ["Metode ini pasti sukses selamanya", "Metode ini cenderung efektif bagi sebagian besar peserta", "Metode ini bagus banget", "Metode ini nggak mungkin gagal"],
+        "options": [
+          "Metode ini pasti sukses selamanya",
+          "Metode ini cenderung efektif bagi sebagian besar peserta",
+          "Metode ini bagus banget",
+          "Metode ini nggak mungkin gagal"
+        ],
         "answer": 1,
         "explanation": "Versi kedua memakai hedging dan tidak menggeneralisasi berlebihan."
       },
       {
         "id": "e4-9",
         "question": "Prinsip 'satu paragraf satu gagasan' menekankan pentingnya…",
-        "options": ["Paragraf sepanjang mungkin", "Setiap paragraf berpusat pada satu ide dengan kalimat topik", "Menghindari transisi", "Banyak opini"],
+        "options": [
+          "Paragraf sepanjang mungkin",
+          "Setiap paragraf berpusat pada satu ide dengan kalimat topik",
+          "Menghindari transisi",
+          "Banyak opini"
+        ],
         "answer": 1,
         "explanation": "Tiap paragraf sebaiknya membahas satu ide dengan kalimat topik yang jelas."
       },
       {
         "id": "e4-10",
         "question": "Uji sederhana untuk kalimat efektif adalah…",
-        "options": ["Menambah kata sebanyak mungkin", "Jika sebuah kata bisa dihapus tanpa mengubah makna, hapus saja", "Memakai istilah gaul", "Menghindari subjek"],
+        "options": [
+          "Menambah kata sebanyak mungkin",
+          "Jika sebuah kata bisa dihapus tanpa mengubah makna, hapus saja",
+          "Memakai istilah gaul",
+          "Menghindari subjek"
+        ],
         "answer": 1,
         "explanation": "Kalimat efektif membuang kata mubazir; kata yang tak mengubah makna dihapus."
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Style: Lessons in Clarity and Grace",
+      "author": "Joseph M. Williams, Joseph Bizup",
+      "publisher": "Pearson",
+      "note": "Dasar kalimat efektif dan kohesi antar-kalimat."
+    },
+    {
+      "title": "The Elements of Style",
+      "author": "William Strunk Jr., E. B. White",
+      "publisher": "Longman",
+      "note": "Prinsip klasik menghemat kata dan memilih kalimat aktif."
+    },
+    {
+      "title": "Academic Writing for Graduate Students: Essential Tasks and Skills",
+      "author": "John M. Swales, Christine B. Feak",
+      "publisher": "University of Michigan Press",
+      "note": "Rujukan hedging dan nada objektif akademik."
+    },
+    {
+      "title": "Kamus Besar Bahasa Indonesia (KBBI) Daring",
+      "author": "Badan Pengembangan dan Pembinaan Bahasa",
+      "publisher": "Kemendikbudristek",
+      "url": "https://kbbi.kemdikbud.go.id",
+      "note": "Acuan resmi kata baku bahasa Indonesia."
+    },
+    {
+      "title": "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century",
+      "author": "Steven Pinker",
+      "year": 2014,
+      "publisher": "Viking",
+      "note": "Kritik gaya akademik yang berbelit dan cara memperbaikinya."
+    }
+  ]
 }

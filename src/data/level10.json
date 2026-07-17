@@ -10,107 +10,221 @@
       "id": "10-1",
       "title": "Statistik Deskriptif vs Inferensial",
       "blocks": [
-        { "type": "heading", "text": "Menggambarkan vs Menyimpulkan" },
-        { "type": "paragraph", "text": "Statistik dalam penulisan ilmiah punya dua peran berbeda. Statistik deskriptif hanya MENGGAMBARKAN data yang kamu punya (rata-rata, persentase, sebaran). Statistik inferensial melangkah lebih jauh: menggunakan data sampel untuk MENYIMPULKAN sesuatu tentang populasi yang lebih besar." },
-        { "type": "quote", "text": "\"Rata-rata nilai ujian kelas ini adalah 78\" — itu deskriptif. \"Metode belajar baru secara signifikan meningkatkan nilai dibanding metode lama\" — itu inferensial.", "source": "Contoh perbedaan deskriptif vs inferensial" }
+        {
+          "type": "heading",
+          "text": "Menggambarkan vs Menyimpulkan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Statistik dalam penulisan ilmiah punya dua peran berbeda. Statistik deskriptif hanya MENGGAMBARKAN data yang kamu punya (rata-rata, persentase, sebaran). Statistik inferensial melangkah lebih jauh: menggunakan data sampel untuk MENYIMPULKAN sesuatu tentang populasi yang lebih besar."
+        },
+        {
+          "type": "quote",
+          "text": "\"Rata-rata nilai ujian kelas ini adalah 78\" — itu deskriptif. \"Metode belajar baru secara signifikan meningkatkan nilai dibanding metode lama\" — itu inferensial.",
+          "source": "Contoh perbedaan deskriptif vs inferensial"
+        }
       ]
     },
     {
       "id": "10-2",
       "title": "Ukuran Pemusatan dan Sebaran",
       "blocks": [
-        { "type": "heading", "text": "Tiga Cara Meringkas Data" },
+        {
+          "type": "heading",
+          "text": "Tiga Cara Meringkas Data"
+        },
         {
           "type": "table",
-          "headers": ["Istilah", "Arti", "Kapan Bermasalah"],
+          "headers": [
+            "Istilah",
+            "Arti",
+            "Kapan Bermasalah"
+          ],
           "rows": [
-            ["Mean (rata-rata)", "Jumlah semua nilai dibagi banyaknya data", "Sangat terpengaruh nilai ekstrem (outlier)"],
-            ["Median", "Nilai tengah setelah data diurutkan", "Lebih tahan terhadap outlier dibanding mean"],
-            ["Standar deviasi", "Seberapa jauh data tersebar dari rata-rata", "Nilai kecil = data seragam, nilai besar = data bervariasi"]
+            [
+              "Mean (rata-rata)",
+              "Jumlah semua nilai dibagi banyaknya data",
+              "Sangat terpengaruh nilai ekstrem (outlier)"
+            ],
+            [
+              "Median",
+              "Nilai tengah setelah data diurutkan",
+              "Lebih tahan terhadap outlier dibanding mean"
+            ],
+            [
+              "Standar deviasi",
+              "Seberapa jauh data tersebar dari rata-rata",
+              "Nilai kecil = data seragam, nilai besar = data bervariasi"
+            ]
           ]
         },
-        { "type": "callout", "title": "Contoh Outlier", "text": "Kalau 9 orang bergaji Rp 5 juta dan 1 orang bergaji Rp 500 juta, mean-nya akan melonjak jauh di atas kondisi 'khas' — di sinilah median lebih mewakili gambaran sebenarnya." }
+        {
+          "type": "callout",
+          "title": "Contoh Outlier",
+          "text": "Kalau 9 orang bergaji Rp 5 juta dan 1 orang bergaji Rp 500 juta, mean-nya akan melonjak jauh di atas kondisi 'khas' — di sinilah median lebih mewakili gambaran sebenarnya."
+        }
       ]
     },
     {
       "id": "10-3",
       "title": "Hipotesis Nol dan Nilai p (p-value)",
       "blocks": [
-        { "type": "heading", "text": "Menguji Dugaan dengan Angka" },
-        { "type": "paragraph", "text": "Sebelum menganalisis, peneliti biasanya menetapkan hipotesis nol (H0) — dugaan bahwa TIDAK ADA perbedaan/hubungan yang sebenarnya terjadi (semua perbedaan yang terlihat hanya kebetulan). Uji statistik menghasilkan nilai p (p-value): peluang munculnya hasil seekstrem ini KALAU seandainya H0 benar." },
-        { "type": "paragraph", "text": "Kalau nilai p sangat kecil (umumnya di bawah 0,05), peneliti menolak H0 dan menyimpulkan perbedaan/hubungan itu signifikan secara statistik — kemungkinan besar bukan kebetulan semata." },
-        { "type": "callout", "title": "Signifikan ≠ Penting", "text": "Hasil bisa 'signifikan secara statistik' tapi selisihnya kecil sekali dan tidak penting secara praktis, terutama kalau sampelnya sangat besar. Selalu laporkan besaran efeknya (effect size), bukan cuma nilai p." }
+        {
+          "type": "heading",
+          "text": "Menguji Dugaan dengan Angka"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sebelum menganalisis, peneliti biasanya menetapkan hipotesis nol (H0) — dugaan bahwa TIDAK ADA perbedaan/hubungan yang sebenarnya terjadi (semua perbedaan yang terlihat hanya kebetulan). Uji statistik menghasilkan nilai p (p-value): peluang munculnya hasil seekstrem ini KALAU seandainya H0 benar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalau nilai p sangat kecil (umumnya di bawah 0,05), peneliti menolak H0 dan menyimpulkan perbedaan/hubungan itu signifikan secara statistik — kemungkinan besar bukan kebetulan semata."
+        },
+        {
+          "type": "callout",
+          "title": "Signifikan ≠ Penting",
+          "text": "Hasil bisa 'signifikan secara statistik' tapi selisihnya kecil sekali dan tidak penting secara praktis, terutama kalau sampelnya sangat besar. Selalu laporkan besaran efeknya (effect size), bukan cuma nilai p."
+        }
       ]
     },
     {
       "id": "10-4",
       "title": "Uji-t: Membandingkan Dua Kelompok",
       "blocks": [
-        { "type": "heading", "text": "Kapan Dua Rata-Rata Dianggap Beda Nyata" },
-        { "type": "paragraph", "text": "Uji-t (t-test) dipakai untuk membandingkan rata-rata DUA kelompok — misalnya nilai kelompok eksperimen vs kelompok kontrol dari Level 8 — dan menentukan apakah selisihnya cukup besar untuk dianggap bukan kebetulan." },
-        { "type": "list", "ordered": false, "items": [
-          "Independent sample t-test — membandingkan dua kelompok yang berbeda orang (eksperimen vs kontrol).",
-          "Paired sample t-test — membandingkan dua pengukuran pada orang/subjek YANG SAMA (misalnya nilai sebelum dan sesudah pelatihan)."
-        ]},
-        { "type": "quote", "text": "\"Nilai rata-rata kelompok eksperimen (M=82) secara signifikan lebih tinggi dibanding kelompok kontrol (M=74), t(58)=3.21, p<0.01.\"", "source": "Contoh pelaporan hasil uji-t" }
+        {
+          "type": "heading",
+          "text": "Kapan Dua Rata-Rata Dianggap Beda Nyata"
+        },
+        {
+          "type": "paragraph",
+          "text": "Uji-t (t-test) dipakai untuk membandingkan rata-rata DUA kelompok — misalnya nilai kelompok eksperimen vs kelompok kontrol dari Level 8 — dan menentukan apakah selisihnya cukup besar untuk dianggap bukan kebetulan."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Independent sample t-test — membandingkan dua kelompok yang berbeda orang (eksperimen vs kontrol).",
+            "Paired sample t-test — membandingkan dua pengukuran pada orang/subjek YANG SAMA (misalnya nilai sebelum dan sesudah pelatihan)."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"Nilai rata-rata kelompok eksperimen (M=82) secara signifikan lebih tinggi dibanding kelompok kontrol (M=74), t(58)=3.21, p<0.01.\"",
+          "source": "Contoh pelaporan hasil uji-t"
+        }
       ]
     },
     {
       "id": "10-5",
       "title": "Korelasi: Mengukur Kekuatan Hubungan",
       "blocks": [
-        { "type": "heading", "text": "Koefisien Korelasi (r)" },
-        { "type": "paragraph", "text": "Kalau uji-t membandingkan kelompok, korelasi mengukur SEBERAPA KUAT dan ke arah mana hubungan antara dua variabel yang sama-sama diukur (bukan dimanipulasi) — nilainya berkisar -1 sampai +1." },
+        {
+          "type": "heading",
+          "text": "Koefisien Korelasi (r)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalau uji-t membandingkan kelompok, korelasi mengukur SEBERAPA KUAT dan ke arah mana hubungan antara dua variabel yang sama-sama diukur (bukan dimanipulasi) — nilainya berkisar -1 sampai +1."
+        },
         {
           "type": "table",
-          "headers": ["Nilai r", "Arti"],
+          "headers": [
+            "Nilai r",
+            "Arti"
+          ],
           "rows": [
-            ["Mendekati +1", "Hubungan positif kuat — keduanya naik bersamaan"],
-            ["Mendekati -1", "Hubungan negatif kuat — satu naik, yang lain turun"],
-            ["Mendekati 0", "Hampir tidak ada hubungan linear"]
+            [
+              "Mendekati +1",
+              "Hubungan positif kuat — keduanya naik bersamaan"
+            ],
+            [
+              "Mendekati -1",
+              "Hubungan negatif kuat — satu naik, yang lain turun"
+            ],
+            [
+              "Mendekati 0",
+              "Hampir tidak ada hubungan linear"
+            ]
           ]
         },
-        { "type": "callout", "title": "Ingat Level 8: Korelasi ≠ Kausalitas", "text": "Korelasi kuat antara dua variabel TIDAK membuktikan satu menyebabkan yang lain. Bisa jadi ada variabel ketiga yang menyebabkan keduanya bergerak bersamaan." }
+        {
+          "type": "callout",
+          "title": "Ingat Level 8: Korelasi ≠ Kausalitas",
+          "text": "Korelasi kuat antara dua variabel TIDAK membuktikan satu menyebabkan yang lain. Bisa jadi ada variabel ketiga yang menyebabkan keduanya bergerak bersamaan."
+        }
       ]
     },
     {
       "id": "10-6",
       "title": "Validitas & Reliabilitas Instrumen",
       "blocks": [
-        { "type": "heading", "text": "Menyambung Level 8: Alat Ukur yang Bisa Dipercaya" },
-        { "type": "paragraph", "text": "Sebelum data dianalisis, instrumen (kuesioner/tes) harus terbukti valid dan reliabel — dua konsep yang mudah tertukar tapi berbeda maknanya." },
-        { "type": "list", "ordered": false, "items": [
-          "Validitas — instrumen benar-benar mengukur apa yang ingin diukur (misalnya, kuesioner 'motivasi' benar-benar mengukur motivasi, bukan kecemasan).",
-          "Reliabilitas — hasil pengukuran konsisten kalau diulang pada kondisi yang sama (misalnya, timbangan yang menunjukkan angka sama tiap ditimbang ulang)."
-        ]},
-        { "type": "callout", "title": "Analogi Panah dan Papan Target", "text": "Reliabel tapi tidak valid itu seperti panah yang selalu jatuh di titik yang sama, tapi jauh dari titik tengah target (konsisten, tapi salah sasaran). Instrumen yang baik harus valid DAN reliabel sekaligus — tepat sasaran dan konsisten." }
+        {
+          "type": "heading",
+          "text": "Menyambung Level 8: Alat Ukur yang Bisa Dipercaya"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sebelum data dianalisis, instrumen (kuesioner/tes) harus terbukti valid dan reliabel — dua konsep yang mudah tertukar tapi berbeda maknanya."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Validitas — instrumen benar-benar mengukur apa yang ingin diukur (misalnya, kuesioner 'motivasi' benar-benar mengukur motivasi, bukan kecemasan).",
+            "Reliabilitas — hasil pengukuran konsisten kalau diulang pada kondisi yang sama (misalnya, timbangan yang menunjukkan angka sama tiap ditimbang ulang)."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Analogi Panah dan Papan Target",
+          "text": "Reliabel tapi tidak valid itu seperti panah yang selalu jatuh di titik yang sama, tapi jauh dari titik tengah target (konsisten, tapi salah sasaran). Instrumen yang baik harus valid DAN reliabel sekaligus — tepat sasaran dan konsisten."
+        }
       ]
     },
     {
       "id": "10-7",
       "title": "Menyajikan Hasil Statistik dengan Rapi",
       "blocks": [
-        { "type": "heading", "text": "Angka Saja Tidak Cukup" },
-        { "type": "list", "ordered": true, "items": [
-          "Sertakan ukuran sampel (n), rata-rata (M), dan standar deviasi (SD) — jangan hanya nilai p.",
-          "Gunakan tabel/grafik untuk data yang kompleks, bukan menjejalkan semua angka dalam satu paragraf panjang.",
-          "Tulis hasil dalam bentuk lampau, apa adanya (ingat Results ≠ Discussion dari Level 2).",
-          "Laporkan juga hasil yang TIDAK signifikan — jangan hanya menonjolkan yang mendukung hipotesismu (menghindari bias pelaporan selektif)."
-        ]}
+        {
+          "type": "heading",
+          "text": "Angka Saja Tidak Cukup"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Sertakan ukuran sampel (n), rata-rata (M), dan standar deviasi (SD) — jangan hanya nilai p.",
+            "Gunakan tabel/grafik untuk data yang kompleks, bukan menjejalkan semua angka dalam satu paragraf panjang.",
+            "Tulis hasil dalam bentuk lampau, apa adanya (ingat Results ≠ Discussion dari Level 2).",
+            "Laporkan juga hasil yang TIDAK signifikan — jangan hanya menonjolkan yang mendukung hipotesismu (menghindari bias pelaporan selektif)."
+          ]
+        }
       ]
     },
     {
       "id": "10-8",
       "title": "Kesalahan Umum dalam Pelaporan Statistik",
       "blocks": [
-        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
-        { "type": "list", "ordered": true, "items": [
-          "P-hacking — mencoba banyak uji statistik berbeda sampai menemukan satu yang 'signifikan', lalu hanya melaporkan itu.",
-          "Menyamakan 'tidak signifikan' dengan 'terbukti tidak ada hubungan sama sekali' — padahal bisa jadi sampelnya kurang besar.",
-          "Melaporkan korelasi sebagai sebab-akibat.",
-          "Memakai uji-t pada data yang sebenarnya berskala ordinal/nominal (ingat skala pengukuran di Level 8)."
-        ]},
-        { "type": "callout", "title": "Kejujuran Statistik", "text": "Statistik yang baik bukan tentang mencari cara membuat hasilmu terlihat signifikan, melainkan melaporkan dengan jujur apa pun yang sungguh-sungguh ditemukan dalam data." }
+        {
+          "type": "heading",
+          "text": "Jebakan yang Sering Terjadi"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "P-hacking — mencoba banyak uji statistik berbeda sampai menemukan satu yang 'signifikan', lalu hanya melaporkan itu.",
+            "Menyamakan 'tidak signifikan' dengan 'terbukti tidak ada hubungan sama sekali' — padahal bisa jadi sampelnya kurang besar.",
+            "Melaporkan korelasi sebagai sebab-akibat.",
+            "Memakai uji-t pada data yang sebenarnya berskala ordinal/nominal (ingat skala pengukuran di Level 8)."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Kejujuran Statistik",
+          "text": "Statistik yang baik bukan tentang mencari cara membuat hasilmu terlihat signifikan, melainkan melaporkan dengan jujur apa pun yang sungguh-sungguh ditemukan dalam data."
+        }
       ]
     }
   ],
@@ -122,49 +236,84 @@
       {
         "id": "q10-1",
         "question": "Statistik yang hanya menggambarkan data tanpa menyimpulkan ke populasi lebih besar disebut…",
-        "options": ["Statistik inferensial", "Statistik deskriptif", "Uji-t", "Korelasi"],
+        "options": [
+          "Statistik inferensial",
+          "Statistik deskriptif",
+          "Uji-t",
+          "Korelasi"
+        ],
         "answer": 1,
         "explanation": "Statistik deskriptif hanya menggambarkan data yang ada, tanpa generalisasi."
       },
       {
         "id": "q10-2",
         "question": "Ukuran pemusatan yang lebih tahan terhadap nilai ekstrem (outlier) adalah…",
-        "options": ["Mean", "Median", "Standar deviasi", "Nilai p"],
+        "options": [
+          "Mean",
+          "Median",
+          "Standar deviasi",
+          "Nilai p"
+        ],
         "answer": 1,
         "explanation": "Median tidak terlalu terpengaruh oleh nilai ekstrem, berbeda dari mean."
       },
       {
         "id": "q10-3",
         "question": "Hipotesis nol (H0) menyatakan bahwa…",
-        "options": ["Pasti ada perbedaan besar antar-kelompok", "Tidak ada perbedaan/hubungan sesungguhnya — perbedaan yang terlihat hanya kebetulan", "Sampelnya terlalu kecil", "Data tidak valid"],
+        "options": [
+          "Pasti ada perbedaan besar antar-kelompok",
+          "Tidak ada perbedaan/hubungan sesungguhnya — perbedaan yang terlihat hanya kebetulan",
+          "Sampelnya terlalu kecil",
+          "Data tidak valid"
+        ],
         "answer": 1,
         "explanation": "H0 adalah dugaan awal bahwa tidak ada efek/hubungan nyata."
       },
       {
         "id": "q10-4",
         "question": "Uji-t dipakai untuk membandingkan…",
-        "options": ["Rata-rata dua kelompok", "Kekuatan hubungan dua variabel", "Validitas instrumen", "Jenis skala data"],
+        "options": [
+          "Rata-rata dua kelompok",
+          "Kekuatan hubungan dua variabel",
+          "Validitas instrumen",
+          "Jenis skala data"
+        ],
         "answer": 0,
         "explanation": "Uji-t membandingkan rata-rata antara dua kelompok."
       },
       {
         "id": "q10-5",
         "question": "Nilai koefisien korelasi (r) yang mendekati 0 berarti…",
-        "options": ["Hubungan negatif sangat kuat", "Hubungan positif sangat kuat", "Hampir tidak ada hubungan linear", "Data tidak valid"],
+        "options": [
+          "Hubungan negatif sangat kuat",
+          "Hubungan positif sangat kuat",
+          "Hampir tidak ada hubungan linear",
+          "Data tidak valid"
+        ],
         "answer": 2,
         "explanation": "r mendekati 0 menunjukkan hampir tidak ada hubungan linear antar-variabel."
       },
       {
         "id": "q10-6",
         "question": "Instrumen yang hasilnya konsisten tiap diukur ulang pada kondisi sama disebut memiliki…",
-        "options": ["Validitas tinggi", "Reliabilitas tinggi", "Signifikansi tinggi", "Korelasi tinggi"],
+        "options": [
+          "Validitas tinggi",
+          "Reliabilitas tinggi",
+          "Signifikansi tinggi",
+          "Korelasi tinggi"
+        ],
         "answer": 1,
         "explanation": "Reliabilitas adalah konsistensi hasil pengukuran, berbeda dari validitas (ketepatan sasaran)."
       },
       {
         "id": "q10-7",
         "question": "Mencoba berbagai uji statistik sampai menemukan satu yang 'signifikan' lalu hanya melaporkan itu disebut…",
-        "options": ["Triangulasi", "P-hacking", "Operasionalisasi", "Randomisasi"],
+        "options": [
+          "Triangulasi",
+          "P-hacking",
+          "Operasionalisasi",
+          "Randomisasi"
+        ],
         "answer": 1,
         "explanation": "P-hacking adalah praktik tidak jujur mencari-cari hasil signifikan lalu menyembunyikan uji lain yang gagal."
       }
@@ -178,73 +327,158 @@
       {
         "id": "e10-1",
         "question": "Sebuah studi dengan 50.000 responden menemukan hasil 'signifikan secara statistik' (p<0.001), tapi selisih rata-ratanya cuma 0,2 poin dari skala 100. Kesimpulan yang PALING TEPAT adalah…",
-        "options": ["Hasilnya pasti sangat penting secara praktis", "Signifikansi statistik tidak otomatis berarti penting secara praktis — perlu dilihat besaran efeknya (effect size)", "P-value yang kecil selalu berarti temuan besar", "Hasil ini tidak valid sama sekali"],
+        "options": [
+          "Hasilnya pasti sangat penting secara praktis",
+          "Signifikansi statistik tidak otomatis berarti penting secara praktis — perlu dilihat besaran efeknya (effect size)",
+          "P-value yang kecil selalu berarti temuan besar",
+          "Hasil ini tidak valid sama sekali"
+        ],
         "answer": 1,
         "explanation": "Dengan sampel sangat besar, selisih kecil pun bisa 'signifikan' secara statistik tanpa berarti penting secara praktis."
       },
       {
         "id": "e10-2",
         "question": "9 karyawan bergaji sekitar Rp 6 juta, 1 direktur bergaji Rp 200 juta. Ukuran pemusatan yang PALING MEWAKILI gaji 'khas' di perusahaan ini adalah…",
-        "options": ["Mean", "Median", "Standar deviasi", "Nilai p"],
+        "options": [
+          "Mean",
+          "Median",
+          "Standar deviasi",
+          "Nilai p"
+        ],
         "answer": 1,
         "explanation": "Median tidak terdistorsi oleh outlier ekstrem (gaji direktur), sehingga lebih mewakili kondisi khas."
       },
       {
         "id": "e10-3",
         "question": "Seorang peneliti mengukur nilai siswa SEBELUM dan SESUDAH mengikuti pelatihan yang sama, lalu ingin membandingkan keduanya. Uji yang paling tepat adalah…",
-        "options": ["Independent sample t-test", "Paired sample t-test", "Korelasi Pearson", "Analisis tematik"],
+        "options": [
+          "Independent sample t-test",
+          "Paired sample t-test",
+          "Korelasi Pearson",
+          "Analisis tematik"
+        ],
         "answer": 1,
         "explanation": "Membandingkan dua pengukuran pada subjek yang sama memakai paired sample t-test."
       },
       {
         "id": "e10-4",
         "question": "Ditemukan korelasi kuat (r=0.85) antara jumlah toko es krim dan jumlah kasus tenggelam di suatu wilayah. Kesimpulan yang PALING MASUK AKAL adalah…",
-        "options": ["Es krim menyebabkan orang tenggelam", "Ada variabel ketiga (misalnya cuaca panas/musim liburan) yang membuat keduanya naik bersamaan, bukan hubungan sebab-akibat langsung", "Data ini pasti salah", "Korelasi 0.85 terlalu lemah untuk dibahas"],
+        "options": [
+          "Es krim menyebabkan orang tenggelam",
+          "Ada variabel ketiga (misalnya cuaca panas/musim liburan) yang membuat keduanya naik bersamaan, bukan hubungan sebab-akibat langsung",
+          "Data ini pasti salah",
+          "Korelasi 0.85 terlalu lemah untuk dibahas"
+        ],
         "answer": 1,
         "explanation": "Ini contoh klasik korelasi tanpa kausalitas — variabel ketiga (musim panas) memengaruhi keduanya sekaligus."
       },
       {
         "id": "e10-5",
         "question": "Sebuah kuesioner yang diberi nama 'Skala Motivasi Belajar' ternyata setelah diteliti lebih jauh justru mengukur tingkat kecemasan siswa, bukan motivasi. Masalah instrumen ini adalah…",
-        "options": ["Kurang reliabel", "Kurang valid — tidak mengukur apa yang seharusnya diukur", "Sampelnya terlalu kecil", "Terlalu banyak butir pertanyaan"],
+        "options": [
+          "Kurang reliabel",
+          "Kurang valid — tidak mengukur apa yang seharusnya diukur",
+          "Sampelnya terlalu kecil",
+          "Terlalu banyak butir pertanyaan"
+        ],
         "answer": 1,
         "explanation": "Mengukur konsep yang salah (kecemasan, bukan motivasi) adalah masalah validitas, bukan reliabilitas."
       },
       {
         "id": "e10-6",
         "question": "Seorang peneliti menjalankan 15 uji statistik berbeda pada datanya, hanya 1 yang menunjukkan p<0.05, dan ia hanya melaporkan yang satu itu di artikelnya. Praktik ini disebut…",
-        "options": ["Triangulasi yang sah", "P-hacking — praktik tidak jujur yang menyembunyikan 14 uji lain yang gagal", "Analisis tematik", "Validasi instrumen standar"],
+        "options": [
+          "Triangulasi yang sah",
+          "P-hacking — praktik tidak jujur yang menyembunyikan 14 uji lain yang gagal",
+          "Analisis tematik",
+          "Validasi instrumen standar"
+        ],
         "answer": 1,
         "explanation": "Menyembunyikan uji-uji yang gagal dan hanya menonjolkan satu yang kebetulan signifikan adalah p-hacking."
       },
       {
         "id": "e10-7",
         "question": "Data kepuasan pelanggan berskala ordinal (rendah/sedang/tinggi) dianalisis oleh peneliti menggunakan uji-t yang mengasumsikan data interval/rasio. Masalah metodologisnya adalah…",
-        "options": ["Tidak ada masalah, uji-t bisa dipakai untuk semua jenis skala", "Uji-t mengasumsikan jenis skala yang lebih tinggi dari ordinal, sehingga pemilihan ujinya tidak tepat", "Seharusnya memakai analisis tematik", "Data ordinal tidak bisa dianalisis sama sekali"],
+        "options": [
+          "Tidak ada masalah, uji-t bisa dipakai untuk semua jenis skala",
+          "Uji-t mengasumsikan jenis skala yang lebih tinggi dari ordinal, sehingga pemilihan ujinya tidak tepat",
+          "Seharusnya memakai analisis tematik",
+          "Data ordinal tidak bisa dianalisis sama sekali"
+        ],
         "answer": 1,
         "explanation": "Uji-t mengasumsikan data interval/rasio; memaksakannya pada data ordinal adalah kesalahan pemilihan uji statistik."
       },
       {
         "id": "e10-8",
         "question": "Seorang peneliti hanya melaporkan hasil yang mendukung hipotesisnya dan diam-diam tidak menyebutkan tiga hasil analisis lain yang ternyata tidak signifikan. Ini melanggar prinsip pelaporan statistik yang jujur karena…",
-        "options": ["Hasil tidak signifikan tidak perlu pernah dilaporkan", "Pelaporan selektif seperti ini menyembunyikan gambaran utuh dan bisa menyesatkan pembaca", "Seharusnya ia mengulang penelitian dari awal", "Tidak ada masalah selama hipotesis utama terbukti"],
+        "options": [
+          "Hasil tidak signifikan tidak perlu pernah dilaporkan",
+          "Pelaporan selektif seperti ini menyembunyikan gambaran utuh dan bisa menyesatkan pembaca",
+          "Seharusnya ia mengulang penelitian dari awal",
+          "Tidak ada masalah selama hipotesis utama terbukti"
+        ],
         "answer": 1,
         "explanation": "Menyembunyikan hasil yang tidak mendukung hipotesis adalah bias pelaporan selektif, merusak kejujuran ilmiah."
       },
       {
         "id": "e10-9",
         "question": "Dua kelompok siswa (eksperimen dan kontrol dari Level 8) dibandingkan nilai rata-ratanya dan hasilnya ditulis: \"t(58)=3.21, p<0.01\". Angka \"p<0.01\" dalam laporan ini mengindikasikan…",
-        "options": ["58 siswa yang diteliti", "Peluang hasil seekstrem ini terjadi jika H0 benar sangat kecil, mendukung penolakan H0", "Korelasi antara dua variabel", "Rata-rata gabungan kedua kelompok"],
+        "options": [
+          "58 siswa yang diteliti",
+          "Peluang hasil seekstrem ini terjadi jika H0 benar sangat kecil, mendukung penolakan H0",
+          "Korelasi antara dua variabel",
+          "Rata-rata gabungan kedua kelompok"
+        ],
         "answer": 1,
         "explanation": "Nilai p menunjukkan peluang hasil ekstrem ini terjadi jika H0 (tidak ada perbedaan nyata) benar; p yang kecil mendukung penolakan H0."
       },
       {
         "id": "e10-10",
         "question": "Sebuah timbangan rusak selalu menunjukkan berat 2 kg lebih berat dari berat sebenarnya, tapi hasilnya selalu konsisten setiap kali dipakai menimbang benda yang sama. Timbangan ini…",
-        "options": ["Valid tapi tidak reliabel", "Reliabel tapi tidak valid", "Valid dan reliabel sekaligus", "Tidak valid dan tidak reliabel"],
+        "options": [
+          "Valid tapi tidak reliabel",
+          "Reliabel tapi tidak valid",
+          "Valid dan reliabel sekaligus",
+          "Tidak valid dan tidak reliabel"
+        ],
         "answer": 1,
         "explanation": "Konsisten (selalu +2 kg) berarti reliabel, tapi tidak mengukur berat sebenarnya dengan tepat berarti tidak valid — seperti analogi panah yang konsisten tapi meleset dari target."
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Discovering Statistics Using IBM SPSS Statistics",
+      "author": "Andy Field",
+      "publisher": "SAGE Publications",
+      "note": "Penjelasan ramah pemula untuk uji-t, korelasi, dan nilai p."
+    },
+    {
+      "title": "The ASA Statement on p-Values: Context, Process, and Purpose",
+      "author": "Ronald L. Wasserstein, Nicole A. Lazar",
+      "year": 2016,
+      "publisher": "The American Statistician, 70(2), 129-133",
+      "note": "Dasar peringatan bahwa signifikan statistik bukan berarti penting."
+    },
+    {
+      "title": "Publication Manual of the American Psychological Association",
+      "author": "American Psychological Association",
+      "publisher": "APA",
+      "note": "Kaidah baku melaporkan M, SD, n, dan hasil uji statistik."
+    },
+    {
+      "title": "Statistical Power Analysis for the Behavioral Sciences",
+      "author": "Jacob Cohen",
+      "year": 1988,
+      "publisher": "Lawrence Erlbaum Associates",
+      "note": "Konsep effect size dan kenapa nilai p saja tidak cukup."
+    },
+    {
+      "title": "The garden of forking paths: Why multiple comparisons can be a problem",
+      "author": "Andrew Gelman, Eric Loken",
+      "year": 2013,
+      "publisher": "Department of Statistics, Columbia University",
+      "note": "Latar konsep p-hacking dan pelaporan selektif."
+    }
+  ]
 }

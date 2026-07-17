@@ -1,0 +1,256 @@
+{
+  "id": 13,
+  "slug": "mixed-methods",
+  "title": "Mixed Methods: Menggabungkan Kualitatif & Kuantitatif",
+  "subtitle": "Bukan dua bab terpisah, tapi satu percakapan data",
+  "goal": "Memahami kapan dan kenapa menggabungkan data kualitatif (Level 7/9) dan kuantitatif (Level 8/10) lebih kuat daripada memilih salah satu, mengenali tiga desain utama mixed methods (explanatory sequential, exploratory sequential, convergent parallel), serta mampu membangun integrasi sungguhan lewat joint display dan meta-inferensi — bukan sekadar melaporkan dua dataset berdampingan.",
+  "estimatedMinutes": 40,
+  "sections": [
+    {
+      "id": "13-1",
+      "title": "Kenapa Tidak Cukup Pilih Salah Satu",
+      "blocks": [
+        { "type": "heading", "text": "Pertanyaan yang Butuh Dua Jenis Jawaban" },
+        { "type": "paragraph", "text": "Level 7-9 mengajarkanmu kualitatif — memahami makna dan pengalaman secara mendalam. Level 8 dan 10 mengajarkan kuantitatif — mengukur dan menggeneralisasi. Tapi sebagian pertanyaan riset butuh dua-duanya sekaligus. Contoh: 'seberapa efektif program intervensi X, dan kenapa efeknya berbeda-beda antar kelompok peserta?' Bagian pertama butuh angka (kuantitatif), bagian kedua butuh cerita di balik angka itu (kualitatif). Salah satu saja tidak cukup menjawab keduanya." },
+        { "type": "callout", "title": "Bukan 'Buat yang Tidak Bisa Memilih'", "text": "Mixed methods sering disalahpahami sebagai pilihan orang yang tidak berani berkomitmen pada satu pendekatan. Padahal ini keputusan desain yang disengaja: dipilih ketika pertanyaan risetnya sendiri menuntut breadth (jangkauan, dari kuantitatif) SEKALIGUS depth (kedalaman, dari kualitatif) — bukan sekadar 'biar keliatan lebih lengkap'." },
+        { "type": "paragraph", "text": "Secara filosofis, kualitatif dan kuantitatif memang berakar dari asumsi berbeda soal apa itu 'pengetahuan yang valid'. Mixed methods biasanya berpijak pada pragmatisme — memilih alat berdasarkan mana yang paling menjawab pertanyaan riset secara praktis, bukan berdebat filosofi mana yang 'lebih benar'." }
+      ]
+    },
+    {
+      "id": "13-2",
+      "title": "Tiga Desain Utama",
+      "blocks": [
+        { "type": "heading", "text": "Beda Urutan, Beda Tujuan" },
+        { "type": "paragraph", "text": "Ada tiga desain dasar mixed methods yang paling sering dipakai. Perbedaannya terletak pada URUTAN pengumpulan data dan TUJUAN dari penggabungan itu sendiri." },
+        { "type": "table", "headers": ["Desain", "Urutan Pengumpulan Data", "Tujuan Utama"], "rows": [
+          ["Explanatory Sequential", "Kuantitatif dulu, lalu kualitatif", "Menjelaskan MENGAPA di balik hasil kuantitatif yang mengejutkan atau signifikan"],
+          ["Exploratory Sequential", "Kualitatif dulu, lalu kuantitatif", "Menjelajahi fenomena yang belum dipahami, lalu menguji/menggeneralisasi temuannya ke sampel lebih besar"],
+          ["Convergent Parallel", "Kuantitatif dan kualitatif bersamaan", "Membandingkan dua sudut pandang independen tentang fenomena yang sama untuk saling menguatkan atau mengungkap perbedaan"]
+        ]},
+        { "type": "paragraph", "text": "Ketiganya akan dibahas satu per satu di bagian berikut — perhatikan bahwa urutan bukan sekadar soal jadwal kerja, tapi menentukan bagaimana satu dataset MEMBENTUK desain pengumpulan dataset berikutnya (kecuali pada convergent, yang justru sengaja independen)." }
+      ]
+    },
+    {
+      "id": "13-3",
+      "title": "Explanatory Sequential: Angka Dulu, Cerita Kemudian",
+      "blocks": [
+        { "type": "heading", "text": "QUAN → qual" },
+        { "type": "paragraph", "text": "Peneliti mulai dengan survei atau eksperimen kuantitatif untuk skala besar, lalu — setelah melihat hasilnya — merancang wawancara kualitatif untuk memahami mengapa pola itu muncul. Misalnya: survei menemukan motivasi belajar menurun signifikan pada mahasiswa tahun kedua, tapi angka saja tidak menjelaskan kenapa. Peneliti lalu mewawancarai subsampel mahasiswa tahun kedua untuk menggali alasannya." },
+        { "type": "callout", "title": "Pilih Subjek Kualitatif dari Hasil Kuantitatif", "text": "Ciri khas desain ini: subjek untuk fase kualitatif dipilih dengan sengaja berdasarkan hasil kuantitatif — misalnya kelompok dengan skor ekstrem tertinggi/terendah, atau kelompok dengan pola tak terduga. Ini memakai logika purposive sampling dari Level 7, tapi kriterianya justru DITENTUKAN oleh data kuantitatif yang sudah terkumpul." },
+        { "type": "paragraph", "text": "Desain ini cocok kalau kamu sudah punya data kuantitatif (atau berencana mengumpulkannya lebih dulu) dan yakin akan ada temuan yang butuh penjelasan lebih dalam — signifikansi yang tidak terduga, korelasi yang membingungkan, atau perbedaan antar kelompok yang mencolok." }
+      ]
+    },
+    {
+      "id": "13-4",
+      "title": "Exploratory Sequential: Cerita Dulu, Baru Diuji Skalanya",
+      "blocks": [
+        { "type": "heading", "text": "qual → QUAN" },
+        { "type": "paragraph", "text": "Kebalikan dari sebelumnya: peneliti mulai dengan wawancara atau focus group untuk menjelajahi fenomena yang BELUM banyak dipahami — sering kali karena belum ada instrumen ukur yang tepat untuk topik itu. Tema-tema yang muncul dari data kualitatif kemudian dipakai untuk menyusun instrumen kuantitatif baru (misalnya kuesioner/skala), yang lalu diuji pada sampel jauh lebih besar untuk melihat seberapa umum pola itu berlaku." },
+        { "type": "callout", "title": "Kegunaan Paling Umum: Pengembangan Instrumen", "text": "Exploratory sequential paling sering dipakai saat kamu ingin membangun skala pengukuran baru untuk konstruk yang belum ada alat ukurnya — item-item kuesioner disusun langsung dari tema yang muncul di data kualitatif, bukan dikarang dari asumsi peneliti semata." },
+        { "type": "paragraph", "text": "Desain ini butuh waktu paling panjang di antara ketiganya, karena fase kualitatif harus selesai dan dianalisis dulu sebelum instrumen kuantitatif bisa disusun, diuji validitas-reliabilitasnya (Level 10), lalu disebar ke sampel besar." }
+      ]
+    },
+    {
+      "id": "13-5",
+      "title": "Convergent Parallel: Dua Jalur Bersamaan",
+      "blocks": [
+        { "type": "heading", "text": "QUAN + QUAL" },
+        { "type": "paragraph", "text": "Data kuantitatif dan kualitatif dikumpulkan pada WAKTU YANG SAMA, secara independen satu sama lain — misalnya menyebar kuesioner sekaligus melakukan wawancara tentang konstruk yang sama, tanpa satu menunggu hasil yang lain. Baru pada tahap analisis, kedua dataset ini dibandingkan: apakah mereka saling menguatkan (converge) atau justru menunjukkan hal berbeda (diverge)?" },
+        { "type": "callout", "title": "Independen Saat Dikumpulkan, Menyatu Saat Ditafsirkan", "text": "Ciri desain convergent yang sering salah dipraktikkan: datanya dikumpulkan berurutan (misalnya wawancara dulu baru sebar kuesioner bulan berikutnya) tapi tetap disebut 'convergent'. Padahal ciri utamanya adalah SIMULTAN — kalau pengumpulannya berurutan, itu sudah bergeser ke logika sequential, bukan convergent lagi." },
+        { "type": "paragraph", "text": "Convergent parallel cocok saat kamu ingin memvalidasi temuan dari dua sudut pandang berbeda pada waktu yang sama — misalnya memastikan kuesioner kepuasan siswa (kuantitatif) sejalan dengan apa yang benar-benar mereka ceritakan lewat wawancara (kualitatif) tentang pengalaman yang sama." }
+      ]
+    },
+    {
+      "id": "13-6",
+      "title": "Integrasi Sungguhan: Before/After",
+      "blocks": [
+        { "type": "heading", "text": "Dari Dua Bab Terpisah ke Satu Percakapan Data" },
+        { "type": "quote", "text": "SEBELUM: Bab 4.1 Hasil Kuantitatif — melaporkan skor rata-rata kepuasan siswa dari kuesioner (M=3.2, tidak signifikan antar kelompok). Bab 4.2 Hasil Kualitatif — melaporkan kutipan wawancara siswa tentang pengalaman belajar. Kedua bab berdiri sendiri-sendiri, tidak saling merujuk.", "source": "Dua dataset dilaporkan berdampingan, TANPA integrasi" },
+        { "type": "quote", "text": "SESUDAH: Skor kepuasan rata-rata tidak berbeda signifikan antar kelompok (M=3.2, p>.05) — data kuantitatif saja menyiratkan tidak ada perbedaan berarti. Namun data wawancara mengungkap bahwa siswa kelompok B mengalami kepuasan yang sama secara ANGKA tapi dengan ALASAN yang sangat berbeda dari kelompok A: kelompok A puas karena materi, kelompok B puas karena relasi dengan pengajar meski mengaku materi kurang jelas. Skor yang identik ini ternyata menyembunyikan dua pengalaman yang berbeda — sebuah temuan yang tidak akan terlihat dari data kuantitatif saja.", "source": "Integrasi sungguhan lewat pembacaan bersama kedua dataset" },
+        { "type": "paragraph", "text": "Perhatikan bedanya: versi 'sesudah' bukan cuma menaruh kutipan wawancara SETELAH angka statistik, tapi benar-benar membaca keduanya BERSAMAAN untuk menemukan sesuatu yang baru — bahwa skor yang sama bisa menyembunyikan alasan yang berbeda. Kesimpulan seperti ini disebut meta-inferensi (meta-inference): simpulan tingkat lebih tinggi yang hanya bisa ditarik dari menggabungkan kedua dataset, tidak bisa didapat dari salah satunya saja." },
+        { "type": "table", "headers": ["Tema", "Temuan Kuantitatif", "Temuan Kualitatif", "Meta-Inferensi"], "rows": [
+          ["Kepuasan belajar", "Skor rata-rata sama antar kelompok (M=3.2, tidak signifikan)", "Kelompok A puas karena materi; kelompok B puas karena relasi dengan pengajar", "Skor identik bisa menyembunyikan sumber kepuasan yang berbeda — kepuasan bukan konstruk tunggal"]
+        ]},
+        { "type": "paragraph", "text": "Tabel semacam ini disebut joint display — cara menampilkan temuan kuantitatif dan kualitatif berdampingan PER TEMA, supaya pembaca (dan penulisnya sendiri) dipaksa membandingkan keduanya secara eksplisit, bukan membiarkan pembaca menyimpulkan hubungannya sendiri." }
+      ]
+    },
+    {
+      "id": "13-7",
+      "title": "Notasi Mixed Methods",
+      "blocks": [
+        { "type": "heading", "text": "Membaca QUAN, qual, dan Tanda Panah" },
+        { "type": "paragraph", "text": "Ada konvensi notasi yang umum dipakai untuk menandai desain mixed methods secara ringkas. HURUF BESAR menandakan strand yang lebih dominan/diprioritaskan, huruf kecil menandakan strand pendukung. Tanda panah (→) menandakan urutan (sequential), tanda plus (+) menandakan bersamaan (concurrent/convergent)." },
+        { "type": "list", "ordered": false, "items": [
+          "QUAN → qual — kuantitatif dominan, diikuti kualitatif sebagai penjelas (explanatory sequential khas).",
+          "qual → QUAN — kualitatif dominan di awal untuk eksplorasi, diikuti kuantitatif berskala besar yang jadi fokus utama (exploratory sequential khas).",
+          "QUAN + QUAL — keduanya setara pentingnya dan dikumpulkan bersamaan (convergent parallel)."
+        ]},
+        { "type": "callout", "title": "Prioritas Bukan Kebiasaan, tapi Keputusan", "text": "Menentukan strand mana yang dominan bukan soal 'mana yang lebih kamu kuasai', tapi mana yang paling menjawab pertanyaan riset utama. Kalau pertanyaan utamamu soal generalisasi ke populasi, kuantitatif semestinya dominan; kalau soal pemahaman mendalam suatu pengalaman, kualitatif yang dominan." }
+      ]
+    },
+    {
+      "id": "13-8",
+      "title": "Menulis Rasional Mixed Methods di Metode",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa Digabung, Bukan Sekadar Bahwa Digabung" },
+        { "type": "paragraph", "text": "Reviewer jurnal maupun pembimbing skripsi akan selalu bertanya: kenapa perlu dua metode, bukan cuma satu? Kerangka klasik dari Greene, Caracelli, dan Graham (1989) merinci beberapa alasan sah untuk mencampur metode: triangulasi (memvalidasi silang temuan dari dua sumber berbeda), komplementaritas (satu metode memperjelas/memperkaya hasil metode lain), development (hasil satu fase dipakai membangun instrumen/desain fase berikutnya), dan expansion (memperluas jangkauan/cakupan riset dengan menambah komponen berbeda)." },
+        { "type": "callout", "title": "Tanpa Rasional, Reviewer Akan Bertanya", "text": "Bagian Metode yang hanya menulis 'kami menggunakan survei dan wawancara' tanpa menjelaskan MENGAPA keduanya digabung, dan APA yang diharapkan didapat dari penggabungan itu, akan mengundang pertanyaan reviewer — dan seringnya, itu tanda desainnya sendiri belum benar-benar dipikirkan matang, bukan cuma soal kurang menulis." },
+        { "type": "paragraph", "text": "Rasional ini idealnya ditulis eksplisit di bagian Metode: desain apa yang dipakai (dengan notasi seperti Level 13-7), kenapa desain itu dipilih, dan pada titik mana kedua dataset akan diintegrasikan (biasanya di bagian Hasil/Pembahasan lewat joint display seperti Level 13-6)." }
+      ]
+    },
+    {
+      "id": "13-9",
+      "title": "Kesalahan Umum dalam Mixed Methods",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menjalankan dua studi terpisah lalu menyebutnya 'mixed methods' tanpa integrasi sungguhan — dua bab hasil yang tidak pernah saling merujuk.",
+          "Tidak menyebutkan desain spesifik (explanatory/exploratory/convergent) dan urutan pengumpulan data secara eksplisit di bagian Metode.",
+          "Mencampur logika sampling — menggeneralisasikan temuan dari sampel kualitatif kecil (misalnya 5 orang) secara statistik ke populasi, padahal logika sampling kualitatif dan kuantitatif berbeda (Level 7 vs Level 8).",
+          "Memilih mixed methods tanpa rasional yang jelas, sekadar supaya penelitian 'terlihat lebih lengkap' atau lebih tebal halamannya.",
+          "Mengklaim desain convergent parallel padahal data dikumpulkan berurutan, bukan bersamaan — mengaburkan batas antara convergent dan sequential."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Mixed methods yang baik terasa seperti dua dataset sedang BERBICARA satu sama lain di kertas — saling menguatkan, saling melengkapi, atau saling mempertanyakan. Kalau dua dataset itu diam saja berdampingan tanpa pernah saling merujuk, itu baru dua studi yang ditumpuk, bukan mixed methods." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-13",
+    "title": "Kuis Level 13",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q13-1",
+        "question": "Ciri utama desain explanatory sequential adalah…",
+        "options": ["Kualitatif dan kuantitatif dikumpulkan bersamaan", "Data kuantitatif dikumpulkan lebih dulu, lalu kualitatif dipakai menjelaskan hasilnya", "Data kualitatif dikumpulkan lebih dulu untuk membangun instrumen kuantitatif", "Hanya memakai data kuantitatif tanpa kualitatif sama sekali"],
+        "answer": 1,
+        "explanation": "Explanatory sequential dimulai dari kuantitatif, lalu kualitatif dipakai untuk menjelaskan mengapa pola/hasil kuantitatif itu muncul."
+      },
+      {
+        "id": "q13-2",
+        "question": "Exploratory sequential paling umum dipakai untuk tujuan…",
+        "options": ["Menguji hipotesis yang sudah mapan", "Mengembangkan instrumen/skala baru dari tema yang muncul di data kualitatif", "Membandingkan dua dataset yang dikumpulkan bersamaan", "Menghindari kebutuhan analisis statistik"],
+        "answer": 1,
+        "explanation": "Exploratory sequential sering dipakai untuk membangun instrumen kuantitatif baru berdasarkan tema yang ditemukan lebih dulu secara kualitatif."
+      },
+      {
+        "id": "q13-3",
+        "question": "Ciri paling menentukan dari desain convergent parallel adalah…",
+        "options": ["Data kualitatif selalu dikumpulkan setelah kuantitatif selesai dianalisis", "Data kuantitatif dan kualitatif dikumpulkan pada waktu yang sama secara independen", "Hanya memakai satu jenis data saja", "Data kualitatif dipakai membangun instrumen kuantitatif"],
+        "answer": 1,
+        "explanation": "Convergent parallel dicirikan oleh pengumpulan data yang simultan dan independen, baru dibandingkan saat analisis."
+      },
+      {
+        "id": "q13-4",
+        "question": "Fungsi utama joint display dalam laporan mixed methods adalah…",
+        "options": ["Mengurangi jumlah halaman laporan", "Menampilkan temuan kuantitatif dan kualitatif berdampingan per tema agar keduanya dibandingkan secara eksplisit", "Menggantikan kebutuhan analisis statistik", "Menyembunyikan data yang tidak sejalan"],
+        "answer": 1,
+        "explanation": "Joint display memaksa penulis (dan pembaca) membandingkan kedua dataset secara eksplisit per tema, bukan melaporkannya terpisah."
+      },
+      {
+        "id": "q13-5",
+        "question": "Meta-inferensi dalam mixed methods adalah…",
+        "options": ["Rata-rata statistik dari dua dataset", "Simpulan tingkat lebih tinggi yang hanya bisa ditarik dari menggabungkan kedua dataset, bukan dari salah satunya saja", "Kutipan wawancara yang paling panjang", "Ringkasan otomatis dari perangkat lunak analisis"],
+        "answer": 1,
+        "explanation": "Meta-inferensi adalah kesimpulan baru yang muncul justru dari menggabungkan dua dataset, tidak bisa didapat dari kuantitatif atau kualitatif sendirian."
+      },
+      {
+        "id": "q13-6",
+        "question": "Menurut kerangka Greene, Caracelli, dan Graham, alasan mencampur metode yang menekankan bahwa satu metode memperjelas/memperkaya hasil metode lain disebut…",
+        "options": ["Triangulasi", "Komplementaritas", "Development", "Expansion"],
+        "answer": 1,
+        "explanation": "Komplementaritas adalah tujuan mixed methods di mana satu metode memperjelas atau memperkaya pemahaman atas hasil metode yang lain."
+      },
+      {
+        "id": "q13-7",
+        "question": "Dalam notasi 'qual → QUAN', huruf besar pada QUAN menandakan…",
+        "options": ["Data itu dikumpulkan lebih dulu", "Strand kuantitatif adalah yang lebih dominan/diprioritaskan dalam desain ini", "Data kuantitatif tidak dianalisis secara statistik", "Kedua strand memiliki bobot yang sama"],
+        "answer": 1,
+        "explanation": "Huruf besar menandai strand yang lebih dominan; pada 'qual → QUAN', kuantitatif adalah fokus utama meski dikumpulkan belakangan."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-13",
+    "title": "Ujian Level 13",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e13-1",
+        "question": "Sebuah survei besar menemukan penurunan motivasi belajar yang signifikan pada mahasiswa tahun kedua. Peneliti kemudian mewawancarai subsampel mahasiswa tahun kedua untuk memahami penyebabnya. Desain mixed methods yang dipakai adalah…",
+        "options": ["Convergent parallel", "Explanatory sequential", "Exploratory sequential", "Bukan mixed methods, hanya kuantitatif biasa"],
+        "answer": 1,
+        "explanation": "Kuantitatif dulu (survei), lalu kualitatif untuk menjelaskan hasilnya, adalah ciri khas explanatory sequential."
+      },
+      {
+        "id": "e13-2",
+        "question": "Karena belum ada alat ukur yang tepat untuk konstruk 'kecemasan menulis akademik', peneliti melakukan focus group dulu untuk menggali tema-temanya, lalu menyusun kuesioner baru berdasarkan tema itu dan mengujinya pada 400 mahasiswa. Desain ini adalah…",
+        "options": ["Explanatory sequential", "Convergent parallel", "Exploratory sequential", "Studi kasus tunggal"],
+        "answer": 2,
+        "explanation": "Kualitatif dulu untuk eksplorasi dan pengembangan instrumen, lalu kuantitatif untuk menguji pada sampel besar, adalah ciri exploratory sequential."
+      },
+      {
+        "id": "e13-3",
+        "question": "Sebuah laporan skripsi mixed methods memuat Bab 4 'Hasil Survei' dan Bab 5 'Hasil Wawancara' yang ditulis sepenuhnya terpisah, tidak pernah saling merujuk atau dibandingkan. Yang kurang dari laporan ini adalah…",
+        "options": ["Jumlah respondennya kurang banyak", "Integrasi sungguhan antar dua dataset — misalnya lewat joint display yang membandingkan temuan per tema", "Bab wawancara seharusnya ditulis lebih dulu", "Tidak ada yang kurang, ini format yang benar untuk mixed methods"],
+        "answer": 1,
+        "explanation": "Mixed methods menuntut integrasi eksplisit antar dataset, bukan sekadar melaporkan dua hasil di bab yang terpisah tanpa saling merujuk."
+      },
+      {
+        "id": "e13-4",
+        "question": "Pada desain convergent parallel, data kuantitatif menunjukkan tidak ada efek program yang signifikan, sementara data kualitatif justru mengungkap reaksi peserta yang beragam dan bernuansa terhadap program itu. Sikap yang tepat terhadap perbedaan ini adalah…",
+        "options": ["Membuang data kualitatif karena bertentangan dengan hasil kuantitatif yang 'lebih objektif'", "Membahas kemungkinan penyebab perbedaan (divergence) itu sebagai bagian penting dari meta-inferensi, bukan menyembunyikannya", "Mengganti hasil kuantitatif dengan kesimpulan dari wawancara saja", "Menghapus bagian pembahasan sepenuhnya karena datanya tidak sejalan"],
+        "answer": 1,
+        "explanation": "Perbedaan (divergence) antara dua dataset adalah temuan berharga yang harus ditafsirkan lewat meta-inferensi, bukan dianggap sebagai kegagalan yang perlu disembunyikan."
+      },
+      {
+        "id": "e13-5",
+        "question": "Setelah survei besar selesai, peneliti sengaja memilih untuk diwawancarai hanya subjek dengan skor motivasi paling ekstrem tinggi dan paling ekstrem rendah. Logika pemilihan subjek ini adalah…",
+        "options": ["Random sampling murni", "Purposive sampling yang kriterianya ditentukan oleh hasil data kuantitatif — ciri khas fase kualitatif pada explanatory sequential", "Snowball sampling", "Convenience sampling tanpa kriteria apa pun"],
+        "answer": 1,
+        "explanation": "Memilih subjek berdasarkan skor ekstrem dari data kuantitatif adalah purposive sampling yang kriterianya diturunkan dari hasil fase kuantitatif sebelumnya."
+      },
+      {
+        "id": "e13-6",
+        "question": "Sebuah artikel mengklaim 'mixed methods', tapi temuan wawancara dari 5 partisipan dipakai untuk menyatakan 'mayoritas masyarakat Indonesia merasakan hal serupa' secara statistik. Kesalahan utama klaim ini adalah…",
+        "options": ["Lima partisipan sudah lebih dari cukup untuk generalisasi statistik", "Mencampur logika sampling kualitatif (purposive, tidak untuk generalisasi statistik) dengan klaim generalisasi populasi ala kuantitatif", "Wawancara seharusnya tidak pernah dipakai dalam mixed methods", "Seharusnya memakai lebih banyak angka desimal dalam persentase"],
+        "answer": 1,
+        "explanation": "Sampel kualitatif kecil dipilih secara purposive untuk kedalaman, bukan representasi statistik — mengklaim generalisasi populasi darinya adalah kesalahan logika sampling."
+      },
+      {
+        "id": "e13-7",
+        "question": "Seorang reviewer bertanya kepada penulis, 'Kenapa penelitian ini memakai survei sekaligus wawancara?' dan penulis hanya menjawab, 'Supaya datanya lebih banyak.' Kekurangan utama jawaban ini adalah…",
+        "options": ["Jawabannya terlalu singkat secara kalimat", "Tidak menyebutkan rasional mixed methods yang jelas (misalnya triangulasi atau komplementaritas) sesuai kerangka Greene et al.", "Seharusnya dijawab dengan angka statistik", "Reviewer seharusnya tidak bertanya soal ini sama sekali"],
+        "answer": 1,
+        "explanation": "Rasional penggabungan metode (triangulasi, komplementaritas, development, atau expansion) perlu eksplisit — 'lebih banyak data' bukan rasional yang menjelaskan APA yang didapat dari integrasi tersebut."
+      },
+      {
+        "id": "e13-8",
+        "question": "Sebuah tim ingin mengembangkan skala baru untuk mengukur 'kelelahan digital mahasiswa' yang belum ada instrumen bakunya di Indonesia. Desain mixed methods yang paling sesuai untuk tujuan ini adalah…",
+        "options": ["Convergent parallel, karena datanya harus dikumpulkan bersamaan", "Exploratory sequential, dimulai dari eksplorasi kualitatif untuk menyusun item skala, lalu diuji kuantitatif pada sampel besar", "Explanatory sequential, karena selalu dimulai dari data kuantitatif", "Studi kasus tunggal tanpa perlu data kuantitatif"],
+        "answer": 1,
+        "explanation": "Membangun instrumen baru dari nol adalah kegunaan klasik exploratory sequential — kualitatif dulu untuk menemukan tema/item, baru diuji kuantitatif."
+      },
+      {
+        "id": "e13-9",
+        "question": "Dalam joint display, satu baris menunjukkan: kuantitatif = 'tidak ada perbedaan skor signifikan antar kelompok', kualitatif = 'kedua kelompok puas karena alasan yang sangat berbeda'. Meta-inferensi yang paling tepat dari baris ini adalah…",
+        "options": ["Data kualitatif salah karena bertentangan dengan angka statistik", "Skor yang identik secara angka bisa menyembunyikan pengalaman/alasan yang berbeda di baliknya — kepuasan bukan konstruk tunggal", "Sebaiknya kedua data ini tidak usah digabung sama sekali", "Data kuantitatif seharusnya dihapus karena tidak signifikan"],
+        "answer": 1,
+        "explanation": "Inilah contoh meta-inferensi: kesimpulan baru (skor sama tidak berarti alasan sama) yang hanya muncul dari membaca kedua dataset bersamaan, bukan dari salah satunya saja."
+      },
+      {
+        "id": "e13-10",
+        "question": "Sebuah tim menyebut desainnya 'convergent parallel', tapi kenyataannya wawancara dilakukan penuh dulu selama tiga bulan, baru survei disebar tiga bulan berikutnya setelah wawancara selesai dianalisis. Masalah pada klaim desain ini adalah…",
+        "options": ["Tidak ada masalah, urutan waktu tidak relevan untuk convergent parallel", "Pengumpulan data yang berurutan (bukan simultan) bergeser dari logika convergent ke logika sequential — penamaan desainnya keliru", "Survei seharusnya dilakukan lebih dulu", "Tiga bulan terlalu singkat untuk wawancara"],
+        "answer": 1,
+        "explanation": "Ciri utama convergent parallel adalah pengumpulan data yang simultan dan independen; pengumpulan berurutan menandakan itu sebenarnya desain sequential, bukan convergent."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Designing and Conducting Mixed Methods Research", "author": "John W. Creswell, Vicki L. Plano Clark", "publisher": "SAGE Publications", "note": "Rujukan utama untuk tiga desain mixed methods dan notasi QUAN/qual di Level 13-2 hingga 13-7." },
+    { "title": "Toward a Conceptual Framework for Mixed-Method Evaluation Designs", "author": "Jennifer C. Greene, Valerie J. Caracelli, Wendy F. Graham", "year": 1989, "publisher": "Educational Evaluation and Policy Analysis", "note": "Sumber kerangka rasional mencampur metode (triangulasi, komplementaritas, development, expansion) di Level 13-8." },
+    { "title": "Achieving Integration in Mixed Methods Designs — Principles and Practices", "author": "Michael D. Fetters, Leslie A. Curry, John W. Creswell", "year": 2013, "publisher": "Health Services Research", "note": "Rujukan konsep joint display dan integrasi data di Level 13-6." },
+    { "title": "SAGE Handbook of Mixed Methods in Social & Behavioral Research", "author": "Abbas Tashakkori, Charles Teddlie (eds.)", "publisher": "SAGE Publications", "note": "Rujukan tambahan untuk logika penggabungan filosofi kualitatif dan kuantitatif di Level 13-1." }
+  ]
+}

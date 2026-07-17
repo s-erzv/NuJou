@@ -1,0 +1,259 @@
+{
+  "id": 31,
+  "slug": "hook-pembuka",
+  "title": "Hook: 3 Detik Pertama",
+  "subtitle": "Memenangkan pembaca sebelum mereka pergi",
+  "goal": "Memahami kenapa kalimat pembuka menentukan apakah tulisanmu dibaca atau ditinggalkan, menguasai empat jenis lede (anecdotal, question, startling fact, in medias res), dan mampu menulis hook yang membuat pembaca rela membaca kalimat kedua.",
+  "estimatedMinutes": 30,
+  "sections": [
+    {
+      "id": "31-1",
+      "title": "Kenapa 3 Detik Pertama Segalanya",
+      "blocks": [
+        { "type": "heading", "text": "Pembaca Digital Tidak Berkomitmen di Muka" },
+        { "type": "paragraph", "text": "Level 30 mengajarkanmu membangun personal essay yang bermakna. Tapi makna itu percuma kalau pembaca sudah pergi sebelum sampai ke bagian yang bermakna. Penelitian perilaku baca di web dari Nielsen Norman Group menunjukkan pembaca online memindai (scan) halaman dalam hitungan detik sebelum memutuskan lanjut membaca atau menutup tab — mereka tidak berkomitmen di muka seperti pembaca buku." },
+        { "type": "paragraph", "text": "Artinya, kalimat pertamamu bukan sekadar 'pembuka yang sopan' — ia adalah audisi. Kalimat pertama menjual kalimat kedua, kalimat kedua menjual kalimat ketiga, dan seterusnya. Kalau kalimat pertama gagal, tidak ada kalimat kedua yang akan pernah dibaca, sebagus apa pun isinya." },
+        { "type": "callout", "title": "Istilah: Hook & Lede", "text": "'Hook' adalah istilah umum untuk apa pun yang menarik perhatian pembaca di awal. 'Lede' (ejaan sengaja beda dari 'lead' agar tidak tertukar istilah percetakan) adalah istilah jurnalistik untuk kalimat/paragraf pembuka yang membawa pembaca masuk ke cerita." }
+      ]
+    },
+    {
+      "id": "31-2",
+      "title": "Kenapa 'Di Era Globalisasi Ini...' Membunuh Pembaca",
+      "blocks": [
+        { "type": "heading", "text": "Pembukaan yang Bisa Ditulis Siapa Saja, Kapan Saja" },
+        { "type": "paragraph", "text": "Kalimat seperti 'Di era globalisasi ini, media sosial telah menjadi bagian tak terpisahkan dari kehidupan manusia' terasa aman, tapi justru itu masalahnya. Kalimat ini bisa ditempel di depan tulisan APA SAJA tentang media sosial, ditulis kapan saja sejak 2005, oleh siapa saja. Ia tidak menjanjikan apa-apa yang spesifik — dan pembaca modern, dengan puluhan tab lain terbuka, tidak punya alasan menunggu." },
+        { "type": "paragraph", "text": "Pola ini disebut 'pembuka generik' — biasanya berbentuk pernyataan umum tentang zaman, dunia, atau manusia secara keseluruhan sebelum (akhirnya, entah kapan) masuk ke topik sebenarnya. Ingat prinsip kespesifikan dari Level 29 dan Level 30: hal yang sama berlaku di sini — pembuka generik gagal karena tidak spesifik, bukan karena salah tata bahasa." },
+        { "type": "callout", "title": "Tes Cepat", "text": "Kalau kalimat pembukamu bisa dipindahkan ke tulisan lain tentang topik berbeda tanpa perlu diubah, kalimat itu generik dan perlu ditulis ulang." }
+      ]
+    },
+    {
+      "id": "31-3",
+      "title": "Empat Jenis Lede",
+      "blocks": [
+        { "type": "heading", "text": "Anecdotal, Question, Startling Fact, In Medias Res" },
+        { "type": "paragraph", "text": "Ada banyak cara membuka tulisan, tapi empat pola ini paling sering dipakai penulis personal essay, blog, dan opini karena terbukti bekerja:" },
+        { "type": "table",
+          "headers": ["Jenis Lede", "Cara Kerja", "Contoh Singkat"],
+          "rows": [
+            ["Anecdotal", "Membuka dengan momen/cerita mini konkret sebelum masuk ke topik besar", "\"Jam dua pagi, saya masih membalas email kerja dari kasur, dan baru sadar sudah tiga bulan saya tidak makan malam bersama keluarga.\""],
+            ["Question", "Melempar pertanyaan yang membuat pembaca ingin tahu jawabannya — bukan pertanyaan retoris klise", "\"Kenapa kita lebih mudah memaafkan orang asing di internet daripada anggota keluarga sendiri?\""],
+            ["Startling Fact", "Membuka dengan data/fakta mengejutkan yang relevan langsung dengan argumen", "\"Rata-rata orang Indonesia menghabiskan lebih dari 6 jam sehari menatap layar — lebih lama dari waktu tidurnya.\""],
+            ["In Medias Res", "Melempar pembaca langsung ke tengah momen tegang, tanpa basa-basi latar belakang dulu", "\"Tangan saya masih gemetar saat menandatangani surat resign itu — padahal baru lima menit lalu saya yakin ini keputusan yang benar.\""]
+          ]
+        },
+        { "type": "callout", "title": "Tidak Ada yang 'Paling Benar'", "text": "Keempatnya sama validnya. Pilihannya tergantung materi dan platform: opini/op-ed (Level 35) sering pakai startling fact atau question; personal essay dan Medium (Level 33) sering pakai anecdotal atau in medias res." }
+      ]
+    },
+    {
+      "id": "31-4",
+      "title": "Anecdotal Lede: Detail yang Menjanjikan Cerita",
+      "blocks": [
+        { "type": "heading", "text": "Mulai dari Momen, Bukan dari Tema" },
+        { "type": "paragraph", "text": "Anecdotal lede membuka dengan potongan momen konkret — bukan ringkasan tema. Kuncinya: momen itu harus mengandung DETAIL yang membuat pembaca penasaran ada apa di baliknya, bukan sekadar deskripsi netral." },
+        { "type": "paragraph", "text": "Bandingkan: 'Saya pernah merasa kesepian saat kuliah di luar negeri' (ringkasan tema, datar) versus 'Malam Tahun Baru pertama saya di Melbourne, saya merayakannya sendirian di depan microwave, menghangatkan nasi yang saya masak untuk lima hari ke depan' (momen spesifik yang menjanjikan cerita di baliknya)." }
+      ]
+    },
+    {
+      "id": "31-5",
+      "title": "Question Lede: Pertanyaan yang Benar-Benar Ingin Dijawab",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Pertanyaan Retoris Klise" },
+        { "type": "paragraph", "text": "Question lede sering disalahgunakan menjadi klise seperti 'Pernahkah kamu merasa lelah dengan hidup?' — pertanyaan yang begitu umum sehingga jawabannya sudah jelas ('ya, kadang') dan tidak mendorong pembaca membaca lebih jauh untuk mencari jawabannya." },
+        { "type": "paragraph", "text": "Question lede yang bekerja mengandung KETEGANGAN — pertanyaan yang jawabannya tidak jelas, kontra-intuitif, atau membuat pembaca berpikir 'lho, iya juga ya, kenapa ya?'. Pertanyaan itu juga harus benar-benar dijawab (langsung atau implisit) di tulisan yang mengikutinya — kalau tidak, pembaca merasa ditipu." },
+        { "type": "callout", "title": "Jebakan Umum", "text": "Hindari pertanyaan yang jawabannya sudah bisa ditebak dari pertanyaannya sendiri, seperti 'Apakah pendidikan itu penting?' Pertanyaan semacam ini tidak menciptakan rasa ingin tahu." }
+      ]
+    },
+    {
+      "id": "31-6",
+      "title": "Startling Fact & In Medias Res",
+      "blocks": [
+        { "type": "heading", "text": "Kejutan Data, dan Melempar Pembaca ke Tengah Adegan" },
+        { "type": "paragraph", "text": "Startling fact bekerja kalau faktanya benar-benar mengejutkan DAN relevan langsung — bukan fakta random yang dipaksakan hubungannya dengan argumen berikutnya. Selalu pastikan angka atau fakta itu bisa dipertanggungjawabkan sumbernya (untuk opini/op-ed di Level 35, ini krusial)." },
+        { "type": "paragraph", "text": "In medias res (bahasa Latin: 'ke tengah-tengah hal') melempar pembaca ke momen paling tegang tanpa penjelasan latar belakang dulu — latar belakang menyusul setelah pembaca sudah 'terpaku'. Ini teknik yang sama dipakai film yang membuka dengan adegan aksi sebelum flashback menjelaskan bagaimana tokohnya sampai di situ. Cocok dipakai bersama pola bookending dari Level 30." }
+      ]
+    },
+    {
+      "id": "31-7",
+      "title": "Before/After: Mengubah Pembuka Generik",
+      "blocks": [
+        { "type": "heading", "text": "Materi Sama, Hook Berbeda" },
+        { "type": "paragraph", "text": "Berikut perbandingan pembuka generik dan versi yang sudah memakai salah satu dari empat jenis lede, untuk topik yang sama: burnout kerja jarak jauh." },
+        {
+          "type": "table",
+          "headers": ["Generik (Gagal)", "Versi dengan Hook (Berhasil)"],
+          "rows": [
+            ["Di era digital ini, banyak pekerja mengalami burnout akibat bekerja dari rumah.", "Saya baru sadar sedang burnout ketika menangis di depan spreadsheet yang sebenarnya tidak salah apa-apa. (anecdotal)"],
+            ["Work from home membawa banyak dampak bagi kehidupan karyawan.", "Kenapa kita merasa lebih bersalah libur saat kerja dari rumah dibanding kerja di kantor? (question)"],
+            ["Kesehatan mental pekerja jarak jauh perlu diperhatikan.", "1 dari 3 pekerja jarak jauh melaporkan gejala burnout dalam enam bulan pertama — lebih tinggi dari sebelum pandemi. (startling fact, perlu sumber)"],
+            ["Banyak orang kesulitan memisahkan waktu kerja dan istirahat saat WFH.", "Jam 11 malam, laptop masih menyala, dan saya baru sadar sudah tujuh jam sejak terakhir kali berdiri dari kursi ini. (in medias res)"]
+          ]
+        },
+        { "type": "callout", "title": "Yang Sama-Sama Hilang di Kolom Kiri", "text": "Semua versi generik memakai frasa 'di era ini/dampak/perlu diperhatikan' — pola yang menunda topik sebenarnya alih-alih langsung menariknya ke permukaan." }
+      ]
+    },
+    {
+      "id": "31-8",
+      "title": "Earning the Second Sentence",
+      "blocks": [
+        { "type": "heading", "text": "Hook Hebat, Kalimat Kedua Lemah = Percuma" },
+        { "type": "paragraph", "text": "Kesalahan yang sering luput: menulis hook yang kuat, lalu langsung menjatuhkannya dengan kalimat kedua yang kembali generik ('Hal ini menunjukkan bahwa burnout adalah masalah serius yang perlu ditangani'). Momentum yang dibangun kalimat pertama hancur seketika." },
+        { "type": "paragraph", "text": "Prinsipnya: setiap kalimat 'mengundang' kalimat berikutnya. Kalimat kedua sebaiknya memperdalam atau mempertajam hook, bukan menjelaskannya secara umum. Setelah hook anecdotal soal menangis di depan spreadsheet, kalimat kedua yang kuat melanjutkan detail atau perasaan itu ('Spreadsheet itu cuma berisi laporan mingguan yang sudah saya kerjakan ratusan kali — tapi entah kenapa, kali ini rasanya seperti tembok.'), bukan melompat ke generalisasi." },
+        { "type": "callout", "title": "Latihan Cepat", "text": "Setelah menulis hook, baca ulang kalimat keduamu. Kalau kalimat kedua terasa seperti bisa ditempel di paragraf mana saja, tulis ulang supaya ia benar-benar melanjutkan energi kalimat pertama." }
+      ]
+    },
+    {
+      "id": "31-9",
+      "title": "Kesalahan Umum Menulis Hook",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Memakai pembuka generik seperti 'Di era globalisasi ini...' atau 'Seiring perkembangan zaman...' yang bisa ditempel di tulisan apa saja.",
+          "Menulis question lede dengan pertanyaan yang jawabannya sudah jelas atau klise, sehingga tidak memicu rasa ingin tahu.",
+          "Memakai startling fact tanpa memastikan faktanya benar dan relevan — merusak kepercayaan pembaca kalau ternyata keliru.",
+          "Membangun hook kuat lalu menjatuhkannya dengan kalimat kedua yang kembali generik, menghancurkan momentum.",
+          "Menganggap hook hanya soal 'kalimat pembuka yang keren' padahal hook harus terhubung jujur dengan isi tulisan — bukan sekadar pancingan kosong."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Hook terbaik bukan yang paling dramatis, tapi yang paling jujur mewakili apa yang akan dibaca pembaca setelahnya — lanjutkan janji itu lewat storytelling di Level 32." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-31",
+    "title": "Kuis Level 31",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q31-1",
+        "question": "Kenapa kalimat pembuka sangat menentukan dalam tulisan digital?",
+        "options": ["Karena pembaca online memindai cepat dan memutuskan lanjut/berhenti dalam hitungan detik", "Karena mesin pencari hanya membaca kalimat pertama", "Karena kalimat pembuka tidak boleh lebih dari lima kata", "Karena pembaca digital selalu membaca dari akhir ke awal"],
+        "answer": 0,
+        "explanation": "Penelitian perilaku baca web menunjukkan pembaca memindai dan memutuskan cepat; kalimat pertama menentukan apakah mereka lanjut membaca."
+      },
+      {
+        "id": "q31-2",
+        "question": "Kenapa 'Di era globalisasi ini, media sosial telah menjadi...' dianggap pembuka yang gagal?",
+        "options": ["Karena terlalu pendek", "Karena bisa ditempel di tulisan apa saja tentang topik itu, tidak spesifik atau menjanjikan apa pun", "Karena memakai bahasa Indonesia baku", "Karena tidak memakai tanda tanya"],
+        "answer": 1,
+        "explanation": "Pembuka generik tidak spesifik — ia bisa ditulis kapan saja oleh siapa saja tentang topik apa saja, sehingga tidak memberi alasan pembaca untuk lanjut."
+      },
+      {
+        "id": "q31-3",
+        "question": "Ciri utama lede jenis 'in medias res' adalah…",
+        "options": ["Membuka dengan data statistik", "Melempar pembaca langsung ke tengah momen tegang tanpa latar belakang dulu", "Selalu berbentuk pertanyaan", "Harus berupa kutipan orang terkenal"],
+        "answer": 1,
+        "explanation": "In medias res melempar pembaca ke tengah adegan tegang, latar belakang menyusul setelahnya — mirip film yang dibuka dengan adegan aksi."
+      },
+      {
+        "id": "q31-4",
+        "question": "Kapan question lede gagal bekerja?",
+        "options": ["Ketika pertanyaannya terlalu pendek", "Ketika jawabannya sudah jelas/klise sehingga tidak memicu rasa ingin tahu", "Ketika ditulis dalam bahasa Indonesia", "Ketika diletakkan di paragraf kedua"],
+        "answer": 1,
+        "explanation": "Pertanyaan yang jawabannya sudah jelas (seperti 'apakah pendidikan itu penting?') tidak menciptakan ketegangan atau rasa ingin tahu."
+      },
+      {
+        "id": "q31-5",
+        "question": "Syarat utama startling fact lede agar tidak merusak kepercayaan pembaca adalah…",
+        "options": ["Faktanya harus benar dan relevan langsung dengan argumen", "Faktanya harus yang paling mengejutkan sedunia", "Fakta boleh dikarang asal terdengar meyakinkan", "Fakta harus disertai lebih dari lima angka"],
+        "answer": 0,
+        "explanation": "Startling fact hanya bekerja kalau benar dan relevan — fakta yang keliru atau dipaksakan justru merusak kredibilitas."
+      },
+      {
+        "id": "q31-6",
+        "question": "Konsep 'earning the second sentence' berarti…",
+        "options": ["Kalimat kedua harus lebih panjang dari kalimat pertama", "Kalimat pertama harus membuat pembaca ingin membaca kalimat berikutnya, dan kalimat kedua harus melanjutkan momentum itu", "Kalimat kedua boleh generik asal kalimat pertama kuat", "Setiap tulisan wajib punya minimal dua kalimat pembuka"],
+        "answer": 1,
+        "explanation": "Setiap kalimat harus 'mengundang' kalimat berikutnya; kalimat kedua yang generik menghancurkan momentum yang dibangun hook."
+      },
+      {
+        "id": "q31-7",
+        "question": "Menurut level ini, hook yang baik seharusnya…",
+        "options": ["Sedramatis mungkin meski tidak berkaitan dengan isi", "Jujur mewakili apa yang akan dibaca pembaca setelahnya, bukan sekadar pancingan kosong", "Selalu berbentuk pertanyaan retoris", "Ditulis paling terakhir setelah seluruh draf selesai tanpa direvisi lagi"],
+        "answer": 1,
+        "explanation": "Hook yang baik menjanjikan sesuatu yang benar-benar dipenuhi tulisan setelahnya — bukan pancingan yang menipu pembaca."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-31",
+    "title": "Ujian Level 31",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e31-1",
+        "question": "Seorang penulis membuka artikel dengan 'Seiring perkembangan zaman, generasi muda semakin bergantung pada teknologi.' Masalah utama kalimat ini adalah…",
+        "options": ["Terlalu pendek untuk sebuah pembuka", "Kalimat ini generik dan bisa ditempel di tulisan apa pun tentang teknologi/generasi muda tanpa perubahan", "Tidak memakai data statistik", "Menggunakan kata 'generasi muda' yang dianggap tidak sopan"],
+        "answer": 1,
+        "explanation": "Kalimat ini adalah pembuka generik klasik — tidak spesifik dan bisa dipindahkan ke tulisan lain tanpa kehilangan makna apa pun."
+      },
+      {
+        "id": "e31-2",
+        "question": "Seorang penulis ingin membuka esai tentang perundungan (bullying) di sekolah dengan pertanyaan. Manakah question lede yang paling efektif menurut prinsip level ini?",
+        "options": ["\"Apakah bullying itu buruk?\"", "\"Kenapa korban bullying sering justru menyalahkan diri sendiri, bukan pelakunya?\"", "\"Apakah sekolah itu penting?\"", "\"Siapa yang tidak pernah diejek di sekolah?\""],
+        "answer": 1,
+        "explanation": "Pertanyaan ini mengandung ketegangan/kontra-intuisi yang jawabannya tidak jelas, memicu rasa ingin tahu — bukan pertanyaan klise yang jawabannya sudah jelas."
+      },
+      {
+        "id": "e31-3",
+        "question": "Sebuah op-ed dibuka dengan 'Menurut sumber yang saya baca entah di mana, banyak sekali orang Indonesia mengalami stres finansial.' Menurut prinsip startling fact, kesalahan pembuka ini adalah…",
+        "options": ["Kalimatnya terlalu panjang", "Fakta yang disampaikan tidak jelas sumbernya sehingga berisiko merusak kredibilitas, bukan membangunnya", "Topik stres finansial tidak cocok untuk startling fact", "Seharusnya memakai anecdotal lede, bukan startling fact"],
+        "answer": 1,
+        "explanation": "Startling fact harus bisa dipertanggungjawabkan sumbernya; fakta samar ('entah di mana') justru merusak kepercayaan, bukan menariknya."
+      },
+      {
+        "id": "e31-4",
+        "question": "Sebuah personal essay dibuka dengan hook kuat: \"Tangan saya masih basah keringat saat menekan tombol 'kirim' pada surat pengunduran diri.\" Kalimat keduanya berbunyi: \"Hal ini menunjukkan bahwa resign adalah keputusan besar yang perlu dipikirkan matang-matang.\" Masalah pada kalimat kedua adalah…",
+        "options": ["Kalimat kedua terlalu pendek", "Kalimat kedua kembali generik dan menjatuhkan momentum yang dibangun hook, alih-alih memperdalamnya", "Kalimat kedua seharusnya diletakkan sebelum hook", "Tidak ada masalah, kalimat kedua sudah tepat"],
+        "answer": 1,
+        "explanation": "Kalimat kedua melompat ke generalisasi ('keputusan besar yang perlu dipikirkan') alih-alih melanjutkan detail emosional dari hook — menghancurkan momentum, bukan 'earning' kalimat berikutnya."
+      },
+      {
+        "id": "e31-5",
+        "question": "Seorang penulis blog memilih membuka tulisan dengan momen spesifik: \"Pukul 23.47, saya masih membalas chat kerja dari kamar mandi, karena itu satu-satunya tempat di rumah yang belum ada yang mengetuk pintu.\" Jenis lede ini adalah…",
+        "options": ["Startling fact", "Anecdotal", "Question", "Kesimpulan"],
+        "answer": 1,
+        "explanation": "Ini anecdotal lede — momen konkret dengan detail spesifik yang menjanjikan cerita di baliknya, bukan data atau pertanyaan."
+      },
+      {
+        "id": "e31-6",
+        "question": "Sebuah esai tentang trauma masa kecil dibuka langsung dengan adegan tegang: 'Pintu kamar terkunci dari luar, dan saya menghitung retakan di langit-langit untuk kesekian kalinya' — tanpa penjelasan konteks apa pun di awal. Ini adalah contoh…",
+        "options": ["Question lede yang gagal", "In medias res — melempar pembaca ke tengah momen sebelum menjelaskan latar belakang", "Startling fact yang tidak relevan", "Kesalahan struktur yang harus dihindari"],
+        "answer": 1,
+        "explanation": "Melempar pembaca langsung ke momen tegang tanpa latar belakang di awal adalah ciri khas in medias res, teknik yang valid dan dianjurkan untuk esai bertegangan tinggi."
+      },
+      {
+        "id": "e31-7",
+        "question": "Seorang penulis menulis pembuka: 'Pernahkah kamu merasa lelah?' untuk esai tentang burnout kerja. Berdasarkan prinsip question lede di level ini, kelemahan pembuka ini adalah…",
+        "options": ["Pertanyaannya terlalu spesifik", "Pertanyaan ini terlalu umum dan jawabannya sudah jelas ('ya, pasti pernah'), sehingga tidak memicu rasa ingin tahu", "Seharusnya tidak boleh memakai kata 'kamu'", "Pertanyaan ini terlalu panjang"],
+        "answer": 1,
+        "explanation": "Pertanyaan yang jawabannya sudah bisa ditebak semua orang tidak menciptakan ketegangan — question lede yang efektif butuh pertanyaan yang jawabannya tidak jelas atau kontra-intuitif."
+      },
+      {
+        "id": "e31-8",
+        "question": "Seorang editor memberi masukan pada draf: 'Hook kamu bagus, tapi rasanya terasa seperti trik semata — isi tulisan setelahnya tidak benar-benar membahas apa yang dijanjikan hook itu.' Berdasarkan level ini, editor sedang menunjukkan pelanggaran prinsip…",
+        "options": ["Kalimat efektif dari Level 4", "Hook harus jujur mewakili isi tulisan, bukan sekadar pancingan kosong yang menipu pembaca", "Struktur scene-reflection dari Level 30", "Penggunaan tanda baca yang benar"],
+        "answer": 1,
+        "explanation": "Hook yang menjanjikan sesuatu yang tidak dipenuhi tulisan adalah pancingan kosong — melanggar prinsip bahwa hook harus jujur mewakili isi."
+      },
+      {
+        "id": "e31-9",
+        "question": "Dua opsi pembuka untuk artikel tentang polusi udara Jakarta: (A) 'Polusi udara di Jakarta merupakan masalah yang semakin memprihatinkan dari tahun ke tahun.' (B) 'Setiap pagi, langit di apartemen saya berubah warna dari abu-abu muda jadi abu-abu tua sebelum jam 8 — dan saya baru sadar itu bukan kabut.' Manakah yang lebih efektif sebagai hook, dan kenapa?",
+        "options": ["A, karena lebih formal", "B, karena memakai detail spesifik dan konkret (anecdotal) yang menjanjikan cerita, bukan pernyataan umum", "Keduanya sama efektifnya", "A, karena menyebutkan kata 'masalah' secara eksplisit"],
+        "answer": 1,
+        "explanation": "Opsi B adalah anecdotal lede dengan detail spesifik dan sensorik; opsi A adalah pembuka generik yang bisa ditempel di tulisan mana pun tentang polusi."
+      },
+      {
+        "id": "e31-10",
+        "question": "Seorang penulis newsletter (Level 34) ingin membuka edisi tentang kegagalan bisnisnya dengan fakta: 'Menurut survei internal saya sendiri terhadap 12 orang teman, 90% bisnis gagal di tahun pertama.' Masalah pada penggunaan startling fact ini adalah…",
+        "options": ["Angka 90% terlalu tinggi untuk dipercaya", "Sumbernya (survei informal ke 12 teman) tidak cukup kredibel untuk klaim seumum itu, berisiko menyesatkan pembaca", "Startling fact tidak boleh dipakai di newsletter", "Seharusnya memakai in medias res, bukan startling fact"],
+        "answer": 1,
+        "explanation": "Startling fact harus kredibel dan proporsional dengan sumbernya; menggeneralisasi survei ke 12 orang menjadi klaim luas berisiko menyesatkan dan merusak kepercayaan pembaca."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "How Users Read on the Web", "author": "Jakob Nielsen", "publisher": "Nielsen Norman Group", "note": "Dasar riset perilaku memindai (scanning) pembaca digital yang mendasari pentingnya 3 detik pertama." },
+    { "title": "The Art and Craft of Feature Writing", "author": "William E. Blundell", "year": 1988, "publisher": "Plume", "note": "Rujukan klasik tentang jenis-jenis lede dalam penulisan feature/naratif." },
+    { "title": "Writing Tools: 55 Essential Strategies for Every Writer", "author": "Roy Peter Clark", "year": 2006, "publisher": "Little, Brown and Company", "note": "Rujukan tentang teknik membangun momentum kalimat demi kalimat ('earning the second sentence')." },
+    { "title": "On Writing Well", "author": "William Zinsser", "year": 2006, "publisher": "Harper Perennial", "note": "Rujukan tentang pentingnya kalimat pembuka yang jujur dan spesifik, bukan basa-basi umum." }
+  ]
+}

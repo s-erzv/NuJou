@@ -1,0 +1,260 @@
+{
+  "id": 42,
+  "slug": "copywriting-dasar",
+  "title": "Copywriting Dasar",
+  "subtitle": "Meyakinkan dengan jujur, bukan memanipulasi",
+  "goal": "Memahami kerangka AIDA untuk menyusun teks persuasif, bisa mengubah daftar fitur menjadi benefit yang terasa relevan bagi pembaca, menulis call-to-action yang jelas, dan tahu garis pemisah antara persuasi yang sah dan manipulasi.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "42-1",
+      "title": "Copywriting Bukan Menipu, tapi Meyakinkan dengan Jujur",
+      "blocks": [
+        { "type": "heading", "text": "Definisi yang Sering Disalahpahami" },
+        { "type": "paragraph", "text": "Copywriting adalah keterampilan menulis teks yang mendorong pembaca melakukan sesuatu — membeli, mendaftar, klik, atau sekadar percaya pada satu gagasan. Banyak orang mengasosiasikannya dengan iklan yang membujuk secara berlebihan, padahal copywriting yang baik justru berangkat dari kejujuran: memahami betul apa yang dibutuhkan pembaca, lalu menunjukkan dengan jelas bagaimana sesuatu memenuhi kebutuhan itu." },
+        { "type": "paragraph", "text": "Keterampilan ini berguna jauh di luar iklan komersial: menulis undangan yang membuat orang benar-benar datang, proposal yang membuat orang menyetujui, atau bahkan bagian penutup esai yang mendorong pembaca merenungkan sesuatu." },
+        { "type": "callout", "title": "Definisi Singkat", "text": "Copywriting yang sehat adalah membantu pembaca melihat dengan jelas kenapa sesuatu relevan bagi mereka — bukan memaksa mereka percaya pada sesuatu yang sebenarnya tidak relevan." }
+      ]
+    },
+    {
+      "id": "42-2",
+      "title": "AIDA: Kerangka Klasik yang Masih Bekerja",
+      "blocks": [
+        { "type": "heading", "text": "Attention, Interest, Desire, Action" },
+        { "type": "paragraph", "text": "AIDA adalah salah satu kerangka copywriting tertua dan paling teruji. Ia membagi perjalanan pembaca menjadi empat tahap, dan tugas penulis adalah menuntun pembaca melewati tahap-tahap itu satu per satu, bukan melompat langsung ke 'action' sebelum pembaca siap." },
+        {
+          "type": "table",
+          "headers": ["Tahap", "Tujuan", "Contoh Kalimat"],
+          "rows": [
+            ["Attention", "Menghentikan perhatian pembaca yang sedang scroll/lewat", "\"Masih menulis draf yang sama selama 3 bulan?\""],
+            ["Interest", "Membuat pembaca merasa ini relevan dengan situasinya", "\"Kebanyakan penulis stuck bukan karena kurang ide, tapi karena mencampur menulis dan menyunting sekaligus.\""],
+            ["Desire", "Menumbuhkan keinginan atas hasil yang ditawarkan", "\"Bayangkan draf pertama selesai dalam satu sesi, tanpa berhenti menyunting tiap kalimat.\""],
+            ["Action", "Memberi langkah konkret berikutnya", "\"Coba teknik freewriting 10 menit ini — lihat Level 37 untuk latihannya.\""]
+          ]
+        },
+        { "type": "callout", "title": "AIDA Bukan Rumus Kaku", "text": "Urutannya sering fleksibel dan tahap-tahapnya bisa menyatu di kalimat yang sama. Yang penting adalah memastikan keempat unsur ini hadir sebelum pembaca sampai ke ajakan bertindak." }
+      ]
+    },
+    {
+      "id": "42-3",
+      "title": "Fitur vs Benefit: Orang Beli Hasil, Bukan Spesifikasi",
+      "blocks": [
+        { "type": "heading", "text": "Pembeda Paling Penting dalam Copywriting" },
+        { "type": "paragraph", "text": "Fitur adalah FAKTA tentang sesuatu (apa yang dimilikinya). Benefit adalah HASIL yang dirasakan pembaca dari fakta itu (kenapa mereka harus peduli). Kesalahan paling umum penulis pemula adalah berhenti di fitur, berharap pembaca sendiri yang menyimpulkan benefit-nya — padahal kebanyakan pembaca tidak akan repot menyambungkannya sendiri." },
+        { "type": "quote", "text": "SEBELUM (fitur): \"Aplikasi ini punya fitur pengingat harian dan pelacak progres menulis.\"", "source": "Fakta disebutkan, tapi 'kenapa harus peduli' dibiarkan menggantung" },
+        { "type": "quote", "text": "SESUDAH (benefit): \"Aplikasi ini mengingatkanmu menulis tiap hari dan menunjukkan progresmu — jadi kamu tidak lagi kehilangan momentum di tengah kesibukan.\"", "source": "Fakta yang sama, tapi hasil bagi pembaca dijelaskan langsung" },
+        { "type": "callout", "title": "Latihan Cepat: Tanya 'Jadi Kenapa?'", "text": "Setelah menulis satu fitur, tanyakan pada diri sendiri 'jadi kenapa pembaca harus peduli?' berulang-ulang sampai kamu sampai ke perasaan atau hasil konkret yang dirasakan pembaca — itulah benefit sesungguhnya." }
+      ]
+    },
+    {
+      "id": "42-4",
+      "title": "Menulis Call-to-Action (CTA) yang Jelas",
+      "blocks": [
+        { "type": "heading", "text": "Satu Ajakan, Satu Kata Kerja, Tanpa Ambigu" },
+        { "type": "paragraph", "text": "CTA (call-to-action) adalah kalimat yang memberi tahu pembaca PERSIS apa yang harus dilakukan berikutnya. CTA yang lemah biasanya samar ('pelajari lebih lanjut', 'klik di sini') karena tidak menjanjikan apa pun yang konkret. CTA yang kuat memakai kata kerja aktif dan menyebut hasil yang akan didapat begitu bertindak." },
+        {
+          "type": "table",
+          "headers": ["CTA Lemah", "CTA Kuat", "Kenapa Lebih Baik"],
+          "rows": [
+            ["\"Klik di sini\"", "\"Mulai latihan freewriting gratis 10 menit\"", "Menyebut tindakan DAN hasil konkretnya"],
+            ["\"Pelajari lebih lanjut\"", "\"Lihat 4 formula headline di Level 40\"", "Spesifik tentang apa yang akan ditemukan"],
+            ["\"Daftar sekarang\"", "\"Amankan tempatmu — kelas dimulai Senin\"", "Menambah alasan/urgensi yang jujur, bukan menakut-nakuti"]
+          ]
+        },
+        { "type": "callout", "title": "Satu CTA per Bagian", "text": "Menaruh lebih dari satu ajakan bertindak dalam satu bagian teks (misalnya 'klik di sini' dan 'atau baca ini dulu' berdampingan) justru membuat pembaca bimbang dan akhirnya tidak melakukan keduanya." }
+      ]
+    },
+    {
+      "id": "42-5",
+      "title": "Bahasa Konkret Mengalahkan Bahasa Abstrak",
+      "blocks": [
+        { "type": "heading", "text": "'Efisien' vs 'Menghemat 2 Jam Setiap Minggu'" },
+        { "type": "paragraph", "text": "Kata-kata abstrak ('efisien', 'berkualitas', 'inovatif') terdengar meyakinkan bagi penulisnya, tapi tidak memberi gambaran nyata apa pun bagi pembaca — sama seperti kata superlatif di headline (Level 40). Bahasa konkret (angka, situasi nyata, hasil yang terbayang) jauh lebih persuasif karena pembaca bisa membayangkannya." },
+        { "type": "paragraph", "text": "Ini prinsip yang sama dengan spesifik mengalahkan hype yang kamu pelajari untuk headline — hanya diterapkan sekarang ke seluruh badan teks persuasif, bukan cuma judulnya." },
+        { "type": "callout", "title": "Uji Konkret", "text": "Coba bayangkan kalimatmu difoto: bisakah pembaca 'melihat' apa yang kamu maksud? 'Efisien' tidak bisa difoto. 'Menghemat 2 jam setiap minggu' bisa langsung dibayangkan sebagai waktu luang yang nyata." }
+      ]
+    },
+    {
+      "id": "42-6",
+      "title": "Persuasi vs Manipulasi: Garis yang Sering Dilanggar",
+      "blocks": [
+        { "type": "heading", "text": "Bedanya Bukan Teknik, tapi Kejujuran di Baliknya" },
+        { "type": "paragraph", "text": "Persuasi dan manipulasi bisa memakai teknik yang sama persis (urgensi, cerita, bukti sosial) — pembedanya adalah apakah klaim di baliknya JUJUR dan apakah keputusan yang diambil pembaca benar-benar demi kepentingan mereka." },
+        {
+          "type": "table",
+          "headers": ["Teknik", "Persuasi (Sah)", "Manipulasi (Melanggar)"],
+          "rows": [
+            ["Urgensi", "\"Kelas ditutup Jumat karena kapasitas terbatas — ini benar terjadi\"", "\"Stok tinggal 1!\" yang dipasang permanen padahal stok tidak pernah habis"],
+            ["Bukti sosial", "Menampilkan testimoni yang benar-benar terjadi dan relevan", "Testimoni palsu atau dikutip di luar konteks aslinya"],
+            ["Ketakutan (fear)", "Menjelaskan risiko nyata secara proporsional", "Melebih-lebihkan risiko demi mendorong keputusan terburu-buru"],
+            ["Benefit", "Menjanjikan hasil yang benar-benar bisa didapat dan ditepati", "Menjanjikan hasil yang tidak realistis atau tidak pernah ditepati"]
+          ]
+        },
+        { "type": "callout", "title": "Tes Sederhana", "text": "Tanyakan: 'kalau pembaca tahu semua yang saya tahu, apakah mereka masih akan membuat keputusan yang sama?' Kalau jawabannya tidak — karena kamu menyembunyikan sesuatu atau melebih-lebihkan sesuatu — itu manipulasi, bukan persuasi." }
+      ]
+    },
+    {
+      "id": "42-7",
+      "title": "Copywriting Bertemu Headline dan SEO",
+      "blocks": [
+        { "type": "heading", "text": "Menyambung Level 40 dan Level 39" },
+        { "type": "paragraph", "text": "Copywriting jarang berdiri sendiri. Headline (Level 40) adalah bentuk copywriting untuk tahap Attention di AIDA. SEO (Level 39) memastikan tulisan persuasifmu ditemukan orang yang memang sedang mencari solusi itu. Ketiganya bekerja dalam rantai yang sama: ditemukan (SEO) → ditahan perhatiannya (headline/Attention) → diyakinkan (AIDA lengkap) → didorong bertindak (CTA)." },
+        { "type": "callout", "title": "Satu Sistem, Bukan Tiga Keterampilan Terpisah", "text": "Kalau salah satu mata rantai lemah — tidak ditemukan, tidak menarik perhatian, atau tidak meyakinkan — seluruh rantai gagal, meski bagian lainnya sudah sempurna." }
+      ]
+    },
+    {
+      "id": "42-8",
+      "title": "Kesalahan Umum dalam Copywriting",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Berhenti di daftar fitur, tanpa pernah menjawab 'jadi kenapa pembaca harus peduli?'.",
+          "Menulis CTA yang samar ('klik di sini', 'pelajari lebih lanjut') tanpa menyebut hasil konkret.",
+          "Menaruh lebih dari satu ajakan bertindak dalam satu bagian, membuat pembaca bimbang.",
+          "Memakai bahasa abstrak ('inovatif', 'berkualitas') yang tidak bisa dibayangkan pembaca.",
+          "Memakai teknik urgensi atau bukti sosial yang dipalsukan atau dilebih-lebihkan demi mendorong keputusan cepat — melewati garis dari persuasi ke manipulasi."
+        ]},
+        { "type": "callout", "title": "Prinsip Inti", "text": "Copywriting yang baik membuat kebutuhan pembaca dan solusi yang kamu tawarkan sama-sama terlihat jelas — dan membiarkan pembaca memutuskan dengan informasi yang jujur, bukan mendorong mereka lewat kabut ketidakjelasan atau tekanan palsu." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-42",
+    "title": "Kuis Level 42",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q42-1",
+        "question": "AIDA adalah singkatan dari…",
+        "options": ["Analysis, Interest, Design, Action", "Attention, Interest, Desire, Action", "Attention, Information, Data, Advertisement", "Argument, Idea, Detail, Answer"],
+        "answer": 1,
+        "explanation": "AIDA = Attention, Interest, Desire, Action — empat tahap perjalanan pembaca dalam teks persuasif."
+      },
+      {
+        "id": "q42-2",
+        "question": "Perbedaan mendasar antara fitur dan benefit adalah…",
+        "options": ["Fitur lebih panjang dari benefit", "Fitur adalah fakta tentang sesuatu, benefit adalah hasil yang dirasakan pembaca dari fakta itu", "Benefit hanya berlaku untuk produk fisik", "Keduanya sebenarnya sama saja"],
+        "answer": 1,
+        "explanation": "Fitur menyebut apa yang dimiliki sesuatu; benefit menjelaskan kenapa pembaca harus peduli terhadap fakta itu."
+      },
+      {
+        "id": "q42-3",
+        "question": "CTA yang kuat sebaiknya…",
+        "options": ["Sesamar mungkin agar terkesan sopan", "Memakai kata kerja aktif dan menyebut hasil konkret yang akan didapat", "Diletakkan sebanyak mungkin dalam satu bagian teks", "Selalu berupa ancaman kehabisan stok"],
+        "answer": 1,
+        "explanation": "CTA yang efektif jelas soal tindakan dan hasil konkretnya, bukan ajakan generik seperti 'klik di sini'."
+      },
+      {
+        "id": "q42-4",
+        "question": "Kenapa bahasa konkret lebih persuasif daripada bahasa abstrak seperti 'efisien' atau 'berkualitas'?",
+        "options": ["Karena bahasa abstrak dilarang dalam copywriting", "Karena bahasa konkret memberi gambaran nyata yang bisa dibayangkan pembaca", "Karena bahasa abstrak selalu lebih panjang", "Karena bahasa konkret otomatis lebih pendek"],
+        "answer": 1,
+        "explanation": "Bahasa konkret (angka, situasi nyata) memberi gambaran yang bisa dibayangkan, sementara kata abstrak tidak menyampaikan apa pun yang spesifik."
+      },
+      {
+        "id": "q42-5",
+        "question": "Garis pembeda utama antara persuasi dan manipulasi adalah…",
+        "options": ["Jenis tekniknya (persuasi tidak boleh memakai urgensi sama sekali)", "Apakah klaim di balik teknik itu jujur dan keputusan yang diambil demi kepentingan pembaca", "Panjang pendeknya kalimat", "Ada tidaknya gambar dalam teks"],
+        "answer": 1,
+        "explanation": "Teknik yang sama (urgensi, bukti sosial) bisa sah atau melanggar tergantung kejujuran klaim di baliknya."
+      },
+      {
+        "id": "q42-6",
+        "question": "Dalam rantai SEO-headline-copywriting, kegunaan SEO (Level 39) adalah…",
+        "options": ["Menggantikan kebutuhan CTA", "Memastikan tulisan persuasif ditemukan oleh orang yang memang sedang mencari solusi itu", "Menghilangkan kebutuhan headline", "Membuat teks lebih abstrak"],
+        "answer": 1,
+        "explanation": "SEO adalah mata rantai paling awal: memastikan tulisan ditemukan sebelum copywriting sempat bekerja meyakinkan pembaca."
+      },
+      {
+        "id": "q42-7",
+        "question": "Menaruh lebih dari satu ajakan bertindak berbeda dalam satu bagian teks biasanya berakibat…",
+        "options": ["Pembaca melakukan keduanya sekaligus", "Pembaca bimbang dan akhirnya tidak melakukan salah satunya", "Konversi otomatis meningkat drastis", "Tidak ada efek apa pun"],
+        "answer": 1,
+        "explanation": "Terlalu banyak pilihan tindakan dalam satu bagian teks cenderung membuat pembaca ragu dan akhirnya tidak bertindak sama sekali."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-42",
+    "title": "Ujian Level 42",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e42-1",
+        "question": "Sebuah brosur aplikasi menulis: \"Fitur: pengingat harian, pelacak progres, mode offline.\" tanpa penjelasan lain. Yang kurang dari teks ini adalah…",
+        "options": ["Jumlah fiturnya terlalu sedikit", "Belum menjelaskan benefit — kenapa pembaca harus peduli pada fitur-fitur itu", "Terlalu banyak menggunakan CTA", "Kalimatnya melanggar AIDA tahap Action"],
+        "answer": 1,
+        "explanation": "Teks berhenti di fitur (fakta) tanpa menyambungkannya ke hasil/perasaan yang relevan bagi pembaca — benefit-nya hilang."
+      },
+      {
+        "id": "e42-2",
+        "question": "Sebuah landing page menulis headline yang menghentikan perhatian, lalu langsung menaruh tombol \"Beli Sekarang\" tanpa penjelasan apa pun tentang produknya. Berdasarkan kerangka AIDA, kesalahan ini adalah…",
+        "options": ["Terlalu banyak tahap Interest dan Desire", "Melompat dari Attention langsung ke Action, tanpa membangun Interest dan Desire terlebih dahulu", "Attention-nya terlalu lemah", "CTA-nya terlalu jelas"],
+        "answer": 1,
+        "explanation": "AIDA menuntun pembaca bertahap; melompati Interest dan Desire membuat pembaca belum siap untuk bertindak."
+      },
+      {
+        "id": "e42-3",
+        "question": "Sebuah situs menampilkan \"Stok tinggal 1!\" secara permanen di semua produk, padahal stok sebenarnya selalu tersedia banyak. Praktik ini tergolong…",
+        "options": ["Persuasi yang sah karena memakai teknik urgensi", "Manipulasi, karena klaim urgensi itu tidak jujur meski tekniknya sama dengan persuasi yang sah", "Copywriting yang netral, tidak melanggar apa pun", "CTA yang lemah"],
+        "answer": 1,
+        "explanation": "Teknik urgensi menjadi manipulasi ketika klaimnya bohong — pembeda persuasi dan manipulasi adalah kejujuran di balik teknik, bukan tekniknya sendiri."
+      },
+      {
+        "id": "e42-4",
+        "question": "Dua CTA dibandingkan: \"Pelajari lebih lanjut\" vs \"Lihat 3 formula headline yang dipakai redaksi besar\". Berdasarkan prinsip CTA yang kuat, CTA kedua lebih efektif karena…",
+        "options": ["Lebih pendek dari CTA pertama", "Menyebutkan secara spesifik apa yang akan ditemukan pembaca setelah mengklik", "Memakai kata 'lihat' yang secara hukum wajib dipakai", "CTA pertama sebenarnya sama baiknya"],
+        "answer": 1,
+        "explanation": "CTA yang kuat menyebut hasil konkret, bukan ajakan generik yang tidak menjanjikan apa pun spesifik."
+      },
+      {
+        "id": "e42-5",
+        "question": "Sebuah teks pemasaran menyebut produknya \"sangat efisien dan berkualitas tinggi\" berulang kali tanpa detail lain. Berdasarkan prinsip bahasa konkret, kelemahan teks ini adalah…",
+        "options": ["Kalimatnya terlalu panjang", "Kata-kata abstrak ini tidak memberi gambaran nyata yang bisa dibayangkan pembaca", "Terlalu banyak angka digunakan", "Tidak memakai CTA sama sekali"],
+        "answer": 1,
+        "explanation": "'Efisien' dan 'berkualitas' adalah klaim abstrak yang tidak bisa dibayangkan atau diverifikasi pembaca, berbeda dari klaim konkret seperti angka atau situasi nyata."
+      },
+      {
+        "id": "e42-6",
+        "question": "Sebuah testimoni pelanggan ditampilkan di sebuah halaman penjualan, tapi kalimat aslinya dipotong sehingga makna sebenarnya berubah dari yang dimaksud pelanggan itu. Ini contoh dari…",
+        "options": ["Bukti sosial yang sah", "Manipulasi — bukti sosial yang dikutip di luar konteks aslinya sehingga tidak lagi jujur", "AIDA tahap Desire yang berhasil", "CTA yang kuat"],
+        "answer": 1,
+        "explanation": "Bukti sosial menjadi manipulasi ketika kutipannya dipelintir sehingga tidak lagi mencerminkan maksud aslinya."
+      },
+      {
+        "id": "e42-7",
+        "question": "Sebuah halaman produk menaruh dua tombol besar berdampingan: \"Beli Sekarang\" dan \"Daftar Newsletter Dulu\", keduanya dengan penekanan visual yang sama. Berdasarkan prinsip CTA, risiko dari susunan ini adalah…",
+        "options": ["Pembaca pasti akan mengklik keduanya sekaligus", "Pembaca bisa bimbang di antara dua pilihan yang bersaing, sehingga akhirnya tidak mengklik keduanya", "Ini adalah praktik CTA terbaik yang dianjurkan", "Tidak ada dampak apa pun terhadap keputusan pembaca"],
+        "answer": 1,
+        "explanation": "Satu bagian teks sebaiknya punya satu ajakan bertindak yang jelas; dua CTA setara membuat pembaca ragu memilih."
+      },
+      {
+        "id": "e42-8",
+        "question": "Sebuah artikel yang sangat persuasif dan ditulis dengan CTA yang jelas ternyata tidak pernah muncul di hasil pencarian karena tidak memuat kata kunci yang relevan sama sekali. Berdasarkan hubungan SEO-headline-copywriting, masalah utamanya adalah…",
+        "options": ["CTA-nya terlalu lemah", "Mata rantai paling awal (ditemukan lewat SEO) terputus, sehingga sisanya — sekuat apa pun — tidak pernah dibaca calon pembaca", "AIDA-nya tidak lengkap", "Bahasa yang dipakai terlalu konkret"],
+        "answer": 1,
+        "explanation": "Serangkaian copywriting yang kuat tidak berguna kalau tulisan itu sendiri tidak pernah ditemukan — SEO adalah mata rantai paling awal dalam sistem itu."
+      },
+      {
+        "id": "e42-9",
+        "question": "Seorang penulis melebih-lebihkan risiko sebuah masalah kesehatan agar pembaca segera membeli produknya, padahal risiko sesungguhnya jauh lebih kecil dari yang digambarkan. Ini melanggar prinsip persuasi yang sah karena…",
+        "options": ["Menggunakan ketakutan sebagai teknik selalu dilarang", "Risiko yang digambarkan tidak proporsional/jujur, sehingga keputusan pembaca didasarkan pada informasi yang menyesatkan", "Teksnya terlalu pendek untuk menjelaskan risiko", "CTA yang dipakai terlalu samar"],
+        "answer": 1,
+        "explanation": "Ketakutan bisa dipakai secara sah kalau risikonya nyata dan proporsional; melebih-lebihkannya demi mendorong keputusan cepat adalah manipulasi."
+      },
+      {
+        "id": "e42-10",
+        "question": "Seorang penulis pemula bertanya: \"Kalau saya sudah tahu tekniknya (urgensi, bukti sosial, AIDA), apakah tulisan saya otomatis jadi persuasi yang sah?\" Jawaban yang paling sesuai prinsip level ini adalah…",
+        "options": ["Ya, teknik yang tepat selalu menjamin persuasi yang sah", "Belum tentu — yang menentukan sah atau tidaknya adalah kejujuran klaim di balik teknik itu dan apakah keputusan pembaca benar-benar demi kepentingan mereka", "Teknik-teknik itu sebaiknya dihindari sepenuhnya", "Persuasi dan manipulasi sebenarnya hal yang sama"],
+        "answer": 1,
+        "explanation": "Teknik yang sama bisa jadi persuasi atau manipulasi tergantung kejujuran dan niat di baliknya, bukan pada teknik itu sendiri."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Ogilvy on Advertising", "author": "David Ogilvy", "year": 1983, "publisher": "Vintage Books", "note": "Prinsip klasik menulis iklan yang jujur dan berbasis fakta produk, dipakai di 42-1 dan 42-3." },
+    { "title": "The Adweek Copywriting Handbook", "author": "Joseph Sugarman", "year": 2007, "publisher": "Wiley", "note": "Kerangka AIDA dan prinsip fitur vs benefit, dipakai di 42-2 dan 42-3." },
+    { "title": "Influence: The Psychology of Persuasion", "author": "Robert B. Cialdini", "year": 1984, "publisher": "Harper Business", "note": "Prinsip-prinsip persuasi (urgensi, bukti sosial) dan batasnya terhadap manipulasi, dipakai di 42-6." },
+    { "title": "Made to Stick: Why Some Ideas Survive and Others Die", "author": "Chip Heath dan Dan Heath", "year": 2007, "publisher": "Random House", "note": "Prinsip kekonkretan bahasa dalam menulis persuasif, dipakai di 42-5." }
+  ]
+}

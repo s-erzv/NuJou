@@ -1,0 +1,264 @@
+{
+  "id": 26,
+  "slug": "bab-4-hasil",
+  "title": "Bab 4: Hasil & Pembahasan",
+  "subtitle": "Menyajikan data, menjaga disiplin Hasil vs Pembahasan, dan menjawab rumusan masalah satu per satu",
+  "goal": "Mampu menyajikan data penelitian secara jelas lewat tabel dan gambar, menjaga disiplin memisahkan Hasil (apa adanya) dari Pembahasan (tafsiran) sesuai prinsip IMRaD dari Level 2, dan menyusun Bab 4 sehingga tiap butir rumusan masalah di Bab 1 dijawab secara eksplisit dan bisa ditelusuri.",
+  "estimatedMinutes": 40,
+  "sections": [
+    {
+      "id": "26-1",
+      "title": "Bab 4 Adalah Tempat Janji Bab 1 Ditagih",
+      "blocks": [
+        { "type": "heading", "text": "Bab yang Paling Ditunggu Penguji" },
+        { "type": "paragraph", "text": "Level 24 sudah menekankan bahwa Bab 1 adalah kontrak. Bab 4 adalah tempat kontrak itu dibayar lunas — inilah bab tempat penguji akan mengecek satu per satu: rumusan masalah nomor 1 dijawab di bagian mana, nomor 2 di mana, dan seterusnya. Kalau ada satu rumusan masalah yang tidak terjawab tegas di sini, itu akan langsung terlihat dan ditanyakan di sidang (Level 28)." },
+        { "type": "paragraph", "text": "Kebanyakan kampus di Indonesia menggabungkan Hasil dan Pembahasan dalam satu bab (Bab 4), meski sebagian memisahkannya jadi dua bab (lihat variasi nama di Level 23). Terlepas dari penomoran, disiplin memisahkan APA YANG DITEMUKAN dari APA MAKNANYA tetap sama pentingnya seperti di artikel jurnal (Level 2)." },
+        { "type": "callout", "title": "Kenapa Ini Penting", "text": "Bab 4 yang mencampur data mentah dengan tafsiran membuat pembaca sulit menilai: apakah kesimpulan penulis benar-benar didukung data, atau cuma opini yang diselipkan di tengah angka? Memisahkan keduanya melindungi kredibilitas argumenmu sendiri." }
+      ]
+    },
+    {
+      "id": "26-2",
+      "title": "Disiplin Hasil vs Pembahasan (Mengulang dari Level 2, Lebih Ketat)",
+      "blocks": [
+        { "type": "heading", "text": "Dua Pertanyaan yang Berbeda" },
+        { "type": "paragraph", "text": "Level 2 sudah mengajarkan Results menjawab 'apa yang ditemukan' dan Discussion menjawab 'apa maknanya'. Di skripsi, godaan mencampur keduanya jauh lebih besar karena Bab 4 sering ditulis panjang dan mengalir, sehingga penulis mudah lupa sedang berada di bagian mana." },
+        {
+          "type": "table",
+          "headers": ["", "Bagian Hasil", "Bagian Pembahasan"],
+          "rows": [
+            ["Isi", "Data mentah/terolah: tabel, grafik, kutipan wawancara, statistik deskriptif/inferensial", "Tafsiran: kenapa hasil ini terjadi, kaitan dengan teori Bab 2, perbandingan dengan penelitian terdahulu"],
+            ["Kata kerja khas", "'menunjukkan', 'diperoleh', 'tercatat'", "'mengindikasikan', 'sejalan dengan', 'bertentangan dengan', 'kemungkinan disebabkan oleh'"],
+            ["Yang TIDAK boleh ada", "Opini penulis, kaitan dengan teori", "Data baru yang belum pernah disajikan di bagian Hasil"]
+          ]
+        },
+        { "type": "callout", "title": "Uji Cepat", "text": "Baca ulang satu paragraf Bab 4-mu. Kalau kalimat itu bisa berdiri sendiri tanpa perlu tahu teori apa pun (sekadar melaporkan angka/temuan), itu Hasil. Kalau kalimat itu perlu merujuk balik ke Bab 2 atau penelitian lain untuk masuk akal, itu Pembahasan." }
+      ]
+    },
+    {
+      "id": "26-3",
+      "title": "Menyajikan Data: Tabel, Grafik, dan Kutipan",
+      "blocks": [
+        { "type": "heading", "text": "Prinsip Dasar Penyajian Data" },
+        { "type": "paragraph", "text": "Baik penelitian kuantitatif maupun kualitatif punya cara sendiri menyajikan data secara ringkas dan bisa dipercaya." },
+        { "type": "list", "ordered": false, "items": [
+          "Tabel — cocok untuk data numerik yang perlu dibandingkan secara presisi (skor rata-rata, hasil uji statistik, frekuensi). Setiap tabel wajib punya judul, nomor urut, dan sumber (jika data sekunder).",
+          "Grafik/gambar — cocok untuk menunjukkan tren atau pola visual (misalnya perbandingan sebelum-sesudah, diagram alur tema kualitatif).",
+          "Kutipan langsung — untuk penelitian kualitatif, kutipan verbatim dari wawancara memberi bukti langsung, tapi harus diberi konteks (siapa yang bicara, dalam situasi apa) dan tidak dibiarkan 'bicara sendiri' tanpa penjelasan."
+        ]},
+        { "type": "callout", "title": "Jangan Duplikasi", "text": "Kesalahan umum: menyajikan tabel LALU menuliskan ulang semua angka di tabel itu dalam bentuk kalimat panjang. Cukup soroti angka yang paling penting/mengejutkan dalam teks, biarkan tabel menyajikan detail lengkapnya — teks dan tabel saling melengkapi, bukan mengulang." }
+      ]
+    },
+    {
+      "id": "26-4",
+      "title": "Worked Example: Mencampur Hasil-Pembahasan vs Memisahkannya",
+      "blocks": [
+        { "type": "heading", "text": "Membandingkan Dua Versi" },
+        { "type": "quote", "text": "VERSI TERCAMPUR:\n\"Hasil uji-t menunjukkan nilai signifikansi 0,02, yang berarti metode diskusi memang lebih baik seperti yang diduga oleh teori konstruktivisme Vygotsky, karena siswa belajar lebih efektif lewat interaksi sosial dibanding metode ceramah pasif.\"", "source": "Contoh paragraf yang mencampur data mentah dan tafsiran teoritis dalam satu kalimat" },
+        { "type": "quote", "text": "VERSI TERPISAH:\nBagian Hasil: \"Hasil uji-t independen menunjukkan nilai signifikansi sebesar 0,02 (p < 0,05), yang berarti terdapat perbedaan signifikan antara nilai kelompok metode diskusi (M=78,5) dan kelompok metode ceramah (M=71,2).\"\nBagian Pembahasan: \"Temuan ini sejalan dengan teori konstruktivisme Vygotsky (dibahas di Bab 2) yang menekankan pembelajaran lewat interaksi sosial. Perbedaan skor ini mengindikasikan bahwa diskusi kelompok memberi ruang bagi siswa untuk mengonstruksi pemahaman secara aktif, dibanding ceramah yang menempatkan siswa sebagai penerima pasif.\"", "source": "Contoh Hasil dan Pembahasan yang dipisah secara eksplisit" },
+        { "type": "callout", "title": "Bedanya", "text": "Versi terpisah membuat pembaca (dan penguji) bisa menilai KLAIM DATA secara independen dari TAFSIRANNYA. Kalau ada yang meragukan tafsirannya, datanya sendiri tetap berdiri sebagai fakta yang tercatat dengan jelas." }
+      ]
+    },
+    {
+      "id": "26-5",
+      "title": "Menjawab Rumusan Masalah Satu per Satu",
+      "blocks": [
+        { "type": "heading", "text": "Struktur Bab 4 Mengikuti Struktur Rumusan Masalah" },
+        { "type": "paragraph", "text": "Cara paling aman menyusun Bab 4 adalah mengikuti urutan rumusan masalah dari Bab 1 secara eksplisit — bukan mengikuti urutan pengumpulan data atau urutan yang 'terasa mengalir'. Kalau rumusan masalahmu ada 3 butir, Bab 4 idealnya punya subbab yang jelas berkorespondensi dengan ketiganya." },
+        {
+          "type": "table",
+          "headers": ["Rumusan Masalah (Bab 1)", "Subbab di Bab 4 yang Menjawab"],
+          "rows": [
+            ["1. Apakah metode diskusi meningkatkan nilai siswa?", "4.1 Perbedaan Nilai Antar Kelompok (Hasil) + 4.2 Pembahasan Pengaruh Metode Diskusi"],
+            ["2. Bagaimana respons siswa terhadap metode diskusi?", "4.3 Hasil Angket Respons Siswa + 4.4 Pembahasan Respons Siswa"],
+            ["3. Faktor apa yang menghambat penerapan metode diskusi?", "4.5 Temuan Kendala Penerapan + 4.6 Pembahasan Faktor Penghambat"]
+          ]
+        },
+        { "type": "callout", "title": "Kalau Ada yang Tidak Terjawab", "text": "Kalau saat menyusun tabel ini kamu sadar ada rumusan masalah yang datanya tidak cukup untuk dijawab, JANGAN diam-diam menghilangkannya. Diskusikan dengan pembimbing — mungkin perlu analisis tambahan, atau rumusan masalahnya perlu direvisi bersama-sama (dan itu akan memengaruhi Bab 1, 2, dan 5 juga)." }
+      ]
+    },
+    {
+      "id": "26-6",
+      "title": "Menghubungkan Kembali ke Bab 2",
+      "blocks": [
+        { "type": "heading", "text": "Pembahasan Bukan Pengulangan Teori" },
+        { "type": "paragraph", "text": "Bagian Pembahasan yang baik tidak sekadar menyebut ulang teori dari Bab 2 secara mentah, tapi menunjukkan bagaimana temuan spesifik ini MENGKONFIRMASI, MEMPERLUAS, atau justru BERTENTANGAN dengan teori/penelitian terdahulu yang sudah dibahas." },
+        { "type": "list", "ordered": true, "items": [
+          "Kalau temuan sejalan dengan teori/penelitian terdahulu — jelaskan secara spesifik bagian mana yang sejalan, jangan cuma menulis 'hal ini sejalan dengan teori X'.",
+          "Kalau temuan BERTENTANGAN dengan penelitian terdahulu — ini justru bagian paling menarik untuk dibahas. Jangan disembunyikan atau buru-buru dianggap 'kesalahan penelitian'. Tawarkan penjelasan yang masuk akal (perbedaan konteks, sampel, instrumen).",
+          "Hindari overclaim — 'penelitian ini membuktikan bahwa...' terlalu kuat untuk skripsi berskala kecil. Lebih tepat: 'penelitian ini mengindikasikan/menunjukkan kecenderungan bahwa...'."
+        ]},
+        { "type": "callout", "title": "Temuan yang Berbeda Bukan Kegagalan", "text": "Banyak mahasiswa panik saat hasilnya tidak sesuai hipotesis atau berbeda dari penelitian terdahulu, lalu buru-buru menyimpulkan 'penelitian saya gagal'. Padahal hasil yang tidak sesuai dugaan adalah temuan yang sah dan tetap layak dibahas mendalam — itulah pembahasan ilmiah yang jujur, bukan kegagalan." }
+      ]
+    },
+    {
+      "id": "26-7",
+      "title": "Kesalahan Statistik & Interpretasi yang Sering Terjadi",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan Teknis yang Sering Luput" },
+        { "type": "list", "ordered": false, "items": [
+          "Menulis 'signifikan' tanpa menyebut nilai p atau kriteria signifikansi yang dipakai.",
+          "Menyamakan korelasi dengan kausalitas — 'variabel A berkorelasi dengan B' ditulis seolah 'A menyebabkan B', padahal desain penelitiannya bukan eksperimen.",
+          "Menyajikan skor rata-rata tanpa ukuran sebaran (standar deviasi) sehingga pembaca tidak tahu seberapa bervariasi datanya.",
+          "Pada kualitatif: menyajikan satu kutipan wawancara sebagai representasi 'semua partisipan berpendapat begitu', padahal hanya satu suara dari beberapa partisipan."
+        ]},
+        { "type": "callout", "title": "Cek dengan Pembimbing Substansi", "text": "Kalau ragu soal istilah statistik atau cara menafsirkan output SPSS/software analisis, ini adalah pertanyaan spesifik dan konkret yang tepat dibawa ke sesi bimbingan (ingat Level 23: bawa pertanyaan spesifik, bukan 'Bab 4 saya gimana, Pak/Bu?')." }
+      ]
+    },
+    {
+      "id": "26-8",
+      "title": "Kesalahan Umum dalam Menulis Bab 4",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Mencampur data mentah dengan tafsiran teoritis dalam satu kalimat, sehingga pembaca sulit membedakan fakta dari opini penulis.",
+          "Menyusun Bab 4 mengikuti urutan pengumpulan data, bukan urutan rumusan masalah, sehingga sulit ditelusuri jawaban tiap rumusan masalah.",
+          "Menyajikan tabel lalu menuliskan ulang semua angkanya dalam kalimat panjang — duplikasi yang membuang ruang tanpa menambah informasi.",
+          "Menyembunyikan atau buru-buru meminta maaf atas temuan yang tidak sesuai hipotesis, alih-alih membahasnya secara jujur dan mendalam.",
+          "Overclaim: menulis 'penelitian ini membuktikan' untuk temuan berskala kecil yang semestinya ditulis lebih hati-hati ('mengindikasikan').",
+          "Menyamakan korelasi dengan kausalitas pada desain penelitian non-eksperimen."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Bab 4 yang baik membiarkan pembaca menilai data secara independen (lewat bagian Hasil yang bersih dari opini), sebelum diyakinkan lewat tafsiran yang berargumen kuat (lewat bagian Pembahasan yang merujuk balik ke Bab 2). Disiplin ini sama persis dengan yang dituntut artikel jurnal di Level 2 — cuma skalanya lebih besar." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-26",
+    "title": "Kuis Level 26",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q26-1",
+        "question": "Kenapa Bab 4 disebut tempat 'janji Bab 1 ditagih'?",
+        "options": ["Karena Bab 4 harus ditulis sebelum Bab 1", "Karena setiap rumusan masalah yang dijanjikan di Bab 1 harus dijawab secara eksplisit dan bisa ditelusuri di Bab 4", "Karena Bab 4 tidak boleh direvisi lagi setelah sidang", "Karena hanya Bab 4 yang dinilai penguji"],
+        "answer": 1,
+        "explanation": "Bab 1 menjanjikan rumusan masalah dan tujuan; Bab 4 adalah tempat janji itu dijawab dengan data dan tafsiran yang konkret."
+      },
+      {
+        "id": "q26-2",
+        "question": "Kalimat yang berisi 'temuan ini sejalan dengan teori konstruktivisme Vygotsky' seharusnya berada di bagian…",
+        "options": ["Hasil", "Pembahasan", "Rumusan masalah", "Batasan masalah"],
+        "answer": 1,
+        "explanation": "Kalimat yang mengaitkan temuan dengan teori adalah tafsiran, sehingga masuk ke bagian Pembahasan, bukan Hasil yang seharusnya melaporkan data apa adanya."
+      },
+      {
+        "id": "q26-3",
+        "question": "Kesalahan umum saat menyajikan tabel data di Bab 4 adalah…",
+        "options": ["Memberi judul dan nomor pada tabel", "Menuliskan ulang semua angka dalam tabel ke dalam kalimat panjang setelahnya, sehingga terjadi duplikasi", "Menyoroti angka paling penting dalam teks", "Menyusun tabel secara rapi dengan header yang jelas"],
+        "answer": 1,
+        "explanation": "Tabel dan teks seharusnya saling melengkapi — teks menyoroti yang penting, tabel menyediakan detail lengkap, bukan diulang seluruhnya dalam kalimat."
+      },
+      {
+        "id": "q26-4",
+        "question": "Cara paling aman menyusun struktur Bab 4 adalah mengikuti urutan…",
+        "options": ["Urutan pengumpulan data di lapangan", "Urutan rumusan masalah di Bab 1", "Urutan abjad nama variabel", "Urutan yang 'terasa paling menarik' menurut penulis"],
+        "answer": 1,
+        "explanation": "Mengikuti urutan rumusan masalah memastikan setiap pertanyaan di Bab 1 terjawab secara eksplisit dan mudah ditelusuri."
+      },
+      {
+        "id": "q26-5",
+        "question": "Ketika hasil penelitian tidak sesuai dengan hipotesis atau berbeda dari penelitian terdahulu, sikap yang tepat adalah…",
+        "options": ["Menyembunyikan temuan tersebut agar skripsi terlihat berhasil", "Membahasnya secara jujur dan mendalam, karena hasil tak terduga tetap merupakan temuan yang sah", "Mengubah data agar sesuai hipotesis", "Menghapus hipotesis dari Bab 2 secara diam-diam"],
+        "answer": 1,
+        "explanation": "Temuan yang berbeda dari dugaan bukan kegagalan — ini bagian menarik yang layak dibahas jujur dan mendalam, dengan penjelasan yang masuk akal."
+      },
+      {
+        "id": "q26-6",
+        "question": "Kalimat 'penelitian ini membuktikan bahwa metode X lebih efektif' dianggap overclaim untuk skripsi berskala kecil karena…",
+        "options": ["Kata 'membuktikan' tidak boleh dipakai sama sekali dalam bahasa akademik", "Skala penelitian yang kecil biasanya lebih tepat memakai istilah yang lebih hati-hati seperti 'mengindikasikan' atau 'menunjukkan kecenderungan'", "Kata 'efektif' tidak boleh digunakan dalam Bab 4", "Kalimat itu seharusnya ditulis di Bab 1"],
+        "answer": 1,
+        "explanation": "Klaim yang terlalu kuat ('membuktikan') tidak proporsional untuk penelitian berskala kecil; istilah yang lebih hati-hati lebih jujur menggambarkan kekuatan bukti yang ada."
+      },
+      {
+        "id": "q26-7",
+        "question": "Kesalahan interpretasi yang terjadi ketika 'variabel A berkorelasi dengan B' ditulis seolah 'A menyebabkan B' pada desain non-eksperimen disebut…",
+        "options": ["Overclaim proporsi sampel", "Menyamakan korelasi dengan kausalitas", "Kesalahan pengetikan biasa", "Triangulasi metode yang keliru"],
+        "answer": 1,
+        "explanation": "Korelasi menunjukkan hubungan, bukan sebab-akibat; menyamakan keduanya pada desain non-eksperimen adalah kesalahan interpretasi statistik yang umum."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-26",
+    "title": "Ujian Level 26",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e26-1",
+        "question": "Seorang mahasiswa menulis dalam satu kalimat di Bab 4: \"Rata-rata skor kelompok eksperimen adalah 82, yang membuktikan metode ini memang lebih baik seperti dugaan teori konstruktivisme.\" Pembimbingnya meminta kalimat ini dipecah. Alasan paling tepat permintaan tersebut adalah…",
+        "options": ["Kalimatnya terlalu panjang untuk dibaca", "Kalimat ini mencampur data mentah (skor 82) dengan tafsiran teoritis dalam satu kalimat, sehingga Hasil dan Pembahasan tidak terpisah dengan jelas", "Skor 82 seharusnya ditulis dalam bentuk persentase", "Teori konstruktivisme tidak boleh disebut di Bab 4 sama sekali"],
+        "answer": 1,
+        "explanation": "Disiplin Hasil-Pembahasan menuntut data disajikan dulu apa adanya, baru ditafsirkan terpisah — mencampur keduanya membuat klaim data dan opini sulit dibedakan pembaca."
+      },
+      {
+        "id": "e26-2",
+        "question": "Bab 4 seorang mahasiswa disusun berdasarkan urutan kronologis pengumpulan data (survei bulan pertama, wawancara bulan kedua, observasi bulan ketiga), bukan berdasarkan urutan tiga rumusan masalah di Bab 1. Saat sidang, penguji kesulitan melacak jawaban rumusan masalah nomor 2. Solusi paling tepat untuk masalah struktural ini adalah…",
+        "options": ["Menjelaskan secara lisan saja saat sidang tanpa merevisi naskah", "Menyusun ulang subbab Bab 4 mengikuti urutan rumusan masalah di Bab 1, bukan urutan kronologis pengumpulan data", "Menghapus rumusan masalah nomor 2 dari Bab 1", "Menambahkan bab baru khusus untuk menjawab rumusan masalah"],
+        "answer": 1,
+        "explanation": "Struktur Bab 4 idealnya mengikuti urutan rumusan masalah agar setiap pertanyaan bisa ditelusuri jawabannya secara eksplisit, bukan mengikuti kronologi lapangan."
+      },
+      {
+        "id": "e26-3",
+        "question": "Seorang mahasiswa menyajikan tabel skor pretest-posttest 30 siswa, lalu di paragraf setelahnya menuliskan ulang semua 30 skor tersebut satu per satu dalam bentuk kalimat naratif panjang. Masalah dari pendekatan ini adalah…",
+        "options": ["Tabel seharusnya dihapus karena tidak diperlukan", "Duplikasi informasi yang membuang ruang tanpa menambah nilai — teks seharusnya menyoroti temuan penting, bukan mengulang seluruh isi tabel", "Skor pretest-posttest seharusnya disajikan dalam grafik, bukan tabel", "Kalimat naratif seharusnya ditulis sebelum tabel, bukan sesudahnya"],
+        "answer": 1,
+        "explanation": "Teks dan tabel seharusnya saling melengkapi; menuliskan ulang seluruh isi tabel dalam narasi adalah duplikasi yang tidak efisien dan tidak menambah informasi baru."
+      },
+      {
+        "id": "e26-4",
+        "question": "Hasil uji hipotesis seorang mahasiswa ternyata TIDAK signifikan (bertentangan dengan hipotesis di Bab 2), lalu ia menuliskan di Bab 4: \"Mohon maaf, penelitian ini gagal karena hipotesis tidak terbukti.\" Respons yang lebih tepat terhadap situasi ini adalah…",
+        "options": ["Tetap menulis permintaan maaf karena itu jujur menggambarkan hasil", "Membahas temuan tersebut secara analitis: kemungkinan penyebab hasil tidak signifikan (misalnya ukuran sampel, instrumen, konteks), tanpa menganggapnya sebagai kegagalan", "Mengganti data agar hipotesis terbukti signifikan", "Menghapus hipotesis dari Bab 2 agar tidak perlu dibahas di Bab 4"],
+        "answer": 1,
+        "explanation": "Hasil yang tidak sesuai hipotesis adalah temuan yang sah dan layak dibahas analitis dengan penjelasan yang masuk akal, bukan dianggap kegagalan yang perlu dimaafkan."
+      },
+      {
+        "id": "e26-5",
+        "question": "Seorang mahasiswa menemukan korelasi antara jam bermain gawai dan nilai ujian pada desain survei (bukan eksperimen), lalu menulis di Pembahasan: \"Bermain gawai menyebabkan turunnya nilai siswa.\" Kekeliruan dalam kalimat ini adalah…",
+        "options": ["Kalimatnya sudah tepat dan tidak perlu direvisi", "Menyamakan korelasi dengan kausalitas — desain survei non-eksperimen tidak bisa membuktikan hubungan sebab-akibat, hanya keterkaitan", "Seharusnya ditulis di bagian Hasil, bukan Pembahasan", "Jam bermain gawai bukan variabel yang valid untuk diteliti"],
+        "answer": 1,
+        "explanation": "Desain non-eksperimen (survei/korelasional) hanya bisa menunjukkan hubungan/keterkaitan, bukan membuktikan sebab-akibat — klaim kausal butuh desain eksperimen dengan kontrol variabel."
+      },
+      {
+        "id": "e26-6",
+        "question": "Pada penelitian kualitatif dengan 10 partisipan, seorang mahasiswa menulis di Pembahasan: \"Semua guru merasa kesulitan menerapkan kurikulum baru,\" padahal kutipan yang disajikan hanya berasal dari satu partisipan yang paling ekspresif. Masalah dari klaim ini adalah…",
+        "options": ["Kutipan langsung tidak boleh dipakai dalam penelitian kualitatif", "Generalisasi berlebihan dari satu suara partisipan menjadi klaim mewakili 'semua', padahal partisipan lain belum tentu berpendapat sama", "Kutipan seharusnya diletakkan di Bab 2, bukan Bab 4", "Seharusnya memakai uji statistik untuk memperkuat klaim ini"],
+        "answer": 1,
+        "explanation": "Satu kutipan yang mencolok tidak otomatis mewakili seluruh partisipan; klaim 'semua' butuh dukungan bahwa tema tersebut memang muncul konsisten di banyak partisipan, bukan satu suara saja."
+      },
+      {
+        "id": "e26-7",
+        "question": "Seorang mahasiswa menulis 'hasilnya signifikan' di beberapa bagian Bab 4 tanpa pernah menyebutkan nilai p atau ambang signifikansi yang dipakai. Saat sidang, penguji menanyakan dasar klaim tersebut. Kelemahan utama penulisan ini adalah…",
+        "options": ["Kata 'signifikan' seharusnya tidak pernah dipakai dalam skripsi", "Klaim signifikansi tanpa mencantumkan nilai p atau kriteria yang dipakai membuat klaim tersebut tidak bisa diverifikasi pembaca", "Seharusnya memakai kata 'penting' sebagai ganti 'signifikan'", "Nilai p hanya perlu dicantumkan untuk penelitian kualitatif"],
+        "answer": 1,
+        "explanation": "Klaim statistik seperti 'signifikan' harus didukung angka konkret (nilai p, ambang alpha) agar pembaca/penguji bisa menilai dan memverifikasi dasar klaim tersebut."
+      },
+      {
+        "id": "e26-8",
+        "question": "Setelah menyusun tabel 'rumusan masalah vs subbab Bab 4 yang menjawab', seorang mahasiswa menyadari rumusan masalah nomor 3 (tentang faktor penghambat) ternyata tidak punya data pendukung yang cukup karena instrumennya tidak dirancang untuk menggali itu. Langkah paling tepat adalah…",
+        "options": ["Mengarang jawaban berdasarkan asumsi pribadi tanpa data agar tabel terisi lengkap", "Mendiskusikan situasi ini dengan pembimbing — mungkin perlu analisis data tambahan yang tersedia, atau rumusan masalahnya perlu direvisi (yang berdampak ke Bab 1, 2, dan 5)", "Menghapus rumusan masalah nomor 3 dari Bab 1 tanpa memberi tahu siapa pun", "Membiarkan saja karena penguji jarang mengecek kesesuaian rumusan masalah dengan Bab 4"],
+        "answer": 1,
+        "explanation": "Rumusan masalah yang tidak terjawab adalah masalah struktural yang berdampak ke bab lain; ini harus didiskusikan dengan pembimbing, bukan diakali dengan jawaban tanpa data atau disembunyikan."
+      },
+      {
+        "id": "e26-9",
+        "question": "Dua mahasiswa meneliti topik yang mirip. Mahasiswa A menemukan hasil yang sejalan dengan penelitian terdahulu dan menulisnya dengan detail spesifik. Mahasiswa B menemukan hasil yang bertentangan dengan penelitian terdahulu, lalu memilih untuk tidak membahasnya sama sekali di Pembahasan karena khawatir dianggap salah. Penilaian yang tepat atas pilihan Mahasiswa B adalah…",
+        "options": ["Tepat, karena hasil yang bertentangan sebaiknya disembunyikan dari pembahasan", "Kurang tepat — hasil yang bertentangan dengan penelitian terdahulu justru bagian paling menarik untuk dibahas dengan penjelasan yang masuk akal, bukan dihindari", "Tepat, karena pembahasan hanya perlu memuat hasil yang sesuai dugaan", "Kurang relevan karena hasil yang bertentangan tidak pernah terjadi dalam penelitian yang benar"],
+        "answer": 1,
+        "explanation": "Hasil yang bertentangan dengan penelitian terdahulu adalah temuan yang sah dan justru menarik untuk dibahas — menyembunyikannya membuat pembahasan tidak jujur dan kurang bernilai ilmiah."
+      },
+      {
+        "id": "e26-10",
+        "question": "Seorang mahasiswa menyajikan skor rata-rata dua kelompok (78,5 dan 71,2) di bagian Hasil tanpa menyertakan standar deviasi atau ukuran sebaran lain. Kekurangan penyajian data ini adalah…",
+        "options": ["Skor rata-rata sudah cukup dan tidak perlu informasi tambahan apa pun", "Tanpa ukuran sebaran, pembaca tidak tahu seberapa bervariasi data di dalam masing-masing kelompok, sehingga perbandingan rata-rata saja bisa menyesatkan", "Standar deviasi hanya relevan untuk penelitian kualitatif", "Skor rata-rata seharusnya diganti dengan modus"],
+        "answer": 1,
+        "explanation": "Ukuran sebaran seperti standar deviasi penting untuk memahami variasi data; dua kelompok dengan rata-rata berbeda tapi sebaran yang tumpang tindih bisa memberi kesan berbeda dari kenyataan."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Metode Penelitian Kuantitatif, Kualitatif dan R&D", "author": "Sugiyono", "publisher": "Alfabeta", "note": "Rujukan teknik penyajian data dan analisis di Bab 4 untuk kampus Indonesia." },
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams", "publisher": "University of Chicago Press", "note": "Rujukan disiplin memisahkan klaim data dari tafsiran argumentatif." },
+    { "title": "Qualitative Data Analysis: A Methods Sourcebook", "author": "Matthew B. Miles, A. Michael Huberman, Johnny Saldaña", "publisher": "SAGE Publications", "note": "Rujukan penyajian tema dan kutipan pada Bab 4 penelitian kualitatif." },
+    { "title": "Statistics as Principled Argument", "author": "Robert P. Abelson", "publisher": "Psychology Press", "note": "Rujukan interpretasi statistik yang hati-hati, termasuk membedakan korelasi dari kausalitas." },
+    { "title": "Publication Manual of the American Psychological Association (APA Style)", "publisher": "American Psychological Association", "note": "Rujukan format penyajian tabel, angka, dan pelaporan hasil statistik." }
+  ]
+}

@@ -10,121 +10,298 @@
       "id": "1-1",
       "title": "Apa Itu Tulisan Akademik?",
       "blocks": [
-        { "type": "heading", "text": "Tulisan yang Bisa Dipertanggungjawabkan" },
-        { "type": "paragraph", "text": "Bayangkan kamu sedang membangun rumah. Kamu tidak bisa asal menumpuk batu bata; kamu butuh gambar rancangan (blueprint), bahan yang jelas, dan urutan pengerjaan yang benar. Tulisan akademik itu mirip: setiap kalimat punya dasar, tersusun rapi, dan bisa 'dicek' kebenarannya oleh orang lain." },
-        { "type": "paragraph", "text": "Jadi, tulisan akademik adalah tulisan yang dibuat berdasarkan penalaran yang logis dan didukung bukti — bisa berupa data, hasil penelitian, atau pendapat ahli yang kita kutip. Tujuannya bukan cuma bercerita atau curhat, tetapi meyakinkan pembaca dengan alasan yang kuat." },
-        { "type": "callout", "title": "Inti yang Harus Diingat", "text": "Kalau kamu menulis sebuah pernyataan, kamu harus bisa menjawab pertanyaan: 'Dari mana kamu tahu itu?' Kalau jawabannya cuma 'ya pokoknya begitu', berarti tulisan itu belum akademik." }
+        {
+          "type": "heading",
+          "text": "Tulisan yang Bisa Dipertanggungjawabkan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bayangkan kamu sedang membangun rumah. Kamu tidak bisa asal menumpuk batu bata; kamu butuh gambar rancangan (blueprint), bahan yang jelas, dan urutan pengerjaan yang benar. Tulisan akademik itu mirip: setiap kalimat punya dasar, tersusun rapi, dan bisa 'dicek' kebenarannya oleh orang lain."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jadi, tulisan akademik adalah tulisan yang dibuat berdasarkan penalaran yang logis dan didukung bukti — bisa berupa data, hasil penelitian, atau pendapat ahli yang kita kutip. Tujuannya bukan cuma bercerita atau curhat, tetapi meyakinkan pembaca dengan alasan yang kuat."
+        },
+        {
+          "type": "callout",
+          "title": "Inti yang Harus Diingat",
+          "text": "Kalau kamu menulis sebuah pernyataan, kamu harus bisa menjawab pertanyaan: 'Dari mana kamu tahu itu?' Kalau jawabannya cuma 'ya pokoknya begitu', berarti tulisan itu belum akademik."
+        }
       ]
     },
     {
       "id": "1-2",
       "title": "Bedanya dengan Tulisan Biasa",
       "blocks": [
-        { "type": "heading", "text": "Blog vs Tulisan Akademik" },
-        { "type": "paragraph", "text": "Banyak pemula bingung kenapa tulisannya 'kurang ilmiah'. Biasanya karena gayanya masih seperti menulis status media sosial atau blog. Perhatikan perbedaannya di tabel berikut supaya kamu langsung bisa merasakan bedanya." },
+        {
+          "type": "heading",
+          "text": "Blog vs Tulisan Akademik"
+        },
+        {
+          "type": "paragraph",
+          "text": "Banyak pemula bingung kenapa tulisannya 'kurang ilmiah'. Biasanya karena gayanya masih seperti menulis status media sosial atau blog. Perhatikan perbedaannya di tabel berikut supaya kamu langsung bisa merasakan bedanya."
+        },
         {
           "type": "table",
-          "headers": ["Hal", "Tulisan Biasa (blog/status)", "Tulisan Akademik"],
+          "headers": [
+            "Hal",
+            "Tulisan Biasa (blog/status)",
+            "Tulisan Akademik"
+          ],
           "rows": [
-            ["Tujuan", "Menghibur / berbagi perasaan", "Meyakinkan dengan bukti"],
-            ["Bahasa", "Santai, kadang gaul", "Formal dan baku"],
-            ["Sumber", "Boleh tanpa sumber", "Wajib menyebut sumber (sitasi)"],
-            ["Sudut pandang", "Sangat pribadi ('aku banget')", "Objektif, fokus ke gagasan"],
-            ["Struktur", "Bebas", "Terstruktur dan sistematis"]
+            [
+              "Tujuan",
+              "Menghibur / berbagi perasaan",
+              "Meyakinkan dengan bukti"
+            ],
+            [
+              "Bahasa",
+              "Santai, kadang gaul",
+              "Formal dan baku"
+            ],
+            [
+              "Sumber",
+              "Boleh tanpa sumber",
+              "Wajib menyebut sumber (sitasi)"
+            ],
+            [
+              "Sudut pandang",
+              "Sangat pribadi ('aku banget')",
+              "Objektif, fokus ke gagasan"
+            ],
+            [
+              "Struktur",
+              "Bebas",
+              "Terstruktur dan sistematis"
+            ]
           ]
         },
-        { "type": "paragraph", "text": "Empat ciri utama tulisan akademik yang wajib kamu hafal: (1) objektif — tidak dibawa emosi; (2) sistematis — mengikuti urutan yang jelas; (3) logis — setiap klaim ada alasannya; dan (4) didukung sitasi — menyebut dari mana gagasan itu berasal." }
+        {
+          "type": "paragraph",
+          "text": "Empat ciri utama tulisan akademik yang wajib kamu hafal: (1) objektif — tidak dibawa emosi; (2) sistematis — mengikuti urutan yang jelas; (3) logis — setiap klaim ada alasannya; dan (4) didukung sitasi — menyebut dari mana gagasan itu berasal."
+        }
       ]
     },
     {
       "id": "1-3",
       "title": "KTI: Sang Payung Besar",
       "blocks": [
-        { "type": "heading", "text": "Karya Tulis Ilmiah (KTI)" },
-        { "type": "paragraph", "text": "KTI itu ibarat 'nama keluarga'. Ia adalah istilah payung untuk SEMUA tulisan yang dibuat dengan cara ilmiah. Artinya, ada masalah yang mau dijawab, ada cara/metode untuk menjawabnya, lalu ada kesimpulan yang berdasarkan bukti." },
-        { "type": "subheading", "text": "Yang termasuk KTI" },
-        { "type": "list", "ordered": false, "items": [
-          "Skripsi (tugas akhir S1), tesis (S2), dan disertasi (S3).",
-          "Makalah dan paper untuk mata kuliah atau seminar.",
-          "Laporan penelitian dan laporan praktikum.",
-          "Artikel jurnal ilmiah.",
-          "Karya tulis untuk lomba (misalnya KTI mahasiswa)."
-        ]},
-        { "type": "callout", "title": "Analogi Cepat", "text": "KTI = keluarga besar. Esai, paper, dan artikel jurnal = anggota keluarganya, dengan tingkat 'keseriusan' dan kedalaman yang berbeda-beda." }
+        {
+          "type": "heading",
+          "text": "Karya Tulis Ilmiah (KTI)"
+        },
+        {
+          "type": "paragraph",
+          "text": "KTI itu ibarat 'nama keluarga'. Ia adalah istilah payung untuk SEMUA tulisan yang dibuat dengan cara ilmiah. Artinya, ada masalah yang mau dijawab, ada cara/metode untuk menjawabnya, lalu ada kesimpulan yang berdasarkan bukti."
+        },
+        {
+          "type": "subheading",
+          "text": "Yang termasuk KTI"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Skripsi (tugas akhir S1), tesis (S2), dan disertasi (S3).",
+            "Makalah dan paper untuk mata kuliah atau seminar.",
+            "Laporan penelitian dan laporan praktikum.",
+            "Artikel jurnal ilmiah.",
+            "Karya tulis untuk lomba (misalnya KTI mahasiswa)."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Analogi Cepat",
+          "text": "KTI = keluarga besar. Esai, paper, dan artikel jurnal = anggota keluarganya, dengan tingkat 'keseriusan' dan kedalaman yang berbeda-beda."
+        }
       ]
     },
     {
       "id": "1-4",
       "title": "Esai: Menyampaikan Gagasan",
       "blocks": [
-        { "type": "heading", "text": "Esai (Essay)" },
-        { "type": "paragraph", "text": "Esai adalah tulisan yang mengupas satu isu dari sudut pandang kamu sebagai penulis. Meski lebih santai daripada jurnal, esai akademik tetap butuh argumen dan bukti — bedanya, esai tidak harus lewat penelitian lapangan yang besar. Esai menonjolkan kualitas cara berpikirmu." },
-        { "type": "subheading", "text": "Struktur Sederhana Esai" },
-        { "type": "list", "ordered": true, "items": [
-          "Pendahuluan — berisi kalimat tesis (pendirianmu tentang isu itu).",
-          "Isi — mengembangkan argumen, satu paragraf satu ide, disertai bukti/contoh.",
-          "Penutup — menegaskan kembali tesis dan memberi simpulan."
-        ]},
-        { "type": "subheading", "text": "Contoh Kalimat Tesis" },
-        { "type": "quote", "text": "\"Pembelajaran daring perlu tetap dipertahankan sebagai pelengkap, karena terbukti memperluas akses pendidikan ke daerah terpencil.\"", "source": "Contoh tesis untuk esai" },
-        { "type": "paragraph", "text": "Perhatikan: tesis itu berisi PENDIRIAN ('perlu dipertahankan') plus ALASAN ('karena memperluas akses'). Inilah yang membedakan esai dari sekadar cerita." }
+        {
+          "type": "heading",
+          "text": "Esai (Essay)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Esai adalah tulisan yang mengupas satu isu dari sudut pandang kamu sebagai penulis. Meski lebih santai daripada jurnal, esai akademik tetap butuh argumen dan bukti — bedanya, esai tidak harus lewat penelitian lapangan yang besar. Esai menonjolkan kualitas cara berpikirmu."
+        },
+        {
+          "type": "subheading",
+          "text": "Struktur Sederhana Esai"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pendahuluan — berisi kalimat tesis (pendirianmu tentang isu itu).",
+            "Isi — mengembangkan argumen, satu paragraf satu ide, disertai bukti/contoh.",
+            "Penutup — menegaskan kembali tesis dan memberi simpulan."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Contoh Kalimat Tesis"
+        },
+        {
+          "type": "quote",
+          "text": "\"Pembelajaran daring perlu tetap dipertahankan sebagai pelengkap, karena terbukti memperluas akses pendidikan ke daerah terpencil.\"",
+          "source": "Contoh tesis untuk esai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perhatikan: tesis itu berisi PENDIRIAN ('perlu dipertahankan') plus ALASAN ('karena memperluas akses'). Inilah yang membedakan esai dari sekadar cerita."
+        }
       ]
     },
     {
       "id": "1-5",
       "title": "Paper / Makalah",
       "blocks": [
-        { "type": "heading", "text": "Paper (Makalah)" },
-        { "type": "paragraph", "text": "Paper atau makalah adalah tulisan ilmiah yang membahas satu topik secara terfokus. Biasanya dibuat untuk tugas kuliah, seminar, atau konferensi. Panjangnya sedang — lebih pendek dari skripsi — dan sering berupa kajian pustaka (merangkum dan menganalisis tulisan-tulisan yang sudah ada) atau penelitian kecil." },
-        { "type": "paragraph", "text": "Kalau sebuah paper dipresentasikan di konferensi dan lolos seleksi, ia bisa diterbitkan dalam kumpulan yang disebut prosiding (proceedings). Jadi paper adalah langkah awal yang bagus sebelum kamu menulis artikel jurnal penuh." },
-        { "type": "callout", "title": "Tips", "text": "Kalau dosen memberi tugas 'makalah', yang diminta biasanya paper: ada judul, pendahuluan, pembahasan, kesimpulan, dan daftar pustaka. Fokus, rapi, dan pakai sumber yang jelas." }
+        {
+          "type": "heading",
+          "text": "Paper (Makalah)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paper atau makalah adalah tulisan ilmiah yang membahas satu topik secara terfokus. Biasanya dibuat untuk tugas kuliah, seminar, atau konferensi. Panjangnya sedang — lebih pendek dari skripsi — dan sering berupa kajian pustaka (merangkum dan menganalisis tulisan-tulisan yang sudah ada) atau penelitian kecil."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalau sebuah paper dipresentasikan di konferensi dan lolos seleksi, ia bisa diterbitkan dalam kumpulan yang disebut prosiding (proceedings). Jadi paper adalah langkah awal yang bagus sebelum kamu menulis artikel jurnal penuh."
+        },
+        {
+          "type": "callout",
+          "title": "Tips",
+          "text": "Kalau dosen memberi tugas 'makalah', yang diminta biasanya paper: ada judul, pendahuluan, pembahasan, kesimpulan, dan daftar pustaka. Fokus, rapi, dan pakai sumber yang jelas."
+        }
       ]
     },
     {
       "id": "1-6",
       "title": "Artikel Jurnal: Level Tertinggi",
       "blocks": [
-        { "type": "heading", "text": "Artikel Jurnal (Journal Article)" },
-        { "type": "paragraph", "text": "Artikel jurnal adalah laporan penelitian yang ditulis khusus untuk diterbitkan di jurnal ilmiah. Inilah bentuk KTI dengan kredibilitas paling tinggi, karena sebelum terbit ia harus lolos 'ujian' dari para ahli sebidang. Proses ini disebut peer review (penelaahan sejawat)." },
-        { "type": "subheading", "text": "Apa Itu Peer Review? (Analogi)" },
-        { "type": "paragraph", "text": "Bayangkan kamu memasak dan sebelum disajikan ke tamu, dua koki senior mencicipi dulu, memberi catatan ('kurang garam', 'penyajian diperbaiki'), lalu kamu revisi. Baru setelah mereka setuju, makanan disajikan. Peer review persis seperti itu: pakar lain memeriksa naskahmu, memberi catatan, dan kamu memperbaiki sampai layak terbit." },
-        { "type": "paragraph", "text": "Karena diperiksa seketat itu, artikel jurnal umumnya mengikuti struktur baku bernama IMRaD (Introduction, Methods, Results, and Discussion) — yang akan kita bahas tuntas di Level 2." }
+        {
+          "type": "heading",
+          "text": "Artikel Jurnal (Journal Article)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Artikel jurnal adalah laporan penelitian yang ditulis khusus untuk diterbitkan di jurnal ilmiah. Inilah bentuk KTI dengan kredibilitas paling tinggi, karena sebelum terbit ia harus lolos 'ujian' dari para ahli sebidang. Proses ini disebut peer review (penelaahan sejawat)."
+        },
+        {
+          "type": "subheading",
+          "text": "Apa Itu Peer Review? (Analogi)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bayangkan kamu memasak dan sebelum disajikan ke tamu, dua koki senior mencicipi dulu, memberi catatan ('kurang garam', 'penyajian diperbaiki'), lalu kamu revisi. Baru setelah mereka setuju, makanan disajikan. Peer review persis seperti itu: pakar lain memeriksa naskahmu, memberi catatan, dan kamu memperbaiki sampai layak terbit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Karena diperiksa seketat itu, artikel jurnal umumnya mengikuti struktur baku bernama IMRaD (Introduction, Methods, Results, and Discussion) — yang akan kita bahas tuntas di Level 2."
+        }
       ]
     },
     {
       "id": "1-7",
       "title": "Satu Topik, Empat Bentuk",
       "blocks": [
-        { "type": "heading", "text": "Biar Makin Jelas: Contoh Nyata" },
-        { "type": "paragraph", "text": "Misalkan topiknya 'sampah plastik'. Lihat bagaimana topik yang sama bisa ditulis dalam empat bentuk berbeda:" },
+        {
+          "type": "heading",
+          "text": "Biar Makin Jelas: Contoh Nyata"
+        },
+        {
+          "type": "paragraph",
+          "text": "Misalkan topiknya 'sampah plastik'. Lihat bagaimana topik yang sama bisa ditulis dalam empat bentuk berbeda:"
+        },
         {
           "type": "table",
-          "headers": ["Bentuk", "Contoh Judul / Isi"],
+          "headers": [
+            "Bentuk",
+            "Contoh Judul / Isi"
+          ],
           "rows": [
-            ["Esai", "\"Mengapa Kita Harus Berhenti Menyalahkan Konsumen soal Sampah Plastik\" — argumentatif, berbasis opini + data ringan"],
-            ["Paper", "\"Kajian Efektivitas Program Bank Sampah di Kota X\" — merangkum studi yang ada + analisis kecil"],
-            ["Artikel Jurnal", "\"Pengaruh Edukasi Daur Ulang terhadap Perilaku Memilah Sampah: Studi Eksperimen pada 240 Rumah Tangga\" — penelitian penuh, ber-IMRaD, peer-reviewed"],
-            ["KTI (umum)", "Semua contoh di atas termasuk KTI karena dibuat secara ilmiah"]
+            [
+              "Esai",
+              "\"Mengapa Kita Harus Berhenti Menyalahkan Konsumen soal Sampah Plastik\" — argumentatif, berbasis opini + data ringan"
+            ],
+            [
+              "Paper",
+              "\"Kajian Efektivitas Program Bank Sampah di Kota X\" — merangkum studi yang ada + analisis kecil"
+            ],
+            [
+              "Artikel Jurnal",
+              "\"Pengaruh Edukasi Daur Ulang terhadap Perilaku Memilah Sampah: Studi Eksperimen pada 240 Rumah Tangga\" — penelitian penuh, ber-IMRaD, peer-reviewed"
+            ],
+            [
+              "KTI (umum)",
+              "Semua contoh di atas termasuk KTI karena dibuat secara ilmiah"
+            ]
           ]
         },
-        { "type": "callout", "title": "Kesimpulan Bagian Ini", "text": "Semakin ke kanan (esai → jurnal), semakin dalam penelitiannya, semakin formal bahasanya, dan semakin ketat proses pemeriksaannya." }
+        {
+          "type": "callout",
+          "title": "Kesimpulan Bagian Ini",
+          "text": "Semakin ke kanan (esai → jurnal), semakin dalam penelitiannya, semakin formal bahasanya, dan semakin ketat proses pemeriksaannya."
+        }
       ]
     },
     {
       "id": "1-8",
       "title": "Tabel Perbandingan Lengkap",
       "blocks": [
-        { "type": "heading", "text": "Ringkasan Perbedaan" },
+        {
+          "type": "heading",
+          "text": "Ringkasan Perbedaan"
+        },
         {
           "type": "table",
-          "headers": ["Aspek", "Esai", "Paper/Makalah", "Artikel Jurnal"],
+          "headers": [
+            "Aspek",
+            "Esai",
+            "Paper/Makalah",
+            "Artikel Jurnal"
+          ],
           "rows": [
-            ["Panjang", "Pendek (500–2.000 kata)", "Sedang (3–15 halaman)", "Panjang (4.000–8.000 kata)"],
-            ["Basis utama", "Gagasan & argumen penulis", "Kajian pustaka / riset kecil", "Penelitian mendalam"],
-            ["Struktur", "Pendahuluan–Isi–Penutup", "Fleksibel, ada bagian/bab", "IMRaD baku"],
-            ["Peer review", "Tidak", "Kadang (jika prosiding)", "Ya, wajib"],
-            ["Pembaca", "Umum–akademik", "Dosen / peserta seminar", "Komunitas ilmiah global"],
-            ["Kredibilitas", "Sedang", "Sedang–tinggi", "Paling tinggi"]
+            [
+              "Panjang",
+              "Pendek (500–2.000 kata)",
+              "Sedang (3–15 halaman)",
+              "Panjang (4.000–8.000 kata)"
+            ],
+            [
+              "Basis utama",
+              "Gagasan & argumen penulis",
+              "Kajian pustaka / riset kecil",
+              "Penelitian mendalam"
+            ],
+            [
+              "Struktur",
+              "Pendahuluan–Isi–Penutup",
+              "Fleksibel, ada bagian/bab",
+              "IMRaD baku"
+            ],
+            [
+              "Peer review",
+              "Tidak",
+              "Kadang (jika prosiding)",
+              "Ya, wajib"
+            ],
+            [
+              "Pembaca",
+              "Umum–akademik",
+              "Dosen / peserta seminar",
+              "Komunitas ilmiah global"
+            ],
+            [
+              "Kredibilitas",
+              "Sedang",
+              "Sedang–tinggi",
+              "Paling tinggi"
+            ]
           ]
         }
       ]
@@ -133,16 +310,31 @@
       "id": "1-9",
       "title": "Kesalahan Pemula & Etika",
       "blocks": [
-        { "type": "heading", "text": "Hindari Ini Sejak Awal" },
-        { "type": "list", "ordered": false, "items": [
-          "Merasa opini pribadi sudah cukup, padahal belum ada bukti pendukung.",
-          "Menyalin kalimat orang lain tanpa menyebut sumber (ini plagiarisme!).",
-          "Mencampur gaya bahasa gaul/blog ke dalam tulisan formal.",
-          "Menulis tanpa tesis atau pertanyaan yang jelas, jadi tulisan 'ke mana-mana'.",
-          "Mengabaikan struktur baku yang diharapkan pembaca akademik."
-        ]},
-        { "type": "quote", "text": "Menulis akademik pada dasarnya adalah 'berpikir yang terlihat'. Kalau tulisanmu jernih, artinya cara berpikirmu juga jernih.", "source": "Prinsip penulisan ilmiah" },
-        { "type": "callout", "title": "Siap ke Level 2?", "text": "Setelah kamu paham empat bentuk ini, langkah berikutnya adalah membedah 'kerangka' artikel jurnal, yaitu IMRaD. Kerjakan kuis dan ujian dulu, ya!" }
+        {
+          "type": "heading",
+          "text": "Hindari Ini Sejak Awal"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Merasa opini pribadi sudah cukup, padahal belum ada bukti pendukung.",
+            "Menyalin kalimat orang lain tanpa menyebut sumber (ini plagiarisme!).",
+            "Mencampur gaya bahasa gaul/blog ke dalam tulisan formal.",
+            "Menulis tanpa tesis atau pertanyaan yang jelas, jadi tulisan 'ke mana-mana'.",
+            "Mengabaikan struktur baku yang diharapkan pembaca akademik."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Menulis akademik pada dasarnya adalah 'berpikir yang terlihat'. Kalau tulisanmu jernih, artinya cara berpikirmu juga jernih.",
+          "source": "Prinsip penulisan ilmiah"
+        },
+        {
+          "type": "callout",
+          "title": "Siap ke Level 2?",
+          "text": "Setelah kamu paham empat bentuk ini, langkah berikutnya adalah membedah 'kerangka' artikel jurnal, yaitu IMRaD. Kerjakan kuis dan ujian dulu, ya!"
+        }
       ]
     }
   ],
@@ -154,49 +346,84 @@
       {
         "id": "q1-1",
         "question": "Istilah yang menjadi 'payung' untuk semua tulisan bermetode ilmiah adalah…",
-        "options": ["Esai", "KTI (Karya Tulis Ilmiah)", "Prosiding", "Abstrak"],
+        "options": [
+          "Esai",
+          "KTI (Karya Tulis Ilmiah)",
+          "Prosiding",
+          "Abstrak"
+        ],
         "answer": 1,
         "explanation": "KTI adalah istilah umum; skripsi, makalah, dan artikel jurnal semuanya termasuk KTI."
       },
       {
         "id": "q1-2",
         "question": "Ciri utama yang membedakan artikel jurnal dari esai adalah…",
-        "options": ["Selalu lebih pendek", "Melewati peer review (diperiksa ahli)", "Tidak butuh referensi", "Ditulis santai"],
+        "options": [
+          "Selalu lebih pendek",
+          "Melewati peer review (diperiksa ahli)",
+          "Tidak butuh referensi",
+          "Ditulis santai"
+        ],
         "answer": 1,
         "explanation": "Artikel jurnal wajib lolos penelaahan ahli sebidang sebelum terbit."
       },
       {
         "id": "q1-3",
         "question": "Struktur khas sebuah esai adalah…",
-        "options": ["IMRaD", "Pendahuluan–Isi–Penutup", "Abstrak–Metode–Lampiran", "Judul–Daftar Pustaka"],
+        "options": [
+          "IMRaD",
+          "Pendahuluan–Isi–Penutup",
+          "Abstrak–Metode–Lampiran",
+          "Judul–Daftar Pustaka"
+        ],
         "answer": 1,
         "explanation": "Esai bertumpu pada tiga bagian: pendahuluan (tesis), isi (argumen), penutup."
       },
       {
         "id": "q1-4",
         "question": "'Objektif' dalam tulisan akademik artinya…",
-        "options": ["Menuliskan perasaan penulis", "Menyampaikan klaim tanpa dibawa emosi dan didukung bukti", "Menghindari semua sumber", "Memakai bahasa kiasan"],
+        "options": [
+          "Menuliskan perasaan penulis",
+          "Menyampaikan klaim tanpa dibawa emosi dan didukung bukti",
+          "Menghindari semua sumber",
+          "Memakai bahasa kiasan"
+        ],
         "answer": 1,
         "explanation": "Objektif berarti netral, fokus ke gagasan, dan bisa diverifikasi lewat bukti."
       },
       {
         "id": "q1-5",
         "question": "Kumpulan paper konferensi yang lolos seleksi diterbitkan sebagai…",
-        "options": ["Skripsi", "Prosiding (proceedings)", "Koran", "Buku harian"],
+        "options": [
+          "Skripsi",
+          "Prosiding (proceedings)",
+          "Koran",
+          "Buku harian"
+        ],
         "answer": 1,
         "explanation": "Paper konferensi yang lolos terbit dalam prosiding."
       },
       {
         "id": "q1-6",
         "question": "Sebuah kalimat tesis yang baik berisi…",
-        "options": ["Hanya judul topik", "Pendirian penulis + alasannya", "Daftar sumber", "Ucapan terima kasih"],
+        "options": [
+          "Hanya judul topik",
+          "Pendirian penulis + alasannya",
+          "Daftar sumber",
+          "Ucapan terima kasih"
+        ],
         "answer": 1,
         "explanation": "Tesis menyatakan sikap/pendirian sekaligus alasan pendukungnya."
       },
       {
         "id": "q1-7",
         "question": "Analogi 'koki senior mencicipi masakan sebelum disajikan' menggambarkan…",
-        "options": ["Sitasi", "Peer review", "Abstrak", "Daftar pustaka"],
+        "options": [
+          "Sitasi",
+          "Peer review",
+          "Abstrak",
+          "Daftar pustaka"
+        ],
         "answer": 1,
         "explanation": "Itu analogi peer review: ahli memeriksa dan memberi catatan sebelum naskah terbit."
       }
@@ -210,73 +437,151 @@
       {
         "id": "e1-1",
         "question": "Pernyataan PALING tepat tentang hubungan KTI dan artikel jurnal adalah…",
-        "options": ["Keduanya tidak berhubungan", "Artikel jurnal adalah salah satu bentuk KTI", "KTI adalah bagian dari artikel jurnal", "KTI hanya berarti skripsi"],
+        "options": [
+          "Keduanya tidak berhubungan",
+          "Artikel jurnal adalah salah satu bentuk KTI",
+          "KTI adalah bagian dari artikel jurnal",
+          "KTI hanya berarti skripsi"
+        ],
         "answer": 1,
         "explanation": "Artikel jurnal adalah salah satu jenis KTI dengan kredibilitas tertinggi."
       },
       {
         "id": "e1-2",
         "question": "Mahasiswa menulis 1.200 kata berisi argumen pribadinya tentang pendidikan, didukung beberapa referensi, tanpa penelitian lapangan. Ini paling tepat disebut…",
-        "options": ["Artikel jurnal", "Esai", "Disertasi", "Prosiding"],
+        "options": [
+          "Artikel jurnal",
+          "Esai",
+          "Disertasi",
+          "Prosiding"
+        ],
         "answer": 1,
         "explanation": "Argumen ringkas berbasis gagasan penulis dengan sedikit referensi adalah esai."
       },
       {
         "id": "e1-3",
         "question": "Kenapa peer review membuat sebuah tulisan lebih kredibel?",
-        "options": ["Membuat tulisan lebih panjang", "Diuji oleh pakar sebidang sebelum terbit", "Menambah jumlah gambar", "Mempercepat publikasi"],
+        "options": [
+          "Membuat tulisan lebih panjang",
+          "Diuji oleh pakar sebidang sebelum terbit",
+          "Menambah jumlah gambar",
+          "Mempercepat publikasi"
+        ],
         "answer": 1,
         "explanation": "Pemeriksaan oleh ahli menyaring kesalahan dan menjaga mutu ilmiah."
       },
       {
         "id": "e1-4",
         "question": "Manakah yang BUKAN ciri tulisan akademik?",
-        "options": ["Sistematis", "Objektif", "Berdasarkan bukti", "Bergaya curhat emosional"],
+        "options": [
+          "Sistematis",
+          "Objektif",
+          "Berdasarkan bukti",
+          "Bergaya curhat emosional"
+        ],
         "answer": 3,
         "explanation": "Gaya emosional/subjektif bertentangan dengan prinsip objektivitas."
       },
       {
         "id": "e1-5",
         "question": "Perbedaan utama tulisan blog dan tulisan akademik terletak pada…",
-        "options": ["Panjang tulisan saja", "Kewajiban menyebut sumber dan gaya formal-objektif", "Warna huruf", "Jumlah paragraf"],
+        "options": [
+          "Panjang tulisan saja",
+          "Kewajiban menyebut sumber dan gaya formal-objektif",
+          "Warna huruf",
+          "Jumlah paragraf"
+        ],
         "answer": 1,
         "explanation": "Tulisan akademik wajib bersumber, formal, dan objektif — beda dengan blog."
       },
       {
         "id": "e1-6",
         "question": "Perbedaan menonjol antara paper dan artikel jurnal adalah…",
-        "options": ["Paper tidak boleh punya referensi", "Artikel jurnal umumnya lebih dalam dan wajib peer review", "Paper selalu lebih panjang", "Artikel jurnal tidak boleh dipublikasikan"],
+        "options": [
+          "Paper tidak boleh punya referensi",
+          "Artikel jurnal umumnya lebih dalam dan wajib peer review",
+          "Paper selalu lebih panjang",
+          "Artikel jurnal tidak boleh dipublikasikan"
+        ],
         "answer": 1,
         "explanation": "Artikel jurnal lebih mendalam dan melewati peer review formal."
       },
       {
         "id": "e1-7",
         "question": "Fungsi utama sitasi adalah…",
-        "options": ["Memperpanjang tulisan", "Menghargai sumber & menghindari plagiarisme", "Menghias halaman", "Menggantikan kesimpulan"],
+        "options": [
+          "Memperpanjang tulisan",
+          "Menghargai sumber & menghindari plagiarisme",
+          "Menghias halaman",
+          "Menggantikan kesimpulan"
+        ],
         "answer": 1,
         "explanation": "Sitasi mengakui gagasan orang lain dan melindungi dari plagiarisme."
       },
       {
         "id": "e1-8",
         "question": "Kalau topik 'sampah plastik' ditulis sebagai eksperimen penuh pada 240 rumah tangga dengan struktur IMRaD, bentuknya adalah…",
-        "options": ["Esai", "Artikel jurnal", "Status media sosial", "Catatan harian"],
+        "options": [
+          "Esai",
+          "Artikel jurnal",
+          "Status media sosial",
+          "Catatan harian"
+        ],
         "answer": 1,
         "explanation": "Penelitian penuh ber-IMRaD dan peer-reviewed adalah artikel jurnal."
       },
       {
         "id": "e1-9",
         "question": "'Setiap klaim harus bisa diverifikasi' menuntut penulis untuk…",
-        "options": ["Menyembunyikan sumber", "Menunjukkan dasar/bukti dari klaimnya", "Menghindari data", "Menulis sepanjang mungkin"],
+        "options": [
+          "Menyembunyikan sumber",
+          "Menunjukkan dasar/bukti dari klaimnya",
+          "Menghindari data",
+          "Menulis sepanjang mungkin"
+        ],
         "answer": 1,
         "explanation": "Verifikasi menuntut bukti atau referensi yang bisa ditelusuri."
       },
       {
         "id": "e1-10",
         "question": "Urutan dari yang paling ringan sampai paling mendalam yang benar adalah…",
-        "options": ["Jurnal → Paper → Esai", "Esai → Paper → Artikel jurnal", "Paper → Esai → Jurnal", "Semua sama saja"],
+        "options": [
+          "Jurnal → Paper → Esai",
+          "Esai → Paper → Artikel jurnal",
+          "Paper → Esai → Jurnal",
+          "Semua sama saja"
+        ],
         "answer": 1,
         "explanation": "Esai paling ringan, paper sedang, artikel jurnal paling mendalam."
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "The Craft of Research",
+      "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, Joseph Bizup, William T. FitzGerald",
+      "publisher": "University of Chicago Press",
+      "note": "Dasar konsep apa itu tulisan akademik dan kenapa klaim butuh bukti."
+    },
+    {
+      "title": "Academic Writing for Graduate Students: Essential Tasks and Skills",
+      "author": "John M. Swales, Christine B. Feak",
+      "publisher": "University of Michigan Press",
+      "note": "Pembeda tulisan akademik dan tulisan umum."
+    },
+    {
+      "title": "Pedoman Umum Ejaan Bahasa Indonesia (EYD)",
+      "author": "Badan Pengembangan dan Pembinaan Bahasa",
+      "publisher": "Kemendikbudristek",
+      "url": "https://ejaan.kemdikbud.go.id",
+      "note": "Acuan resmi kaidah penulisan bahasa Indonesia."
+    },
+    {
+      "title": "Purdue Online Writing Lab (OWL) — Academic Writing",
+      "author": "Purdue University",
+      "publisher": "Purdue OWL",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/index.html",
+      "note": "Referensi ciri dan etika tulisan akademik."
+    }
+  ]
 }

@@ -10,59 +10,137 @@
       "id": "5-1",
       "title": "Manajer Referensi",
       "blocks": [
-        { "type": "heading", "text": "Berhenti Menulis Daftar Pustaka Manual" },
-        { "type": "paragraph", "text": "Bayangkan kamu punya 40 sumber. Menulis daftar pustakanya satu per satu secara manual itu melelahkan dan rawan salah. Di sinilah manajer referensi (reference manager) menyelamatkanmu: ia menyimpan semua sumber, lalu menyisipkan sitasi dan daftar pustaka secara OTOMATIS dan konsisten." },
-        { "type": "paragraph", "text": "Bahkan, kalau dosen tiba-tiba minta ganti gaya dari APA ke IEEE, kamu cukup satu klik — seluruh naskah berubah. Dua yang paling populer adalah Mendeley (buatan Elsevier) dan Zotero (open source alias gratis-terbuka)." },
+        {
+          "type": "heading",
+          "text": "Berhenti Menulis Daftar Pustaka Manual"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bayangkan kamu punya 40 sumber. Menulis daftar pustakanya satu per satu secara manual itu melelahkan dan rawan salah. Di sinilah manajer referensi (reference manager) menyelamatkanmu: ia menyimpan semua sumber, lalu menyisipkan sitasi dan daftar pustaka secara OTOMATIS dan konsisten."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bahkan, kalau dosen tiba-tiba minta ganti gaya dari APA ke IEEE, kamu cukup satu klik — seluruh naskah berubah. Dua yang paling populer adalah Mendeley (buatan Elsevier) dan Zotero (open source alias gratis-terbuka)."
+        },
         {
           "type": "table",
-          "headers": ["Perangkat", "Sifat", "Keunggulan"],
+          "headers": [
+            "Perangkat",
+            "Sifat",
+            "Keunggulan"
+          ],
           "rows": [
-            ["Zotero", "Open source, gratis", "Ringan, plugin browser, komunitas aktif"],
-            ["Mendeley", "Gratis (milik Elsevier)", "Terhubung Scopus, ada pembaca PDF"],
-            ["EndNote", "Berbayar", "Fitur lengkap, umum di institusi besar"]
+            [
+              "Zotero",
+              "Open source, gratis",
+              "Ringan, plugin browser, komunitas aktif"
+            ],
+            [
+              "Mendeley",
+              "Gratis (milik Elsevier)",
+              "Terhubung Scopus, ada pembaca PDF"
+            ],
+            [
+              "EndNote",
+              "Berbayar",
+              "Fitur lengkap, umum di institusi besar"
+            ]
           ]
         },
-        { "type": "callout", "title": "Saran untuk Pemula", "text": "Mulailah dari Zotero. Gratis, ringan, dan cukup untuk kebutuhan skripsi maupun artikel pertamamu." }
+        {
+          "type": "callout",
+          "title": "Saran untuk Pemula",
+          "text": "Mulailah dari Zotero. Gratis, ringan, dan cukup untuk kebutuhan skripsi maupun artikel pertamamu."
+        }
       ]
     },
     {
       "id": "5-2",
       "title": "Cek Orisinalitas: Turnitin",
       "blocks": [
-        { "type": "heading", "text": "Mengukur Kemiripan Naskah" },
-        { "type": "paragraph", "text": "Turnitin membandingkan naskahmu dengan jutaan dokumen (jurnal, tugas mahasiswa, halaman web) lalu memberi angka kemiripan (similarity index). Banyak kampus menetapkan batas aman di bawah 20–25%, walau angkanya berbeda-beda tiap institusi." },
-        { "type": "paragraph", "text": "Ingat lagi pelajaran Level 3: skor rendah TIDAK otomatis berarti bebas plagiarisme, karena Turnitin hanya mengukur kemiripan kata — bukan orisinalitas ide. Jadikan Turnitin sebagai alat bantu memperbaiki, bukan sebagai tujuan akhir." }
+        {
+          "type": "heading",
+          "text": "Mengukur Kemiripan Naskah"
+        },
+        {
+          "type": "paragraph",
+          "text": "Turnitin membandingkan naskahmu dengan jutaan dokumen (jurnal, tugas mahasiswa, halaman web) lalu memberi angka kemiripan (similarity index). Banyak kampus menetapkan batas aman di bawah 20–25%, walau angkanya berbeda-beda tiap institusi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ingat lagi pelajaran Level 3: skor rendah TIDAK otomatis berarti bebas plagiarisme, karena Turnitin hanya mengukur kemiripan kata — bukan orisinalitas ide. Jadikan Turnitin sebagai alat bantu memperbaiki, bukan sebagai tujuan akhir."
+        }
       ]
     },
     {
       "id": "5-3",
       "title": "Menulis dengan Overleaf (LaTeX)",
       "blocks": [
-        { "type": "heading", "text": "Untuk Naskah Penuh Rumus" },
-        { "type": "paragraph", "text": "Overleaf adalah editor daring untuk LaTeX — sebuah sistem penulisan yang unggul untuk dokumen dengan banyak rumus matematika, tabel rumit, dan format jurnal yang ketat. Banyak jurnal sains dan teknik menyediakan templat LaTeX resmi yang bisa langsung dibuka di Overleaf." },
-        { "type": "list", "ordered": false, "items": [
-          "Overleaf → menulis LaTeX bareng tim, langsung dari browser (tanpa instal apa pun).",
-          "Cocok untuk bidang matematika, fisika, teknik, dan ilmu komputer.",
-          "Untuk tulisan biasa tanpa banyak rumus, Microsoft Word atau Google Docs sudah cukup.",
-          "Grammarly / LanguageTool → memeriksa tata bahasa; membantu, tapi bukan pengganti revisi manusia."
-        ]}
+        {
+          "type": "heading",
+          "text": "Untuk Naskah Penuh Rumus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Overleaf adalah editor daring untuk LaTeX — sebuah sistem penulisan yang unggul untuk dokumen dengan banyak rumus matematika, tabel rumit, dan format jurnal yang ketat. Banyak jurnal sains dan teknik menyediakan templat LaTeX resmi yang bisa langsung dibuka di Overleaf."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Overleaf → menulis LaTeX bareng tim, langsung dari browser (tanpa instal apa pun).",
+            "Cocok untuk bidang matematika, fisika, teknik, dan ilmu komputer.",
+            "Untuk tulisan biasa tanpa banyak rumus, Microsoft Word atau Google Docs sudah cukup.",
+            "Grammarly / LanguageTool → memeriksa tata bahasa; membantu, tapi bukan pengganti revisi manusia."
+          ]
+        }
       ]
     },
     {
       "id": "5-4",
       "title": "Indeksasi & Reputasi Jurnal",
       "blocks": [
-        { "type": "heading", "text": "Kenapa Ada Jurnal yang Lebih Bergengsi?" },
-        { "type": "paragraph", "text": "Indeksasi artinya sebuah jurnal terdaftar di basis data tertentu setelah memenuhi standar mutu. Semakin bergengsi indeksnya, semakin dihargai artikel yang terbit di sana. Ini beberapa sistem yang wajib kamu kenal:" },
+        {
+          "type": "heading",
+          "text": "Kenapa Ada Jurnal yang Lebih Bergengsi?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Indeksasi artinya sebuah jurnal terdaftar di basis data tertentu setelah memenuhi standar mutu. Semakin bergengsi indeksnya, semakin dihargai artikel yang terbit di sana. Ini beberapa sistem yang wajib kamu kenal:"
+        },
         {
           "type": "table",
-          "headers": ["Sistem", "Cakupan", "Keterangan Penting"],
+          "headers": [
+            "Sistem",
+            "Cakupan",
+            "Keterangan Penting"
+          ],
           "rows": [
-            ["Scopus", "Internasional (Elsevier)", "Basis data sitasi global; punya peringkat kuartil Q1–Q4"],
-            ["Web of Science", "Internasional (Clarivate)", "Sumber metrik Impact Factor (JIF)"],
-            ["SINTA", "Nasional (Indonesia)", "Peringkat S1–S6, dikelola Kemendikbud lewat sistem Arjuna"],
-            ["DOAJ", "Internasional", "Direktori jurnal akses terbuka (open access) bereputasi"],
-            ["Google Scholar", "Terbuka luas", "Mesin pencari akademik; indeks paling inklusif, kurasi paling longgar"]
+            [
+              "Scopus",
+              "Internasional (Elsevier)",
+              "Basis data sitasi global; punya peringkat kuartil Q1–Q4"
+            ],
+            [
+              "Web of Science",
+              "Internasional (Clarivate)",
+              "Sumber metrik Impact Factor (JIF)"
+            ],
+            [
+              "SINTA",
+              "Nasional (Indonesia)",
+              "Peringkat S1–S6, dikelola Kemendikbud lewat sistem Arjuna"
+            ],
+            [
+              "DOAJ",
+              "Internasional",
+              "Direktori jurnal akses terbuka (open access) bereputasi"
+            ],
+            [
+              "Google Scholar",
+              "Terbuka luas",
+              "Mesin pencari akademik; indeks paling inklusif, kurasi paling longgar"
+            ]
           ]
         }
       ]
@@ -71,76 +149,180 @@
       "id": "5-5",
       "title": "Memahami Kuartil Scopus",
       "blocks": [
-        { "type": "heading", "text": "Q1, Q2, Q3, Q4" },
-        { "type": "paragraph", "text": "Scopus mengurutkan jurnal dalam tiap bidang lalu membaginya menjadi empat kelompok sama besar (kuartil), berdasarkan metrik sitasi seperti CiteScore atau SJR." },
+        {
+          "type": "heading",
+          "text": "Q1, Q2, Q3, Q4"
+        },
+        {
+          "type": "paragraph",
+          "text": "Scopus mengurutkan jurnal dalam tiap bidang lalu membaginya menjadi empat kelompok sama besar (kuartil), berdasarkan metrik sitasi seperti CiteScore atau SJR."
+        },
         {
           "type": "table",
-          "headers": ["Kuartil", "Posisi", "Arti"],
+          "headers": [
+            "Kuartil",
+            "Posisi",
+            "Arti"
+          ],
           "rows": [
-            ["Q1", "25% teratas", "Paling bergengsi di bidangnya"],
-            ["Q2", "25–50%", "Sangat baik"],
-            ["Q3", "50–75%", "Cukup baik"],
-            ["Q4", "75–100% (terbawah)", "Peringkat paling bawah, tetap terindeks Scopus"]
+            [
+              "Q1",
+              "25% teratas",
+              "Paling bergengsi di bidangnya"
+            ],
+            [
+              "Q2",
+              "25–50%",
+              "Sangat baik"
+            ],
+            [
+              "Q3",
+              "50–75%",
+              "Cukup baik"
+            ],
+            [
+              "Q4",
+              "75–100% (terbawah)",
+              "Peringkat paling bawah, tetap terindeks Scopus"
+            ]
           ]
         },
-        { "type": "paragraph", "text": "Dua metrik yang sering disebut: CiteScore (rata-rata sitasi dalam beberapa tahun terakhir) dan SJR/SCImago Journal Rank (menghitung sitasi sekaligus 'prestise' jurnal yang menyitasi — sitasi dari jurnal ternama bernilai lebih tinggi)." },
-        { "type": "callout", "title": "Ingat", "text": "Q1 bukan berarti 'satu-satunya yang bagus'. Q4 pun tetap jurnal terindeks Scopus yang kredibel. Kuartil hanya menunjukkan posisi relatif di bidangnya." }
+        {
+          "type": "paragraph",
+          "text": "Dua metrik yang sering disebut: CiteScore (rata-rata sitasi dalam beberapa tahun terakhir) dan SJR/SCImago Journal Rank (menghitung sitasi sekaligus 'prestise' jurnal yang menyitasi — sitasi dari jurnal ternama bernilai lebih tinggi)."
+        },
+        {
+          "type": "callout",
+          "title": "Ingat",
+          "text": "Q1 bukan berarti 'satu-satunya yang bagus'. Q4 pun tetap jurnal terindeks Scopus yang kredibel. Kuartil hanya menunjukkan posisi relatif di bidangnya."
+        }
       ]
     },
     {
       "id": "5-6",
       "title": "Peringkat SINTA (S1–S6)",
       "blocks": [
-        { "type": "heading", "text": "Sistem Nasional Indonesia" },
-        { "type": "paragraph", "text": "SINTA (Science and Technology Index) memeringkat jurnal Indonesia dari S1 (tertinggi) sampai S6 (terendah), berdasarkan nilai akreditasi yang dinilai lewat sistem Arjuna oleh Kemendikbud. Berikut rentang nilainya:" },
+        {
+          "type": "heading",
+          "text": "Sistem Nasional Indonesia"
+        },
+        {
+          "type": "paragraph",
+          "text": "SINTA (Science and Technology Index) memeringkat jurnal Indonesia dari S1 (tertinggi) sampai S6 (terendah), berdasarkan nilai akreditasi yang dinilai lewat sistem Arjuna oleh Kemendikbud. Berikut rentang nilainya:"
+        },
         {
           "type": "table",
-          "headers": ["Peringkat", "Nilai Akreditasi", "Catatan"],
+          "headers": [
+            "Peringkat",
+            "Nilai Akreditasi",
+            "Catatan"
+          ],
           "rows": [
-            ["Sinta 1", "85 – 100", "Kualitas terbaik; sering juga terindeks Scopus"],
-            ["Sinta 2", "70 – <85", "Sangat baik"],
-            ["Sinta 3", "60 – <70", "Baik"],
-            ["Sinta 4", "50 – <60", "Cukup"],
-            ["Sinta 5", "40 – <50", "Sedang"],
-            ["Sinta 6", "30 – <40", "Terakreditasi peringkat terendah"]
+            [
+              "Sinta 1",
+              "85 – 100",
+              "Kualitas terbaik; sering juga terindeks Scopus"
+            ],
+            [
+              "Sinta 2",
+              "70 – <85",
+              "Sangat baik"
+            ],
+            [
+              "Sinta 3",
+              "60 – <70",
+              "Baik"
+            ],
+            [
+              "Sinta 4",
+              "50 – <60",
+              "Cukup"
+            ],
+            [
+              "Sinta 5",
+              "40 – <50",
+              "Sedang"
+            ],
+            [
+              "Sinta 6",
+              "30 – <40",
+              "Terakreditasi peringkat terendah"
+            ]
           ]
         },
-        { "type": "paragraph", "text": "Untuk mahasiswa dan dosen Indonesia, target awal yang realistis biasanya jurnal SINTA 3–4, lalu meningkat seiring pengalaman menuju SINTA 1–2 atau jurnal Scopus." }
+        {
+          "type": "paragraph",
+          "text": "Untuk mahasiswa dan dosen Indonesia, target awal yang realistis biasanya jurnal SINTA 3–4, lalu meningkat seiring pengalaman menuju SINTA 1–2 atau jurnal Scopus."
+        }
       ]
     },
     {
       "id": "5-7",
       "title": "Alur dari Naskah ke Terbit",
       "blocks": [
-        { "type": "heading", "text": "Langkah demi Langkah" },
-        { "type": "list", "ordered": true, "items": [
-          "Pilih jurnal yang cocok bidangnya (scope) dan sesuai indeksasi yang kamu incar.",
-          "Susun naskah mengikuti templat & panduan penulisan (author guidelines) jurnal itu.",
-          "Kirim (submit) lewat sistem daring, biasanya OJS (Open Journal Systems).",
-          "Naskah masuk proses peer review; kamu bisa dapat keputusan revisi mayor atau minor.",
-          "Perbaiki naskah sesuai catatan reviewer, lalu kirim ulang sampai diterima (accepted).",
-          "Proofreading, penetapan DOI, lalu artikel resmi terbit (published)."
-        ]},
-        { "type": "callout", "title": "Apa Itu DOI?", "text": "DOI (Digital Object Identifier) adalah 'nomor identitas permanen' sebuah artikel, misalnya 10.1234/abcd. Dengan DOI, artikelmu selalu bisa ditemukan dan dirujuk orang lain, meski situs jurnalnya berubah alamat." }
+        {
+          "type": "heading",
+          "text": "Langkah demi Langkah"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Pilih jurnal yang cocok bidangnya (scope) dan sesuai indeksasi yang kamu incar.",
+            "Susun naskah mengikuti templat & panduan penulisan (author guidelines) jurnal itu.",
+            "Kirim (submit) lewat sistem daring, biasanya OJS (Open Journal Systems).",
+            "Naskah masuk proses peer review; kamu bisa dapat keputusan revisi mayor atau minor.",
+            "Perbaiki naskah sesuai catatan reviewer, lalu kirim ulang sampai diterima (accepted).",
+            "Proofreading, penetapan DOI, lalu artikel resmi terbit (published)."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Apa Itu DOI?",
+          "text": "DOI (Digital Object Identifier) adalah 'nomor identitas permanen' sebuah artikel, misalnya 10.1234/abcd. Dengan DOI, artikelmu selalu bisa ditemukan dan dirujuk orang lain, meski situs jurnalnya berubah alamat."
+        }
       ]
     },
     {
       "id": "5-8",
       "title": "Waspada Jurnal Predator",
       "blocks": [
-        { "type": "heading", "text": "Jangan Tertipu Terbit Cepat" },
-        { "type": "paragraph", "text": "Jurnal predator adalah jurnal 'abal-abal' yang menjanjikan terbit sangat cepat asalkan kamu membayar (biaya ini disebut APC), TANPA proses peer review yang sungguh-sungguh. Mereka mengejar uang, bukan mutu. Terbit di sini justru bisa merusak reputasi akademikmu." },
-        { "type": "subheading", "text": "Ciri-Ciri yang Perlu Diwaspadai" },
-        { "type": "list", "ordered": false, "items": [
-          "Email spam mengajak submit dengan janji 'terbit dalam 3 hari'.",
-          "Klaim terindeks Scopus/DOAJ tapi tidak bisa dibuktikan saat dicek.",
-          "Biaya tidak transparan atau baru muncul setelah naskah dikirim.",
-          "Proses review tidak jelas atau terlalu cepat (mustahil beberapa jam).",
-          "Situs web berantakan, banyak salah ketik, alamat redaksi tidak jelas."
-        ]},
-        { "type": "subheading", "text": "Cara Aman: Think. Check. Submit." },
-        { "type": "paragraph", "text": "Sebelum mengirim naskah, verifikasi dulu jurnalnya. Cek langsung di situs resmi Scopus, DOAJ, atau SINTA — jangan percaya klaim di email atau iklan. Prinsip 'Think, Check, Submit' berarti: pikirkan dulu, periksa kredibilitasnya, baru kirim." },
-        { "type": "quote", "text": "Publikasi yang baik bukan yang tercepat, melainkan yang melewati telaah jujur dan terbit di tempat yang kredibel.", "source": "Etika publikasi ilmiah" }
+        {
+          "type": "heading",
+          "text": "Jangan Tertipu Terbit Cepat"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jurnal predator adalah jurnal 'abal-abal' yang menjanjikan terbit sangat cepat asalkan kamu membayar (biaya ini disebut APC), TANPA proses peer review yang sungguh-sungguh. Mereka mengejar uang, bukan mutu. Terbit di sini justru bisa merusak reputasi akademikmu."
+        },
+        {
+          "type": "subheading",
+          "text": "Ciri-Ciri yang Perlu Diwaspadai"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Email spam mengajak submit dengan janji 'terbit dalam 3 hari'.",
+            "Klaim terindeks Scopus/DOAJ tapi tidak bisa dibuktikan saat dicek.",
+            "Biaya tidak transparan atau baru muncul setelah naskah dikirim.",
+            "Proses review tidak jelas atau terlalu cepat (mustahil beberapa jam).",
+            "Situs web berantakan, banyak salah ketik, alamat redaksi tidak jelas."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Cara Aman: Think. Check. Submit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sebelum mengirim naskah, verifikasi dulu jurnalnya. Cek langsung di situs resmi Scopus, DOAJ, atau SINTA — jangan percaya klaim di email atau iklan. Prinsip 'Think, Check, Submit' berarti: pikirkan dulu, periksa kredibilitasnya, baru kirim."
+        },
+        {
+          "type": "quote",
+          "text": "Publikasi yang baik bukan yang tercepat, melainkan yang melewati telaah jujur dan terbit di tempat yang kredibel.",
+          "source": "Etika publikasi ilmiah"
+        }
       ]
     }
   ],
@@ -152,49 +334,84 @@
       {
         "id": "q5-1",
         "question": "Perangkat manajer referensi yang bersifat open source (gratis) adalah…",
-        "options": ["Mendeley", "Zotero", "Turnitin", "Overleaf"],
+        "options": [
+          "Mendeley",
+          "Zotero",
+          "Turnitin",
+          "Overleaf"
+        ],
         "answer": 1,
         "explanation": "Zotero adalah reference manager sumber terbuka."
       },
       {
         "id": "q5-2",
         "question": "Turnitin berfungsi untuk…",
-        "options": ["Menyusun rumus LaTeX", "Memeriksa kemiripan (similarity) teks", "Membuat grafik", "Mengindeks jurnal"],
+        "options": [
+          "Menyusun rumus LaTeX",
+          "Memeriksa kemiripan (similarity) teks",
+          "Membuat grafik",
+          "Mengindeks jurnal"
+        ],
         "answer": 1,
         "explanation": "Turnitin mendeteksi kemiripan naskah dengan basis data global."
       },
       {
         "id": "q5-3",
         "question": "Sistem pemeringkatan jurnal nasional Indonesia adalah…",
-        "options": ["Scopus", "SINTA", "DOAJ", "Web of Science"],
+        "options": [
+          "Scopus",
+          "SINTA",
+          "DOAJ",
+          "Web of Science"
+        ],
         "answer": 1,
         "explanation": "SINTA memeringkat jurnal Indonesia dari S1 sampai S6."
       },
       {
         "id": "q5-4",
         "question": "Overleaf paling berguna untuk menulis naskah yang…",
-        "options": ["Penuh rumus & format LaTeX", "Tanpa referensi", "Hanya berupa gambar", "Berbentuk video"],
+        "options": [
+          "Penuh rumus & format LaTeX",
+          "Tanpa referensi",
+          "Hanya berupa gambar",
+          "Berbentuk video"
+        ],
         "answer": 0,
         "explanation": "Overleaf adalah editor LaTeX daring, unggul untuk rumus dan format jurnal."
       },
       {
         "id": "q5-5",
         "question": "Q1 dalam Scopus menandakan jurnal yang berada di…",
-        "options": ["25% terbawah", "25% teratas di bidangnya", "Tidak terindeks", "Kategori predator"],
+        "options": [
+          "25% terbawah",
+          "25% teratas di bidangnya",
+          "Tidak terindeks",
+          "Kategori predator"
+        ],
         "answer": 1,
         "explanation": "Q1 adalah kuartil teratas berdasarkan metrik sitasi."
       },
       {
         "id": "q5-6",
         "question": "Peringkat SINTA tertinggi adalah…",
-        "options": ["S6", "S1", "S3", "S0"],
+        "options": [
+          "S6",
+          "S1",
+          "S3",
+          "S0"
+        ],
         "answer": 1,
         "explanation": "SINTA 1 (nilai 85–100) adalah peringkat tertinggi."
       },
       {
         "id": "q5-7",
         "question": "DOI berfungsi sebagai…",
-        "options": ["Pengganti abstrak", "Nomor identitas permanen artikel agar mudah dirujuk", "Skor plagiarisme", "Nama penulis"],
+        "options": [
+          "Pengganti abstrak",
+          "Nomor identitas permanen artikel agar mudah dirujuk",
+          "Skor plagiarisme",
+          "Nama penulis"
+        ],
         "answer": 1,
         "explanation": "DOI adalah identitas digital permanen sebuah artikel."
       }
@@ -208,73 +425,161 @@
       {
         "id": "e5-1",
         "question": "Keunggulan utama manajer referensi (Zotero/Mendeley) adalah…",
-        "options": ["Menulis abstrak otomatis", "Menyisipkan sitasi & daftar pustaka otomatis dan konsisten", "Menggantikan peer review", "Mempercepat internet"],
+        "options": [
+          "Menulis abstrak otomatis",
+          "Menyisipkan sitasi & daftar pustaka otomatis dan konsisten",
+          "Menggantikan peer review",
+          "Mempercepat internet"
+        ],
         "answer": 1,
         "explanation": "Manajer referensi meng-otomasi sitasi dan daftar pustaka."
       },
       {
         "id": "e5-2",
         "question": "Batas kemiripan Turnitin yang 'wajar' pada banyak kampus berkisar…",
-        "options": ["Di atas 80%", "Di bawah 20–25% (berbeda tiap institusi)", "Tepat 50%", "Tidak ada patokan"],
+        "options": [
+          "Di atas 80%",
+          "Di bawah 20–25% (berbeda tiap institusi)",
+          "Tepat 50%",
+          "Tidak ada patokan"
+        ],
         "answer": 1,
         "explanation": "Umumnya di bawah 20–25%, meski ambangnya berbeda tiap institusi."
       },
       {
         "id": "e5-3",
         "question": "Ciri jurnal predator yang paling menonjol adalah…",
-        "options": ["Peer review ketat", "Menjanjikan terbit sangat cepat berbayar tanpa telaah sungguh-sungguh", "Terindeks Scopus & DOAJ resmi", "Biaya transparan"],
+        "options": [
+          "Peer review ketat",
+          "Menjanjikan terbit sangat cepat berbayar tanpa telaah sungguh-sungguh",
+          "Terindeks Scopus & DOAJ resmi",
+          "Biaya transparan"
+        ],
         "answer": 1,
         "explanation": "Predator menjanjikan terbit kilat berbayar tanpa peer review nyata."
       },
       {
         "id": "e5-4",
         "question": "DOAJ adalah direktori untuk jurnal…",
-        "options": ["Akses terbuka (open access) bereputasi", "Berbayar tertutup", "Predator", "Tanpa ISSN"],
+        "options": [
+          "Akses terbuka (open access) bereputasi",
+          "Berbayar tertutup",
+          "Predator",
+          "Tanpa ISSN"
+        ],
         "answer": 0,
         "explanation": "DOAJ (Directory of Open Access Journals) mengindeks jurnal OA kredibel."
       },
       {
         "id": "e5-5",
         "question": "Urutan alur publikasi yang benar adalah…",
-        "options": ["Submit → Terbit → Peer review", "Pilih jurnal → Submit → Peer review → Revisi → Accepted → Terbit", "Terbit → Submit → Revisi", "Peer review → Pilih jurnal → Submit"],
+        "options": [
+          "Submit → Terbit → Peer review",
+          "Pilih jurnal → Submit → Peer review → Revisi → Accepted → Terbit",
+          "Terbit → Submit → Revisi",
+          "Peer review → Pilih jurnal → Submit"
+        ],
         "answer": 1,
         "explanation": "Alur baku dimulai dari memilih jurnal hingga terbit ber-DOI."
       },
       {
         "id": "e5-6",
         "question": "Peringkat SINTA ditentukan berdasarkan…",
-        "options": ["Jumlah pengikut jurnal", "Nilai akreditasi lewat sistem Arjuna (Kemendikbud)", "Warna sampul jurnal", "Harga langganan"],
+        "options": [
+          "Jumlah pengikut jurnal",
+          "Nilai akreditasi lewat sistem Arjuna (Kemendikbud)",
+          "Warna sampul jurnal",
+          "Harga langganan"
+        ],
         "answer": 1,
         "explanation": "SINTA memakai nilai akreditasi yang dinilai melalui Arjuna."
       },
       {
         "id": "e5-7",
         "question": "Sebelum mengirim naskah, cara memverifikasi kredibilitas jurnal yang benar adalah…",
-        "options": ["Percaya email ajakan submit", "Cek langsung di Scopus, DOAJ, atau SINTA resmi", "Lihat iklan media sosial", "Hitung jumlah pengikutnya"],
+        "options": [
+          "Percaya email ajakan submit",
+          "Cek langsung di Scopus, DOAJ, atau SINTA resmi",
+          "Lihat iklan media sosial",
+          "Hitung jumlah pengikutnya"
+        ],
         "answer": 1,
         "explanation": "Verifikasi lewat basis data resmi (Scopus/DOAJ/SINTA), bukan klaim email."
       },
       {
         "id": "e5-8",
         "question": "Perbedaan Scopus dan Google Scholar adalah…",
-        "options": ["Keduanya identik", "Scopus terkurasi & berkuartil; Google Scholar lebih inklusif dengan kurasi longgar", "Google Scholar berbayar", "Scopus tidak mengindeks jurnal"],
+        "options": [
+          "Keduanya identik",
+          "Scopus terkurasi & berkuartil; Google Scholar lebih inklusif dengan kurasi longgar",
+          "Google Scholar berbayar",
+          "Scopus tidak mengindeks jurnal"
+        ],
         "answer": 1,
         "explanation": "Scopus selektif dan berkuartil; Google Scholar mengindeks jauh lebih luas."
       },
       {
         "id": "e5-9",
         "question": "SJR (SCImago Journal Rank) menghitung…",
-        "options": ["Hanya jumlah halaman", "Sitasi sekaligus 'prestise' jurnal yang menyitasi", "Warna grafik", "Jumlah penulis"],
+        "options": [
+          "Hanya jumlah halaman",
+          "Sitasi sekaligus 'prestise' jurnal yang menyitasi",
+          "Warna grafik",
+          "Jumlah penulis"
+        ],
         "answer": 1,
         "explanation": "SJR menimbang jumlah sitasi dan prestise sumber yang menyitasi."
       },
       {
         "id": "e5-10",
         "question": "Prinsip 'Think, Check, Submit' mengajarkan agar penulis…",
-        "options": ["Langsung submit ke jurnal mana pun", "Memikirkan & memeriksa kredibilitas jurnal sebelum mengirim naskah", "Mengutamakan kecepatan terbit", "Membayar agar cepat terbit"],
+        "options": [
+          "Langsung submit ke jurnal mana pun",
+          "Memikirkan & memeriksa kredibilitas jurnal sebelum mengirim naskah",
+          "Mengutamakan kecepatan terbit",
+          "Membayar agar cepat terbit"
+        ],
         "answer": 1,
         "explanation": "Think-Check-Submit: pikirkan, periksa kredibilitas, baru kirim naskah."
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Think. Check. Submit.",
+      "author": "Think. Check. Submit.",
+      "publisher": "think checksubmit.org",
+      "url": "https://thinkchecksubmit.org",
+      "note": "Daftar periksa memverifikasi jurnal sebelum submit."
+    },
+    {
+      "title": "Directory of Open Access Journals (DOAJ)",
+      "author": "DOAJ",
+      "publisher": "DOAJ",
+      "url": "https://doaj.org",
+      "note": "Direktori jurnal akses terbuka bereputasi."
+    },
+    {
+      "title": "SINTA — Science and Technology Index",
+      "author": "Kemendikbudristek",
+      "publisher": "Kemendikbudristek",
+      "url": "https://sinta.kemdikbud.go.id",
+      "note": "Sistem peringkat jurnal nasional S1-S6."
+    },
+    {
+      "title": "Predatory journals: no definition, no defence",
+      "author": "Agnes Grudniewicz et al.",
+      "year": 2019,
+      "publisher": "Nature, 576, 210-212",
+      "url": "https://www.nature.com/articles/d41586-019-03759-y",
+      "note": "Konsensus ciri-ciri jurnal predator."
+    },
+    {
+      "title": "Scimago Journal & Country Rank",
+      "author": "Scimago Lab",
+      "publisher": "Scimago",
+      "url": "https://www.scimagojr.com",
+      "note": "Cara mengecek kuartil jurnal (Q1-Q4) secara gratis."
+    }
+  ]
 }

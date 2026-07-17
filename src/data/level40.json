@@ -1,0 +1,259 @@
+{
+  "id": 40,
+  "slug": "headline-yang-diklik",
+  "title": "Headline yang Diklik",
+  "subtitle": "Menjanjikan dengan jujur, bukan memancing dengan murahan",
+  "goal": "Bisa menyusun headline yang menarik klik memakai formula yang teruji, memahami bedanya dengan clickbait murahan lewat kontrak janji-dan-tepati, dan tahu cara menguji beberapa varian headline alih-alih menebak satu yang 'kelihatannya bagus'.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "40-1",
+      "title": "Headline adalah Kontrak, Bukan Hiasan",
+      "blocks": [
+        { "type": "heading", "text": "Baris Pertama yang Menentukan Segalanya" },
+        { "type": "paragraph", "text": "Rata-rata pembaca memutuskan untuk klik atau lewat hanya dari headline — sebelum membaca satu kalimat pun dari isi tulisanmu. Kamu bisa menulis artikel paling berharga sepanjang tahun, tapi kalau headline-nya lemah, tulisan itu tidak akan pernah dibaca siapa pun." },
+        { "type": "paragraph", "text": "Tapi headline bukan sekadar 'jualan'. Ia adalah KONTRAK: headline berjanji sesuatu kepada pembaca, dan isi tulisan wajib menepatinya. Level ini fokus pada cara menulis headline yang menarik klik SEKALIGUS menepati janjinya — bukan headline yang cuma menarik klik lalu mengecewakan." },
+        { "type": "callout", "title": "Ingat Level 31", "text": "Headline adalah hook pertama sebelum hook — ia harus membuat orang berhenti scroll, persis fungsi 3 detik pertama yang kamu pelajari di Level 31. Bedanya, headline harus melakukan itu dalam satu baris, tanpa konteks apa pun di sekitarnya." }
+      ]
+    },
+    {
+      "id": "40-2",
+      "title": "Clickbait Murahan vs Headline yang Kuat",
+      "blocks": [
+        { "type": "heading", "text": "Bedanya Bukan 'Menarik atau Tidak', tapi 'Menepati atau Tidak'" },
+        { "type": "paragraph", "text": "Banyak orang mengira clickbait berarti 'headline yang menarik perhatian'. Itu keliru. Clickbait murahan adalah headline yang SENGAJA menyembunyikan atau melebih-lebihkan sesuatu supaya orang klik, padahal isinya tidak sepadan dengan janji itu. Headline yang kuat sama-sama menarik perhatian, tapi janjinya jujur dan ditepati." },
+        {
+          "type": "table",
+          "headers": ["Ciri", "Clickbait Murahan", "Headline yang Kuat"],
+          "rows": [
+            ["Rasa penasaran", "Dipicu dengan menyembunyikan info penting ('Anda tidak akan percaya...')", "Dipicu dengan janji spesifik yang jelas apa isinya"],
+            ["Kesesuaian isi", "Isi jauh lebih lemah dari janji headline", "Isi menepati atau melebihi janji headline"],
+            ["Efek jangka panjang", "Pembaca kapok, kepercayaan pada penulis/media turun", "Pembaca kembali lagi karena terbukti bisa dipercaya"],
+            ["Contoh", "\"Trik Ini Bikin Kamu Kaya Mendadak, No. 3 Mengejutkan!\"", "\"5 Kebiasaan Menabung yang Terbukti Menambah Rp2 Juta per Bulan\""]
+          ]
+        },
+        { "type": "callout", "title": "Kenapa Clickbait Murahan Merugikan Penulis Sendiri", "text": "Klik yang didapat dari janji palsu itu satu kali pakai. Pembaca yang merasa ditipu tidak akan percaya headline-mu berikutnya — dan reputasi itu jauh lebih berharga daripada satu klik hari ini." }
+      ]
+    },
+    {
+      "id": "40-3",
+      "title": "Formula Headline yang Terbukti Bekerja",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Rumus Ajaib, Cuma Pola yang Sudah Teruji" },
+        { "type": "paragraph", "text": "Formula headline bukan cara mengakali pembaca — ia cuma pola kalimat yang terbukti membuat janji lebih jelas dan lebih mudah dicerna dalam sepersekian detik. Beberapa yang paling umum:" },
+        {
+          "type": "table",
+          "headers": ["Formula", "Contoh", "Kenapa Bekerja"],
+          "rows": [
+            ["Angka + hasil konkret", "\"7 Cara Menulis Abstrak yang Dilirik Reviewer\"", "Angka memberi ekspektasi jelas: berapa banyak, seberapa lama dibaca"],
+            ["Cara/How-to", "\"Cara Mengatasi Writer's Block Tanpa Menunggu Mood\"", "Menjanjikan solusi konkret atas masalah yang sudah dikenali pembaca"],
+            ["Pertanyaan yang Menohok", "\"Kenapa Draf Pertamamu Boleh Jelek?\"", "Memancing rasa penasaran yang relevan dengan masalah nyata pembaca"],
+            ["Kontras/kejutan", "\"Menulis Lebih Sedikit, Dibaca Lebih Banyak\"", "Menabrak ekspektasi lazim sehingga otak berhenti sejenak"]
+          ]
+        },
+        { "type": "callout", "title": "Formula Cuma Kerangka", "text": "Formula tanpa spesifik dan kejujuran isi cuma jadi clickbait berbaju rapi. Formula membantu MENYUSUN janji, bukan menciptakan janji palsu." }
+      ]
+    },
+    {
+      "id": "40-4",
+      "title": "Spesifik Mengalahkan Hype",
+      "blocks": [
+        { "type": "heading", "text": "Angka dan Detail Konkret Lebih Kuat dari Kata Superlatif" },
+        { "type": "paragraph", "text": "Godaan terbesar saat menulis headline adalah memakai kata-kata besar: 'terbaik', 'luar biasa', 'mengejutkan', 'wajib tahu'. Masalahnya, kata-kata ini sudah terlalu sering dipakai sehingga otak pembaca otomatis mengabaikannya — dan kalau isinya tidak sedahsyat kata itu, kepercayaan pembaca langsung runtuh." },
+        { "type": "quote", "text": "SEBELUM (hype): \"Cara Luar Biasa Menulis Headline yang Wajib Kamu Tahu Sekarang Juga!\"", "source": "Superlatif tanpa isi konkret — janji besar, tidak jelas apa yang didapat" },
+        { "type": "quote", "text": "SESUDAH (spesifik): \"4 Formula Headline yang Dipakai Ulang oleh Redaksi Berita Besar\"", "source": "Angka jelas, klaim bisa diverifikasi, janji konkret" },
+        { "type": "callout", "title": "Uji Sederhana", "text": "Kalau headline-mu bisa diganti kata superlatifnya dengan artikel topik lain tanpa terasa aneh ('Cara Luar Biasa Menurunkan Berat Badan!', 'Cara Luar Biasa Investasi Saham!'), berarti headline itu belum spesifik — ia belum benar-benar tentang tulisanmu." }
+      ]
+    },
+    {
+      "id": "40-5",
+      "title": "Promise-Payoff Contract",
+      "blocks": [
+        { "type": "heading", "text": "Kalau Headline Berjanji, Tulisan Wajib Membayarnya" },
+        { "type": "paragraph", "text": "Ini prinsip paling penting di level ini: setiap kata dalam headline adalah janji implisit. Kalau headline menyebut angka '7 cara', tulisan wajib punya persis (atau setidaknya jelas) 7 cara — bukan 4 cara yang dipanjang-panjangkan jadi kelihatan 7. Kalau headline menjanjikan 'rahasia', isi wajib mengungkap sesuatu yang memang belum umum diketahui." },
+        { "type": "paragraph", "text": "Praktik menulis yang sehat: susun dulu isi tulisan sampai matang, BARU tulis headline yang mencerminkan isi itu dengan jujur — bukan menulis headline dulu lalu memaksakan isi supaya 'sesuai' dengan janji yang berlebihan." },
+        { "type": "callout", "title": "Tes Payoff", "text": "Setelah menulis headline, baca ulang isi tulisanmu dan tanyakan: 'kalau saya orang asing yang cuma baca headline ini, apakah saya akan merasa ditepati janjinya setelah selesai membaca?' Kalau jawabannya ragu-ragu, headline atau isinya perlu direvisi." }
+      ]
+    },
+    {
+      "id": "40-6",
+      "title": "A/B Thinking: Menguji, Bukan Menebak",
+      "blocks": [
+        { "type": "heading", "text": "Headline Terbaik Jarang Muncul di Percobaan Pertama" },
+        { "type": "paragraph", "text": "Media dan penulis profesional jarang puas dengan satu headline. Mereka berpikir dalam kerangka A/B thinking: menulis beberapa versi headline untuk tulisan yang sama, membandingkan mana yang paling menjanjikan dengan jujur DAN paling menarik, lalu memilih (atau, kalau platformnya memungkinkan, menguji langsung ke pembaca)." },
+        { "type": "list", "ordered": true, "items": [
+          "Tulis minimal 3-5 varian headline untuk satu tulisan, dengan sudut berbeda (angka, pertanyaan, kontras, cara).",
+          "Baca semua varian keras-keras — mana yang paling cepat dipahami dalam sekali baca?",
+          "Coret varian yang butuh penjelasan tambahan supaya masuk akal.",
+          "Kalau memungkinkan, uji ke 2-3 orang: mana yang paling membuat mereka penasaran untuk klik?",
+          "Pilih pemenang, tapi pastikan tetap lolos tes payoff di 40-5."
+        ]},
+        { "type": "callout", "title": "Bukan Berarti Menulis Serampangan", "text": "A/B thinking bukan alasan untuk menulis headline asal-asalan dulu, baru diperbaiki nanti. Setiap varian tetap harus lolos aturan payoff — yang diuji adalah mana yang paling KUAT menyampaikan janji yang sama-sama jujur." }
+      ]
+    },
+    {
+      "id": "40-7",
+      "title": "Headline, Hook, dan SEO: Tiga Lapis yang Bekerja Bersama",
+      "blocks": [
+        { "type": "heading", "text": "Menyambung Level 31 dan Level 39" },
+        { "type": "paragraph", "text": "Headline sebenarnya berdiri di persimpangan dua hal yang sudah kamu pelajari. Dari Level 31, ia mewarisi tugas hook: menahan perhatian dalam hitungan detik. Dari Level 39, ia mewarisi tugas SEO: memuat istilah yang memang dicari orang, ditempatkan secara alami di judul." },
+        { "type": "paragraph", "text": "Ketiganya harus jalan bersama, bukan saling mengorbankan. Headline yang cuma mengejar SEO (menjejalkan kata kunci) biasanya kaku dan tidak memancing rasa penasaran. Headline yang cuma mengejar hook (dramatis tapi tidak spesifik) biasanya sulit ditemukan mesin pencari DAN gampang jatuh jadi clickbait." },
+        { "type": "callout", "title": "Urutan Berpikir yang Disarankan", "text": "Mulai dari kata kunci yang relevan (Level 39) → bungkus jadi janji yang spesifik dan konkret (40-4) → pastikan ia menahan perhatian di detik pertama (Level 31) → cek ulang isi menepati janjinya (40-5)." }
+      ]
+    },
+    {
+      "id": "40-8",
+      "title": "Kesalahan Umum dalam Menulis Headline",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menyembunyikan informasi penting demi rasa penasaran ('Kamu Tidak Akan Percaya Apa yang Terjadi Selanjutnya') tanpa menepatinya dengan isi yang sepadan.",
+          "Memakai kata superlatif ('terbaik', 'luar biasa', 'wajib') tanpa detail konkret yang membuktikannya.",
+          "Menulis headline dengan angka tertentu ('7 cara') tapi isinya sebenarnya cuma 3-4 poin yang dipanjang-panjangkan.",
+          "Menjejalkan kata kunci SEO sampai headline terasa kaku dan tidak lagi memancing rasa penasaran manusia.",
+          "Puas dengan headline pertama yang terpikir, tanpa mencoba beberapa varian lain (A/B thinking)."
+        ]},
+        { "type": "callout", "title": "Prinsip Inti", "text": "Headline yang baik bukan yang paling dramatis, tapi yang paling JUJUR dan paling SPESIFIK tentang apa yang akan didapat pembaca — lalu isi tulisan menepatinya sampai baris terakhir." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-40",
+    "title": "Kuis Level 40",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q40-1",
+        "question": "Perbedaan utama antara clickbait murahan dan headline yang kuat terletak pada…",
+        "options": ["Panjang kalimatnya", "Apakah janji headline ditepati atau tidak oleh isi tulisan", "Ada tidaknya angka di headline", "Ada tidaknya tanda tanya"],
+        "answer": 1,
+        "explanation": "Keduanya bisa sama-sama menarik perhatian; pembedanya adalah apakah isi menepati janji headline atau mengecewakan pembaca."
+      },
+      {
+        "id": "q40-2",
+        "question": "Kenapa kata-kata superlatif seperti 'luar biasa' atau 'wajib tahu' cenderung melemahkan headline?",
+        "options": ["Karena dilarang mesin pencari", "Karena sudah terlalu sering dipakai dan tidak memberi janji konkret apa pun", "Karena tidak boleh dipakai dalam bahasa Indonesia", "Karena membuat headline terlalu pendek"],
+        "answer": 1,
+        "explanation": "Superlatif tanpa detail konkret gagal memberi ekspektasi jelas dan mudah diabaikan pembaca."
+      },
+      {
+        "id": "q40-3",
+        "question": "Konsep 'promise-payoff contract' pada headline berarti…",
+        "options": ["Headline boleh menjanjikan apa saja asal menarik", "Setiap janji dalam headline wajib ditepati oleh isi tulisan", "Headline tidak perlu berkaitan dengan isi", "Kontrak resmi antara penulis dan penerbit"],
+        "answer": 1,
+        "explanation": "Promise-payoff contract menegaskan bahwa headline adalah janji yang harus dipenuhi isi tulisan."
+      },
+      {
+        "id": "q40-4",
+        "question": "A/B thinking dalam menulis headline pada dasarnya adalah…",
+        "options": ["Menulis satu headline sekali jadi lalu tidak diubah lagi", "Menulis beberapa varian headline lalu membandingkan mana yang paling kuat dan tetap jujur", "Menyingkat headline menjadi dua huruf", "Menulis headline dalam dua bahasa sekaligus"],
+        "answer": 1,
+        "explanation": "A/B thinking adalah kebiasaan menyusun beberapa varian dan memilih yang paling efektif, bukan menebak sekali jadi."
+      },
+      {
+        "id": "q40-5",
+        "question": "Hubungan antara headline dan hook (Level 31) adalah…",
+        "options": ["Tidak berkaitan sama sekali", "Headline mewarisi tugas hook: menahan perhatian pembaca dalam hitungan detik", "Hook hanya berlaku untuk tulisan personal, bukan headline", "Headline menggantikan kebutuhan hook di paragraf pembuka"],
+        "answer": 1,
+        "explanation": "Headline adalah bentuk hook yang harus bekerja dalam satu baris, tanpa konteks tambahan."
+      },
+      {
+        "id": "q40-6",
+        "question": "Kenapa headline yang menyembunyikan informasi penting demi rasa penasaran berisiko merugikan penulis dalam jangka panjang?",
+        "options": ["Karena mesin pencari otomatis memblokirnya", "Karena pembaca yang merasa ditipu akan kehilangan kepercayaan pada headline-headline penulis berikutnya", "Karena headline seperti itu selalu terlalu panjang", "Karena aturan hukum melarangnya"],
+        "answer": 1,
+        "explanation": "Klik dari janji palsu bersifat satu kali pakai; kepercayaan pembaca yang hilang lebih mahal daripada satu klik."
+      },
+      {
+        "id": "q40-7",
+        "question": "Urutan berpikir yang disarankan saat menyusun headline yang menggabungkan SEO, hook, dan kejujuran isi adalah…",
+        "options": ["Menulis judul dramatis dulu, isi menyesuaikan belakangan", "Mulai dari kata kunci relevan, bungkus jadi janji spesifik, pastikan menahan perhatian, lalu cek isi menepati janji", "Mengabaikan kata kunci sepenuhnya demi hook yang dramatis", "Menulis isi tanpa memikirkan headline sama sekali"],
+        "answer": 1,
+        "explanation": "Urutan ini menyatukan tiga insting: SEO (kata kunci), hook (menahan perhatian), dan kejujuran (payoff) tanpa saling mengorbankan."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-40",
+    "title": "Ujian Level 40",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e40-1",
+        "question": "Sebuah artikel berjudul \"10 Rahasia Sukses yang Tidak Diajarkan di Sekolah\" ternyata hanya berisi 4 poin umum yang sudah sering dibahas di mana-mana. Masalah utama headline ini adalah…",
+        "options": ["Angkanya terlalu kecil", "Janji jumlah (10) dan klaim 'rahasia' tidak ditepati oleh isi yang sebenarnya cuma 4 poin umum", "Terlalu banyak menggunakan kata kunci", "Tidak memakai tanda tanya"],
+        "answer": 1,
+        "explanation": "Headline berjanji 10 rahasia belum umum, tapi isinya cuma 4 poin umum — promise-payoff contract dilanggar."
+      },
+      {
+        "id": "e40-2",
+        "question": "Seorang editor menyarankan mengganti headline \"Cara Terbaik Menabung yang Wajib Kamu Ketahui!\" menjadi \"Menabung Rp500 Ribu/Bulan dengan Metode Amplop Selama 6 Bulan\". Alasan paling tepat perubahan ini adalah…",
+        "options": ["Headline baru lebih pendek", "Headline baru mengganti superlatif kosong dengan detail spesifik dan konkret yang bisa diverifikasi", "Headline baru menghindari kata kunci SEO", "Headline lama lebih menarik secara hukum"],
+        "answer": 1,
+        "explanation": "Versi baru mengganti kata besar tanpa isi ('terbaik', 'wajib') dengan angka dan metode konkret — spesifik mengalahkan hype."
+      },
+      {
+        "id": "e40-3",
+        "question": "Seorang penulis langsung mempublikasikan headline pertama yang terpikir tanpa membandingkannya dengan alternatif lain. Yang sebaiknya ia lakukan menurut prinsip A/B thinking adalah…",
+        "options": ["Tetap memakai headline pertama karena revisi headline tidak penting", "Menulis beberapa varian dengan sudut berbeda, membandingkan, lalu memilih yang paling kuat tapi tetap jujur", "Meminta redaksi menulis ulang seluruh isi artikel", "Mengganti headline dengan yang paling dramatis tanpa mempertimbangkan isi"],
+        "answer": 1,
+        "explanation": "A/B thinking berarti menyusun beberapa varian dan memilih yang paling efektif sambil tetap lolos tes payoff, bukan berhenti di percobaan pertama."
+      },
+      {
+        "id": "e40-4",
+        "question": "Sebuah headline berbunyi \"Anda Tidak Akan Percaya Apa yang Terjadi pada Penulis Ini\" tanpa memberi petunjuk topik sama sekali. Risiko terbesar dari pendekatan ini adalah…",
+        "options": ["Headline menjadi terlalu informatif", "Rasa penasaran dipicu dengan menyembunyikan informasi, sehingga berisiko menjadi clickbait murahan jika isinya tidak sepadan", "Mesin pencari akan menaikkan peringkatnya secara otomatis", "Tidak ada risiko selama artikelnya bagus"],
+        "answer": 1,
+        "explanation": "Menyembunyikan info demi rasa penasaran adalah ciri khas clickbait; ia hanya aman kalau isi benar-benar menepati kejutan yang dijanjikan."
+      },
+      {
+        "id": "e40-5",
+        "question": "Sebuah headline sangat SEO-friendly (memuat kata kunci utama persis seperti yang dicari orang) tapi terasa kaku dan tidak memancing rasa penasaran sama sekali. Yang perlu diperbaiki menurut hubungan headline-hook-SEO adalah…",
+        "options": ["Menghapus semua kata kunci demi rasa penasaran", "Mencari cara membungkus kata kunci itu menjadi janji spesifik yang juga menahan perhatian, bukan memilih salah satu dan mengorbankan yang lain", "Memindahkan kata kunci ke akhir artikel saja", "Mengganti seluruh artikel dengan topik lain"],
+        "answer": 1,
+        "explanation": "Ketiga lapis (SEO, hook, kejujuran) semestinya bekerja bersama — solusinya menyusun ulang kalimat, bukan mengorbankan salah satu aspek."
+      },
+      {
+        "id": "e40-6",
+        "question": "Seorang penulis menulis headline \"Kenapa Draf Pertamamu Boleh Jelek?\" untuk artikel tentang shitty first drafts. Kekuatan formula pertanyaan di sini adalah…",
+        "options": ["Pertanyaan selalu otomatis lolos SEO", "Pertanyaan ini memancing rasa penasaran yang relevan dengan masalah nyata yang sudah dikenali pembaca (takut draf jelek)", "Pertanyaan menggantikan kebutuhan isi artikel yang jelas", "Pertanyaan membuat artikel tidak perlu payoff"],
+        "answer": 1,
+        "explanation": "Formula pertanyaan bekerja karena menyentuh kekhawatiran yang sudah dikenal pembaca, bukan sekadar menarik secara acak."
+      },
+      {
+        "id": "e40-7",
+        "question": "Sebuah media menguji tiga versi headline untuk artikel yang sama ke sekelompok kecil pembaca sebelum dipublikasikan luas. Praktik ini paling tepat digambarkan sebagai…",
+        "options": ["Pemborosan waktu karena headline pertama biasanya sudah cukup", "Penerapan A/B thinking — menguji dan membandingkan, bukan menebak satu headline sekali jadi", "Bentuk clickbait karena mengubah-ubah judul", "Pelanggaran terhadap prinsip SEO"],
+        "answer": 1,
+        "explanation": "Menulis beberapa varian dan mengujinya ke pembaca adalah inti A/B thinking dalam menyusun headline."
+      },
+      {
+        "id": "e40-8",
+        "question": "Headline \"7 Formula Headline yang Dipakai Redaksi Besar\" untuk artikel yang ternyata hanya membahas 4 formula secara mendalam plus 3 formula disebut sekilas tanpa penjelasan berarti. Menurut prinsip payoff, ini…",
+        "options": ["Tidak masalah karena tetap ada 7 kata yang disebut", "Berisiko mengecewakan pembaca karena janji '7 formula' tidak ditepati secara setara oleh isi", "Selalu boleh selama angkanya besar", "Harus diperbaiki dengan menambah kata superlatif"],
+        "answer": 1,
+        "explanation": "Kalau headline menjanjikan angka tertentu, isi idealnya menepatinya secara proporsional, bukan sekadar menyebut nama tanpa kedalaman."
+      },
+      {
+        "id": "e40-9",
+        "question": "Seorang penulis pemula bertanya: \"Kalau headline saya sudah menarik dan ramai diklik, berarti sudah cukup baik, kan?\" Jawaban paling sesuai prinsip level ini adalah…",
+        "options": ["Ya, jumlah klik adalah satu-satunya ukuran keberhasilan headline", "Belum tentu — headline yang baik juga harus menepati janjinya lewat isi, bukan cuma menarik klik sesaat", "Headline tidak pernah bisa dievaluasi", "Klik yang tinggi selalu berarti isi juga bagus"],
+        "answer": 1,
+        "explanation": "Klik yang tinggi tanpa isi yang menepati janji hanyalah kesuksesan sesaat; kepercayaan jangka panjang bergantung pada payoff."
+      },
+      {
+        "id": "e40-10",
+        "question": "Dua headline bersaing untuk artikel yang sama: \"Rahasia Menulis yang Mengubah Hidupmu\" vs \"4 Kebiasaan Menulis 20 Menit/Hari yang Terbukti Menambah Produktivitas\". Berdasarkan prinsip spesifik vs hype, headline yang lebih kuat adalah…",
+        "options": ["Headline pertama, karena kata 'rahasia' lebih menggoda", "Headline kedua, karena memuat angka dan detail konkret yang bisa diverifikasi isinya", "Keduanya sama kuatnya", "Tidak bisa dinilai tanpa melihat isi artikel"],
+        "answer": 1,
+        "explanation": "Headline kedua memberi janji spesifik dan terukur (4 kebiasaan, 20 menit/hari) yang jauh lebih kuat dan lebih mudah dipercaya daripada klaim hype seperti 'rahasia' dan 'mengubah hidupmu'."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Microcontent: How to Write Headlines, Page Titles, and Subject Lines", "author": "Jakob Nielsen", "publisher": "Nielsen Norman Group", "note": "Prinsip menulis microcontent yang jelas dan scannable, dipakai di 40-3 dan 40-4." },
+    { "title": "Made to Stick: Why Some Ideas Survive and Others Die", "author": "Chip Heath dan Dan Heath", "year": 2007, "publisher": "Random House", "note": "Prinsip kekonkretan (concreteness) mengalahkan pernyataan abstrak/hype, dipakai di 40-4." },
+    { "title": "On Writing Well", "author": "William Zinsser", "year": 2006, "publisher": "Harper Perennial", "note": "Prinsip kejujuran dan kejelasan dalam menulis untuk pembaca, melandasi kontrak janji-payoff di 40-5." },
+    { "title": "Search Essentials & SEO Starter Guide", "author": "Google Search Central", "publisher": "Google", "note": "Latar penempatan kata kunci di judul yang disambungkan dari Level 39 pada 40-7." }
+  ]
+}

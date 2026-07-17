@@ -1,0 +1,264 @@
+{
+  "id": 25,
+  "slug": "bab-2-kajian-teori",
+  "title": "Bab 2: Kajian Teori & Kerangka Berpikir",
+  "subtitle": "Landasan teori, penelitian terdahulu, kerangka berpikir, dan hipotesis",
+  "goal": "Mampu menyusun Bab 2 yang membangun argumen dari teori dan penelitian terdahulu menuju kerangka berpikir yang logis, membedakan landasan teori dari tinjauan pustaka, serta merumuskan hipotesis (jika relevan) yang benar-benar diturunkan dari kerangka berpikir tersebut — bukan sekadar merangkai kutipan dari buku teks.",
+  "estimatedMinutes": 40,
+  "sections": [
+    {
+      "id": "25-1",
+      "title": "Bab 2 Bukan Ringkasan Buku Teks",
+      "blocks": [
+        { "type": "heading", "text": "Godaan Terbesar Bab 2" },
+        { "type": "paragraph", "text": "Bab 2 adalah bab yang paling sering ditulis dengan cara paling malas: buka beberapa buku teks, salin definisi tiap konsep, tempel berurutan, lalu tambahkan kutipan penelitian terdahulu di bagian akhir. Hasilnya terbaca seperti ringkasan mata kuliah, bukan bab yang membangun ARGUMEN kenapa penelitianmu perlu dijalankan dengan cara tertentu." },
+        { "type": "paragraph", "text": "Bab 2 yang baik punya tujuan tunggal: membangun jembatan logis dari 'apa yang sudah diketahui tentang topik ini' menuju 'kenapa kerangka berpikir dan (jika ada) hipotesis penelitian ini masuk akal'. Setiap teori yang kamu masukkan harus punya alasan kenapa ia relevan untuk MENJAWAB rumusan masalah di Bab 1 — bukan sekadar 'karena topiknya nyerempet-nyerempet'." },
+        { "type": "callout", "title": "Uji Sederhana", "text": "Tanya pada dirimu sendiri untuk setiap teori yang kamu tulis: 'Kalau saya hapus paragraf ini, apakah kerangka berpikir saya jadi kurang masuk akal?' Kalau jawabannya tidak, teori itu mungkin tidak perlu ada di Bab 2-mu, sekalipun terkenal dan relevan secara umum dengan bidangmu." }
+      ]
+    },
+    {
+      "id": "25-2",
+      "title": "Landasan Teori vs Tinjauan Pustaka: Dua Hal yang Sering Tertukar",
+      "blocks": [
+        { "type": "heading", "text": "Beda Fungsi, Beda Isi" },
+        { "type": "paragraph", "text": "Level 11 sudah mengajarkan tinjauan pustaka yang kritis — sintesis tematik dari penelitian terdahulu untuk menunjukkan celah riset. Di Bab 2 skripsi, ada DUA komponen yang sering dicampur jadi satu padahal fungsinya berbeda." },
+        {
+          "type": "table",
+          "headers": ["", "Landasan Teori", "Penelitian Terdahulu (bagian dari Tinjauan Pustaka, Level 11)"],
+          "rows": [
+            ["Isi", "Konsep, definisi, teori besar yang menjadi kerangka pikir (misalnya teori motivasi Deci & Ryan, teori belajar konstruktivisme)", "Studi-studi empiris terdahulu yang meneliti topik serupa atau variabel serupa"],
+            ["Fungsi", "Membangun DASAR BERPIKIR — kenapa variabel/fenomena ini bisa dijelaskan lewat kerangka tertentu", "Menunjukkan POSISI penelitianmu di antara penelitian yang sudah ada, dan celah yang belum terjawab"],
+            ["Pertanyaan yang dijawab", "Apa dasar teoritis fenomena yang saya teliti?", "Siapa saja yang sudah meneliti ini, dan apa yang belum mereka jawab?"]
+          ]
+        },
+        { "type": "callout", "title": "Kenapa Perbedaan Ini Penting", "text": "Mahasiswa yang mencampur keduanya sering menulis paragraf yang membingungkan: definisi konsep dari buku teks langsung diselingi kutipan skripsi orang lain tanpa jeda logis. Pisahkan dulu keduanya menjadi subbab berbeda, baru sambungkan di kerangka berpikir." }
+      ]
+    },
+    {
+      "id": "25-3",
+      "title": "Worked Example: Bab 2 Copy-Paste vs Bab 2 yang Membangun Argumen",
+      "blocks": [
+        { "type": "heading", "text": "Membandingkan Dua Pendekatan" },
+        { "type": "quote", "text": "VERSI COPY-PASTE (menyalin definisi berurutan):\n\"Menurut Slavin (2019), motivasi belajar adalah dorongan internal siswa untuk mencapai tujuan belajar. Menurut Santrock (2020), motivasi adalah proses yang memberi energi dan arah pada perilaku. Menurut Woolfolk (2021), motivasi belajar dibagi menjadi motivasi intrinsik dan ekstrinsik.\" (lalu berpindah ke definisi konsep berikutnya tanpa keterkaitan)", "source": "Contoh Bab 2 copy-paste — rangkaian definisi tanpa argumen" },
+        { "type": "quote", "text": "VERSI MEMBANGUN ARGUMEN:\n\"Penelitian ini memakai definisi motivasi belajar dari Deci & Ryan (Self-Determination Theory) karena teori ini secara eksplisit membedakan motivasi intrinsik dan ekstrinsik — pembedaan yang relevan untuk menjawab rumusan masalah penelitian ini tentang APAKAH metode X menumbuhkan motivasi dari dalam diri siswa atau justru bergantung pada reward eksternal. Definisi Slavin dan Santrock, meski juga membahas motivasi, tidak memberi kerangka untuk membedakan sumber motivasi tersebut, sehingga penelitian ini memilih SDT sebagai pijakan utama.\"", "source": "Contoh Bab 2 yang membangun argumen — teori dipilih dan dijustifikasi" },
+        { "type": "callout", "title": "Bedanya", "text": "Versi kedua tidak sekadar menyebut lebih sedikit sumber — ia MENJUSTIFIKASI kenapa satu teori dipilih dibanding yang lain, dan mengaitkannya langsung ke rumusan masalah. Itu yang membuat Bab 2 terasa seperti argumen, bukan katalog." }
+      ]
+    },
+    {
+      "id": "25-4",
+      "title": "Kerangka Berpikir: Peta Hubungan Antar Variabel",
+      "blocks": [
+        { "type": "heading", "text": "Dari Teori ke Diagram Logika" },
+        { "type": "paragraph", "text": "Kerangka berpikir (conceptual framework) adalah bagian yang mensintesis semua teori dan penelitian terdahulu di atas menjadi satu alur logika: bagaimana variabel-variabel dalam penelitianmu diduga saling berhubungan, berdasarkan apa yang sudah dibahas sebelumnya di bab yang sama." },
+        { "type": "list", "ordered": true, "items": [
+          "Sebutkan variabel-variabel utama penelitian (independen, dependen, atau tema-tema besar untuk kualitatif).",
+          "Jelaskan hubungan logis antar variabel berdasarkan teori yang sudah dibahas — bukan tebakan pribadi.",
+          "Sajikan dalam bentuk diagram/skema sederhana (kotak dan panah) plus narasi yang menjelaskannya.",
+          "Pastikan kerangka berpikir ini konsisten dengan rumusan masalah di Bab 1 — tidak menambah variabel baru yang tidak pernah disinggung."
+        ]},
+        { "type": "callout", "title": "Kesalahan Umum Kerangka Berpikir", "text": "Banyak mahasiswa membuat diagram kerangka berpikir yang terlihat rapi tapi sebenarnya tidak diturunkan dari teori manapun di Bab 2 — panah antar variabel muncul begitu saja tanpa penjelasan kenapa hubungan itu logis. Kerangka berpikir yang baik selalu bisa ditelusuri: 'panah ini berdasarkan teori apa yang sudah saya bahas di halaman berapa?'" }
+      ]
+    },
+    {
+      "id": "25-5",
+      "title": "Hipotesis: Kapan Perlu, Kapan Tidak",
+      "blocks": [
+        { "type": "heading", "text": "Dugaan Sementara yang Bisa Diuji" },
+        { "type": "paragraph", "text": "Hipotesis adalah jawaban sementara atas rumusan masalah, yang akan diuji secara statistik. Hipotesis HANYA relevan untuk penelitian kuantitatif yang menguji hubungan atau perbedaan antar variabel — penelitian kualitatif dan deskriptif murni umumnya tidak memerlukan hipotesis." },
+        {
+          "type": "table",
+          "headers": ["Jenis Hipotesis", "Contoh"],
+          "rows": [
+            ["Hipotesis nol (H0)", "Tidak ada pengaruh signifikan metode diskusi terhadap nilai siswa"],
+            ["Hipotesis alternatif (Ha/H1)", "Ada pengaruh signifikan metode diskusi terhadap nilai siswa"]
+          ]
+        },
+        { "type": "callout", "title": "Hipotesis Harus Lahir dari Kerangka Berpikir", "text": "Hipotesis yang baik adalah kesimpulan logis dari kerangka berpikir yang sudah dibangun, bukan tempelan di akhir Bab 2 yang tiba-tiba muncul. Kalau kerangka berpikirmu menjelaskan kenapa variabel A diduga memengaruhi variabel B, hipotesis tinggal menuliskan dugaan itu dalam bentuk formal yang bisa diuji." }
+      ]
+    },
+    {
+      "id": "25-6",
+      "title": "Menentukan Berapa Banyak Teori yang Perlu Dibahas",
+      "blocks": [
+        { "type": "heading", "text": "Relevansi, Bukan Kelengkapan" },
+        { "type": "paragraph", "text": "Mahasiswa sering merasa harus membahas SEMUA teori terkait topiknya supaya terlihat 'menguasai literatur'. Padahal Bab 2 yang baik justru selektif — hanya memasukkan teori yang benar-benar dipakai untuk menjustifikasi kerangka berpikir dan (jika ada) hipotesis." },
+        { "type": "list", "ordered": false, "items": [
+          "Sertakan teori utama yang jadi payung/kerangka pemikiran penelitianmu — dibahas cukup dalam, bukan sekilas.",
+          "Sertakan teori pendukung yang membantu menjelaskan variabel spesifik, secukupnya saja.",
+          "JANGAN sertakan teori yang sekadar 'terkenal di bidang ini' tapi tidak dipakai untuk menjelaskan apa pun di kerangka berpikirmu."
+        ]},
+        { "type": "callout", "title": "Konsultasikan dengan Pembimbing Substansi", "text": "Ingat pembagian peran dari Level 23 — pembimbing yang fokus substansi adalah orang yang paling tepat menilai apakah teori yang kamu pilih sudah tepat dan cukup, atau ada teori penting yang justru terlewat." }
+      ]
+    },
+    {
+      "id": "25-7",
+      "title": "Menyambungkan Bab 2 ke Bab yang Lain",
+      "blocks": [
+        { "type": "heading", "text": "Bab 2 Bukan Pulau Terpisah" },
+        { "type": "paragraph", "text": "Bab 2 yang baik meninggalkan jejak yang bisa ditelusuri di bab-bab berikutnya. Ini yang membuat skripsi terasa seperti satu argumen utuh, bukan lima bab yang ditulis terpisah oleh lima 'diri' yang berbeda." },
+        { "type": "list", "ordered": true, "items": [
+          "Bab 3 (Metode) — instrumen dan variabel yang diukur harus sesuai definisi operasional yang sudah dijelaskan di Bab 2.",
+          "Bab 4 (Hasil & Pembahasan) — teori di Bab 2 dipakai kembali untuk menafsirkan temuan di bagian pembahasan (lihat Level 26).",
+          "Bab 5 (Simpulan) — hipotesis yang diuji di Bab 2 harus dijawab tegas diterima atau ditolak (lihat Level 27)."
+        ]},
+        { "type": "callout", "title": "Kebiasaan Baik", "text": "Setiap kali menulis satu teori di Bab 2, tanyakan: 'Di bagian mana teori ini akan saya pakai lagi nanti — di instrumen Bab 3 atau di pembahasan Bab 4?' Kalau tidak ada jawabannya, pertimbangkan untuk memangkas teori tersebut." }
+      ]
+    },
+    {
+      "id": "25-8",
+      "title": "Kesalahan Umum dalam Menulis Bab 2",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menyalin definisi dari beberapa buku teks secara berurutan tanpa menjelaskan kenapa satu definisi dipilih dibanding yang lain.",
+          "Mencampur landasan teori dengan penelitian terdahulu dalam satu paragraf yang membingungkan tanpa pemisahan fungsi yang jelas.",
+          "Membuat kerangka berpikir berupa diagram yang rapi tapi tidak diturunkan dari teori manapun yang sudah dibahas sebelumnya di bab yang sama.",
+          "Menulis hipotesis yang muncul tiba-tiba di akhir bab tanpa jejak logis dari kerangka berpikir.",
+          "Memasukkan hipotesis pada penelitian kualitatif murni, padahal hipotesis hanya relevan untuk desain yang menguji hubungan/perbedaan secara statistik.",
+          "Membahas terlalu banyak teori demi terlihat 'menguasai literatur', padahal sebagian besar tidak pernah dipakai lagi di Bab 3-5."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Bab 2 yang baik bukan yang paling tebal atau paling banyak kutipannya, tapi yang paling jelas menunjukkan JEJAK BERPIKIR: dari teori, ke kerangka, ke hipotesis (jika ada) — dan jejak itu bisa ditelusuri kembali di Bab 3, 4, dan 5." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-25",
+    "title": "Kuis Level 25",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q25-1",
+        "question": "Kesalahan paling umum yang membuat Bab 2 terbaca seperti ringkasan buku teks adalah…",
+        "options": ["Terlalu sedikit mengutip sumber", "Menyalin definisi berbagai ahli secara berurutan tanpa membangun argumen kenapa teori tersebut relevan untuk penelitian ini", "Menulis Bab 2 terlalu singkat", "Tidak mencantumkan tahun terbit sumber"],
+        "answer": 1,
+        "explanation": "Bab 2 yang baik menjustifikasi pemilihan teori dan mengaitkannya ke rumusan masalah, bukan sekadar merangkai definisi."
+      },
+      {
+        "id": "q25-2",
+        "question": "Perbedaan utama fungsi landasan teori dan penelitian terdahulu di Bab 2 adalah…",
+        "options": ["Landasan teori membangun dasar berpikir konsep, penelitian terdahulu menunjukkan posisi penelitian di antara studi yang sudah ada", "Landasan teori hanya untuk kualitatif, penelitian terdahulu hanya untuk kuantitatif", "Keduanya sama persis dan bisa dipakai bergantian", "Landasan teori ditulis di Bab 1, penelitian terdahulu ditulis di Bab 2"],
+        "answer": 0,
+        "explanation": "Landasan teori menjawab 'apa dasar teoritisnya', penelitian terdahulu menjawab 'siapa yang sudah meneliti dan apa celahnya' — fungsi keduanya berbeda meski sama-sama ada di Bab 2."
+      },
+      {
+        "id": "q25-3",
+        "question": "Kerangka berpikir (conceptual framework) yang baik harus…",
+        "options": ["Dibuat sekreatif mungkin tanpa terikat teori", "Diturunkan secara logis dari teori dan penelitian terdahulu yang sudah dibahas di bab yang sama", "Selalu berbentuk tabel, bukan diagram", "Ditulis sebelum landasan teori"],
+        "answer": 1,
+        "explanation": "Kerangka berpikir adalah sintesis logis dari teori yang sudah dibahas sebelumnya, bukan diagram bebas tanpa dasar."
+      },
+      {
+        "id": "q25-4",
+        "question": "Hipotesis nol (H0) dalam penelitian kuantitatif menyatakan…",
+        "options": ["Ada pengaruh signifikan antar variabel yang diuji", "Tidak ada pengaruh/perbedaan signifikan antar variabel yang diuji", "Penelitian tidak memiliki variabel apa pun", "Data penelitian tidak valid"],
+        "answer": 1,
+        "explanation": "H0 adalah pernyataan 'tidak ada pengaruh/perbedaan', yang akan diuji untuk diterima atau ditolak berdasarkan data."
+      },
+      {
+        "id": "q25-5",
+        "question": "Penelitian yang TIDAK memerlukan hipotesis pada umumnya adalah…",
+        "options": ["Penelitian eksperimen kuantitatif", "Penelitian kualitatif yang bertujuan memahami makna/pengalaman subjek", "Penelitian survei yang menguji korelasi dua variabel", "Semua jenis penelitian selalu memerlukan hipotesis"],
+        "answer": 1,
+        "explanation": "Hipotesis relevan untuk pengujian statistik hubungan/perbedaan; penelitian kualitatif yang eksploratif dan bermakna umumnya tidak memerlukannya."
+      },
+      {
+        "id": "q25-6",
+        "question": "Uji sederhana untuk menilai apakah sebuah teori layak dimasukkan ke Bab 2 adalah dengan bertanya…",
+        "options": ["Apakah teori ini ditulis oleh penulis terkenal?", "Kalau paragraf tentang teori ini dihapus, apakah kerangka berpikir jadi kurang masuk akal?", "Apakah teori ini diterbitkan dalam 5 tahun terakhir?", "Apakah teori ini ditulis dalam bahasa Inggris?"],
+        "answer": 1,
+        "explanation": "Relevansi teori diuji dari fungsinya terhadap kerangka berpikir, bukan popularitas atau kebaruan semata."
+      },
+      {
+        "id": "q25-7",
+        "question": "Kenapa instrumen di Bab 3 harus mengikuti definisi operasional yang sudah dijelaskan di Bab 2?",
+        "options": ["Supaya jumlah halaman Bab 2 dan 3 sama panjang", "Supaya ada konsistensi jejak berpikir dari teori ke cara mengukur variabel di lapangan", "Karena format kampus mewajibkannya tanpa alasan substantif", "Karena Bab 3 selalu ditulis sebelum Bab 2"],
+        "answer": 1,
+        "explanation": "Definisi operasional di Bab 2 menjadi dasar instrumen di Bab 3 — memastikan apa yang diukur benar-benar konsisten dengan apa yang dijelaskan secara teoritis."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-25",
+    "title": "Ujian Level 25",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e25-1",
+        "question": "Bab 2 seorang mahasiswa berisi lima definisi 'motivasi belajar' dari lima ahli berbeda, ditulis berurutan tanpa keterkaitan, lalu langsung berpindah ke definisi 'hasil belajar' dengan pola yang sama. Masalah utama pendekatan ini adalah…",
+        "options": ["Terlalu sedikit ahli yang dikutip", "Tidak ada argumen yang menjelaskan kenapa satu definisi dipilih dan bagaimana definisi itu relevan untuk kerangka berpikir penelitian", "Definisi seharusnya ditulis dalam bahasa Inggris", "Seharusnya hanya mengutip satu ahli saja per konsep"],
+        "answer": 1,
+        "explanation": "Bab 2 yang baik menjustifikasi pilihan teori dan mengaitkannya dengan kerangka berpikir, bukan sekadar mendaftar definisi dari berbagai ahli."
+      },
+      {
+        "id": "e25-2",
+        "question": "Seorang mahasiswa mencampur dalam satu paragraf: definisi motivasi dari buku teks, lalu langsung kutipan skripsi terdahulu tentang motivasi, tanpa jeda atau penanda yang jelas. Pembimbingnya bingung membaca alurnya. Solusi paling tepat adalah…",
+        "options": ["Menghapus salah satu bagian saja", "Memisahkan landasan teori dan penelitian terdahulu ke subbab berbeda, baru menyambungkannya secara eksplisit di bagian kerangka berpikir", "Menggabungkan semuanya jadi satu kalimat panjang", "Memindahkan seluruh isi ke Bab 1"],
+        "answer": 1,
+        "explanation": "Landasan teori dan penelitian terdahulu punya fungsi berbeda dan sebaiknya dipisah agar pembaca bisa mengikuti alur logika, baru disatukan di kerangka berpikir."
+      },
+      {
+        "id": "e25-3",
+        "question": "Diagram kerangka berpikir seorang mahasiswa menunjukkan panah dari 'dukungan orang tua' ke 'motivasi belajar', tapi di seluruh Bab 2 tidak ada satu pun teori yang membahas hubungan dukungan orang tua dengan motivasi. Penilaian yang tepat atas kerangka berpikir ini adalah…",
+        "options": ["Sah karena diagram terlihat rapi dan logis secara visual", "Bermasalah karena kerangka berpikir harus diturunkan dari teori yang sudah dibahas, bukan muncul begitu saja tanpa dasar", "Sah karena kerangka berpikir memang tidak perlu berdasar teori", "Bermasalah hanya jika penelitiannya kualitatif"],
+        "answer": 1,
+        "explanation": "Kerangka berpikir yang valid harus bisa ditelusuri ke teori/penelitian terdahulu yang sudah dibahas; panah tanpa dasar teoritis adalah tanda kerangka berpikir yang lemah."
+      },
+      {
+        "id": "e25-4",
+        "question": "Seorang mahasiswa menulis hipotesis di akhir Bab 2: \"Diduga ada pengaruh signifikan gaya belajar terhadap prestasi\" — padahal 'gaya belajar' tidak pernah disinggung sebagai variabel di landasan teori maupun kerangka berpikir sebelumnya. Masalah utama hipotesis ini adalah…",
+        "options": ["Hipotesis ditulis terlalu singkat", "Hipotesis muncul tiba-tiba tanpa jejak logis dari kerangka berpikir yang sudah dibangun sebelumnya di bab yang sama", "Hipotesis seharusnya ditulis di Bab 1, bukan Bab 2", "Tidak ada masalah karena hipotesis memang boleh independen dari kerangka berpikir"],
+        "answer": 1,
+        "explanation": "Hipotesis harus menjadi kesimpulan logis dari kerangka berpikir; variabel yang tidak pernah dibahas sebelumnya tidak boleh tiba-tiba muncul di hipotesis."
+      },
+      {
+        "id": "e25-5",
+        "question": "Seorang mahasiswa yang meneliti pengalaman guru mengajar kelas inklusif secara kualitatif memaksakan diri menulis hipotesis \"Diduga guru mengalami kesulitan dalam mengajar kelas inklusif\" karena mengira semua skripsi wajib punya hipotesis. Penilaian paling tepat atas keputusan ini adalah…",
+        "options": ["Keputusan tepat karena semua skripsi wajib memiliki hipotesis", "Keputusan kurang tepat, karena penelitian kualitatif eksploratif umumnya tidak memerlukan hipotesis yang diuji secara statistik", "Hipotesis ini seharusnya diletakkan di Bab 1, bukan Bab 2", "Hipotesis ini benar tapi seharusnya ditulis dalam bentuk H0 dan Ha"],
+        "answer": 1,
+        "explanation": "Hipotesis relevan untuk desain yang menguji hubungan/perbedaan secara statistik; penelitian kualitatif yang memahami pengalaman subjek umumnya cukup dengan pertanyaan penelitian, tanpa hipotesis formal."
+      },
+      {
+        "id": "e25-6",
+        "question": "Bab 2 seorang mahasiswa membahas sepuluh teori berbeda tentang motivasi secara mendalam, padahal hanya dua teori yang benar-benar dipakai untuk menjelaskan kerangka berpikirnya. Delapan teori lainnya tidak pernah disinggung lagi di Bab 3-5. Evaluasi yang tepat atas pendekatan ini adalah…",
+        "options": ["Semakin banyak teori dibahas, semakin baik penilaian kompetensi metodologis mahasiswa", "Delapan teori yang tidak dipakai sebaiknya dipangkas karena Bab 2 yang baik selektif terhadap relevansi, bukan menunjukkan kelengkapan literatur semata", "Kesepuluh teori wajib dipertahankan agar terlihat menguasai bidang", "Jumlah teori tidak pernah menjadi masalah selama ditulis dengan bahasa yang baik"],
+        "answer": 1,
+        "explanation": "Bab 2 yang baik memilih teori berdasarkan relevansi terhadap kerangka berpikir dan pemakaiannya di bab-bab lain, bukan sekadar menunjukkan banyaknya literatur yang dibaca."
+      },
+      {
+        "id": "e25-7",
+        "question": "Instrumen kuesioner di Bab 3 seorang mahasiswa mengukur 'kedisiplinan' dengan indikator kehadiran dan ketepatan waktu, tapi definisi 'kedisiplinan' di Bab 2 hanya membahas kepatuhan terhadap aturan sekolah secara umum tanpa menyebut kehadiran/ketepatan waktu sama sekali. Masalah yang muncul di sini adalah…",
+        "options": ["Tidak ada masalah karena instrumen dan Bab 2 tidak perlu selaras", "Ketidaksesuaian antara definisi operasional di Bab 2 dan indikator instrumen di Bab 3, sehingga instrumen mengukur sesuatu yang berbeda dari yang didefinisikan", "Instrumen seharusnya memakai skala Likert, bukan indikator kehadiran", "Bab 2 seharusnya ditulis setelah instrumen selesai dibuat"],
+        "answer": 1,
+        "explanation": "Definisi operasional di Bab 2 harus menjadi dasar penyusunan indikator instrumen di Bab 3; ketidaksesuaian ini adalah tanda kurangnya jejak berpikir yang konsisten antar bab."
+      },
+      {
+        "id": "e25-8",
+        "question": "Seorang penguji bertanya di sidang: \"Kenapa kamu memilih teori Deci & Ryan, bukan teori motivasi dari Maslow?\" Mahasiswa yang telah membangun Bab 2 dengan baik seharusnya bisa menjawab dengan…",
+        "options": ["\"Karena teori Deci & Ryan lebih terkenal secara internasional\"", "Menjelaskan alasan substantif: teori tersebut memberi kerangka yang relevan untuk membedakan variabel yang diteliti (misalnya motivasi intrinsik vs ekstrinsik) dibanding teori lain", "\"Saya tidak tahu, itu saran dari pembimbing\"", "\"Karena bukunya lebih mudah didapat di perpustakaan\""],
+        "answer": 1,
+        "explanation": "Bab 2 yang dibangun dengan argumen membuat mahasiswa bisa menjustifikasi pemilihan teori berdasarkan relevansinya terhadap kerangka berpikir, bukan alasan superfisial."
+      },
+      {
+        "id": "e25-9",
+        "question": "Seorang mahasiswa menulis kerangka berpikir dengan sangat rapi secara visual (kotak dan panah berwarna-warni), tapi saat pembimbing menelusuri, tidak ada satu pun kalimat di teks yang menjelaskan alasan tiap panah. Rekomendasi paling tepat untuk memperbaiki bagian ini adalah…",
+        "options": ["Menambahkan lebih banyak warna pada diagram", "Menambahkan narasi yang menjelaskan dasar teoritis setiap hubungan/panah dalam diagram, merujuk balik ke teori yang sudah dibahas", "Menghapus diagram dan hanya menyisakan narasi tanpa visual", "Memindahkan kerangka berpikir ke Bab 4"],
+        "answer": 1,
+        "explanation": "Diagram kerangka berpikir perlu didampingi narasi yang menjelaskan dasar logis tiap hubungan, bukan sekadar tampil rapi secara visual."
+      },
+      {
+        "id": "e25-10",
+        "question": "Seorang mahasiswa menuliskan hipotesis alternatif (Ha): \"Ada pengaruh signifikan metode pembelajaran daring terhadap hasil belajar siswa\" tapi lupa menuliskan hipotesis nol (H0) pasangannya. Kekurangan dari Bab 2 ini adalah…",
+        "options": ["Tidak masalah, H0 bersifat opsional dan boleh dihilangkan sepenuhnya", "H0 diperlukan sebagai pasangan formal Ha untuk pengujian statistik — tanpa H0, kerangka pengujian hipotesis menjadi tidak lengkap", "Ha seharusnya ditulis di Bab 4, bukan Bab 2", "H0 hanya diperlukan untuk penelitian kualitatif"],
+        "answer": 1,
+        "explanation": "Dalam pengujian statistik, H0 dan Ha selalu berpasangan — H0 dinyatakan lalu diuji apakah ditolak (mendukung Ha) atau gagal ditolak, sehingga keduanya harus dituliskan secara eksplisit."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Metode Penelitian Kuantitatif, Kualitatif dan R&D", "author": "Sugiyono", "publisher": "Alfabeta", "note": "Rujukan utama penyusunan kerangka berpikir dan hipotesis penelitian di konteks kampus Indonesia." },
+    { "title": "Research Design: Qualitative, Quantitative, and Mixed Methods Approaches", "author": "John W. Creswell", "publisher": "SAGE Publications", "note": "Rujukan pembedaan fungsi landasan teori dan tinjauan pustaka, serta kapan hipotesis relevan digunakan." },
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams", "publisher": "University of Chicago Press", "note": "Rujukan membangun argumen dari sumber literatur, bukan sekadar merangkum definisi berurutan." },
+    { "title": "Self-Determination Theory: Basic Psychological Needs in Motivation, Development, and Wellness", "author": "Edward L. Deci, Richard M. Ryan", "publisher": "Guilford Press", "note": "Contoh teori payung motivasi yang dipakai pada worked example pemilihan teori yang terjustifikasi." },
+    { "title": "Pedoman Penulisan Karya Ilmiah", "publisher": "Universitas (pedoman internal program studi)", "note": "Rujukan format teknis Bab 2 yang bisa berbeda antar kampus; selalu cek pedoman resmi program studimu." }
+  ]
+}

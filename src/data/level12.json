@@ -1,0 +1,274 @@
+{
+  "id": 12,
+  "slug": "systematic-review",
+  "title": "Systematic Review & PRISMA",
+  "subtitle": "Dari niat baik ke protokol yang bisa diaudit",
+  "goal": "Memahami kenapa systematic review berbeda secara mendasar dari tinjauan naratif di Level 11, mampu menyusun kriteria inklusi/eksklusi yang presisi, menulis search string dengan operator boolean, mengikuti empat tahap screening PRISMA, serta membaca dan menyusun PRISMA 2020 flow diagram.",
+  "estimatedMinutes": 40,
+  "sections": [
+    {
+      "id": "12-1",
+      "title": "Protokol Dulu, Baru Mencari",
+      "blocks": [
+        { "type": "heading", "text": "Beda Fundamental dengan Tinjauan Naratif" },
+        { "type": "paragraph", "text": "Di Level 11 kamu belajar tinjauan naratif (narrative review) — fleksibel, mengalir, kriteria pemilihan sumber ada di kepala peneliti dan boleh berubah sambil jalan. Systematic review menolak fleksibilitas itu. Semua keputusan penting — pertanyaan riset, kriteria studi mana yang boleh masuk, database mana yang dicari, kata kunci apa yang dipakai — dikunci dalam sebuah PROTOKOL sebelum satu pun pencarian dimulai." },
+        { "type": "paragraph", "text": "Kenapa repot-repot begitu? Karena tanpa protokol yang dikunci lebih dulu, peneliti bisa (sadar atau tidak) mengubah kriteria di tengah jalan agar hasil yang 'ditemukan lebih dulu' terlihat masuk akal — bentuk cherry-picking yang halus. Systematic review dirancang supaya peneliti lain, dengan protokol yang sama, akan sampai pada kumpulan studi yang kurang lebih sama. Itu yang disebut reproducible." },
+        { "type": "callout", "title": "Reproducible, Bukan Sekadar Rapi", "text": "Ukuran keberhasilan systematic review bukan 'apakah tulisannya rapi', tapi 'apakah orang lain yang mengikuti protokolmu akan menemukan kumpulan studi yang sama'. Kalau jawabannya tidak, protokolmu belum cukup eksplisit." },
+        { "type": "paragraph", "text": "Alat bantu paling umum untuk merumuskan pertanyaan riset yang siap-protokol adalah kerangka PICO: Population (siapa/apa subjeknya), Intervention (perlakuan atau paparan yang diteliti), Comparison (dibandingkan dengan apa), Outcome (hasil yang diukur). Untuk review yang membatasi jenis studi tertentu, sering ditambah S untuk Study design, jadi PICOS. Tiap huruf ini nantinya langsung menurunkan istilah pencarian di Level 12-4." }
+      ]
+    },
+    {
+      "id": "12-2",
+      "title": "Pra-registrasi: Mengunci Keputusan Sebelum Melihat Hasil",
+      "blocks": [
+        { "type": "heading", "text": "Menutup Pintu untuk Mengubah Kriteria di Tengah Jalan" },
+        { "type": "paragraph", "text": "Protokol yang lengkap berisi: pertanyaan PICO, kriteria inklusi/eksklusi, daftar database yang akan dicari, search string lengkap, cara menyaring (screening), rencana ekstraksi data, dan rencana menilai kualitas studi. Semua ini ditulis SEBELUM pencarian pertama dilakukan." },
+        { "type": "paragraph", "text": "Banyak systematic review — terutama di bidang kesehatan dan ilmu sosial — mendaftarkan protokolnya secara publik sebelum mulai bekerja, misalnya lewat PROSPERO (register internasional untuk protokol systematic review). Pendaftaran ini memberi stempel waktu publik: siapa pun bisa mengecek nanti apakah kriteria akhir yang dilaporkan sama dengan yang didaftarkan di awal." },
+        { "type": "callout", "title": "Kenapa Dikunci Duluan?", "text": "Begitu proses pencarian jalan, peneliti mulai melihat hasil — dan godaan terbesar adalah menyesuaikan kriteria supaya studi yang 'kebetulan mendukung hipotesis' masuk, sementara yang tidak mendukung dikeluarkan dengan alasan teknis. Pra-registrasi menutup celah ini karena kriteria sudah publik sebelum hasil terlihat." },
+        { "type": "paragraph", "text": "Kalau protokolmu berubah di tengah jalan (kadang memang perlu, misalnya kriteria ternyata terlalu sempit), praktik yang jujur adalah melaporkan perubahan itu secara eksplisit di laporan akhir — bukan menyembunyikannya seolah kriteria akhir memang begitu sejak awal." }
+      ]
+    },
+    {
+      "id": "12-3",
+      "title": "Kriteria Inklusi & Eksklusi: Before/After",
+      "blocks": [
+        { "type": "heading", "text": "Dari Samar ke Bisa Diaudit" },
+        { "type": "quote", "text": "SEBELUM: Studi yang relevan dengan topik pembelajaran daring akan dimasukkan ke dalam tinjauan ini.", "source": "Kriteria yang terlalu longgar" },
+        { "type": "quote", "text": "SESUDAH: Studi dimasukkan jika memenuhi SEMUA syarat berikut — (1) diterbitkan di jurnal peer-review tahun 2015-2024, (2) subjek adalah mahasiswa S1, (3) mengukur hasil belajar dengan instrumen yang sudah divalidasi, (4) berbahasa Indonesia atau Inggris. Studi dieksklusi jika berupa opini, editorial, tesis tidak dipublikasikan, atau prosiding konferensi tanpa peer review penuh.", "source": "Kriteria presisi dan bisa diaudit" },
+        { "type": "paragraph", "text": "Bedanya bukan soal panjang kalimat, tapi soal APLIKABILITAS. Versi 'sebelum' membutuhkan penilaian subjektif kata 'relevan' — dua orang bisa menilai studi yang sama secara berbeda. Versi 'sesudah' memberi syarat yang bisa dicek secara mekanis: tahun terbit, jenis subjek, jenis instrumen, bahasa, jenis publikasi." },
+        { "type": "callout", "title": "Uji dengan Reviewer Kedua", "text": "Cara tercepat mengecek apakah kriteriamu sudah cukup presisi: minta orang lain menerapkannya ke 10 studi yang sama tanpa penjelasan tambahan darimu. Kalau keputusannya sering berbeda dari keputusanmu, kriteriamu masih terlalu samar." }
+      ]
+    },
+    {
+      "id": "12-4",
+      "title": "Menyusun Search String dengan Boolean",
+      "blocks": [
+        { "type": "heading", "text": "AND, OR, NOT: Mengendalikan Cakupan Pencarian" },
+        { "type": "paragraph", "text": "Search string dibangun dari elemen PICO-mu. Untuk tiap konsep (misalnya 'pembelajaran daring'), kumpulkan dulu sinonim dan istilah terkaitnya, gabungkan dengan OR — karena tiap sinonim menambah cakupan konsep yang sama. Baru setelah itu, gabungkan antar-konsep berbeda dengan AND — karena tiap konsep baru justru MENYEMPITKAN hasil ke irisan semuanya." },
+        { "type": "table", "headers": ["Operator", "Fungsi", "Contoh"], "rows": [
+          ["OR", "Memperluas — salah satu istilah sinonim boleh muncul", "\"pembelajaran daring\" OR \"e-learning\" OR \"online learning\""],
+          ["AND", "Mempersempit — kedua konsep harus sama-sama muncul", "(\"pembelajaran daring\" OR \"e-learning\") AND \"motivasi belajar\""],
+          ["NOT", "Mengecualikan istilah tertentu — dipakai hati-hati, bisa membuang studi relevan tanpa sengaja", "\"pembelajaran daring\" NOT \"sekolah dasar\""],
+          ["Tanda kutip \" \"", "Mencari frasa persis, bukan kata terpisah", "\"blended learning\" (bukan blended AND learning)"]
+        ]},
+        { "type": "paragraph", "text": "Kesalahan paling umum: menaruh semua sinonim di dalam AND, bukan OR — hasilnya pencarian jadi terlalu sempit karena mensyaratkan SEMUA sinonim muncul sekaligus di satu artikel, padahal maksudnya salah satu saja cukup." },
+        { "type": "callout", "title": "Dokumentasikan Persis, Bukan Kira-kira", "text": "Catat search string lengkap, nama tiap database yang dicari, dan TANGGAL pencarian dilakukan (database terus diperbarui, hasil bisa beda minggu depan). Tanpa dokumentasi ini, orang lain tidak bisa mereproduksi pencarianmu — dan reproducibility adalah inti systematic review." }
+      ]
+    },
+    {
+      "id": "12-5",
+      "title": "Empat Tahap Screening PRISMA",
+      "blocks": [
+        { "type": "heading", "text": "Identification → Screening → Eligibility → Included" },
+        { "type": "list", "ordered": true, "items": [
+          "Identification — semua rekaman (records) yang ditemukan dari seluruh database dan sumber tambahan (misalnya menelusuri daftar pustaka studi lain) dikumpulkan, lalu duplikatnya dihapus.",
+          "Screening — judul dan abstrak setiap rekaman yang tersisa diperiksa cepat terhadap kriteria inklusi/eksklusi; yang jelas tidak relevan dibuang di tahap ini.",
+          "Eligibility — teks lengkap (full text) dari rekaman yang lolos screening dibaca utuh dan dinilai lagi terhadap kriteria yang sama, lebih ketat karena sekarang ada isi lengkapnya.",
+          "Included — studi yang lolos kedua tahap penyaringan dan akhirnya masuk ke dalam sintesis/analisis systematic review."
+        ]},
+        { "type": "callout", "title": "Kenapa Harus Dua Reviewer Independen?", "text": "Praktik baku systematic review: dua orang menyaring secara independen (tanpa melihat keputusan satu sama lain dulu), baru membandingkan hasilnya. Perbedaan diselesaikan lewat diskusi, atau dengan melibatkan reviewer ketiga sebagai penengah. Ini mengurangi bias dari penilaian satu orang saja — mirip triangulasi peneliti di Level 7." },
+        { "type": "paragraph", "text": "Perhatikan bahwa jumlah studi menyusut tajam di setiap tahap — dari ratusan rekaman awal bisa jadi hanya belasan yang benar-benar masuk ke sintesis akhir. Penyusutan ini bukan tanda kegagalan, justru bukti bahwa kriteria diterapkan secara konsisten dan ketat." }
+      ]
+    },
+    {
+      "id": "12-6",
+      "title": "Diagram Alir PRISMA 2020",
+      "blocks": [
+        { "type": "heading", "text": "Melacak Setiap Studi yang Hilang" },
+        { "type": "paragraph", "text": "PRISMA 2020 flow diagram adalah bagan yang mewajibkan pelaporan ANGKA di setiap tahap penyaringan — bukan cuma angka akhir. Pembaca harus bisa melihat persis berapa yang masuk, berapa yang gugur di tiap tahap, dan yang paling penting: KENAPA studi gugur di tahap full-text (bukan cuma 'dieksklusi', tapi dieksklusi karena apa)." },
+        { "type": "table", "headers": ["Tahap", "Jumlah", "Keterangan"], "rows": [
+          ["Records dari database", "450", "Hasil pencarian di 4 database sebelum duplikat dihapus"],
+          ["Records dari sumber lain", "12", "Menelusuri daftar pustaka studi relevan"],
+          ["Duplikat dihapus", "80", "Rekaman yang sama muncul di lebih dari satu database"],
+          ["Disaring (judul/abstrak)", "382", "Rekaman yang diperiksa pada tahap screening"],
+          ["Dieksklusi saat screening", "310", "Jelas tidak relevan dari judul/abstrak saja"],
+          ["Dinilai teks lengkap", "72", "Full-text dibaca utuh untuk tahap eligibility"],
+          ["Dieksklusi saat eligibility", "50", "Rincian: 20 populasi tidak sesuai, 15 outcome tidak diukur, 15 bukan peer-review penuh"],
+          ["Masuk ke sintesis akhir", "22", "Studi yang benar-benar dianalisis dalam systematic review"]
+        ]},
+        { "type": "callout", "title": "Alasan Eksklusi Harus Eksplisit", "text": "Di tahap eligibility, cukup menulis 'dieksklusi n=50' saja tidak cukup — PRISMA 2020 mewajibkan rincian alasan per kategori (seperti kolom 'Keterangan' di atas). Ini yang membuat proses seleksi bisa diaudit pembaca, bukan sekadar diklaim." }
+      ]
+    },
+    {
+      "id": "12-7",
+      "title": "Menilai Kualitas & Risiko Bias Studi",
+      "blocks": [
+        { "type": "heading", "text": "Tidak Semua Studi yang 'Masuk' Bobotnya Sama" },
+        { "type": "paragraph", "text": "Lolos kriteria inklusi bukan berarti studi itu otomatis bagus metodologinya. Tahap berikutnya adalah menilai risiko bias tiap studi yang masuk — misalnya dengan alat terstruktur seperti Cochrane Risk of Bias tool untuk uji acak terkontrol (randomized controlled trial), atau checklist penilaian kualitas lain yang sesuai desain studi (kualitatif, observasional, dsb)." },
+        { "type": "paragraph", "text": "Penilaian ini menentukan bagaimana kamu menafsirkan hasil gabungan. Studi dengan risiko bias tinggi (misalnya sampel yang tidak representatif, atau tidak ada kelompok kontrol yang jelas) semestinya tidak diberi bobot kesimpulan yang sama dengan studi yang dirancang dan dilaksanakan ketat." },
+        { "type": "callout", "title": "Jangan Meratakan Semua Studi", "text": "Kesalahan umum: setelah studi 'lolos masuk', semua diperlakukan setara saat menarik kesimpulan gabungan. Systematic review yang baik secara eksplisit menandai studi mana yang risiko biasnya tinggi, dan mempertimbangkan itu saat menulis simpulan — bahkan bisa melakukan analisis sensitivitas dengan mengeluarkan studi berisiko tinggi untuk melihat apakah kesimpulan berubah." }
+      ]
+    },
+    {
+      "id": "12-8",
+      "title": "Systematic Review vs Tinjauan Naratif (Level 11)",
+      "blocks": [
+        { "type": "heading", "text": "Dua Alat, Dua Tujuan Berbeda" },
+        { "type": "table", "headers": ["Aspek", "Tinjauan Naratif (Level 11)", "Systematic Review"], "rows": [
+          ["Kriteria seleksi", "Boleh berkembang sambil menulis", "Dikunci dalam protokol sebelum mencari"],
+          ["Pencarian", "Tidak selalu didokumentasikan lengkap", "Search string, database, tanggal dicatat persis"],
+          ["Screening", "Biasanya satu peneliti, tidak berlapis", "Idealnya dua reviewer independen berlapis"],
+          ["Reproducibility", "Sulit direplikasi persis", "Dirancang agar bisa direplikasi orang lain"],
+          ["Waktu & tim", "Bisa dikerjakan sendiri, relatif cepat", "Butuh tim, waktu jauh lebih lama"],
+          ["Cocok untuk", "Bab pendahuluan skripsi/artikel biasa", "Pertanyaan dengan banyak studi yang hasilnya bertentangan"]
+        ]},
+        { "type": "paragraph", "text": "Ini bukan soal mana yang 'lebih baik' secara mutlak — kebanyakan skripsi/tesis mahasiswa cukup dengan tinjauan naratif karena skopnya memang bab pendahuluan, bukan proyek riset tersendiri. Systematic review adalah komitmen besar yang biasanya cocok saat pertanyaannya sendiri layak jadi satu penelitian penuh — misalnya untuk menyusun pedoman klinis atau kebijakan yang butuh bukti seketat mungkin." }
+      ]
+    },
+    {
+      "id": "12-9",
+      "title": "Kesalahan Umum dalam Systematic Review",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis kriteria inklusi/eksklusi SETELAH melihat studi yang ditemukan, bukan sebelumnya — ini menghapus seluruh alasan systematic review dibuat protokol-dulu.",
+          "Hanya mencari di satu database (misalnya cuma Google Scholar) padahal klaim 'systematic' menuntut cakupan pencarian yang menyeluruh dan terdokumentasi.",
+          "Screening dilakukan sendirian tanpa reviewer kedua, sehingga bias penilaian satu orang tidak terkoreksi.",
+          "Melaporkan PRISMA flow diagram dengan angka akhir saja, tanpa rincian alasan eksklusi di tahap full-text.",
+          "Menyamakan 'systematic review' dengan 'tinjauan yang ditulis secara sistematis/rapi' — padahal maknanya jauh lebih spesifik: protokol eksplisit, kriteria terkunci, dan proses yang bisa diaudit."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Systematic review yang jujur akan menunjukkan JEJAKNYA — protokol, search string, angka di tiap tahap, alasan eksklusi. Kalau semua itu tidak bisa ditelusuri pembaca, klaim 'systematic' hanyalah label, bukan proses yang benar-benar dijalankan." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-12",
+    "title": "Kuis Level 12",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q12-1",
+        "question": "Perbedaan paling mendasar antara systematic review dan tinjauan naratif (Level 11) adalah…",
+        "options": ["Systematic review selalu lebih pendek", "Kriteria seleksi dan strategi pencarian dikunci dalam protokol sebelum pencarian dimulai", "Systematic review tidak memakai sumber jurnal", "Tinjauan naratif tidak boleh mengutip lebih dari lima sumber"],
+        "answer": 1,
+        "explanation": "Systematic review mengunci protokol (kriteria, search string, rencana screening) sebelum mencari, sedangkan tinjauan naratif boleh berkembang sambil menulis."
+      },
+      {
+        "id": "q12-2",
+        "question": "Dalam kerangka PICO, huruf 'C' merujuk pada…",
+        "options": ["Kriteria eksklusi", "Comparison — dibandingkan dengan apa", "Jumlah database yang dicari", "Nama peneliti"],
+        "answer": 1,
+        "explanation": "PICO adalah Population, Intervention, Comparison, Outcome — 'C' adalah pembanding dari intervensi/paparan yang diteliti."
+      },
+      {
+        "id": "q12-3",
+        "question": "Saat menyusun search string, kata-kata sinonim untuk satu konsep yang sama (misalnya 'daring', 'online', 'e-learning') sebaiknya digabung dengan operator…",
+        "options": ["AND, supaya semua istilah harus muncul sekaligus", "OR, supaya salah satu istilah sudah cukup", "NOT, supaya istilah lain dikecualikan", "Tidak perlu digabung sama sekali"],
+        "answer": 1,
+        "explanation": "OR memperluas cakupan dalam satu konsep yang sama; AND baru dipakai untuk menggabungkan konsep yang BERBEDA."
+      },
+      {
+        "id": "q12-4",
+        "question": "Urutan empat tahap PRISMA yang benar adalah…",
+        "options": ["Screening → Identification → Included → Eligibility", "Identification → Screening → Eligibility → Included", "Eligibility → Screening → Identification → Included", "Included → Eligibility → Identification → Screening"],
+        "answer": 1,
+        "explanation": "Urutannya dimulai dari mengumpulkan semua rekaman (Identification), menyaring judul/abstrak (Screening), menilai teks lengkap (Eligibility), lalu studi final (Included)."
+      },
+      {
+        "id": "q12-5",
+        "question": "Alasan utama dua reviewer melakukan screening secara independen (bukan sendirian) adalah…",
+        "options": ["Supaya prosesnya lebih cepat selesai", "Mengurangi bias penilaian satu orang dan meningkatkan konsistensi keputusan", "Karena aturan jurnal mewajibkan minimal dua nama penulis", "Supaya bisa membagi pekerjaan membaca separuh-separuh saja"],
+        "answer": 1,
+        "explanation": "Screening independen berlapis mengoreksi bias/kesalahan penilaian satu orang lewat perbandingan dan diskusi, bukan sekadar pembagian tugas."
+      },
+      {
+        "id": "q12-6",
+        "question": "Fungsi menilai risiko bias/kualitas studi yang sudah lolos kriteria inklusi adalah…",
+        "options": ["Menentukan urutan sitasi dalam daftar pustaka", "Memberi bobot penafsiran yang berbeda pada studi dengan kualitas metodologis berbeda", "Mengganti kebutuhan membaca full text", "Menghitung jumlah kata setiap studi"],
+        "answer": 1,
+        "explanation": "Studi yang lolos kriteria inklusi tidak otomatis bermutu sama; penilaian risiko bias menentukan seberapa besar bobot studi itu dalam kesimpulan akhir."
+      },
+      {
+        "id": "q12-7",
+        "question": "Mendaftarkan protokol systematic review secara publik sebelum penelitian dimulai (misalnya lewat PROSPERO) berguna terutama untuk…",
+        "options": ["Mempercepat proses screening", "Mencegah perubahan kriteria di tengah jalan yang menguntungkan hipotesis sendiri", "Menghindari kebutuhan izin etik", "Menambah jumlah sitasi otomatis"],
+        "answer": 1,
+        "explanation": "Pra-registrasi memberi stempel waktu publik atas kriteria awal, sehingga sulit mengubah kriteria di tengah jalan tanpa ketahuan."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-12",
+    "title": "Ujian Level 12",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e12-1",
+        "question": "Seorang peneliti mencari dan membaca dulu sekitar 30 studi, lalu baru menuliskan kriteria inklusi/eksklusi berdasarkan studi-studi yang menurutnya 'cocok'. Masalah utama pendekatan ini adalah…",
+        "options": ["Terlalu banyak studi yang dibaca", "Kriteria disusun setelah melihat hasil, sehingga berisiko menyesuaikan diri secara tidak sadar dengan studi yang sudah ditemukan (bukan protokol yang menentukan studi mana yang masuk)", "Seharusnya cukup membaca 10 studi saja", "Tidak ada masalah karena hasil akhirnya tetap sama"],
+        "answer": 1,
+        "explanation": "Systematic review menuntut kriteria dikunci SEBELUM melihat hasil pencarian, agar seleksi studi tidak menyesuaikan diri dengan apa yang 'kebetulan' ditemukan lebih dulu."
+      },
+      {
+        "id": "e12-2",
+        "question": "Sebuah tim hanya mencari di Google Scholar satu kali, tanpa mencatat search string persis atau tanggal pencarian dilakukan. Enam bulan kemudian, tim lain mencoba mereplikasi pencarian itu dan gagal mendapatkan kumpulan studi yang sama. Akar masalahnya adalah…",
+        "options": ["Google Scholar memang tidak bisa diandalkan sama sekali", "Kurangnya dokumentasi search string, database, dan tanggal pencarian membuat proses tidak reproducible", "Tim kedua kurang teliti membaca", "Systematic review memang tidak pernah bisa direplikasi"],
+        "answer": 1,
+        "explanation": "Reproducibility systematic review bergantung pada dokumentasi persis — search string lengkap, database, dan tanggal — bukan cuma nama database yang dipakai."
+      },
+      {
+        "id": "e12-3",
+        "question": "Satu-satunya anggota tim melakukan seluruh proses screening abstrak sendirian dari awal sampai akhir tanpa reviewer kedua. Risiko terbesar dari praktik ini adalah…",
+        "options": ["Prosesnya jadi terlalu cepat selesai", "Bias atau kesalahan penilaian individu terhadap kriteria tidak terkoreksi oleh pandangan independen orang lain", "Studi yang masuk pasti terlalu banyak", "Tidak ada risiko, karena kriteria sudah ditulis di protokol"],
+        "answer": 1,
+        "explanation": "Kriteria yang tertulis di protokol tetap perlu DITERAPKAN secara konsisten; screening tunggal tanpa pembanding rawan salah tafsir yang tidak terdeteksi."
+      },
+      {
+        "id": "e12-4",
+        "question": "Sebuah artikel systematic review menampilkan diagram PRISMA yang hanya menulis 'Full-text dinilai (n=60), dieksklusi (n=40), masuk sintesis (n=20)' tanpa rincian apa pun soal kenapa 40 studi itu dikeluarkan. Yang kurang dari laporan ini adalah…",
+        "options": ["Jumlah studi yang masuk terlalu sedikit", "Rincian alasan eksklusi per kategori pada tahap full-text, yang wajib menurut PRISMA 2020", "Nama database yang dipakai", "Tidak ada yang kurang, angka akhir sudah cukup"],
+        "answer": 1,
+        "explanation": "PRISMA 2020 mewajibkan pelaporan alasan eksklusi di tahap eligibility secara rinci per kategori, bukan hanya angka total yang gugur."
+      },
+      {
+        "id": "e12-5",
+        "question": "Search string yang dipakai adalah: \"pembelajaran daring\" AND \"e-learning\" AND \"online learning\" AND \"motivasi\". Hasil pencarian jauh lebih sedikit dari perkiraan tim. Penyebab paling mungkin adalah…",
+        "options": ["Database yang dipilih terlalu besar", "Tiga istilah sinonim untuk konsep yang sama digabung dengan AND, bukan OR, sehingga mensyaratkan ketiganya muncul sekaligus", "Kata 'motivasi' seharusnya dihapus total", "Tanda kutip pada frasa membuat hasil terlalu banyak"],
+        "answer": 1,
+        "explanation": "Sinonim dari konsep yang sama semestinya digabung dengan OR; menggabungkannya dengan AND memaksa ketiga istilah muncul bersamaan di satu artikel, yang jarang terjadi."
+      },
+      {
+        "id": "e12-6",
+        "question": "Sebuah tim tidak mendaftarkan protokolnya di mana pun sebelum mulai bekerja. Di tengah proses, mereka menemukan bahwa outcome yang awalnya direncanakan tidak signifikan, lalu diam-diam mengganti fokus laporan ke outcome lain yang hasilnya signifikan tanpa menjelaskan perubahan itu. Praktik ini paling tepat digambarkan sebagai…",
+        "options": ["Praktik yang wajar dalam systematic review", "Outcome switching yang tidak transparan — persis risiko yang coba dicegah oleh pra-registrasi protokol", "Bentuk triangulasi metode", "Kesalahan teknis pada search string"],
+        "answer": 1,
+        "explanation": "Mengganti outcome fokus setelah melihat hasil, tanpa melaporkan perubahan itu, adalah outcome switching — salah satu alasan utama systematic review dianjurkan mendaftarkan protokol lebih dulu."
+      },
+      {
+        "id": "e12-7",
+        "question": "Sebuah topik punya ratusan uji klinis dengan hasil yang saling bertentangan, dan tim ingin menyusun rekomendasi pengobatan yang benar-benar bebas dari bias pemilihan studi. Pendekatan yang paling sesuai adalah…",
+        "options": ["Tinjauan naratif yang ditulis lebih panjang dari biasanya", "Systematic review dengan protokol, kriteria eksplisit, dan penilaian risiko bias per studi", "Memilih sepuluh studi paling terkenal saja", "Mengandalkan satu meta-analisis lama tanpa memperbarui pencarian"],
+        "answer": 1,
+        "explanation": "Volume studi besar dengan hasil bertentangan, ditambah tuntutan bebas dari bias seleksi, adalah situasi klasik yang membutuhkan systematic review dengan protokol eksplisit dan penilaian kualitas per studi."
+      },
+      {
+        "id": "e12-8",
+        "question": "Sebuah systematic review memasukkan satu studi dengan desain sangat lemah (sampel sangat kecil, tanpa kelompok kontrol) dan memperlakukannya setara dengan studi-studi besar yang dirancang ketat saat menyimpulkan hasil gabungan. Yang seharusnya dilakukan tim adalah…",
+        "options": ["Membuang studi tersebut agar tidak mengganggu kesimpulan tanpa penjelasan apa pun", "Menilai risiko bias studi tersebut secara eksplisit dan mempertimbangkan bobotnya berbeda saat menafsirkan hasil gabungan, misalnya lewat analisis sensitivitas", "Menjadikan studi itu sebagai temuan utama karena hasilnya paling mencolok", "Tidak melakukan apa-apa karena studi itu sudah lolos kriteria inklusi"],
+        "answer": 1,
+        "explanation": "Lolos kriteria inklusi tidak sama dengan bermutu setara; penilaian risiko bias menentukan bagaimana bobot studi itu diperlakukan saat menafsirkan simpulan gabungan."
+      },
+      {
+        "id": "e12-9",
+        "question": "Dua reviewer diberi kriteria 'studi yang relevan dengan efektivitas pembelajaran daring' dan diminta menyaring 50 abstrak secara independen. Hasilnya, keputusan mereka berbeda pada lebih dari separuh abstrak. Akar masalah yang paling mungkin adalah…",
+        "options": ["Kedua reviewer memang tidak kompeten", "Kriteria inklusi/eksklusi masih terlalu samar untuk diterapkan secara konsisten oleh dua orang berbeda", "Jumlah abstrak terlalu banyak untuk disaring", "Screening independen memang selalu menghasilkan banyak perbedaan"],
+        "answer": 1,
+        "explanation": "Tingginya ketidaksepakatan antar-reviewer biasanya menandakan kriteria belum cukup presisi/operasional, bukan sekadar soal kompetensi reviewer."
+      },
+      {
+        "id": "e12-10",
+        "question": "Diagram PRISMA sebuah studi menunjukkan: 500 rekaman ditemukan dari database, 90 duplikat dihapus, 410 disaring judul/abstrak, 350 dieksklusi di tahap ini, dan sisanya dinilai full-text. Berapa jumlah studi yang masuk ke tahap penilaian full-text (eligibility)?",
+        "options": ["500", "410", "60", "350"],
+        "answer": 2,
+        "explanation": "410 disaring dikurangi 350 yang dieksklusi pada tahap screening menyisakan 60 studi yang lanjut ke tahap penilaian full-text (eligibility)."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews", "author": "Matthew J. Page, Joanne E. McKenzie, Patrick M. Bossuyt, et al.", "year": 2021, "publisher": "BMJ", "note": "Sumber utama untuk struktur PRISMA flow diagram dan pelaporan alasan eksklusi di Level 12-6." },
+    { "title": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses: The PRISMA Statement", "author": "David Moher, Alessandro Liberati, Jennifer Tetzlaff, Douglas G. Altman (PRISMA Group)", "year": 2009, "publisher": "PLoS Medicine", "note": "Versi PRISMA sebelumnya, dasar historis konsep empat tahap screening di Level 12-5." },
+    { "title": "Cochrane Handbook for Systematic Reviews of Interventions", "author": "Julian P. T. Higgins, James Thomas, Jacqueline Chandler, et al. (eds.)", "publisher": "Cochrane", "note": "Rujukan untuk protokol, kriteria PICO/PICOS, dan penilaian risiko bias di Level 12-1, 12-2, dan 12-7." },
+    { "title": "Systematic Reviews in the Social Sciences: A Practical Guide", "author": "Mark Petticrew, Helen Roberts", "publisher": "Blackwell Publishing", "note": "Rujukan penerapan systematic review di luar konteks medis, termasuk search string dan screening." },
+    { "title": "PROSPERO — International Prospective Register of Systematic Reviews", "author": "Centre for Reviews and Dissemination, University of York", "note": "Rujukan konsep pra-registrasi protokol systematic review di Level 12-2." }
+  ]
+}

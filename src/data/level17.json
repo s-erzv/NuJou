@@ -1,0 +1,273 @@
+{
+  "id": 17,
+  "slug": "judul-keywords",
+  "title": "Judul & Keywords yang Ditemukan Orang",
+  "subtitle": "Satu-dua frasa yang menentukan siapa yang akan membaca artikelmu",
+  "goal": "Menulis judul yang spesifik dan mudah ditemukan, memilih tipe judul (declarative/descriptive/interrogative) yang tepat untuk bidangmu, memilih keywords yang bekerja untuk indeksasi, dan menghindari frasa mubazir yang membuang jatah kata.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "17-1",
+      "title": "Kenapa Judul Lebih Penting dari yang Kamu Kira",
+      "blocks": [
+        { "type": "heading", "text": "Pintu Gerbang Paling Sempit" },
+        { "type": "paragraph", "text": "Level 15 sudah membahas abstrak sebagai bagian paling banyak dibaca. Tapi ada satu bagian yang dibaca LEBIH banyak lagi dari abstrak: judul. Judul muncul di hasil pencarian Google Scholar, di daftar isi jurnal, di daftar pustaka artikel orang lain, di linimasa media sosial akademik, dan di manajer referensi (Zotero/Mendeley, lihat Level 5) yang sering hanya menampilkan judul dan nama penulis tanpa abstrak sama sekali." },
+        { "type": "paragraph", "text": "Sebagian besar orang memutuskan buka-atau-tidak HANYA dari judul, bahkan sebelum sampai ke abstrak. Kalau judulmu gagal menjelaskan apa isi penelitianmu, ribuan pembaca potensial tidak akan pernah tahu artikelmu ada — meski isinya bagus." },
+        { "type": "callout", "title": "Corong Paling Sempit", "text": "Bayangkan sebuah corong: seribu orang melihat judulmu, hanya sebagian kecil yang membuka abstrak, dan lebih sedikit lagi yang membaca artikel penuh. Judul adalah mulut corong paling sempit — kalau gagal di sini, tidak ada kesempatan kedua." }
+      ]
+    },
+    {
+      "id": "17-2",
+      "title": "Tiga Tipe Judul: Declarative, Descriptive, Interrogative",
+      "blocks": [
+        { "type": "heading", "text": "Konvensi Berbeda Antar Bidang" },
+        { "type": "paragraph", "text": "Judul akademik umumnya jatuh ke salah satu dari tiga tipe berikut. Tidak ada yang mutlak benar — pilihannya tergantung bidang ilmu dan kadang ditentukan oleh konvensi jurnal tujuan (lihat Level 18)." },
+        {
+          "type": "table",
+          "headers": ["Tipe", "Ciri", "Contoh"],
+          "rows": [
+            ["Descriptive (deskriptif)", "Menyebut topik dan variabel tanpa mengungkap temuan", "Pengaruh Frekuensi Notifikasi Aplikasi terhadap Durasi Fokus Belajar Siswa SMA"],
+            ["Declarative (deklaratif)", "Menyatakan temuan utama langsung di judul", "Frekuensi Notifikasi Tinggi Menurunkan Durasi Fokus Belajar Siswa SMA"],
+            ["Interrogative (pertanyaan)", "Berbentuk pertanyaan yang dijawab oleh isi artikel", "Apakah Frekuensi Notifikasi Aplikasi Memengaruhi Fokus Belajar Siswa SMA?"]
+          ]
+        },
+        { "type": "paragraph", "text": "Declarative makin umum di bidang sains karena langsung menyampaikan temuan ke pembaca yang terburu-buru. Descriptive lazim di ilmu sosial/humaniora, terutama penelitian kualitatif yang sulit diringkas jadi satu klaim tunggal. Interrogative paling jarang dipakai karena berisiko terlihat seperti clickbait kalau tidak hati-hati menulisnya." },
+        { "type": "callout", "title": "Cek Dulu Konvensi Jurnalnya", "text": "Sebagian jurnal secara eksplisit melarang judul berbentuk pertanyaan di Author Guidelines mereka. Sama seperti struktur abstrak di Level 15, ini bukan pilihan bebas — cek dulu sebelum menulis." }
+      ]
+    },
+    {
+      "id": "17-3",
+      "title": "Spesifik Mengalahkan Kreatif",
+      "blocks": [
+        { "type": "heading", "text": "Ini Bukan Menulis Judul Buku atau Artikel Media" },
+        { "type": "paragraph", "text": "Di dunia media dan penerbitan populer, judul yang puitis dan penuh teka-teki dianggap menarik. Di dunia akademik, konvensinya justru terbalik: judul yang mengaburkan variabel, populasi, atau metode demi terdengar 'kreatif' justru merugikan — pembaca dan mesin pencari sama-sama kesulitan menangkap isi artikelmu." },
+        { "type": "quote", "text": "Ketika Layar Berbicara: Menyingkap Rahasia di Balik Gadget Anak Muda Masa Kini", "source": "Judul LEMAH — puitis, tapi tidak menyebut variabel, populasi, atau metode apa pun" },
+        { "type": "quote", "text": "Durasi Penggunaan Media Sosial dan Kualitas Tidur pada Mahasiswa: Studi Cross-Sectional di Kota Bandung", "source": "Judul KUAT — variabel jelas (durasi penggunaan, kualitas tidur), populasi jelas (mahasiswa), lokasi dan desain disebut" },
+        { "type": "callout", "title": "Bedanya Apa?", "text": "Versi lemah bisa jadi judul untuk penelitian topik APA SAJA soal gadget — tidak ada informasi yang membedakannya dari ribuan judul serupa. Versi kuat langsung memberi tahu pembaca dan mesin pencari: variabel apa yang diteliti, pada siapa, dan bagaimana caranya." }
+      ]
+    },
+    {
+      "id": "17-4",
+      "title": "Anatomi Judul yang Baik & Frasa Mubazir",
+      "blocks": [
+        { "type": "heading", "text": "Elemen yang Perlu Ada, Frasa yang Perlu Dibuang" },
+        { "type": "paragraph", "text": "Judul yang baik biasanya memuat: variabel utama penelitian, populasi/konteks/lokasi bila relevan, dan sesekali jenis desain/metode jika itu penting untuk dipahami cakupannya (misalnya 'Studi Kasus', 'Systematic Review' — lihat Level 12)." },
+        { "type": "list", "ordered": false, "items": [
+          "\"Suatu Kajian tentang…\" — buang; tidak menambah informasi apa pun.",
+          "\"Analisis Mengenai…\" — buang, kecuali kata 'Analisis' memang menunjukkan metode spesifik (misalnya 'Analisis Regresi').",
+          "\"Studi Pendahuluan tentang…\" — pertahankan HANYA jika memang penting menandai ini riset awal/pilot, karena itu menentukan seberapa kuat klaim yang boleh dibuat.",
+          "Mengulang kata demi kata rumusan masalah tanpa dipadatkan — judul bukan salinan tujuan penelitian, tapi versi paling ringkasnya."
+        ]},
+        { "type": "callout", "title": "Uji Cepat Kata Mubazir", "text": "Coba pangkas kata seperti 'penelitian ini', 'suatu', 'beberapa aspek dari' dari judulmu. Kalau maknanya tidak berubah, kata itu memang tidak perlu ada — dan kamu baru saja menghemat jatah kata untuk hal yang benar-benar penting." }
+      ]
+    },
+    {
+      "id": "17-5",
+      "title": "Panjang Judul & Aturan Jurnal",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Sepanjang yang Kamu Mau" },
+        { "type": "paragraph", "text": "Jurnal berbeda-beda menetapkan batas panjang judul — ada yang membatasi jumlah kata (misalnya maksimal 15 kata), ada yang membatasi jumlah karakter termasuk spasi (misalnya maksimal 120 karakter). Judul yang kepanjangan biasanya karena menumpuk subjudul demi subjudul setelah tanda titik dua." },
+        {
+          "type": "table",
+          "headers": ["Aturan Umum yang Sering Dijumpai", "Konsekuensi Kalau Diabaikan"],
+          "rows": [
+            ["Maksimal 12-15 kata", "Sistem OJS (lihat Level 19) bisa menolak submit atau editor meminta pemendekan sebelum masuk proses review"],
+            ["Maksimal ~120 karakter termasuk spasi", "Judul terpotong di hasil pencarian/daftar isi jika melebihi batas tampilan"],
+            ["Subjudul (setelah titik dua) diperbolehkan, tapi biasanya hanya satu", "Menumpuk dua-tiga subjudul membuat judul terasa berantakan dan sulit diingat"]
+          ]
+        },
+        { "type": "callout", "title": "Cek Author Guidelines Dulu", "text": "Sama seperti batas kata abstrak di Level 15, batas panjang judul harus dicek langsung di Author Guidelines jurnal tujuan (lihat Level 18) — jangan asumsikan semua jurnal punya aturan yang sama." }
+      ]
+    },
+    {
+      "id": "17-6",
+      "title": "Memilih Keywords yang Bekerja untuk Indeksasi",
+      "blocks": [
+        { "type": "heading", "text": "Kata yang Dipakai Mesin Pencari untuk Menemukanmu" },
+        { "type": "paragraph", "text": "Keywords membantu mesin pengindeks (Scopus, SINTA, Google Scholar — lihat Level 5) mengelompokkan dan memunculkan artikelmu di hasil pencarian orang lain. Kebanyakan jurnal meminta 3-8 kata/frasa kunci." },
+        { "type": "list", "ordered": false, "items": [
+          "Pakai istilah yang benar-benar dipakai orang saat MENCARI topik itu — bukan istilah paling 'ilmiah kedengarannya' tapi jarang diketik di kotak pencarian.",
+          "Campurkan istilah luas (broad, misal 'pendidikan digital') dan istilah spesifik (niche, misal 'notifikasi push learning app').",
+          "Pastikan istilah itu juga muncul secara alami di abstrak (lihat Level 15) — kata kunci yang tak selaras dengan teks abstrak mengurangi peluang ditemukan.",
+          "Gunakan tesaurus/daftar istilah baku bidang bila ada (misalnya MeSH untuk kedokteran) agar konsisten dengan cara basis data mengindeks topik itu.",
+          "Kalau jurnal secara eksplisit meminta keywords yang tidak mengulang kata di judul (aturan hemat-ruang beberapa jurnal), manfaatkan kesempatan itu untuk menambah istilah terkait yang BELUM disebut di judul, memperluas jangkauan pencarian."
+        ]},
+        {
+          "type": "table",
+          "headers": ["Keyword Buruk", "Keyword Lebih Baik"],
+          "rows": [
+            ["pendidikan, teknologi, siswa", "notifikasi aplikasi belajar, durasi fokus, media digital, siswa SMA"],
+            ["penelitian kuantitatif", "survei cross-sectional, analisis regresi linear"]
+          ]
+        },
+        { "type": "callout", "title": "Keywords Bukan Ruang untuk Kata Generik", "text": "Kata seperti 'pendidikan' atau 'teknologi' terlalu luas — jutaan artikel lain juga memakainya, sehingga artikelmu tenggelam di antara hasil pencarian yang sangat ramai." }
+      ]
+    },
+    {
+      "id": "17-7",
+      "title": "Worked Example: Judul & Keywords, Sebelum dan Sesudah",
+      "blocks": [
+        { "type": "heading", "text": "Before/After Lengkap" },
+        { "type": "quote", "text": "Judul: \"Ketika Layar Berbicara: Menyingkap Rahasia di Balik Gadget Anak Muda\"\nKeywords: gadget, anak muda, teknologi, pendidikan", "source": "Versi LEMAH — judul puitis tanpa variabel jelas, keywords terlalu generik" },
+        { "type": "quote", "text": "Judul: \"Frekuensi Notifikasi Aplikasi Belajar dan Durasi Fokus Siswa SMA: Studi Survei di Jakarta\"\nKeywords: notifikasi aplikasi belajar, durasi fokus, mode fokus, siswa SMA, survei pendidikan digital", "source": "Versi KUAT — judul menyebut variabel, populasi, lokasi, dan desain; keywords spesifik dan saling melengkapi judul" },
+        { "type": "callout", "title": "Kenapa Versi Kedua Lebih Baik", "text": "Judul dan keywords versi kedua saling memperkuat — bukan mengulang kata yang sama persis, tapi bersama-sama membentuk 'jaring' istilah pencarian yang lebih luas sekaligus lebih spesifik daripada versi pertama." }
+      ]
+    },
+    {
+      "id": "17-8",
+      "title": "Kesalahan Umum Menulis Judul & Keywords",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis judul puitis/kreatif yang mengaburkan variabel dan populasi penelitian demi terdengar menarik.",
+          "Mengklaim hasil pasti di judul deklaratif padahal penelitiannya baru studi pendahuluan skala kecil — bentuk overclaiming (lihat Level 16) yang dimulai sejak judul.",
+          "Memakai kata 'menyebabkan' atau klaim kausal di judul padahal desain penelitiannya korelasional, bukan eksperimen.",
+          "Menumpuk subjudul demi subjudul setelah titik dua sampai melebihi batas kata jurnal.",
+          "Memilih keywords yang identik persis dengan kata di judul, sehingga tidak memperluas jangkauan pencarian sama sekali.",
+          "Memilih keywords yang tidak pernah muncul di abstrak atau isi artikel, membuat mesin pencari kesulitan mencocokkan istilah."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Judul yang baik adalah ringkasan paling padat dan paling jujur dari penelitianmu — bukan iklan, bukan teka-teki, dan bukan salinan rumusan masalah kata demi kata." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-17",
+    "title": "Kuis Level 17",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q17-1",
+        "question": "Judul yang secara eksplisit menyatakan temuan utama penelitian, bukan sekadar menyebut topiknya, disebut tipe judul…",
+        "options": ["Descriptive", "Declarative", "Interrogative", "Compound"],
+        "answer": 1,
+        "explanation": "Declarative langsung menyatakan temuan utama di judul, berbeda dari descriptive yang hanya menyebut topik/variabel tanpa mengungkap hasil."
+      },
+      {
+        "id": "q17-2",
+        "question": "Dalam alur pembaca menemukan sebuah artikel, bagian yang menjadi 'corong paling sempit' adalah…",
+        "options": ["Metode penelitian", "Judul", "Daftar pustaka", "Ucapan terima kasih"],
+        "answer": 1,
+        "explanation": "Judul dibaca jauh lebih banyak orang dibanding bagian lain manapun, sehingga kegagalan di judul berarti kehilangan pembaca sebelum mereka sempat membuka abstrak."
+      },
+      {
+        "id": "q17-3",
+        "question": "Jumlah keywords yang umum diminta jurnal berkisar antara…",
+        "options": ["1-2 kata", "3-8 kata/frasa", "15-20 kata", "Tidak ada batasan sama sekali"],
+        "answer": 1,
+        "explanation": "Kebanyakan jurnal meminta 3-8 kata/frasa kunci — cukup untuk mencakup variabel utama tanpa berlebihan."
+      },
+      {
+        "id": "q17-4",
+        "question": "Alasan utama menghindari judul yang terlalu puitis/kreatif dalam artikel akademik adalah…",
+        "options": ["Karena dilarang oleh undang-undang", "Karena mengaburkan variabel dan populasi sehingga sulit ditemukan serta dipahami cakupannya", "Karena reviewer tidak suka humor", "Karena judul puitis selalu lebih panjang dari batas kata jurnal"],
+        "answer": 1,
+        "explanation": "Judul yang mengutamakan kesan puitis di atas kejelasan variabel/populasi membuat pembaca dan mesin pencari kesulitan menilai relevansi artikel."
+      },
+      {
+        "id": "q17-5",
+        "question": "Kata kunci yang efektif untuk indeksasi sebaiknya…",
+        "options": ["Seunik mungkin agar berbeda dari peneliti lain", "Istilah yang benar-benar dipakai orang saat mencari topik itu", "Disalin persis dari judul jurnal ternama lain", "Sesingkat mungkin tanpa memedulikan makna spesifiknya"],
+        "answer": 1,
+        "explanation": "Keywords bekerja kalau mencocokkan istilah yang benar-benar diketik orang saat mencari — bukan istilah unik ciptaan sendiri yang jarang dicari."
+      },
+      {
+        "id": "q17-6",
+        "question": "Frasa seperti \"Suatu Kajian tentang…\" di awal judul sebaiknya…",
+        "options": ["Dipertahankan karena terdengar formal dan akademik", "Dihilangkan karena tidak menambah informasi apa pun dan memakan jatah kata", "Wajib ada di semua judul akademik", "Hanya dipakai untuk judul skripsi, bukan artikel jurnal"],
+        "answer": 1,
+        "explanation": "Frasa semacam itu adalah filler — menghapusnya tidak mengubah makna, tapi membebaskan jatah kata untuk informasi yang benar-benar penting."
+      },
+      {
+        "id": "q17-7",
+        "question": "Kenapa penting mengecek batas kata/karakter judul di Author Guidelines sebelum submit?",
+        "options": ["Karena setiap jurnal punya aturan berbeda, dan ini bagian dari menyesuaikan naskah dengan jurnal tujuan", "Karena semua jurnal memakai batas yang persis sama", "Karena batas panjang hanya berlaku untuk jurnal predator", "Karena batas kata hanya berlaku untuk abstrak, bukan judul"],
+        "answer": 0,
+        "explanation": "Batas panjang judul berbeda-beda antar jurnal, sama seperti batas kata abstrak di Level 15 — harus dicek langsung, bukan diasumsikan."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-17",
+    "title": "Ujian Level 17",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e17-1",
+        "question": "Seorang mahasiswa memberi judul \"Menyingkap Misteri di Balik Layar: Kisah Notifikasi dan Anak Muda Masa Kini\" untuk artikelnya. Masalah utama judul ini adalah…",
+        "options": ["Terlalu pendek untuk dibaca", "Terlalu puitis sehingga tidak menyebut variabel, populasi, atau metode secara jelas", "Tidak memakai bahasa Inggris", "Tidak mencantumkan nama penulis"],
+        "answer": 1,
+        "explanation": "Judul ini menarik secara gaya bahasa tapi gagal menyampaikan informasi inti (variabel, populasi, metode) yang dibutuhkan pembaca dan mesin pencari."
+      },
+      {
+        "id": "e17-2",
+        "question": "Author Guidelines sebuah jurnal secara eksplisit melarang judul berbentuk pertanyaan, tapi penulis menyiapkan judul \"Apakah Pembelajaran Daring Efektif bagi Mahasiswa?\". Yang seharusnya dilakukan penulis adalah…",
+        "options": ["Tetap mengirim judul itu karena isinya sudah bagus", "Mengubah judul menjadi bentuk declarative atau descriptive sesuai aturan jurnal tujuan", "Mencari jurnal lain tanpa mengubah apa pun", "Menambahkan tanda seru di akhir judul"],
+        "answer": 1,
+        "explanation": "Format judul bukan pilihan bebas penulis — harus mengikuti ketentuan jurnal tujuan, sama seperti format abstrak di Level 15."
+      },
+      {
+        "id": "e17-3",
+        "question": "Penulis memilih lima keywords yang sama persis dengan lima kata di judulnya, dengan alasan \"judul sudah mewakili semua\". Editor menandai keywords ini tidak menambah nilai. Apa yang seharusnya dilakukan?",
+        "options": ["Membiarkan saja karena keywords memang harus sama dengan judul", "Menambahkan istilah terkait yang belum disebut di judul untuk memperluas jangkauan pencarian", "Menghapus keywords sama sekali", "Mengganti keywords dengan singkatan yang belum umum"],
+        "answer": 1,
+        "explanation": "Keywords yang identik dengan judul tidak memperluas cakupan pencarian; sebaiknya menambah istilah terkait yang belum tercakup di judul."
+      },
+      {
+        "id": "e17-4",
+        "question": "Sebuah judul berbunyi: \"Pengaruh Media Sosial: Studi Kasus: Analisis Regresi pada Mahasiswa Kota X: Tinjauan Tahun 2023\" dan melebihi batas 15 kata yang ditetapkan jurnal. Kesalahan utamanya adalah…",
+        "options": ["Judul terlalu pendek", "Menumpuk terlalu banyak subjudul setelah titik dua, sebaiknya dipilih satu elemen paling penting saja", "Tidak boleh menyebut tahun di judul", "Analisis regresi tidak boleh disebut di judul"],
+        "answer": 1,
+        "explanation": "Menumpuk beberapa subjudul membuat judul kepanjangan dan berantakan; sebaiknya penulis memilih satu elemen paling esensial untuk anak judul."
+      },
+      {
+        "id": "e17-5",
+        "question": "Seorang penulis memilih keyword dengan istilah teknis yang sangat spesifik dan jarang dicari orang, padahal ada sinonim yang jauh lebih umum dipakai orang mencari topik yang sama. Yang sebaiknya dilakukan adalah…",
+        "options": ["Mempertahankan istilah teknis karena terdengar lebih ilmiah", "Memilih istilah yang benar-benar dipakai orang saat mencari, sambil tetap menyertakan istilah niche yang relevan", "Menghapus keyword itu tanpa menggantinya", "Menyalin keyword dari artikel lain tanpa mengecek relevansinya"],
+        "answer": 1,
+        "explanation": "Keywords idealnya mencampur istilah luas yang sering dicari dengan istilah spesifik/niche, bukan murni istilah teknis yang jarang diketik orang saat mencari."
+      },
+      {
+        "id": "e17-6",
+        "question": "Sebuah judul menyatakan \"Aplikasi X Terbukti Meningkatkan Prestasi Belajar Siswa\", padahal penelitiannya baru studi pendahuluan pada 20 siswa selama satu minggu. Masalah utamanya adalah…",
+        "options": ["Judul terlalu panjang", "Overclaiming — judul menyatakan kepastian yang jauh melampaui kekuatan bukti penelitian pendahuluan berskala kecil", "Seharusnya tidak menyebut nama aplikasi", "Tidak ada masalah karena aplikasi memang efektif"],
+        "answer": 1,
+        "explanation": "Sama seperti overclaiming di Discussion (Level 16), judul yang menyatakan kepastian mutlak dari studi pendahuluan berskala kecil melampaui apa yang benar-benar dibuktikan datanya."
+      },
+      {
+        "id": "e17-7",
+        "question": "Penulis mencantumkan keyword \"kecerdasan buatan generatif\" pada artikelnya, padahal istilah itu tidak pernah muncul sekali pun di abstrak maupun isi artikel yang sebenarnya membahas survei kertas cetak biasa. Konsekuensi paling mungkin adalah…",
+        "options": ["Artikel akan lebih mudah ditemukan karena istilah itu sedang tren", "Ketidaksesuaian ini mengurangi peluang ditemukan karena mesin pencari mencocokkan istilah yang juga muncul di abstrak/teks", "Tidak ada konsekuensi karena keywords bebas dipilih", "Reviewer akan otomatis menghapus keyword yang salah"],
+        "answer": 1,
+        "explanation": "Keywords yang tidak selaras dengan istilah di abstrak dan isi artikel justru mengurangi, bukan menambah, peluang artikel ditemukan lewat pencarian yang relevan."
+      },
+      {
+        "id": "e17-8",
+        "question": "Seorang penulis di bidang kedokteran membuat istilah keyword buatannya sendiri untuk suatu gejala, padahal gejala itu sudah punya istilah baku di MeSH (Medical Subject Headings). Masalah dari pendekatan ini adalah…",
+        "options": ["Istilah buatan sendiri selalu lebih akurat", "Keywords idealnya mengikuti tesaurus/istilah baku bidang agar konsisten dengan cara basis data mengindeks topik itu", "MeSH hanya berlaku untuk judul, bukan keywords", "Istilah buatan sendiri membuat artikel lebih mudah ditemukan"],
+        "answer": 1,
+        "explanation": "Memakai tesaurus standar bidang seperti MeSH memastikan artikel terindeks konsisten dengan cara pencarian yang biasa dipakai peneliti lain di bidang itu."
+      },
+      {
+        "id": "e17-9",
+        "question": "Dua penulis berdebat soal judul: satu ingin memakai bentuk declarative \"Notifikasi Aplikasi Menurunkan Fokus Belajar\", satu lagi mengingatkan bahwa desain penelitiannya adalah survei korelasional, bukan eksperimen. Keputusan yang tepat adalah…",
+        "options": ["Tetap memakai judul declarative karena lebih menarik", "Menyesuaikan judul agar tidak mengklaim kausalitas dari desain korelasional, misalnya dengan kata 'berasosiasi dengan'", "Mengubah desain penelitian menjadi eksperimen di menit terakhir", "Menghapus variabel notifikasi dari judul sama sekali"],
+        "answer": 1,
+        "explanation": "Sama seperti aturan hedging di Discussion (Level 16), judul declarative tidak boleh mengklaim kausalitas jika desain penelitiannya korelasional, bukan eksperimen dengan kontrol."
+      },
+      {
+        "id": "e17-10",
+        "question": "Reviewer meminta penulis memangkas judul dari 22 kata menjadi maksimal 15 kata sesuai ketentuan jurnal. Penulis hanya menghapus beberapa kata terakhir tanpa mengevaluasi elemen mana yang paling penting. Pendekatan yang lebih tepat adalah…",
+        "options": ["Pendekatan penulis sudah benar, yang penting jumlah kata pas", "Mengevaluasi elemen mana (variabel, populasi, metode) yang paling esensial untuk dipertahankan, bukan asal memotong dari belakang", "Mengubah seluruh judul menjadi bentuk pertanyaan agar lebih pendek", "Menghapus nama variabel utama agar judul lebih ringkas"],
+        "answer": 1,
+        "explanation": "Sama seperti kesalahan memangkas abstrak asal dari akhir kalimat (Level 15), memangkas judul seharusnya melalui evaluasi elemen mana yang paling esensial, bukan pemotongan sembarangan."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "How to Write and Publish a Scientific Paper", "author": "Robert A. Day & Barbara Gastel", "publisher": "Cambridge University Press", "note": "Rujukan utama untuk prinsip menulis judul dan memilih keywords yang efektif." },
+    { "title": "Academic Writing for Graduate Students: Essential Tasks and Skills", "author": "John M. Swales & Christine B. Feak", "publisher": "University of Michigan Press", "note": "Rujukan gaya padat dan spesifik dalam menulis elemen singkat seperti judul." },
+    { "title": "Publication Manual of the American Psychological Association", "author": "American Psychological Association", "year": 2020, "publisher": "APA", "note": "Panduan format judul dan halaman judul (edisi ke-7)." },
+    { "title": "Author guidelines: title, abstract and keywords", "author": "Elsevier", "publisher": "Elsevier Author Hub", "note": "Konvensi memilih judul dan keywords untuk indeksasi di banyak jurnal Elsevier." },
+    { "title": "Purdue Online Writing Lab (OWL): APA title page guidelines", "author": "Purdue University", "publisher": "Purdue OWL", "note": "Rujukan tambahan soal konvensi penulisan judul dalam format APA." }
+  ]
+}

@@ -10,31 +10,70 @@
       "id": "3-1",
       "title": "Kenapa Harus Menyitasi?",
       "blocks": [
-        { "type": "heading", "text": "Sitasi Itu Tanda Kejujuran" },
-        { "type": "paragraph", "text": "Sitasi adalah cara kita berkata: 'ide ini bukan punya saya, tapi punya si A tahun sekian'. Sederhana, tapi penting sekali. Tanpa sitasi, kita seolah mengaku semua gagasan itu milik kita — dan itu tidak jujur." },
-        { "type": "paragraph", "text": "Ada empat manfaat besar dari menyitasi dengan benar:" },
-        { "type": "list", "ordered": true, "items": [
-          "Menghargai kerja keras penulis asli yang idenya kita pakai.",
-          "Menunjukkan bahwa argumen kita berpijak pada sumber yang kredibel, bukan karangan.",
-          "Membantu pembaca menelusuri sumber asli kalau ingin tahu lebih dalam.",
-          "Melindungi kita dari tuduhan plagiarisme (menjiplak)."
-        ]},
-        { "type": "callout", "title": "Aturan Berpasangan", "text": "Setiap sitasi di dalam teks WAJIB punya pasangan di Daftar Pustaka, begitu pula sebaliknya. Kalau ada nama di teks tapi tidak ada di daftar pustaka (atau kebalikannya), berarti tulisanmu belum rapi." }
+        {
+          "type": "heading",
+          "text": "Sitasi Itu Tanda Kejujuran"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sitasi adalah cara kita berkata: 'ide ini bukan punya saya, tapi punya si A tahun sekian'. Sederhana, tapi penting sekali. Tanpa sitasi, kita seolah mengaku semua gagasan itu milik kita — dan itu tidak jujur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada empat manfaat besar dari menyitasi dengan benar:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Menghargai kerja keras penulis asli yang idenya kita pakai.",
+            "Menunjukkan bahwa argumen kita berpijak pada sumber yang kredibel, bukan karangan.",
+            "Membantu pembaca menelusuri sumber asli kalau ingin tahu lebih dalam.",
+            "Melindungi kita dari tuduhan plagiarisme (menjiplak)."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Aturan Berpasangan",
+          "text": "Setiap sitasi di dalam teks WAJIB punya pasangan di Daftar Pustaka, begitu pula sebaliknya. Kalau ada nama di teks tapi tidak ada di daftar pustaka (atau kebalikannya), berarti tulisanmu belum rapi."
+        }
       ]
     },
     {
       "id": "3-2",
       "title": "Dua Tempat Menaruh Sitasi",
       "blocks": [
-        { "type": "heading", "text": "Sitasi dalam Teks & Daftar Pustaka" },
-        { "type": "paragraph", "text": "Ada dua 'tempat' sitasi yang saling melengkapi. Pertama, sitasi dalam teks (in-text citation): tanda singkat yang muncul persis di kalimat tempat kamu memakai ide orang lain. Kedua, daftar pustaka (references): daftar lengkap semua sumber, disusun di akhir tulisan." },
+        {
+          "type": "heading",
+          "text": "Sitasi dalam Teks & Daftar Pustaka"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada dua 'tempat' sitasi yang saling melengkapi. Pertama, sitasi dalam teks (in-text citation): tanda singkat yang muncul persis di kalimat tempat kamu memakai ide orang lain. Kedua, daftar pustaka (references): daftar lengkap semua sumber, disusun di akhir tulisan."
+        },
         {
           "type": "table",
-          "headers": ["", "Sitasi dalam Teks", "Daftar Pustaka"],
+          "headers": [
+            "",
+            "Sitasi dalam Teks",
+            "Daftar Pustaka"
+          ],
           "rows": [
-            ["Letak", "Di tengah kalimat/paragraf", "Di halaman terakhir"],
-            ["Isi", "Singkat (nama, tahun/nomor)", "Lengkap (nama, judul, penerbit, dll.)"],
-            ["Contoh APA", "(Nadhira, 2023)", "Nadhira, S. (2023). Menulis akademik untuk pemula. Jurnal Literasi Ilmiah, 5(2), 110–125."]
+            [
+              "Letak",
+              "Di tengah kalimat/paragraf",
+              "Di halaman terakhir"
+            ],
+            [
+              "Isi",
+              "Singkat (nama, tahun/nomor)",
+              "Lengkap (nama, judul, penerbit, dll.)"
+            ],
+            [
+              "Contoh APA",
+              "(Nadhira, 2023)",
+              "Nadhira, S. (2023). Menulis akademik untuk pemula. Jurnal Literasi Ilmiah, 5(2), 110–125."
+            ]
           ]
         }
       ]
@@ -43,70 +82,179 @@
       "id": "3-3",
       "title": "Gaya Sitasi Populer",
       "blocks": [
-        { "type": "heading", "text": "APA, IEEE, MLA, Vancouver" },
-        { "type": "paragraph", "text": "Ada banyak 'gaya' menulis sitasi, seperti banyaknya gaya berpakaian. Yang penting: pilih SATU gaya dan pakai konsisten dari awal sampai akhir. Biasanya kampus atau jurnal sudah menentukan gaya mana yang harus dipakai." },
+        {
+          "type": "heading",
+          "text": "APA, IEEE, MLA, Vancouver"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ada banyak 'gaya' menulis sitasi, seperti banyaknya gaya berpakaian. Yang penting: pilih SATU gaya dan pakai konsisten dari awal sampai akhir. Biasanya kampus atau jurnal sudah menentukan gaya mana yang harus dipakai."
+        },
         {
           "type": "table",
-          "headers": ["Gaya", "Sering Dipakai di Bidang", "Bentuk Sitasi dalam Teks"],
+          "headers": [
+            "Gaya",
+            "Sering Dipakai di Bidang",
+            "Bentuk Sitasi dalam Teks"
+          ],
           "rows": [
-            ["APA", "Sosial, pendidikan, psikologi", "(Nadhira, 2023) — nama & tahun"],
-            ["IEEE", "Teknik, komputer, elektro", "[1] — nomor berurutan"],
-            ["MLA", "Sastra, bahasa, humaniora", "(Nadhira 45) — nama & halaman"],
-            ["Vancouver", "Kedokteran, kesehatan", "(1) atau angka kecil di atas — nomor"]
+            [
+              "APA",
+              "Sosial, pendidikan, psikologi",
+              "(Nadhira, 2023) — nama & tahun"
+            ],
+            [
+              "IEEE",
+              "Teknik, komputer, elektro",
+              "[1] — nomor berurutan"
+            ],
+            [
+              "MLA",
+              "Sastra, bahasa, humaniora",
+              "(Nadhira 45) — nama & halaman"
+            ],
+            [
+              "Vancouver",
+              "Kedokteran, kesehatan",
+              "(1) atau angka kecil di atas — nomor"
+            ]
           ]
         },
-        { "type": "subheading", "text": "Contoh Format Daftar Pustaka" },
-        { "type": "quote", "text": "APA: Nadhira, S. (2023). Menulis akademik untuk pemula. Jurnal Literasi Ilmiah, 5(2), 110–125.", "source": "Gaya APA edisi ke-7" },
-        { "type": "quote", "text": "IEEE: [1] S. Nadhira, \"Menulis akademik untuk pemula,\" Jurnal Literasi Ilmiah, vol. 5, no. 2, pp. 110–125, 2023.", "source": "Gaya IEEE" },
-        { "type": "callout", "title": "Aturan Emas", "text": "Jangan mencampur APA dan IEEE dalam satu naskah. Konsistensi gaya adalah tanda penulis yang teliti." }
+        {
+          "type": "subheading",
+          "text": "Contoh Format Daftar Pustaka"
+        },
+        {
+          "type": "quote",
+          "text": "APA: Nadhira, S. (2023). Menulis akademik untuk pemula. Jurnal Literasi Ilmiah, 5(2), 110–125.",
+          "source": "Gaya APA edisi ke-7"
+        },
+        {
+          "type": "quote",
+          "text": "IEEE: [1] S. Nadhira, \"Menulis akademik untuk pemula,\" Jurnal Literasi Ilmiah, vol. 5, no. 2, pp. 110–125, 2023.",
+          "source": "Gaya IEEE"
+        },
+        {
+          "type": "callout",
+          "title": "Aturan Emas",
+          "text": "Jangan mencampur APA dan IEEE dalam satu naskah. Konsistensi gaya adalah tanda penulis yang teliti."
+        }
       ]
     },
     {
       "id": "3-4",
       "title": "Kutipan Langsung vs Parafrase",
       "blocks": [
-        { "type": "heading", "text": "Dua Cara Memakai Ide Orang" },
-        { "type": "paragraph", "text": "Ketika mau memakai ide dari sumber lain, ada dua pilihan: mengutip langsung atau memparafrase. Keduanya WAJIB tetap disitasi." },
-        { "type": "subheading", "text": "1. Kutipan Langsung (Direct Quotation)" },
-        { "type": "paragraph", "text": "Kamu menyalin kata demi kata persis seperti aslinya, lalu memberi tanda kutip (\"…\") dan biasanya menyebut nomor halaman. Gunakan ini seperlunya saja — hanya kalau kalimat aslinya memang sangat khas atau penting untuk dikutip utuh." },
-        { "type": "subheading", "text": "2. Parafrase (Paraphrase)" },
-        { "type": "paragraph", "text": "Kamu menyampaikan ulang ide orang lain dengan bahasamu sendiri. Ini yang paling sering dipakai dalam tulisan akademik, karena menunjukkan bahwa kamu benar-benar PAHAM, bukan cuma menyalin." }
+        {
+          "type": "heading",
+          "text": "Dua Cara Memakai Ide Orang"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ketika mau memakai ide dari sumber lain, ada dua pilihan: mengutip langsung atau memparafrase. Keduanya WAJIB tetap disitasi."
+        },
+        {
+          "type": "subheading",
+          "text": "1. Kutipan Langsung (Direct Quotation)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kamu menyalin kata demi kata persis seperti aslinya, lalu memberi tanda kutip (\"…\") dan biasanya menyebut nomor halaman. Gunakan ini seperlunya saja — hanya kalau kalimat aslinya memang sangat khas atau penting untuk dikutip utuh."
+        },
+        {
+          "type": "subheading",
+          "text": "2. Parafrase (Paraphrase)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kamu menyampaikan ulang ide orang lain dengan bahasamu sendiri. Ini yang paling sering dipakai dalam tulisan akademik, karena menunjukkan bahwa kamu benar-benar PAHAM, bukan cuma menyalin."
+        }
       ]
     },
     {
       "id": "3-5",
       "title": "Cara Parafrase yang Benar",
       "blocks": [
-        { "type": "heading", "text": "Langkah demi Langkah" },
-        { "type": "list", "ordered": true, "items": [
-          "Baca dan pahami dulu ide aslinya sampai benar-benar mengerti.",
-          "TUTUP sumbernya (jangan mengintip), lalu tulis ulang dengan kalimatmu sendiri.",
-          "Ubah struktur kalimat DAN pilihan katanya — bukan sekadar ganti sinonim.",
-          "Bandingkan dengan aslinya: pastikan maknanya tidak berubah dan tidak terlalu mirip.",
-          "Tetap cantumkan sitasi ke sumber asli."
-        ]},
-        { "type": "subheading", "text": "Contoh Nyata" },
-        { "type": "quote", "text": "ASLI: \"Motivasi belajar siswa menurun ketika mereka terlalu sering terganggu oleh notifikasi ponsel.\"", "source": "Kalimat sumber" },
-        { "type": "quote", "text": "PARAFRASE BENAR: Seringnya gangguan dari notifikasi ponsel membuat semangat belajar siswa ikut berkurang (Sumber, tahun).", "source": "Struktur & kata diubah, makna tetap, ada sitasi" },
-        { "type": "quote", "text": "PARAFRASE SALAH: Motivasi belajar murid menurun saat mereka terlalu sering diganggu oleh notifikasi HP.", "source": "Cuma ganti sinonim, struktur sama = patchwriting" },
-        { "type": "callout", "title": "Awas Patchwriting!", "text": "Mengganti dua-tiga kata dengan sinonim tapi struktur kalimatnya tetap sama itu disebut 'patchwriting' dan MASIH tergolong plagiarisme. Parafrase sejati mengubah cara mengungkapkan, bukan cuma kata-katanya." }
+        {
+          "type": "heading",
+          "text": "Langkah demi Langkah"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Baca dan pahami dulu ide aslinya sampai benar-benar mengerti.",
+            "TUTUP sumbernya (jangan mengintip), lalu tulis ulang dengan kalimatmu sendiri.",
+            "Ubah struktur kalimat DAN pilihan katanya — bukan sekadar ganti sinonim.",
+            "Bandingkan dengan aslinya: pastikan maknanya tidak berubah dan tidak terlalu mirip.",
+            "Tetap cantumkan sitasi ke sumber asli."
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Contoh Nyata"
+        },
+        {
+          "type": "quote",
+          "text": "ASLI: \"Motivasi belajar siswa menurun ketika mereka terlalu sering terganggu oleh notifikasi ponsel.\"",
+          "source": "Kalimat sumber"
+        },
+        {
+          "type": "quote",
+          "text": "PARAFRASE BENAR: Seringnya gangguan dari notifikasi ponsel membuat semangat belajar siswa ikut berkurang (Sumber, tahun).",
+          "source": "Struktur & kata diubah, makna tetap, ada sitasi"
+        },
+        {
+          "type": "quote",
+          "text": "PARAFRASE SALAH: Motivasi belajar murid menurun saat mereka terlalu sering diganggu oleh notifikasi HP.",
+          "source": "Cuma ganti sinonim, struktur sama = patchwriting"
+        },
+        {
+          "type": "callout",
+          "title": "Awas Patchwriting!",
+          "text": "Mengganti dua-tiga kata dengan sinonim tapi struktur kalimatnya tetap sama itu disebut 'patchwriting' dan MASIH tergolong plagiarisme. Parafrase sejati mengubah cara mengungkapkan, bukan cuma kata-katanya."
+        }
       ]
     },
     {
       "id": "3-6",
       "title": "Jenis-Jenis Plagiarisme",
       "blocks": [
-        { "type": "heading", "text": "Kenali Semua Bentuknya" },
-        { "type": "paragraph", "text": "Plagiarisme tidak selalu berupa menyalin utuh. Ada banyak bentuk yang sering tidak disadari pemula. Yuk kenali semuanya biar aman:" },
+        {
+          "type": "heading",
+          "text": "Kenali Semua Bentuknya"
+        },
+        {
+          "type": "paragraph",
+          "text": "Plagiarisme tidak selalu berupa menyalin utuh. Ada banyak bentuk yang sering tidak disadari pemula. Yuk kenali semuanya biar aman:"
+        },
         {
           "type": "table",
-          "headers": ["Jenis", "Penjelasan Sederhana"],
+          "headers": [
+            "Jenis",
+            "Penjelasan Sederhana"
+          ],
           "rows": [
-            ["Plagiarisme langsung", "Menyalin teks persis tanpa tanda kutip & tanpa sitasi"],
-            ["Patchwriting (mosaik)", "Menyalin sambil mengubah sedikit kata di sana-sini"],
-            ["Self-plagiarism", "Memakai ulang tulisan sendiri yang lama tanpa keterangan"],
-            ["Plagiarisme ide", "Mengambil gagasan/temuan orang tanpa menyebut sumbernya"],
-            ["Sitasi palsu", "Mengarang sumber atau salah menuliskan sumber"]
+            [
+              "Plagiarisme langsung",
+              "Menyalin teks persis tanpa tanda kutip & tanpa sitasi"
+            ],
+            [
+              "Patchwriting (mosaik)",
+              "Menyalin sambil mengubah sedikit kata di sana-sini"
+            ],
+            [
+              "Self-plagiarism",
+              "Memakai ulang tulisan sendiri yang lama tanpa keterangan"
+            ],
+            [
+              "Plagiarisme ide",
+              "Mengambil gagasan/temuan orang tanpa menyebut sumbernya"
+            ],
+            [
+              "Sitasi palsu",
+              "Mengarang sumber atau salah menuliskan sumber"
+            ]
           ]
         }
       ]
@@ -115,25 +263,52 @@
       "id": "3-7",
       "title": "Turnitin & Cek Kemiripan",
       "blocks": [
-        { "type": "heading", "text": "Alat Bantu, Bukan Hakim Mutlak" },
-        { "type": "paragraph", "text": "Turnitin dan alat sejenis mengukur tingkat kemiripan (similarity index) tulisanmu dengan jutaan dokumen di internet dan basis datanya. Hasilnya berupa persentase. Banyak kampus menetapkan batas aman di bawah 20–25%, tetapi angkanya berbeda-beda tiap institusi." },
-        { "type": "paragraph", "text": "Yang penting dipahami: skor kemiripan RENDAH tidak otomatis berarti bebas plagiarisme. Kamu tetap bisa mencuri IDE orang tanpa terdeteksi Turnitin (karena kamu menuliskannya dengan kata sendiri). Jadi, alat ini membantu, tapi kejujuranmu tetap penentu utama." },
-        { "type": "callout", "title": "Sikap yang Benar", "text": "Jangan menulis demi 'mengakali' Turnitin. Tulislah dengan jujur: pahami, parafrase, dan sitasi. Skor kemiripan yang sehat akan mengikuti dengan sendirinya." }
+        {
+          "type": "heading",
+          "text": "Alat Bantu, Bukan Hakim Mutlak"
+        },
+        {
+          "type": "paragraph",
+          "text": "Turnitin dan alat sejenis mengukur tingkat kemiripan (similarity index) tulisanmu dengan jutaan dokumen di internet dan basis datanya. Hasilnya berupa persentase. Banyak kampus menetapkan batas aman di bawah 20–25%, tetapi angkanya berbeda-beda tiap institusi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Yang penting dipahami: skor kemiripan RENDAH tidak otomatis berarti bebas plagiarisme. Kamu tetap bisa mencuri IDE orang tanpa terdeteksi Turnitin (karena kamu menuliskannya dengan kata sendiri). Jadi, alat ini membantu, tapi kejujuranmu tetap penentu utama."
+        },
+        {
+          "type": "callout",
+          "title": "Sikap yang Benar",
+          "text": "Jangan menulis demi 'mengakali' Turnitin. Tulislah dengan jujur: pahami, parafrase, dan sitasi. Skor kemiripan yang sehat akan mengikuti dengan sendirinya."
+        }
       ]
     },
     {
       "id": "3-8",
       "title": "Sumber yang Kredibel",
       "blocks": [
-        { "type": "heading", "text": "Tidak Semua Sumber Layak Dikutip" },
-        { "type": "paragraph", "text": "Bukti yang kamu pakai hanya sekuat sumbernya. Maka pilih sumber yang bisa dipercaya. Urutan dari yang paling kuat: artikel jurnal peer-reviewed, buku akademik dari penerbit tepercaya, laporan lembaga resmi, lalu artikel media yang kredibel." },
-        { "type": "list", "ordered": false, "items": [
-          "Utamakan sumber terbaru (idealnya 5–10 tahun terakhir), kecuali teori klasik.",
-          "Hati-hati dengan blog anonim, Wikipedia sebagai sumber utama, atau situs tanpa penulis jelas.",
-          "Wikipedia boleh untuk gambaran awal, tetapi lacak sumber aslinya untuk dikutip.",
-          "Periksa: siapa penulisnya, di mana diterbitkan, dan apakah ada daftar pustakanya."
-        ]},
-        { "type": "quote", "text": "Argumen yang kuat dibangun di atas sumber yang kuat. Referensi yang asal-asalan membuat seluruh tulisan ikut rapuh.", "source": "Prinsip literatur akademik" }
+        {
+          "type": "heading",
+          "text": "Tidak Semua Sumber Layak Dikutip"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bukti yang kamu pakai hanya sekuat sumbernya. Maka pilih sumber yang bisa dipercaya. Urutan dari yang paling kuat: artikel jurnal peer-reviewed, buku akademik dari penerbit tepercaya, laporan lembaga resmi, lalu artikel media yang kredibel."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Utamakan sumber terbaru (idealnya 5–10 tahun terakhir), kecuali teori klasik.",
+            "Hati-hati dengan blog anonim, Wikipedia sebagai sumber utama, atau situs tanpa penulis jelas.",
+            "Wikipedia boleh untuk gambaran awal, tetapi lacak sumber aslinya untuk dikutip.",
+            "Periksa: siapa penulisnya, di mana diterbitkan, dan apakah ada daftar pustakanya."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Argumen yang kuat dibangun di atas sumber yang kuat. Referensi yang asal-asalan membuat seluruh tulisan ikut rapuh.",
+          "source": "Prinsip literatur akademik"
+        }
       ]
     }
   ],
@@ -145,49 +320,84 @@
       {
         "id": "q3-1",
         "question": "Gaya sitasi yang memakai nomor [1], [2] dan populer di bidang teknik adalah…",
-        "options": ["APA", "MLA", "IEEE", "Vancouver-humaniora"],
+        "options": [
+          "APA",
+          "MLA",
+          "IEEE",
+          "Vancouver-humaniora"
+        ],
         "answer": 2,
         "explanation": "IEEE memakai penomoran [1] dan lazim di teknik/komputer."
       },
       {
         "id": "q3-2",
         "question": "Mengganti beberapa kata dengan sinonim tapi struktur kalimatnya tetap sama disebut…",
-        "options": ["Parafrase yang baik", "Patchwriting (masih plagiarisme)", "Kutipan langsung", "Sitasi silang"],
+        "options": [
+          "Parafrase yang baik",
+          "Patchwriting (masih plagiarisme)",
+          "Kutipan langsung",
+          "Sitasi silang"
+        ],
         "answer": 1,
         "explanation": "Itu patchwriting/plagiarisme mosaik, bukan parafrase yang sah."
       },
       {
         "id": "q3-3",
         "question": "Kutipan langsung harus disertai…",
-        "options": ["Hanya nama penulis", "Tanda kutip dan (umumnya) nomor halaman", "Tidak perlu apa-apa", "Gambar"],
+        "options": [
+          "Hanya nama penulis",
+          "Tanda kutip dan (umumnya) nomor halaman",
+          "Tidak perlu apa-apa",
+          "Gambar"
+        ],
         "answer": 1,
         "explanation": "Kutipan kata demi kata memerlukan tanda kutip dan biasanya halaman."
       },
       {
         "id": "q3-4",
         "question": "Bentuk '(Nadhira, 2023)' dalam teks adalah ciri gaya…",
-        "options": ["IEEE", "APA", "Vancouver", "Numerik"],
+        "options": [
+          "IEEE",
+          "APA",
+          "Vancouver",
+          "Numerik"
+        ],
         "answer": 1,
         "explanation": "Pola nama-tahun adalah ciri khas APA."
       },
       {
         "id": "q3-5",
         "question": "Langkah pertama parafrase yang benar adalah…",
-        "options": ["Langsung ganti sinonim", "Memahami ide aslinya dulu sampai mengerti", "Menyalin lalu hapus tanda kutip", "Menghilangkan sitasi"],
+        "options": [
+          "Langsung ganti sinonim",
+          "Memahami ide aslinya dulu sampai mengerti",
+          "Menyalin lalu hapus tanda kutip",
+          "Menghilangkan sitasi"
+        ],
         "answer": 1,
         "explanation": "Parafrase yang jujur dimulai dari benar-benar memahami ide asli."
       },
       {
         "id": "q3-6",
         "question": "Skor kemiripan Turnitin yang rendah berarti…",
-        "options": ["Pasti bebas plagiarisme ide", "Kemiripan teks rendah, tapi plagiarisme ide masih mungkin", "Artikel otomatis diterima", "Tidak perlu sitasi"],
+        "options": [
+          "Pasti bebas plagiarisme ide",
+          "Kemiripan teks rendah, tapi plagiarisme ide masih mungkin",
+          "Artikel otomatis diterima",
+          "Tidak perlu sitasi"
+        ],
         "answer": 1,
         "explanation": "Turnitin mengukur kemiripan teks, bukan orisinalitas gagasan."
       },
       {
         "id": "q3-7",
         "question": "Sumber yang umumnya PALING kuat untuk dikutip adalah…",
-        "options": ["Blog anonim", "Artikel jurnal peer-reviewed", "Status media sosial", "Iklan"],
+        "options": [
+          "Blog anonim",
+          "Artikel jurnal peer-reviewed",
+          "Status media sosial",
+          "Iklan"
+        ],
         "answer": 1,
         "explanation": "Artikel jurnal yang sudah peer-review adalah sumber paling kredibel."
       }
@@ -201,73 +411,158 @@
       {
         "id": "e3-1",
         "question": "Prinsip 'berpasangan' dalam sitasi menuntut bahwa setiap sitasi dalam teks…",
-        "options": ["Boleh tanpa daftar pustaka", "Harus punya pasangan di daftar pustaka", "Ditulis dua gaya sekaligus", "Cukup di catatan kaki"],
+        "options": [
+          "Boleh tanpa daftar pustaka",
+          "Harus punya pasangan di daftar pustaka",
+          "Ditulis dua gaya sekaligus",
+          "Cukup di catatan kaki"
+        ],
         "answer": 1,
         "explanation": "Sitasi dalam teks dan daftar pustaka harus saling berpasangan."
       },
       {
         "id": "e3-2",
         "question": "Manakah contoh PARAFRASE yang benar dari kalimat 'Notifikasi ponsel menurunkan fokus siswa'?",
-        "options": ["Notifikasi HP menurunkan fokus murid.", "Gangguan dari ponsel membuat konsentrasi belajar siswa berkurang (Sumber, tahun).", "\"Notifikasi ponsel menurunkan fokus siswa\" tanpa sitasi.", "Fokus siswa menurun karena notifikasi ponsel."],
+        "options": [
+          "Notifikasi HP menurunkan fokus murid.",
+          "Gangguan dari ponsel membuat konsentrasi belajar siswa berkurang (Sumber, tahun).",
+          "\"Notifikasi ponsel menurunkan fokus siswa\" tanpa sitasi.",
+          "Fokus siswa menurun karena notifikasi ponsel."
+        ],
         "answer": 1,
         "explanation": "Struktur & kata diubah, makna tetap, dan ada sitasi — itu parafrase sejati."
       },
       {
         "id": "e3-3",
         "question": "Kenapa skor kemiripan rendah belum tentu bebas plagiarisme?",
-        "options": ["Karena Turnitin selalu salah", "Karena plagiarisme IDE tidak terdeteksi dari kemiripan kata", "Karena skor tidak penting", "Karena sitasi dilarang"],
+        "options": [
+          "Karena Turnitin selalu salah",
+          "Karena plagiarisme IDE tidak terdeteksi dari kemiripan kata",
+          "Karena skor tidak penting",
+          "Karena sitasi dilarang"
+        ],
         "answer": 1,
         "explanation": "Ide bisa dicuri meski ditulis ulang dengan kata sendiri, sehingga lolos pengecekan teks."
       },
       {
         "id": "e3-4",
         "question": "Manakah yang termasuk plagiarisme ide?",
-        "options": ["Menyitasi teori orang dengan benar", "Mengambil temuan orang tanpa menyebut sumbernya", "Menulis pendapat sendiri", "Membuat daftar pustaka"],
+        "options": [
+          "Menyitasi teori orang dengan benar",
+          "Mengambil temuan orang tanpa menyebut sumbernya",
+          "Menulis pendapat sendiri",
+          "Membuat daftar pustaka"
+        ],
         "answer": 1,
         "explanation": "Mengklaim gagasan/temuan orang tanpa pengakuan adalah plagiarisme ide."
       },
       {
         "id": "e3-5",
         "question": "Gaya Vancouver paling lazim dipakai di bidang…",
-        "options": ["Sastra", "Kedokteran/kesehatan", "Hukum", "Seni rupa"],
+        "options": [
+          "Sastra",
+          "Kedokteran/kesehatan",
+          "Hukum",
+          "Seni rupa"
+        ],
         "answer": 1,
         "explanation": "Vancouver (numerik) umum di kedokteran dan ilmu kesehatan."
       },
       {
         "id": "e3-6",
         "question": "Kapan sebaiknya memilih kutipan langsung ketimbang parafrase?",
-        "options": ["Selalu, biar aman", "Ketika kata-kata aslinya sangat khas/penting", "Tidak pernah", "Hanya untuk memperpanjang tulisan"],
+        "options": [
+          "Selalu, biar aman",
+          "Ketika kata-kata aslinya sangat khas/penting",
+          "Tidak pernah",
+          "Hanya untuk memperpanjang tulisan"
+        ],
         "answer": 1,
         "explanation": "Kutipan langsung dipakai seperlunya bila diksi asli memang krusial."
       },
       {
         "id": "e3-7",
         "question": "Mencampur gaya APA dan IEEE dalam satu naskah melanggar prinsip…",
-        "options": ["Objektivitas", "Konsistensi gaya sitasi", "Replikabilitas", "Peer review"],
+        "options": [
+          "Objektivitas",
+          "Konsistensi gaya sitasi",
+          "Replikabilitas",
+          "Peer review"
+        ],
         "answer": 1,
         "explanation": "Satu naskah harus konsisten memakai satu gaya sitasi."
       },
       {
         "id": "e3-8",
         "question": "Memakai ulang tulisanmu sendiri dari karya lama tanpa keterangan disebut…",
-        "options": ["Self-plagiarism", "Sitasi ganda", "Parafrase", "Peer review"],
+        "options": [
+          "Self-plagiarism",
+          "Sitasi ganda",
+          "Parafrase",
+          "Peer review"
+        ],
         "answer": 0,
         "explanation": "Menggunakan kembali karya sendiri tanpa disebutkan adalah self-plagiarism."
       },
       {
         "id": "e3-9",
         "question": "Sikap paling tepat terhadap Wikipedia dalam tulisan akademik adalah…",
-        "options": ["Menjadikannya sumber utama", "Memakainya untuk gambaran awal, lalu melacak sumber aslinya", "Menghindarinya sepenuhnya untuk apa pun", "Menyalinnya langsung"],
+        "options": [
+          "Menjadikannya sumber utama",
+          "Memakainya untuk gambaran awal, lalu melacak sumber aslinya",
+          "Menghindarinya sepenuhnya untuk apa pun",
+          "Menyalinnya langsung"
+        ],
         "answer": 1,
         "explanation": "Wikipedia berguna sebagai pintu awal, tetapi yang dikutip adalah sumber aslinya."
       },
       {
         "id": "e3-10",
         "question": "Tujuan utama daftar pustaka adalah…",
-        "options": ["Memperbanyak halaman", "Memberi jejak sumber agar bisa ditelusuri pembaca", "Menyembunyikan referensi", "Menggantikan abstrak"],
+        "options": [
+          "Memperbanyak halaman",
+          "Memberi jejak sumber agar bisa ditelusuri pembaca",
+          "Menyembunyikan referensi",
+          "Menggantikan abstrak"
+        ],
         "answer": 1,
         "explanation": "Daftar pustaka menyediakan jejak lengkap agar sumber bisa diverifikasi."
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Publication Manual of the American Psychological Association",
+      "author": "American Psychological Association",
+      "publisher": "APA",
+      "note": "Acuan gaya sitasi APA in-text dan daftar pustaka."
+    },
+    {
+      "title": "IEEE Reference Guide",
+      "author": "IEEE",
+      "publisher": "IEEE",
+      "url": "https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/",
+      "note": "Acuan gaya sitasi bernomor IEEE."
+    },
+    {
+      "title": "Defining plagiarism: The SAGE Handbook of Academic Integrity",
+      "author": "Tracey Bretag (ed.)",
+      "publisher": "Springer",
+      "note": "Klasifikasi jenis-jenis plagiarisme."
+    },
+    {
+      "title": "COPE Guidelines: Plagiarism",
+      "author": "Committee on Publication Ethics",
+      "publisher": "COPE",
+      "url": "https://publicationethics.org/guidance",
+      "note": "Standar etika penerbit soal plagiarisme dan penanganannya."
+    },
+    {
+      "title": "Purdue Online Writing Lab (OWL) — Quoting, Paraphrasing, and Summarizing",
+      "author": "Purdue University",
+      "publisher": "Purdue OWL",
+      "url": "https://owl.purdue.edu/owl/research_and_citation/using_research/quoting_paraphrasing_and_summarizing/index.html",
+      "note": "Teknik parafrase yang benar dan pembeda kutipan langsung."
+    }
+  ]
 }

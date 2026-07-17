@@ -1,0 +1,248 @@
+{
+  "id": 41,
+  "slug": "komunikasi-sains",
+  "title": "Komunikasi Sains ke Publik Awam",
+  "subtitle": "Menerjemahkan tanpa membodohi",
+  "goal": "Bisa menerjemahkan temuan ilmiah/teknis ke bahasa yang dipahami publik awam tanpa kehilangan keakuratan, mengenali dan menghindari curse of knowledge, memakai analogi secara bertanggung jawab, dan tahu cara menyampaikan ketidakpastian ketika publik memaksa jawaban ya/tidak.",
+  "estimatedMinutes": 34,
+  "sections": [
+    {
+      "id": "41-1",
+      "title": "Kenapa Sains yang Benar Bisa Gagal Menjangkau Publik",
+      "blocks": [
+        { "type": "heading", "text": "Akurat Saja Tidak Cukup" },
+        { "type": "paragraph", "text": "Sebuah temuan penelitian bisa sangat akurat secara metodologis (ingat Level 10: sampel besar, uji statistik tepat, pelaporan jujur) tapi tetap gagal total menjangkau publik — karena ditulis dengan bahasa yang hanya dipahami sesama peneliti. Komunikasi sains ke publik awam adalah keterampilan TERPISAH dari kemampuan meneliti; keduanya sama pentingnya." },
+        { "type": "paragraph", "text": "Banyak ilmuwan hebat menulis buruk untuk publik bukan karena kurang paham materinya, tapi justru karena TERLALU paham — mereka lupa rasanya belum tahu apa-apa tentang topik itu." },
+        { "type": "callout", "title": "Definisi Kerja", "text": "Komunikasi sains ke publik awam adalah menyampaikan temuan yang akurat dengan bahasa, struktur, dan analogi yang bisa dipahami orang tanpa latar belakang bidang itu — tanpa mengorbankan kebenaran ilmiahnya." }
+      ]
+    },
+    {
+      "id": "41-2",
+      "title": "The Curse of Knowledge",
+      "blocks": [
+        { "type": "heading", "text": "Kutukan Bagi Siapa Saja yang Sudah Tahu Sesuatu" },
+        { "type": "paragraph", "text": "Curse of knowledge (kutukan pengetahuan) adalah kondisi ketika seseorang yang sudah menguasai suatu topik jadi kesulitan membayangkan bagaimana rasanya BELUM tahu topik itu. Akibatnya, ia menjelaskan sesuatu dengan asumsi bahwa pendengarnya sudah punya latar belakang yang sama — padahal tidak." },
+        { "type": "paragraph", "text": "Ini bukan soal kurang pintar menjelaskan. Ini soal jarak antara 'apa yang kamu tahu' dan 'apa yang pendengarmu tahu' yang tidak disadari, karena begitu kamu tahu sesuatu, sulit sekali membayangkan ulang dunia sebelum kamu tahu itu." },
+        { "type": "callout", "title": "Gejala yang Mudah Dikenali", "text": "Kalimat yang penuh singkatan tanpa penjelasan, istilah teknis yang dianggap 'sudah pasti dimengerti semua orang', dan penjelasan yang melompati langkah karena bagi si penulis langkah itu 'jelas dengan sendirinya' — semua ini gejala curse of knowledge." }
+      ]
+    },
+    {
+      "id": "41-3",
+      "title": "Menerjemahkan Jargon Tanpa Membodohi",
+      "blocks": [
+        { "type": "heading", "text": "Sederhana Bukan Berarti Salah" },
+        { "type": "paragraph", "text": "Ada mitos yang membuat banyak peneliti takut menulis populer: 'menyederhanakan bahasa berarti mengorbankan keakuratan'. Padahal yang benar sebaliknya — jargon yang tidak dijelaskan justru sering menyembunyikan ketidakjelasan berpikir penulisnya sendiri. Menerjemahkan istilah teknis ke bahasa sehari-hari, kalau dilakukan dengan cermat, TIDAK mengubah maknanya — hanya mengubah kemasannya." },
+        { "type": "quote", "text": "JARGON: \"Studi ini menunjukkan korelasi signifikan (p<0.05) antara paparan cahaya biru nokturnal dan disregulasi ritme sirkadian pada partisipan.\"", "source": "Bahasa teknis, akurat tapi tertutup bagi awam" },
+        { "type": "quote", "text": "JELAS: \"Penelitian ini menemukan bahwa orang yang sering menatap layar HP di malam hari cenderung mengalami gangguan jam biologis tubuh yang mengatur kapan kita mengantuk dan bangun — dan hasil ini kemungkinan besar bukan kebetulan.\"", "source": "Makna sama persis, bahasa terbuka untuk awam" },
+        { "type": "callout", "title": "Uji Sederhana", "text": "Bacakan kalimatmu ke seseorang di luar bidangmu (bukan sesama peneliti). Kalau mereka harus bertanya balik 'maksudnya apa?' di tengah kalimat, itu tanda jargon belum diterjemahkan." }
+      ]
+    },
+    {
+      "id": "41-4",
+      "title": "Analogi: Alat Ampuh dengan Risiko Tersendiri",
+      "blocks": [
+        { "type": "heading", "text": "Menjembatani yang Asing dengan yang Sudah Dikenal" },
+        { "type": "paragraph", "text": "Analogi adalah cara paling ampuh menjelaskan hal asing: menghubungkannya dengan sesuatu yang sudah dikenal pembaca. 'Sel adalah pabrik mini', 'DNA adalah resep', 'antibodi adalah pasukan keamanan tubuh' — semua ini analogi yang membantu awam membangun gambaran cepat di kepala mereka." },
+        { "type": "paragraph", "text": "Tapi analogi punya batas: ia menyederhanakan dengan cara menghilangkan sebagian detail. Analogi yang baik menghilangkan detail yang TIDAK penting untuk pemahaman inti; analogi yang buruk menghilangkan detail yang justru mengubah kesimpulan pembaca." },
+        {
+          "type": "table",
+          "headers": ["Ciri", "Analogi yang Membantu", "Analogi yang Menyesatkan"],
+          "rows": [
+            ["Detail yang dikorbankan", "Detail teknis yang tidak mengubah kesimpulan inti", "Detail yang justru mengubah arti/kesimpulan"],
+            ["Batas kemiripan", "Penulis menyebutkan di mana analogi berhenti berlaku", "Analogi dibiarkan seolah berlaku 100%"],
+            ["Contoh", "\"Vaksin seperti latihan tanding untuk sistem imun\" (jelas ada batas: bukan penyakit sungguhan)", "\"Virus itu seperti musuh yang berpikir dan berstrategi\" (menyiratkan virus punya niat, padahal tidak)"]
+          ]
+        },
+        { "type": "callout", "title": "Kebiasaan yang Baik", "text": "Setelah memakai analogi, tambahkan satu kalimat yang menandai batasnya: 'tentu saja, beda dengan latihan tanding sungguhan, di sini yang dilatih adalah sel-sel imun, bukan otot'. Ini menjaga pembaca agar tidak menganggap analogi itu penjelasan lengkap." }
+      ]
+    },
+    {
+      "id": "41-5",
+      "title": "Ketidakpastian dan Error Bars (Ingat Level 10)",
+      "blocks": [
+        { "type": "heading", "text": "Sains Bicara Peluang, Bukan Kepastian Mutlak" },
+        { "type": "paragraph", "text": "Di Level 10 kamu belajar bahwa hasil statistik selalu punya ketidakpastian — nilai p, interval kepercayaan, standar deviasi, semuanya menyiratkan 'kemungkinan besar', bukan 'pasti mutlak'. Tantangan komunikasi sains adalah membawa ketidakpastian ini ke publik TANPA membuatnya terdengar seperti 'peneliti sendiri tidak yakin' atau 'sainsnya lemah'." },
+        { "type": "paragraph", "text": "Ketidakpastian bukan kelemahan sains — itu justru KEJUJURAN sains. Masalahnya, publik sering menafsirkan kalimat yang jujur soal ketidakpastian sebagai 'peneliti tidak tahu apa-apa', padahal maksudnya 'peneliti tahu persis seberapa yakin mereka boleh yakin'." },
+        { "type": "callout", "title": "Kalimat yang Membantu", "text": "Alih-alih menulis 'penelitian belum bisa memastikan', coba tulis 'penelitian ini menunjukkan kemungkinan besar X, dengan catatan masih perlu diuji lagi di kelompok yang lebih besar' — tetap jujur soal batasnya, tapi tidak terdengar seperti keraguan total." }
+      ]
+    },
+    {
+      "id": "41-6",
+      "title": "Ketika Publik Minta Ya/Tidak, tapi Sains Bicara Peluang",
+      "blocks": [
+        { "type": "heading", "text": "Menjawab Tanpa Berbohong dan Tanpa Menghindar" },
+        { "type": "paragraph", "text": "Publik sering ingin jawaban tegas: 'apakah kopi bikin sakit jantung, ya atau tidak?'. Padahal jawaban jujur sains biasanya: 'tergantung dosis, tergantung kondisi kesehatan, dan buktinya masih berkembang'. Menulis untuk publik berarti mencari cara menjawab pertanyaan itu TANPA berbohong dengan 'ya/tidak' yang terlalu sederhana, dan TANPA menghindar dengan jawaban yang begitu berhati-hati sampai tidak ada gunanya bagi pembaca." },
+        { "type": "list", "ordered": true, "items": [
+          "Beri jawaban praktis dulu ('untuk kebanyakan orang, konsumsi wajar aman'), baru jelaskan nuansanya.",
+          "Sebutkan kondisi yang mengubah jawaban (dosis, kelompok berisiko) tanpa membuat seluruh jawaban jadi kabur.",
+          "Hindari menjawab dengan 'tergantung' saja tanpa penjelasan — itu terasa seperti menghindar, bukan jujur.",
+          "Kalau buktinya memang masih berkembang, katakan itu secara terbuka, bukan seolah sudah final."
+        ]},
+        { "type": "callout", "title": "Kesalahan yang Berlawanan", "text": "Ada dua jebakan berlawanan: overclaim (menyederhanakan jadi 'ya/tidak' yang tidak jujur) dan hedging berlebihan (begitu banyak syarat sampai pembaca tidak dapat apa-apa yang bisa dipakai). Komunikasi sains yang baik ada di tengah keduanya." }
+      ]
+    },
+    {
+      "id": "41-7",
+      "title": "Struktur Piramida Terbalik untuk Sains Populer",
+      "blocks": [
+        { "type": "heading", "text": "Temuan Dulu, Detail Metodologis Belakangan" },
+        { "type": "paragraph", "text": "Artikel jurnal (Level 2) menaruh Methods sebelum Discussion — pembaca akademik memang menunggu detail metodologis. Tapi pembaca awam punya kesabaran yang jauh lebih pendek. Struktur yang lebih efektif untuk sains populer adalah piramida terbalik: mulai dari temuan yang paling relevan bagi pembaca, baru masuk ke bagaimana temuan itu didapat, dan detail teknis (kalau perlu) diletakkan paling akhir." },
+        { "type": "callout", "title": "Kenapa Ini Penting", "text": "Kalau pembaca awam berhenti membaca di paragraf ketiga (yang sangat mungkin terjadi), mereka setidaknya sudah dapat inti temuannya — bukan terjebak di tengah penjelasan metode yang belum sampai ke kesimpulan." }
+      ]
+    },
+    {
+      "id": "41-8",
+      "title": "Kesalahan Umum dalam Komunikasi Sains ke Publik",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menjelaskan sesuatu dengan asumsi pembaca sudah tahu istilah dasar bidang itu (curse of knowledge tanpa disadari).",
+          "Memakai analogi tanpa menyebutkan batasnya, sehingga pembaca menganggapnya penjelasan lengkap dan menarik kesimpulan yang keliru.",
+          "Overclaim: mengubah 'kemungkinan besar' menjadi 'pasti', demi jawaban ya/tidak yang lebih memuaskan publik.",
+          "Hedging berlebihan: membubuhi begitu banyak syarat dan catatan sampai pembaca tidak tahu harus berbuat apa dengan informasi itu.",
+          "Menaruh detail metodologis di awal tulisan populer, membuat pembaca awam kehilangan minat sebelum sampai ke temuan utama."
+        ]},
+        { "type": "callout", "title": "Ingat Ini", "text": "Menyederhanakan bahasa bukan berarti menyederhanakan kebenaran. Tugasmu adalah membuat kebenaran yang sama bisa diakses oleh lebih banyak orang, bukan mengubah kebenarannya menjadi lebih mudah didengar." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-41",
+    "title": "Kuis Level 41",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q41-1",
+        "question": "Curse of knowledge adalah kondisi ketika…",
+        "options": ["Seseorang tidak menguasai topik yang ditulisnya", "Seseorang yang sudah menguasai topik kesulitan membayangkan rasanya belum tahu topik itu", "Peneliti sengaja menyembunyikan temuan", "Pembaca tidak mau membaca tulisan ilmiah"],
+        "answer": 1,
+        "explanation": "Curse of knowledge muncul karena penulis lupa perspektif orang yang belum punya latar belakang yang sama."
+      },
+      {
+        "id": "q41-2",
+        "question": "Menerjemahkan jargon ke bahasa sehari-hari yang benar seharusnya…",
+        "options": ["Mengubah makna temuan agar lebih menarik", "Mengubah kemasan bahasa tanpa mengubah makna aslinya", "Selalu membuat temuan terdengar lebih pasti dari aslinya", "Menghapus semua angka dari temuan"],
+        "answer": 1,
+        "explanation": "Penerjemahan yang cermat menjaga makna tetap sama, hanya bahasanya yang lebih terbuka."
+      },
+      {
+        "id": "q41-3",
+        "question": "Risiko utama memakai analogi tanpa menyebutkan batasnya adalah…",
+        "options": ["Analogi jadi terlalu pendek", "Pembaca bisa menganggapnya penjelasan lengkap dan menarik kesimpulan yang keliru", "Analogi otomatis dianggap plagiarisme", "Analogi membuat tulisan lebih sulit dipahami"],
+        "answer": 1,
+        "explanation": "Tanpa batas yang jelas, pembaca bisa memperlakukan analogi seolah berlaku 100% pada situasi aslinya."
+      },
+      {
+        "id": "q41-4",
+        "question": "Kenapa ketidakpastian dalam hasil penelitian bukan berarti sains itu lemah?",
+        "options": ["Karena ketidakpastian sebenarnya kesalahan peneliti", "Karena menyampaikan seberapa yakin sebuah temuan justru bentuk kejujuran ilmiah, bukan kelemahan", "Karena ketidakpastian selalu bisa dihilangkan dengan menulis ulang", "Karena publik tidak pernah peduli pada ketidakpastian"],
+        "answer": 1,
+        "explanation": "Ketidakpastian yang dilaporkan jujur menunjukkan seberapa yakin peneliti boleh yakin — itu justru kejujuran, bukan kelemahan."
+      },
+      {
+        "id": "q41-5",
+        "question": "Overclaim dalam komunikasi sains terjadi ketika…",
+        "options": ["Peneliti menyebutkan detail metodologis terlalu banyak", "Kemungkinan besar diubah menjadi kepastian mutlak demi jawaban yang lebih memuaskan publik", "Analogi dijelaskan batasnya secara detail", "Ketidakpastian dilaporkan secara jujur"],
+        "answer": 1,
+        "explanation": "Overclaim adalah membesar-besarkan kepastian temuan melebihi apa yang sebenarnya didukung data."
+      },
+      {
+        "id": "q41-6",
+        "question": "Struktur piramida terbalik untuk sains populer berarti…",
+        "options": ["Detail metodologis diletakkan di awal, temuan di akhir", "Temuan yang relevan bagi pembaca diletakkan di awal, detail metodologis belakangan", "Semua bagian punya bobot yang sama persis", "Tidak ada urutan tertentu yang disarankan"],
+        "answer": 1,
+        "explanation": "Berbeda dari IMRaD akademik, sains populer meletakkan temuan di depan karena kesabaran pembaca awam lebih pendek."
+      },
+      {
+        "id": "q41-7",
+        "question": "Hedging berlebihan dalam menjawab pertanyaan publik bermasalah karena…",
+        "options": ["Membuat jawaban terdengar terlalu yakin", "Menambahkan begitu banyak syarat sampai pembaca tidak mendapat apa pun yang bisa dipakai", "Selalu dianggap kebohongan", "Membuat jawaban menjadi terlalu pendek"],
+        "answer": 1,
+        "explanation": "Terlalu banyak syarat dan catatan membuat jawaban kehilangan kegunaan praktisnya bagi pembaca."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-41",
+    "title": "Ujian Level 41",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e41-1",
+        "question": "Seorang peneliti menulis untuk media umum: \"Studi ini menunjukkan korelasi signifikan (p<0.05) antara variabel A dan B pada sampel n=200.\" tanpa penjelasan lanjutan. Masalah utama kalimat ini bagi pembaca awam adalah…",
+        "options": ["Kalimatnya terlalu pendek", "Kalimat ini mengasumsikan pembaca sudah paham istilah statistik teknis — gejala curse of knowledge", "Angka sampel terlalu kecil untuk disebut", "Kalimat ini melanggar etika penelitian"],
+        "answer": 1,
+        "explanation": "Menulis istilah teknis tanpa terjemahan menandakan penulis lupa bahwa pembaca awam belum tentu paham p-value atau korelasi — ciri khas curse of knowledge."
+      },
+      {
+        "id": "e41-2",
+        "question": "Seorang penulis sains menjelaskan sistem imun dengan analogi 'pasukan keamanan tubuh' lalu menambahkan kalimat: 'tentu saja beda dengan pasukan sungguhan — sel imun tidak berpikir strategis, mereka bereaksi berdasarkan sinyal kimia'. Kalimat tambahan ini berfungsi untuk…",
+        "options": ["Membuat analogi terdengar lebih dramatis", "Menandai batas analogi supaya pembaca tidak menganggapnya penjelasan lengkap dan literal", "Menghapus kebutuhan analogi itu sendiri", "Menambah jargon teknis baru"],
+        "answer": 1,
+        "explanation": "Menyebutkan batas analogi mencegah pembaca menyimpulkan sesuatu yang keliru dari kemiripan yang sebenarnya terbatas."
+      },
+      {
+        "id": "e41-3",
+        "question": "Ditanya wartawan 'apakah gula menyebabkan diabetes, ya atau tidak?', seorang peneliti menjawab: 'Konsumsi gula berlebihan dalam jangka panjang meningkatkan risiko diabetes tipe 2, terutama bila disertai kelebihan berat badan dan kurang aktivitas fisik — meski bukan satu-satunya penyebab.' Jawaban ini paling tepat digambarkan sebagai…",
+        "options": ["Overclaim karena menyebut risiko sebagai kepastian", "Jawaban yang menyeimbangkan kejujuran ilmiah dengan kegunaan praktis, tanpa jatuh ke ya/tidak yang berlebihan atau hedging tanpa arah", "Hedging berlebihan yang tidak berguna", "Jawaban yang menghindar dari pertanyaan"],
+        "answer": 1,
+        "explanation": "Jawaban ini memberi arah praktis (risiko meningkat, ada faktor terkait) tanpa menyederhanakannya jadi 'ya' mutlak atau 'tergantung' tanpa penjelasan."
+      },
+      {
+        "id": "e41-4",
+        "question": "Sebuah artikel sains populer membuka dengan tiga paragraf detail tentang desain eksperimen dan uji statistik, baru menyebutkan temuan utamanya di paragraf keempat. Berdasarkan prinsip struktur untuk pembaca awam, masalah artikel ini adalah…",
+        "options": ["Tidak ada masalah, ini struktur IMRaD yang benar", "Struktur ini menunda temuan utama terlalu lama, berisiko kehilangan pembaca awam yang kesabarannya pendek — seharusnya memakai piramida terbalik", "Artikel seharusnya menghapus semua detail metodologis", "Artikel seharusnya ditulis dalam bahasa Inggris"],
+        "answer": 1,
+        "explanation": "Pembaca awam berbeda dari pembaca jurnal; struktur piramida terbalik menaruh temuan di depan agar tidak hilang sebelum pembaca berhenti membaca."
+      },
+      {
+        "id": "e41-5",
+        "question": "Seorang penulis mengubah kalimat asli peneliti 'terdapat kemungkinan hubungan, namun perlu penelitian lanjutan dengan sampel lebih besar' menjadi headline 'TERBUKTI: X Menyebabkan Y!'. Pelanggaran yang terjadi adalah…",
+        "options": ["Text recycling", "Overclaim — mengubah ketidakpastian ilmiah menjadi kepastian mutlak yang tidak didukung data", "Patchwriting", "Salami slicing"],
+        "answer": 1,
+        "explanation": "Mengubah 'kemungkinan, perlu diteliti lagi' menjadi 'terbukti' adalah overclaim yang mendistorsi tingkat kepastian sesungguhnya."
+      },
+      {
+        "id": "e41-6",
+        "question": "Seorang penulis sains menjawab pertanyaan sederhana pembaca dengan jawaban sepanjang satu halaman penuh syarat dan pengecualian, sampai pembaca tidak tahu apa yang sebaiknya mereka lakukan. Ini contoh dari…",
+        "options": ["Overclaim", "Hedging berlebihan yang membuat jawaban kehilangan kegunaan praktis", "Curse of knowledge", "Analogi yang menyesatkan"],
+        "answer": 1,
+        "explanation": "Terlalu banyak syarat tanpa arah praktis adalah hedging berlebihan — kebalikan dari overclaim, sama-sama gagal membantu pembaca."
+      },
+      {
+        "id": "e41-7",
+        "question": "Seorang penulis membandingkan virus dengan 'musuh yang menyusun strategi untuk mengelabui tubuh'. Masalah analogi ini adalah…",
+        "options": ["Terlalu teknis untuk awam", "Menyiratkan virus punya niat dan kesadaran, padahal virus tidak berpikir — analogi ini menghilangkan detail yang justru mengubah kesimpulan pembaca", "Analogi ini terlalu pendek", "Tidak ada masalah, analogi ini akurat sepenuhnya"],
+        "answer": 1,
+        "explanation": "Analogi yang menyesatkan menghilangkan detail penting (virus tidak berstrategi) sehingga mengubah pemahaman pembaca tentang cara kerja virus."
+      },
+      {
+        "id": "e41-8",
+        "question": "Seorang ilmuwan mengeluh tulisannya untuk media selalu 'terlalu sederhana sampai kehilangan keakuratan'. Menurut prinsip level ini, kekhawatiran ini…",
+        "options": ["Selalu benar — menyederhanakan bahasa pasti mengorbankan akurasi", "Sebagian besar mitos — menerjemahkan jargon dengan cermat bisa menjaga makna tetap sama, hanya kemasannya yang berubah", "Hanya berlaku untuk bidang kedokteran", "Berarti ilmuwan itu sebaiknya berhenti menulis untuk publik"],
+        "answer": 1,
+        "explanation": "Bahasa yang lebih sederhana tidak otomatis kurang akurat; masalah biasanya ada pada penerjemahan yang kurang cermat, bukan pada kesederhanaan itu sendiri."
+      },
+      {
+        "id": "e41-9",
+        "question": "Seorang penulis membaca ulang draf artikelnya ke teman yang bukan dari bidangnya, dan teman itu berulang kali bertanya 'maksudnya apa?' di tengah kalimat. Tindakan paling tepat yang mencerminkan prinsip level ini adalah…",
+        "options": ["Mengabaikan reaksi itu karena teman bukan ahli", "Menandai bagian yang membingungkan itu sebagai jargon yang belum diterjemahkan, lalu merevisinya", "Menambahkan lebih banyak istilah teknis agar terlihat kredibel", "Menghapus seluruh temuan karena dianggap terlalu rumit untuk publik"],
+        "answer": 1,
+        "explanation": "Reaksi bingung dari pembaca non-ahli adalah sinyal langsung adanya curse of knowledge yang perlu diperbaiki dengan menerjemahkan istilah tersebut."
+      },
+      {
+        "id": "e41-10",
+        "question": "Sebuah studi menemukan efek yang secara statistik signifikan tapi sangat kecil (ingat Level 10). Penulis sains populer yang jujur sebaiknya…",
+        "options": ["Menyebutnya sebagai terobosan besar agar menarik dibaca", "Melaporkan temuannya apa adanya, termasuk kecilnya besaran efek, tanpa membesar-besarkan maupun menyembunyikannya", "Tidak menulis tentang studi ini sama sekali", "Mengubah angka efeknya agar terdengar lebih besar"],
+        "answer": 1,
+        "explanation": "Kejujuran komunikasi sains menuntut pelaporan besaran efek apa adanya, bukan membesar-besarkan demi daya tarik maupun menyembunyikannya."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century", "author": "Steven Pinker", "year": 2014, "publisher": "Viking", "note": "Sumber utama konsep curse of knowledge dan cara menghindarinya, dipakai di 41-2 dan 41-3." },
+    { "title": "The Curse of Knowledge in Economic Settings: An Experimental Analysis", "author": "Colin Camerer, George Loewenstein, dan Martin Weber", "year": 1989, "publisher": "Journal of Political Economy", "note": "Rujukan akademik asal istilah curse of knowledge, melandasi 41-2." },
+    { "title": "If I Understood You, Would I Have This Look on My Face?", "author": "Alan Alda", "year": 2017, "publisher": "Random House", "note": "Prinsip komunikasi sains yang jelas dan berempati pada pembaca awam, dipakai di 41-3 dan 41-4." },
+    { "title": "Made to Stick: Why Some Ideas Survive and Others Die", "author": "Chip Heath dan Dan Heath", "year": 2007, "publisher": "Random House", "note": "Prinsip penggunaan analogi dan kekonkretan untuk menjelaskan ide asing, dipakai di 41-4." }
+  ]
+}

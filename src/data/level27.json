@@ -1,0 +1,258 @@
+{
+  "id": 27,
+  "slug": "bab-5-simpulan",
+  "title": "Bab 5: Simpulan & Saran",
+  "subtitle": "Simpulan yang menjawab Bab 1, saran yang spesifik, dan keterbatasan yang jujur",
+  "goal": "Mampu menulis simpulan yang benar-benar menjawab rumusan masalah dan tujuan di Bab 1 satu per satu, menyusun saran yang spesifik dan bisa ditindaklanjuti (bukan boilerplate), serta menuliskan keterbatasan penelitian secara jujur tanpa merusak kredibilitas keseluruhan skripsi.",
+  "estimatedMinutes": 38,
+  "sections": [
+    {
+      "id": "27-1",
+      "title": "Bab 5 Bukan Ringkasan, Tapi Jawaban Final",
+      "blocks": [
+        { "type": "heading", "text": "Kesalahan Paling Sering: Bab 5 sebagai 'Rangkuman'" },
+        { "type": "paragraph", "text": "Banyak mahasiswa menulis Bab 5 seolah itu adalah rangkuman Bab 4 — meringkas ulang semua angka dan temuan dalam bentuk yang lebih pendek. Padahal Bab 5 punya fungsi yang lebih spesifik: menjawab TEGAS setiap butir rumusan masalah dan tujuan yang dijanjikan di Bab 1 (Level 24), dalam kalimat yang berdiri sendiri tanpa perlu pembaca membuka Bab 4 lagi." },
+        { "type": "paragraph", "text": "Bayangkan penguji hanya membaca Bab 1 dan Bab 5 saja (ini sering terjadi karena keterbatasan waktu sebelum sidang) — apakah dari dua bab itu saja, ia sudah bisa memahami apa yang ditanya dan apa jawabannya? Kalau tidak, Bab 5-mu belum menjalankan fungsinya." },
+        { "type": "callout", "title": "Kenapa Ini Penting", "text": "Simpulan yang baik BISA DIBACA TERPISAH dari Bab 4 dan tetap masuk akal — karena ia menjawab pertanyaan, bukan meringkas proses. Simpulan yang buruk hanya masuk akal kalau pembaca sudah membaca seluruh Bab 4 terlebih dahulu." }
+      ]
+    },
+    {
+      "id": "27-2",
+      "title": "Menyusun Simpulan yang Menjawab Rumusan Masalah Satu per Satu",
+      "blocks": [
+        { "type": "heading", "text": "Simpulan Berkorespondensi dengan Bab 1" },
+        { "type": "paragraph", "text": "Level 26 sudah mengajarkan menyusun Bab 4 mengikuti urutan rumusan masalah. Prinsip yang sama berlaku untuk simpulan: jika rumusan masalahmu ada 3 butir, simpulan idealnya juga punya 3 butir jawaban yang jelas berkorespondensi." },
+        {
+          "type": "table",
+          "headers": ["Rumusan Masalah (Bab 1)", "Simpulan yang Menjawab"],
+          "rows": [
+            ["Apakah metode diskusi meningkatkan nilai siswa?", "Metode diskusi kelompok terbukti meningkatkan nilai siswa secara signifikan (nilai rata-rata naik dari 71,2 menjadi 78,5, p < 0,05)."],
+            ["Bagaimana respons siswa terhadap metode diskusi?", "Sebagian besar siswa (78%) merespons positif metode diskusi, terutama karena merasa lebih leluasa bertanya dibanding di kelas ceramah."],
+            ["Faktor apa yang menghambat penerapan metode diskusi?", "Faktor penghambat utama adalah keterbatasan waktu kelas 40 menit yang tidak cukup untuk sesi diskusi mendalam pada kelas berisi lebih dari 30 siswa."]
+          ]
+        },
+        { "type": "callout", "title": "Jangan Menambah Klaim Baru", "text": "Simpulan hanya boleh berisi hal yang sudah dibahas di Bab 4 — bukan tempat menambahkan klaim, data, atau ide baru yang belum pernah muncul sebelumnya. Kalau ada ide baru yang ingin kamu sampaikan, itu tempatnya di bagian saran, bukan simpulan." }
+      ]
+    },
+    {
+      "id": "27-3",
+      "title": "Saran Boilerplate vs Saran Spesifik",
+      "blocks": [
+        { "type": "heading", "text": "Kalimat yang Paling Sering Diketik Copy-Paste" },
+        { "type": "paragraph", "text": "Ada satu kalimat yang begitu sering muncul di skripsi Indonesia sampai jadi lelucon di kalangan dosen: 'Bagi peneliti selanjutnya, disarankan untuk menambah jumlah sampel.' Kalimat ini nyaris tidak pernah salah secara teknis, tapi juga nyaris tidak pernah benar-benar BERGUNA — karena bisa ditempelkan di skripsi topik apa pun tanpa perlu membaca isinya sama sekali." },
+        { "type": "callout", "title": "Uji Copy-Paste", "text": "Kalau saranmu bisa dipindahkan begitu saja ke skripsi teman dengan topik berbeda tanpa terasa aneh, itu tanda saranmu masih boilerplate. Saran yang baik hanya masuk akal untuk PENELITIAN INI, karena diturunkan langsung dari keterbatasan atau temuan spesifik yang kamu alami sendiri." },
+        { "type": "paragraph", "text": "Saran yang baik lahir dari pertanyaan: 'Apa yang saya alami/temukan di penelitian ini yang membuat saya berpikir seharusnya dilakukan begini oleh orang berikutnya?' Jawabannya harus konkret: siapa yang disarankan (guru? peneliti selanjutnya? pembuat kebijakan?), melakukan apa persis, dan kenapa." }
+      ]
+    },
+    {
+      "id": "27-4",
+      "title": "Worked Example: Saran Boilerplate vs Saran Spesifik",
+      "blocks": [
+        { "type": "heading", "text": "Membandingkan Beberapa Versi" },
+        {
+          "type": "table",
+          "headers": ["Saran Boilerplate", "Saran Spesifik (diturunkan dari temuan/keterbatasan penelitian ini)"],
+          "rows": [
+            ["Bagi peneliti selanjutnya, disarankan menambah jumlah sampel penelitian.", "Karena penelitian ini menemukan variasi respons siswa yang besar antar kelas dengan jumlah siswa berbeda, peneliti selanjutnya disarankan membandingkan efektivitas metode diskusi pada kelas kecil (<20 siswa) vs kelas besar (>30 siswa) secara terpisah, bukan menggabungkan keduanya."],
+            ["Bagi sekolah, disarankan menerapkan metode ini secara maksimal.", "Karena keterbatasan waktu kelas 40 menit terbukti menjadi kendala utama (lihat Bab 4.5), pihak sekolah disarankan mempertimbangkan alokasi waktu blok 80 menit khusus untuk sesi yang memakai metode diskusi, alih-alih memaksakannya dalam jam pelajaran standar."],
+            ["Bagi guru, disarankan lebih kreatif dalam mengajar.", "Karena partisipan dalam penelitian ini menyebut kurangnya variasi pertanyaan pemantik sebagai kendala, guru yang ingin menerapkan metode diskusi disarankan menyiapkan minimal 3 pertanyaan pemantik berjenjang (dari faktual ke reflektif) sebelum sesi dimulai."]
+          ]
+        },
+        { "type": "callout", "title": "Pola yang Bisa Ditiru", "text": "Perhatikan pola saran spesifik di atas: selalu diawali dengan 'karena [temuan/keterbatasan spesifik penelitian ini]', lalu diikuti saran konkret untuk pihak tertentu. Pola ini memaksa saranmu benar-benar berakar dari penelitianmu sendiri, bukan template umum." }
+      ]
+    },
+    {
+      "id": "27-5",
+      "title": "Keterbatasan Penelitian: Jujur Tanpa Merusak Kredibilitas",
+      "blocks": [
+        { "type": "heading", "text": "Mengakui Batas, Bukan Mengaku Gagal" },
+        { "type": "paragraph", "text": "Keterbatasan penelitian (limitations) adalah bagian yang jujur mengakui apa yang TIDAK bisa dijawab atau dijamin oleh penelitian ini — mirip fungsi batasan masalah di Bab 1 (Level 24), tapi ditulis setelah penelitian selesai sehingga bisa lebih spesifik dan berbasis pengalaman nyata di lapangan." },
+        { "type": "list", "ordered": true, "items": [
+          "Keterbatasan metodologis — misalnya sampel yang tidak representatif secara statistik, instrumen yang belum divalidasi di populasi lain, atau waktu pengumpulan data yang singkat.",
+          "Keterbatasan konteks — temuan mungkin hanya berlaku untuk konteks spesifik (satu sekolah, satu daerah) dan belum tentu berlaku di tempat lain.",
+          "Keterbatasan yang terjadi selama proses — misalnya kendala akses data, perubahan kondisi lapangan yang tidak terduga (pandemi, kebijakan baru)."
+        ]},
+        { "type": "callout", "title": "Bedanya dengan 'Mengaku Gagal'", "text": "Keterbatasan yang baik ditulis sebagai FAKTA KONTEKS ('penelitian ini dilakukan pada satu sekolah sehingga generalisasi ke sekolah lain perlu kehati-hatian'), bukan sebagai PERMINTAAN MAAF ('maaf penelitian ini masih banyak kekurangan'). Nada faktual menunjukkan kesadaran metodologis, nada permintaan maaf terkesan tidak percaya diri pada hasil sendiri." }
+      ]
+    },
+    {
+      "id": "27-6",
+      "title": "Menghubungkan Keterbatasan ke Saran",
+      "blocks": [
+        { "type": "heading", "text": "Saran Terbaik Lahir dari Keterbatasan yang Diakui Jujur" },
+        { "type": "paragraph", "text": "Ini rahasia terbesar menghindari saran boilerplate: tulis dulu keterbatasan penelitianmu secara jujur dan spesifik, lalu saran tinggal 'menjawab' keterbatasan itu. Kalau keterbatasannya spesifik, sarannya otomatis ikut spesifik — karena keduanya berasal dari sumber yang sama." },
+        { "type": "quote", "text": "Keterbatasan: \"Penelitian ini hanya melibatkan siswa kelas XI di satu sekolah negeri perkotaan sehingga temuan belum tentu berlaku pada sekolah swasta atau sekolah di daerah pedesaan dengan akses teknologi berbeda.\"\nSaran yang lahir dari keterbatasan ini: \"Peneliti selanjutnya disarankan menguji metode yang sama pada sekolah dengan akses teknologi terbatas untuk melihat apakah faktor akses memengaruhi efektivitas metode ini.\"", "source": "Contoh keterbatasan yang melahirkan saran spesifik" },
+        { "type": "callout", "title": "Kebiasaan Baik", "text": "Tulis keterbatasan penelitian LEBIH DULU sebelum menulis saran. Banyak mahasiswa menulis keduanya secara terpisah tanpa hubungan, padahal urutan menulis yang benar (keterbatasan dulu, baru saran) secara alami membuat saran menjadi spesifik." }
+      ]
+    },
+    {
+      "id": "27-7",
+      "title": "Format & Nada Bab 5 yang Tepat",
+      "blocks": [
+        { "type": "heading", "text": "Ringkas, Tegas, Tanpa Data Baru" },
+        { "type": "list", "ordered": false, "items": [
+          "Simpulan biasanya ditulis dalam bentuk poin bernomor, satu poin per rumusan masalah — memudahkan penguji melacak korespondensinya dengan Bab 1.",
+          "Hindari kata kerja ragu-ragu ('mungkin', 'kemungkinan besar') di simpulan — keraguan semacam itu tempatnya di Pembahasan Bab 4, bukan di simpulan final.",
+          "Saran ditulis dalam paragraf atau poin terpisah untuk tiap pihak yang dituju (peneliti selanjutnya, praktisi, pembuat kebijakan) agar jelas siapa yang perlu membaca bagian mana.",
+          "Keterbatasan sebaiknya ditulis sebelum saran, dalam subbab tersendiri, dengan nada faktual bukan permintaan maaf."
+        ]},
+        { "type": "callout", "title": "Panjang yang Wajar", "text": "Bab 5 biasanya jauh lebih pendek dari bab lain — sering hanya 2-4 halaman. Ini WAJAR karena Bab 5 tidak memperkenalkan hal baru, hanya menjawab dan menindaklanjuti apa yang sudah dibangun di bab-bab sebelumnya." }
+      ]
+    },
+    {
+      "id": "27-8",
+      "title": "Kesalahan Umum dalam Menulis Bab 5",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis Bab 5 sebagai rangkuman ulang seluruh Bab 4, alih-alih menjawab tegas tiap rumusan masalah dan tujuan dari Bab 1.",
+          "Memasukkan saran boilerplate seperti 'menambah jumlah sampel' yang bisa ditempelkan ke skripsi topik apa pun tanpa perlu membaca isinya.",
+          "Menambahkan klaim atau data baru di simpulan yang belum pernah dibahas di Bab 4.",
+          "Menulis keterbatasan penelitian dengan nada permintaan maaf ('maaf penelitian ini masih banyak kekurangan') alih-alih nada faktual yang menunjukkan kesadaran metodologis.",
+          "Menulis saran dan keterbatasan secara terpisah tanpa hubungan sebab-akibat, sehingga saran tidak lahir dari keterbatasan yang sudah diakui.",
+          "Memakai kata kerja ragu-ragu ('mungkin', 'kemungkinan') di bagian simpulan, padahal simpulan seharusnya tegas."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Bab 5 yang baik bisa dibaca berdampingan dengan Bab 1 seperti pertanyaan dan jawaban ujian — setiap rumusan masalah punya jawaban tegas, setiap keterbatasan diakui jujur, dan setiap saran benar-benar lahir dari apa yang kamu alami sendiri selama penelitian, bukan template yang bisa dipakai siapa saja." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-27",
+    "title": "Kuis Level 27",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q27-1",
+        "question": "Perbedaan utama antara simpulan yang baik dan 'rangkuman Bab 4' adalah…",
+        "options": ["Simpulan lebih panjang dari rangkuman", "Simpulan menjawab tegas tiap rumusan masalah dari Bab 1 dan bisa dipahami tanpa membaca Bab 4 lagi, sementara rangkuman hanya meringkas proses", "Simpulan ditulis dalam bahasa Inggris, rangkuman dalam bahasa Indonesia", "Tidak ada perbedaan, keduanya sama saja"],
+        "answer": 1,
+        "explanation": "Simpulan berfungsi menjawab pertanyaan Bab 1 secara berdiri sendiri, bukan sekadar meringkas proses yang sudah dijelaskan di Bab 4."
+      },
+      {
+        "id": "q27-2",
+        "question": "Kenapa kalimat 'disarankan menambah jumlah sampel' sering dianggap saran boilerplate?",
+        "options": ["Karena kalimatnya terlalu panjang", "Karena bisa ditempelkan ke skripsi topik apa pun tanpa perlu diturunkan dari temuan atau keterbatasan penelitian yang spesifik", "Karena tidak boleh menyebut kata 'sampel'", "Karena hanya berlaku untuk penelitian kualitatif"],
+        "answer": 1,
+        "explanation": "Saran boilerplate tidak spesifik ke penelitian tertentu — ia bisa dipakai di mana saja karena tidak diturunkan dari pengalaman/temuan spesifik penelitian itu."
+      },
+      {
+        "id": "q27-3",
+        "question": "Uji cepat untuk mengecek apakah sebuah saran masih boilerplate adalah…",
+        "options": ["Menghitung jumlah katanya", "Membayangkan apakah saran itu bisa dipindahkan begitu saja ke skripsi teman dengan topik berbeda tanpa terasa aneh", "Mengecek apakah ditulis dengan huruf kapital", "Melihat apakah saran itu ditulis di akhir kalimat"],
+        "answer": 1,
+        "explanation": "Kalau saran bisa dipakai untuk topik apa pun tanpa terasa aneh, itu tanda saran tersebut belum diturunkan dari penelitian spesifik ini."
+      },
+      {
+        "id": "q27-4",
+        "question": "Keterbatasan penelitian sebaiknya ditulis dengan nada…",
+        "options": ["Permintaan maaf yang menyesali kekurangan penelitian", "Faktual, menjelaskan konteks dan batas generalisasi temuan tanpa kesan menyesal", "Defensif, membela diri dari kemungkinan kritik", "Menyalahkan pihak lain atas kekurangan tersebut"],
+        "answer": 1,
+        "explanation": "Nada faktual menunjukkan kesadaran metodologis yang matang, berbeda dari nada permintaan maaf yang terkesan tidak percaya diri."
+      },
+      {
+        "id": "q27-5",
+        "question": "Cara paling efektif menghindari saran yang boilerplate adalah…",
+        "options": ["Menulis saran sepanjang mungkin", "Menuliskan keterbatasan penelitian secara spesifik terlebih dahulu, lalu menyusun saran yang menjawab keterbatasan tersebut", "Mencontek saran dari skripsi kakak tingkat", "Menghindari menulis keterbatasan sama sekali"],
+        "answer": 1,
+        "explanation": "Saran yang lahir dari keterbatasan spesifik penelitian otomatis menjadi spesifik pula, karena keduanya berasal dari sumber pengalaman yang sama."
+      },
+      {
+        "id": "q27-6",
+        "question": "Kalimat simpulan yang mengandung kata 'mungkin' atau 'kemungkinan besar' dianggap kurang tepat karena…",
+        "options": ["Kata tersebut tidak baku dalam bahasa Indonesia", "Simpulan seharusnya tegas menjawab rumusan masalah, sementara nada ragu-ragu lebih tepat berada di bagian Pembahasan Bab 4", "Simpulan tidak boleh memakai kata yang lebih dari dua suku kata", "Kata tersebut hanya boleh dipakai di Bab 1"],
+        "answer": 1,
+        "explanation": "Simpulan adalah jawaban final yang tegas; nuansa keraguan interpretatif lebih tepat ditempatkan di bagian Pembahasan, bukan di simpulan."
+      },
+      {
+        "id": "q27-7",
+        "question": "Kenapa Bab 5 biasanya jauh lebih pendek dibanding bab-bab lain?",
+        "options": ["Karena format kampus membatasi jumlah halaman secara ketat tanpa alasan", "Karena Bab 5 tidak memperkenalkan hal baru, hanya menjawab dan menindaklanjuti apa yang sudah dibangun di bab sebelumnya", "Karena penguji jarang membaca Bab 5", "Karena simpulan tidak wajib ditulis untuk semua jenis penelitian"],
+        "answer": 1,
+        "explanation": "Bab 5 merangkum jawaban dan tindak lanjut tanpa data atau argumen baru, sehingga secara wajar jauh lebih ringkas dari bab-bab isi lainnya."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-27",
+    "title": "Ujian Level 27",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e27-1",
+        "question": "Simpulan seorang mahasiswa berbunyi: \"Bab 4 telah membahas berbagai temuan menarik mengenai metode diskusi kelompok yang diterapkan selama delapan minggu.\" Penguji menilai simpulan ini belum menjawab apa pun. Masalah utamanya adalah…",
+        "options": ["Kalimatnya terlalu pendek", "Kalimat ini hanya merangkum proses penelitian, bukan menjawab tegas rumusan masalah dari Bab 1", "Seharusnya disebutkan nama semua partisipan", "Seharusnya ditulis dalam bentuk tabel"],
+        "answer": 1,
+        "explanation": "Simpulan yang benar menjawab pertanyaan spesifik dari Bab 1 secara tegas, bukan sekadar merangkum bahwa penelitian sudah dilakukan dan membahas sesuatu."
+      },
+      {
+        "id": "e27-2",
+        "question": "Rumusan masalah Bab 1 seorang mahasiswa terdiri dari 3 butir, tapi bagian simpulannya hanya menjawab 2 butir secara eksplisit, satu butir lainnya tidak disinggung sama sekali. Konsekuensi paling mungkin di sidang adalah…",
+        "options": ["Tidak ada konsekuensi karena simpulan bebas ditulis berapa pun jumlahnya", "Penguji kemungkinan besar akan mempertanyakan kenapa satu rumusan masalah tidak terjawab di simpulan, karena setiap butir rumusan masalah wajib punya jawaban yang berkorespondensi", "Rumusan masalah ketiga otomatis dianggap tidak penting", "Pembimbing akan menghapus rumusan masalah ketiga dari Bab 1 tanpa didiskusikan"],
+        "answer": 1,
+        "explanation": "Setiap butir rumusan masalah harus dijawab tegas di simpulan; kekurangan satu jawaban adalah celah yang akan ditangkap penguji saat sidang."
+      },
+      {
+        "id": "e27-3",
+        "question": "Seorang mahasiswa menulis saran: \"Bagi peneliti selanjutnya, disarankan menambah jumlah sampel penelitian.\" Ia meneliti topik yang sama sekali berbeda dari topik teman sekelasnya, tapi saran ini identik dengan saran di skripsi temannya. Penilaian paling tepat atas situasi ini adalah…",
+        "options": ["Wajar karena semua skripsi memang membutuhkan saran yang sama", "Ini indikasi kuat bahwa saran tersebut boilerplate — tidak diturunkan dari temuan atau keterbatasan spesifik penelitian masing-masing", "Ini menunjukkan kedua mahasiswa melakukan penelitian yang identik", "Ini menunjukkan pembimbing keduanya sama"],
+        "answer": 1,
+        "explanation": "Saran yang bisa dipindahkan begitu saja antar skripsi dengan topik berbeda adalah tanda klasik saran boilerplate yang tidak spesifik."
+      },
+      {
+        "id": "e27-4",
+        "question": "Bagian keterbatasan penelitian seorang mahasiswa berbunyi: \"Mohon maaf, penelitian ini masih jauh dari sempurna dan memiliki banyak kekurangan yang perlu dimaklumi.\" Revisi yang lebih tepat untuk kalimat ini adalah…",
+        "options": ["Menghapus bagian keterbatasan sepenuhnya agar tidak terkesan lemah", "Mengganti dengan penjelasan faktual dan spesifik, misalnya menyebutkan sampel hanya dari satu sekolah sehingga generalisasi ke konteks lain perlu kehati-hatian", "Menambahkan lebih banyak permintaan maaf agar terlihat rendah hati", "Memindahkan kalimat ini ke Bab 1 sebagai batasan masalah"],
+        "answer": 1,
+        "explanation": "Keterbatasan yang baik ditulis faktual dan spesifik (konteks, sampel, metode), bukan sebagai permintaan maaf umum yang tidak informatif."
+      },
+      {
+        "id": "e27-5",
+        "question": "Seorang mahasiswa menuliskan keterbatasan: \"Penelitian ini hanya melibatkan siswa di satu sekolah negeri perkotaan sehingga temuan belum tentu berlaku di sekolah pedesaan dengan akses teknologi berbeda.\" Saran yang PALING konsisten lahir dari keterbatasan ini adalah…",
+        "options": ["Disarankan menambah jumlah pertanyaan kuesioner", "Disarankan menguji metode yang sama di sekolah dengan akses teknologi terbatas untuk melihat apakah faktor akses memengaruhi hasil", "Disarankan mengubah metode penelitian menjadi eksperimen murni", "Disarankan mengganti populasi menjadi mahasiswa perguruan tinggi"],
+        "answer": 1,
+        "explanation": "Saran yang baik menjawab langsung keterbatasan yang diakui — di sini keterbatasan soal konteks sekolah perkotaan, sehingga saran yang konsisten adalah menguji di konteks yang berbeda (akses teknologi terbatas)."
+      },
+      {
+        "id": "e27-6",
+        "question": "Di bagian simpulan, seorang mahasiswa menulis: \"Metode ini kemungkinan besar cukup efektif, meskipun mungkin masih perlu diteliti lebih lanjut.\" Penguji menilai kalimat ini terlalu ragu-ragu untuk sebuah simpulan. Perbaikan yang tepat adalah…",
+        "options": ["Menambahkan lebih banyak kata 'mungkin' agar terdengar hati-hati", "Menulis simpulan secara tegas berdasarkan data yang sudah dibahas di Bab 4, dan memindahkan nuansa ketidakpastian ke bagian keterbatasan atau saran jika relevan", "Menghapus simpulan ini sepenuhnya dari Bab 5", "Mengganti kalimat ini menjadi pertanyaan retoris"],
+        "answer": 1,
+        "explanation": "Simpulan seharusnya tegas dan berdasarkan data yang sudah ada; nuansa ketidakpastian metodologis lebih tepat ditempatkan di keterbatasan, bukan mengaburkan jawaban di simpulan."
+      },
+      {
+        "id": "e27-7",
+        "question": "Seorang mahasiswa menambahkan kalimat di simpulan: \"Selain itu, ditemukan pula bahwa faktor ekonomi keluarga turut memengaruhi hasil belajar siswa,\" padahal faktor ekonomi keluarga tidak pernah dibahas atau dianalisis di Bab 4 mana pun. Kesalahan dalam kalimat ini adalah…",
+        "options": ["Kalimatnya terlalu pendek untuk sebuah simpulan", "Simpulan memasukkan klaim/data baru yang belum pernah dibahas sebelumnya di Bab 4, padahal simpulan hanya boleh menjawab apa yang sudah dianalisis", "Faktor ekonomi keluarga bukan variabel yang valid untuk diteliti", "Kalimat ini seharusnya ditulis di bagian saran, bukan simpulan"],
+        "answer": 1,
+        "explanation": "Simpulan hanya boleh berisi hal yang sudah dibahas dan didukung data di Bab 4; menambahkan klaim baru yang tidak pernah dianalisis adalah kesalahan struktural."
+      },
+      {
+        "id": "e27-8",
+        "question": "Seorang mahasiswa menulis saran untuk tiga pihak berbeda (guru, sekolah, peneliti selanjutnya) dalam satu paragraf panjang tanpa pemisahan yang jelas, sehingga pembaca sulit membedakan saran mana untuk siapa. Perbaikan format yang paling tepat adalah…",
+        "options": ["Menggabungkan semua saran menjadi satu kalimat saja", "Memisahkan saran ke dalam paragraf atau poin tersendiri untuk masing-masing pihak agar jelas siapa yang perlu membaca bagian mana", "Menghapus saran untuk sekolah karena dianggap tidak relevan", "Menulis saran dalam bentuk puisi agar lebih menarik"],
+        "answer": 1,
+        "explanation": "Saran untuk pihak berbeda sebaiknya dipisah secara jelas (paragraf/poin tersendiri) agar setiap pembaca yang dituju bisa langsung menemukan bagian yang relevan untuknya."
+      },
+      {
+        "id": "e27-9",
+        "question": "Seorang penguji hanya sempat membaca Bab 1 dan Bab 5 sebelum sidang karena keterbatasan waktu. Ia merasa bingung karena simpulan menyebut istilah dan angka yang tidak pernah dijelaskan konteksnya. Akar masalah paling mungkin dari situasi ini adalah…",
+        "options": ["Penguji tidak profesional karena tidak membaca seluruh naskah", "Simpulan tidak ditulis untuk bisa dipahami secara mandiri, sehingga bergantung penuh pada konteks yang hanya ada di Bab 4", "Bab 1 seharusnya dihapus dari skripsi", "Angka-angka di simpulan seharusnya dihilangkan semua"],
+        "answer": 1,
+        "explanation": "Simpulan yang baik seharusnya bisa dipahami berdampingan dengan Bab 1 tanpa perlu membaca detail Bab 4 lagi; kebingungan ini menandakan simpulan terlalu bergantung pada konteks yang tidak dijelaskan ulang."
+      },
+      {
+        "id": "e27-10",
+        "question": "Seorang mahasiswa menulis keterbatasan dan saran di Bab 5 secara terpisah tanpa keterkaitan sama sekali — keterbatasan membahas soal waktu penelitian yang singkat, sementara saran membahas soal memperluas variabel penelitian. Penilaian paling tepat atas struktur ini adalah…",
+        "options": ["Sudah tepat karena keterbatasan dan saran memang seharusnya membahas hal yang berbeda", "Kurang optimal — saran idealnya lahir langsung dari keterbatasan yang diakui, sehingga pembaca melihat hubungan sebab-akibat yang jelas antara keduanya", "Keterbatasan seharusnya dihapus karena tidak berguna", "Saran seharusnya ditulis sebelum keterbatasan"],
+        "answer": 1,
+        "explanation": "Saran yang paling kuat dan spesifik lahir langsung dari keterbatasan yang sudah diakui; menuliskan keduanya tanpa hubungan membuat saran cenderung generik/boilerplate."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Metode Penelitian Kuantitatif, Kualitatif dan R&D", "author": "Sugiyono", "publisher": "Alfabeta", "note": "Rujukan struktur simpulan dan saran skripsi di konteks kampus Indonesia." },
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams", "publisher": "University of Chicago Press", "note": "Rujukan menulis simpulan yang tegas dan menjawab pertanyaan penelitian secara langsung." },
+    { "title": "How to Write a Thesis", "author": "Umberto Eco", "year": 2015, "publisher": "MIT Press", "note": "Rujukan menulis keterbatasan penelitian secara jujur tanpa merusak kredibilitas argumen keseluruhan." },
+    { "title": "Writing Your Journal Article in Twelve Weeks", "author": "Wendy Laura Belcher", "publisher": "SAGE Publications", "note": "Rujukan prinsip menghindari overclaim dan menyusun saran yang spesifik serta bisa ditindaklanjuti." }
+  ]
+}

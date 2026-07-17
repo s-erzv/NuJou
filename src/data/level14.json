@@ -1,0 +1,268 @@
+{
+  "id": 14,
+  "slug": "etika-penelitian",
+  "title": "Etika Penelitian",
+  "subtitle": "Melindungi manusia di balik data",
+  "goal": "Memahami inti informed consent, membedakan anonimitas dari kerahasiaan (dua hal yang sering dikira sama), tahu kapan riset butuh persetujuan komisi etik/IRB, mampu menangani data sensitif dan kelompok rentan dengan semestinya, serta menghubungkan semua ini dengan praktik kutipan anonim di Level 9 dan plagiarisme di Level 3.",
+  "estimatedMinutes": 38,
+  "sections": [
+    {
+      "id": "14-1",
+      "title": "Etika Bukan Sekadar Formulir yang Ditandatangani",
+      "blocks": [
+        { "type": "heading", "text": "Dua Ranah Etika yang Berbeda" },
+        { "type": "paragraph", "text": "Etika penelitian sering dianggap urusan administratif: isi formulir consent, tunggu approval, lanjut. Padahal intinya jauh lebih mendasar — melindungi martabat, keselamatan, dan hak orang yang datanya kamu ambil. Formulir dan komite hanyalah MEKANISME untuk memastikan perlindungan itu benar-benar terjadi, bukan tujuan itu sendiri." },
+        { "type": "callout", "title": "Bedakan Dua Ranah Etika", "text": "Level 3 membahas etika terhadap KARYA orang lain (plagiarisme, sitasi yang jujur). Level ini membahas etika terhadap SUBJEK penelitian — manusia yang datanya kamu kumpulkan. Keduanya sama pentingnya, tapi melindungi hal yang berbeda: satu melindungi kepemilikan intelektual, satu lagi melindungi manusia yang berpartisipasi." },
+        { "type": "paragraph", "text": "Pelanggaran etika penelitian terhadap subjek bisa jauh lebih serius konsekuensinya daripada pelanggaran akademik biasa — bisa merugikan orang secara nyata (psikologis, sosial, hukum, bahkan fisik), bukan cuma merusak integritas tulisan." }
+      ]
+    },
+    {
+      "id": "14-2",
+      "title": "Informed Consent: Bukan Sekadar Tanda Tangan",
+      "blocks": [
+        { "type": "heading", "text": "Empat Syarat Consent yang Sah" },
+        { "type": "list", "ordered": true, "items": [
+          "Voluntary — partisipasi benar-benar sukarela, tanpa tekanan atau ancaman kerugian bila menolak.",
+          "Informed — subjek diberi informasi jelas soal tujuan penelitian, prosedur, risiko, manfaat, dan berapa lama waktu yang dibutuhkan.",
+          "Comprehension — subjek benar-benar MEMAHAMI informasi itu, bukan cuma diberi tahu dengan bahasa hukum yang rumit.",
+          "Hak menarik diri kapan pun — subjek boleh berhenti berpartisipasi di titik mana pun tanpa penalti, dan datanya (kalau memungkinkan) bisa diminta dihapus."
+        ]},
+        { "type": "quote", "text": "SEBELUM: 'Dengan mengisi kuesioner ini, Anda otomatis menyetujui data Anda digunakan untuk keperluan apa pun oleh peneliti.'", "source": "Consent yang tidak sah — samar, sepihak, tidak menyebut hak menolak" },
+        { "type": "quote", "text": "SESUDAH: 'Penelitian ini bertujuan memahami pengalaman menulis skripsi mahasiswa tingkat akhir. Partisipasimu bersifat sukarela — kamu boleh menolak atau berhenti kapan saja tanpa konsekuensi apa pun terhadap nilai atau statusmu. Data akan disimpan secara rahasia dan hanya dipakai untuk laporan penelitian ini. Jika ada pertanyaan, hubungi peneliti di [kontak].'", "source": "Consent yang memenuhi keempat syarat" },
+        { "type": "callout", "title": "Consent Bukan Sekali di Awal Saja", "text": "Untuk riset kualitatif yang berlangsung lama (misalnya etnografi berbulan-bulan), consent idealnya diulang secara berkala (process/ongoing consent) — bukan cuma ditandatangani sekali di hari pertama lalu dianggap berlaku selamanya." }
+      ]
+    },
+    {
+      "id": "14-3",
+      "title": "Anonimitas vs Kerahasiaan: Dua Hal yang Berbeda",
+      "blocks": [
+        { "type": "heading", "text": "Sering Dikira Sama, Padahal Beda Total" },
+        { "type": "paragraph", "text": "Ini kesalahpahaman yang sangat umum. Anonimitas (anonymity) berarti bahkan PENELITI SENDIRI tidak bisa menghubungkan data dengan identitas subjek — tidak ada informasi identitas yang dikumpulkan sama sekali, atau sudah dihapus permanen sejak awal. Kerahasiaan (confidentiality) berarti peneliti TAHU siapa subjeknya, tapi berjanji tidak akan membuka identitas itu ke pihak lain — dilindungi lewat nama samaran, penyimpanan aman, dan pelaporan data yang tidak bisa dilacak balik ke orangnya." },
+        { "type": "table", "headers": ["Aspek", "Anonimitas", "Kerahasiaan"], "rows": [
+          ["Apakah peneliti tahu identitas subjek?", "Tidak — tidak pernah dikumpulkan/sudah dihapus permanen", "Ya — peneliti tahu, tapi berjanji tidak membocorkannya"],
+          ["Cara melindungi", "Tidak ada identitas untuk dilindungi sejak awal", "Nama samaran, penyimpanan data aman, akses terbatas"],
+          ["Contoh", "Survei daring tanpa kolom nama/email/IP", "Wawancara tatap muka yang dilaporkan dengan kode 'Partisipan 1'"],
+          ["Kapan realistis diterapkan", "Riset kuantitatif skala besar tanpa perlu identitas", "Hampir semua riset kualitatif — peneliti tahu siapa yang diwawancarai"]
+        ]},
+        { "type": "callout", "title": "Meluruskan Contoh dari Level 9", "text": "Ingat callout 'Jaga Anonimitas' di Level 9 yang menyarankan memakai kode 'Partisipan 1, Partisipan 2' untuk kutipan wawancara? Secara teknis itu praktik KERAHASIAAN, bukan anonimitas murni — peneliti tetap tahu persis siapa Partisipan 1 itu, hanya saja identitasnya disembunyikan dari pembaca laporan. Menyebutnya 'anonim' begitu saja sedikit longgar; istilah yang lebih tepat adalah data yang dilaporkan secara rahasia (confidential reporting)." }
+      ]
+    },
+    {
+      "id": "14-4",
+      "title": "Komisi Etik, IRB, dan Ethical Clearance",
+      "blocks": [
+        { "type": "heading", "text": "Persetujuan yang Harus Datang Duluan, Bukan Belakangan" },
+        { "type": "paragraph", "text": "Komisi etik penelitian atau IRB (Institutional Review Board) adalah badan independen yang meninjau rancangan penelitian SEBELUM data mulai dikumpulkan — menilai apakah risiko terhadap subjek sebanding dengan manfaat penelitian, apakah proses consent memadai, dan apakah rencana perlindungan data sudah cukup. Persetujuannya disebut ethical clearance." },
+        { "type": "table", "headers": ["Situasi Riset", "Biasanya Butuh Ethical Clearance Formal?"], "rows": [
+          ["Survei anonim risiko minimal untuk tugas kuliah internal", "Sering cukup dengan kaji etik ringan di tingkat program studi"],
+          ["Riset melibatkan data kesehatan, anak-anak, atau kelompok rentan lain", "Ya, wajib lewat komisi etik/IRB formal sebelum pengumpulan data"],
+          ["Wawancara mendalam tentang pengalaman pribadi yang sensitif", "Ya, karena berisiko menimbulkan tekanan psikologis pada subjek"],
+          ["Analisis data sekunder yang sudah sepenuhnya publik dan anonim", "Biasanya risiko lebih rendah, tapi tetap perlu dicek kebijakan institusi"]
+        ]},
+        { "type": "callout", "title": "Bukan Formalitas yang Diurus Belakangan", "text": "Ethical clearance harus diperoleh SEBELUM pengumpulan data dimulai — bukan diurus setelah data sudah terkumpul sekadar untuk melengkapi syarat sidang atau submission jurnal. Kalau ditinjau setelah data ada, komite tidak lagi bisa mencegah risiko yang sudah terjadi, hanya bisa mencatatnya sebagai pelanggaran prosedur." }
+      ]
+    },
+    {
+      "id": "14-5",
+      "title": "Data Sensitif & Retensi Data",
+      "blocks": [
+        { "type": "heading", "text": "Melindungi Data Setelah Dikumpulkan" },
+        { "type": "paragraph", "text": "Data sensitif — soal kesehatan, orientasi seksual, pandangan politik, riwayat kriminal, kondisi finansial — butuh perlindungan ekstra: enkripsi saat disimpan, akses dibatasi hanya untuk tim inti, dan prinsip data minimization — hanya mengumpulkan data yang benar-benar diperlukan untuk menjawab pertanyaan penelitian, bukan 'sekalian saja ambil semua'." },
+        { "type": "paragraph", "text": "Retensi data (data retention) berarti menentukan sejak awal: berapa lama data mentah (rekaman wawancara, transkrip, kuesioner) akan disimpan, siapa yang punya akses, dan kapan/bagaimana data itu dihapus atau dimusnahkan secara aman setelah masa retensi berakhir. Kalau data mungkin dipakai lagi untuk riset lanjutan, itu harus sudah disebutkan secara eksplisit dalam consent — bukan diputuskan belakangan setelah data terlanjur dipakai ulang." },
+        { "type": "callout", "title": "Data Minimization", "text": "Godaan umum: mengumpulkan lebih banyak data 'siapa tahu berguna nanti' (misalnya nomor telepon, alamat lengkap, meski tidak relevan dengan pertanyaan penelitian). Setiap data tambahan yang dikumpulkan adalah risiko tambahan kalau bocor — kumpulkan seperlunya saja." }
+      ]
+    },
+    {
+      "id": "14-6",
+      "title": "Kelompok Rentan (Vulnerable Groups)",
+      "blocks": [
+        { "type": "heading", "text": "Ketika Persetujuan 'Sukarela' Bisa Jadi Semu" },
+        { "type": "paragraph", "text": "Kelompok rentan butuh perlindungan tambahan karena posisi mereka membuat 'persetujuan sukarela' rawan menjadi semu — misalnya anak-anak (butuh persetujuan orang tua/wali DAN assent dari anak itu sendiri), narapidana, pasien dengan kapasitas mental terbatas, penyintas trauma, atau siapa pun dalam relasi kuasa yang tidak seimbang dengan peneliti." },
+        { "type": "list", "ordered": false, "items": [
+          "Relasi kuasa langsung — misalnya dosen meneliti mahasiswanya sendiri, atau atasan meneliti bawahannya.",
+          "Kapasitas terbatas untuk memberi consent penuh — anak-anak, pasien dengan gangguan kognitif.",
+          "Kerentanan psikologis — penyintas kekerasan atau trauma yang topik wawancaranya sendiri bisa memicu ulang trauma itu."
+        ]},
+        { "type": "callout", "title": "Waspada Relasi Kuasa", "text": "Ketika seorang dosen meneliti mahasiswanya sendiri, 'kesukarelaan' partisipasi patut dipertanyakan — mahasiswa mungkin merasa berpartisipasi akan memengaruhi penilaian atau relasi mereka dengan dosen, meski tidak pernah diucapkan secara eksplisit. Perlindungan tambahan (misalnya memastikan partisipasi benar-benar tidak berhubungan dengan nilai, atau melibatkan pihak ketiga netral) jadi penting di sini." }
+      ]
+    },
+    {
+      "id": "14-7",
+      "title": "Prinsip Dasar: Belmont Report & Deklarasi Helsinki",
+      "blocks": [
+        { "type": "heading", "text": "Tiga Prinsip yang Mendasari Semua Aturan Etika" },
+        { "type": "paragraph", "text": "Belmont Report merumuskan tiga prinsip dasar yang mendasari hampir semua pedoman etika penelitian modern, termasuk yang kamu pelajari di bagian-bagian sebelumnya level ini." },
+        { "type": "table", "headers": ["Prinsip", "Makna Praktis"], "rows": [
+          ["Respect for persons (hormat pada individu)", "Menghormati otonomi subjek untuk memutuskan sendiri (informed consent) dan memberi perlindungan ekstra bagi yang otonominya terbatas (kelompok rentan)"],
+          ["Beneficence (kebermanfaatan)", "Memaksimalkan manfaat penelitian, meminimalkan risiko/kerugian terhadap subjek — analisis untung-rugi sebelum penelitian dijalankan"],
+          ["Justice (keadilan)", "Beban dan manfaat penelitian harus terbagi adil — jangan hanya merekrut kelompok rentan/marjinal untuk riset berisiko, sementara manfaatnya dinikmati kelompok lain"]
+        ]},
+        { "type": "callout", "title": "Deklarasi Helsinki", "text": "Deklarasi Helsinki dari World Medical Association memperkuat prinsip-prinsip ini khusus untuk riset medis yang melibatkan manusia — menegaskan bahwa kesejahteraan subjek harus selalu diutamakan di atas kepentingan ilmu pengetahuan atau masyarakat secara umum." }
+      ]
+    },
+    {
+      "id": "14-8",
+      "title": "Menyambung ke Level 3 dan Level 9",
+      "blocks": [
+        { "type": "heading", "text": "Etika sebagai Benang yang Menyambung Seluruh Kurikulum" },
+        { "type": "paragraph", "text": "Level 3 mengajarkanmu menghormati karya orang lain lewat sitasi yang jujur dan menghindari plagiarisme — etika terhadap KARYA. Level 9 memberimu praktik kode 'Partisipan 1' untuk melindungi identitas narasumber — itu penerapan kerahasiaan (Level 14-3) dalam praktik nyata. Level ini menyatukan keduanya dalam kerangka yang lebih besar: penelitian yang baik memperlakukan SEMUA pihak yang terlibat — penulis sumber yang kamu kutip, dan subjek yang datanya kamu kumpulkan — dengan kejujuran dan penghormatan yang sama." },
+        { "type": "callout", "title": "COPE dan Etika Publikasi", "text": "Pedoman Committee on Publication Ethics (COPE) menjembatani kedua ranah ini di tahap publikasi — mencakup baik integritas terhadap karya (plagiarisme, duplikasi publikasi) maupun kewajiban melaporkan bahwa penelitian sudah melalui proses etik yang semestinya (ethical clearance, consent) sebelum dipublikasikan." }
+      ]
+    },
+    {
+      "id": "14-9",
+      "title": "Kesalahan Umum dalam Etika Penelitian",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Mengklaim data 'anonim' padahal peneliti masih menyimpan daftar yang menghubungkan nomor responden ke nama asli — itu kerahasiaan, bukan anonimitas.",
+          "Mengurus ethical clearance setelah data sudah terkumpul, hanya sebagai formalitas administratif untuk sidang atau submission.",
+          "Menulis consent form dengan bahasa hukum yang rumit sehingga subjek sebenarnya tidak memahami apa yang mereka setujui.",
+          "Meneliti kelompok rentan (siswa sendiri, pasien sendiri) tanpa mempertimbangkan relasi kuasa yang bisa membuat 'kesukarelaan' jadi semu.",
+          "Menyimpan data sensitif tanpa enkripsi/perlindungan memadai, atau tanpa rencana retensi dan penghapusan yang jelas."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Etika penelitian yang baik bukan soal lolos administrasi komite, tapi soal benar-benar bisa mempertanggungjawabkan: kalau subjek penelitianmu membaca laporanmu nanti, apakah mereka akan merasa diperlakukan dengan jujur dan hormat?" }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-14",
+    "title": "Kuis Level 14",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q14-1",
+        "question": "Perbedaan mendasar antara anonimitas dan kerahasiaan adalah…",
+        "options": ["Anonimitas hanya berlaku untuk riset kuantitatif", "Anonimitas berarti peneliti sendiri tidak tahu identitas subjek; kerahasiaan berarti peneliti tahu tapi berjanji tidak membocorkannya", "Keduanya adalah istilah yang bisa dipakai bergantian tanpa beda makna", "Kerahasiaan hanya berlaku untuk data digital"],
+        "answer": 1,
+        "explanation": "Anonimitas menghapus/tidak mengumpulkan identitas sejak awal; kerahasiaan berarti peneliti tahu identitas tapi menjaganya agar tidak terbuka ke pihak lain."
+      },
+      {
+        "id": "q14-2",
+        "question": "Salah satu dari empat syarat informed consent yang sah adalah subjek benar-benar MEMAHAMI informasi yang diberikan, bukan sekadar diberi tahu. Syarat ini disebut…",
+        "options": ["Voluntary", "Comprehension", "Justice", "Anonymity"],
+        "answer": 1,
+        "explanation": "Comprehension menuntut subjek benar-benar memahami informasi, bukan hanya menerima dokumen yang ditulis dengan bahasa rumit."
+      },
+      {
+        "id": "q14-3",
+        "question": "Fungsi utama komisi etik/IRB dalam sebuah penelitian adalah…",
+        "options": ["Menyunting gaya bahasa laporan penelitian", "Meninjau rancangan penelitian sebelum data dikumpulkan untuk menilai keseimbangan risiko-manfaat dan perlindungan subjek", "Menentukan jumlah sampel yang dibutuhkan", "Menggantikan kebutuhan analisis statistik"],
+        "answer": 1,
+        "explanation": "Komisi etik/IRB meninjau desain penelitian sebelum pengumpulan data dimulai, memastikan risiko terhadap subjek sudah dipertimbangkan dan dimitigasi."
+      },
+      {
+        "id": "q14-4",
+        "question": "Contoh kelompok rentan (vulnerable group) dalam penelitian adalah…",
+        "options": ["Mahasiswa yang menjawab survei anonim tentang preferensi warna", "Anak-anak, narapidana, atau pasien dengan kapasitas mental terbatas", "Pembaca jurnal ilmiah", "Reviewer jurnal yang menilai naskah"],
+        "answer": 1,
+        "explanation": "Kelompok rentan adalah mereka yang otonominya terbatas atau posisinya rawan tekanan, seperti anak-anak, narapidana, dan pasien dengan kapasitas terbatas."
+      },
+      {
+        "id": "q14-5",
+        "question": "Prinsip Belmont Report yang menekankan bahwa beban dan manfaat penelitian harus terbagi adil antar kelompok masyarakat disebut…",
+        "options": ["Respect for persons", "Beneficence", "Justice", "Comprehension"],
+        "answer": 2,
+        "explanation": "Justice menekankan keadilan distribusi beban dan manfaat penelitian, mencegah eksploitasi kelompok tertentu demi manfaat kelompok lain."
+      },
+      {
+        "id": "q14-6",
+        "question": "Prinsip data minimization dalam menangani data sensitif berarti…",
+        "options": ["Mengumpulkan semua data yang mungkin berguna di masa depan", "Hanya mengumpulkan data yang benar-benar diperlukan untuk menjawab pertanyaan penelitian", "Menghapus semua data segera setelah dikumpulkan", "Membagikan data ke sebanyak mungkin pihak untuk transparansi"],
+        "answer": 1,
+        "explanation": "Data minimization membatasi pengumpulan data hanya pada yang relevan dengan pertanyaan penelitian, mengurangi risiko kebocoran data yang tidak perlu."
+      },
+      {
+        "id": "q14-7",
+        "question": "Kapan ethical clearance idealnya diperoleh dalam proses penelitian?",
+        "options": ["Setelah semua data terkumpul, sebelum penulisan laporan", "Sebelum pengumpulan data dimulai", "Setelah laporan penelitian selesai ditulis", "Hanya jika diminta oleh jurnal saat submission"],
+        "answer": 1,
+        "explanation": "Ethical clearance harus diperoleh sebelum pengumpulan data dimulai, agar komite bisa benar-benar mencegah risiko, bukan sekadar mencatatnya setelah terjadi."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-14",
+    "title": "Ujian Level 14",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e14-1",
+        "question": "Seorang peneliti mengklaim datanya 'anonim', tapi ia tetap menyimpan spreadsheet yang menghubungkan nomor responden dengan nama dan nomor teleponnya untuk keperluan follow-up. Yang salah dari klaim ini adalah…",
+        "options": ["Tidak ada yang salah, ini memang anonim", "Ini sebenarnya praktik kerahasiaan (peneliti tahu identitas), bukan anonimitas (identitas tidak pernah diketahui/disimpan)", "Seharusnya nomor telepon dihapus sebelum survei dimulai", "Follow-up tidak boleh dilakukan sama sekali dalam penelitian anonim"],
+        "answer": 1,
+        "explanation": "Karena peneliti masih menyimpan penghubung identitas-data, ini adalah kerahasiaan (confidentiality), bukan anonimitas — dua istilah yang sering tertukar."
+      },
+      {
+        "id": "e14-2",
+        "question": "Seorang dosen memberikan kuesioner penelitian kepada mahasiswanya sendiri, dan beberapa mahasiswa merasa kurang nyaman menolak karena khawatir memengaruhi nilai mereka meski dosen tidak pernah mengatakan itu secara eksplisit. Masalah etika utama dalam situasi ini adalah…",
+        "options": ["Kuesionernya terlalu panjang", "Relasi kuasa antara dosen dan mahasiswa membuat kesukarelaan partisipasi jadi meragukan (semu)", "Dosen seharusnya memakai wawancara, bukan kuesioner", "Tidak ada masalah selama dosen tidak secara eksplisit mengancam"],
+        "answer": 1,
+        "explanation": "Relasi kuasa yang tidak seimbang bisa membuat consent yang secara formal 'sukarela' sebenarnya dipengaruhi tekanan implisit — risiko khusus pada kelompok yang berada dalam relasi ketergantungan dengan peneliti."
+      },
+      {
+        "id": "e14-3",
+        "question": "Sebuah tim mengurus ethical clearance dari komisi etik SETELAH seluruh data terkumpul, hanya untuk melengkapi syarat administratif sidang skripsi. Masalah utama urutan ini adalah…",
+        "options": ["Prosesnya jadi lebih cepat", "Komisi etik tidak lagi bisa mencegah risiko terhadap subjek karena pengumpulan data sudah terjadi lebih dulu", "Seharusnya cukup diurus setelah sidang selesai", "Tidak masalah, yang penting akhirnya ada suratnya"],
+        "answer": 1,
+        "explanation": "Fungsi tinjauan etik adalah mencegah risiko SEBELUM data dikumpulkan; mengurusnya belakangan menghilangkan fungsi pencegahan itu sepenuhnya."
+      },
+      {
+        "id": "e14-4",
+        "question": "Sebuah consent form ditulis penuh istilah hukum yang rumit, dan seorang partisipan lansia mengaku menandatanganinya tanpa benar-benar memahami isinya. Syarat informed consent yang gagal dipenuhi di sini adalah…",
+        "options": ["Voluntary", "Comprehension", "Hak menarik diri", "Tidak ada syarat yang gagal, tanda tangan sudah cukup"],
+        "answer": 1,
+        "explanation": "Comprehension menuntut subjek benar-benar memahami apa yang mereka setujui; bahasa yang terlalu rumit membuat consent formal tapi tidak sah secara substansi."
+      },
+      {
+        "id": "e14-5",
+        "question": "Sebuah studi mewawancarai penyintas kekerasan tentang pengalaman traumatis mereka tanpa menyediakan dukungan psikologis atau informasi rujukan bantuan apa pun selama dan sesudah wawancara. Kekurangan utama desain ini adalah…",
+        "options": ["Wawancara seharusnya direkam dengan kualitas lebih baik", "Kurangnya perlindungan tambahan yang semestinya diberikan untuk kelompok rentan yang berisiko mengalami tekanan psikologis akibat topik wawancara", "Seharusnya memakai kuesioner, bukan wawancara", "Tidak ada kekurangan selama subjek menyetujui wawancara di awal"],
+        "answer": 1,
+        "explanation": "Kelompok rentan seperti penyintas trauma butuh safeguard tambahan (dukungan psikologis, informasi rujukan) karena topik penelitian sendiri berisiko memicu ulang trauma."
+      },
+      {
+        "id": "e14-6",
+        "question": "Data kesehatan mental partisipan disimpan dalam spreadsheet tanpa enkripsi di drive bersama yang bisa diakses seluruh anggota lab, termasuk yang tidak terlibat langsung dalam penelitian ini. Pelanggaran utama dalam praktik ini adalah…",
+        "options": ["Data seharusnya disimpan dalam bentuk cetak, bukan digital", "Kurangnya perlindungan data sensitif — tidak dienkripsi dan akses tidak dibatasi hanya untuk tim inti", "Spreadsheet bukan format yang tepat untuk data kualitatif", "Tidak masalah selama data tidak dibagikan ke luar institusi"],
+        "answer": 1,
+        "explanation": "Data sensitif menuntut perlindungan ekstra (enkripsi, akses terbatas); membiarkannya terbuka untuk siapa pun di lab melanggar prinsip perlindungan data dan data minimization."
+      },
+      {
+        "id": "e14-7",
+        "question": "Sebuah uji obat berisiko tinggi hanya merekrut partisipan dari komunitas miskin yang kurang punya pilihan lain untuk mendapat penghasilan tambahan, sementara manfaat obat itu nantinya (jika disetujui) akan dijual dengan harga yang hanya terjangkau oleh kelompok mampu. Situasi ini melanggar prinsip Belmont yaitu…",
+        "options": ["Respect for persons", "Beneficence", "Justice — beban risiko ditanggung kelompok rentan sementara manfaatnya dinikmati kelompok lain", "Comprehension"],
+        "answer": 2,
+        "explanation": "Justice menuntut beban dan manfaat penelitian terbagi adil; merekrut kelompok rentan untuk menanggung risiko sementara manfaat jatuh ke kelompok lain adalah pelanggaran keadilan."
+      },
+      {
+        "id": "e14-8",
+        "question": "Seorang partisipan ingin mengundurkan diri di tengah penelitian, tapi peneliti menolak karena datanya 'sudah terlanjur dimasukkan ke analisis dan sulit dipisahkan lagi'. Sikap peneliti ini melanggar prinsip…",
+        "options": ["Kerahasiaan data", "Hak menarik diri kapan pun sebagai bagian dari informed consent yang sah", "Data minimization", "Justice"],
+        "answer": 1,
+        "explanation": "Salah satu syarat consent yang sah adalah hak menarik diri kapan pun tanpa penalti; kesulitan teknis analisis data bukan alasan yang sah untuk menolak permintaan itu."
+      },
+      {
+        "id": "e14-9",
+        "question": "Sebuah laporan penelitian mempublikasikan kutipan partisipan dengan nama samaran 'Partisipan 1', tapi di kalimat yang sama juga menyebutkan jabatan spesifik dan nama kota kecil tempat partisipan bekerja — kombinasi yang membuat identitas aslinya bisa ditebak pembaca yang mengenal komunitas itu. Masalah dalam laporan ini adalah…",
+        "options": ["Nama samaran seharusnya diganti dengan angka yang lebih besar", "Meski nama disamarkan, detail identitas tidak langsung (jabatan + lokasi spesifik) tetap bisa membuka identitas — pelanggaran kerahasiaan lewat deductive disclosure", "Kutipan langsung tidak boleh dipakai sama sekali dalam laporan penelitian", "Tidak ada masalah selama nama asli tidak disebutkan"],
+        "answer": 1,
+        "explanation": "Kerahasiaan bukan cuma soal menyembunyikan nama, tapi juga detail lain yang bisa membuat identitas seseorang ditebak secara tidak langsung (deductive disclosure) — risiko nyata meski nama samaran dipakai."
+      },
+      {
+        "id": "e14-10",
+        "question": "Rekaman audio wawancara yang berisi suara dan identitas partisipan disimpan tanpa batas waktu di laptop pribadi peneliti, tanpa rencana kapan data itu akan dihapus atau siapa saja yang boleh mengaksesnya di masa depan. Kekurangan utama praktik ini adalah…",
+        "options": ["Rekaman seharusnya disimpan di cloud publik agar mudah diakses", "Tidak adanya rencana retensi dan penghapusan data yang jelas, padahal data itu berisi identitas yang bisa dikenali dari suara", "Rekaman audio seharusnya diubah jadi teks saja tanpa audio asli", "Tidak masalah selama laptop dikunci dengan kata sandi"],
+        "answer": 1,
+        "explanation": "Data retensi menuntut kejelasan sejak awal soal berapa lama data disimpan dan kapan/bagaimana dihapus; menyimpannya tanpa batas dan tanpa rencana adalah risiko perlindungan data jangka panjang."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research", "author": "National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research", "year": 1979, "note": "Sumber tiga prinsip dasar (respect for persons, beneficence, justice) di Level 14-7." },
+    { "title": "WMA Declaration of Helsinki — Ethical Principles for Medical Research Involving Human Subjects", "author": "World Medical Association", "note": "Rujukan prinsip etika riset medis yang melibatkan manusia, mendukung Level 14-7." },
+    { "title": "International Ethical Guidelines for Health-related Research Involving Humans", "author": "Council for International Organizations of Medical Sciences (CIOMS)", "year": 2016, "note": "Rujukan tambahan untuk informed consent, kelompok rentan, dan data sensitif di Level 14-2, 14-5, dan 14-6." },
+    { "title": "Core Practices", "author": "Committee on Publication Ethics (COPE)", "publisher": "COPE", "note": "Rujukan etika publikasi yang menjembatani etika terhadap subjek dan etika terhadap karya, dipakai di Level 14-8." },
+    { "title": "Research Ethics for Social Scientists", "author": "Mark Israel, Iain Hay", "publisher": "SAGE Publications", "note": "Rujukan penerapan etika penelitian di ilmu sosial, termasuk anonimitas vs kerahasiaan di Level 14-3." }
+  ]
+}

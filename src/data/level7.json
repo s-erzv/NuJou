@@ -10,121 +10,261 @@
       "id": "7-1",
       "title": "Kapan Memilih Kualitatif?",
       "blocks": [
-        { "type": "heading", "text": "Mengukur vs Memahami" },
-        { "type": "paragraph", "text": "Level 6 sudah menyinggung kualitatif vs kuantitatif sekilas. Sekarang kita masuk lebih dalam. Bayangkan dua peneliti sama-sama tertarik pada 'kecemasan mahasiswa menghadapi skripsi'. Peneliti A membuat skala kecemasan 1–5 dan menyebarkannya ke 300 mahasiswa untuk tahu SEBERAPA BESAR kecemasan itu. Peneliti B duduk dan mengobrol panjang dengan 8 mahasiswa untuk memahami BAGAIMANA RASANYA dan APA YANG MEMICU kecemasan itu bagi mereka masing-masing." },
-        { "type": "paragraph", "text": "Peneliti A memakai kuantitatif: mengukur, menguji, menggeneralisasi ke populasi. Peneliti B memakai kualitatif: memahami makna, pengalaman, dan konteks secara mendalam — biasanya pada jumlah subjek yang jauh lebih kecil." },
-        { "type": "callout", "title": "Pertanyaan Kunci", "text": "Kalau pertanyaan risetmu diawali 'seberapa banyak/kuat/sering', condong ke kuantitatif. Kalau diawali 'bagaimana' atau 'mengapa (dari sudut pandang subjek)', condong ke kualitatif." }
+        {
+          "type": "heading",
+          "text": "Mengukur vs Memahami"
+        },
+        {
+          "type": "paragraph",
+          "text": "Level 6 sudah menyinggung kualitatif vs kuantitatif sekilas. Sekarang kita masuk lebih dalam. Bayangkan dua peneliti sama-sama tertarik pada 'kecemasan mahasiswa menghadapi skripsi'. Peneliti A membuat skala kecemasan 1–5 dan menyebarkannya ke 300 mahasiswa untuk tahu SEBERAPA BESAR kecemasan itu. Peneliti B duduk dan mengobrol panjang dengan 8 mahasiswa untuk memahami BAGAIMANA RASANYA dan APA YANG MEMICU kecemasan itu bagi mereka masing-masing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Peneliti A memakai kuantitatif: mengukur, menguji, menggeneralisasi ke populasi. Peneliti B memakai kualitatif: memahami makna, pengalaman, dan konteks secara mendalam — biasanya pada jumlah subjek yang jauh lebih kecil."
+        },
+        {
+          "type": "callout",
+          "title": "Pertanyaan Kunci",
+          "text": "Kalau pertanyaan risetmu diawali 'seberapa banyak/kuat/sering', condong ke kuantitatif. Kalau diawali 'bagaimana' atau 'mengapa (dari sudut pandang subjek)', condong ke kualitatif."
+        }
       ]
     },
     {
       "id": "7-2",
       "title": "Wawancara: Jenis dan Tekniknya",
       "blocks": [
-        { "type": "heading", "text": "Tiga Level Keketatan Wawancara" },
-        { "type": "paragraph", "text": "Wawancara bukan sekadar 'ngobrol dan direkam'. Ada tiga jenis dengan tingkat keketatan berbeda, dan memilih jenis yang salah bisa merusak data yang kamu kumpulkan." },
+        {
+          "type": "heading",
+          "text": "Tiga Level Keketatan Wawancara"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wawancara bukan sekadar 'ngobrol dan direkam'. Ada tiga jenis dengan tingkat keketatan berbeda, dan memilih jenis yang salah bisa merusak data yang kamu kumpulkan."
+        },
         {
           "type": "table",
-          "headers": ["Jenis", "Ciri", "Kapan Dipakai"],
+          "headers": [
+            "Jenis",
+            "Ciri",
+            "Kapan Dipakai"
+          ],
           "rows": [
-            ["Terstruktur", "Daftar pertanyaan tetap, urutan tetap, seperti kuesioner lisan", "Saat perlu membandingkan jawaban antar-subjek secara ketat"],
-            ["Semi-terstruktur", "Ada pedoman pertanyaan inti, tapi boleh menggali (probing) lebih dalam", "Paling umum dipakai — fleksibel tapi tetap fokus"],
-            ["Tidak terstruktur", "Mengalir bebas seperti obrolan, dipandu tema besar saja", "Riset eksploratif awal, topik yang sangat sensitif"]
+            [
+              "Terstruktur",
+              "Daftar pertanyaan tetap, urutan tetap, seperti kuesioner lisan",
+              "Saat perlu membandingkan jawaban antar-subjek secara ketat"
+            ],
+            [
+              "Semi-terstruktur",
+              "Ada pedoman pertanyaan inti, tapi boleh menggali (probing) lebih dalam",
+              "Paling umum dipakai — fleksibel tapi tetap fokus"
+            ],
+            [
+              "Tidak terstruktur",
+              "Mengalir bebas seperti obrolan, dipandu tema besar saja",
+              "Riset eksploratif awal, topik yang sangat sensitif"
+            ]
           ]
         },
-        { "type": "callout", "title": "Teknik Probing", "text": "Pertanyaan lanjutan seperti 'bisa diceritakan lebih detail?' atau 'kenapa menurutmu begitu?' disebut probing. Ini kunci membuat wawancara semi-terstruktur menghasilkan data yang kaya, bukan jawaban satu kalimat." }
+        {
+          "type": "callout",
+          "title": "Teknik Probing",
+          "text": "Pertanyaan lanjutan seperti 'bisa diceritakan lebih detail?' atau 'kenapa menurutmu begitu?' disebut probing. Ini kunci membuat wawancara semi-terstruktur menghasilkan data yang kaya, bukan jawaban satu kalimat."
+        }
       ]
     },
     {
       "id": "7-3",
       "title": "Observasi: Mengamati Tanpa Mengganggu",
       "blocks": [
-        { "type": "heading", "text": "Peneliti sebagai Kamera (atau Bukan)" },
-        { "type": "paragraph", "text": "Observasi berarti peneliti mengamati perilaku, interaksi, atau lingkungan secara langsung — bukan bertanya, tapi melihat. Ada dua posisi peneliti yang bisa diambil." },
-        { "type": "list", "ordered": false, "items": [
-          "Observasi partisipan — peneliti ikut terlibat dalam aktivitas yang diamati (misalnya ikut mengajar untuk meneliti dinamika kelas).",
-          "Observasi non-partisipan — peneliti mengamati dari luar tanpa ikut campur, menjaga jarak agar tidak memengaruhi perilaku yang diamati."
-        ]},
-        { "type": "callout", "title": "Risiko Observer Effect", "text": "Kehadiran peneliti bisa membuat subjek berperilaku 'tidak alami' karena tahu sedang diamati (observer effect / Hawthorne effect). Observasi yang baik punya strategi meminimalkan efek ini, misalnya dengan periode adaptasi sebelum data 'resmi' diambil." }
+        {
+          "type": "heading",
+          "text": "Peneliti sebagai Kamera (atau Bukan)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Observasi berarti peneliti mengamati perilaku, interaksi, atau lingkungan secara langsung — bukan bertanya, tapi melihat. Ada dua posisi peneliti yang bisa diambil."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Observasi partisipan — peneliti ikut terlibat dalam aktivitas yang diamati (misalnya ikut mengajar untuk meneliti dinamika kelas).",
+            "Observasi non-partisipan — peneliti mengamati dari luar tanpa ikut campur, menjaga jarak agar tidak memengaruhi perilaku yang diamati."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Risiko Observer Effect",
+          "text": "Kehadiran peneliti bisa membuat subjek berperilaku 'tidak alami' karena tahu sedang diamati (observer effect / Hawthorne effect). Observasi yang baik punya strategi meminimalkan efek ini, misalnya dengan periode adaptasi sebelum data 'resmi' diambil."
+        }
       ]
     },
     {
       "id": "7-4",
       "title": "Studi Kasus (Case Study)",
       "blocks": [
-        { "type": "heading", "text": "Menyelami Satu Kasus Secara Mendalam" },
-        { "type": "paragraph", "text": "Studi kasus meneliti satu unit — bisa satu orang, satu sekolah, satu perusahaan, satu kebijakan — secara sangat mendalam dan menyeluruh, biasanya menggabungkan berbagai teknik pengumpulan data sekaligus (wawancara, observasi, dokumen)." },
-        { "type": "paragraph", "text": "Studi kasus cocok saat fenomenanya sulit dipisahkan dari konteksnya. Misalnya, meneliti 'bagaimana sebuah UMKM bertahan selama pandemi' — jawabannya tidak bisa dilepaskan dari konteks spesifik UMKM itu: lokasinya, jenis usahanya, siapa pemiliknya." },
-        { "type": "callout", "title": "Bukan Berarti Lemah", "text": "Studi kasus sering dianggap 'kurang ilmiah' karena satu kasus tidak bisa digeneralisasi secara statistik. Padahal tujuannya memang bukan generalisasi statistik, melainkan pemahaman mendalam (thick description) yang bisa jadi dasar teori baru." }
+        {
+          "type": "heading",
+          "text": "Menyelami Satu Kasus Secara Mendalam"
+        },
+        {
+          "type": "paragraph",
+          "text": "Studi kasus meneliti satu unit — bisa satu orang, satu sekolah, satu perusahaan, satu kebijakan — secara sangat mendalam dan menyeluruh, biasanya menggabungkan berbagai teknik pengumpulan data sekaligus (wawancara, observasi, dokumen)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Studi kasus cocok saat fenomenanya sulit dipisahkan dari konteksnya. Misalnya, meneliti 'bagaimana sebuah UMKM bertahan selama pandemi' — jawabannya tidak bisa dilepaskan dari konteks spesifik UMKM itu: lokasinya, jenis usahanya, siapa pemiliknya."
+        },
+        {
+          "type": "callout",
+          "title": "Bukan Berarti Lemah",
+          "text": "Studi kasus sering dianggap 'kurang ilmiah' karena satu kasus tidak bisa digeneralisasi secara statistik. Padahal tujuannya memang bukan generalisasi statistik, melainkan pemahaman mendalam (thick description) yang bisa jadi dasar teori baru."
+        }
       ]
     },
     {
       "id": "7-5",
       "title": "Menyusun Pedoman Wawancara",
       "blocks": [
-        { "type": "heading", "text": "Dari Pertanyaan Penelitian ke Pertanyaan Wawancara" },
-        { "type": "paragraph", "text": "Pedoman wawancara (interview guide) bukan daftar pertanyaan penelitianmu yang ditanyakan langsung ke subjek — itu terlalu abstrak. Pedoman wawancara menerjemahkannya menjadi pertanyaan konkret yang bisa dijawab manusia biasa." },
-        { "type": "list", "ordered": true, "items": [
-          "Mulai dengan pertanyaan pemanasan yang ringan (membangun kenyamanan).",
-          "Susun pertanyaan inti dari yang umum ke yang spesifik.",
-          "Sisipkan ruang untuk probing di setiap pertanyaan inti.",
-          "Akhiri dengan pertanyaan terbuka: 'ada yang ingin ditambahkan?'"
-        ]},
-        { "type": "quote", "text": "\"Apa yang biasanya kamu rasakan menjelang deadline skripsi?\" adalah pertanyaan wawancara yang baik untuk pertanyaan penelitian 'bagaimana mahasiswa memaknai kecemasan akademik'.", "source": "Contoh penerjemahan pertanyaan penelitian" }
+        {
+          "type": "heading",
+          "text": "Dari Pertanyaan Penelitian ke Pertanyaan Wawancara"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pedoman wawancara (interview guide) bukan daftar pertanyaan penelitianmu yang ditanyakan langsung ke subjek — itu terlalu abstrak. Pedoman wawancara menerjemahkannya menjadi pertanyaan konkret yang bisa dijawab manusia biasa."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Mulai dengan pertanyaan pemanasan yang ringan (membangun kenyamanan).",
+            "Susun pertanyaan inti dari yang umum ke yang spesifik.",
+            "Sisipkan ruang untuk probing di setiap pertanyaan inti.",
+            "Akhiri dengan pertanyaan terbuka: 'ada yang ingin ditambahkan?'"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "\"Apa yang biasanya kamu rasakan menjelang deadline skripsi?\" adalah pertanyaan wawancara yang baik untuk pertanyaan penelitian 'bagaimana mahasiswa memaknai kecemasan akademik'.",
+          "source": "Contoh penerjemahan pertanyaan penelitian"
+        }
       ]
     },
     {
       "id": "7-6",
       "title": "Triangulasi: Menguatkan Temuan",
       "blocks": [
-        { "type": "heading", "text": "Satu Sudut Pandang Tidak Cukup" },
-        { "type": "paragraph", "text": "Kalau kuantitatif punya uji statistik untuk membuktikan keandalan data, kualitatif punya triangulasi — mengecek temuan dari lebih dari satu sumber atau metode agar tidak hanya bergantung pada satu sudut pandang yang mungkin bias." },
+        {
+          "type": "heading",
+          "text": "Satu Sudut Pandang Tidak Cukup"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kalau kuantitatif punya uji statistik untuk membuktikan keandalan data, kualitatif punya triangulasi — mengecek temuan dari lebih dari satu sumber atau metode agar tidak hanya bergantung pada satu sudut pandang yang mungkin bias."
+        },
         {
           "type": "table",
-          "headers": ["Jenis Triangulasi", "Contoh"],
+          "headers": [
+            "Jenis Triangulasi",
+            "Contoh"
+          ],
           "rows": [
-            ["Sumber data", "Mewawancarai siswa, guru, DAN orang tua untuk topik yang sama"],
-            ["Metode", "Menggabungkan wawancara dengan observasi kelas langsung"],
-            ["Peneliti", "Dua peneliti menganalisis data yang sama secara independen lalu membandingkan hasilnya"]
+            [
+              "Sumber data",
+              "Mewawancarai siswa, guru, DAN orang tua untuk topik yang sama"
+            ],
+            [
+              "Metode",
+              "Menggabungkan wawancara dengan observasi kelas langsung"
+            ],
+            [
+              "Peneliti",
+              "Dua peneliti menganalisis data yang sama secara independen lalu membandingkan hasilnya"
+            ]
           ]
         },
-        { "type": "callout", "title": "Bukan Sekadar Formalitas", "text": "Triangulasi bukan checklist administratif. Kalau hasil wawancara dan observasi ternyata BERBEDA, itu justru temuan menarik yang layak dibahas, bukan masalah yang harus disembunyikan." }
+        {
+          "type": "callout",
+          "title": "Bukan Sekadar Formalitas",
+          "text": "Triangulasi bukan checklist administratif. Kalau hasil wawancara dan observasi ternyata BERBEDA, itu justru temuan menarik yang layak dibahas, bukan masalah yang harus disembunyikan."
+        }
       ]
     },
     {
       "id": "7-7",
       "title": "Sampling Kualitatif: Purposive & Snowball",
       "blocks": [
-        { "type": "heading", "text": "Memilih Subjek dengan Sengaja" },
-        { "type": "paragraph", "text": "Berbeda dari kuantitatif yang mengejar sampel acak agar representatif, kualitatif justru memilih subjek DENGAN SENGAJA (purposive sampling) karena mereka punya informasi kaya yang relevan dengan topik penelitian — bukan karena mewakili populasi secara statistik." },
-        { "type": "list", "ordered": false, "items": [
-          "Purposive sampling — memilih subjek berdasarkan kriteria tertentu yang relevan (misalnya, hanya mahasiswa tingkat akhir yang sedang menulis skripsi).",
-          "Snowball sampling — subjek pertama merekomendasikan subjek berikutnya, cocok untuk populasi yang sulit diakses langsung (misalnya, komunitas tertentu)."
-        ]},
-        { "type": "callout", "title": "Berapa Banyak Subjek?", "text": "Kualitatif sering berhenti merekrut subjek baru saat mencapai 'saturasi data' (data saturation) — titik ketika wawancara baru tidak lagi memunculkan tema baru yang signifikan." }
+        {
+          "type": "heading",
+          "text": "Memilih Subjek dengan Sengaja"
+        },
+        {
+          "type": "paragraph",
+          "text": "Berbeda dari kuantitatif yang mengejar sampel acak agar representatif, kualitatif justru memilih subjek DENGAN SENGAJA (purposive sampling) karena mereka punya informasi kaya yang relevan dengan topik penelitian — bukan karena mewakili populasi secara statistik."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Purposive sampling — memilih subjek berdasarkan kriteria tertentu yang relevan (misalnya, hanya mahasiswa tingkat akhir yang sedang menulis skripsi).",
+            "Snowball sampling — subjek pertama merekomendasikan subjek berikutnya, cocok untuk populasi yang sulit diakses langsung (misalnya, komunitas tertentu)."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Berapa Banyak Subjek?",
+          "text": "Kualitatif sering berhenti merekrut subjek baru saat mencapai 'saturasi data' (data saturation) — titik ketika wawancara baru tidak lagi memunculkan tema baru yang signifikan."
+        }
       ]
     },
     {
       "id": "7-8",
       "title": "Catatan Lapangan & Refleksivitas Peneliti",
       "blocks": [
-        { "type": "heading", "text": "Peneliti Bukan Alat Netral" },
-        { "type": "paragraph", "text": "Dalam kuantitatif, peneliti berusaha 'menghilang' dari proses pengukuran. Dalam kualitatif, peneliti justru diakui sebagai instrumen penelitian itu sendiri — latar belakang, asumsi, dan posisinya bisa memengaruhi cara ia menafsirkan data. Kesadaran ini disebut refleksivitas (reflexivity)." },
-        { "type": "paragraph", "text": "Catatan lapangan (field notes) yang baik memisahkan dua hal: catatan deskriptif (apa yang benar-benar terjadi/dikatakan) dan catatan reflektif (apa yang peneliti pikirkan atau rasakan tentang momen itu). Mencampur keduanya membuat data sulit dianalisis nanti." },
-        { "type": "callout", "title": "Contoh Praktik", "text": "Banyak peneliti kualitatif menulis buku harian penelitian (research journal) untuk mencatat asumsi awal mereka sebelum turun lapangan, lalu membandingkannya dengan apa yang mereka temukan — ini bagian dari menjaga refleksivitas." }
+        {
+          "type": "heading",
+          "text": "Peneliti Bukan Alat Netral"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dalam kuantitatif, peneliti berusaha 'menghilang' dari proses pengukuran. Dalam kualitatif, peneliti justru diakui sebagai instrumen penelitian itu sendiri — latar belakang, asumsi, dan posisinya bisa memengaruhi cara ia menafsirkan data. Kesadaran ini disebut refleksivitas (reflexivity)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Catatan lapangan (field notes) yang baik memisahkan dua hal: catatan deskriptif (apa yang benar-benar terjadi/dikatakan) dan catatan reflektif (apa yang peneliti pikirkan atau rasakan tentang momen itu). Mencampur keduanya membuat data sulit dianalisis nanti."
+        },
+        {
+          "type": "callout",
+          "title": "Contoh Praktik",
+          "text": "Banyak peneliti kualitatif menulis buku harian penelitian (research journal) untuk mencatat asumsi awal mereka sebelum turun lapangan, lalu membandingkannya dengan apa yang mereka temukan — ini bagian dari menjaga refleksivitas."
+        }
       ]
     },
     {
       "id": "7-9",
       "title": "Kesalahan Umum dalam Riset Kualitatif",
       "blocks": [
-        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
-        { "type": "list", "ordered": true, "items": [
-          "Menganggap kualitatif 'lebih mudah' karena tidak perlu statistik — padahal analisis datanya sama-sama menuntut ketelitian, hanya berbeda bentuk.",
-          "Pertanyaan wawancara yang menggiring (leading questions), misalnya 'kamu pasti setuju kalau media sosial itu buruk, kan?'",
-          "Sampel terlalu sedikit sehingga belum mencapai saturasi data, tapi peneliti sudah berhenti karena kehabisan waktu.",
-          "Tidak mencatat konteks non-verbal (nada suara, jeda, ekspresi) yang sebenarnya kaya makna dalam wawancara tatap muka."
-        ]},
-        { "type": "callout", "title": "Ingat", "text": "Kualitatif menuntut kejujuran ekstra karena analisisnya lebih interpretatif — peneliti harus transparan soal bagaimana ia sampai pada kesimpulannya, bukan sekadar menyatakan 'saya menemukan bahwa…'." }
+        {
+          "type": "heading",
+          "text": "Jebakan yang Sering Terjadi"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Menganggap kualitatif 'lebih mudah' karena tidak perlu statistik — padahal analisis datanya sama-sama menuntut ketelitian, hanya berbeda bentuk.",
+            "Pertanyaan wawancara yang menggiring (leading questions), misalnya 'kamu pasti setuju kalau media sosial itu buruk, kan?'",
+            "Sampel terlalu sedikit sehingga belum mencapai saturasi data, tapi peneliti sudah berhenti karena kehabisan waktu.",
+            "Tidak mencatat konteks non-verbal (nada suara, jeda, ekspresi) yang sebenarnya kaya makna dalam wawancara tatap muka."
+          ]
+        },
+        {
+          "type": "callout",
+          "title": "Ingat",
+          "text": "Kualitatif menuntut kejujuran ekstra karena analisisnya lebih interpretatif — peneliti harus transparan soal bagaimana ia sampai pada kesimpulannya, bukan sekadar menyatakan 'saya menemukan bahwa…'."
+        }
       ]
     }
   ],
@@ -136,49 +276,84 @@
       {
         "id": "q7-1",
         "question": "Pertanyaan penelitian yang paling cocok untuk pendekatan kualitatif adalah…",
-        "options": ["Seberapa besar korelasi antara jam tidur dan nilai ujian?", "Bagaimana mahasiswa memaknai pengalaman menyusun skripsi?", "Berapa persen mahasiswa yang lulus tepat waktu?", "Apakah metode A lebih efektif secara signifikan dibanding metode B?"],
+        "options": [
+          "Seberapa besar korelasi antara jam tidur dan nilai ujian?",
+          "Bagaimana mahasiswa memaknai pengalaman menyusun skripsi?",
+          "Berapa persen mahasiswa yang lulus tepat waktu?",
+          "Apakah metode A lebih efektif secara signifikan dibanding metode B?"
+        ],
         "answer": 1,
         "explanation": "Pertanyaan 'bagaimana memaknai' menuntut pemahaman mendalam atas pengalaman subjek — ranah kualitatif."
       },
       {
         "id": "q7-2",
         "question": "Wawancara yang punya pedoman pertanyaan inti tapi tetap membuka ruang probing disebut…",
-        "options": ["Terstruktur", "Semi-terstruktur", "Tidak terstruktur", "Terpimpin penuh"],
+        "options": [
+          "Terstruktur",
+          "Semi-terstruktur",
+          "Tidak terstruktur",
+          "Terpimpin penuh"
+        ],
         "answer": 1,
         "explanation": "Semi-terstruktur menyeimbangkan fokus (pedoman) dan fleksibilitas (probing)."
       },
       {
         "id": "q7-3",
         "question": "Observer effect adalah risiko di mana…",
-        "options": ["Data hilang karena rekaman rusak", "Subjek berubah perilaku karena tahu sedang diamati", "Peneliti salah mencatat waktu observasi", "Sampel terlalu banyak"],
+        "options": [
+          "Data hilang karena rekaman rusak",
+          "Subjek berubah perilaku karena tahu sedang diamati",
+          "Peneliti salah mencatat waktu observasi",
+          "Sampel terlalu banyak"
+        ],
         "answer": 1,
         "explanation": "Kehadiran pengamat bisa membuat perilaku subjek tidak alami."
       },
       {
         "id": "q7-4",
         "question": "Studi kasus paling cocok dipakai ketika…",
-        "options": ["Peneliti ingin menggeneralisasi ke ribuan orang", "Fenomena sulit dipisahkan dari konteks spesifiknya", "Peneliti hanya punya waktu satu hari", "Data yang dibutuhkan berbentuk angka murni"],
+        "options": [
+          "Peneliti ingin menggeneralisasi ke ribuan orang",
+          "Fenomena sulit dipisahkan dari konteks spesifiknya",
+          "Peneliti hanya punya waktu satu hari",
+          "Data yang dibutuhkan berbentuk angka murni"
+        ],
         "answer": 1,
         "explanation": "Studi kasus unggul untuk memahami fenomena yang melekat erat pada konteksnya."
       },
       {
         "id": "q7-5",
         "question": "Triangulasi metode berarti…",
-        "options": ["Menggunakan tiga peneliti sekaligus", "Menggabungkan lebih dari satu teknik pengumpulan data untuk topik yang sama", "Mengulang wawancara tiga kali", "Menyebar kuesioner ke tiga kelompok"],
+        "options": [
+          "Menggunakan tiga peneliti sekaligus",
+          "Menggabungkan lebih dari satu teknik pengumpulan data untuk topik yang sama",
+          "Mengulang wawancara tiga kali",
+          "Menyebar kuesioner ke tiga kelompok"
+        ],
         "answer": 1,
         "explanation": "Triangulasi metode menggabungkan misalnya wawancara + observasi untuk topik yang sama."
       },
       {
         "id": "q7-6",
         "question": "Purposive sampling memilih subjek berdasarkan…",
-        "options": ["Undian acak", "Kriteria relevansi dengan topik penelitian", "Urutan abjad nama", "Siapa yang paling mudah dihubungi tanpa kriteria"],
+        "options": [
+          "Undian acak",
+          "Kriteria relevansi dengan topik penelitian",
+          "Urutan abjad nama",
+          "Siapa yang paling mudah dihubungi tanpa kriteria"
+        ],
         "answer": 1,
         "explanation": "Purposive sampling sengaja memilih subjek yang relevan/kaya informasi, bukan acak."
       },
       {
         "id": "q7-7",
         "question": "Refleksivitas peneliti dalam riset kualitatif berarti…",
-        "options": ["Peneliti harus netral sepenuhnya seperti alat ukur", "Peneliti sadar bahwa latar belakangnya bisa memengaruhi tafsiran data", "Peneliti mengulang penelitian dua kali", "Peneliti tidak boleh mencatat pendapat pribadi sama sekali"],
+        "options": [
+          "Peneliti harus netral sepenuhnya seperti alat ukur",
+          "Peneliti sadar bahwa latar belakangnya bisa memengaruhi tafsiran data",
+          "Peneliti mengulang penelitian dua kali",
+          "Peneliti tidak boleh mencatat pendapat pribadi sama sekali"
+        ],
         "answer": 1,
         "explanation": "Refleksivitas adalah kesadaran akan posisi/asumsi peneliti yang memengaruhi analisis."
       }
@@ -192,73 +367,156 @@
       {
         "id": "e7-1",
         "question": "Seorang peneliti bertanya kepada subjek, 'Kamu pasti merasa media sosial itu merusak konsentrasi belajar, kan?' Masalah utama pertanyaan ini adalah…",
-        "options": ["Terlalu pendek", "Ini pertanyaan menggiring (leading question) yang mengarahkan jawaban", "Seharusnya ditanyakan lewat kuesioner, bukan wawancara", "Tidak relevan dengan topik apa pun"],
+        "options": [
+          "Terlalu pendek",
+          "Ini pertanyaan menggiring (leading question) yang mengarahkan jawaban",
+          "Seharusnya ditanyakan lewat kuesioner, bukan wawancara",
+          "Tidak relevan dengan topik apa pun"
+        ],
         "answer": 1,
         "explanation": "Pertanyaan yang sudah menyisipkan asumsi jawaban ('kan?') menggiring subjek, merusak keaslian data kualitatif."
       },
       {
         "id": "e7-2",
         "question": "Seorang peneliti terus mewawancarai subjek baru meski 10 wawancara terakhir tidak memunculkan tema baru sama sekali. Menurut prinsip saturasi data, yang seharusnya dilakukan peneliti adalah…",
-        "options": ["Terus merekrut subjek tanpa batas", "Mempertimbangkan menghentikan perekrutan karena sudah mencapai saturasi", "Mengganti metode jadi kuantitatif", "Membuang semua data yang sudah terkumpul"],
+        "options": [
+          "Terus merekrut subjek tanpa batas",
+          "Mempertimbangkan menghentikan perekrutan karena sudah mencapai saturasi",
+          "Mengganti metode jadi kuantitatif",
+          "Membuang semua data yang sudah terkumpul"
+        ],
         "answer": 1,
         "explanation": "Saturasi data menjadi sinyal wajar untuk berhenti merekrut subjek baru — bukan aturan kaku 'semakin banyak semakin baik'."
       },
       {
         "id": "e7-3",
         "question": "Dalam catatan lapangannya, seorang peneliti menulis: \"Ibu Rina menjawab pertanyaan sambil menunduk dan terdiam 5 detik — sepertinya ia menyembunyikan sesuatu.\" Bagian mana dari catatan ini yang tergolong catatan REFLEKTIF, bukan deskriptif?",
-        "options": ["\"Menjawab pertanyaan\"", "\"Sambil menunduk dan terdiam 5 detik\"", "\"Sepertinya ia menyembunyikan sesuatu\"", "Semuanya deskriptif"],
+        "options": [
+          "\"Menjawab pertanyaan\"",
+          "\"Sambil menunduk dan terdiam 5 detik\"",
+          "\"Sepertinya ia menyembunyikan sesuatu\"",
+          "Semuanya deskriptif"
+        ],
         "answer": 2,
         "explanation": "\"Sepertinya menyembunyikan sesuatu\" adalah tafsiran/opini peneliti, bukan fakta yang teramati langsung — itu ranah reflektif."
       },
       {
         "id": "e7-4",
         "question": "Sebuah penelitian ingin memahami secara mendalam bagaimana SATU sekolah pedesaan bertahan tanpa listrik selama pandemi, dengan menggabungkan wawancara guru, observasi kelas, dan dokumen sekolah. Desain penelitian ini paling tepat disebut…",
-        "options": ["Eksperimen", "Survei", "Studi kasus", "Analisis regresi"],
+        "options": [
+          "Eksperimen",
+          "Survei",
+          "Studi kasus",
+          "Analisis regresi"
+        ],
         "answer": 2,
         "explanation": "Fokus mendalam pada satu unit (satu sekolah) dengan berbagai sumber data adalah ciri khas studi kasus."
       },
       {
         "id": "e7-5",
         "question": "Peneliti A mewawancarai siswa saja. Peneliti B mewawancarai siswa, guru, DAN orang tua untuk pertanyaan yang sama. Dibanding Peneliti A, temuan Peneliti B lebih kuat karena menerapkan…",
-        "options": ["Sampling acak", "Triangulasi sumber data", "Observasi partisipan", "Wawancara terstruktur"],
+        "options": [
+          "Sampling acak",
+          "Triangulasi sumber data",
+          "Observasi partisipan",
+          "Wawancara terstruktur"
+        ],
         "answer": 1,
         "explanation": "Menggabungkan beberapa sumber data (siswa, guru, orang tua) untuk topik yang sama adalah triangulasi sumber."
       },
       {
         "id": "e7-6",
         "question": "Seorang peneliti memutuskan ikut mengajar di kelas yang ia teliti agar bisa memahami dinamika kelas dari dalam. Ini adalah contoh…",
-        "options": ["Observasi non-partisipan", "Observasi partisipan", "Wawancara terstruktur", "Studi kasus tunggal tanpa observasi"],
+        "options": [
+          "Observasi non-partisipan",
+          "Observasi partisipan",
+          "Wawancara terstruktur",
+          "Studi kasus tunggal tanpa observasi"
+        ],
         "answer": 1,
         "explanation": "Ikut terlibat langsung dalam aktivitas yang diteliti adalah ciri observasi partisipan."
       },
       {
         "id": "e7-7",
         "question": "Manakah pasangan pertanyaan penelitian dan pendekatan yang PALING SESUAI?",
-        "options": ["\"Apakah ada hubungan signifikan antara jam belajar dan nilai?\" → Kualitatif", "\"Bagaimana pengalaman siswa difabel dalam kelas inklusif?\" → Kualitatif", "\"Berapa rata-rata nilai ujian nasional tahun ini?\" → Kualitatif", "\"Apakah metode X secara statistik lebih baik dari metode Y?\" → Kualitatif"],
+        "options": [
+          "\"Apakah ada hubungan signifikan antara jam belajar dan nilai?\" → Kualitatif",
+          "\"Bagaimana pengalaman siswa difabel dalam kelas inklusif?\" → Kualitatif",
+          "\"Berapa rata-rata nilai ujian nasional tahun ini?\" → Kualitatif",
+          "\"Apakah metode X secara statistik lebih baik dari metode Y?\" → Kualitatif"
+        ],
         "answer": 1,
         "explanation": "Memahami pengalaman subjek secara mendalam adalah ranah kualitatif; tiga opsi lain menuntut pengukuran/generalisasi statistik (kuantitatif)."
       },
       {
         "id": "e7-8",
         "question": "Seorang peneliti kesulitan mencari subjek dari komunitas tertutup, lalu meminta satu subjek yang berhasil diwawancarai untuk merekomendasikan subjek berikutnya. Teknik sampling ini disebut…",
-        "options": ["Purposive sampling", "Snowball sampling", "Random sampling", "Convenience sampling tanpa kriteria"],
+        "options": [
+          "Purposive sampling",
+          "Snowball sampling",
+          "Random sampling",
+          "Convenience sampling tanpa kriteria"
+        ],
         "answer": 1,
         "explanation": "Subjek merekomendasikan subjek berikutnya adalah ciri khas snowball sampling, cocok untuk populasi sulit diakses."
       },
       {
         "id": "e7-9",
         "question": "Kenapa desain 'jam pasir' pada IMRaD (Level 2) TIDAK selalu berlaku sama persis pada laporan penelitian kualitatif murni?",
-        "options": ["Karena kualitatif tidak boleh punya pendahuluan", "Karena kualitatif sering menonjolkan tema/narasi mendalam alih-alih data numerik ringkas ala Results kuantitatif", "Karena kualitatif tidak memerlukan struktur apa pun", "Karena IMRaD hanya untuk skripsi, bukan jurnal"],
+        "options": [
+          "Karena kualitatif tidak boleh punya pendahuluan",
+          "Karena kualitatif sering menonjolkan tema/narasi mendalam alih-alih data numerik ringkas ala Results kuantitatif",
+          "Karena kualitatif tidak memerlukan struktur apa pun",
+          "Karena IMRaD hanya untuk skripsi, bukan jurnal"
+        ],
         "answer": 1,
         "explanation": "Laporan kualitatif tetap terstruktur, tapi bagian 'hasil'-nya biasanya berupa tema dan kutipan mendalam, bukan tabel angka ringkas seperti kuantitatif."
       },
       {
         "id": "e7-10",
         "question": "Seorang mahasiswa menyimpulkan wawancaranya dengan kalimat \"Saya menemukan bahwa siswa cemas\" tanpa menjelaskan bagaimana ia sampai pada kesimpulan itu. Kelemahan utama laporan ini adalah…",
-        "options": ["Kalimatnya terlalu panjang", "Tidak transparan soal proses analisis/interpretasi yang mengarah ke kesimpulan itu", "Seharusnya pakai angka statistik", "Tidak ada kesalahan sama sekali"],
+        "options": [
+          "Kalimatnya terlalu panjang",
+          "Tidak transparan soal proses analisis/interpretasi yang mengarah ke kesimpulan itu",
+          "Seharusnya pakai angka statistik",
+          "Tidak ada kesalahan sama sekali"
+        ],
         "answer": 1,
         "explanation": "Riset kualitatif menuntut transparansi proses interpretasi, bukan sekadar mengklaim temuan tanpa menunjukkan jejak analisisnya."
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Qualitative Inquiry and Research Design: Choosing Among Five Approaches",
+      "author": "John W. Creswell, Cheryl N. Poth",
+      "publisher": "SAGE Publications",
+      "note": "Rujukan utama desain kualitatif: studi kasus, fenomenologi, grounded theory."
+    },
+    {
+      "title": "Qualitative Research & Evaluation Methods",
+      "author": "Michael Quinn Patton",
+      "publisher": "SAGE Publications",
+      "note": "Dasar purposive sampling dan teknik wawancara mendalam."
+    },
+    {
+      "title": "Case Study Research and Applications: Design and Methods",
+      "author": "Robert K. Yin",
+      "publisher": "SAGE Publications",
+      "note": "Acuan konsep studi kasus dan pentingnya konteks."
+    },
+    {
+      "title": "Naturalistic Inquiry",
+      "author": "Yvonna S. Lincoln, Egon G. Guba",
+      "year": 1985,
+      "publisher": "SAGE Publications",
+      "note": "Asal konsep triangulasi dan kriteria kepercayaan data kualitatif."
+    },
+    {
+      "title": "InterViews: Learning the Craft of Qualitative Research Interviewing",
+      "author": "Steinar Kvale, Svend Brinkmann",
+      "publisher": "SAGE Publications",
+      "note": "Teknik menyusun pedoman wawancara dan probing."
+    }
+  ]
 }

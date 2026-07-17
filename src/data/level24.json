@@ -1,0 +1,275 @@
+{
+  "id": 24,
+  "slug": "bab-1-pendahuluan",
+  "title": "Bab 1: Pendahuluan yang Meyakinkan",
+  "subtitle": "Latar belakang, rumusan masalah, tujuan, manfaat, dan batasan masalah",
+  "goal": "Mampu menyusun Bab 1 skripsi/tesis yang meyakinkan: latar belakang yang mengerucut dari isu umum ke celah spesifik, rumusan masalah yang tajam dan bisa dijawab, tujuan yang sejalan dengan rumusan masalah, manfaat yang konkret, dan batasan masalah yang jujur tanpa terkesan lemah.",
+  "estimatedMinutes": 40,
+  "sections": [
+    {
+      "id": "24-1",
+      "title": "Bab 1 Bukan Sekadar Formalitas Pembuka",
+      "blocks": [
+        { "type": "heading", "text": "Bab yang Paling Sering Dibaca Ulang" },
+        { "type": "paragraph", "text": "Level 23 sudah memetakan bahwa Bab 1 menjawab 'kenapa penelitian ini penting dan apa yang mau dijawab?'. Yang sering tidak disadari mahasiswa: Bab 1 adalah bab yang PALING SERING DIBACA ULANG — oleh pembimbing di setiap sesi bimbingan, oleh penguji sebelum sidang, dan oleh kamu sendiri saat menulis Bab 5 untuk mengecek apakah simpulanmu benar-benar menjawab apa yang kamu janjikan di sini." },
+        { "type": "paragraph", "text": "Karena itu Bab 1 yang berantakan punya efek domino: rumusan masalah yang kabur membuat metode di Bab 3 tidak jelas arahnya, dan itu membuat Bab 4 kesulitan menjawab sesuatu yang sebenarnya tidak pernah dirumuskan dengan tegas sejak awal." },
+        { "type": "callout", "title": "Analogi", "text": "Bab 1 itu seperti akad sebelum sebuah perjanjian besar — begitu rumusan masalah dan tujuan disepakati, seluruh isi skripsi (Bab 2 sampai 5) tinggal 'menepati janji' itu. Kalau akadnya kabur, tidak ada yang bisa dinilai konsisten atau tidak." }
+      ]
+    },
+    {
+      "id": "24-2",
+      "title": "Latar Belakang: Funnel dari Umum ke Spesifik",
+      "blocks": [
+        { "type": "heading", "text": "Corong, Bukan Kumpulan Fakta Acak" },
+        { "type": "paragraph", "text": "Level 6 sudah memperkenalkan pola segitiga terbalik untuk latar belakang. Untuk skripsi, pola ini perlu lebih tegas karena panjangnya bisa 3-5 halaman, dan tanpa corong yang jelas mahasiswa gampang tergoda menuliskan segala hal yang pernah mereka baca tentang topiknya." },
+        { "type": "list", "ordered": true, "items": [
+          "Lapisan 1 — Isu besar/global: kondisi umum bidang ini, didukung data atau tren terbaru (misalnya statistik nasional, kebijakan pemerintah, atau tren global).",
+          "Lapisan 2 — Konteks yang menyempit: bagaimana isu itu terlihat di konteks yang lebih dekat dengan penelitianmu (misalnya di tingkat sekolah, daerah, atau kelompok tertentu).",
+          "Lapisan 3 — Masalah konkret: fakta atau gejala spesifik yang menunjukkan ada sesuatu yang tidak beres, didukung data atau observasi awal (studi pendahuluan).",
+          "Lapisan 4 — Celah riset: apa yang sudah diteliti orang lain, dan apa yang BELUM — inilah titik tempat penelitianmu masuk."
+        ]},
+        { "type": "callout", "title": "Menyambung ke Pola CARS (Level 2)", "text": "Empat lapisan ini sebenarnya adalah pola CARS (Create a Research Space) dari Level 2 yang direntangkan jadi beberapa halaman: Move 1 (menetapkan wilayah/lapisan 1-2), Move 2 (menunjukkan celah/lapisan 4), Move 3 (mengisi celah, yang di skripsi jadi rumusan masalah dan tujuan). Bedanya cuma panjang dan jumlah bukti yang harus kamu tunjukkan." },
+        { "type": "paragraph", "text": "Kesalahan paling umum: mahasiswa berhenti di Lapisan 1-2 dan langsung lompat ke rumusan masalah, tanpa pernah menunjukkan Lapisan 4 (celah). Akibatnya pembaca tidak tahu KENAPA penelitian ini perlu dilakukan — cuma tahu topiknya penting secara umum, yang bisa berlaku untuk ratusan skripsi lain." }
+      ]
+    },
+    {
+      "id": "24-3",
+      "title": "Worked Example: Latar Belakang yang Melompat vs yang Mengerucut",
+      "blocks": [
+        { "type": "heading", "text": "Membandingkan Dua Versi" },
+        { "type": "quote", "text": "VERSI LEMAH (melompat langsung ke rumusan masalah):\n\"Pendidikan karakter sangat penting bagi generasi muda Indonesia. Nilai-nilai karakter seperti disiplin dan tanggung jawab perlu ditanamkan sejak dini. Oleh karena itu, penelitian ini akan meneliti pengaruh metode X terhadap karakter disiplin siswa.\"", "source": "Contoh latar belakang yang melompat (hanya Lapisan 1, tanpa celah)" },
+        { "type": "quote", "text": "VERSI KUAT (mengerucut lewat 4 lapisan):\n\"Kemendikbudristek (2023) mencatat penguatan karakter menjadi salah satu dari enam profil Pelajar Pancasila [Lapisan 1]. Di tingkat sekolah dasar, observasi awal peneliti di tiga SD Kecamatan X menemukan 60% siswa masih terlambat mengumpulkan tugas dan 40% guru mengeluhkan rendahnya kedisiplinan [Lapisan 2-3]. Penelitian terdahulu banyak menguji metode reward-punishment untuk disiplin (Andini, 2021; Kurnia, 2022), namun belum ada yang menguji metode X yang menekankan refleksi diri siswa alih-alih hukuman eksternal [Lapisan 4 — celah]. Penelitian ini mengisi celah tersebut dengan menguji efektivitas metode X.\"", "source": "Contoh latar belakang yang mengerucut lewat 4 lapisan" },
+        { "type": "callout", "title": "Bedanya Bukan Panjangnya", "text": "Versi kuat bukan sekadar lebih panjang — ia punya DATA di tiap lapisan (angka Kemendikbud, hasil observasi awal, sitasi penelitian terdahulu) dan berakhir dengan celah yang jelas. Versi lemah bisa jadi latar belakang untuk topik apa saja karena tidak spesifik ke satu celah." }
+      ]
+    },
+    {
+      "id": "24-4",
+      "title": "Rumusan Masalah: Tajam, Bisa Dijawab, Sejalan dengan Metode",
+      "blocks": [
+        { "type": "heading", "text": "Tiga Syarat Rumusan Masalah yang Baik" },
+        { "type": "paragraph", "text": "Rumusan masalah adalah pertanyaan inti skripsimu — biasanya 1-3 butir, ditulis dalam kalimat tanya. Level 6 sudah membahas dasarnya untuk proposal; di skripsi, rumusan masalah ini akan dijawab satu per satu secara eksplisit di Bab 4 dan Bab 5, jadi harus benar-benar presisi." },
+        { "type": "list", "ordered": true, "items": [
+          "Bisa diukur/dijawab dengan metode yang kamu punya — bukan pertanyaan filosofis yang tidak bisa dijawab lewat data.",
+          "Mengandung variabel atau fenomena yang spesifik, bukan istilah umum yang bisa ditafsirkan macam-macam.",
+          "Selaras dengan judul dan tujuan penelitian — tidak menambah pertanyaan baru yang tidak pernah disinggung di latar belakang."
+        ]},
+        {
+          "type": "table",
+          "headers": ["Rumusan Masalah Vague", "Kenapa Lemah", "Rumusan Masalah Tajam"],
+          "rows": [
+            ["Bagaimana pengaruh media sosial terhadap remaja?", "'Media sosial' dan 'remaja' terlalu luas, 'pengaruh' terhadap apa tidak jelas", "Bagaimana pengaruh durasi penggunaan Instagram terhadap tingkat kecemasan sosial siswa kelas XI SMA Negeri X?"],
+            ["Apakah pembelajaran daring efektif?", "'Efektif' tidak didefinisikan terhadap indikator apa", "Apakah metode blended learning meningkatkan hasil belajar matematika siswa dibanding metode tatap muka penuh, diukur dari nilai ulangan harian?"],
+            ["Bagaimana kondisi UMKM saat pandemi?", "Terlalu deskriptif umum, tidak mengarah ke fokus tertentu", "Bagaimana strategi adaptasi UMKM kuliner di Kota Y dalam mempertahankan omzet selama pembatasan sosial 2020-2021?"]
+          ]
+        },
+        { "type": "callout", "title": "Uji Cepat", "text": "Coba bayangkan Bab 4-mu: kalau kamu tidak bisa membayangkan satu tabel atau satu tema spesifik yang langsung menjawab rumusan masalahmu, kemungkinan besar rumusan masalahnya masih terlalu umum." }
+      ]
+    },
+    {
+      "id": "24-5",
+      "title": "Tujuan, Manfaat, dan Batasan Masalah",
+      "blocks": [
+        { "type": "heading", "text": "Tiga Bagian yang Saling Mengunci" },
+        { "type": "paragraph", "text": "Setelah rumusan masalah tegas, tiga bagian berikutnya tinggal 'menurunkannya' — bukan menciptakan hal baru." },
+        { "type": "list", "ordered": false, "items": [
+          "Tujuan penelitian — versi pernyataan dari rumusan masalah (lihat pola di Level 6). Jumlah tujuan harus sama persis dengan jumlah butir rumusan masalah.",
+          "Manfaat penelitian — dibagi manfaat TEORITIS (menyumbang apa ke ilmu pengetahuan/memperkuat/membantah teori tertentu) dan manfaat PRAKTIS (berguna untuk siapa secara konkret: guru, pembuat kebijakan, perusahaan tertentu).",
+          "Batasan masalah — menegaskan apa yang TIDAK diteliti, supaya penguji tidak menuntutmu menjawab hal di luar cakupan yang kamu janjikan."
+        ]},
+        {
+          "type": "table",
+          "headers": ["Manfaat Boilerplate", "Manfaat Spesifik"],
+          "rows": [
+            ["Penelitian ini diharapkan bermanfaat bagi dunia pendidikan.", "Bagi guru matematika kelas XI, hasil penelitian ini dapat menjadi acuan memilih antara metode blended learning atau tatap muka penuh sesuai karakteristik materi."],
+            ["Penelitian ini bermanfaat bagi peneliti selanjutnya.", "Bagi peneliti selanjutnya, matriks kriteria adaptasi UMKM pada penelitian ini dapat dipakai sebagai kerangka awal untuk meneliti sektor UMKM lain di luar kuliner."]
+          ]
+        },
+        { "type": "callout", "title": "Batasan Masalah Bukan Tanda Kelemahan", "text": "Banyak mahasiswa takut menulis batasan masalah karena merasa 'mengaku' penelitiannya terbatas. Justru sebaliknya — batasan yang jujur dan jelas melindungimu dari pertanyaan penguji yang di luar cakupan kamu, dan menunjukkan kamu sadar betul apa yang bisa dan tidak bisa dijawab metode yang kamu pilih." }
+      ]
+    },
+    {
+      "id": "24-6",
+      "title": "Menjaga Konsistensi: Satu Benang Merah dari Judul sampai Batasan",
+      "blocks": [
+        { "type": "heading", "text": "Uji Konsistensi Bab 1" },
+        { "type": "paragraph", "text": "Kesalahan yang sering luput dari mahasiswa sendiri tapi langsung ditangkap penguji: istilah yang berubah-ubah antar bagian. Kalau judul menyebut 'motivasi belajar', tapi rumusan masalah tiba-tiba memakai 'semangat belajar', dan tujuan memakai 'minat belajar' — penguji akan bertanya apakah ketiganya dianggap sama atau memang berbeda konsep." },
+        { "type": "list", "ordered": true, "items": [
+          "Cocokkan variabel/istilah kunci di judul, rumusan masalah, tujuan, dan batasan masalah — harus konsisten kata per kata, bukan sinonim yang mirip-mirip.",
+          "Hitung jumlah butir: kalau rumusan masalah ada 3 butir, tujuan harus ada 3 butir yang berkorespondensi satu-satu.",
+          "Cek batasan masalah tidak diam-diam menghapus salah satu variabel yang justru disebut di rumusan masalah."
+        ]},
+        { "type": "callout", "title": "Kebiasaan Baik", "text": "Setelah Bab 1 selesai, buat tabel sederhana berisi kolom: Rumusan Masalah | Tujuan | Bagian di Bab 4 yang menjawab. Kalau ada baris yang kosong di kolom terakhir saat kamu menulis Bab 4 nanti, itu tanda ada janji di Bab 1 yang belum ditepati." }
+      ]
+    },
+    {
+      "id": "24-7",
+      "title": "Menulis Ulang Bab 1 dari Proposal",
+      "blocks": [
+        { "type": "heading", "text": "Proposal Bukan Bab 1 Final" },
+        { "type": "paragraph", "text": "Level 6 membahas cara menyusun Bab 1-3 sebagai proposal. Setelah proposal disetujui dan kamu mengumpulkan data, seringkali Bab 1 versi proposal perlu direvisi lagi — bukan cuma tempelan." },
+        { "type": "list", "ordered": false, "items": [
+          "Perbarui data terbaru di latar belakang kalau ada statistik atau kebijakan baru yang terbit selama masa penelitian.",
+          "Sesuaikan rumusan masalah kalau ternyata di lapangan ditemukan variabel yang berbeda dari rencana awal (harus didiskusikan dulu dengan pembimbing, bukan diam-diam diganti).",
+          "Pastikan tenses/kata kerja konsisten — proposal biasanya ditulis dengan kata kerja rencana ('akan meneliti'), skripsi final ditulis dengan kata kerja yang sudah terjadi ('meneliti', 'menganalisis')."
+        ]},
+        { "type": "callout", "title": "Diskusikan Perubahan Signifikan", "text": "Kalau rumusan masalah berubah cukup jauh dari yang disetujui saat seminar proposal, itu bukan keputusan sepihak — bawa ke sesi bimbingan (lihat Level 23) sebelum melanjutkan, karena bisa memengaruhi kelayakan metode di Bab 3." }
+      ]
+    },
+    {
+      "id": "24-8",
+      "title": "Kesalahan Umum dalam Menulis Bab 1",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Latar belakang melompat langsung dari isu umum ke rumusan masalah tanpa pernah menunjukkan celah riset spesifik.",
+          "Rumusan masalah memakai istilah yang terlalu luas ('efektif', 'pengaruh', 'peran') tanpa didefinisikan lewat indikator yang bisa diukur atau diamati.",
+          "Jumlah butir tujuan tidak sama dengan jumlah butir rumusan masalah, atau urutannya tidak berkorespondensi.",
+          "Manfaat penelitian ditulis generik ('bermanfaat bagi dunia pendidikan') tanpa menyebut siapa yang diuntungkan dan bagaimana caranya.",
+          "Batasan masalah dihindari sama sekali karena dianggap 'mengaku lemah', padahal justru melindungi dari pertanyaan sidang di luar cakupan.",
+          "Istilah kunci berubah-ubah antar bagian (judul, rumusan masalah, tujuan) padahal merujuk konsep yang sama."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Bab 1 adalah kontrak. Semua yang kamu janjikan di sini — rumusan masalah, tujuan, batasan — akan ditagih kembali di Bab 4 dan Bab 5, serta ditanyakan langsung oleh penguji saat sidang (Level 28). Tulis dengan hati-hati seolah kamu sedang menandatangani sesuatu yang akan kamu pertanggungjawabkan." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-24",
+    "title": "Kuis Level 24",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q24-1",
+        "question": "Kenapa Bab 1 disebut sebagai 'kontrak' bagi seluruh isi skripsi?",
+        "options": ["Karena harus ditandatangani di atas materai", "Karena rumusan masalah, tujuan, dan batasan yang ditulis di sini akan ditagih kembali konsistensinya di Bab 4 dan 5", "Karena Bab 1 tidak boleh direvisi setelah proposal disetujui", "Karena hanya Bab 1 yang dibaca penguji"],
+        "answer": 1,
+        "explanation": "Bab 1 menjanjikan apa yang akan dijawab; Bab 4-5 harus menepati janji itu, sehingga konsistensinya krusial."
+      },
+      {
+        "id": "q24-2",
+        "question": "Empat lapisan funnel latar belakang (umum ke spesifik) yang terakhir, yaitu 'celah riset', sebenarnya adalah versi panjang dari…",
+        "options": ["Move 1 CARS (menetapkan wilayah)", "Move 2 CARS (menunjukkan celah)", "Bagian Metode di IMRaD", "Bagian Discussion di IMRaD"],
+        "answer": 1,
+        "explanation": "Level 2 mengajarkan CARS; Move 2 (create a research space lewat celah) adalah inti dari lapisan terakhir latar belakang skripsi."
+      },
+      {
+        "id": "q24-3",
+        "question": "Syarat rumusan masalah yang baik yang PALING sering dilanggar pemula adalah…",
+        "options": ["Ditulis dalam kalimat tanya", "Mengandung variabel/fenomena yang spesifik dan terukur, bukan istilah umum", "Diletakkan setelah latar belakang", "Ditulis dalam bahasa Indonesia baku"],
+        "answer": 1,
+        "explanation": "Pemula sering memakai istilah luas seperti 'pengaruh' atau 'efektif' tanpa mendefinisikan indikator yang bisa diukur."
+      },
+      {
+        "id": "q24-4",
+        "question": "Kenapa jumlah butir tujuan penelitian harus sama dengan jumlah butir rumusan masalah?",
+        "options": ["Karena format kampus mewajibkan angka genap", "Karena tujuan adalah versi pernyataan dari rumusan masalah, sehingga tiap pertanyaan butuh satu tujuan yang berkorespondensi", "Karena penguji akan menghitung jumlah kata", "Karena tidak ada alasan khusus, hanya kebiasaan"],
+        "answer": 1,
+        "explanation": "Tujuan menurunkan rumusan masalah satu-satu; ketidaksesuaian jumlah menandakan ada pertanyaan yang tidak dijawab atau tujuan yang tidak berdasar."
+      },
+      {
+        "id": "q24-5",
+        "question": "Manfaat penelitian yang ditulis 'bermanfaat bagi dunia pendidikan' dianggap lemah karena…",
+        "options": ["Terlalu pendek kalimatnya", "Tidak menyebut siapa yang diuntungkan secara spesifik dan bagaimana caranya", "Tidak memakai bahasa Inggris", "Manfaat teoritis tidak boleh disebutkan"],
+        "answer": 1,
+        "explanation": "Manfaat yang kuat menyebut pihak spesifik (guru kelas tertentu, pembuat kebijakan tertentu) dan cara konkret manfaat itu dipakai."
+      },
+      {
+        "id": "q24-6",
+        "question": "Fungsi utama batasan masalah dalam Bab 1 adalah…",
+        "options": ["Menunjukkan kelemahan penelitian agar dinilai rendah", "Menegaskan cakupan penelitian sehingga penguji tidak menuntut jawaban di luar apa yang dijanjikan", "Menambah jumlah halaman skripsi", "Menggantikan rumusan masalah"],
+        "answer": 1,
+        "explanation": "Batasan masalah melindungi mahasiswa dengan menetapkan cakupan yang jelas dan disepakati sejak awal."
+      },
+      {
+        "id": "q24-7",
+        "question": "Ketika Bab 1 versi proposal direvisi menjadi Bab 1 versi skripsi final, perubahan kata kerja yang tepat adalah…",
+        "options": ["Tetap memakai 'akan meneliti' di seluruh naskah final", "Mengubah dari kata kerja rencana ('akan meneliti') menjadi kata kerja yang sudah terjadi ('meneliti', 'menganalisis')", "Menghapus seluruh kata kerja dari Bab 1", "Mengubah semua kata kerja jadi bentuk pasif tanpa subjek"],
+        "answer": 1,
+        "explanation": "Proposal ditulis prospektif (rencana), skripsi final ditulis retrospektif karena penelitian sudah dijalankan."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-24",
+    "title": "Ujian Level 24",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e24-1",
+        "question": "Seorang mahasiswa menulis latar belakang: dua paragraf tentang pentingnya pendidikan karakter secara umum, lalu langsung menutup dengan \"Oleh karena itu, penelitian ini meneliti pengaruh metode X terhadap disiplin siswa.\" Pembimbingnya bilang latar belakang ini 'belum menunjukkan kenapa metode X yang dipilih'. Yang hilang dari latar belakang ini adalah…",
+        "options": ["Kutipan dari jurnal internasional", "Lapisan celah riset — bukti bahwa metode X belum diuji sementara metode lain sudah, sehingga jelas kenapa penelitian ini perlu dilakukan", "Jumlah halaman yang cukup panjang", "Data statistik nasional tentang pendidikan"],
+        "answer": 1,
+        "explanation": "Latar belakang yang melompat dari isu umum langsung ke rumusan masalah tanpa menunjukkan celah spesifik gagal menjelaskan urgensi memilih metode/topik tertentu."
+      },
+      {
+        "id": "e24-2",
+        "question": "Rumusan masalah seorang mahasiswa berbunyi: \"Bagaimana pengaruh media sosial terhadap remaja?\" Penguji menilai ini terlalu luas. Revisi yang PALING tepat memperbaiki masalah ini adalah…",
+        "options": ["Mengganti kata 'pengaruh' menjadi 'dampak' saja", "Menspesifikkan platform, variabel dampak, dan populasi: misalnya durasi penggunaan Instagram terhadap kecemasan sosial siswa kelas tertentu", "Menghapus rumusan masalah dan langsung menulis tujuan", "Menerjemahkan kalimat itu ke bahasa Inggris"],
+        "answer": 1,
+        "explanation": "Ketajaman rumusan masalah datang dari spesifisitas platform, variabel yang terukur, dan populasi yang jelas — bukan sekadar penggantian kata."
+      },
+      {
+        "id": "e24-3",
+        "question": "Bab 1 seorang mahasiswa memiliki 3 butir rumusan masalah, tetapi bagian tujuan penelitiannya hanya memuat 2 butir tujuan. Konsekuensi paling mungkin dari ketidaksesuaian ini adalah…",
+        "options": ["Tidak ada konsekuensi karena tujuan bebas ditulis berapa saja", "Salah satu rumusan masalah berpotensi tidak pernah terjawab secara eksplisit di Bab 4, karena tidak diturunkan menjadi tujuan yang harus dicapai", "Skripsi otomatis ditolak oleh sistem", "Pembimbing akan menambahkan rumusan masalah keempat"],
+        "answer": 1,
+        "explanation": "Setiap butir rumusan masalah harus punya tujuan yang berkorespondensi; kehilangan satu tujuan berisiko satu pertanyaan tidak pernah dijawab di Bab 4."
+      },
+      {
+        "id": "e24-4",
+        "question": "Seorang mahasiswa menulis manfaat penelitian: \"Penelitian ini diharapkan bermanfaat bagi dunia pendidikan dan peneliti selanjutnya.\" Untuk memperbaiki kalimat ini agar lebih kuat, langkah paling tepat adalah…",
+        "options": ["Menambahkan lebih banyak kata sifat seperti 'sangat' dan 'penting'", "Menyebutkan pihak spesifik yang diuntungkan (misalnya guru mata pelajaran tertentu) dan bagaimana temuan itu bisa dipakai secara konkret", "Menghapus manfaat praktis dan hanya menyisakan manfaat teoritis", "Memindahkan manfaat penelitian ke Bab 5"],
+        "answer": 1,
+        "explanation": "Manfaat yang kuat konkret: menyebut siapa dan bagaimana, bukan pernyataan umum yang bisa dipakai skripsi topik apa pun."
+      },
+      {
+        "id": "e24-5",
+        "question": "Seorang mahasiswa ragu menuliskan batasan masalah karena takut terlihat 'mengaku' penelitiannya lemah, sehingga ia mengosongkan bagian itu. Penilaian yang tepat atas keputusan ini adalah…",
+        "options": ["Keputusan tepat karena batasan masalah memang tidak wajib", "Keputusan keliru — batasan masalah yang jelas justru melindungi dari tuntutan penguji di luar cakupan yang pernah dijanjikan", "Batasan masalah hanya perlu ditulis untuk penelitian kualitatif", "Batasan masalah sebaiknya digabung ke rumusan masalah saja"],
+        "answer": 1,
+        "explanation": "Batasan masalah menegaskan cakupan penelitian secara eksplisit; tanpa itu, penguji bisa menuntut jawaban di luar apa yang bisa dicapai metode yang dipakai."
+      },
+      {
+        "id": "e24-6",
+        "question": "Judul skripsi seorang mahasiswa memakai istilah 'motivasi belajar', tapi rumusan masalahnya memakai 'minat belajar', dan tujuannya memakai 'semangat belajar'. Saat sidang, penguji mempertanyakan hal ini. Yang sebenarnya salah dari naskah ini adalah…",
+        "options": ["Tidak ada yang salah, ketiga istilah itu sinonim yang bisa dipakai bergantian", "Ketidakkonsistenan istilah kunci membuat penguji tidak yakin apakah mahasiswa meneliti satu konsep yang sama atau tiga konsep berbeda", "Judul seharusnya ditulis dalam bahasa Inggris", "Rumusan masalah seharusnya ditulis sebelum judul"],
+        "answer": 1,
+        "explanation": "Motivasi, minat, dan semangat adalah konstruk psikologis yang berbeda secara teoritis; memakainya bergantian tanpa penjelasan membingungkan penilai."
+      },
+      {
+        "id": "e24-7",
+        "question": "Setelah proposal disetujui dengan rumusan masalah tentang 'pengaruh metode ceramah', mahasiswa menemukan di lapangan bahwa yang lebih relevan adalah metode diskusi kelompok, lalu ia diam-diam mengganti seluruh rumusan masalah tanpa mendiskusikannya. Yang seharusnya ia lakukan adalah…",
+        "options": ["Tetap diam-diam mengganti karena itu hak mahasiswa sepenuhnya", "Membawa perubahan itu ke sesi bimbingan terlebih dahulu, karena perubahan rumusan masalah bisa memengaruhi kelayakan metode yang sudah disetujui", "Mengganti judul skripsi menjadi topik yang sama sekali baru", "Menunggu sidang untuk mengumumkan perubahan itu ke penguji"],
+        "answer": 1,
+        "explanation": "Perubahan signifikan pada rumusan masalah setelah proposal disetujui perlu didiskusikan dengan pembimbing, bukan diputuskan sepihak, karena berdampak ke Bab 3 dan seterusnya."
+      },
+      {
+        "id": "e24-8",
+        "question": "Seorang mahasiswa menulis Bab 1 skripsi finalnya masih dengan kalimat \"Penelitian ini akan menganalisis dampak metode X\" padahal pengumpulan dan analisis data sudah selesai dilakukan. Kesalahan ini adalah…",
+        "options": ["Tidak masalah, kata kerja rencana boleh dipakai sepanjang naskah", "Ketidaksesuaian tense — seharusnya memakai kata kerja yang menunjukkan penelitian sudah dilakukan, bukan rencana", "Kesalahan ejaan biasa yang tidak berpengaruh", "Seharusnya memakai bahasa Inggris untuk menghindari masalah ini"],
+        "answer": 1,
+        "explanation": "Bab 1 skripsi final perlu direvisi dari kata kerja rencana proposal ('akan meneliti') menjadi kata kerja retrospektif karena penelitian sudah dijalankan."
+      },
+      {
+        "id": "e24-9",
+        "question": "Seorang mahasiswa merasa rumusan masalahnya sudah bagus, tapi saat mencoba membayangkan Bab 4-nya, ia tidak bisa membayangkan satu tabel atau tema spesifik pun yang menjawabnya secara langsung. Ini adalah sinyal bahwa…",
+        "options": ["Bab 4 memang selalu sulit dibayangkan di awal, tidak ada masalah", "Rumusan masalahnya kemungkinan masih terlalu umum dan perlu dipertajam sebelum lanjut ke metode", "Ia harus mengganti seluruh topik penelitian", "Bab 4 seharusnya ditulis sebelum Bab 1"],
+        "answer": 1,
+        "explanation": "Uji cepat: rumusan masalah yang tajam mestinya memunculkan bayangan konkret data/tema yang akan menjawabnya di Bab 4; kalau tidak, kemungkinan masih kabur."
+      },
+      {
+        "id": "e24-10",
+        "question": "Seorang mahasiswa membuat tabel 'Rumusan Masalah | Tujuan | Bagian di Bab 4 yang menjawab' setelah menyelesaikan Bab 1, dan menemukan satu baris dengan kolom terakhir kosong saat menulis Bab 4. Langkah paling tepat menghadapi temuan ini adalah…",
+        "options": ["Mengabaikannya karena tabel itu hanya alat bantu opsional", "Menelusuri kenapa rumusan masalah tersebut belum terjawab di Bab 4 — apakah datanya belum dianalisis atau rumusan masalahnya perlu ditinjau ulang bersama pembimbing", "Menghapus rumusan masalah itu dari Bab 1 tanpa memberi tahu siapa pun", "Menambahkan jawaban asal-asalan di Bab 4 agar tabel terisi penuh"],
+        "answer": 1,
+        "explanation": "Kolom kosong adalah sinyal ada janji Bab 1 yang belum ditepati; perlu ditelusuri dan didiskusikan, bukan diabaikan atau ditutupi dengan jawaban asal."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams", "publisher": "University of Chicago Press", "note": "Rujukan menyusun pertanyaan penelitian yang tajam dan argumen yang koheren dari latar belakang ke rumusan masalah." },
+  { "title": "Metode Penelitian Kuantitatif, Kualitatif dan R&D", "author": "Sugiyono", "publisher": "Alfabeta", "note": "Rujukan struktur latar belakang, rumusan masalah, tujuan, dan manfaat penelitian di konteks kampus Indonesia." },
+    { "title": "Creating a Research Space (CARS) model", "author": "John Swales", "note": "Kerangka Move 1-2-3 yang mendasari pola funnel latar belakang skripsi, sudah diperkenalkan di Level 2." },
+    { "title": "Research Design: Qualitative, Quantitative, and Mixed Methods Approaches", "author": "John W. Creswell", "publisher": "SAGE Publications", "note": "Rujukan merumuskan tujuan penelitian yang selaras dengan rumusan masalah dan pendekatan metodologis." },
+    { "title": "Pedoman Penulisan Karya Ilmiah", "publisher": "Universitas (pedoman internal program studi)", "note": "Rujukan format teknis Bab 1 yang bisa berbeda antar kampus; selalu cek pedoman resmi program studimu." }
+  ]
+}

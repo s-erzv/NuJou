@@ -1,0 +1,263 @@
+{
+  "id": 30,
+  "slug": "personal-essay",
+  "title": "Anatomi Personal Essay",
+  "subtitle": "Dari cerita tentang diri menuju makna yang lebih besar",
+  "goal": "Memahami perbedaan mendasar antara diary entry dan personal essay, menguasai pola bolak-balik scene-reflection, dan mampu menulis pengalaman pribadi yang berbicara ke pembaca lain, bukan hanya ke diri sendiri.",
+  "estimatedMinutes": 35,
+  "sections": [
+    {
+      "id": "30-1",
+      "title": "Bukan Diary yang Diterbitkan",
+      "blocks": [
+        { "type": "heading", "text": "Satu Pertanyaan yang Membedakan Segalanya" },
+        { "type": "paragraph", "text": "Setelah Level 29 membahas voice, sekarang saatnya memberi voice itu bentuk. Bentuk pertama yang paling sering ditulis orang: personal essay. Tapi banyak yang gagal di sini karena menyamakannya dengan diary — padahal keduanya dibedakan oleh satu pertanyaan: 'untuk siapa ini ditulis, dan tentang apa sebenarnya ini?'" },
+        { "type": "paragraph", "text": "Diary entry ditulis untuk dirimu sendiri, tentang dirimu sendiri. Isinya bebas, tidak perlu ada kesimpulan, tidak perlu ada pembaca yang dibayangkan. Personal essay ditulis untuk pembaca lain, dan meskipun bahannya juga dirimu, TOPIKNYA bukan dirimu — dirimu hanya jalan masuk menuju sesuatu yang lebih besar." },
+        { "type": "callout", "title": "Rumus Singkat", "text": "Diary: tentang AKU. Personal essay: memakai AKU untuk membicarakan sesuatu yang lebih besar dari aku — kehilangan, kegagalan, identitas, keluarga, kelas sosial, apa saja yang juga dialami pembaca dengan cara berbeda." }
+      ]
+    },
+    {
+      "id": "30-2",
+      "title": "Vivian Gornick: Situation vs Story",
+      "blocks": [
+        { "type": "heading", "text": "Apa yang Terjadi vs Apa Artinya" },
+        { "type": "paragraph", "text": "Vivian Gornick, dalam bukunya The Situation and the Story, membuat pembedaan yang sangat berguna: SITUATION adalah kejadian atau konteks (misalnya 'saya dan ibu saya bertengkar setiap kali saya pulang'). STORY adalah pemahaman yang muncul dari situasi itu — kebenaran yang lebih dalam yang baru terlihat setelah penulis merenunginya (misalnya, pertengkaran itu sebenarnya adalah cara ibu dan anak yang sama-sama keras kepala saling bilang 'aku sayang kamu')." },
+        { "type": "paragraph", "text": "Diary biasanya berhenti di situation — mencatat apa yang terjadi. Personal essay yang baik selalu mendorong lebih jauh ke story — apa artinya kejadian itu, kenapa ia penting, apa yang dipelajari penulis (dan mungkin pembaca) darinya." },
+        { "type": "callout", "title": "Uji Cepat", "text": "Setelah menulis sebuah cerita pribadi, tanyakan: 'Kalau saya berhenti di sini, apakah ini baru situation, atau sudah story?' Kalau jawabanmu masih 'ya, itu yang terjadi', kamu belum sampai ke story." }
+      ]
+    },
+    {
+      "id": "30-3",
+      "title": "Pola Bolak-Balik: Scene dan Reflection",
+      "blocks": [
+        { "type": "heading", "text": "Dua Kecepatan dalam Satu Esai" },
+        { "type": "paragraph", "text": "Personal essay yang efektif bergerak bolak-balik antara dua mode: SCENE (adegan) — momen konkret yang 'diputar ulang' dengan detail sensorik, dialog, dan waktu yang melambat; dan REFLECTION (refleksi) — jeda di mana penulis mundur, berpikir, menghubungkan momen itu dengan makna yang lebih besar." },
+        { "type": "table",
+          "headers": ["Scene (Adegan)", "Reflection (Refleksi)"],
+          "rows": [
+            ["Menunjukkan momen tertentu, waktu terasa melambat", "Mundur dari momen, waktu bisa melompat bertahun-tahun"],
+            ["Detail sensorik: suara, bau, dialog, gerak tubuh", "Analisis, pertanyaan, pengaitan dengan tema besar"],
+            ["Jawab: 'apa yang terjadi persis saat itu?'", "Jawab: 'kenapa momen itu penting bagiku (dan mungkin bagimu)?'"],
+            ["Contoh: 'Ibu meletakkan piring dengan keras di meja.'", "Contoh: 'Baru bertahun-tahun kemudian saya sadar, suara piring itu adalah caranya berteriak tanpa kata.'"]
+          ]
+        },
+        { "type": "paragraph", "text": "Esai yang hanya berisi scene terasa seperti cerpen tanpa makna. Esai yang hanya berisi reflection terasa seperti ceramah tanpa darah. Yang membuat personal essay hidup adalah pergantian di antara keduanya — scene menarik pembaca masuk secara emosional, reflection memberi mereka sesuatu untuk dibawa pulang." }
+      ]
+    },
+    {
+      "id": "30-4",
+      "title": "Menemukan yang Universal dalam yang Spesifik",
+      "blocks": [
+        { "type": "heading", "text": "Paradoks Inti Personal Essay" },
+        { "type": "paragraph", "text": "Ini paradoks yang membuat banyak penulis pemula ragu: semakin SPESIFIK pengalamanmu, semakin UNIVERSAL ia terasa bagi pembaca. Kedengarannya terbalik, tapi begini logikanya — detail spesifik membuat pembaca percaya ceritamu nyata, dan begitu mereka percaya, mereka bisa memetakan pengalaman mereka sendiri ke dalamnya, meski detailnya berbeda total." },
+        { "type": "paragraph", "text": "Sebaliknya, kalau kamu menulis secara umum supaya 'semua orang bisa relate', hasilnya justru sebaliknya — tidak ada yang benar-benar merasa tersentuh, karena tidak ada yang bisa dipegang. 'Kehilangan itu menyakitkan' tidak menyentuh siapa pun. 'Saya masih menyimpan nomor WhatsApp almarhum ayah saya di kontak, dan sesekali saya membukanya hanya untuk melihat foto profilnya yang belum sempat ia ganti' — itu spesifik milik satu orang, tapi siapa pun yang pernah kehilangan akan merasa itu ditulis tentang mereka." },
+        { "type": "callout", "title": "Kenapa Ini Penting", "text": "Jangan pernah mengabstraksi pengalamanmu supaya 'lebih relatable'. Justru perbesar detailnya. Kespesifikan adalah jembatan menuju universalitas, bukan penghalangnya — ingat prinsip kespesifikan dari Level 29." }
+      ]
+    },
+    {
+      "id": "30-5",
+      "title": "Before/After: Dari Diary Entry ke Personal Essay",
+      "blocks": [
+        { "type": "heading", "text": "Bahan Sama, Bentuk Berbeda" },
+        { "type": "paragraph", "text": "Perhatikan dua versi berikut yang membahas kejadian sama: gagal wawancara kerja pertama." },
+        { "type": "quote", "text": "DIARY ENTRY:\n\"Hari ini interview kerja pertamaku dan aku gagal total. HRD nanya kelemahanku apa, aku malah blank dan jawab ngasal. Pulang naik ojol sambil nangis. Sedih banget rasanya. Semoga besok lebih baik.\"", "source": "Contoh diary entry" },
+        { "type": "quote", "text": "PERSONAL ESSAY (potongan):\n\"Pertanyaan itu sederhana: 'Apa kelemahan terbesarmu?' Tapi yang membuat saya membeku bukan pertanyaannya — melainkan sadar bahwa selama 22 tahun, saya tidak pernah benar-benar diminta menyebut kelemahan saya di depan orang lain tanpa langsung menutupinya dengan lelucon. Di ojol pulang, saya menangis bukan karena kehilangan pekerjaan itu, tapi karena baru sadar betapa lamanya saya berlatih untuk terlihat baik-baik saja — sampai lupa caranya jujur soal yang tidak baik-baik saja.\"", "source": "Contoh personal essay dari bahan yang sama" },
+        { "type": "callout", "title": "Apa yang Berubah", "text": "Kejadiannya identik. Yang berubah: diary berhenti di situation ('aku gagal, aku sedih'); essay mendorong ke story (kebiasaan menutupi kelemahan dengan humor, dan apa artinya itu tentang dirinya). Essay juga memakai satu scene konkret (pertanyaan HRD) yang diikuti reflection." }
+      ]
+    },
+    {
+      "id": "30-6",
+      "title": "Latihan: Menambang Jurnal Lamamu",
+      "blocks": [
+        { "type": "heading", "text": "Bahan Esai Sering Sudah Kamu Punya" },
+        { "type": "paragraph", "text": "Kamu tidak perlu mengalami sesuatu yang dramatis untuk punya bahan personal essay. Kejadian sehari-hari yang tercatat di jurnal (lihat Level 37) sering menyimpan story yang belum kamu sadari. Coba langkah ini:" },
+        { "type": "list", "ordered": true, "items": [
+          "Buka satu entri jurnal atau catatan lama — pilih yang masih terasa 'nyangkut' di ingatanmu, bukan yang paling dramatis.",
+          "Tulis ulang satu momen di dalamnya sebagai SCENE penuh: di mana, kapan, siapa saja, apa yang terdengar/tercium/terlihat saat itu.",
+          "Berhenti, lalu tanyakan pada dirimu: 'Kenapa momen ini masih saya ingat bertahun-tahun kemudian?'",
+          "Tulis jawabannya sebagai REFLECTION — jangan disensor, meski jawabannya terasa tidak nyaman.",
+          "Baca ulang: apakah reflection-mu masih berhenti di 'apa yang terjadi', atau sudah sampai ke 'apa artinya'? Kalau belum, dorong satu langkah lagi."
+        ]}
+      ]
+    },
+    {
+      "id": "30-7",
+      "title": "Menyeimbangkan Scene dan Reflection",
+      "blocks": [
+        { "type": "heading", "text": "Terlalu Banyak Salah Satu Sama Bermasalahnya" },
+        { "type": "paragraph", "text": "Tidak ada rasio baku scene:reflection yang wajib diikuti — tapi ada dua gejala yang menandakan ketidakseimbangan. Esai yang HANYA scene (adegan demi adegan tanpa jeda) membuat pembaca bertanya 'lalu kenapa kamu menceritakan ini padaku?'. Esai yang HANYA reflection (renungan panjang tanpa satu pun momen konkret) membuat pembaca sulit percaya dan sulit merasakan — ia terasa seperti nasihat, bukan pengalaman." },
+        { "type": "callout", "title": "Patokan Praktis", "text": "Kalau draftmu terasa 'datar dan menggurui', kemungkinan besar kekurangan scene — tambahkan satu momen konkret. Kalau draftmu terasa 'seru tapi kosong', kemungkinan besar kekurangan reflection — tambahkan satu jeda untuk merenung." },
+        { "type": "paragraph", "text": "Perhatikan juga bahwa hook di awal esai (dibahas lengkap di Level 31) biasanya berupa scene, bukan reflection — pembaca perlu ditarik masuk secara emosional dulu sebelum diajak berpikir." }
+      ]
+    },
+    {
+      "id": "30-8",
+      "title": "Struktur Dasar: Bukan Sekadar Kronologis",
+      "blocks": [
+        { "type": "heading", "text": "Personal Essay Bukan Laporan Perjalanan Waktu" },
+        { "type": "paragraph", "text": "Kesalahan umum: menulis personal essay seperti linimasa ('mula-mula begini, lalu begini, lalu begini, akhirnya begini'). Struktur yang lebih kuat biasanya justru dimulai dari titik yang menegangkan atau membingungkan, lalu melompat mundur/maju sesuai kebutuhan makna, bukan kronologi." },
+        { "type": "list", "ordered": false, "items": [
+          "Boleh dimulai dari tengah cerita (in medias res) — lihat Level 31 soal lede in-medias-res.",
+          "Boleh melompat waktu jika reflection membutuhkannya (misalnya: 'sepuluh tahun kemudian, saya baru mengerti...').",
+          "Yang harus tetap linier adalah LOGIKA MAKNA — pembaca harus merasa setiap bagian membawa mereka semakin dekat ke pemahaman, meski waktunya melompat-lompat.",
+          "Penutup yang kuat biasanya kembali menyentuh scene pembuka, tapi dengan pemahaman baru — disebut teknik 'bookending'."
+        ]},
+        { "type": "callout", "title": "Cross-Reference", "text": "Level 32 akan membahas lebih dalam soal ketegangan naratif (setup-turn-resolution) yang bisa dipakai untuk menyusun struktur ini secara lebih teknis." }
+      ]
+    },
+    {
+      "id": "30-9",
+      "title": "Kesalahan Umum Menulis Personal Essay",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Berhenti di situation (menceritakan kejadian) tanpa pernah sampai ke story (apa maknanya) — hasilnya terasa seperti curhat, bukan esai.",
+          "Mengabstraksi pengalaman supaya 'lebih relatable' — padahal detail spesifik justru yang membuatnya universal.",
+          "Menulis kronologis kaku dari awal sampai akhir tanpa mempertimbangkan di mana makna paling kuat harus ditempatkan.",
+          "Hanya menulis scene tanpa reflection (terasa kosong) atau hanya reflection tanpa scene (terasa menggurui).",
+          "Menutup esai dengan simpulan yang terlalu rapi dan mengajari, seperti 'jadi pelajarannya adalah...' — biarkan pembaca merasakan makna, bukan didikte."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Personal essay yang baik membuat pembaca merasa 'ini bukan cerita tentang kamu, tapi entah kenapa terasa tentang aku juga'. Itulah titik temu antara spesifik dan universal yang menjadi inti tier ini." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-30",
+    "title": "Kuis Level 30",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q30-1",
+        "question": "Perbedaan mendasar antara diary entry dan personal essay adalah…",
+        "options": ["Diary lebih panjang dari essay", "Diary tentang diri sendiri untuk diri sendiri; essay memakai diri sendiri untuk membicarakan sesuatu yang lebih besar", "Essay tidak boleh memakai kata 'saya'", "Diary harus ditulis setiap hari, essay tidak"],
+        "answer": 1,
+        "explanation": "Diary berhenti pada diri penulis; personal essay memakai pengalaman penulis sebagai jalan menuju tema yang lebih besar dan relevan bagi pembaca."
+      },
+      {
+        "id": "q30-2",
+        "question": "Menurut Vivian Gornick, 'story' berbeda dari 'situation' karena…",
+        "options": ["Story lebih pendek dari situation", "Story adalah makna/pemahaman yang muncul dari situation, bukan sekadar kejadian itu sendiri", "Situation hanya boleh ditulis dalam bentuk dialog", "Story dan situation adalah istilah yang sama"],
+        "answer": 1,
+        "explanation": "Situation adalah kejadian/konteks; story adalah kebenaran yang lebih dalam yang ditemukan penulis setelah merenungi situation itu."
+      },
+      {
+        "id": "q30-3",
+        "question": "Fungsi utama 'scene' dalam personal essay adalah…",
+        "options": ["Memberi kesimpulan moral", "Menunjukkan momen konkret dengan detail sensorik agar pembaca merasakan, bukan hanya diberi tahu", "Menyingkat keseluruhan cerita", "Menggantikan kebutuhan akan reflection"],
+        "answer": 1,
+        "explanation": "Scene memperlambat waktu dan menunjukkan detail konkret, menarik pembaca masuk secara emosional sebelum reflection memberi makna."
+      },
+      {
+        "id": "q30-4",
+        "question": "Paradoks 'spesifik jadi universal' berarti…",
+        "options": ["Detail spesifik membuat pengalaman terasa relevan bagi lebih banyak pembaca, bukan menyempitkannya", "Semakin spesifik, semakin sedikit orang yang bisa relate", "Universalitas hanya bisa dicapai lewat bahasa yang umum", "Detail spesifik hanya cocok untuk fiksi, bukan essay"],
+        "answer": 0,
+        "explanation": "Detail spesifik membuat cerita terasa nyata dan dipercaya, sehingga pembaca justru lebih mudah memetakan pengalaman mereka sendiri ke dalamnya."
+      },
+      {
+        "id": "q30-5",
+        "question": "Gejala esai yang kekurangan reflection adalah…",
+        "options": ["Terasa menggurui dan kosong secara emosional", "Terasa seru tapi kosong makna, seperti kejadian tanpa arti", "Terlalu pendek untuk dibaca", "Terlalu banyak dialog"],
+        "answer": 1,
+        "explanation": "Esai yang hanya berisi scene tanpa reflection membuat pembaca bertanya 'lalu kenapa ini diceritakan padaku' — seru tapi tidak bermakna."
+      },
+      {
+        "id": "q30-6",
+        "question": "Struktur personal essay yang disarankan level ini adalah…",
+        "options": ["Selalu kronologis ketat dari awal sampai akhir", "Mengikuti logika makna, boleh melompat waktu, tidak harus kronologis kaku", "Harus dimulai dari kesimpulan", "Tidak boleh ada struktur sama sekali"],
+        "answer": 1,
+        "explanation": "Yang harus linier adalah logika makna bagi pembaca, bukan urutan waktu kejadian — boleh melompat mundur/maju sesuai kebutuhan."
+      },
+      {
+        "id": "q30-7",
+        "question": "Kenapa menutup esai dengan 'jadi pelajarannya adalah...' dianggap kesalahan umum?",
+        "options": ["Karena kesimpulan dilarang keras dalam essay", "Karena terlalu mendikte pembaca alih-alih membiarkan mereka merasakan makna sendiri", "Karena kalimat itu terlalu pendek", "Karena essay tidak boleh punya penutup"],
+        "answer": 1,
+        "explanation": "Simpulan yang terlalu rapi dan menggurui menghilangkan ruang bagi pembaca untuk merasakan makna sendiri, yang justru menjadi kekuatan personal essay."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-30",
+    "title": "Ujian Level 30",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e30-1",
+        "question": "Seorang penulis menceritakan pertengkarannya dengan sahabat lalu menutup tulisan dengan 'Itulah yang terjadi hari itu, dan sampai sekarang kami tidak bicara lagi.' Menurut pembedaan Gornick, tulisan ini…",
+        "options": ["Sudah sampai ke story karena ceritanya lengkap", "Masih berhenti di situation karena belum menggali makna/pemahaman baru dari pertengkaran itu", "Tidak bisa disebut personal essay karena terlalu pendek", "Sudah sempurna karena jujur apa adanya"],
+        "answer": 1,
+        "explanation": "Tulisan hanya melaporkan kejadian dan akibatnya tanpa merenungkan makna lebih dalam — itu ciri situation, bukan story."
+      },
+      {
+        "id": "e30-2",
+        "question": "Draf personal essay tentang kehilangan pekerjaan ditulis dengan urutan ketat: Senin dipanggil HRD, Selasa tanda tangan surat, Rabu bersih-bersih meja, Kamis mulai melamar lagi — tanpa satu pun jeda reflektif. Masalah utama draf ini adalah…",
+        "options": ["Terlalu banyak reflection sehingga membosankan", "Hanya berisi scene demi scene tanpa reflection, sehingga pembaca sulit menangkap maknanya", "Ceritanya tidak kronologis", "Tidak menyebutkan nama hari secara spesifik"],
+        "answer": 1,
+        "explanation": "Rangkaian kejadian tanpa jeda untuk merenung membuat esai terasa seperti laporan, bukan personal essay yang bermakna."
+      },
+      {
+        "id": "e30-3",
+        "question": "Seorang penulis mengubah kalimat 'Saya sedih waktu pindah rumah' menjadi 'Kotak terakhir yang saya masukkan ke mobil pindahan adalah toples kerupuk yang selalu diisi ulang ibu setiap minggu — dan baru di jalan tol saya sadar, mulai besok tidak akan ada lagi yang mengisinya.' Perubahan ini menunjukkan penerapan prinsip…",
+        "options": ["Menghindari kata 'sedih' karena dilarang", "Mengganti pernyataan umum dengan detail spesifik agar terasa universal dan bermakna", "Membuat kalimat menjadi lebih pendek", "Mengubah sudut pandang dari orang pertama ke orang ketiga"],
+        "answer": 1,
+        "explanation": "Versi kedua memakai detail konkret (toples kerupuk, jalan tol) yang membuat kesedihan terasa nyata dan bisa dirasakan pembaca, bukan hanya dinyatakan."
+      },
+      {
+        "id": "e30-4",
+        "question": "Seorang penulis pemula khawatir pengalamannya 'terlalu spesifik dan personal' sehingga ia menghapus semua detail konkret dan menggantinya dengan pernyataan umum seperti 'banyak orang mengalami hal serupa'. Berdasarkan level ini, langkah ini kemungkinan besar…",
+        "options": ["Tepat, karena essay harus umum agar semua orang relate", "Keliru — justru detail spesifik yang membuat pengalaman terasa universal, bukan pernyataan umum", "Tidak berpengaruh pada kualitas essay", "Hanya berlaku untuk essay yang dipublikasikan di Medium"],
+        "answer": 1,
+        "explanation": "Menghapus kespesifikan untuk 'terlihat umum' justru menghilangkan kekuatan personal essay — kespesifikan adalah jembatan menuju universalitas."
+      },
+      {
+        "id": "e30-5",
+        "question": "Sebuah essay dibuka dengan adegan penulis duduk di ruang tunggu rumah sakit, lalu di paragraf ketiga penulis melompat mundur sepuluh tahun untuk menjelaskan hubungannya dengan ayahnya, sebelum kembali ke ruang tunggu di akhir. Struktur ini…",
+        "options": ["Salah karena tidak kronologis", "Sesuai prinsip level ini — struktur boleh melompat waktu selama mengikuti logika makna, dan bookending di akhir memperkuat esai", "Hanya boleh dipakai dalam fiksi, bukan personal essay", "Menunjukkan penulis tidak punya rencana struktur"],
+        "answer": 1,
+        "explanation": "Melompat waktu untuk kebutuhan makna, lalu kembali ke scene pembuka (bookending), adalah struktur yang dianjurkan level ini — bukan pelanggaran."
+      },
+      {
+        "id": "e30-6",
+        "question": "Seorang penulis menutup essay-nya dengan kalimat: 'Jadi, pelajaran yang bisa diambil dari kisah saya adalah pentingnya selalu bersyukur.' Berdasarkan level ini, kalimat penutup ini berisiko…",
+        "options": ["Terlalu pendek untuk sebuah penutup", "Terlalu mendikte pembaca dan menghilangkan ruang bagi mereka menemukan makna sendiri", "Tidak boleh memakai kata 'bersyukur' dalam essay", "Seharusnya diletakkan di awal, bukan di akhir"],
+        "answer": 1,
+        "explanation": "Simpulan yang terlalu rapi dan menggurui mengambil alih peran pembaca untuk merasakan dan menyimpulkan makna sendiri."
+      },
+      {
+        "id": "e30-7",
+        "question": "Dua draf membahas kegagalan ujian SIM: Draf A hanya berisi renungan panjang tentang arti kegagalan tanpa satu pun momen konkret terjadi di lokasi ujian. Draf B hanya berisi adegan demi adegan di lokasi ujian tanpa satu jeda pun untuk merenung. Diagnosis paling tepat adalah…",
+        "options": ["Draf A kekurangan scene, Draf B kekurangan reflection", "Draf A dan B sama-sama sempurna", "Draf A kekurangan reflection, Draf B kekurangan scene — keduanya perlu diseimbangkan", "Keduanya tidak layak disebut personal essay dalam kondisi apa pun"],
+        "answer": 0,
+        "explanation": "Draf A adalah kebalikan: kelebihan reflection tanpa scene (terasa menggurui); Draf B kelebihan scene tanpa reflection (terasa kosong). Keduanya butuh diseimbangkan."
+      },
+      {
+        "id": "e30-8",
+        "question": "Seorang penulis ingin menulis tentang perceraian orang tuanya, tapi ragu karena merasa 'ini kan cuma masalah keluarga saya, siapa yang peduli?'. Berdasarkan prinsip 'spesifik jadi universal', tanggapan paling tepat adalah…",
+        "options": ["Ia benar, sebaiknya menulis topik yang lebih umum saja", "Justru detail spesifik dari pengalamannya berpotensi membuat pembaca lain dengan situasi berbeda merasa tersentuh, selama ia menggali maknanya, bukan sekadar melaporkan kejadian", "Topik keluarga tidak cocok untuk personal essay", "Ia harus mengubah cerita menjadi fiksi supaya lebih diterima"],
+        "answer": 1,
+        "explanation": "Pengalaman personal yang sangat spesifik justru berpotensi paling universal, asal penulis mendorongnya melewati situation menuju story."
+      },
+      {
+        "id": "e30-9",
+        "question": "Sebuah essay membuka dengan adegan penulis gemetar memegang hasil tes kehamilan, lalu langsung disusul kalimat: 'Sejak itu saya belajar banyak tentang tanggung jawab.' Kekurangan bagian ini adalah…",
+        "options": ["Adegan pembuka terlalu personal untuk dipublikasikan", "Lompatan dari scene ke reflection terlalu cepat/dangkal — belum ada penggalian makna yang benar-benar spesifik ke pengalamannya", "Seharusnya tidak memakai scene sama sekali", "Kalimat itu seharusnya diletakkan di awal, bukan setelah scene"],
+        "answer": 1,
+        "explanation": "Reflection yang terlalu umum ('belajar tentang tanggung jawab') tidak menggali makna spesifik dari momen itu — masih setara generalisasi, bukan story yang jujur dan spesifik."
+      },
+      {
+        "id": "e30-10",
+        "question": "Seorang penulis menyusun essay tentang persahabatan dengan urutan: awal pertemuan (SMA) → adegan pertengkaran besar (kuliah) → reuni bertahun-tahun kemudian → refleksi tentang makna persahabatan yang bertahan meski berubah. Struktur ini paling sesuai dengan…",
+        "options": ["Kronologi kaku tanpa reflection sama sekali", "Bolak-balik scene dan reflection yang mengikuti logika makna, bukan sekadar urutan waktu", "Pola diary yang mencatat kejadian harian", "Struktur yang seharusnya dihindari karena melompati waktu"],
+        "answer": 1,
+        "explanation": "Menyusun beberapa scene lintas waktu lalu menutup dengan reflection tentang makna besarnya adalah penerapan tepat pola scene-reflection dan struktur berbasis makna, bukan sekadar kronologi."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "On Writing Well", "author": "William Zinsser", "year": 2006, "publisher": "Harper Perennial", "note": "Rujukan tentang menulis nonfiksi personal dengan kejujuran dan kesederhanaan." },
+    { "title": "The Situation and the Story: The Art of Personal Narrative", "author": "Vivian Gornick", "year": 2001, "publisher": "Farrar, Straus and Giroux", "note": "Sumber utama pembedaan situation vs story yang menjadi kerangka inti level ini." },
+    { "title": "The Art of the Personal Essay", "author": "Phillip Lopate", "year": 1994, "publisher": "Anchor Books", "note": "Rujukan tentang anatomi dan sejarah personal essay sebagai bentuk, termasuk peran 'aku' sebagai instrumen menuju tema besar." },
+    { "title": "Bird by Bird: Some Instructions on Writing and Life", "author": "Anne Lamott", "year": 1994, "publisher": "Anchor Books", "note": "Rujukan tentang menambang pengalaman pribadi dan menulis jujur sebagai bahan mentah essay." }
+  ]
+}

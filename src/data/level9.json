@@ -10,68 +10,152 @@
       "id": "9-1",
       "title": "Dari Transkrip ke Temuan",
       "blocks": [
-        { "type": "heading", "text": "Tumpukan Data Bukan Otomatis Jadi Temuan" },
-        { "type": "paragraph", "text": "Setelah mewawancarai 10 orang (Level 7), kamu akan punya puluhan halaman transkrip. Transkrip mentah ini BUKAN temuan — ia baru bahan baku. Analisis kualitatif adalah proses mengubah bahan mentah itu menjadi pola, tema, atau kategori yang menjawab pertanyaan penelitianmu." },
-        { "type": "callout", "title": "Analogi Penambang Emas", "text": "Bayangkan transkripmu seperti tanah yang mengandung emas. Coding adalah proses menyaring tanah itu sedikit demi sedikit untuk menemukan butiran emas (tema) yang tersembunyi di dalamnya." }
+        {
+          "type": "heading",
+          "text": "Tumpukan Data Bukan Otomatis Jadi Temuan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Setelah mewawancarai 10 orang (Level 7), kamu akan punya puluhan halaman transkrip. Transkrip mentah ini BUKAN temuan — ia baru bahan baku. Analisis kualitatif adalah proses mengubah bahan mentah itu menjadi pola, tema, atau kategori yang menjawab pertanyaan penelitianmu."
+        },
+        {
+          "type": "callout",
+          "title": "Analogi Penambang Emas",
+          "text": "Bayangkan transkripmu seperti tanah yang mengandung emas. Coding adalah proses menyaring tanah itu sedikit demi sedikit untuk menemukan butiran emas (tema) yang tersembunyi di dalamnya."
+        }
       ]
     },
     {
       "id": "9-2",
       "title": "Coding: Memberi Label pada Data",
       "blocks": [
-        { "type": "heading", "text": "Langkah Pertama: Open Coding" },
-        { "type": "paragraph", "text": "Coding berarti memberi label singkat pada potongan data (kalimat atau paragraf) yang menangkap ide intinya. Pada tahap open coding, kamu membaca transkrip baris per baris dan memberi label sebebas mungkin, tanpa dulu memikirkan kategori besar." },
-        { "type": "quote", "text": "\"Saya sering begadang sampai jam 3 pagi karena takut hasilnya jelek kalau tidak maksimal.\" → kode: 'perfeksionisme', 'kurang tidur', 'kecemasan performa'", "source": "Contoh open coding" },
-        { "type": "callout", "title": "Jangan Terburu Menyimpulkan", "text": "Di tahap ini, satu kalimat boleh punya lebih dari satu kode. Tujuannya menangkap sebanyak mungkin nuansa dulu, bukan langsung merapikan." }
+        {
+          "type": "heading",
+          "text": "Langkah Pertama: Open Coding"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coding berarti memberi label singkat pada potongan data (kalimat atau paragraf) yang menangkap ide intinya. Pada tahap open coding, kamu membaca transkrip baris per baris dan memberi label sebebas mungkin, tanpa dulu memikirkan kategori besar."
+        },
+        {
+          "type": "quote",
+          "text": "\"Saya sering begadang sampai jam 3 pagi karena takut hasilnya jelek kalau tidak maksimal.\" → kode: 'perfeksionisme', 'kurang tidur', 'kecemasan performa'",
+          "source": "Contoh open coding"
+        },
+        {
+          "type": "callout",
+          "title": "Jangan Terburu Menyimpulkan",
+          "text": "Di tahap ini, satu kalimat boleh punya lebih dari satu kode. Tujuannya menangkap sebanyak mungkin nuansa dulu, bukan langsung merapikan."
+        }
       ]
     },
     {
       "id": "9-3",
       "title": "Dari Kode ke Tema",
       "blocks": [
-        { "type": "heading", "text": "Mengelompokkan Kode Serupa" },
-        { "type": "paragraph", "text": "Setelah punya puluhan kode dari seluruh transkrip, langkah berikutnya adalah mengelompokkan kode-kode yang saling berkaitan menjadi tema yang lebih besar. Ini disebut analisis tematik (thematic analysis) — salah satu pendekatan analisis kualitatif paling umum dipakai." },
-        { "type": "list", "ordered": true, "items": [
-          "Kumpulkan semua kode yang sudah dibuat dari seluruh transkrip.",
-          "Cari kode-kode yang punya benang merah yang sama.",
-          "Beri nama tema yang menangkap benang merah itu (misalnya kode 'perfeksionisme' + 'takut mengecewakan orang tua' → tema 'tekanan mencapai standar tinggi').",
-          "Tinjau ulang: apakah tema ini benar-benar didukung oleh cukup banyak data, bukan cuma satu orang?"
-        ]}
+        {
+          "type": "heading",
+          "text": "Mengelompokkan Kode Serupa"
+        },
+        {
+          "type": "paragraph",
+          "text": "Setelah punya puluhan kode dari seluruh transkrip, langkah berikutnya adalah mengelompokkan kode-kode yang saling berkaitan menjadi tema yang lebih besar. Ini disebut analisis tematik (thematic analysis) — salah satu pendekatan analisis kualitatif paling umum dipakai."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Kumpulkan semua kode yang sudah dibuat dari seluruh transkrip.",
+            "Cari kode-kode yang punya benang merah yang sama.",
+            "Beri nama tema yang menangkap benang merah itu (misalnya kode 'perfeksionisme' + 'takut mengecewakan orang tua' → tema 'tekanan mencapai standar tinggi').",
+            "Tinjau ulang: apakah tema ini benar-benar didukung oleh cukup banyak data, bukan cuma satu orang?"
+          ]
+        }
       ]
     },
     {
       "id": "9-4",
       "title": "Grounded Theory Sekilas",
       "blocks": [
-        { "type": "heading", "text": "Membangun Teori dari Data, Bukan Sebaliknya" },
-        { "type": "paragraph", "text": "Grounded theory adalah pendekatan yang lebih ambisius: alih-alih hanya mencari tema, peneliti berusaha MEMBANGUN teori baru langsung dari data, tanpa memulai dari teori yang sudah ada. Prosesnya bolak-balik antara mengumpulkan data, coding, dan membandingkan temuan (constant comparison) sampai ditemukan pola yang stabil." },
-        { "type": "callout", "title": "Beda dengan Analisis Tematik Biasa", "text": "Analisis tematik cukup mendeskripsikan tema-tema penting dalam data. Grounded theory melangkah lebih jauh: mencoba menjelaskan HUBUNGAN antar-tema itu menjadi semacam model atau teori baru." }
+        {
+          "type": "heading",
+          "text": "Membangun Teori dari Data, Bukan Sebaliknya"
+        },
+        {
+          "type": "paragraph",
+          "text": "Grounded theory adalah pendekatan yang lebih ambisius: alih-alih hanya mencari tema, peneliti berusaha MEMBANGUN teori baru langsung dari data, tanpa memulai dari teori yang sudah ada. Prosesnya bolak-balik antara mengumpulkan data, coding, dan membandingkan temuan (constant comparison) sampai ditemukan pola yang stabil."
+        },
+        {
+          "type": "callout",
+          "title": "Beda dengan Analisis Tematik Biasa",
+          "text": "Analisis tematik cukup mendeskripsikan tema-tema penting dalam data. Grounded theory melangkah lebih jauh: mencoba menjelaskan HUBUNGAN antar-tema itu menjadi semacam model atau teori baru."
+        }
       ]
     },
     {
       "id": "9-5",
       "title": "Menyusun Hasil dengan Kutipan Pendukung",
       "blocks": [
-        { "type": "heading", "text": "Biarkan Data Berbicara" },
-        { "type": "paragraph", "text": "Saat menulis hasil analisis kualitatif, setiap tema yang kamu klaim harus didukung oleh kutipan langsung dari subjek. Kutipan ini berfungsi seperti tabel angka dalam kuantitatif — bukti konkret di balik klaimmu." },
-        { "type": "quote", "text": "Tema 'tekanan mencapai standar tinggi' muncul kuat pada subjek. Seperti dikatakan salah satu partisipan: \"Saya selalu merasa harus lebih baik dari kakak saya yang juga kuliah di sini.\"", "source": "Contoh penulisan hasil kualitatif" },
-        { "type": "callout", "title": "Jaga Anonimitas", "text": "Gunakan kode/nama samaran untuk setiap kutipan (Partisipan 1, Partisipan 2, dst.) agar identitas subjek tetap terlindungi, sesuai etika penelitian yang akan dibahas di Level 14." }
+        {
+          "type": "heading",
+          "text": "Biarkan Data Berbicara"
+        },
+        {
+          "type": "paragraph",
+          "text": "Saat menulis hasil analisis kualitatif, setiap tema yang kamu klaim harus didukung oleh kutipan langsung dari subjek. Kutipan ini berfungsi seperti tabel angka dalam kuantitatif — bukti konkret di balik klaimmu."
+        },
+        {
+          "type": "quote",
+          "text": "Tema 'tekanan mencapai standar tinggi' muncul kuat pada subjek. Seperti dikatakan salah satu partisipan: \"Saya selalu merasa harus lebih baik dari kakak saya yang juga kuliah di sini.\"",
+          "source": "Contoh penulisan hasil kualitatif"
+        },
+        {
+          "type": "callout",
+          "title": "Jaga Anonimitas",
+          "text": "Gunakan kode/nama samaran untuk setiap kutipan (Partisipan 1, Partisipan 2, dst.) agar identitas subjek tetap terlindungi, sesuai etika penelitian yang akan dibahas di Level 14."
+        }
       ]
     },
     {
       "id": "9-6",
       "title": "Credibility: Versi Kualitatif dari Validitas",
       "blocks": [
-        { "type": "heading", "text": "Empat Kriteria Kepercayaan Data" },
-        { "type": "paragraph", "text": "Kuantitatif punya validitas dan reliabilitas (dibahas rinci di Level 10). Kualitatif punya padanannya sendiri, sering disebut trustworthiness, dengan empat kriteria utama." },
+        {
+          "type": "heading",
+          "text": "Empat Kriteria Kepercayaan Data"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kuantitatif punya validitas dan reliabilitas (dibahas rinci di Level 10). Kualitatif punya padanannya sendiri, sering disebut trustworthiness, dengan empat kriteria utama."
+        },
         {
           "type": "table",
-          "headers": ["Kriteria", "Maksudnya", "Contoh Cara Mencapainya"],
+          "headers": [
+            "Kriteria",
+            "Maksudnya",
+            "Contoh Cara Mencapainya"
+          ],
           "rows": [
-            ["Credibility", "Temuan sungguh mencerminkan realitas subjek", "Triangulasi, member checking (mengonfirmasi tafsiran ke subjek)"],
-            ["Transferability", "Temuan bisa relevan untuk konteks serupa lain", "Deskripsi konteks yang sangat rinci (thick description)"],
-            ["Dependability", "Proses penelitian konsisten dan bisa dilacak", "Mencatat setiap keputusan analisis (audit trail)"],
-            ["Confirmability", "Temuan berasal dari data, bukan bias peneliti semata", "Refleksivitas (Level 7) dan diskusi antar-peneliti"]
+            [
+              "Credibility",
+              "Temuan sungguh mencerminkan realitas subjek",
+              "Triangulasi, member checking (mengonfirmasi tafsiran ke subjek)"
+            ],
+            [
+              "Transferability",
+              "Temuan bisa relevan untuk konteks serupa lain",
+              "Deskripsi konteks yang sangat rinci (thick description)"
+            ],
+            [
+              "Dependability",
+              "Proses penelitian konsisten dan bisa dilacak",
+              "Mencatat setiap keputusan analisis (audit trail)"
+            ],
+            [
+              "Confirmability",
+              "Temuan berasal dari data, bukan bias peneliti semata",
+              "Refleksivitas (Level 7) dan diskusi antar-peneliti"
+            ]
           ]
         }
       ]
@@ -80,22 +164,39 @@
       "id": "9-7",
       "title": "Software Bantu Analisis Kualitatif",
       "blocks": [
-        { "type": "heading", "text": "Membantu, Bukan Menggantikan Pemikiran" },
-        { "type": "paragraph", "text": "Untuk data yang banyak, peneliti sering memakai software seperti NVivo atau ATLAS.ti untuk mengorganisasi kode dan tema secara lebih rapi. Tapi penting diingat: software ini hanya alat bantu ADMINISTRASI. Ia tidak bisa menemukan makna atau membuat interpretasi — itu tetap pekerjaan manusia." },
-        { "type": "callout", "title": "Untuk Analisis Kecil", "text": "Kalau subjekmu hanya 5–10 orang, coding manual dengan spreadsheet atau bahkan kertas warna-warni sudah cukup — tidak wajib pakai software berbayar." }
+        {
+          "type": "heading",
+          "text": "Membantu, Bukan Menggantikan Pemikiran"
+        },
+        {
+          "type": "paragraph",
+          "text": "Untuk data yang banyak, peneliti sering memakai software seperti NVivo atau ATLAS.ti untuk mengorganisasi kode dan tema secara lebih rapi. Tapi penting diingat: software ini hanya alat bantu ADMINISTRASI. Ia tidak bisa menemukan makna atau membuat interpretasi — itu tetap pekerjaan manusia."
+        },
+        {
+          "type": "callout",
+          "title": "Untuk Analisis Kecil",
+          "text": "Kalau subjekmu hanya 5–10 orang, coding manual dengan spreadsheet atau bahkan kertas warna-warni sudah cukup — tidak wajib pakai software berbayar."
+        }
       ]
     },
     {
       "id": "9-8",
       "title": "Kesalahan Umum dalam Analisis Kualitatif",
       "blocks": [
-        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
-        { "type": "list", "ordered": true, "items": [
-          "Hanya merangkum apa yang dikatakan subjek tanpa benar-benar menganalisis pola atau maknanya.",
-          "Memaksakan tema yang sebenarnya cuma didukung oleh satu subjek, seolah mewakili semua.",
-          "Mengutip subjek tanpa konteks, sehingga makna aslinya berubah.",
-          "Melompat langsung ke kesimpulan tanpa menunjukkan jejak coding yang mendasarinya (masalah confirmability)."
-        ]}
+        {
+          "type": "heading",
+          "text": "Jebakan yang Sering Terjadi"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Hanya merangkum apa yang dikatakan subjek tanpa benar-benar menganalisis pola atau maknanya.",
+            "Memaksakan tema yang sebenarnya cuma didukung oleh satu subjek, seolah mewakili semua.",
+            "Mengutip subjek tanpa konteks, sehingga makna aslinya berubah.",
+            "Melompat langsung ke kesimpulan tanpa menunjukkan jejak coding yang mendasarinya (masalah confirmability)."
+          ]
+        }
       ]
     }
   ],
@@ -107,49 +208,84 @@
       {
         "id": "q9-1",
         "question": "Proses memberi label singkat pada potongan data untuk menangkap ide intinya disebut…",
-        "options": ["Triangulasi", "Coding", "Randomisasi", "Operasionalisasi"],
+        "options": [
+          "Triangulasi",
+          "Coding",
+          "Randomisasi",
+          "Operasionalisasi"
+        ],
         "answer": 1,
         "explanation": "Coding adalah proses memberi label pada data mentah sebagai langkah awal analisis."
       },
       {
         "id": "q9-2",
         "question": "Mengelompokkan kode-kode yang berkaitan menjadi pola yang lebih besar disebut…",
-        "options": ["Open coding", "Analisis tematik", "Sampling snowball", "Studi kasus"],
+        "options": [
+          "Open coding",
+          "Analisis tematik",
+          "Sampling snowball",
+          "Studi kasus"
+        ],
         "answer": 1,
         "explanation": "Analisis tematik mengelompokkan kode menjadi tema yang lebih besar dan bermakna."
       },
       {
         "id": "q9-3",
         "question": "Pendekatan yang berusaha membangun TEORI BARU langsung dari data disebut…",
-        "options": ["Grounded theory", "Analisis regresi", "Studi kasus tunggal", "Survei deskriptif"],
+        "options": [
+          "Grounded theory",
+          "Analisis regresi",
+          "Studi kasus tunggal",
+          "Survei deskriptif"
+        ],
         "answer": 0,
         "explanation": "Grounded theory membangun teori baru dari data, bukan menguji teori yang sudah ada."
       },
       {
         "id": "q9-4",
         "question": "Saat menulis hasil kualitatif, klaim tentang sebuah tema sebaiknya didukung oleh…",
-        "options": ["Tabel statistik", "Kutipan langsung dari subjek", "Grafik batang", "Rumus matematis"],
+        "options": [
+          "Tabel statistik",
+          "Kutipan langsung dari subjek",
+          "Grafik batang",
+          "Rumus matematis"
+        ],
         "answer": 1,
         "explanation": "Kutipan langsung berfungsi sebagai bukti konkret di balik klaim tema kualitatif."
       },
       {
         "id": "q9-5",
         "question": "Kriteria trustworthiness yang berarti 'temuan bisa relevan untuk konteks serupa lain' adalah…",
-        "options": ["Credibility", "Transferability", "Dependability", "Confirmability"],
+        "options": [
+          "Credibility",
+          "Transferability",
+          "Dependability",
+          "Confirmability"
+        ],
         "answer": 1,
         "explanation": "Transferability menilai apakah temuan bisa relevan di konteks lain yang serupa."
       },
       {
         "id": "q9-6",
         "question": "Software seperti NVivo dalam analisis kualitatif berfungsi sebagai…",
-        "options": ["Pengganti interpretasi peneliti", "Alat bantu mengorganisasi kode dan tema", "Alat uji statistik utama", "Pengganti wawancara"],
+        "options": [
+          "Pengganti interpretasi peneliti",
+          "Alat bantu mengorganisasi kode dan tema",
+          "Alat uji statistik utama",
+          "Pengganti wawancara"
+        ],
         "answer": 1,
         "explanation": "Software hanya membantu administrasi/organisasi data; interpretasi tetap tugas peneliti."
       },
       {
         "id": "q9-7",
         "question": "Mengonfirmasi tafsiran peneliti kembali ke subjek untuk memastikan keakuratannya disebut…",
-        "options": ["Member checking", "Randomized controlled trial", "Stratified sampling", "Operasionalisasi"],
+        "options": [
+          "Member checking",
+          "Randomized controlled trial",
+          "Stratified sampling",
+          "Operasionalisasi"
+        ],
         "answer": 0,
         "explanation": "Member checking adalah teknik mengonfirmasi tafsiran ke subjek untuk menjaga credibility."
       }
@@ -163,73 +299,158 @@
       {
         "id": "e9-1",
         "question": "Seorang mahasiswa menyusun bab hasil kualitatifnya hanya dengan menceritakan ulang jawaban tiap subjek satu per satu tanpa mencari pola bersama. Kelemahan utama pendekatan ini adalah…",
-        "options": ["Terlalu sedikit subjek", "Ia baru merangkum, belum benar-benar menganalisis pola/tema lintas-subjek", "Seharusnya pakai statistik", "Tidak ada kelemahan"],
+        "options": [
+          "Terlalu sedikit subjek",
+          "Ia baru merangkum, belum benar-benar menganalisis pola/tema lintas-subjek",
+          "Seharusnya pakai statistik",
+          "Tidak ada kelemahan"
+        ],
         "answer": 1,
         "explanation": "Analisis kualitatif menuntut pencarian pola/tema lintas-data, bukan sekadar merangkum jawaban satu per satu."
       },
       {
         "id": "e9-2",
         "question": "Dari 12 subjek yang diwawancarai, tema 'kesepian di kota besar' hanya benar-benar kuat pada 1 subjek, namun peneliti menuliskannya seolah menjadi temuan utama seluruh partisipan. Masalah ini disebut…",
-        "options": ["Triangulasi berlebihan", "Memaksakan tema yang tidak cukup didukung data (masalah credibility)", "Terlalu banyak kutipan", "Kesalahan skala pengukuran"],
+        "options": [
+          "Triangulasi berlebihan",
+          "Memaksakan tema yang tidak cukup didukung data (masalah credibility)",
+          "Terlalu banyak kutipan",
+          "Kesalahan skala pengukuran"
+        ],
         "answer": 1,
         "explanation": "Tema yang diklaim mewakili banyak orang padahal hanya didukung satu subjek merusak credibility temuan."
       },
       {
         "id": "e9-3",
         "question": "Kalimat \"Saya sering begadang sampai jam 3 pagi karena takut hasilnya jelek\" pada tahap open coding paling tepat diberi kode…",
-        "options": ["\"Suka begadang\" saja, tanpa menangkap alasannya", "\"Perfeksionisme\" dan \"kecemasan performa\"", "\"Manajemen waktu buruk\" tanpa kaitan emosi", "Tidak perlu diberi kode karena terlalu personal"],
+        "options": [
+          "\"Suka begadang\" saja, tanpa menangkap alasannya",
+          "\"Perfeksionisme\" dan \"kecemasan performa\"",
+          "\"Manajemen waktu buruk\" tanpa kaitan emosi",
+          "Tidak perlu diberi kode karena terlalu personal"
+        ],
         "answer": 1,
         "explanation": "Open coding menangkap nuansa emosional dan motivasi di balik perilaku, bukan hanya deskripsi permukaan."
       },
       {
         "id": "e9-4",
         "question": "Seorang peneliti mencatat setiap keputusan analisisnya (kenapa kode A digabung ke tema B, dst.) secara rinci agar proses penelitiannya bisa dilacak ulang. Ia sedang menjaga kriteria…",
-        "options": ["Transferability", "Dependability", "Validitas eksperimen", "Reliabilitas kuesioner"],
+        "options": [
+          "Transferability",
+          "Dependability",
+          "Validitas eksperimen",
+          "Reliabilitas kuesioner"
+        ],
         "answer": 1,
         "explanation": "Mencatat jejak keputusan analisis (audit trail) adalah cara menjaga dependability — proses yang konsisten dan bisa dilacak."
       },
       {
         "id": "e9-5",
         "question": "Perbedaan UTAMA antara analisis tematik biasa dan grounded theory adalah…",
-        "options": ["Grounded theory tidak memerlukan data wawancara", "Grounded theory berusaha membangun teori baru dari hubungan antar-tema, bukan sekadar mendeskripsikan tema", "Analisis tematik hanya untuk data kuantitatif", "Tidak ada perbedaan sama sekali"],
+        "options": [
+          "Grounded theory tidak memerlukan data wawancara",
+          "Grounded theory berusaha membangun teori baru dari hubungan antar-tema, bukan sekadar mendeskripsikan tema",
+          "Analisis tematik hanya untuk data kuantitatif",
+          "Tidak ada perbedaan sama sekali"
+        ],
         "answer": 1,
         "explanation": "Grounded theory melangkah lebih jauh dari sekadar mendeskripsikan tema — ia membangun teori dari hubungan antar-tema."
       },
       {
         "id": "e9-6",
         "question": "Seorang peneliti mengutip subjeknya dengan memotong kalimat \"Saya sebenarnya senang kerja kelompok, TAPI kalau anggotanya tidak berkontribusi jadi menyebalkan\" menjadi hanya \"Saya sebenarnya senang kerja kelompok\" untuk mendukung temuan positif. Masalah etis/metodologis di sini adalah…",
-        "options": ["Kutipannya terlalu pendek", "Memotong konteks mengubah makna asli perkataan subjek (merusak confirmability)", "Seharusnya memakai kutipan tidak langsung", "Tidak ada masalah selama kutipannya benar kata per kata"],
+        "options": [
+          "Kutipannya terlalu pendek",
+          "Memotong konteks mengubah makna asli perkataan subjek (merusak confirmability)",
+          "Seharusnya memakai kutipan tidak langsung",
+          "Tidak ada masalah selama kutipannya benar kata per kata"
+        ],
         "answer": 1,
         "explanation": "Mengutip sebagian tanpa konteks bisa mendistorsi makna asli, merusak keakuratan (confirmability) temuan."
       },
       {
         "id": "e9-7",
         "question": "Manakah langkah yang PALING TEPAT urutannya dalam analisis tematik?",
-        "options": ["Menulis kesimpulan → mengumpulkan data → coding", "Mengumpulkan data → open coding → mengelompokkan kode jadi tema → menulis hasil dengan kutipan", "Coding → menyusun kuesioner → mengumpulkan data", "Menulis hasil → coding → mengumpulkan data"],
+        "options": [
+          "Menulis kesimpulan → mengumpulkan data → coding",
+          "Mengumpulkan data → open coding → mengelompokkan kode jadi tema → menulis hasil dengan kutipan",
+          "Coding → menyusun kuesioner → mengumpulkan data",
+          "Menulis hasil → coding → mengumpulkan data"
+        ],
         "answer": 1,
         "explanation": "Urutan logisnya: kumpulkan data, beri kode, kelompokkan jadi tema, baru tulis hasil dengan bukti kutipan."
       },
       {
         "id": "e9-8",
         "question": "Seorang peneliti menuliskan deskripsi konteks penelitiannya secara sangat rinci (thick description) agar pembaca dari sekolah lain bisa menilai sendiri apakah temuannya relevan untuk konteks mereka. Ia sedang mengejar kriteria…",
-        "options": ["Credibility", "Transferability", "Dependability", "Confirmability"],
+        "options": [
+          "Credibility",
+          "Transferability",
+          "Dependability",
+          "Confirmability"
+        ],
         "answer": 1,
         "explanation": "Thick description membantu pembaca menilai transferability — relevansi temuan untuk konteks lain."
       },
       {
         "id": "e9-9",
         "question": "Kenapa satu kalimat subjek boleh diberi LEBIH DARI SATU kode pada tahap open coding?",
-        "options": ["Karena aturan mewajibkan minimal dua kode per kalimat", "Karena tujuannya menangkap sebanyak mungkin nuansa dulu sebelum dirapikan jadi tema", "Karena satu kode dianggap tidak sah secara metodologis", "Tidak ada alasan khusus, hanya kebiasaan"],
+        "options": [
+          "Karena aturan mewajibkan minimal dua kode per kalimat",
+          "Karena tujuannya menangkap sebanyak mungkin nuansa dulu sebelum dirapikan jadi tema",
+          "Karena satu kode dianggap tidak sah secara metodologis",
+          "Tidak ada alasan khusus, hanya kebiasaan"
+        ],
         "answer": 1,
         "explanation": "Open coding sengaja terbuka dan tidak buru-buru merapikan, agar nuansa data tidak hilang terlalu dini."
       },
       {
         "id": "e9-10",
         "question": "Seorang peneliti hanya punya waktu mewawancarai 4 orang karena keterbatasan sampel, lalu langsung mengklaim temuannya berlaku untuk 'seluruh generasi muda Indonesia'. Kesalahan utamanya adalah…",
-        "options": ["Sampel terlalu banyak", "Mencampur logika generalisasi statistik (kuantitatif) ke penelitian kualitatif yang tujuannya pemahaman mendalam, bukan representasi populasi", "Seharusnya memakai eksperimen", "Tidak ada kesalahan"],
+        "options": [
+          "Sampel terlalu banyak",
+          "Mencampur logika generalisasi statistik (kuantitatif) ke penelitian kualitatif yang tujuannya pemahaman mendalam, bukan representasi populasi",
+          "Seharusnya memakai eksperimen",
+          "Tidak ada kesalahan"
+        ],
         "answer": 1,
         "explanation": "Kualitatif dengan sampel kecil bertujuan memahami secara mendalam, bukan menggeneralisasi secara statistik ke populasi besar — klaim seperti itu melampaui apa yang bisa didukung datanya."
       }
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Using thematic analysis in psychology",
+      "author": "Virginia Braun, Victoria Clarke",
+      "year": 2006,
+      "publisher": "Qualitative Research in Psychology, 3(2), 77-101",
+      "note": "Rujukan utama enam tahap analisis tematik."
+    },
+    {
+      "title": "Qualitative Data Analysis: A Methods Sourcebook",
+      "author": "Matthew B. Miles, A. Michael Huberman, Johnny Saldana",
+      "publisher": "SAGE Publications",
+      "note": "Acuan praktik coding dan penyajian data kualitatif."
+    },
+    {
+      "title": "The Coding Manual for Qualitative Researchers",
+      "author": "Johnny Saldana",
+      "publisher": "SAGE Publications",
+      "note": "Katalog teknik coding, termasuk open coding."
+    },
+    {
+      "title": "The Discovery of Grounded Theory: Strategies for Qualitative Research",
+      "author": "Barney G. Glaser, Anselm L. Strauss",
+      "year": 1967,
+      "publisher": "Aldine",
+      "note": "Sumber asli grounded theory dan constant comparison."
+    },
+    {
+      "title": "Naturalistic Inquiry",
+      "author": "Yvonna S. Lincoln, Egon G. Guba",
+      "year": 1985,
+      "publisher": "SAGE Publications",
+      "note": "Asal kriteria trustworthiness: credibility, transferability, dependability, confirmability."
+    }
+  ]
 }
