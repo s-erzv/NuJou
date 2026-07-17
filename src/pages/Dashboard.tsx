@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { levels } from '../data';
 import RoadmapPath from '../components/RoadmapPath';
 import { useStore, XP } from '../store/useStore';
@@ -7,6 +7,7 @@ import ProgressRing from '../components/ProgressRing';
 import { useReveal } from '../lib/useReveal';
 import ShinyText from '../components/reactbits/ShinyText';
 import { useSpotlight } from '../components/reactbits/useSpotlight';
+import Prism from '../components/reactbits/Prism';
 
 const MAX_XP = levels.length * (XP.read + XP.quiz + XP.exam);
 
@@ -17,6 +18,11 @@ export default function Dashboard() {
   const xp = useStore((s) => s.xp);
   const resetAll = useStore((s) => s.resetAll);
   const reveal = useReveal<HTMLDivElement>();
+  const [motionOk, setMotionOk] = useState(false);
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    setMotionOk(!mq.matches);
+  }, []);
 
   const total = levels.length;
   const done = completedCount();
@@ -29,8 +35,24 @@ export default function Dashboard() {
 
   return (
     <div ref={reveal} className="relative">
-      {/* Soft background wash */}
-      <div aria-hidden className="hero-glow pointer-events-none absolute inset-x-0 top-0 h-[380px]" />
+      {/* Animated hero backdrop (Prism), falls back to a static glow under reduced-motion */}
+      <div aria-hidden className="hero-prism pointer-events-none absolute inset-x-0 top-0 h-[420px] overflow-hidden">
+        {motionOk ? (
+          <Prism
+            height={3.2}
+            baseWidth={5.5}
+            animationType="rotate"
+            glow={0.7}
+            bloom={0.8}
+            hueShift={0.9}
+            colorFrequency={1}
+            timeScale={0.35}
+            scale={3.4}
+          />
+        ) : (
+          <div className="hero-glow absolute inset-0" />
+        )}
+      </div>
 
       <div className="container-academic relative py-12">
         {/* Hero */}
