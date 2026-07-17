@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import { Stage, Layer, Line, Transformer } from 'react-konva';
+import { Stage, Layer, Line, Text, Group, Rect, Transformer } from 'react-konva';
 import type Konva from 'konva';
 import { PenIcon } from '../components/icons';
 import { useReveal } from '../lib/useReveal';
 import ClickSpark from '../components/reactbits/ClickSpark';
 import { createId } from '../components/whiteboard/types';
+import TextEditorOverlay from '../components/whiteboard/TextEditorOverlay';
 import type {
   CanvasObject,
   LineObject,
@@ -44,6 +45,13 @@ export default function Whiteboard() {
   const [strokeWidth, setStrokeWidth] = useState(SIZES[1]);
   const [objects, setObjects] = useState<CanvasObject[]>([]);
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const [editorRect, setEditorRect] = useState<{
+    x: number;
+    y: number;
+    width: number;
+    height: number;
+  } | null>(null);
 
   useEffect(() => {
     const updateSize = () => {
@@ -86,6 +94,28 @@ export default function Whiteboard() {
     nodesRef.current[id] = node;
   };
 
+  const getEditorRect = (id: string) => {
+    const stage = stageRef.current;
+    const node = nodesRef.current[id];
+    if (!stage || !node) return null;
+    return node.getClientRect({ relativeTo: stage });
+  };
+
+  // Recompute the overlay's position after the Konva node has actually
+  // mounted/updated. When a text/sticky object is *just* created, its Konva
+  // node's ref callback hasn't fired yet during the render that sets
+  // `editingId` (refs attach during commit, after this render's JSX runs),
+  // so calling `getEditorRect` synchronously in render would read a stale
+  // `nodesRef` entry and return null. Running it here instead, after commit,
+  // guarantees the node is registered.
+  useEffect(() => {
+    if (!editingId) {
+      setEditorRect(null);
+      return;
+    }
+    setEditorRect(getEditorRect(editingId));
+  }, [editingId, objects]);
+
   const handleObjectChange = (id: string, attrs: ObjectPatch) => {
     setObjects((prev) => prev.map((obj) => (obj.id === id ? ({ ...obj, ...attrs } as CanvasObject) : obj)));
   };
@@ -107,6 +137,48 @@ export default function Whiteboard() {
         strokeWidth,
       };
       setObjects((prev) => [...prev, newLine]);
+      return;
+    }
+
+    if (tool === 'text') {
+      const pos = stage.getPointerPosition();
+      if (!pos) return;
+      const id = createId('text');
+      const newText: TextObject = {
+        id,
+        kind: 'text',
+        x: pos.x,
+        y: pos.y,
+        text: 'Ketik di sini',
+        fontSize: 20,
+        fill: color,
+        width: 220,
+      };
+      setObjects((prev) => [...prev, newText]);
+      setTool('select');
+      setSelectedId(id);
+      setEditingId(id);
+      return;
+    }
+
+    if (tool === 'sticky') {
+      const pos = stage.getPointerPosition();
+      if (!pos) return;
+      const id = createId('sticky');
+      const newSticky: StickyObject = {
+        id,
+        kind: 'sticky',
+        x: pos.x,
+        y: pos.y,
+        width: 180,
+        height: 140,
+        fill: color,
+        text: 'Catatan...',
+      };
+      setObjects((prev) => [...prev, newSticky]);
+      setTool('select');
+      setSelectedId(id);
+      setEditingId(id);
       return;
     }
 
@@ -186,6 +258,22 @@ export default function Whiteboard() {
             }`}
           >
             Pena
+          </button>
+          <button
+            onClick={() => setTool('text')}
+            className={`rounded-md px-3 py-1.5 text-sm font-semibold transition ${
+              tool === 'text' ? 'bg-sky-600 text-white' : 'bg-white text-slate-600 hover:bg-sky-50'
+            }`}
+          >
+            Teks
+          </button>
+          <button
+            onClick={() => setTool('sticky')}
+            className={`rounded-md px-3 py-1.5 text-sm font-semibold transition ${
+              tool === 'sticky' ? 'bg-sky-600 text-white' : 'bg-white text-slate-600 hover:bg-sky-50'
+            }`}
+          >
+            Sticky Note
           </button>
         </div>
 
@@ -282,9 +370,138 @@ export default function Whiteboard() {
                 />
               );
             })}
+            {objects.map((obj) => {
+              if (obj.kind === 'text') {
+                return (
+                  <Text
+                    key={obj.id}
+                    id={obj.id}
+                    x={obj.x}
+                    y={obj.y}
+                    text={obj.text}
+                    fontSize={obj.fontSize}
+                    fontFamily="Inter, sans-serif"
+                    fill={obj.fill}
+                    width={obj.width}
+                    rotation={obj.rotation ?? 0}
+                    draggable={tool === 'select'}
+                    visible={editingId !== obj.id}
+                    onClick={() => tool === 'select' && setSelectedId(obj.id)}
+                    onTap={() => tool === 'select' && setSelectedId(obj.id)}
+                    onDblClick={() => {
+                      setSelectedId(obj.id);
+                      setEditingId(obj.id);
+                    }}
+                    onDblTap={() => {
+                      setSelectedId(obj.id);
+                      setEditingId(obj.id);
+                    }}
+                    onDragEnd={(e) =>
+                      handleObjectChange(obj.id, { x: e.target.x(), y: e.target.y() })
+                    }
+                    onTransformEnd={(e) => {
+                      const node = e.target;
+                      const scaleX = node.scaleX();
+                      node.scaleX(1);
+                      node.scaleY(1);
+                      handleObjectChange(obj.id, {
+                        x: node.x(),
+                        y: node.y(),
+                        width: Math.max(40, node.width() * scaleX),
+                        rotation: node.rotation(),
+                      });
+                    }}
+                    ref={(node) => registerNode(obj.id, node)}
+                  />
+                );
+              }
+
+              if (obj.kind === 'sticky') {
+                return (
+                  <Group
+                    key={obj.id}
+                    id={obj.id}
+                    x={obj.x}
+                    y={obj.y}
+                    rotation={obj.rotation ?? 0}
+                    draggable={tool === 'select'}
+                    visible={editingId !== obj.id}
+                    onClick={() => tool === 'select' && setSelectedId(obj.id)}
+                    onTap={() => tool === 'select' && setSelectedId(obj.id)}
+                    onDblClick={() => {
+                      setSelectedId(obj.id);
+                      setEditingId(obj.id);
+                    }}
+                    onDblTap={() => {
+                      setSelectedId(obj.id);
+                      setEditingId(obj.id);
+                    }}
+                    onDragEnd={(e) =>
+                      handleObjectChange(obj.id, { x: e.target.x(), y: e.target.y() })
+                    }
+                    onTransformEnd={(e) => {
+                      const node = e.target;
+                      const scaleX = node.scaleX();
+                      const scaleY = node.scaleY();
+                      node.scaleX(1);
+                      node.scaleY(1);
+                      handleObjectChange(obj.id, {
+                        x: node.x(),
+                        y: node.y(),
+                        width: Math.max(80, obj.width * scaleX),
+                        height: Math.max(60, obj.height * scaleY),
+                        rotation: node.rotation(),
+                      });
+                    }}
+                    ref={(node) => registerNode(obj.id, node)}
+                  >
+                    <Rect
+                      width={obj.width}
+                      height={obj.height}
+                      fill={obj.fill}
+                      cornerRadius={10}
+                      shadowColor="rgba(15, 23, 42, 0.25)"
+                      shadowBlur={10}
+                      shadowOffset={{ x: 0, y: 4 }}
+                    />
+                    <Text
+                      text={obj.text}
+                      width={obj.width}
+                      height={obj.height}
+                      padding={12}
+                      fontSize={16}
+                      fontFamily="Inter, sans-serif"
+                      fill="#0f172a"
+                    />
+                  </Group>
+                );
+              }
+
+              return null;
+            })}
             <Transformer ref={trRef} rotateEnabled />
           </Layer>
         </Stage>
+        {editingId &&
+          (() => {
+            const obj = objects.find((o) => o.id === editingId);
+            const rect = editorRect;
+            if (!obj || !rect || (obj.kind !== 'text' && obj.kind !== 'sticky')) return null;
+            return (
+              <TextEditorOverlay
+                x={rect.x}
+                y={rect.y}
+                width={obj.kind === 'sticky' ? obj.width - 16 : obj.width}
+                fontSize={obj.kind === 'sticky' ? 16 : obj.fontSize}
+                value={obj.text}
+                onCommit={(value) => {
+                  handleObjectChange(editingId, { text: value });
+                  setEditingId(null);
+                }}
+                onCancel={() => setEditingId(null)}
+              />
+            );
+          })()}
       </div>
       <p className="mt-2 text-center text-xs text-slate-400">
         Catatan: gambar tidak tersimpan otomatis. Gunakan "Unduh PNG" untuk menyimpan karya Anda.
