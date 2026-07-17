@@ -16,7 +16,7 @@ interface ClickSparkProps {
 export default function ClickSpark({
   children,
   className = '',
-  color = '#0284c7',
+  color = '#3e4183',
   sparkCount = 8,
 }: ClickSparkProps) {
   const hostRef = useRef<HTMLDivElement>(null);

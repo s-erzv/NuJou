@@ -44,7 +44,7 @@ export default function Dashboard() {
             animationType="rotate"
             glow={0.7}
             bloom={0.8}
-            hueShift={0.9}
+            hueShift={2.1}
             colorFrequency={1}
             timeScale={0.35}
             scale={3.4}
@@ -57,7 +57,7 @@ export default function Dashboard() {
       <div className="container-academic relative py-12">
         {/* Hero */}
         <section className="mb-10 text-center">
-          <h1 className="animate-fade-in-up text-5xl font-bold leading-tight tracking-tight sm:text-6xl">
+          <h1 className="animate-fade-in-up font-display text-5xl font-bold leading-tight tracking-tight sm:text-6xl">
             <ShinyText>Belajar Menulis Akademik</ShinyText>
           </h1>
           <p className="animate-fade-in-up mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-slate-600" style={{ animationDelay: '120ms' }}>

@@ -39,7 +39,7 @@ function NodeCircle({
     <div
       className={`grid h-16 w-16 place-items-center rounded-full text-lg font-bold ring-4 ring-white transition ${
         passed
-          ? 'bg-gradient-to-br from-sky-500 to-sky-700 text-white'
+          ? 'bg-gradient-to-br from-moss-500 to-moss-700 text-white'
           : locked
             ? 'bg-slate-100 text-slate-400'
             : 'bg-sky-100 text-sky-700'
@@ -53,9 +53,12 @@ function NodeCircle({
 function CurrentLevelCard({ level, read }: { level: Level; read: boolean }) {
   return (
     <div className="w-64 rounded-2xl border border-sky-200 bg-white p-4 text-left shadow-lift sm:w-72">
-      <span className="inline-flex items-center gap-1 rounded-full bg-sky-600 px-2 py-0.5 text-xs font-semibold text-white">
-        Lanjutkan di sini
-      </span>
+      <div className="flex items-center gap-2">
+        <span className="inline-flex items-center gap-1 rounded-full bg-sky-600 px-2 py-0.5 text-xs font-semibold text-white">
+          Lanjutkan di sini
+        </span>
+        <span className="margin-note text-base">yuk, lanjut! ✎</span>
+      </div>
       <h3 className="mt-2 text-lg font-bold text-slate-900">{level.title}</h3>
       <p className="text-sm text-slate-500">{level.subtitle}</p>
       <div className="mt-2 flex flex-wrap items-center gap-2 text-xs text-slate-500">
@@ -101,8 +104,8 @@ export default function RoadmapPath({ levels, progress, isLevelUnlocked, current
         preserveAspectRatio="none"
         aria-hidden
       >
-        <path d={dashedPath} fill="none" stroke="#bae6fd" strokeWidth="1.2" strokeDasharray="4 4" vectorEffect="non-scaling-stroke" />
-        <path d={solidPath} fill="none" stroke="#0284c7" strokeWidth="1.6" vectorEffect="non-scaling-stroke" />
+        <path d={dashedPath} fill="none" stroke="#c4c5e3" strokeWidth="1.2" strokeDasharray="4 4" vectorEffect="non-scaling-stroke" />
+        <path d={solidPath} fill="none" stroke="#587b43" strokeWidth="1.6" vectorEffect="non-scaling-stroke" />
       </svg>
 
       {levels.map((level, idx) => {
