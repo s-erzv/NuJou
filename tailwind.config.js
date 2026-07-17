@@ -4,19 +4,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Fountain-pen ink blue — the primary accent (kept under the `sky`
-        // key so every existing sky-* utility across the app repaints here).
+        // Sky blue — the primary accent across the whole app.
         sky: {
-          50: '#f1f1f9',
-          100: '#e1e2f1',
-          200: '#c4c5e3',
-          300: '#9ea0ce',
-          400: '#7679b7',
-          500: '#52559d',
-          600: '#3e4183',
-          700: '#30326a',
-          800: '#242551',
-          900: '#191a3a',
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          200: '#bae6fd',
+          300: '#7dd3fc',
+          400: '#38bdf8',
+          500: '#0ea5e9',
+          600: '#0284c7',
+          700: '#0369a1',
+          800: '#075985',
+          900: '#0c4a6e',
         },
         // Sienna — the "editor's pen" accent for marginalia, tips, and the
         // handwritten margin-note signature element. Used sparingly.

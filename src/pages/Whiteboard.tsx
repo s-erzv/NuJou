@@ -16,7 +16,7 @@ import type {
   ToolMode,
 } from '../components/whiteboard/types';
 
-const COLORS = ['#0f172a', '#3e4183', '#52559d', '#a35f2c', '#ef4444', '#436233', '#f59e0b'];
+const COLORS = ['#0f172a', '#0284c7', '#0ea5e9', '#a35f2c', '#ef4444', '#436233', '#f59e0b'];
 const SIZES = [2, 4, 8, 16];
 
 interface FrameworkSection {
@@ -176,8 +176,13 @@ type ObjectPatch = Partial<LineObject> &
   Partial<RectObject> &
   Partial<EllipseObject>;
 
+/** Canvas height range for the size slider, in px. */
+const MIN_CANVAS_HEIGHT = 320;
+const MAX_CANVAS_HEIGHT = 1400;
+
 export default function Whiteboard() {
   const reveal = useReveal<HTMLDivElement>();
+  const shellRef = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const stageRef = useRef<Konva.Stage>(null);
   const trRef = useRef<Konva.Transformer>(null);
@@ -187,6 +192,8 @@ export default function Whiteboard() {
   const drawingShapeId = useRef<string | null>(null);
 
   const [size, setSize] = useState({ width: 800, height: 520 });
+  const [canvasHeight, setCanvasHeight] = useState(520);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const [stageTransform, setStageTransform] = useState({ scale: 1, x: 0, y: 0 });
   const lastPinchDist = useRef<number | null>(null);
   const [tool, setTool] = useState<ToolMode>('pen');
@@ -202,18 +209,40 @@ export default function Whiteboard() {
     height: number;
   } | null>(null);
 
+  // Canvas dimensions: width always follows the container; height follows the
+  // size slider, except in fullscreen where the canvas fills the leftover
+  // viewport space below the toolbar.
   useEffect(() => {
     const updateSize = () => {
       const parent = containerRef.current;
       if (!parent) return;
-      const width = parent.clientWidth;
-      const height = width < 640 ? 360 : 520;
-      setSize({ width, height });
+      setSize({ width: parent.clientWidth, height: parent.clientHeight });
     };
     updateSize();
+
+    const ro = new ResizeObserver(updateSize);
+    if (containerRef.current) ro.observe(containerRef.current);
     window.addEventListener('resize', updateSize);
-    return () => window.removeEventListener('resize', updateSize);
+    return () => {
+      ro.disconnect();
+      window.removeEventListener('resize', updateSize);
+    };
   }, []);
+
+  // Keep React state in sync when the user leaves fullscreen via Esc / browser UI.
+  useEffect(() => {
+    const onFsChange = () => setIsFullscreen(Boolean(document.fullscreenElement));
+    document.addEventListener('fullscreenchange', onFsChange);
+    return () => document.removeEventListener('fullscreenchange', onFsChange);
+  }, []);
+
+  const toggleFullscreen = async () => {
+    if (document.fullscreenElement) {
+      await document.exitFullscreen();
+    } else if (shellRef.current) {
+      await shellRef.current.requestFullscreen();
+    }
+  };
 
   useEffect(() => {
     if (!trRef.current) return;
@@ -524,7 +553,7 @@ export default function Whiteboard() {
         y: baseY,
         text: tpl.title,
         fontSize: 24,
-        fill: '#30326a',
+        fill: '#0369a1',
         width: 420,
       },
       {
@@ -534,8 +563,8 @@ export default function Whiteboard() {
         y: baseY + 40,
         width: 320,
         height: 2,
-        fill: '#c4c5e3',
-        stroke: '#c4c5e3',
+        fill: '#bae6fd',
+        stroke: '#bae6fd',
       },
     ];
 
@@ -607,7 +636,7 @@ export default function Whiteboard() {
 
   return (
     <div ref={reveal} className="container-academic py-10">
-      <header className="reveal mb-6">
+      <header className={`reveal mb-6 ${isFullscreen ? 'hidden' : ''}`}>
         <p className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-widest text-sky-600">
           <PenIcon className="h-4 w-4" /> Papan Tulis
         </p>
@@ -620,8 +649,12 @@ export default function Whiteboard() {
         </p>
       </header>
 
+      <div
+        ref={shellRef}
+        className={isFullscreen ? 'flex h-screen flex-col gap-2 bg-white p-3' : undefined}
+      >
       {/* Quick templates */}
-      <div className="reveal mb-3 flex flex-wrap items-center gap-2">
+      <div className={`reveal mb-3 flex flex-wrap items-center gap-2 ${isFullscreen ? 'hidden' : ''}`}>
         <span className="text-sm font-semibold text-slate-500">Sisipkan kerangka:</span>
         {Object.entries(TEMPLATES).map(([key, tpl]) => (
           <button
@@ -701,6 +734,26 @@ export default function Whiteboard() {
               style={{ backgroundColor: c }}
             />
           ))}
+          {/* Free color pick — the swatch doubles as the current-color preview */}
+          <label
+            title="Pilih warna bebas"
+            className={`relative grid h-7 w-7 cursor-pointer place-items-center overflow-hidden rounded-full ring-2 ring-offset-2 transition ${
+              COLORS.includes(color) ? 'ring-transparent' : 'ring-sky-500'
+            }`}
+            style={{
+              background: COLORS.includes(color)
+                ? 'conic-gradient(#ef4444, #f59e0b, #16a34a, #0ea5e9, #6366f1, #ec4899, #ef4444)'
+                : color,
+            }}
+          >
+            <input
+              type="color"
+              value={color}
+              onChange={(e) => setColor(e.target.value)}
+              aria-label="Pilih warna bebas"
+              className="absolute inset-0 cursor-pointer opacity-0"
+            />
+          </label>
         </div>
 
         <div className="h-6 w-px bg-sky-200" />
@@ -733,6 +786,9 @@ export default function Whiteboard() {
           <button onClick={resetView} className="btn-ghost px-3 py-1.5 text-sm">
             Reset
           </button>
+          <button onClick={toggleFullscreen} className="btn-ghost px-3 py-1.5 text-sm">
+            {isFullscreen ? 'Keluar Layar Penuh' : 'Layar Penuh'}
+          </button>
           {selectedId && (
             <button
               onClick={deleteSelected}
@@ -752,10 +808,33 @@ export default function Whiteboard() {
         </div>
       </div>
 
+      {/* Canvas size slider — hidden in fullscreen, where the canvas fills the screen */}
+      {!isFullscreen && (
+        <div className="mb-3 flex items-center gap-3">
+          <label htmlFor="canvas-height" className="shrink-0 text-sm font-semibold text-slate-500">
+            Tinggi kanvas
+          </label>
+          <input
+            id="canvas-height"
+            type="range"
+            min={MIN_CANVAS_HEIGHT}
+            max={MAX_CANVAS_HEIGHT}
+            step={20}
+            value={canvasHeight}
+            onChange={(e) => setCanvasHeight(Number(e.target.value))}
+            className="h-1.5 w-full max-w-xs cursor-pointer appearance-none rounded-full bg-sky-100 accent-sky-600"
+          />
+          <span className="w-16 shrink-0 text-xs font-semibold text-slate-400">{canvasHeight}px</span>
+        </div>
+      )}
+
       {/* Canvas */}
       <div
         ref={containerRef}
-        className="reveal relative overflow-hidden rounded-2xl border border-sky-100 bg-white shadow-card"
+        style={isFullscreen ? undefined : { height: canvasHeight }}
+        className={`reveal relative overflow-hidden border border-sky-100 bg-white ${
+          isFullscreen ? 'min-h-0 flex-1 rounded-lg' : 'rounded-2xl shadow-card'
+        }`}
       >
         <Stage
           ref={stageRef}
@@ -1013,9 +1092,12 @@ export default function Whiteboard() {
             );
           })()}
       </div>
-      <p className="mt-2 text-center text-xs text-slate-400">
-        Catatan: gambar tidak tersimpan otomatis. Gunakan "Unduh PNG" untuk menyimpan karya Anda.
-      </p>
+      {!isFullscreen && (
+        <p className="mt-2 text-center text-xs text-slate-400">
+          Catatan: gambar tidak tersimpan otomatis. Gunakan "Unduh PNG" untuk menyimpan karya Anda.
+        </p>
+      )}
+      </div>
     </div>
   );
 }

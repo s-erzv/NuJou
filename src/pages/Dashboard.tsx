@@ -44,7 +44,7 @@ export default function Dashboard() {
             animationType="rotate"
             glow={0.7}
             bloom={0.8}
-            hueShift={2.1}
+            hueShift={0}
             colorFrequency={1}
             timeScale={0.35}
             scale={3.4}

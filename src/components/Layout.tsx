@@ -1,9 +1,10 @@
 import { NavLink, Outlet, Link } from 'react-router-dom';
 import GlassSurface from './reactbits/GlassSurface';
-import { MapIcon, PenIcon, EcosystemIcon } from './icons';
+import { HomeIcon, MapIcon, PenIcon, EcosystemIcon } from './icons';
 
 const navLinks = [
-  { to: '/', label: 'Roadmap', end: true, icon: MapIcon },
+  { to: '/', label: 'Beranda', end: true, icon: HomeIcon },
+  { to: '/roadmap', label: 'Roadmap', end: false, icon: MapIcon },
   { to: '/papan-tulis', label: 'Papan Tulis', end: false, icon: PenIcon },
   { to: '/ekosistem', label: 'Ekosistem', end: false, icon: EcosystemIcon },
 ];

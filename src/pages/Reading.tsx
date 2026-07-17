@@ -3,6 +3,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { getLevel } from '../data';
 import { useStore } from '../store/useStore';
 import ContentRenderer from '../components/ContentRenderer';
+import SourceList from '../components/SourceList';
 import { ArrowIcon, CheckIcon } from '../components/icons';
 import { useReveal } from '../lib/useReveal';
 import ClickSpark from '../components/reactbits/ClickSpark';
@@ -78,6 +79,8 @@ export default function Reading() {
               </section>
             ))}
           </div>
+
+          {level.sources && level.sources.length > 0 && <SourceList sources={level.sources} />}
 
           <div className="reveal mt-12 rounded-2xl border border-sky-100 bg-gradient-to-br from-sky-50 to-white p-6 shadow-card">
             <h2 className="font-serif text-xl font-bold text-slate-900">Uji Pemahamanmu</h2>

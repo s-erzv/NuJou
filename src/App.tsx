@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
+import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
 import Reading from './pages/Reading';
 import Assessment from './pages/Assessment';
@@ -11,7 +12,8 @@ export default function App() {
   return (
     <Routes>
       <Route element={<Layout />}>
-        <Route index element={<Dashboard />} />
+        <Route index element={<Landing />} />
+        <Route path="/roadmap" element={<Dashboard />} />
         <Route path="/level/:slug" element={<Reading />} />
         <Route path="/level/:slug/quiz" element={<Assessment kind="quiz" />} />
         <Route path="/level/:slug/exam" element={<Assessment kind="exam" />} />

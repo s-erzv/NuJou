@@ -1,0 +1,37 @@
+/* Upstream bleeds the stack off the bottom-right corner of its parent. Here the
+   stack sits inside a normal content column instead, so it's centred: cards fan
+   right and up from the container, so the container is offset left and down by
+   half that fan to land the stack's visual centre on the parent's centre. The
+   offsets are set per-instance via --swap-nudge-x / --swap-nudge-y. */
+.card-swap-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(var(--swap-nudge-x, -69%), var(--swap-nudge-y, -22%));
+  transform-origin: center center;
+  perspective: 900px;
+  overflow: visible;
+}
+
+.card-swap-container .card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 16px;
+  transform-style: preserve-3d;
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+@media (max-width: 768px) {
+  .card-swap-container {
+    transform: translate(var(--swap-nudge-x, -69%), var(--swap-nudge-y, -22%)) scale(0.8);
+  }
+}
+
+@media (max-width: 480px) {
+  .card-swap-container {
+    transform: translate(var(--swap-nudge-x, -69%), var(--swap-nudge-y, -22%)) scale(0.62);
+  }
+}

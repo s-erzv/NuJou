@@ -36,6 +36,20 @@ export interface Assessment {
   questions: Question[];
 }
 
+/** A reference the level's material draws on, shown as "Sumber Materi". */
+export interface Source {
+  /** Book/article/page title. */
+  title: string;
+  /** Author or publishing organisation. */
+  author?: string;
+  year?: number;
+  /** Journal, publisher, or site the source lives in. */
+  publisher?: string;
+  url?: string;
+  /** One line on what this source is used for in this level. */
+  note?: string;
+}
+
 export interface Level {
   id: number;
   slug: string;
@@ -46,6 +60,8 @@ export interface Level {
   sections: Section[];
   quiz: Assessment;
   exam: Assessment;
+  /** Reading/reference list backing this level's material. */
+  sources?: Source[];
 }
 
 // ---- Progress model (persisted by Zustand) ----

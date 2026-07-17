@@ -39,7 +39,7 @@ export default function TextEditorOverlay({
         width,
         fontSize,
         fontFamily: 'Inter, sans-serif',
-        border: '1px solid #7679b7',
+        border: '1px solid #38bdf8',
         borderRadius: 6,
         padding: 4,
         background: 'white',
