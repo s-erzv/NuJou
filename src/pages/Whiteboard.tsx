@@ -441,11 +441,24 @@ export default function Whiteboard() {
   const download = () => {
     const stage = stageRef.current;
     if (!stage) return;
-    const uri = stage.toDataURL({ pixelRatio: 2 });
-    const link = document.createElement('a');
-    link.download = `nujou-outline-${Date.now()}.png`;
-    link.href = uri;
-    link.click();
+
+    const exportPng = () => {
+      const uri = stage.toDataURL({ pixelRatio: 2 });
+      const link = document.createElement('a');
+      link.download = `nujou-outline-${Date.now()}.png`;
+      link.href = uri;
+      link.click();
+    };
+
+    // Deselect first so the Transformer's selection handles aren't baked
+    // into the exported image. Wait two frames for the deselect effect to
+    // detach the Transformer and Konva to redraw before capturing.
+    if (selectedId) {
+      setSelectedId(null);
+      requestAnimationFrame(() => requestAnimationFrame(exportPng));
+    } else {
+      exportPng();
+    }
   };
 
   return (
@@ -479,7 +492,7 @@ export default function Whiteboard() {
 
       {/* Toolbar */}
       <div className="mb-3 flex flex-wrap items-center gap-4 rounded-xl border border-sky-100 bg-sky-50/50 p-3">
-        <div className="flex items-center gap-1">
+        <div className="flex flex-wrap items-center gap-1">
           <button
             onClick={() => setTool('select')}
             className={`rounded-md px-3 py-1.5 text-sm font-semibold transition ${
@@ -563,7 +576,7 @@ export default function Whiteboard() {
           ))}
         </div>
 
-        <div className="ml-auto flex items-center gap-2">
+        <div className="ml-auto flex flex-wrap items-center gap-2">
           <button onClick={() => zoomBy(0.85)} className="btn-ghost px-3 py-1.5 text-sm" aria-label="Perkecil">
             −
           </button>
