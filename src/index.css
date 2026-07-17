@@ -261,12 +261,6 @@
     transform: rotate(-2deg);
   }
 
-  .hero-prism {
-    opacity: 0.85;
-    mask-image: radial-gradient(ellipse 60% 55% at 50% 35%, transparent 35%, black 78%);
-    -webkit-mask-image: radial-gradient(ellipse 60% 55% at 50% 35%, transparent 35%, black 78%);
-  }
-
   /* ---- React Bits-style primitives (ported, dependency-free) ---- */
 
   /* GlassSurface: liquid-glass panel — SVG chromatic-aberration displacement
