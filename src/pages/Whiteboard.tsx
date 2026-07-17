@@ -138,7 +138,7 @@ export default function Whiteboard() {
 
     if (tool === 'pen') {
       isDrawing.current = true;
-      const pos = stage.getPointerPosition();
+      const pos = stage.getRelativePointerPosition();
       if (!pos) return;
       const newLine: LineObject = {
         id: createId('line'),
@@ -152,7 +152,7 @@ export default function Whiteboard() {
     }
 
     if (tool === 'rect' || tool === 'ellipse') {
-      const pos = stage.getPointerPosition();
+      const pos = stage.getRelativePointerPosition();
       if (!pos) return;
       const id = createId(tool);
       shapeStart.current = pos;
@@ -186,7 +186,7 @@ export default function Whiteboard() {
     }
 
     if (tool === 'text') {
-      const pos = stage.getPointerPosition();
+      const pos = stage.getRelativePointerPosition();
       if (!pos) return;
       const id = createId('text');
       const newText: TextObject = {
@@ -207,7 +207,7 @@ export default function Whiteboard() {
     }
 
     if (tool === 'sticky') {
-      const pos = stage.getPointerPosition();
+      const pos = stage.getRelativePointerPosition();
       if (!pos) return;
       const id = createId('sticky');
       const newSticky: StickyObject = {
@@ -236,7 +236,7 @@ export default function Whiteboard() {
     const stage = stageRef.current;
 
     if (tool === 'pen' && isDrawing.current) {
-      const pos = stage?.getPointerPosition();
+      const pos = stage?.getRelativePointerPosition();
       if (!pos) return;
       setObjects((prev) => {
         const last = prev[prev.length - 1];
@@ -248,7 +248,7 @@ export default function Whiteboard() {
     }
 
     if ((tool === 'rect' || tool === 'ellipse') && drawingShapeId.current && shapeStart.current) {
-      const pos = stage?.getPointerPosition();
+      const pos = stage?.getRelativePointerPosition();
       if (!pos) return;
       const start = shapeStart.current;
       const id = drawingShapeId.current;
