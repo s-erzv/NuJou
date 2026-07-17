@@ -42,6 +42,8 @@ export default function Whiteboard() {
   const drawingShapeId = useRef<string | null>(null);
 
   const [size, setSize] = useState({ width: 800, height: 520 });
+  const [stageTransform, setStageTransform] = useState({ scale: 1, x: 0, y: 0 });
+  const lastPinchDist = useRef<number | null>(null);
   const [tool, setTool] = useState<ToolMode>('pen');
   const [color, setColor] = useState(COLORS[1]);
   const [strokeWidth, setStrokeWidth] = useState(SIZES[1]);
@@ -100,7 +102,14 @@ export default function Whiteboard() {
     const stage = stageRef.current;
     const node = nodesRef.current[id];
     if (!stage || !node) return null;
-    return node.getClientRect({ relativeTo: stage });
+    const scale = stage.scaleX();
+    const box = node.getClientRect({ relativeTo: stage });
+    return {
+      x: stage.x() + box.x * scale,
+      y: stage.y() + box.y * scale,
+      width: box.width * scale,
+      height: box.height * scale,
+    };
   };
 
   // Recompute the overlay's position after the Konva node has actually
@@ -281,6 +290,74 @@ export default function Whiteboard() {
     shapeStart.current = null;
   };
 
+  const zoomBy = (factor: number) => {
+    setStageTransform((prev) => {
+      const newScale = Math.min(4, Math.max(0.4, prev.scale * factor));
+      const center = { x: size.width / 2, y: size.height / 2 };
+      const mousePointTo = { x: (center.x - prev.x) / prev.scale, y: (center.y - prev.y) / prev.scale };
+      return {
+        scale: newScale,
+        x: center.x - mousePointTo.x * newScale,
+        y: center.y - mousePointTo.y * newScale,
+      };
+    });
+  };
+
+  const resetView = () => setStageTransform({ scale: 1, x: 0, y: 0 });
+
+  const handleWheel = (e: Konva.KonvaEventObject<WheelEvent>) => {
+    e.evt.preventDefault();
+    const stage = stageRef.current;
+    if (!stage) return;
+    const pointer = stage.getPointerPosition();
+    if (!pointer) return;
+    const oldScale = stageTransform.scale;
+    const mousePointTo = {
+      x: (pointer.x - stageTransform.x) / oldScale,
+      y: (pointer.y - stageTransform.y) / oldScale,
+    };
+    const direction = e.evt.deltaY > 0 ? -1 : 1;
+    const scaleBy = 1.05;
+    const newScale = Math.min(4, Math.max(0.4, direction > 0 ? oldScale * scaleBy : oldScale / scaleBy));
+    setStageTransform({
+      scale: newScale,
+      x: pointer.x - mousePointTo.x * newScale,
+      y: pointer.y - mousePointTo.y * newScale,
+    });
+  };
+
+  const getTouchDistance = (touches: TouchList) => {
+    const a = touches[0];
+    const b = touches[1];
+    return Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+  };
+
+  const handleTouchStartWrapped = (e: Konva.KonvaEventObject<TouchEvent>) => {
+    if (e.evt.touches.length === 2) {
+      lastPinchDist.current = getTouchDistance(e.evt.touches);
+      return;
+    }
+    handleStageMouseDown(e);
+  };
+
+  const handleTouchMoveWrapped = (e: Konva.KonvaEventObject<TouchEvent>) => {
+    if (e.evt.touches.length === 2) {
+      e.evt.preventDefault();
+      const dist = getTouchDistance(e.evt.touches);
+      if (lastPinchDist.current != null) {
+        zoomBy(dist / lastPinchDist.current);
+      }
+      lastPinchDist.current = dist;
+      return;
+    }
+    handleStageMouseMove();
+  };
+
+  const handleTouchEndWrapped = () => {
+    lastPinchDist.current = null;
+    handleStageMouseUp();
+  };
+
   const deleteSelected = () => {
     if (!selectedId) return;
     setObjects((prev) => prev.filter((o) => o.id !== selectedId));
@@ -404,6 +481,18 @@ export default function Whiteboard() {
         </div>
 
         <div className="ml-auto flex items-center gap-2">
+          <button onClick={() => zoomBy(0.85)} className="btn-ghost px-3 py-1.5 text-sm" aria-label="Perkecil">
+            −
+          </button>
+          <span className="w-12 text-center text-xs font-semibold text-slate-500">
+            {Math.round(stageTransform.scale * 100)}%
+          </span>
+          <button onClick={() => zoomBy(1.15)} className="btn-ghost px-3 py-1.5 text-sm" aria-label="Perbesar">
+            +
+          </button>
+          <button onClick={resetView} className="btn-ghost px-3 py-1.5 text-sm">
+            Reset
+          </button>
           {selectedId && (
             <button
               onClick={deleteSelected}
@@ -432,12 +521,23 @@ export default function Whiteboard() {
           ref={stageRef}
           width={size.width}
           height={size.height}
+          scaleX={stageTransform.scale}
+          scaleY={stageTransform.scale}
+          x={stageTransform.x}
+          y={stageTransform.y}
+          draggable={tool === 'select'}
+          onWheel={handleWheel}
+          onDragEnd={(e) => {
+            if (e.target === e.target.getStage()) {
+              setStageTransform((prev) => ({ ...prev, x: e.target.x(), y: e.target.y() }));
+            }
+          }}
           onMouseDown={handleStageMouseDown}
           onMouseMove={handleStageMouseMove}
           onMouseUp={handleStageMouseUp}
-          onTouchStart={handleStageMouseDown}
-          onTouchMove={handleStageMouseMove}
-          onTouchEnd={handleStageMouseUp}
+          onTouchStart={handleTouchStartWrapped}
+          onTouchMove={handleTouchMoveWrapped}
+          onTouchEnd={handleTouchEndWrapped}
         >
           <Layer>
             {objects.map((obj) => {
@@ -661,8 +761,8 @@ export default function Whiteboard() {
               <TextEditorOverlay
                 x={rect.x}
                 y={rect.y}
-                width={obj.kind === 'sticky' ? obj.width - 16 : obj.width}
-                fontSize={obj.kind === 'sticky' ? 16 : obj.fontSize}
+                width={obj.kind === 'sticky' ? rect.width - 16 * stageTransform.scale : rect.width}
+                fontSize={(obj.kind === 'sticky' ? 16 : obj.fontSize) * stageTransform.scale}
                 value={obj.text}
                 onCommit={(value) => {
                   handleObjectChange(editingId, { text: value });
