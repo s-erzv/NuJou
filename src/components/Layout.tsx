@@ -16,12 +16,8 @@ export default function Layout() {
       <aside className="fixed inset-y-4 left-4 z-20 hidden md:block">
         <GlassSurface borderRadius={28} width={72} height="100%">
           <div className="flex h-full flex-col items-center py-5">
-            <Link
-              to="/"
-              aria-label="NuJou — beranda"
-              className="mb-6 grid h-9 w-9 shrink-0 place-items-center rounded-full bg-sky-600 font-serif text-sm font-bold text-white"
-            >
-              N
+            <Link to="/" aria-label="NuJou — beranda" className="mb-6 shrink-0">
+              <img src="/logo.png" alt="NuJou" className="h-9 w-9 object-contain" />
             </Link>
             <nav className="flex flex-1 flex-col items-center gap-2">
               {navLinks.map(({ to, label, end, icon: Icon }) => (
@@ -48,8 +44,9 @@ export default function Layout() {
 
       {/* Mobile top strip (brand only, no nav controls) */}
       <header className="fixed inset-x-0 top-0 z-20 flex h-12 items-center justify-center bg-white/80 backdrop-blur md:hidden">
-        <Link to="/" className="font-serif text-lg font-bold tracking-tight text-slate-900">
-          NuJou
+        <Link to="/" className="flex items-center gap-2">
+          <img src="/logo.png" alt="" className="h-6 w-6 object-contain" />
+          <span className="font-serif text-lg font-bold tracking-tight text-slate-900">NuJou</span>
         </Link>
       </header>
 
