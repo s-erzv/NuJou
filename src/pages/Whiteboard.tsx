@@ -19,6 +19,36 @@ import type {
 const COLORS = ['#0f172a', '#0284c7', '#0ea5e9', '#38bdf8', '#ef4444', '#16a34a', '#f59e0b'];
 const SIZES = [2, 4, 8, 16];
 
+const TEMPLATES: Record<string, { title: string; items: string[] }> = {
+  imrad: {
+    title: 'Kerangka IMRaD',
+    items: [
+      'Introduction — latar belakang, celah, tujuan',
+      'Methods — desain, sampel, instrumen',
+      'Results — temuan (angka/tabel)',
+      'Discussion — makna, keterbatasan, saran',
+    ],
+  },
+  esai: {
+    title: 'Kerangka Esai',
+    items: [
+      'Pendahuluan — kalimat tesis (pendirian + alasan)',
+      'Isi 1 — argumen + bukti',
+      'Isi 2 — argumen + bukti',
+      'Penutup — tegaskan tesis & simpulan',
+    ],
+  },
+  proposal: {
+    title: 'Kerangka Proposal',
+    items: [
+      'Latar belakang — ideal vs kenyataan (gap)',
+      'Rumusan masalah — pertanyaan inti',
+      'Tujuan — jawaban yang dicari',
+      'Metode — populasi, sampel, analisis',
+    ],
+  },
+};
+
 /**
  * A loose "patch" shape covering every optional field across all
  * CanvasObject variants. Plain `Partial<CanvasObject>` doesn't work here:
@@ -364,6 +394,45 @@ export default function Whiteboard() {
     setSelectedId(null);
   };
 
+  const insertTemplate = (key: keyof typeof TEMPLATES) => {
+    const tpl = TEMPLATES[key];
+    const baseX = 40;
+    const baseY = 40;
+    const newObjects: CanvasObject[] = [
+      {
+        id: createId('text'),
+        kind: 'text',
+        x: baseX,
+        y: baseY,
+        text: tpl.title,
+        fontSize: 24,
+        fill: '#0369a1',
+        width: 360,
+      },
+      {
+        id: createId('rect'),
+        kind: 'rect',
+        x: baseX,
+        y: baseY + 40,
+        width: 320,
+        height: 2,
+        fill: '#bae6fd',
+        stroke: '#bae6fd',
+      },
+      ...tpl.items.map((item, i) => ({
+        id: createId('text'),
+        kind: 'text' as const,
+        x: baseX + 8,
+        y: baseY + 64 + i * 34,
+        text: `•  ${item}`,
+        fontSize: 16,
+        fill: '#0f172a',
+        width: 420,
+      })),
+    ];
+    setObjects((prev) => [...prev, ...newObjects]);
+  };
+
   const clearAll = () => {
     setObjects([]);
     setSelectedId(null);
@@ -393,6 +462,20 @@ export default function Whiteboard() {
           IMRaD sebelum menulis. Gambaran kasar sering kali melahirkan struktur yang jernih.
         </p>
       </header>
+
+      {/* Quick templates */}
+      <div className="reveal mb-3 flex flex-wrap items-center gap-2">
+        <span className="text-sm font-semibold text-slate-500">Sisipkan kerangka:</span>
+        {Object.entries(TEMPLATES).map(([key, tpl]) => (
+          <button
+            key={key}
+            onClick={() => insertTemplate(key as keyof typeof TEMPLATES)}
+            className="rounded-full border border-sky-200 bg-white px-3 py-1 text-sm font-semibold text-sky-700 transition hover:bg-sky-50"
+          >
+            {tpl.title}
+          </button>
+        ))}
+      </div>
 
       {/* Toolbar */}
       <div className="mb-3 flex flex-wrap items-center gap-4 rounded-xl border border-sky-100 bg-sky-50/50 p-3">
