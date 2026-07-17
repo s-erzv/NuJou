@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Stage, Layer, Line, Text, Group, Rect, Transformer } from 'react-konva';
+import { Stage, Layer, Line, Text, Group, Rect, Ellipse, Transformer } from 'react-konva';
 import type Konva from 'konva';
 import { PenIcon } from '../components/icons';
 import { useReveal } from '../lib/useReveal';
@@ -38,6 +38,8 @@ export default function Whiteboard() {
   const trRef = useRef<Konva.Transformer>(null);
   const nodesRef = useRef<Record<string, Konva.Node | null>>({});
   const isDrawing = useRef(false);
+  const shapeStart = useRef<{ x: number; y: number } | null>(null);
+  const drawingShapeId = useRef<string | null>(null);
 
   const [size, setSize] = useState({ width: 800, height: 520 });
   const [tool, setTool] = useState<ToolMode>('pen');
@@ -140,6 +142,40 @@ export default function Whiteboard() {
       return;
     }
 
+    if (tool === 'rect' || tool === 'ellipse') {
+      const pos = stage.getPointerPosition();
+      if (!pos) return;
+      const id = createId(tool);
+      shapeStart.current = pos;
+      drawingShapeId.current = id;
+      if (tool === 'rect') {
+        const newRect: RectObject = {
+          id,
+          kind: 'rect',
+          x: pos.x,
+          y: pos.y,
+          width: 0,
+          height: 0,
+          fill: `${color}33`,
+          stroke: color,
+        };
+        setObjects((prev) => [...prev, newRect]);
+      } else {
+        const newEllipse: EllipseObject = {
+          id,
+          kind: 'ellipse',
+          x: pos.x,
+          y: pos.y,
+          radiusX: 0,
+          radiusY: 0,
+          fill: `${color}33`,
+          stroke: color,
+        };
+        setObjects((prev) => [...prev, newEllipse]);
+      }
+      return;
+    }
+
     if (tool === 'text') {
       const pos = stage.getPointerPosition();
       if (!pos) return;
@@ -188,20 +224,61 @@ export default function Whiteboard() {
   };
 
   const handleStageMouseMove = () => {
-    if (tool !== 'pen' || !isDrawing.current) return;
     const stage = stageRef.current;
-    const pos = stage?.getPointerPosition();
-    if (!pos) return;
-    setObjects((prev) => {
-      const last = prev[prev.length - 1];
-      if (!last || last.kind !== 'line') return prev;
-      const updated: LineObject = { ...last, points: [...last.points, pos.x, pos.y] };
-      return [...prev.slice(0, -1), updated];
-    });
+
+    if (tool === 'pen' && isDrawing.current) {
+      const pos = stage?.getPointerPosition();
+      if (!pos) return;
+      setObjects((prev) => {
+        const last = prev[prev.length - 1];
+        if (!last || last.kind !== 'line') return prev;
+        const updated: LineObject = { ...last, points: [...last.points, pos.x, pos.y] };
+        return [...prev.slice(0, -1), updated];
+      });
+      return;
+    }
+
+    if ((tool === 'rect' || tool === 'ellipse') && drawingShapeId.current && shapeStart.current) {
+      const pos = stage?.getPointerPosition();
+      if (!pos) return;
+      const start = shapeStart.current;
+      const id = drawingShapeId.current;
+      setObjects((prev) =>
+        prev.map((obj) => {
+          if (obj.id !== id) return obj;
+          if (obj.kind === 'rect') {
+            return {
+              ...obj,
+              x: Math.min(start.x, pos.x),
+              y: Math.min(start.y, pos.y),
+              width: Math.abs(pos.x - start.x),
+              height: Math.abs(pos.y - start.y),
+            };
+          }
+          if (obj.kind === 'ellipse') {
+            return {
+              ...obj,
+              x: (start.x + pos.x) / 2,
+              y: (start.y + pos.y) / 2,
+              radiusX: Math.abs(pos.x - start.x) / 2,
+              radiusY: Math.abs(pos.y - start.y) / 2,
+            };
+          }
+          return obj;
+        }),
+      );
+    }
   };
 
   const handleStageMouseUp = () => {
     isDrawing.current = false;
+    if (drawingShapeId.current) {
+      const id = drawingShapeId.current;
+      setTool('select');
+      setSelectedId(id);
+    }
+    drawingShapeId.current = null;
+    shapeStart.current = null;
   };
 
   const deleteSelected = () => {
@@ -274,6 +351,22 @@ export default function Whiteboard() {
             }`}
           >
             Sticky Note
+          </button>
+          <button
+            onClick={() => setTool('rect')}
+            className={`rounded-md px-3 py-1.5 text-sm font-semibold transition ${
+              tool === 'rect' ? 'bg-sky-600 text-white' : 'bg-white text-slate-600 hover:bg-sky-50'
+            }`}
+          >
+            Kotak
+          </button>
+          <button
+            onClick={() => setTool('ellipse')}
+            className={`rounded-md px-3 py-1.5 text-sm font-semibold transition ${
+              tool === 'ellipse' ? 'bg-sky-600 text-white' : 'bg-white text-slate-600 hover:bg-sky-50'
+            }`}
+          >
+            Lingkaran
           </button>
         </div>
 
@@ -474,6 +567,83 @@ export default function Whiteboard() {
                       fill="#0f172a"
                     />
                   </Group>
+                );
+              }
+
+              if (obj.kind === 'rect') {
+                return (
+                  <Rect
+                    key={obj.id}
+                    id={obj.id}
+                    x={obj.x}
+                    y={obj.y}
+                    width={obj.width}
+                    height={obj.height}
+                    fill={obj.fill}
+                    stroke={obj.stroke}
+                    strokeWidth={2}
+                    cornerRadius={6}
+                    rotation={obj.rotation ?? 0}
+                    draggable={tool === 'select'}
+                    onClick={() => tool === 'select' && setSelectedId(obj.id)}
+                    onTap={() => tool === 'select' && setSelectedId(obj.id)}
+                    onDragEnd={(e) =>
+                      handleObjectChange(obj.id, { x: e.target.x(), y: e.target.y() })
+                    }
+                    onTransformEnd={(e) => {
+                      const node = e.target;
+                      const scaleX = node.scaleX();
+                      const scaleY = node.scaleY();
+                      node.scaleX(1);
+                      node.scaleY(1);
+                      handleObjectChange(obj.id, {
+                        x: node.x(),
+                        y: node.y(),
+                        width: Math.max(20, node.width() * scaleX),
+                        height: Math.max(20, node.height() * scaleY),
+                        rotation: node.rotation(),
+                      });
+                    }}
+                    ref={(node) => registerNode(obj.id, node)}
+                  />
+                );
+              }
+
+              if (obj.kind === 'ellipse') {
+                return (
+                  <Ellipse
+                    key={obj.id}
+                    id={obj.id}
+                    x={obj.x}
+                    y={obj.y}
+                    radiusX={obj.radiusX}
+                    radiusY={obj.radiusY}
+                    fill={obj.fill}
+                    stroke={obj.stroke}
+                    strokeWidth={2}
+                    rotation={obj.rotation ?? 0}
+                    draggable={tool === 'select'}
+                    onClick={() => tool === 'select' && setSelectedId(obj.id)}
+                    onTap={() => tool === 'select' && setSelectedId(obj.id)}
+                    onDragEnd={(e) =>
+                      handleObjectChange(obj.id, { x: e.target.x(), y: e.target.y() })
+                    }
+                    onTransformEnd={(e) => {
+                      const node = e.target as Konva.Ellipse;
+                      const scaleX = node.scaleX();
+                      const scaleY = node.scaleY();
+                      node.scaleX(1);
+                      node.scaleY(1);
+                      handleObjectChange(obj.id, {
+                        x: node.x(),
+                        y: node.y(),
+                        radiusX: Math.max(10, node.radiusX() * scaleX),
+                        radiusY: Math.max(10, node.radiusY() * scaleY),
+                        rotation: node.rotation(),
+                      });
+                    }}
+                    ref={(node) => registerNode(obj.id, node)}
+                  />
                 );
               }
 
