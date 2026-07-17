@@ -1,0 +1,252 @@
+{
+  "id": 8,
+  "slug": "metode-kuantitatif",
+  "title": "Metode Penelitian Kuantitatif",
+  "subtitle": "Survei, eksperimen, dan desain penelitian",
+  "goal": "Memahami logika pengukuran dalam riset kuantitatif, menguasai perbedaan desain survei, eksperimen, dan korelasional, serta paham konsep variabel, validitas instrumen, dan generalisasi hasil ke populasi.",
+  "estimatedMinutes": 38,
+  "sections": [
+    {
+      "id": "8-1",
+      "title": "Logika Dasar Kuantitatif",
+      "blocks": [
+        { "type": "heading", "text": "Mengubah Konsep Jadi Angka" },
+        { "type": "paragraph", "text": "Kalau Level 7 membahas bagaimana memahami makna secara mendalam, kuantitatif justru mengubah konsep abstrak — motivasi, kepuasan, kecemasan — menjadi angka yang bisa diukur, dihitung, dan dibandingkan secara sistematis. Proses mengubah konsep abstrak menjadi sesuatu yang terukur disebut operasionalisasi." },
+        { "type": "paragraph", "text": "Contoh: konsep 'motivasi belajar' bisa dioperasionalisasikan menjadi skor kuesioner 1–5 pada 10 pernyataan seperti 'saya belajar meski tidak ada ujian'. Angka itulah yang kemudian dianalisis secara statistik." },
+        { "type": "callout", "title": "Kenapa Ini Penting?", "text": "Operasionalisasi yang buruk membuat seluruh penelitian goyah — kalau alat ukurmu tidak benar-benar mengukur 'motivasi', semua analisis statistik setelahnya jadi tidak berarti, secanggih apa pun rumusnya." }
+      ]
+    },
+    {
+      "id": "8-2",
+      "title": "Tiga Desain Utama",
+      "blocks": [
+        { "type": "heading", "text": "Survei, Eksperimen, dan Korelasional" },
+        {
+          "type": "table",
+          "headers": ["Desain", "Ciri Utama", "Contoh"],
+          "rows": [
+            ["Survei", "Mengumpulkan data dari banyak responden lewat kuesioner, biasanya sekali waktu", "Mengukur kepuasan mahasiswa terhadap layanan kampus"],
+            ["Eksperimen", "Peneliti MEMANIPULASI satu variabel untuk melihat efeknya, dengan kelompok kontrol", "Membandingkan nilai siswa yang belajar dengan metode A vs metode B"],
+            ["Korelasional", "Mengukur hubungan antar-variabel tanpa memanipulasi apa pun", "Meneliti hubungan antara jam tidur dan nilai ujian"]
+          ]
+        },
+        { "type": "callout", "title": "Hanya Eksperimen yang Bisa Klaim Sebab-Akibat", "text": "Ini kesalahan pemula paling umum: korelasi (dua variabel berhubungan) sering disalahartikan sebagai sebab-akibat. Hanya desain eksperimen dengan kontrol ketat yang berhak mengklaim sebab-akibat." }
+      ]
+    },
+    {
+      "id": "8-3",
+      "title": "Variabel: Bebas, Terikat, Kontrol",
+      "blocks": [
+        { "type": "heading", "text": "Siapa Memengaruhi Siapa" },
+        { "type": "list", "ordered": false, "items": [
+          "Variabel bebas (independent variable) — yang diduga menjadi PENYEBAB atau yang dimanipulasi peneliti.",
+          "Variabel terikat (dependent variable) — yang diduga menjadi AKIBAT, yang diukur hasilnya.",
+          "Variabel kontrol — dijaga tetap konstan agar tidak mengacaukan hubungan variabel bebas dan terikat."
+        ]},
+        { "type": "quote", "text": "Dalam penelitian 'pengaruh metode belajar (A) terhadap nilai ujian (B)', metode belajar adalah variabel bebas, nilai ujian adalah variabel terikat.", "source": "Contoh identifikasi variabel" },
+        { "type": "callout", "title": "Variabel Perancu (Confounding)", "text": "Kalau 'jam tidur' mahasiswa tidak dikontrol padahal ikut memengaruhi nilai ujian, ia bisa jadi variabel perancu yang membuat kesimpulanmu meleset." }
+      ]
+    },
+    {
+      "id": "8-4",
+      "title": "Kelompok Kontrol & Randomisasi",
+      "blocks": [
+        { "type": "heading", "text": "Fondasi Eksperimen yang Kredibel" },
+        { "type": "paragraph", "text": "Eksperimen yang baik membagi subjek ke kelompok eksperimen (menerima perlakuan) dan kelompok kontrol (tidak menerima perlakuan, atau menerima perlakuan standar) — lalu membandingkan hasilnya." },
+        { "type": "paragraph", "text": "Agar perbandingan itu adil, subjek sebaiknya dibagi ke kedua kelompok secara ACAK (randomized controlled trial). Randomisasi mengurangi kemungkinan perbedaan hasil disebabkan oleh karakteristik subjek yang sudah berbeda dari awal, bukan oleh perlakuan itu sendiri." },
+        { "type": "callout", "title": "Kalau Tidak Bisa Randomisasi", "text": "Dalam riset pendidikan, sering tidak etis/praktis mengacak siswa ke kelas berbeda. Desain seperti ini disebut quasi-eksperimen — tetap ada kelompok pembanding, tapi tanpa randomisasi penuh, sehingga klaim sebab-akibatnya lebih hati-hati." }
+      ]
+    },
+    {
+      "id": "8-5",
+      "title": "Menyusun Kuesioner yang Valid",
+      "blocks": [
+        { "type": "heading", "text": "Instrumen Ukur yang Bisa Dipercaya" },
+        { "type": "paragraph", "text": "Instrumen (kuesioner/tes) yang baik harus valid (benar-benar mengukur apa yang ingin diukur) dan reliabel (hasilnya konsisten kalau diulang). Dua hal ini akan dibahas lebih rinci di Level 10, tapi prinsip dasarnya perlu dipahami sejak menyusun butir pertanyaan." },
+        { "type": "list", "ordered": true, "items": [
+          "Hindari pertanyaan ganda (double-barreled): 'apakah dosen ramah dan tepat waktu?' — dua hal sekaligus dalam satu pertanyaan.",
+          "Hindari bahasa yang menggiring: 'apakah kamu setuju kebijakan ini bagus?' condong ke jawaban 'ya'.",
+          "Uji coba (pilot test) kuesioner ke sekelompok kecil sebelum disebar luas, untuk menangkap pertanyaan yang membingungkan."
+        ]}
+      ]
+    },
+    {
+      "id": "8-6",
+      "title": "Skala Pengukuran",
+      "blocks": [
+        { "type": "heading", "text": "Empat Jenis Skala Data" },
+        {
+          "type": "table",
+          "headers": ["Skala", "Ciri", "Contoh"],
+          "rows": [
+            ["Nominal", "Kategori tanpa urutan", "Jenis kelamin, jurusan kuliah"],
+            ["Ordinal", "Kategori berurutan, jarak antar-kategori tidak pasti sama", "Tingkat kepuasan: rendah/sedang/tinggi"],
+            ["Interval", "Berjarak sama, tapi tidak punya nol mutlak", "Suhu dalam derajat Celsius"],
+            ["Rasio", "Berjarak sama DAN punya nol mutlak", "Berat badan, jumlah jam belajar"]
+          ]
+        },
+        { "type": "callout", "title": "Kenapa Ini Penting?", "text": "Jenis skala menentukan uji statistik apa yang BOLEH dipakai nanti (Level 10). Memakai rata-rata pada data nominal (misalnya 'rata-rata jenis kelamin') adalah kesalahan konseptual yang cukup fatal." }
+      ]
+    },
+    {
+      "id": "8-7",
+      "title": "Populasi & Sampel — Menyambung Level 6",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa Sampel Harus Representatif" },
+        { "type": "paragraph", "text": "Level 6 sudah memperkenalkan populasi dan sampel. Dalam kuantitatif, sampel idealnya diambil secara ACAK (random sampling) dari populasi agar hasilnya bisa digeneralisasi kembali ke populasi itu — berbeda dari purposive sampling di Level 7 yang justru sengaja memilih." },
+        { "type": "list", "ordered": false, "items": [
+          "Simple random sampling — setiap anggota populasi punya peluang sama untuk terpilih.",
+          "Stratified sampling — populasi dibagi ke strata (misalnya per angkatan) lalu diambil sampel proporsional dari tiap strata.",
+          "Cluster sampling — mengambil sampel berdasarkan kelompok/wilayah, bukan individu satu per satu."
+        ]}
+      ]
+    },
+    {
+      "id": "8-8",
+      "title": "Kesalahan Umum dalam Riset Kuantitatif",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menyimpulkan sebab-akibat dari desain korelasional yang sebenarnya cuma menunjukkan hubungan.",
+          "Sampel terlalu kecil untuk uji statistik yang dipakai, membuat hasil tidak stabil.",
+          "Kuesioner belum diuji validitas/reliabilitasnya tapi sudah dipakai untuk pengumpulan data utama.",
+          "Mengabaikan variabel perancu yang sebenarnya lebih menjelaskan hasil dibanding variabel bebas yang diteliti."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Kuantitatif bukan berarti 'lebih objektif secara otomatis'. Keputusan tentang apa yang diukur, bagaimana cara mengukurnya, dan siapa sampelnya tetap melibatkan banyak pertimbangan manusia yang perlu ditulis transparan di bagian Metode." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-8",
+    "title": "Kuis Level 8",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q8-1",
+        "question": "Proses mengubah konsep abstrak seperti 'motivasi' menjadi sesuatu yang bisa diukur disebut…",
+        "options": ["Triangulasi", "Operasionalisasi", "Saturasi data", "Refleksivitas"],
+        "answer": 1,
+        "explanation": "Operasionalisasi mengubah konsep abstrak menjadi variabel yang terukur."
+      },
+      {
+        "id": "q8-2",
+        "question": "Desain yang MEMANIPULASI satu variabel untuk melihat efeknya, lengkap dengan kelompok kontrol, adalah…",
+        "options": ["Survei", "Studi kasus", "Eksperimen", "Wawancara mendalam"],
+        "answer": 2,
+        "explanation": "Eksperimen ditandai oleh manipulasi variabel bebas dan adanya kelompok kontrol."
+      },
+      {
+        "id": "q8-3",
+        "question": "Variabel yang diduga menjadi AKIBAT dan diukur hasilnya disebut variabel…",
+        "options": ["Bebas", "Terikat", "Kontrol", "Perancu"],
+        "answer": 1,
+        "explanation": "Variabel terikat (dependent) adalah hasil yang diukur, bukan yang dimanipulasi."
+      },
+      {
+        "id": "q8-4",
+        "question": "Randomisasi subjek ke kelompok eksperimen/kontrol bertujuan untuk…",
+        "options": ["Mempercepat penelitian", "Mengurangi kemungkinan perbedaan hasil disebabkan karakteristik subjek yang sudah berbeda dari awal", "Menambah jumlah sampel", "Menghindari kebutuhan kuesioner"],
+        "answer": 1,
+        "explanation": "Randomisasi menyeimbangkan karakteristik subjek antar-kelompok agar perbandingan adil."
+      },
+      {
+        "id": "q8-5",
+        "question": "Data 'jenis kelamin' dan 'jurusan kuliah' tergolong skala pengukuran…",
+        "options": ["Rasio", "Interval", "Nominal", "Ordinal"],
+        "answer": 2,
+        "explanation": "Nominal adalah kategori tanpa urutan, seperti jenis kelamin atau jurusan."
+      },
+      {
+        "id": "q8-6",
+        "question": "Sampling yang membagi populasi ke strata (misalnya per angkatan) lalu mengambil sampel proporsional dari tiap strata disebut…",
+        "options": ["Purposive sampling", "Snowball sampling", "Stratified sampling", "Convenience sampling"],
+        "answer": 2,
+        "explanation": "Stratified sampling mengambil sampel proporsional dari setiap lapisan/strata populasi."
+      },
+      {
+        "id": "q8-7",
+        "question": "Desain yang mengukur hubungan antar-variabel TANPA memanipulasi apa pun disebut…",
+        "options": ["Eksperimen", "Korelasional", "Studi kasus", "Etnografi"],
+        "answer": 1,
+        "explanation": "Desain korelasional mengukur hubungan tanpa manipulasi variabel."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-8",
+    "title": "Ujian Level 8",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e8-1",
+        "question": "Sebuah studi menemukan mahasiswa yang lebih banyak minum kopi punya nilai ujian lebih rendah, lalu menyimpulkan \"minum kopi menyebabkan nilai turun\". Masalah utama kesimpulan ini adalah…",
+        "options": ["Sampelnya terlalu besar", "Desainnya korelasional, jadi tidak berhak mengklaim sebab-akibat begitu saja", "Kopi tidak bisa diukur secara kuantitatif", "Seharusnya memakai wawancara, bukan survei"],
+        "answer": 1,
+        "explanation": "Korelasi antara dua variabel tidak otomatis membuktikan sebab-akibat — bisa jadi ada variabel perancu lain (misalnya kurang tidur)."
+      },
+      {
+        "id": "e8-2",
+        "question": "Sebuah kuesioner berisi pertanyaan \"Apakah dosenmu mengajar dengan jelas dan selalu hadir tepat waktu?\" Kesalahan penyusunan butir ini adalah…",
+        "options": ["Terlalu formal", "Ini pertanyaan double-barreled — menggabungkan dua hal berbeda dalam satu pertanyaan", "Terlalu pendek", "Tidak relevan dengan topik apa pun"],
+        "answer": 1,
+        "explanation": "Menanyakan 'jelas' dan 'tepat waktu' sekaligus membuat responden bingung mana yang harus dijawab jika hanya satu yang benar."
+      },
+      {
+        "id": "e8-3",
+        "question": "Peneliti ingin menguji apakah metode belajar baru meningkatkan nilai, tapi karena alasan etis tidak bisa mengacak siswa ke kelas berbeda — ia tetap membandingkan dua kelas yang sudah ada. Desain ini paling tepat disebut…",
+        "options": ["Eksperimen murni (true experiment)", "Quasi-eksperimen", "Survei deskriptif", "Studi kasus tunggal"],
+        "answer": 1,
+        "explanation": "Tanpa randomisasi penuh namun tetap ada kelompok pembanding, desain ini adalah quasi-eksperimen."
+      },
+      {
+        "id": "e8-4",
+        "question": "Dalam penelitian \"pengaruh pola makan (A) terhadap konsentrasi belajar (B)\", jika \"jam tidur\" ternyata juga memengaruhi konsentrasi belajar tapi tidak diukur/dikendalikan, maka jam tidur berperan sebagai…",
+        "options": ["Variabel bebas utama", "Variabel terikat", "Variabel perancu (confounding)", "Variabel yang tidak relevan sama sekali"],
+        "answer": 2,
+        "explanation": "Variabel yang ikut memengaruhi hasil tapi tidak dikendalikan/diukur adalah variabel perancu, yang bisa mengaburkan kesimpulan."
+      },
+      {
+        "id": "e8-5",
+        "question": "Seorang peneliti menghitung 'rata-rata' dari data jurusan kuliah (kode 1=Hukum, 2=Teknik, 3=Kedokteran). Kesalahan konseptualnya adalah…",
+        "options": ["Jurusan tidak boleh diberi kode angka", "Data nominal tidak punya makna 'rata-rata' matematis yang berarti", "Seharusnya memakai data ordinal", "Tidak ada kesalahan"],
+        "answer": 1,
+        "explanation": "Jurusan adalah data nominal (kategori tanpa urutan) — merata-ratakannya secara matematis tidak bermakna."
+      },
+      {
+        "id": "e8-6",
+        "question": "Sebuah kuesioner belum pernah diuji-cobakan ke siapa pun sebelum disebar ke 500 responden untuk pengumpulan data utama. Risiko terbesarnya adalah…",
+        "options": ["Terlalu banyak data terkumpul", "Pertanyaan yang membingungkan/ambigu baru ketahuan setelah data utama terlanjur terkumpul", "Biaya penelitian jadi lebih murah", "Tidak ada risiko karena jumlah respondennya besar"],
+        "answer": 1,
+        "explanation": "Pilot test seharusnya menangkap masalah butir pertanyaan sebelum data utama dikumpulkan — melewatkannya berisiko merusak seluruh data."
+      },
+      {
+        "id": "e8-7",
+        "question": "Manakah pasangan desain-tujuan yang PALING TEPAT?",
+        "options": ["Eksperimen — untuk mengukur kepuasan pelanggan secara deskriptif", "Survei — untuk membuktikan hubungan sebab-akibat yang kuat", "Eksperimen — untuk menguji efek sebuah metode dengan kelompok kontrol", "Korelasional — untuk memanipulasi variabel secara langsung"],
+        "answer": 2,
+        "explanation": "Eksperimen dengan kelompok kontrol adalah desain yang tepat untuk menguji efek/sebab-akibat suatu perlakuan."
+      },
+      {
+        "id": "e8-8",
+        "question": "Data 'suhu ruangan dalam Celsius' tergolong skala interval, BUKAN rasio, karena…",
+        "options": ["Suhu tidak bisa diukur", "Skala Celsius tidak punya titik nol mutlak (0°C bukan berarti 'tidak ada suhu sama sekali')", "Suhu selalu berupa data ordinal", "Tidak ada perbedaan praktis antara interval dan rasio"],
+        "answer": 1,
+        "explanation": "Rasio membutuhkan nol mutlak (nol berarti benar-benar tidak ada); 0°C hanyalah titik beku air, bukan 'tidak ada suhu'."
+      },
+      {
+        "id": "e8-9",
+        "question": "Sebuah penelitian ingin memahami secara umum berapa persen mahasiswa se-Indonesia yang bekerja paruh waktu, menggunakan kuesioner online yang disebar ke 2.000 mahasiswa dari berbagai kampus. Desain penelitian ini paling tepat disebut…",
+        "options": ["Studi kasus", "Eksperimen", "Survei", "Etnografi"],
+        "answer": 2,
+        "explanation": "Mengumpulkan data dari banyak responden lewat kuesioner untuk menggambarkan kondisi umum adalah ciri khas survei."
+      },
+      {
+        "id": "e8-10",
+        "question": "Kenapa purposive sampling (Level 7) TIDAK cocok dipakai jika tujuan penelitian adalah menggeneralisasi temuan secara statistik ke seluruh populasi mahasiswa Indonesia?",
+        "options": ["Purposive sampling tidak pernah valid dalam kondisi apa pun", "Purposive sampling sengaja memilih subjek tertentu, sehingga sampelnya tidak representatif secara statistik terhadap populasi", "Purposive sampling hanya bisa dipakai untuk eksperimen", "Tidak ada masalah, keduanya bisa saling menggantikan"],
+        "answer": 1,
+        "explanation": "Purposive sampling memilih subjek berdasarkan relevansi, bukan keterwakilan statistik — cocok untuk kualitatif, bukan untuk generalisasi populasi kuantitatif."
+      }
+    ]
+  }
+}
