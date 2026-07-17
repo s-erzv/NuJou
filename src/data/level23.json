@@ -1,0 +1,291 @@
+{
+  "id": 23,
+  "slug": "anatomi-skripsi",
+  "title": "Anatomi Skripsi & Tesis",
+  "subtitle": "Peta lengkap Bab 1–5 dan cara kerja bimbingan",
+  "goal": "Memahami perbedaan tujuan skripsi/tesis dengan artikel jurnal, menguasai peta lengkap Bab 1–5 beserta bagian pembuka dan penutupnya, serta tahu cara menjalani proses bimbingan dengan dosen pembimbing secara sehat dan efisien.",
+  "estimatedMinutes": 38,
+  "sections": [
+    {
+      "id": "23-1",
+      "title": "Skripsi Bukan Artikel Jurnal yang Dipanjangkan",
+      "blocks": [
+        { "type": "heading", "text": "Dua Tujuan yang Berbeda" },
+        { "type": "paragraph", "text": "Level 2 mengajarkan IMRaD — struktur artikel jurnal yang efisien karena pembacanya adalah sesama peneliti yang sudah paham bidang itu. Skripsi dan tesis punya tujuan berbeda: bukan cuma menyumbang temuan baru ke bidang ilmu, tapi MEMBUKTIKAN ke pembimbing dan penguji bahwa kamu bisa menjalankan seluruh proses penelitian secara mandiri, dari merumuskan masalah sampai menarik simpulan." },
+        { "type": "paragraph", "text": "Karena itu skripsi dinilai bukan cuma dari hasil akhirnya, tapi dari proses berpikir yang ditunjukkan di sepanjang naskah. Anggap seperti ujian SIM (surat izin mengemudi): penguji tidak hanya peduli kamu sampai ke tujuan, tapi ingin melihat kamu menyalakan sein, mengecek spion, dan berhenti di zebra cross — setiap langkah harus terlihat dan bisa dipertanggungjawabkan." },
+        { "type": "callout", "title": "Kenapa Ini Penting", "text": "Dosen pembimbing dan penguji menilai KOMPETENSI METODOLOGISMU, bukan cuma seberapa menarik topikmu. Skripsi dengan topik biasa saja tapi dikerjakan dengan runtut dan jujur akan lebih dihargai daripada topik ambisius yang alurnya berantakan." }
+      ]
+    },
+    {
+      "id": "23-2",
+      "title": "Peta Bab 1–5",
+      "blocks": [
+        { "type": "heading", "text": "Lima Bab, Lima Pertanyaan Pokok" },
+        { "type": "paragraph", "text": "Hampir semua skripsi dan tesis di Indonesia — baik kuantitatif maupun kualitatif — mengikuti kerangka lima bab ini. Namanya bisa sedikit berbeda antar kampus atau jurusan, tapi fungsinya sama." },
+        {
+          "type": "table",
+          "headers": ["Bab", "Isi Utama", "Pertanyaan yang Dijawab"],
+          "rows": [
+            ["Bab 1 — Pendahuluan", "Latar belakang, rumusan masalah, tujuan, manfaat, batasan masalah", "Kenapa penelitian ini penting dan apa yang mau dijawab?"],
+            ["Bab 2 — Kajian Teori", "Landasan teori, penelitian terdahulu, kerangka berpikir, hipotesis (jika ada)", "Apa dasar berpikir dan posisi penelitian ini di antara penelitian lain?"],
+            ["Bab 3 — Metode Penelitian", "Desain, populasi/sampel atau subjek, instrumen, prosedur, teknik analisis", "Bagaimana caranya penelitian ini dijalankan?"],
+            ["Bab 4 — Hasil & Pembahasan", "Data temuan, analisis, tafsiran, kaitan dengan teori Bab 2", "Apa yang ditemukan dan apa maknanya?"],
+            ["Bab 5 — Simpulan & Saran", "Simpulan yang menjawab Bab 1, keterbatasan, saran", "Apa jawaban akhirnya dan apa langkah selanjutnya?"]
+          ]
+        },
+        { "type": "callout", "title": "Variasi Nama", "text": "Skripsi kualitatif kadang menamai Bab 2 sebagai 'Kajian Pustaka' saja tanpa hipotesis, dan sebagian kampus memisahkan Bab 4 jadi 'Hasil Penelitian' dan Bab 5 'Pembahasan' (sehingga Simpulan jadi Bab 6). Cek pedoman skripsi program studimu — logikanya tetap sama meski nomornya bergeser." }
+      ]
+    },
+    {
+      "id": "23-3",
+      "title": "Bagian Pembuka & Penutup yang Sering Dilupakan",
+      "blocks": [
+        { "type": "heading", "text": "Skripsi Bukan Cuma Bab 1–5" },
+        { "type": "paragraph", "text": "Banyak mahasiswa fokus habis-habisan di Bab 1–5 lalu terkejut saat sadar masih ada belasan halaman administratif yang harus disiapkan sebelum sidang. Siapkan dari awal, jangan diburu-buru di minggu terakhir." },
+        { "type": "list", "ordered": true, "items": [
+          "Halaman judul — sesuai format resmi kampus, termasuk logo dan jenis gelar yang dituju.",
+          "Lembar pengesahan — tanda tangan pembimbing (dan penguji setelah sidang).",
+          "Lembar pernyataan orisinalitas — pernyataan bahwa karya ini bukan plagiat (ingat Level 14 soal etika penelitian).",
+          "Kata pengantar — ucapan terima kasih, biasanya bebas gaya tapi tetap formal.",
+          "Abstrak — dalam Bahasa Indonesia dan Inggris, mengikuti kaidah abstrak yang sudah kamu pelajari di Level 2 dan akan diperdalam di Level 15.",
+          "Daftar isi, daftar tabel, daftar gambar — dibuat otomatis dari heading styles, bukan diketik manual satu per satu.",
+          "Daftar pustaka — mengikuti gaya sitasi yang diwajibkan program studi (APA, Vancouver, dll).",
+          "Lampiran — instrumen penelitian, surat izin, transkrip wawancara, output statistik mentah."
+        ]},
+        { "type": "callout", "title": "Jangan Ketik Daftar Isi Manual", "text": "Gunakan fitur heading style di Word/LaTeX/Google Docs supaya daftar isi, daftar tabel, dan daftar gambar bisa di-generate otomatis dan nomor halamannya tidak meleset setiap kali kamu merevisi." }
+      ]
+    },
+    {
+      "id": "23-4",
+      "title": "Kenapa Skripsi Lebih Panjang dan Lebih Pedagogis",
+      "blocks": [
+        { "type": "heading", "text": "Pembaca Jurnal vs Pembaca Skripsi" },
+        { "type": "paragraph", "text": "Pembaca artikel jurnal adalah peer — sesama ahli yang sudah paham istilah dan teori dasar bidang itu, sehingga penulis boleh langsung to the point. Pembaca skripsi adalah dosen pembimbing dan penguji yang justru INGIN MELIHAT kamu menjelaskan alasan di balik setiap pilihan: kenapa teori ini, kenapa metode ini, kenapa sampel segini." },
+        {
+          "type": "table",
+          "headers": ["", "Artikel Jurnal (Level 2)", "Skripsi/Tesis"],
+          "rows": [
+            ["Pembaca", "Sesama peneliti ahli di bidang sejenis", "Pembimbing & penguji yang menilai kompetensimu"],
+            ["Gaya Metode", "Padat: 'Data dianalisis dengan uji-t independen.'", "Lebih panjang: menjelaskan KENAPA uji-t dipilih, asumsi apa yang dipenuhi"],
+            ["Kajian Teori", "Ringkas, hanya teori yang langsung relevan", "Bab tersendiri (Bab 2), menunjukkan penguasaan literatur secara luas"],
+            ["Tujuan Penulisan", "Menyumbang temuan baru ke bidang ilmu", "Membuktikan kompetensi meneliti secara mandiri"]
+          ]
+        },
+        { "type": "callout", "title": "Bukan Berarti Bertele-tele", "text": "'Lebih panjang dan pedagogis' bukan izin untuk menulis bertele-tele. Setiap penjelasan tambahan tetap harus punya fungsi: menunjukkan alasan, bukan mengulang-ulang kalimat yang sama dengan kata berbeda." }
+      ]
+    },
+    {
+      "id": "23-5",
+      "title": "Peran Dosen Pembimbing",
+      "blocks": [
+        { "type": "heading", "text": "Dua Pembimbing, Dua Fokus" },
+        { "type": "paragraph", "text": "Kebanyakan kampus menugaskan dua dosen pembimbing dengan fokus berbeda — meski pembagiannya bisa terbalik tergantung kebijakan program studi. Pahami peran masing-masing supaya kamu tahu jenis masukan apa yang bisa diharapkan dari siapa." },
+        { "type": "list", "ordered": false, "items": [
+          "Pembimbing 1 (biasanya) — fokus pada substansi: apakah teori yang dipakai tepat, apakah metode menjawab rumusan masalah, apakah tafsiran di Bab 4 masuk akal.",
+          "Pembimbing 2 (biasanya) — fokus pada teknis: format penulisan, konsistensi sitasi, kejelasan tabel/gambar, tata bahasa."
+        ]},
+        { "type": "callout", "title": "Pembimbing Bukan Editor", "text": "Dosen pembimbing membimbing arah berpikirmu, bukan menulis ulang naskahmu. Kamu yang wajib datang dengan draft — sekasar apa pun — bukan meminta pembimbing 'menuliskan' bagian yang belum kamu kerjakan." }
+      ]
+    },
+    {
+      "id": "23-6",
+      "title": "Proses Bimbingan yang Sehat",
+      "blocks": [
+        { "type": "heading", "text": "Bimbingan Efektif Dimulai dari Persiapanmu" },
+        { "type": "list", "ordered": true, "items": [
+          "Kirim draft minimal 2–3 hari sebelum jadwal bimbingan — jangan kirim dini hari sebelum sesi.",
+          "Sertakan daftar pertanyaan spesifik: 'Apakah kerangka berpikir di halaman 12 sudah tepat urutannya?' — bukan 'Bab 2 ini gimana, Pak/Bu?'",
+          "Catat setiap revisi di kartu/logbook bimbingan segera setelah sesi selesai, jangan mengandalkan ingatan.",
+          "Kerjakan revisi sebelum sesi berikutnya — datang dengan draft lama yang belum direvisi membuang jatah bimbingan berikutnya."
+        ]},
+        { "type": "quote", "text": "Sebelum: \"Bu, Bab 2 saya gimana ya?\" (mengirim draft H-0, tanpa pertanyaan spesifik)\nSesudah: \"Bu, saya sudah revisi kerangka berpikir sesuai masukan minggu lalu (lampiran halaman 10–13). Saya masih ragu apakah variabel Z perlu dimasukkan atau tidak — mohon masukannya.\"", "source": "Contoh pesan sebelum sesi bimbingan" },
+        {
+          "type": "table",
+          "headers": ["Lakukan", "Hindari"],
+          "rows": [
+            ["Kirim draft + pertanyaan spesifik sebelum sesi", "Datang tanpa draft, minta arahan dari nol"],
+            ["Catat hasil revisi segera setelah sesi", "Mengandalkan ingatan, lupa poin revisi"],
+            ["Terima kritik sebagai bagian proses, bukan serangan pribadi", "Berdebat defensif setiap masukan direvisi"],
+            ["Hubungi pembimbing lewat kanal resmi kampus", "Mengirim pesan tengah malam menuntut balasan cepat"]
+          ]
+        },
+        { "type": "callout", "title": "Kalau Pembimbing Sulit Dihubungi", "text": "Ini masalah umum, bukan cuma masalahmu. Gunakan jalur resmi (surel kampus, sistem bimbingan daring jika ada), sertakan tenggat yang jelas, dan libatkan koordinator skripsi/prodi kalau sudah berbulan-bulan tanpa respons — bukan aib untuk meminta bantuan administratif." }
+      ]
+    },
+    {
+      "id": "23-7",
+      "title": "Timeline Realistis: dari Proposal ke Sidang",
+      "blocks": [
+        { "type": "heading", "text": "Gambaran Besar Perjalanan Skripsi" },
+        { "type": "paragraph", "text": "Level 6 sudah membahas cara menyusun proposal. Setelah proposal disetujui, ada beberapa tahap besar sebelum kamu sampai ke sidang akhir." },
+        {
+          "type": "table",
+          "headers": ["Tahap", "Perkiraan Waktu", "Catatan"],
+          "rows": [
+            ["Pengajuan judul & penentuan pembimbing", "2–4 minggu", "Judul bisa berubah setelah diskusi awal dengan pembimbing"],
+            ["Penyusunan & seminar proposal (Bab 1–3)", "1–2 bulan", "Lihat Level 6 untuk detail menyusun proposal"],
+            ["Pengumpulan & analisis data", "1–3 bulan", "Paling sering molor — siapkan buffer waktu"],
+            ["Bimbingan Bab 4–5", "3–6 minggu", "Butuh beberapa putaran revisi, jangan tunggu 'sempurna' baru dikirim"],
+            ["Pendaftaran & sidang", "2–4 minggu", "Lihat Level 28 untuk persiapan sidang"],
+            ["Revisi pasca-sidang", "1–4 minggu", "Batas waktu biasanya ditentukan kampus, jangan diremehkan"]
+          ]
+        },
+        { "type": "callout", "title": "Buffer, Bukan Optimisme", "text": "Estimasi di atas untuk kondisi ideal. Selalu sisipkan waktu cadangan minimal 20–30% di setiap tahap — pengumpulan data yang molor adalah penyebab paling umum skripsi jadi lebih lama dari rencana." }
+      ]
+    },
+    {
+      "id": "23-8",
+      "title": "Kesalahan Umum dalam Memahami Anatomi Skripsi",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menganggap skripsi 'artikel jurnal yang dipanjangkan saja' — padahal tujuannya berbeda: menunjukkan proses berpikir, bukan sekadar melaporkan temuan.",
+          "Menunda pengerjaan halaman administratif (lembar pengesahan, daftar isi otomatis, lampiran) sampai minggu terakhir sebelum sidang.",
+          "Mengirim draft ke pembimbing tanpa pertanyaan spesifik, sehingga sesi bimbingan habis untuk hal yang bisa dijawab sendiri lewat pedoman skripsi.",
+          "Tidak mencatat hasil bimbingan secara tertulis, sehingga revisi yang sama diminta berulang kali di sesi berikutnya.",
+          "Meremehkan waktu pengumpulan data dan menganggap seluruh timeline bisa berjalan sesuai rencana awal tanpa buffer."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Skripsi yang baik bukan yang paling ambisius topiknya, tapi yang paling jelas alur berpikirnya dari Bab 1 sampai Bab 5 — dan itu dimulai dari memahami anatominya sejak awal, bukan meraba-raba di tengah jalan." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-23",
+    "title": "Kuis Level 23",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q23-1",
+        "question": "Perbedaan paling mendasar antara tujuan artikel jurnal (Level 2) dan skripsi/tesis adalah…",
+        "options": ["Skripsi tidak butuh metode penelitian", "Skripsi harus menunjukkan proses berpikir dan kompetensi meneliti, bukan hanya menyumbang temuan baru", "Artikel jurnal tidak punya pendahuluan", "Skripsi tidak dinilai oleh siapa pun"],
+        "answer": 1,
+        "explanation": "Skripsi dinilai dari kemampuan menjalankan proses penelitian secara mandiri dan menunjukkan alasan di balik setiap pilihan, bukan sekadar melaporkan hasil."
+      },
+      {
+        "id": "q23-2",
+        "question": "Bab yang menjawab pertanyaan 'apa dasar berpikir dan posisi penelitian ini di antara penelitian lain?' adalah…",
+        "options": ["Bab 1", "Bab 2", "Bab 3", "Bab 4"],
+        "answer": 1,
+        "explanation": "Bab 2 (Kajian Teori) berisi landasan teori dan penelitian terdahulu yang memposisikan penelitianmu."
+      },
+      {
+        "id": "q23-3",
+        "question": "Lembar yang menyatakan bahwa skripsi bukan hasil plagiat disebut…",
+        "options": ["Kata pengantar", "Lembar pernyataan orisinalitas", "Daftar isi", "Abstrak"],
+        "answer": 1,
+        "explanation": "Lembar pernyataan orisinalitas adalah pernyataan formal keaslian karya, terkait erat dengan etika penelitian di Level 14."
+      },
+      {
+        "id": "q23-4",
+        "question": "Kenapa daftar isi sebaiknya dibuat otomatis lewat heading style, bukan diketik manual?",
+        "options": ["Supaya terlihat lebih rapi warnanya", "Supaya nomor halaman tetap akurat setiap kali naskah direvisi", "Karena dosen mewajibkan warna font tertentu", "Karena diketik manual dilarang universitas"],
+        "answer": 1,
+        "explanation": "Heading style membuat daftar isi ter-generate otomatis sehingga nomor halaman tidak meleset saat naskah berubah."
+      },
+      {
+        "id": "q23-5",
+        "question": "Fokus umum pembimbing yang menekankan format penulisan, konsistensi sitasi, dan tata bahasa biasanya adalah tugas…",
+        "options": ["Pembimbing substansi", "Pembimbing teknis", "Ketua sidang", "Penguji eksternal"],
+        "answer": 1,
+        "explanation": "Pembimbing yang fokus teknis menyoroti format, sitasi, dan kerapian bahasa (meski pembagian ini bisa berbeda tiap kampus)."
+      },
+      {
+        "id": "q23-6",
+        "question": "Kenapa mengirim draft ke pembimbing tanpa pertanyaan spesifik dianggap kurang efektif?",
+        "options": ["Karena pembimbing tidak suka membaca draft panjang", "Karena sesi bimbingan jadi habis untuk hal yang sebenarnya bisa dijawab lewat pedoman skripsi sendiri", "Karena draft tanpa pertanyaan otomatis ditolak", "Karena hanya boleh mengirim satu pertanyaan per semester"],
+        "answer": 1,
+        "explanation": "Pertanyaan spesifik membuat waktu bimbingan yang terbatas dipakai untuk hal yang benar-benar butuh masukan pembimbing."
+      },
+      {
+        "id": "q23-7",
+        "question": "Tahap yang paling sering molor dari perkiraan waktu dalam perjalanan skripsi adalah…",
+        "options": ["Pengajuan judul", "Pengumpulan dan analisis data", "Penulisan kata pengantar", "Pencetakan sampul"],
+        "answer": 1,
+        "explanation": "Pengumpulan data bergantung pada faktor eksternal (izin, ketersediaan subjek, dll) sehingga paling rawan molor."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-23",
+    "title": "Ujian Level 23",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e23-1",
+        "question": "Seorang mahasiswa menulis Bab 3-nya sepadat artikel jurnal: \"Data dianalisis dengan uji-t independen\" tanpa penjelasan lebih lanjut. Pembimbingnya meminta ia menjelaskan kenapa uji-t dipilih dan asumsi apa yang harus dipenuhi. Permintaan pembimbing ini mencerminkan…",
+        "options": ["Pembimbing yang terlalu rewel tanpa alasan jelas", "Perbedaan gaya penulisan: skripsi perlu menunjukkan alasan di balik pilihan metode, tidak sepadat artikel jurnal", "Kesalahan pembimbing karena uji-t seharusnya tidak perlu dijelaskan", "Tuntutan yang hanya berlaku untuk penelitian kualitatif"],
+        "answer": 1,
+        "explanation": "Skripsi ditujukan untuk menunjukkan penguasaan metodologis pembacanya adalah evaluator, bukan peer ahli, sehingga alasan pemilihan metode perlu dijelaskan lebih eksplisit dibanding artikel jurnal."
+      },
+      {
+        "id": "e23-2",
+        "question": "Seminggu sebelum sidang, seorang mahasiswa baru sadar belum membuat lembar pengesahan, daftar isi otomatis, dan lampiran surat izin penelitian. Akar masalah utamanya adalah…",
+        "options": ["Topik skripsinya kurang menarik", "Ia menunda bagian administratif sampai akhir, padahal bagian ini perlu disiapkan sejak awal proses penulisan", "Pembimbingnya tidak memberi tahu soal lembar pengesahan", "Kampus tidak menyediakan format lembar pengesahan"],
+        "answer": 1,
+        "explanation": "Bagian pembuka/penutup skripsi (lembar pengesahan, daftar isi, lampiran) sering diremehkan padahal butuh waktu persiapan dan sebaiknya dicicil sejak awal, bukan dikerjakan mendadak."
+      },
+      {
+        "id": "e23-3",
+        "question": "Seorang mahasiswa mengirim pesan ke pembimbingnya: \"Bu, Bab 2 saya gimana ya ka? Mohon dicek.\" tanpa draft revisi atau pertanyaan spesifik. Masalah utama pendekatan ini adalah…",
+        "options": ["Pesannya terlalu sopan", "Tidak memberi konteks apa yang sudah direvisi dan pertanyaan spesifik apa yang butuh masukan, sehingga sulit bagi pembimbing memberi arahan efisien", "Seharusnya dikirim lewat telepon, bukan pesan teks", "Pembimbing dilarang menjawab pesan semacam ini"],
+        "answer": 1,
+        "explanation": "Bimbingan efektif butuh konteks revisi dan pertanyaan spesifik agar pembimbing bisa langsung memberi masukan yang relevan, bukan mengulang penjelasan dari nol."
+      },
+      {
+        "id": "e23-4",
+        "question": "Seorang mahasiswa menganggap dirinya bisa 'mempercepat' proses dengan meminta pembimbing menuliskan ulang bagian kerangka berpikir yang belum sempat ia kerjakan. Kekeliruan pandangan ini adalah…",
+        "options": ["Kerangka berpikir memang tugas pembimbing untuk menulisnya", "Pembimbing berperan mengarahkan pemikiran, bukan menulis ulang bagian yang belum dikerjakan mahasiswa", "Tidak ada kekeliruan, ini praktik umum yang dianjurkan", "Kerangka berpikir seharusnya tidak perlu ditulis sama sekali"],
+        "answer": 1,
+        "explanation": "Pembimbing membimbing arah berpikir, bukan pengganti penulis. Mahasiswa wajib datang dengan draft sendiri, sekasar apa pun, sebagai bahan diskusi."
+      },
+      {
+        "id": "e23-5",
+        "question": "Dua mahasiswa menyusun timeline skripsi masing-masing tepat pas 6 bulan tanpa cadangan waktu untuk kemungkinan pengumpulan data molor atau revisi tambahan. Risiko terbesar dari pendekatan ini adalah…",
+        "options": ["Tidak ada risiko karena rencana sudah dibuat", "Satu keterlambatan kecil di satu tahap bisa merusak seluruh jadwal karena tidak ada buffer waktu", "Dosen pembimbing akan otomatis memperpanjang masa studi", "Timeline yang presisi selalu lebih baik daripada yang longgar"],
+        "answer": 1,
+        "explanation": "Tanpa buffer waktu, keterlambatan di satu tahap (paling sering pengumpulan data) akan merembet ke seluruh jadwal berikutnya."
+      },
+      {
+        "id": "e23-6",
+        "question": "Seorang mahasiswa kualitatif bingung karena skripsinya tidak memiliki bagian 'hipotesis' di Bab 2, sementara temannya yang meneliti kuantitatif punya. Penjelasan yang tepat untuk situasi ini adalah…",
+        "options": ["Skripsinya cacat dan harus direvisi total", "Hipotesis memang umumnya hanya diperlukan pada penelitian kuantitatif; penelitian kualitatif lazim tidak mencantumkannya", "Semua skripsi wajib punya hipotesis tanpa kecuali", "Hipotesis seharusnya ditulis di Bab 1, bukan Bab 2"],
+        "answer": 1,
+        "explanation": "Hipotesis adalah dugaan sementara yang diuji secara statistik — relevan untuk kuantitatif, tapi umumnya tidak diperlukan pada desain kualitatif."
+      },
+      {
+        "id": "e23-7",
+        "question": "Seorang mahasiswa sudah tiga bulan tidak mendapat balasan dari pembimbingnya meski sudah mengirim beberapa pesan personal. Langkah paling tepat menurut prinsip bimbingan yang sehat adalah…",
+        "options": ["Menyerah dan mengganti topik skripsi tanpa konsultasi", "Menghubungi lewat jalur resmi kampus dengan tenggat jelas, dan melibatkan koordinator skripsi/prodi jika perlu", "Mengirim pesan setiap jam sampai dibalas", "Diam saja dan menunggu tanpa batas waktu"],
+        "answer": 1,
+        "explanation": "Masalah komunikasi pembimbing yang berkepanjangan adalah hal administratif yang wajar dieskalasi lewat jalur resmi, bukan sesuatu yang harus ditanggung sendiri tanpa batas."
+      },
+      {
+        "id": "e23-8",
+        "question": "Seorang mahasiswa berpendapat bahwa karena skripsinya membahas topik yang sangat menarik dan unik, ia tidak perlu terlalu memikirkan struktur Bab 1–5 yang baku. Kekeliruan dalam pandangan ini adalah…",
+        "options": ["Topik menarik memang cukup untuk mengabaikan struktur", "Struktur Bab 1–5 tetap penting karena itulah yang membuat penilai bisa melacak alur berpikir, terlepas seberapa menarik topiknya", "Struktur baku hanya berlaku untuk topik yang membosankan", "Skripsi tidak butuh struktur sama sekali"],
+        "answer": 1,
+        "explanation": "Kejelasan alur berpikir dari Bab 1 sampai Bab 5 adalah yang dinilai, bukan semata daya tarik topik — topik menarik dengan struktur berantakan tetap sulit dinilai kompetensinya."
+      },
+      {
+        "id": "e23-9",
+        "question": "Seorang mahasiswa menyimpan semua catatan revisi bimbingan hanya di ingatannya, tanpa mencatatnya di kartu bimbingan. Tiga bulan kemudian, ia diminta merevisi ulang poin yang sebenarnya sudah pernah dibahas. Penyebab paling mungkin dari situasi ini adalah…",
+        "options": ["Pembimbingnya sengaja mempersulit", "Tidak adanya catatan tertulis membuat revisi yang sama berpotensi diminta ulang karena tidak ada bukti sudah dibahas dan disepakati", "Kartu bimbingan memang tidak berguna", "Ingatan manusia selalu akurat untuk detail teknis semacam ini"],
+        "answer": 1,
+        "explanation": "Mencatat hasil bimbingan segera setelah sesi mencegah pengulangan revisi dan memberi jejak yang bisa dirujuk kembali kapan saja."
+      },
+      {
+        "id": "e23-10",
+        "question": "Seorang mahasiswa berasumsi bahwa penguji sidang menilai skripsinya semata dari keunikan topik dan kerapian sampul. Setelah membaca peta anatomi skripsi di level ini, asumsi mana yang PALING perlu dikoreksi?",
+        "options": ["Bahwa kerapian sampul itu tidak penting sama sekali", "Bahwa yang dinilai utamanya adalah kompetensi metodologis dan kejelasan alur berpikir dari Bab 1 sampai Bab 5, bukan sekadar tampilan luar atau keunikan topik", "Bahwa penguji tidak boleh menilai format sama sekali", "Bahwa topik skripsi tidak pernah dinilai dalam bentuk apa pun"],
+        "answer": 1,
+        "explanation": "Skripsi dinilai dari kemampuan menunjukkan proses berpikir metodologis secara runtut — kerapian format itu penting tapi bukan inti penilaian utama."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Metode Penelitian Kuantitatif, Kualitatif dan R&D", "author": "Sugiyono", "publisher": "Alfabeta", "note": "Rujukan utama struktur dan logika penelitian akademik di kampus-kampus Indonesia." },
+    { "title": "How to Write a Thesis", "author": "Umberto Eco", "year": 2015, "publisher": "MIT Press", "note": "Panduan klasik tentang tujuan dan anatomi tesis sebagai bukti kompetensi meneliti mandiri." },
+    { "title": "A Manual for Writers of Research Papers, Theses, and Dissertations", "author": "Kate L. Turabian", "publisher": "University of Chicago Press", "note": "Rujukan format dan struktur karya ilmiah akademik jenjang tesis/disertasi." },
+    { "title": "Authoring a PhD Thesis: How to Plan, Draft, Write and Finish a Doctoral Dissertation", "author": "Patrick Dunleavy", "publisher": "Palgrave Macmillan", "note": "Dipakai untuk bagian tentang peran pembimbing dan proses bimbingan yang sehat." }
+  ]
+}

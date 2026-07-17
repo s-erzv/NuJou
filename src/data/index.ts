@@ -9,6 +9,7 @@ import level7 from './level7.json';
 import level8 from './level8.json';
 import level9 from './level9.json';
 import level10 from './level10.json';
+import level11 from './level11.json';
 
 // Static, ordered course data. Cast is safe because the JSON is authored
 // to match the `Level` shape in ../types.
@@ -23,6 +24,11 @@ export const levels: Level[] = [
   level8,
   level9,
   level10,
+  level11,
+  // NOTE: levels unlock sequentially (level N requires N-1's exam passed), so
+  // only a contiguous run can be registered. level15/16/23/29/39 are written
+  // and validated but stay unregistered until the gaps between them are filled
+  // — registering them early would render them permanently unreachable.
 ] as unknown as Level[];
 
 export const getLevel = (idOrSlug: number | string): Level | undefined =>

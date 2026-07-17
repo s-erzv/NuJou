@@ -1,0 +1,269 @@
+{
+  "id": 11,
+  "slug": "tinjauan-pustaka",
+  "title": "Tinjauan Pustaka yang Kritis",
+  "subtitle": "Dari ringkasan berantai ke sintesis bertema",
+  "goal": "Mampu menyusun tinjauan pustaka yang mensintesis banyak sumber ke dalam tema-tema besar, menunjukkan di mana penelitian-penelitian itu sepakat, bertentangan, atau meninggalkan celah, lalu menurunkan celah riset dari sintesis itu sendiri — bukan sekadar merangkum sumber satu per satu.",
+  "estimatedMinutes": 38,
+  "sections": [
+    {
+      "id": "11-1",
+      "title": "Masalah Ringkasan Berantai",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa 'A Bilang X, B Bilang Y' Tidak Cukup" },
+        { "type": "paragraph", "text": "Ini kesalahan paling umum pada tinjauan pustaka pemula: menulis satu paragraf per sumber, berurutan, tanpa hubungan satu sama lain. Hasilnya terbaca seperti daftar belanja, bukan argumen." },
+        { "type": "quote", "text": "Smith (2018) menemukan bahwa motivasi belajar dipengaruhi oleh dukungan orang tua. Dewi (2019) menemukan bahwa motivasi belajar dipengaruhi oleh guru. Rahman (2020) menemukan bahwa motivasi belajar dipengaruhi oleh teman sebaya.", "source": "Contoh ringkasan berantai (BUKAN sintesis)" },
+        { "type": "callout", "title": "Kenapa Ini Lemah", "text": "Pembaca cuma tahu apa kata masing-masing sumber, tapi tidak tahu bagaimana ketiganya berhubungan — saling melengkapi? Bertentangan? Atau justru ada celah di antara ketiganya yang belum ada yang meneliti? Tinjauan pustaka yang baik menjawab pertanyaan itu, bukan sekadar melaporkan isi tiap sumber." },
+        { "type": "paragraph", "text": "Tinjauan pustaka (literature review) sebenarnya adalah sebuah ARGUMEN yang dibangun dari penelitian yang sudah ada — bukan rangkuman pasif. Kamu bukan sekretaris yang mencatat kata orang, kamu adalah kurator yang menunjukkan pola di antara semua penelitian itu." }
+      ]
+    },
+    {
+      "id": "11-2",
+      "title": "Dua Fungsi Tinjauan Pustaka",
+      "blocks": [
+        { "type": "heading", "text": "Memetakan yang Sudah Diketahui, Menunjukkan yang Belum" },
+        { "type": "paragraph", "text": "Tinjauan pustaka punya dua tugas sekaligus, dan keduanya harus selesai sebelum kamu masuk ke rumusan masalah." },
+        { "type": "list", "ordered": true, "items": [
+          "Memetakan apa yang sudah diketahui — mengelompokkan temuan-temuan yang ada ke dalam tema besar, sehingga pembaca dapat gambaran utuh 'sejauh ini bidang ini sudah sampai mana'.",
+          "Menunjukkan apa yang belum terjawab — dari peta itu, celah (gap) akan terlihat dengan sendirinya: variabel yang belum dikombinasikan, konteks yang belum diuji, atau hasil yang masih bertentangan."
+        ]},
+        { "type": "callout", "title": "Menyambung ke Pola CARS (Level 2)", "text": "Tinjauan pustaka sebenarnya adalah versi panjang dan berbukti dari Move 2 pola CARS yang sudah kamu pelajari di Level 2: 'menunjukkan celah'. Bedanya, di sini kamu tidak cukup klaim satu kalimat — kamu HARUS membuktikan celah itu lewat sintesis puluhan sumber yang sudah kamu petakan." }
+      ]
+    },
+    {
+      "id": "11-3",
+      "title": "Berpikir dalam Tema, Bukan dalam Sumber",
+      "blocks": [
+        { "type": "heading", "text": "Tiga Cara Mengorganisasi (dan Kenapa Tematik Biasanya Menang)" },
+        { "type": "paragraph", "text": "Sebelum menulis, kamu harus memutuskan bagaimana tinjauan pustaka diorganisasi. Pilihan ini menentukan apakah tulisanmu akan terbaca sebagai daftar atau sebagai argumen." },
+        { "type": "table", "headers": ["Cara Organisasi", "Ciri", "Kapan Cocok"], "rows": [
+          ["Kronologis", "Diurutkan berdasarkan tahun terbit", "Saat topik memang berkembang sebagai satu garis waktu gagasan, misalnya sejarah teori"],
+          ["Tematik", "Dikelompokkan berdasarkan konsep/variabel/temuan yang sama", "Paling umum dan paling kuat — memaksa kamu membandingkan sumber, bukan mendaftarnya"],
+          ["Metodologis", "Dikelompokkan berdasarkan pendekatan riset (kualitatif vs kuantitatif, eksperimen vs survei)", "Saat perbedaan metode itu sendiri jadi sorotan penting, misalnya isu masih diperdebatkan karena metode berbeda-beda"]
+        ]},
+        { "type": "paragraph", "text": "Default paling aman untuk pemula: organisasi TEMATIK. Setiap subbagian membahas satu tema besar, dan di dalamnya kamu membandingkan semua sumber yang relevan dengan tema itu — bukan satu sumber per paragraf." }
+      ]
+    },
+    {
+      "id": "11-4",
+      "title": "Alat Bantu: Matriks Sintesis",
+      "blocks": [
+        { "type": "heading", "text": "Synthesis Matrix: Melihat Semua Sumber Sekaligus" },
+        { "type": "paragraph", "text": "Sebelum menulis satu kalimat pun, buat dulu matriks sintesis: baris berisi sumber-sumber yang kamu baca, kolom berisi tema/konsep yang relevan, dan tiap sel berisi ringkasan singkat apa kata sumber itu tentang tema tersebut (atau kosong kalau tidak dibahas). Ini mengubah tumpukan artikel jadi satu gambar yang bisa kamu baca sekaligus." },
+        { "type": "table", "headers": ["Sumber", "Tema: Peran Orang Tua", "Tema: Peran Guru", "Tema: Peran Teman Sebaya"], "rows": [
+          ["Smith (2018)", "Kuat — fokus utama studi", "Tidak dibahas", "Tidak dibahas"],
+          ["Dewi (2019)", "Disinggung sekilas", "Kuat — fokus utama studi", "Tidak dibahas"],
+          ["Rahman (2020)", "Tidak dibahas", "Tidak dibahas", "Kuat — fokus utama studi"]
+        ]},
+        { "type": "callout", "title": "Baca Matriks secara Horizontal saat Menulis", "text": "Kuncinya: saat menulis paragraf sintesis, baca matriks per KOLOM (semua sumber untuk satu tema), bukan per BARIS (semua tema dari satu sumber). Membaca per kolom itulah yang membuatmu menulis 'tiga penelitian ini sama-sama menyoroti X, tapi dari sudut berbeda' — bukan 'Smith meneliti X, Dewi meneliti Y'." },
+        { "type": "paragraph", "text": "Dari tabel di atas saja sudah terlihat pola: setiap studi hanya menyoroti SATU faktor sosial, dan tidak ada yang menelitinya bersamaan. Itulah bibit celah riset — kamu belum menulis satu kalimat pun, tapi sudah tahu ke mana argumenmu akan mengarah." }
+      ]
+    },
+    {
+      "id": "11-5",
+      "title": "Menulis Paragraf Sintesis: Before/After",
+      "blocks": [
+        { "type": "heading", "text": "Dari Sumber Berjajar ke Argumen Bersama" },
+        { "type": "quote", "text": "SEBELUM: Smith (2018) menemukan bahwa motivasi belajar dipengaruhi oleh dukungan orang tua. Dewi (2019) menemukan bahwa motivasi belajar dipengaruhi oleh guru. Rahman (2020) menemukan bahwa motivasi belajar dipengaruhi oleh teman sebaya.", "source": "Versi ringkasan berantai" },
+        { "type": "quote", "text": "SESUDAH: Penelitian tentang motivasi belajar secara konsisten menunjuk pada faktor sosial di luar diri siswa. Sebagian menyoroti peran orang tua (Smith, 2018), sebagian peran guru (Dewi, 2019), dan sebagian lagi teman sebaya (Rahman, 2020). Namun, ketiga faktor ini nyaris tidak pernah diteliti secara bersamaan — bagaimana ketiganya saling memperkuat atau justru saling melemahkan motivasi siswa masih belum jelas. Celah inilah yang diisi oleh penelitian ini.", "source": "Versi sintesis, ditulis dari matriks di Level 11-4" },
+        { "type": "paragraph", "text": "Perhatikan apa yang berubah: versi 'sesudah' membuka dengan generalisasi tentang polanya (faktor sosial), baru menyebut sumber sebagai bukti pendukung — bukan sebaliknya. Dan yang paling penting, ia berakhir dengan celah yang eksplisit, bukan cuma berhenti setelah menyebut tiga nama." }
+      ]
+    },
+    {
+      "id": "11-6",
+      "title": "Bahasa Sintesis: Verba Pelapor & Penghubung",
+      "blocks": [
+        { "type": "heading", "text": "Kata Kerja yang Menunjukkan Sikapmu terhadap Sumber" },
+        { "type": "paragraph", "text": "Verba pelapor (reporting verbs) — kata seperti 'menemukan', 'menduga', 'membuktikan' — bukan sekadar variasi gaya bahasa. Tiap kata membawa sikap berbeda terhadap seberapa kuat klaim itu kamu percaya." },
+        { "type": "list", "ordered": false, "items": [
+          "Netral: menyatakan, melaporkan, mencatat — sekadar melaporkan apa adanya.",
+          "Ragu-ragu/tentatif: menduga, mengindikasikan, menyarankan — dipakai saat buktinya belum kuat atau sampelnya kecil.",
+          "Kuat/afirmatif: membuktikan, menegaskan, mengonfirmasi — dipakai saat bukti memang solid (jangan dipakai untuk satu studi kecil)."
+        ]},
+        { "type": "list", "ordered": false, "items": [
+          "Untuk kesepakatan antar-sumber: 'Sejalan dengan...', 'Memperkuat temuan...', 'Studi-studi ini sepakat bahwa...'",
+          "Untuk pertentangan: 'Berbeda dengan...', 'Namun, tidak seperti...', 'Perdebatan muncul ketika...'"
+        ]},
+        { "type": "callout", "title": "Hindari Netral Melulu", "text": "Kalau semua kalimatmu memakai 'menyatakan' atau 'menemukan' tanpa variasi, pembaca tidak bisa membedakan mana klaim yang sudah mapan dan mana yang masih diperdebatkan atau baru berupa dugaan awal." }
+      ]
+    },
+    {
+      "id": "11-7",
+      "title": "Menyusun Kerangka Tinjauan Pustaka",
+      "blocks": [
+        { "type": "heading", "text": "Struktur Praktis dari Umum ke Celah" },
+        { "type": "list", "ordered": true, "items": [
+          "Buka dengan pemetaan tema besar — beri tahu pembaca berapa banyak tema akan dibahas dan urutannya.",
+          "Setiap subbagian = satu tema. Isi dengan paragraf sintesis berbasis matriks (Level 11-4 & 11-5), bukan satu sumber per paragraf.",
+          "Di akhir tiap subbagian tema, tunjukkan sub-celah kecil khusus tema itu.",
+          "Tutup dengan paragraf sintesis besar yang merangkum semua sub-celah menjadi satu celah utama — inilah yang langsung menuntun ke rumusan masalah (Level 6)."
+        ]},
+        { "type": "paragraph", "text": "Kalau kamu mengikuti kerangka ini, celah risetmu tidak akan terasa dipaksakan atau tiba-tiba muncul di paragraf terakhir — pembaca sudah 'digiring' ke sana lewat semua sintesis sebelumnya." }
+      ]
+    },
+    {
+      "id": "11-8",
+      "title": "Menyambung ke Riset Sistematis (Level 12)",
+      "blocks": [
+        { "type": "heading", "text": "Tinjauan Naratif Bukan Satu-satunya Bentuk" },
+        { "type": "paragraph", "text": "Yang kamu pelajari di level ini disebut tinjauan naratif (narrative review) — fleksibel, dan ini bentuk yang paling umum dipakai di skripsi/tesis atau bab pendahuluan artikel. Tapi ada sepupunya yang jauh lebih ketat: systematic review, yang punya protokol pencarian dan kriteria seleksi yang eksplisit sebelum pencarian dimulai." },
+        { "type": "callout", "title": "Kapan Butuh yang Lebih Ketat?", "text": "Kalau bidangmu punya ratusan studi yang saling bertentangan dan kamu ingin klaim yang benar-benar bebas dari bias pemilihan sumber (cherry-picking), tinjauan naratif saja tidak cukup meyakinkan. Level 12 membahas systematic review dan PRISMA untuk situasi seperti itu." }
+      ]
+    },
+    {
+      "id": "11-9",
+      "title": "Kesalahan Umum dalam Tinjauan Pustaka",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis ringkasan berantai: satu paragraf per sumber, tanpa membandingkan atau menghubungkan.",
+          "Mengorganisasi per sumber, bukan per tema — pembaca jadi harus menyusun sendiri polanya, padahal itu tugas penulis.",
+          "Confirmation bias: hanya mengutip studi yang mendukung hipotesis sendiri, menyembunyikan yang bertentangan.",
+          "Mengklaim celah riset ('belum banyak diteliti') tanpa menunjukkan sintesis yang membuktikannya — klaim kosong tanpa bukti dari matriks.",
+          "Memakai sumber yang terlalu lama tanpa alasan (kecuali teori klasik), padahal riset di bidang itu bergerak cepat."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Tinjauan pustaka yang baik terasa seperti kamu menuntun pembaca menyusuri sebuah peta, sampai akhirnya sampai pada satu titik kosong di peta itu — tempat penelitianmu berdiri." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-11",
+    "title": "Kuis Level 11",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q11-1",
+        "question": "Ciri utama yang membedakan tinjauan pustaka bersintesis dari ringkasan berantai adalah…",
+        "options": ["Jumlah sumber yang dikutip lebih banyak", "Menunjukkan hubungan antar sumber — sepakat, bertentangan, atau meninggalkan celah", "Ditulis dengan kalimat yang lebih panjang", "Semua sumber disebut dalam satu paragraf"],
+        "answer": 1,
+        "explanation": "Sintesis berarti menunjukkan pola dan hubungan antar sumber, bukan sekadar melaporkan isi tiap sumber berurutan."
+      },
+      {
+        "id": "q11-2",
+        "question": "Fungsi utama matriks sintesis adalah…",
+        "options": ["Menghitung jumlah kata tiap sumber", "Memetakan apa yang dibahas tiap sumber per tema, sehingga pola terlihat sekaligus", "Mengganti kebutuhan membaca sumber aslinya", "Menyusun daftar pustaka secara otomatis"],
+        "answer": 1,
+        "explanation": "Matriks menaruh sumber sebagai baris dan tema sebagai kolom, sehingga pola kesepakatan/celah terlihat dalam satu gambar."
+      },
+      {
+        "id": "q11-3",
+        "question": "Organisasi tematik lebih dianjurkan dibanding kronologis ketika…",
+        "options": ["Kamu ingin menunjukkan urutan tahun terbit", "Kamu ingin memaksa dirimu membandingkan sumber berdasarkan konsep, bukan sekadar mendaftarnya", "Sumbernya kurang dari tiga", "Semua sumber ditulis oleh penulis yang sama"],
+        "answer": 1,
+        "explanation": "Organisasi tematik mengelompokkan sumber berdasarkan konsep sehingga perbandingan jadi wajar dan otomatis terjadi."
+      },
+      {
+        "id": "q11-4",
+        "question": "Selain memetakan apa yang sudah diketahui, fungsi kedua tinjauan pustaka adalah…",
+        "options": ["Menggantikan bagian Metode", "Menunjukkan celah yang belum terjawab sebagai dasar penelitian baru", "Membuktikan penelitian terdahulu salah", "Menambah panjang halaman skripsi"],
+        "answer": 1,
+        "explanation": "Setelah memetakan yang diketahui, tinjauan pustaka harus menurunkan celah yang menjadi alasan penelitian baru dilakukan."
+      },
+      {
+        "id": "q11-5",
+        "question": "Membaca matriks sintesis 'per kolom' alih-alih 'per baris' berguna karena…",
+        "options": ["Lebih cepat dibaca", "Membantu melihat semua sumber yang membahas satu tema yang sama sekaligus", "Menghindari kebutuhan mengutip sumber", "Kolom selalu lebih sedikit daripada baris"],
+        "answer": 1,
+        "explanation": "Membaca per kolom mengumpulkan semua sumber terkait satu tema, sehingga bisa langsung dibandingkan dalam satu paragraf sintesis."
+      },
+      {
+        "id": "q11-6",
+        "question": "Verba pelapor seperti 'menduga' atau 'mengindikasikan' biasanya dipakai untuk…",
+        "options": ["Klaim yang sudah didukung bukti sangat kuat", "Temuan yang buktinya belum kuat atau sampelnya kecil", "Semua jenis temuan tanpa pengecualian", "Menggantikan sitasi"],
+        "answer": 1,
+        "explanation": "Verba tentatif menandakan tingkat kepercayaan yang lebih rendah terhadap klaim, cocok untuk bukti yang masih terbatas."
+      },
+      {
+        "id": "q11-7",
+        "question": "Hubungan tinjauan pustaka dengan pola CARS di Level 2 adalah…",
+        "options": ["Tidak ada hubungan sama sekali", "Tinjauan pustaka adalah versi panjang dan berbukti dari Move 2 CARS (menunjukkan celah)", "CARS hanya dipakai di abstrak", "Tinjauan pustaka menggantikan seluruh pola CARS"],
+        "answer": 1,
+        "explanation": "Tinjauan pustaka memperluas 'menunjukkan celah' pada CARS dengan bukti sintesis dari banyak sumber, bukan satu klaim kalimat."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-11",
+    "title": "Ujian Level 11",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e11-1",
+        "question": "Draf tinjauan pustaka seorang mahasiswa terdiri dari 10 paragraf, masing-masing membahas satu artikel secara berurutan sesuai urutan ia menemukannya saat mencari di Google Scholar. Masalah utama draf ini adalah…",
+        "options": ["Jumlah sumbernya kurang banyak", "Diorganisasi per sumber, bukan per tema, sehingga tidak menunjukkan pola atau hubungan antar studi", "Semua sumber terlalu baru", "Tidak memakai kutipan langsung"],
+        "answer": 1,
+        "explanation": "Mengurutkan berdasarkan urutan ditemukan (bukan tema) membuat tulisan jadi daftar, bukan argumen yang mensintesis."
+      },
+      {
+        "id": "e11-2",
+        "question": "Seorang peneliti hanya mengutip lima studi yang mendukung hipotesisnya, padahal saat mencari literatur ia juga menemukan tiga studi dengan hasil berlawanan yang sengaja tidak disebutkan. Praktik ini disebut…",
+        "options": ["Triangulasi", "Confirmation bias — memilih sumber yang sejalan dan menyembunyikan yang bertentangan", "Sintesis tematik yang baik", "Parafrase yang sah"],
+        "answer": 1,
+        "explanation": "Menyembunyikan bukti yang bertentangan demi mendukung hipotesis sendiri adalah bias konfirmasi, bukan tinjauan yang jujur."
+      },
+      {
+        "id": "e11-3",
+        "question": "Matriks sintesis menunjukkan tiga studi yang masing-masing hanya meneliti satu dari tiga variabel (A, B, C) secara terpisah, dan tak satu pun meneliti interaksi ketiganya. Kesimpulan paling tepat yang bisa ditarik dari pola ini adalah…",
+        "options": ["Ketiga studi itu saling bertentangan", "Ada celah riset: interaksi antar-variabel A, B, dan C belum pernah diteliti bersamaan", "Studinya tidak valid", "Variabel A, B, C sebenarnya sama"],
+        "answer": 1,
+        "explanation": "Pola 'masing-masing meneliti satu variabel secara terpisah' justru mengungkap celah pada interaksi antar-variabel yang belum diteliti."
+      },
+      {
+        "id": "e11-4",
+        "question": "Seorang penulis menutup tinjauan pustakanya dengan kalimat 'Penelitian ini penting karena topik ini belum banyak diteliti', tanpa menunjukkan pola dari sumber-sumber yang telah dibahas sebelumnya. Kelemahan kalimat ini adalah…",
+        "options": ["Terlalu pendek", "Klaim celah tanpa bukti sintesis — tidak jelas celah itu muncul dari pola mana", "Seharusnya ditaruh di Metode", "Tidak menyebut nama penulis lain"],
+        "answer": 1,
+        "explanation": "Celah riset harus muncul sebagai kesimpulan logis dari sintesis yang sudah ditunjukkan, bukan klaim generik tanpa bukti."
+      },
+      {
+        "id": "e11-5",
+        "question": "Dua studi meneliti topik yang sama tapi menemukan hasil yang berlawanan. Penulis tinjauan pustaka hanya menuliskan 'Studi A menemukan X, studi B menemukan Y' tanpa membahas kenapa keduanya berbeda. Yang seharusnya dilakukan penulis adalah…",
+        "options": ["Menghapus salah satu studi agar tidak terlihat bertentangan", "Membahas kemungkinan sebab pertentangan itu (misalnya beda sampel atau metode) sebagai bagian dari sintesis", "Membiarkan pembaca menyimpulkan sendiri tanpa penjelasan", "Mengganti kedua studi dengan studi yang lebih setuju"],
+        "answer": 1,
+        "explanation": "Pertentangan antar-temuan adalah bahan sintesis yang berharga — penulis wajib menafsirkan kemungkinan sebabnya, bukan menyembunyikannya."
+      },
+      {
+        "id": "e11-6",
+        "question": "Sebuah bidang riset sedang diperdebatkan oleh tiga aliran teori yang bersaing, dan penulis memilih menyusun tinjauan pustakanya secara kronologis berdasarkan tahun terbit. Pilihan organisasi ini kemungkinan besar…",
+        "options": ["Sudah paling tepat untuk situasi ini", "Kurang tepat — organisasi metodologis atau tematik (per aliran teori) akan lebih menonjolkan perdebatan antar-aliran", "Tidak relevan karena urutan organisasi tidak pernah berpengaruh", "Hanya masalah gaya penulisan, bukan substansi"],
+        "answer": 1,
+        "explanation": "Saat perdebatan antar-aliran teori jadi sorotan, organisasi tematik/metodologis (mengelompokkan per aliran) lebih efektif menunjukkan pertentangan itu dibanding kronologis."
+      },
+      {
+        "id": "e11-7",
+        "question": "Seorang mahasiswa menulis, 'Data ini membuktikan secara mutlak bahwa media sosial merusak konsentrasi belajar', padahal ia hanya mengutip satu studi kualitatif kecil dengan delapan partisipan. Masalah pilihan kata di kalimat ini adalah…",
+        "options": ["Kalimatnya terlalu ilmiah", "Verba 'membuktikan secara mutlak' terlalu kuat untuk bukti dari satu studi kecil — overclaiming", "Seharusnya tidak menyebut media sosial sama sekali", "Tidak ada masalah, kalimat ini sudah tepat"],
+        "answer": 1,
+        "explanation": "Verba afirmatif seperti 'membuktikan secara mutlak' semestinya disediakan untuk bukti yang solid dan berlapis, bukan satu studi kecil."
+      },
+      {
+        "id": "e11-8",
+        "question": "Draf tinjauan pustaka memuat 15 sumber, semuanya diringkas di bawah satu judul besar 'Penelitian Terdahulu' tanpa subbagian sama sekali. Perbaikan paling mendasar yang dibutuhkan adalah…",
+        "options": ["Menambah lebih banyak sumber lagi", "Memecah menjadi subbagian bertema, lalu mensintesis sumber-sumber dalam tiap tema", "Mengganti semua sumber dengan yang lebih baru", "Menghapus judul besarnya"],
+        "answer": 1,
+        "explanation": "Tanpa subbagian tematik, 15 sumber akan sulit dibandingkan — struktur bertema memaksa sintesis, bukan sekadar daftar panjang."
+      },
+      {
+        "id": "e11-9",
+        "question": "Sebuah topik ternyata punya ratusan studi yang saling bertentangan hasilnya, dan tim peneliti ingin klaim akhirnya benar-benar bebas dari bias pemilihan sumber. Pendekatan yang lebih cocok dibanding tinjauan naratif biasa adalah…",
+        "options": ["Tetap tinjauan naratif, tapi ditulis lebih panjang", "Mempertimbangkan systematic review dengan protokol dan kriteria seleksi eksplisit (Level 12)", "Menghapus studi yang bertentangan agar tidak membingungkan", "Hanya mengutip studi paling terkenal saja"],
+        "answer": 1,
+        "explanation": "Saat volume studi besar dan bias seleksi jadi risiko nyata, systematic review dengan protokol eksplisit lebih transparan dibanding tinjauan naratif."
+      },
+      {
+        "id": "e11-10",
+        "question": "Sebuah paragraf sintesis berbunyi: 'Sejalan dengan temuan Rahman (2020), penelitian ini juga menemukan pentingnya peran teman sebaya, namun bertentangan dengan Dewi (2019) yang menekankan peran guru.' Yang membuat kalimat ini tergolong sintesis yang baik adalah…",
+        "options": ["Menyebutkan tahun terbit tiap sumber", "Secara eksplisit menunjukkan hubungan (sejalan/bertentangan) antar sumber, bukan sekadar melaporkan isi masing-masing", "Menggunakan dua sumber sekaligus dalam satu kalimat", "Kalimatnya cukup panjang"],
+        "answer": 1,
+        "explanation": "Ciri sintesis yang baik bukan soal panjang atau jumlah sumber, tapi menunjukkan secara eksplisit bagaimana sumber-sumber itu berhubungan satu sama lain."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, Joseph Bizup, William T. FitzGerald", "publisher": "University of Chicago Press", "note": "Dasar konsep menulis tinjauan pustaka sebagai argumen, bukan ringkasan." },
+    { "title": "Academic Writing for Graduate Students", "author": "John M. Swales, Christine B. Feak", "publisher": "University of Michigan Press", "note": "Referensi gerakan retorika (moves) dalam menulis tinjauan literatur akademik." },
+    { "title": "The Literature Review: A Step-by-Step Guide for Students", "author": "Diana Ridley", "publisher": "SAGE Publications", "note": "Panduan praktis menyusun matriks sintesis dan organisasi tematik." },
+    { "title": "Doing a Literature Review: Releasing the Social Science Research Imagination", "author": "Chris Hart", "year": 1998, "publisher": "SAGE Publications", "note": "Konsep tinjauan pustaka sebagai pemetaan pengetahuan dan celah." },
+    { "title": "Purdue Online Writing Lab (OWL) — Writing a Literature Review", "publisher": "Purdue University", "note": "Referensi struktur dan bahasa sintesis dalam tinjauan pustaka." }
+  ]
+}

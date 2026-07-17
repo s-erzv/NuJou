@@ -1,0 +1,280 @@
+{
+  "id": 15,
+  "slug": "menulis-abstrak",
+  "title": "Menulis Abstrak yang Dilirik",
+  "subtitle": "Miniatur artikel yang menentukan nasib naskahmu",
+  "goal": "Menulis abstrak terstruktur maupun tidak terstruktur dengan formula 5 gerakan, mengatur jatah kata per bagian, tahu apa yang harus dipangkas, dan memahami kenapa abstrak adalah bagian paling menentukan sekaligus paling sering ditulis asal-asalan.",
+  "estimatedMinutes": 35,
+  "sections": [
+    {
+      "id": "15-1",
+      "title": "Bagian Paling Dibaca, Paling Jarang Direvisi",
+      "blocks": [
+        { "type": "heading", "text": "Paradoks Abstrak" },
+        { "type": "paragraph", "text": "Level 2 sudah mengenalkan abstrak sebagai 'miniatur artikel'. Sekarang saatnya membongkarnya lebih dalam, karena ada paradoks aneh di sini: abstrak adalah bagian yang PALING BANYAK dibaca — oleh reviewer yang memutuskan apakah naskahmu layak ditelaah, oleh editor yang menyaring ratusan submission, oleh pembaca yang mencari lewat Google Scholar — tapi juga bagian yang paling sering ditulis terburu-buru, 15 menit sebelum deadline submit, setelah penulis kehabisan energi menulis 6.000 kata lainnya." },
+        { "type": "paragraph", "text": "Coba pikirkan dari sudut pandang pembaca akademik: mereka tidak punya waktu membaca ratusan artikel penuh. Abstrak adalah alat TRIASE mereka — cara cepat memutuskan 'ini relevan, saya baca penuh' atau 'ini tidak relevan, lewat'. Kalau abstrakmu lemah, artikel yang isinya bagus sekalipun tidak akan pernah dibaca." },
+        { "type": "callout", "title": "Statistik yang Perlu Kamu Sadari", "text": "Jauh lebih banyak orang membaca abstrakmu dibanding membaca artikel utuhmu — kadang selisihnya puluhan kali lipat. Abstrak yang buruk bukan cuma kehilangan kesempatan, tapi bisa membuat naskahmu didesk reject sebelum dibaca lebih jauh (lihat Level 22 soal desk reject)." }
+      ]
+    },
+    {
+      "id": "15-2",
+      "title": "Structured vs Unstructured Abstract",
+      "blocks": [
+        { "type": "heading", "text": "Dua Format yang Berbeda Konvensi" },
+        { "type": "paragraph", "text": "Ada dua gaya utama menulis abstrak, dan gaya yang harus kamu pakai biasanya sudah ditentukan oleh jurnal tujuan — bukan pilihan bebas." },
+        {
+          "type": "table",
+          "headers": ["Format", "Ciri", "Umum Dipakai Di"],
+          "rows": [
+            ["Unstructured (naratif)", "Satu paragraf mengalir tanpa sub-judul, tapi tetap mengikuti urutan logis", "Ilmu sosial, humaniora, sebagian ilmu alam"],
+            ["Structured (berlabel)", "Dipecah dengan sub-judul tebal: Background, Objective, Methods, Results, Conclusion", "Kedokteran, kesehatan masyarakat, banyak jurnal sains terapan"]
+          ]
+        },
+        { "type": "paragraph", "text": "Structured abstract lahir dari dunia kedokteran pada 1980-an karena dokter yang sibuk butuh cara super cepat menemukan info spesifik (misalnya langsung lompat ke 'Results'). Kalau jurnal tujuanmu mewajibkan format ini, JANGAN menulis paragraf mengalir lalu memberi label belakangan — susun langsung per label sejak draf pertama, karena logika tiap bagian sedikit berbeda." },
+        { "type": "callout", "title": "Cek Dulu Sebelum Menulis", "text": "Selalu buka 'Author Guidelines' jurnal tujuan (lihat Level 18) sebelum menulis abstrak. Batas kata, format terstruktur/tidak, dan urutan bagian berbeda-beda antar jurnal — bahkan antar jurnal di rumpun ilmu yang sama." }
+      ]
+    },
+    {
+      "id": "15-3",
+      "title": "Formula 5 Gerakan (5-Move Formula)",
+      "blocks": [
+        { "type": "heading", "text": "Lima Gerakan yang Wajib Ada" },
+        { "type": "paragraph", "text": "Apa pun formatnya, abstrak yang kuat selalu menyentuh lima gerakan (moves) berikut secara berurutan. Anggap ini versi 'jam pasir' dari Level 2 yang dipadatkan jadi satu paragraf." },
+        { "type": "list", "ordered": true, "items": [
+          "Latar (Background) — satu kalimat konteks besar, kenapa topik ini penting.",
+          "Celah/Masalah (Gap/Problem) — apa yang belum terjawab atau masalah spesifik yang mendorong penelitian ini.",
+          "Tujuan & Metode (Purpose & Methods) — apa yang dilakukan untuk menjawab celah itu, dengan desain/sampel/alat secukupnya.",
+          "Hasil (Results) — temuan utama, sebaiknya dengan angka konkret, bukan kalimat kabur.",
+          "Simpulan & Implikasi (Conclusion & Implications) — apa artinya temuan ini bagi bidang/praktik."
+        ]},
+        { "type": "callout", "title": "Gerakan yang Paling Sering Hilang", "text": "Penulis pemula hampir selalu melewatkan gerakan #2 (Celah/Masalah). Mereka langsung loncat dari latar belakang umum ke metode, sehingga pembaca tidak pernah tahu KENAPA penelitian ini perlu dilakukan." }
+      ]
+    },
+    {
+      "id": "15-4",
+      "title": "Jatah Kata: Mengelola Word Budget",
+      "blocks": [
+        { "type": "heading", "text": "150-250 Kata Bukan Alasan untuk Boros" },
+        { "type": "paragraph", "text": "Kalau abstrak dibatasi 200 kata, kamu tidak bisa membagi rata 40 kata per gerakan — beberapa gerakan memang butuh porsi lebih besar. Berikut alokasi umum yang bisa jadi acuan (bisa disesuaikan tergantung jurnal):" },
+        {
+          "type": "table",
+          "headers": ["Gerakan", "Porsi Kata (perkiraan)", "Kenapa segitu"],
+          "rows": [
+            ["Latar", "10-15%", "Cukup satu kalimat; pembaca akademik sudah tahu konteks umum"],
+            ["Celah/Masalah", "10-15%", "Singkat tapi harus tegas — ini alasan penelitianmu ada"],
+            ["Tujuan & Metode", "20-25%", "Cukup detail agar pembaca tahu jenis bukti yang dihasilkan"],
+            ["Hasil", "30-35%", "Porsi terbesar — ini yang paling dicari pembaca"],
+            ["Simpulan & Implikasi", "10-15%", "Tegas dan tidak melebih-lebihkan"]
+          ]
+        },
+        { "type": "paragraph", "text": "Kalau kamu sedang menulis abstrak 200 kata, itu berarti sekitar 60-70 kata untuk Hasil saja. Itu bukan banyak — jadi setiap kata harus bekerja keras." }
+      ]
+    },
+    {
+      "id": "15-5",
+      "title": "Apa yang Harus Dipangkas",
+      "blocks": [
+        { "type": "heading", "text": "Musuh Terbesar: Detail yang Tidak Perlu" },
+        { "type": "paragraph", "text": "Karena jatah kata sangat ketat, kamu harus tega memangkas hal-hal berikut dari abstrak, meski hal-hal ini penting di badan artikel:" },
+        { "type": "list", "ordered": false, "items": [
+          "Sitasi/referensi — abstrak harus bisa berdiri sendiri, sitasi ('Smith, 2020') tidak berguna tanpa daftar pustaka di sampingnya.",
+          "Singkatan yang belum umum — kalau harus pakai, definisikan di kemunculan pertama, atau hindari sama sekali.",
+          "Latar belakang sejarah panjang — cukup satu kalimat konteks, bukan tinjauan pustaka mini.",
+          "Detail metode yang berlebihan — cukup jenis desain dan skala (misalnya 'survei pada 240 responden'), bukan seluruh instrumen dan prosedur analisis.",
+          "Hedging berlapis-lapis (lihat Level 4) — satu kata hedging sudah cukup; jangan 'mungkin bisa jadi cenderung mengindikasikan'.",
+          "Kalimat pembuka generik seperti 'Penelitian ini penting karena pendidikan adalah kunci masa depan bangsa' — terlalu luas, tidak spesifik ke topikmu."
+        ]},
+        { "type": "callout", "title": "Uji Cepat", "text": "Baca ulang abstrakmu dan tanyakan: 'Kalau kalimat ini dihapus, apakah pembaca kehilangan informasi PENTING untuk memutuskan membaca artikel penuh?' Kalau jawabannya tidak, hapus." }
+      ]
+    },
+    {
+      "id": "15-6",
+      "title": "Contoh: Abstrak Lemah vs Abstrak Kuat",
+      "blocks": [
+        { "type": "heading", "text": "Before/After" },
+        { "type": "quote", "text": "Pendidikan adalah hal yang sangat penting bagi kemajuan suatu bangsa. Di era digital ini, teknologi berkembang pesat dan memengaruhi banyak aspek kehidupan, termasuk pendidikan. Penelitian ini membahas tentang penggunaan aplikasi belajar oleh siswa SMA. Metode yang digunakan adalah kuesioner. Hasil penelitian menunjukkan bahwa aplikasi belajar cukup membantu siswa. Diharapkan penelitian ini bermanfaat bagi dunia pendidikan.", "source": "Contoh abstrak LEMAH — latar terlalu luas, tidak ada celah, hasil tanpa angka, simpulan generik" },
+        { "type": "quote", "text": "Notifikasi aplikasi belajar sering dianggap membantu, namun dampaknya terhadap fokus siswa saat mengerjakan tugas belum banyak diteliti secara empiris. Studi ini menguji pengaruh frekuensi notifikasi terhadap durasi fokus 240 siswa SMA di Jakarta melalui survei dan pencatatan waktu layar selama dua minggu. Hasil menunjukkan siswa yang menerima lebih dari 10 notifikasi per jam memiliki durasi fokus rata-rata 35% lebih rendah dibanding siswa dengan notifikasi dimatikan (p < 0,05). Temuan ini mengindikasikan perlunya fitur 'mode fokus' pada aplikasi belajar untuk menjaga produktivitas siswa.", "source": "Contoh abstrak KUAT — celah jelas, angka konkret, hedging wajar, implikasi konkret" },
+        { "type": "callout", "title": "Bedanya Apa?", "text": "Versi kuat langsung ke celah spesifik di kalimat pertama, menyebut angka sampel dan hasil (35%, p<0,05), dan implikasinya konkret ('fitur mode fokus') — bukan 'bermanfaat bagi dunia pendidikan' yang bisa ditempel di abstrak penelitian apa pun." }
+      ]
+    },
+    {
+      "id": "15-7",
+      "title": "Abstrak dan Keywords: Dua Sisi Mata Uang",
+      "blocks": [
+        { "type": "heading", "text": "Kata yang Kamu Pilih di Abstrak Menentukan Ditemukan Tidaknya Artikelmu" },
+        { "type": "paragraph", "text": "Mesin pengindeks (Google Scholar, Scopus, SINTA) sebagian besar mengandalkan kata-kata di judul dan abstrak untuk mencocokkan artikelmu dengan pencarian orang lain. Kalau abstrakmu penuh kata umum ('penelitian ini', 'menunjukkan bahwa') tapi minim istilah spesifik bidangmu, artikelmu akan sulit ditemukan meski isinya bagus." },
+        { "type": "paragraph", "text": "Praktik yang baik: pastikan istilah kunci yang akan kamu jadikan keywords (dibahas tuntas di Level 17) juga muncul secara alami di dalam abstrak — idealnya di kalimat Tujuan atau Hasil, bukan dipaksakan di kalimat pembuka yang umum." },
+        { "type": "callout", "title": "Bukan Cuma untuk Manusia", "text": "Abstrak dan keywords sekarang juga 'dibaca' oleh alat AI/pencarian semantik yang makin banyak dipakai peneliti untuk menyaring literatur (lihat Level 11 soal tinjauan pustaka). Abstrak yang jelas dan padat istilah relevan bekerja lebih baik di kedua dunia — manusia dan mesin." }
+      ]
+    },
+    {
+      "id": "15-8",
+      "title": "Graphical Abstract dan Highlights",
+      "blocks": [
+        { "type": "heading", "text": "Tren Tambahan di Beberapa Jurnal" },
+        { "type": "paragraph", "text": "Beberapa jurnal (terutama di bidang sains dan kesehatan) kini juga meminta 'graphical abstract' — ringkasan visual satu gambar yang merangkum alur penelitian — dan 'highlights', yaitu 3-5 poin bullet super singkat (maksimal ~85 karakter per poin) yang merangkum kontribusi utama. Ini BUKAN pengganti abstrak teks, melainkan tambahan untuk mempercepat pemindaian visual pembaca." },
+        { "type": "list", "ordered": false, "items": [
+          "Graphical abstract — diagram alur sederhana: masalah → metode → temuan kunci.",
+          "Highlights — bullet point kontribusi paling penting, ditulis setelah abstrak selesai, bukan sebelumnya.",
+          "Keduanya opsional di banyak jurnal, tapi cek Author Guidelines — beberapa mewajibkannya."
+        ]}
+      ]
+    },
+    {
+      "id": "15-9",
+      "title": "Kesalahan Umum Menulis Abstrak",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis abstrak sebagai copy-paste kalimat pertama tiap bagian artikel — hasilnya terasa terpotong-potong, bukan ringkasan yang mengalir.",
+          "Menunda menulis abstrak sampai menit terakhir sebelum submit, padahal ini bagian yang paling banyak dibaca.",
+          "Menyebut hasil secara kabur ('terdapat peningkatan yang signifikan') tanpa angka, padahal jatah kata masih ada.",
+          "Melebihi batas kata jurnal lalu memangkas asal dari akhir kalimat, bukan menata ulang seluruh isi.",
+          "Menjanjikan lebih di abstrak daripada yang benar-benar dibuktikan di badan artikel (overclaiming) — lihat Level 16 soal overclaiming di Discussion.",
+          "Menyalin abstrak lama untuk paper baru dengan hanya mengganti beberapa kata — rawan self-plagiarism (lihat Level 49)."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Abstrak yang baik bisa berdiri sendiri sebagai iklan jujur untuk artikelmu: menarik perhatian tanpa berbohong tentang apa yang ada di dalamnya." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-15",
+    "title": "Kuis Level 15",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q15-1",
+        "question": "Format abstrak yang dipecah dengan sub-judul tebal seperti Background, Methods, Results disebut…",
+        "options": ["Unstructured abstract", "Structured abstract", "Graphical abstract", "Highlights"],
+        "answer": 1,
+        "explanation": "Structured abstract memakai label eksplisit per bagian, umum di jurnal kedokteran/kesehatan."
+      },
+      {
+        "id": "q15-2",
+        "question": "Dalam formula 5 gerakan, gerakan yang paling sering terlewat oleh penulis pemula adalah…",
+        "options": ["Latar belakang", "Celah/masalah penelitian", "Hasil", "Simpulan"],
+        "answer": 1,
+        "explanation": "Penulis pemula sering loncat dari latar umum langsung ke metode tanpa menyatakan celah yang mendorong penelitian."
+      },
+      {
+        "id": "q15-3",
+        "question": "Bagian abstrak yang biasanya mendapat jatah kata terbesar adalah…",
+        "options": ["Latar belakang", "Celah/masalah", "Hasil", "Simpulan"],
+        "answer": 2,
+        "explanation": "Hasil biasanya mendapat porsi terbesar (~30-35%) karena itulah yang paling dicari pembaca."
+      },
+      {
+        "id": "q15-4",
+        "question": "Hal yang SEBAIKNYA dipangkas dari abstrak adalah…",
+        "options": ["Angka hasil utama", "Sitasi ke penelitian lain", "Tujuan penelitian", "Implikasi temuan"],
+        "answer": 1,
+        "explanation": "Abstrak harus berdiri sendiri; sitasi tidak berguna tanpa daftar pustaka di sampingnya."
+      },
+      {
+        "id": "q15-5",
+        "question": "Kenapa istilah kunci sebaiknya muncul secara alami di dalam teks abstrak?",
+        "options": ["Supaya abstrak terlihat lebih panjang", "Karena mesin pengindeks mencocokkan pencarian berdasarkan kata di judul dan abstrak", "Karena wajib menurut EYD", "Supaya reviewer tidak bosan"],
+        "answer": 1,
+        "explanation": "Indeksasi (Google Scholar, Scopus) sebagian besar mengandalkan kata di judul dan abstrak untuk pencocokan pencarian."
+      },
+      {
+        "id": "q15-6",
+        "question": "Graphical abstract dan highlights berfungsi sebagai…",
+        "options": ["Pengganti abstrak teks", "Tambahan yang mempercepat pemindaian visual, bukan pengganti abstrak", "Bagian wajib di semua jurnal", "Ringkasan daftar pustaka"],
+        "answer": 1,
+        "explanation": "Keduanya adalah tambahan opsional (tergantung jurnal) untuk mempercepat pemindaian, bukan pengganti abstrak teks."
+      },
+      {
+        "id": "q15-7",
+        "question": "Kenapa abstrak disebut mengalami 'paradoks'?",
+        "options": ["Karena selalu ditulis pertama kali", "Karena paling banyak dibaca tapi paling sering ditulis terburu-buru", "Karena tidak ada yang membacanya", "Karena harus ditulis dalam bahasa asing"],
+        "answer": 1,
+        "explanation": "Abstrak adalah bagian paling banyak dibaca (alat triase pembaca) namun sering ditulis buru-buru di akhir proses."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-15",
+    "title": "Ujian Level 15",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e15-1",
+        "question": "Sebuah abstrak berbunyi: \"Penelitian ini penting untuk kemajuan pendidikan di era digital.\" lalu langsung masuk ke metode tanpa menyebut masalah spesifik apa yang diteliti. Gerakan mana yang hilang?",
+        "options": ["Latar belakang", "Celah/masalah penelitian", "Metode", "Simpulan"],
+        "answer": 1,
+        "explanation": "Kalimat itu hanya latar umum; tidak ada pernyataan celah/masalah spesifik yang menjustifikasi penelitian ini."
+      },
+      {
+        "id": "e15-2",
+        "question": "Jurnal tujuan membatasi abstrak 200 kata dengan format unstructured. Penulis mengirim abstrak 320 kata lalu memangkas dua kalimat terakhir agar pas 200 kata. Masalah dari pendekatan ini adalah…",
+        "options": ["Tidak ada masalah, yang penting jumlah kata pas", "Memangkas dari akhir bisa menghilangkan gerakan penting (simpulan/implikasi) alih-alih menata ulang isi", "Abstrak tidak boleh diedit sama sekali", "Seharusnya menambah kata, bukan memangkas"],
+        "answer": 1,
+        "explanation": "Memangkas asal dari akhir kalimat berisiko membuang gerakan penting seperti simpulan; yang benar adalah menata ulang & memadatkan tiap gerakan."
+      },
+      {
+        "id": "e15-3",
+        "question": "Seorang penulis menyusun abstrak untuk jurnal kesehatan yang mewajibkan format terstruktur, tapi ia menulis satu paragraf mengalir dulu lalu menambahkan label 'Background/Methods/Results' di kalimat yang sudah jadi. Reviewer mengkritik hasilnya \"terasa dipaksakan\". Apa akar masalahnya?",
+        "options": ["Labelnya salah eja", "Logika tiap bagian structured abstract berbeda dari alur narasi bebas, sehingga menempel label belakangan sering terasa janggal", "Jurnal kesehatan tidak boleh pakai structured abstract", "Paragraf yang mengalir selalu lebih baik"],
+        "answer": 1,
+        "explanation": "Structured abstract punya logika tersendiri per label; menulisnya langsung per bagian sejak awal biasanya menghasilkan abstrak yang lebih rapi daripada menempel label ke narasi yang sudah jadi."
+      },
+      {
+        "id": "e15-4",
+        "question": "Sebuah abstrak menulis \"hasil menunjukkan peningkatan yang cukup signifikan pada kelompok eksperimen\" tanpa angka apa pun, padahal jatah kata abstrak masih tersisa 30 kata. Yang sebaiknya dilakukan penulis adalah…",
+        "options": ["Membiarkan saja karena sudah cukup jelas", "Mengganti dengan angka konkret, misalnya persentase atau nilai p, karena jatah kata masih ada", "Menghapus kalimat itu sepenuhnya", "Memindahkan kalimat itu ke bagian Metode"],
+        "answer": 1,
+        "explanation": "Bagian Hasil mendapat porsi kata terbesar karena itu yang paling dicari pembaca; angka konkret jauh lebih informatif daripada kalimat kabur seperti 'cukup signifikan'."
+      },
+      {
+        "id": "e15-5",
+        "question": "Seorang penulis submit ke jurnal baru dengan menyalin abstrak dari artikelnya yang terbit dua tahun lalu di jurnal lain, hanya mengganti beberapa kata. Risiko utama tindakan ini adalah…",
+        "options": ["Tidak ada risiko karena topiknya sama", "Berpotensi dianggap self-plagiarism/publikasi ganda", "Abstrak jadi terlalu pendek", "Editor akan menyukainya karena konsisten"],
+        "answer": 1,
+        "explanation": "Menyalin abstrak lama dengan sedikit perubahan berisiko dianggap self-plagiarism atau duplikasi publikasi (lihat Level 49)."
+      },
+      {
+        "id": "e15-6",
+        "question": "Abstrak menyatakan \"aplikasi ini akan merevolusi cara belajar seluruh siswa Indonesia\", padahal penelitiannya hanya melibatkan 40 siswa di satu sekolah selama dua minggu. Masalah utamanya adalah…",
+        "options": ["Kalimatnya terlalu pendek", "Overclaiming — simpulan melampaui jauh dari apa yang benar-benar dibuktikan datanya", "Seharusnya tidak menyebut aplikasi sama sekali", "Tidak ada masalah, ini gaya promosi yang wajar"],
+        "answer": 1,
+        "explanation": "Klaim di abstrak harus proporsional dengan skala dan kekuatan bukti; generalisasi ke 'seluruh siswa Indonesia' dari sampel 40 siswa adalah overclaiming."
+      },
+      {
+        "id": "e15-7",
+        "question": "Seorang reviewer membaca abstrak sebuah naskah dan langsung merekomendasikan desk reject karena \"tidak jelas apa yang sebenarnya ditemukan penelitian ini\". Abstrak itu penuh latar belakang panjang tapi hanya satu kalimat umum soal hasil. Pelajaran apa yang paling relevan di sini?",
+        "options": ["Abstrak seharusnya tidak usah dibaca reviewer", "Abstrak yang lemah bisa membuat naskah ditolak sebelum isinya dinilai lebih jauh, meski isi artikelnya mungkin bagus", "Reviewer selalu salah menilai dari abstrak", "Latar belakang panjang selalu disukai reviewer"],
+        "answer": 1,
+        "explanation": "Abstrak berfungsi sebagai alat triase; abstrak yang gagal menunjukkan hasil dengan jelas bisa membuat naskah tersingkir sebelum ditelaah lebih dalam."
+      },
+      {
+        "id": "e15-8",
+        "question": "Seorang mahasiswa memilih keywords untuk artikelnya, tapi kata-kata itu sama sekali tidak muncul di teks abstraknya sendiri — semuanya istilah baru yang lebih 'keren' namun berbeda. Konsekuensi paling mungkin adalah…",
+        "options": ["Tidak ada konsekuensi, keywords dan abstrak memang harus berbeda", "Artikel jadi lebih sulit ditemukan mesin pencari karena kata kunci pencarian umumnya cocok dengan istilah yang ada di abstrak/judul", "Abstrak jadi otomatis lebih pendek", "Reviewer akan menambahkan keywords sendiri"],
+        "answer": 1,
+        "explanation": "Indeksasi mencocokkan istilah pencarian dengan kata di judul dan abstrak; keywords yang tak selaras dengan teks abstrak mengurangi peluang artikel ditemukan."
+      },
+      {
+        "id": "e15-9",
+        "question": "Sebuah abstrak unstructured untuk jurnal ilmu sosial menuliskan definisi lengkap tiga teori yang dipakai, masing-masing dua kalimat, sebelum menyebut metode dan hasil — abstrak jadi 340 kata padahal batasnya 200. Revisi paling tepat adalah…",
+        "options": ["Menghapus semua definisi teori dan menambah detail metode sebagai gantinya", "Memadatkan definisi teori jadi maksimal satu kalimat konteks saja, memberi ruang lebih untuk metode dan hasil", "Mengubah abstrak menjadi structured abstract", "Membiarkan saja karena teori penting untuk dijelaskan"],
+        "answer": 1,
+        "explanation": "Latar belakang teori seharusnya hanya mendapat porsi kecil (~10-15%); definisi teori panjang menyita jatah kata yang seharusnya untuk metode dan hasil."
+      },
+      {
+        "id": "e15-10",
+        "question": "Editor sebuah jurnal kesehatan menolak menerima abstrak dari seorang penulis karena tidak mengikuti format Background-Objective-Methods-Results-Conclusion yang diwajibkan Author Guidelines jurnal itu, meski isinya sebenarnya lengkap. Pelajaran utamanya adalah…",
+        "options": ["Isi abstrak lebih penting daripada format apa pun", "Format structured/unstructured bukan pilihan bebas penulis — harus mengikuti ketentuan jurnal tujuan", "Semua jurnal kesehatan pasti menerima format apa saja", "Editor salah karena isi sudah lengkap"],
+        "answer": 1,
+        "explanation": "Format abstrak (terstruktur atau tidak) ditentukan oleh Author Guidelines jurnal tujuan; isi yang lengkap tidak otomatis lolos jika format tidak sesuai ketentuan."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Academic Writing for Graduate Students: Essential Tasks and Skills", "author": "John M. Swales & Christine B. Feak", "publisher": "University of Michigan Press", "note": "Rujukan utama untuk gerakan (moves) dalam menulis abstrak akademik." },
+    { "title": "Publication Manual of the American Psychological Association", "author": "American Psychological Association", "year": 2020, "publisher": "APA", "note": "Panduan format dan batas kata abstrak (edisi ke-7)." },
+    { "title": "The Elements of Academic Style: Writing for the Humanities", "author": "Eric Hayot", "publisher": "Columbia University Press", "note": "Rujukan gaya menulis padat dan tidak boros kata." },
+    { "title": "Author guidelines: preparing your abstract, highlights and graphical abstract", "author": "Elsevier", "publisher": "Elsevier Author Hub", "note": "Konvensi graphical abstract dan highlights di banyak jurnal Elsevier." },
+    { "title": "Structured abstracts in MEDLINE", "author": "U.S. National Library of Medicine", "publisher": "NLM", "note": "Latar belakang kenapa structured abstract dipakai di jurnal kedokteran." }
+  ]
+}

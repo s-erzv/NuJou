@@ -1,0 +1,266 @@
+{
+  "id": 39,
+  "slug": "seo-untuk-penulis",
+  "title": "SEO Dasar untuk Penulis",
+  "subtitle": "Ditemukan mesin pencari, tetap ditulis untuk manusia",
+  "goal": "Memahami search intent, riset kata kunci tanpa menjejali tulisan, menyusun title tag dan meta description yang efektif, menata heading agar terbaca mesin maupun manusia, dan tahu kenapa menulis untuk manusia lebih dulu tetap jadi strategi SEO terbaik.",
+  "estimatedMinutes": 34,
+  "sections": [
+    {
+      "id": "39-1",
+      "title": "SEO Bukan Cuma Urusan Marketer",
+      "blocks": [
+        { "type": "heading", "text": "Tulisan Bagus yang Tidak Pernah Ditemukan" },
+        { "type": "paragraph", "text": "Kamu bisa menulis artikel paling jujur dan paling dalam tentang suatu topik — tapi kalau tidak ada satu pun pembaca yang menemukannya lewat pencarian, tulisan itu cuma tenggelam di antara jutaan halaman lain. SEO (Search Engine Optimization) adalah cara membuat mesin pencari — dan lebih penting lagi, PEMBACA — bisa menemukan tulisanmu di antara semua pilihan itu." },
+        { "type": "paragraph", "text": "Banyak penulis menganggap SEO sebagai 'trik teknis marketer', bukan urusan mereka. Padahal SEO yang sehat sebenarnya sejalan dengan menulis yang baik: menjawab pertanyaan pembaca dengan jelas, terstruktur, dan jujur. SEO yang tidak sehat — mengakali mesin pencari — biasanya juga menghasilkan tulisan yang buruk dibaca manusia." },
+        { "type": "callout", "title": "Definisi Singkat", "text": "SEO adalah serangkaian praktik agar halaman tulisanmu lebih mudah dipahami dan diperingkat oleh mesin pencari untuk kata kunci yang relevan — TANPA mengorbankan kualitas bacaan untuk manusia." }
+      ]
+    },
+    {
+      "id": "39-2",
+      "title": "Search Intent: Apa yang Sebenarnya Dicari Orang",
+      "blocks": [
+        { "type": "heading", "text": "Kata yang Sama, Maksud yang Berbeda" },
+        { "type": "paragraph", "text": "Sebelum memikirkan kata kunci, kamu harus paham search intent — maksud sesungguhnya di balik sebuah pencarian. Orang yang mengetik 'resep rendang' punya maksud berbeda dari orang yang mengetik 'sejarah rendang' atau 'beli bumbu rendang instan', meski sama-sama soal rendang." },
+        {
+          "type": "table",
+          "headers": ["Jenis Intent", "Contoh Pencarian", "Yang Diharapkan Pencari"],
+          "rows": [
+            ["Informational", "\"apa itu inflasi\"", "Penjelasan, definisi, cara kerja sesuatu"],
+            ["Navigational", "\"instagram nujou\"", "Ingin langsung menuju satu situs/halaman tertentu"],
+            ["Commercial", "\"review laptop untuk menulis\"", "Membandingkan pilihan sebelum memutuskan"],
+            ["Transactional", "\"beli notebook A5 online\"", "Siap bertindak/membeli sekarang juga"]
+          ]
+        },
+        { "type": "callout", "title": "Kesalahan Fatal", "text": "Menulis artikel informational yang panjang dan mendalam untuk kata kunci yang sebenarnya bermaksud transactional (atau sebaliknya) membuat pembaca kecewa walau tulisanmu 'ketemu' — mereka datang, merasa salah tempat, lalu pergi." }
+      ]
+    },
+    {
+      "id": "39-3",
+      "title": "Riset Kata Kunci Tanpa Alat Mahal",
+      "blocks": [
+        { "type": "heading", "text": "Mendengarkan Bahasa Pembaca" },
+        { "type": "paragraph", "text": "Riset kata kunci intinya sederhana: cari tahu kata dan frasa PERSIS yang dipakai orang biasa saat mencari topikmu — bukan istilah yang menurutmu paling keren atau paling teknis." },
+        { "type": "list", "ordered": true, "items": [
+          "Ketik topikmu di kolom pencarian, lihat saran autocomplete yang muncul — itu pertanyaan sungguhan dari orang sungguhan.",
+          "Perhatikan bagian \"Orang lain juga bertanya\" (People Also Ask) di halaman hasil pencarian.",
+          "Baca judul-judul artikel yang sudah muncul di halaman pertama untuk topik serupa — apa sudut pandang yang belum mereka bahas?",
+          "Bedakan kata kunci 'pendek' (\"menulis\") yang sangat kompetitif dengan kata kunci 'panjang'/long-tail (\"cara menulis abstrak jurnal untuk pemula\") yang lebih spesifik dan lebih mudah bersaing."
+        ]},
+        { "type": "callout", "title": "Long-Tail Itu Sahabat Penulis Baru", "text": "Kata kunci panjang biasanya volume pencariannya lebih kecil, tapi persaingannya jauh lebih longgar dan pencarinya lebih jelas maksudnya — cocok untuk tulisan yang baru mulai dikenal." }
+      ]
+    },
+    {
+      "id": "39-4",
+      "title": "Keyword Stuffing: Godaan yang Menjebak",
+      "blocks": [
+        { "type": "heading", "text": "Mengulang Kata Kunci Tidak Membuatmu Lebih Ditemukan" },
+        { "type": "paragraph", "text": "Dulu, mengulang kata kunci berkali-kali memang bisa menaikkan peringkat. Sekarang mesin pencari jauh lebih pintar membaca konteks dan sinonim — dan keyword stuffing (menjejalkan kata kunci berlebihan) justru dianggap tanda kualitas rendah, plus membuat tulisan jelek dibaca." },
+        { "type": "quote", "text": "SEBELUM: \"Kalau kamu ingin belajar menulis blog, tips menulis blog terbaik adalah dengan konsisten menulis blog. Menulis blog setiap hari membuat blog kamu makin bagus untuk pembaca blog.\"", "source": "Contoh keyword stuffing" },
+        { "type": "quote", "text": "SESUDAH: \"Menulis blog secara konsisten — bahkan hanya 20 menit sehari — melatih ketajaman suaramu jauh lebih cepat daripada menulis sesekali saat mood datang.\"", "source": "Ide sama, kata kunci muncul alami, dan justru lebih enak dibaca" },
+        { "type": "callout", "title": "Aturan Praktis", "text": "Tulis dulu untuk pembaca. Kalau kata kuncimu memang relevan dengan topik, ia akan muncul secara alami di judul, satu-dua kali di paragraf awal, dan di beberapa subjudul — tanpa perlu dipaksakan." }
+      ]
+    },
+    {
+      "id": "39-5",
+      "title": "Title Tag & Meta Description",
+      "blocks": [
+        { "type": "heading", "text": "Iklan Mini di Halaman Hasil Pencarian" },
+        { "type": "paragraph", "text": "Title tag adalah judul yang tampil sebagai link biru di hasil pencarian, dan meta description adalah dua baris ringkasan di bawahnya. Keduanya bukan bagian dari isi artikel, tapi 'etalase' yang menentukan apakah orang mau klik masuk atau lewat begitu saja." },
+        {
+          "type": "table",
+          "headers": ["Elemen", "Panjang Ideal", "Fungsi Utama"],
+          "rows": [
+            ["Title tag", "Sekitar 50–60 karakter", "Menjanjikan isi + memuat kata kunci utama secara alami"],
+            ["Meta description", "Sekitar 150–160 karakter", "Meyakinkan pencari bahwa halaman ini menjawab kebutuhannya"]
+          ]
+        },
+        { "type": "callout", "title": "Kalau Terlalu Panjang", "text": "Mesin pencari akan memotong title tag dan meta description yang melebihi batas dengan tanda \"...\" — pesan pentingmu bisa terpotong di tengah kalimat kalau tidak dihitung panjangnya." }
+      ]
+    },
+    {
+      "id": "39-6",
+      "title": "Struktur Heading: Peta untuk Mesin dan Manusia",
+      "blocks": [
+        { "type": "heading", "text": "H1, H2, H3 Bukan Sekadar Ukuran Huruf" },
+        { "type": "paragraph", "text": "Heading (H1, H2, H3, dst.) bukan alat untuk membuat teks besar-kecil — ia menunjukkan HIERARKI ide. H1 biasanya judul utama halaman (biasanya hanya satu), H2 untuk bagian besar, H3 untuk sub-bagian di dalamnya. Mesin pencari membaca hierarki ini untuk memahami struktur topikmu, dan pembaca memakainya untuk memindai (scan) artikel sebelum membaca penuh." },
+        { "type": "paragraph", "text": "Ini sebenarnya prinsip yang sama dengan struktur IMRaD di Level 2: pembaca (dan mesin) ingin tahu di bagian mana mencari informasi tertentu tanpa harus membaca semuanya dari awal." },
+        { "type": "callout", "title": "Kebiasaan Buruk yang Umum", "text": "Melompati level heading (langsung dari H1 ke H3 tanpa H2) atau memakai heading hanya karena \"kelihatan lebih tebal\" — bukan karena memang menandai bagian baru — membingungkan pembaca layar (screen reader) dan mesin pencari sekaligus." }
+      ]
+    },
+    {
+      "id": "39-7",
+      "title": "Menulis untuk Manusia Dulu, Mesin Kedua",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa Prinsip Ini Selalu Menang" },
+        { "type": "paragraph", "text": "Google sendiri secara terbuka menyatakan bahwa konten sebaiknya dibuat 'untuk pembaca, bukan untuk mesin pencari'. Algoritmenya dirancang untuk mendeteksi dua hal: apakah orang benar-benar membaca dan puas dengan halamanmu, dan apakah kamu punya keahlian, pengalaman, otoritas, dan bisa dipercaya (dikenal dengan singkatan E-E-A-T) untuk topik itu." },
+        { "type": "paragraph", "text": "Artinya, trik-trik akal-akalan (keyword stuffing, membeli backlink murahan, konten tipis yang cuma menyusun ulang artikel orang lain) punya usia pendek — begitu algoritme diperbarui atau pembaca kabur karena kecewa, peringkatnya ikut jatuh. Tulisan yang benar-benar menjawab kebutuhan pembaca punya usia jauh lebih panjang." },
+        { "type": "callout", "title": "Sinyal yang Sulit Dipalsukan", "text": "Waktu baca yang lama, pembaca yang membagikan tulisanmu, dan pembaca yang kembali lagi ke situsmu adalah sinyal kualitas yang jauh lebih sulit direkayasa dibanding sekadar menumpuk kata kunci." }
+      ]
+    },
+    {
+      "id": "39-8",
+      "title": "Sama Instingnya, Beda Medium (Ingat Level 17)",
+      "blocks": [
+        { "type": "heading", "text": "Dari Kata Kunci Jurnal ke Kata Kunci Web" },
+        { "type": "paragraph", "text": "Di Level 17 kamu belajar memilih judul dan keywords artikel jurnal supaya ditemukan lewat basis data seperti Scopus atau Google Scholar. Instingnya sebenarnya sama persis dengan SEO: bayangkan istilah yang akan diketik orang lain saat mencari topikmu, lalu pastikan istilah itu muncul di tempat yang dibaca mesin pengindeks — judul, abstrak/meta description, dan beberapa subjudul." },
+        { "type": "paragraph", "text": "Bedanya cuma di 'siapa' pembacanya dan 'mesin' apa yang mengindeks. Jurnal diindeks oleh basis data akademik dengan pembaca sesama peneliti; artikel web diindeks oleh mesin pencari umum dengan pembaca awam. Tapi keduanya menolak trik murahan yang sama: menjejalkan istilah tanpa makna, atau judul yang menjanjikan sesuatu yang tidak ada di isinya." },
+        { "type": "callout", "title": "Satu Insting, Dua Medium", "text": "Kalau kamu sudah terbiasa memilih keywords jurnal dengan cermat di Level 17, kamu sebenarnya sudah punya modal berpikir SEO — tinggal menggantinya ke bahasa yang dipakai pembaca umum, bukan istilah teknis akademik." }
+      ]
+    },
+    {
+      "id": "39-9",
+      "title": "Kesalahan Umum dalam SEO Penulisan",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis judul yang dioptimalkan untuk mesin pencari tapi tidak menjanjikan apa pun yang menarik bagi manusia — klik rendah walau peringkat tinggi.",
+          "Keyword stuffing yang membuat kalimat kaku dan berulang, mengorbankan kenyamanan baca demi 'kepadatan kata kunci' yang sebenarnya tidak lagi relevan.",
+          "Melompati hierarki heading (H1 langsung ke H3) sehingga struktur halaman membingungkan mesin pencari maupun pembaca yang memindai.",
+          "Menulis meta description generik yang bisa dipakai di artikel mana pun, padahal ini kesempatan meyakinkan pencari kenapa HARUS klik halamanmu, bukan yang lain.",
+          "Mengejar kata kunci bervolume tinggi tanpa mencocokkan search intent-nya, sehingga pembaca datang lalu langsung pergi karena isi tidak sesuai harapan."
+        ]},
+        { "type": "callout", "title": "Ingat Ini", "text": "SEO yang sehat adalah efek SAMPING dari menulis yang jelas, jujur, dan terstruktur — bukan tujuan yang dikejar dengan mengorbankan kualitas tulisan." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-39",
+    "title": "Kuis Level 39",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q39-1",
+        "question": "Search intent di balik pencarian \"apa itu inflasi\" tergolong…",
+        "options": ["Transactional", "Navigational", "Informational", "Commercial"],
+        "answer": 2,
+        "explanation": "Pencari ingin penjelasan/definisi — itu ciri intent informational."
+      },
+      {
+        "id": "q39-2",
+        "question": "Keyword stuffing sekarang dianggap merugikan karena…",
+        "options": ["Mesin pencari tidak bisa membaca teks berulang", "Mesin pencari modern membaca konteks dan menganggap pengulangan berlebihan sebagai tanda kualitas rendah", "Kata kunci sudah tidak dipakai lagi", "Hanya berlaku untuk artikel jurnal"],
+        "answer": 1,
+        "explanation": "Algoritme modern mendeteksi keyword stuffing sebagai sinyal kualitas rendah, bukan relevansi tinggi."
+      },
+      {
+        "id": "q39-3",
+        "question": "Panjang ideal title tag agar tidak terpotong di hasil pencarian adalah sekitar…",
+        "options": ["10-20 karakter", "50-60 karakter", "300-400 karakter", "Tidak ada batasan"],
+        "answer": 1,
+        "explanation": "Title tag yang melebihi sekitar 50-60 karakter berisiko dipotong mesin pencari."
+      },
+      {
+        "id": "q39-4",
+        "question": "Fungsi utama heading (H1, H2, H3) dalam sebuah halaman adalah…",
+        "options": ["Membuat teks terlihat besar", "Menunjukkan hierarki ide agar mesin dan pembaca bisa memahami struktur", "Menghias halaman", "Mengganti kebutuhan meta description"],
+        "answer": 1,
+        "explanation": "Heading menandai struktur/hierarki konten, bukan sekadar ukuran visual."
+      },
+      {
+        "id": "q39-5",
+        "question": "E-E-A-T yang disebut dalam pedoman kualitas konten mengacu pada…",
+        "options": ["Experience, Expertise, Authoritativeness, Trustworthiness", "Efficiency, Engagement, Analytics, Traffic", "Editing, Ending, Analysis, Testing", "Exposure, Emphasis, Attention, Timing"],
+        "answer": 0,
+        "explanation": "E-E-A-T adalah singkatan dari Experience, Expertise, Authoritativeness, dan Trustworthiness."
+      },
+      {
+        "id": "q39-6",
+        "question": "Kata kunci long-tail biasanya punya sifat…",
+        "options": ["Volume pencarian sangat besar dan sangat kompetitif", "Lebih spesifik, volume lebih kecil, tapi persaingan lebih longgar", "Selalu berupa satu kata saja", "Tidak berguna untuk penulis baru"],
+        "answer": 1,
+        "explanation": "Long-tail keywords lebih spesifik dan lebih mudah bersaing bagi tulisan yang belum dikenal luas."
+      },
+      {
+        "id": "q39-7",
+        "question": "Kesamaan insting antara memilih keywords jurnal (Level 17) dan SEO web adalah…",
+        "options": ["Keduanya menggunakan mesin indeks yang sama persis", "Keduanya soal membayangkan istilah yang dipakai pencari dan menempatkannya di titik yang dibaca mesin pengindeks", "SEO web tidak butuh judul", "Jurnal tidak butuh kata kunci"],
+        "answer": 1,
+        "explanation": "Keduanya berangkat dari insting yang sama: menempatkan istilah yang relevan di tempat yang terindeks, meski mesin dan pembacanya berbeda."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-39",
+    "title": "Ujian Level 39",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e39-1",
+        "question": "Sebuah artikel berjudul \"Review Laptop Terbaik untuk Menulis 2026\" justru berisi esai reflektif tentang kenangan penulis memakai laptop pertamanya, tanpa perbandingan produk. Masalah utamanya adalah…",
+        "options": ["Judulnya terlalu pendek", "Isi tidak cocok dengan search intent commercial yang dijanjikan judul", "Artikel terlalu panjang", "Tidak memakai kata kunci sama sekali"],
+        "answer": 1,
+        "explanation": "Judul menjanjikan perbandingan produk (commercial intent), tapi isinya esai reflektif — pencari akan kecewa dan pergi meski artikelnya 'ditemukan'."
+      },
+      {
+        "id": "e39-2",
+        "question": "Seorang penulis mengulang frasa \"tips diet sehat\" delapan kali dalam tiga paragraf pendek agar \"lebih SEO\". Dampak paling mungkin dari kebiasaan ini adalah…",
+        "options": ["Peringkat pasti naik drastis", "Tulisan terasa kaku dan berulang, sementara mesin pencari modern justru menandainya sebagai kualitas rendah", "Meta description otomatis diperbaiki", "Heading otomatis tersusun rapi"],
+        "answer": 1,
+        "explanation": "Keyword stuffing merusak kenyamanan baca dan dibaca sebagai sinyal kualitas rendah oleh algoritme masa kini, bukan sinyal relevansi."
+      },
+      {
+        "id": "e39-3",
+        "question": "Sebuah halaman punya struktur: H1 (judul utama), lalu langsung tiga H3 berturut-turut tanpa H2 di antaranya. Yang sebaiknya diperbaiki adalah…",
+        "options": ["Tidak perlu diperbaiki, itu sudah benar", "Hierarki heading dilompati; seharusnya ada H2 sebagai bagian besar sebelum H3 sebagai sub-bagian", "H1 harus dihapus", "Semua heading diganti jadi paragraf biasa"],
+        "answer": 1,
+        "explanation": "Melompati level heading membingungkan struktur halaman bagi mesin pencari maupun pembaca yang memindai — H2 mestinya hadir dulu sebagai bagian besar sebelum H3."
+      },
+      {
+        "id": "e39-4",
+        "question": "Meta description sebuah artikel berbunyi: \"Baca artikel ini untuk info menarik seputar topik ini.\" Kelemahan utama kalimat ini adalah…",
+        "options": ["Terlalu pendek dari 160 karakter", "Terlalu generik — bisa dipakai di artikel mana pun dan tidak meyakinkan kenapa harus klik halaman ini", "Memakai terlalu banyak kata kunci", "Tidak memakai bahasa Indonesia"],
+        "answer": 1,
+        "explanation": "Meta description yang generik gagal menjanjikan nilai spesifik yang membedakan halaman ini dari hasil pencarian lain."
+      },
+      {
+        "id": "e39-5",
+        "question": "Dua artikel bersaing untuk kata kunci yang sama. Artikel A punya waktu baca rata-rata 4 menit dan banyak dibagikan pembaca; Artikel B lebih pendek dan sering ditinggalkan pembaca dalam 5 detik. Menurut prinsip yang dipakai mesin pencari modern, kemungkinan besar yang terjadi adalah…",
+        "options": ["Artikel B akan selalu unggul karena lebih pendek", "Artikel A cenderung diperingkat lebih baik karena sinyal keterlibatan pembaca sulit dipalsukan", "Panjang artikel tidak pernah memengaruhi apa pun", "Keduanya pasti diperingkat sama"],
+        "answer": 1,
+        "explanation": "Waktu baca yang lama dan keterlibatan (share) adalah sinyal kepuasan pembaca yang sulit direkayasa, dan cenderung dihargai algoritme."
+      },
+      {
+        "id": "e39-6",
+        "question": "Seorang penulis riset kata kunci hanya dengan menebak istilah 'paling ilmiah' menurut dirinya, tanpa mengecek autocomplete atau People Also Ask. Risiko dari pendekatan ini adalah…",
+        "options": ["Tidak ada risiko, istilah ilmiah selalu lebih baik", "Istilah yang dipilih bisa jadi berbeda dari kata yang sungguh-sungguh diketik pembaca awam saat mencari topik itu", "Riset kata kunci memang tidak perlu alat apa pun", "Autocomplete hanya berlaku untuk kata kunci jurnal"],
+        "answer": 1,
+        "explanation": "Riset kata kunci intinya mendengarkan bahasa pencari sungguhan, bukan menebak istilah yang menurut penulis paling tepat/keren."
+      },
+      {
+        "id": "e39-7",
+        "question": "Sebuah artikel untuk kata kunci long-tail \"cara menulis abstrak jurnal untuk mahasiswa baru\" bersaing dengan ribuan artikel umum berjudul \"cara menulis\". Keuntungan strategi long-tail di sini adalah…",
+        "options": ["Volume pencariannya pasti lebih besar dari kata kunci umum", "Persaingannya lebih longgar dan pencarinya sudah punya maksud yang jelas, sehingga peluang cocok dengan pembaca lebih tinggi", "Long-tail tidak butuh heading sama sekali", "Long-tail otomatis lolos dari aturan keyword stuffing"],
+        "answer": 1,
+        "explanation": "Kata kunci panjang bervolume lebih kecil tapi kompetisinya lebih longgar, dan search intent-nya jauh lebih spesifik dan jelas."
+      },
+      {
+        "id": "e39-8",
+        "question": "Seorang peneliti yang sudah terbiasa memilih judul dan keywords jurnal di Level 17 kini menulis untuk blog. Cara paling tepat memindahkan kebiasaannya adalah…",
+        "options": ["Memakai istilah teknis akademik yang sama persis karena mesin pencari sama", "Mempertahankan insting mencocokkan istilah dengan pencari, tapi mengganti istilah teknis menjadi bahasa yang dipakai pembaca awam", "Berhenti memikirkan kata kunci sama sekali karena blog beda dunia", "Menambahkan sebanyak mungkin istilah akademik agar terlihat kredibel"],
+        "answer": 1,
+        "explanation": "Instingnya sama (mencocokkan bahasa pencari), tapi kosakatanya harus disesuaikan ke pembaca umum, bukan sesama peneliti."
+      },
+      {
+        "id": "e39-9",
+        "question": "Sebuah situs membeli ratusan backlink murah dan mengisi halaman dengan konten tipis hasil menyusun ulang artikel lain, lalu peringkatnya sempat naik tapi jatuh drastis dua bulan kemudian. Penjelasan paling masuk akal adalah…",
+        "options": ["Mesin pencari tidak pernah memperbarui algoritmenya", "Trik akal-akalan macam ini biasanya berumur pendek karena tidak mencerminkan kualitas/kepuasan pembaca sesungguhnya", "Backlink murah selalu bertahan selamanya", "Konten tipis justru paling disukai algoritme jangka panjang"],
+        "answer": 1,
+        "explanation": "Praktik manipulatif yang tidak dibarengi kualitas sesungguhnya cenderung terdeteksi dan dihukum saat algoritme diperbarui atau pembaca kabur."
+      },
+      {
+        "id": "e39-10",
+        "question": "Seorang penulis pemula bertanya: \"Kalau saya harus pilih salah satu, fokus ke trik SEO teknis atau menulis jelas untuk pembaca?\" Jawaban yang paling sesuai prinsip di level ini adalah…",
+        "options": ["Fokus penuh ke trik teknis, kualitas tulisan urusan belakangan", "Menulis jelas dan menjawab kebutuhan pembaca lebih dulu — SEO yang sehat mengikuti sebagai efek samping, bukan tujuan yang dikejar sendiri", "Keduanya sama sekali tidak berhubungan", "SEO hanya relevan untuk toko online, bukan penulis"],
+        "answer": 1,
+        "explanation": "Prinsip inti level ini: menulis untuk manusia dulu, mesin kedua — praktik SEO yang sehat adalah konsekuensi dari kejelasan dan struktur, bukan pengganti keduanya."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Search Essentials & SEO Starter Guide", "author": "Google Search Central", "publisher": "Google", "note": "Dasar pedoman title tag, meta description, heading, dan prinsip 'tulis untuk pembaca' di bagian 39-1, 39-5, 39-6, 39-7." },
+    { "title": "How Users Read on the Web", "author": "Jakob Nielsen", "year": 1997, "publisher": "Nielsen Norman Group", "note": "Dasar konsep pembaca memindai (scan) heading dan struktur halaman di 39-6." },
+    { "title": "Everybody Writes: Your Go-To Guide to Creating Ridiculously Good Content", "author": "Ann Handley", "year": 2014, "publisher": "Wiley", "note": "Prinsip menulis konten digital yang jelas sekaligus mudah ditemukan, dipakai di 39-1 dan 39-4." },
+    { "title": "Creating Helpful, Reliable, People-First Content", "author": "Google Search Central", "publisher": "Google", "note": "Rujukan konsep E-E-A-T dan 'people-first content' di 39-7." }
+  ]
+}

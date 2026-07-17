@@ -1,0 +1,264 @@
+{
+  "id": 16,
+  "slug": "menulis-discussion",
+  "title": "Menulis Discussion yang Kuat",
+  "subtitle": "Menafsirkan tanpa berlebihan, jujur soal keterbatasan",
+  "goal": "Menulis Discussion yang menafsirkan temuan tanpa overclaiming, membandingkannya secara berimbang dengan penelitian terdahulu, menulis limitations yang jujur dan spesifik, serta menghindari jebakan 'Results part 2' yang paling sering merusak bagian ini.",
+  "estimatedMinutes": 38,
+  "sections": [
+    {
+      "id": "16-1",
+      "title": "Jebakan 'Results Part 2'",
+      "blocks": [
+        { "type": "heading", "text": "Kesalahan Paling Umum di Bagian Paling Sulit" },
+        { "type": "paragraph", "text": "Level 2 sudah menegaskan rumus sederhana: Results = fakta, Discussion = makna. Tapi di praktik, ini adalah bagian yang paling sering gagal ditulis dengan benar. Banyak penulis menulis Discussion yang sebetulnya hanya MENGULANG Results dengan kalimat berbeda — 'skor kelompok eksperimen naik dari 60 ke 78, ini menunjukkan adanya kenaikan skor pada kelompok eksperimen'. Itu bukan tafsiran, itu paraphrase. Reviewer menyebut ini jebakan 'Results part 2'." },
+        { "type": "paragraph", "text": "Discussion yang sesungguhnya harus menjawab pertanyaan yang jauh lebih sulit: APA ARTINYA temuan ini? Kenapa hasilnya seperti itu? Apa kaitannya dengan teori dan penelitian lain? Apa yang harus dipercaya pembaca setelah membaca temuanmu, dan seberapa yakin mereka boleh percaya?" },
+        { "type": "callout", "title": "Uji Sederhana", "text": "Kalau sebuah kalimat di Discussion-mu bisa dipindah ke Results tanpa terasa aneh, itu tandanya kalimat itu masih sekadar melaporkan fakta, bukan menafsirkan." }
+      ]
+    },
+    {
+      "id": "16-2",
+      "title": "Anatomi Discussion yang Baik",
+      "blocks": [
+        { "type": "heading", "text": "Struktur yang Direkomendasikan" },
+        { "type": "paragraph", "text": "Discussion yang kuat biasanya mengikuti urutan ini, meski panjang tiap bagian bisa berbeda tergantung bidang dan jenis penelitian." },
+        {
+          "type": "table",
+          "headers": ["Urutan", "Isi", "Fungsi"],
+          "rows": [
+            ["1. Ringkasan temuan utama", "Satu-dua kalimat merangkum temuan paling penting (bukan mengulang semua angka)", "Mengingatkan pembaca inti temuan sebelum masuk tafsiran"],
+            ["2. Interpretasi", "Apa makna temuan ini, kenapa hasilnya seperti itu", "Menjawab 'jadi apa artinya?'"],
+            ["3. Perbandingan dengan literatur", "Sejalan/berbeda dengan penelitian terdahulu, dan kenapa", "Menempatkan temuanmu dalam percakapan ilmiah yang lebih luas"],
+            ["4. Keterbatasan (limitations)", "Pengakuan jujur soal batasan desain/sampel/metode", "Menjaga kredibilitas dan membantu pembaca menilai generalisasi"],
+            ["5. Implikasi & saran", "Dampak praktis/teoretis, arah penelitian selanjutnya", "Menutup dengan 'jam pasir' yang melebar kembali ke gambaran besar (Level 2)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16-3",
+      "title": "Menafsirkan Tanpa Overclaiming",
+      "blocks": [
+        { "type": "heading", "text": "Batas Antara 'Menafsirkan' dan 'Melebih-lebihkan'" },
+        { "type": "paragraph", "text": "Overclaiming adalah menyatakan sesuatu yang lebih kuat daripada yang benar-benar dibuktikan datamu. Ini sering terjadi dalam tiga bentuk: (1) mengklaim SEBAB-AKIBAT dari data yang sebetulnya cuma menunjukkan korelasi, (2) menggeneralisasi ke populasi yang jauh lebih luas dari sampel penelitian, dan (3) menyatakan temuan sebagai kebenaran mutlak, bukan hasil dari satu penelitian dengan konteks tertentu." },
+        { "type": "paragraph", "text": "Ingat lagi hedging dari Level 4 — di Discussion, hedging bukan tanda lemah, justru tanda penulis yang jujur dan matang secara ilmiah." },
+        {
+          "type": "table",
+          "headers": ["Overclaiming (berisiko)", "Tafsiran yang Proporsional"],
+          "rows": [
+            ["Notifikasi aplikasi MENYEBABKAN turunnya fokus siswa", "Frekuensi notifikasi berasosiasi dengan turunnya durasi fokus siswa"],
+            ["Temuan ini membuktikan metode X adalah cara terbaik mengajar Matematika", "Temuan ini mengindikasikan metode X berpotensi efektif untuk konteks serupa dengan penelitian ini"],
+            ["Semua siswa Indonesia akan mengalami hal yang sama", "Pola ini konsisten dengan siswa SMA di wilayah urban seperti pada sampel penelitian ini"]
+          ]
+        },
+        { "type": "callout", "title": "Korelasi Bukan Kausalitas", "text": "Kecuali penelitianmu memang eksperimen dengan kontrol yang ketat (lihat Level 8-9 soal desain eksperimen), kata 'menyebabkan' hampir selalu terlalu berani untuk data survei/korelasional. Gunakan 'berasosiasi dengan', 'berkaitan dengan', atau 'diprediksi oleh'." }
+      ]
+    },
+    {
+      "id": "16-4",
+      "title": "Berdialog dengan Penelitian Terdahulu",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Sekadar Menyebut Nama, Tapi Berdialog" },
+        { "type": "paragraph", "text": "Discussion yang baik menempatkan temuanmu dalam percakapan dengan penelitian lain — bukan sekadar daftar sitasi berderet. Ada tiga pola dialog yang umum dipakai:" },
+        { "type": "list", "ordered": false, "items": [
+          "Menguatkan (confirm) — 'Temuan ini sejalan dengan (Nama, tahun) yang juga menemukan…'",
+          "Memperluas (extend) — 'Berbeda dari (Nama, tahun) yang meneliti pada konteks X, penelitian ini menunjukkan pola serupa juga berlaku pada konteks Y…'",
+          "Membantah/menantang (challenge) — 'Hasil ini justru bertentangan dengan (Nama, tahun); kemungkinan perbedaan konteks sampel menjelaskan hal ini…'"
+        ]},
+        { "type": "paragraph", "text": "Pola ketiga (membantah) sering dihindari penulis pemula karena terasa 'berani', padahal ini yang paling bernilai — menunjukkan kamu benar-benar mengerti literatur, bukan cuma mengumpulkannya seperti di Level 11." },
+        { "type": "callout", "title": "Jangan Hanya Menyebut yang Sejalan", "text": "Discussion yang hanya mengutip penelitian yang mendukung temuanmu dan diam soal yang bertentangan disebut 'cherry-picking' — ini merusak kredibilitas dan mudah terlihat oleh reviewer yang menguasai bidang yang sama." }
+      ]
+    },
+    {
+      "id": "16-5",
+      "title": "Menulis Limitations dengan Jujur",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Formalitas, Tapi Kejujuran Ilmiah" },
+        { "type": "paragraph", "text": "Banyak penulis menulis limitations sebagai kalimat generik di ujung Discussion: 'Penelitian ini memiliki keterbatasan sampel dan waktu. Penelitian selanjutnya disarankan menggunakan sampel lebih besar.' Kalimat ini terdengar aman tapi sebenarnya tidak berguna — ia tidak menjelaskan keterbatasan APA, dan dampaknya SEBERAPA BESAR terhadap kesimpulan." },
+        { "type": "paragraph", "text": "Limitations yang baik SPESIFIK dan JUJUR soal konsekuensinya, bukan sekadar daftar disclaimer." },
+        { "type": "quote", "text": "\"Penelitian ini memiliki keterbatasan. Sampelnya masih kurang banyak dan waktunya terbatas.\"", "source": "Limitations LEMAH — generik, bisa ditempel di penelitian mana pun" },
+        { "type": "quote", "text": "\"Sampel penelitian ini terbatas pada satu sekolah di wilayah urban sehingga temuan belum tentu berlaku untuk siswa di wilayah dengan akses internet terbatas. Selain itu, pengukuran fokus hanya berdasarkan laporan mandiri (self-report), yang berpotensi bias sosial-desirability — pengukuran objektif seperti eye-tracking bisa memperkuat temuan ini di penelitian berikutnya.\"", "source": "Limitations KUAT — spesifik, menjelaskan dampak, memberi arah konkret" },
+        { "type": "callout", "title": "Limitations Bukan Tanda Penelitian Buruk", "text": "Justru sebaliknya — mengakui keterbatasan secara spesifik menunjukkan penulis paham betul batas kepercayaan dari datanya sendiri. Reviewer curiga pada naskah yang TIDAK punya limitations sama sekali." }
+      ]
+    },
+    {
+      "id": "16-6",
+      "title": "Menutup Discussion: Melebar Kembali ke Gambaran Besar",
+      "blocks": [
+        { "type": "heading", "text": "Bagian Bawah Jam Pasir" },
+        { "type": "paragraph", "text": "Ingat pola jam pasir dari Level 2: Discussion bergerak dari temuan spesifik (sempit) menuju implikasi yang lebih luas (lebar). Paragraf penutup Discussion sebaiknya menjawab: 'kalau temuan ini benar, apa dampaknya bagi bidang ilmu ini, bagi praktisi, atau bagi masyarakat?'" },
+        { "type": "list", "ordered": true, "items": [
+          "Implikasi teoretis — apakah temuan ini mendukung, menantang, atau memperhalus teori yang ada?",
+          "Implikasi praktis — apa yang bisa dilakukan berbeda oleh guru, pembuat kebijakan, atau praktisi berdasarkan temuan ini?",
+          "Arah penelitian selanjutnya — pertanyaan spesifik apa yang masih terbuka setelah penelitian ini (bukan sekadar 'perlu penelitian lebih lanjut')?"
+        ]},
+        { "type": "callout", "title": "Hindari Simpulan yang Melompat Terlalu Jauh", "text": "Implikasi yang lebar tetap harus proporsional dengan skala penelitian. Penelitian pada 240 siswa satu sekolah bisa berimplikasi pada 'desain aplikasi belajar serupa', tapi belum tentu layak berimplikasi pada 'kebijakan pendidikan nasional'." }
+      ]
+    },
+    {
+      "id": "16-7",
+      "title": "Contoh Utuh: Discussion Lemah vs Discussion Kuat",
+      "blocks": [
+        { "type": "heading", "text": "Before/After" },
+        { "type": "quote", "text": "Hasil penelitian menunjukkan skor kelompok eksperimen naik dari 60 menjadi 78. Ini membuktikan bahwa metode pembelajaran berbasis proyek adalah metode terbaik untuk semua siswa. Penelitian ini memiliki keterbatasan sampel. Penelitian selanjutnya disarankan menggunakan sampel yang lebih besar.", "source": "Discussion LEMAH — mengulang angka Results, overclaiming ('terbaik untuk semua siswa'), limitations generik" },
+        { "type": "quote", "text": "Kenaikan skor pada kelompok eksperimen mengindikasikan bahwa pembelajaran berbasis proyek berpotensi meningkatkan pemahaman konsep dibanding metode ceramah pada konteks penelitian ini. Temuan ini sejalan dengan (Herlina, 2021) yang juga menemukan keterlibatan aktif siswa berkorelasi dengan hasil belajar yang lebih baik, meski penelitian tersebut dilakukan pada jenjang SMP. Namun demikian, sampel penelitian ini terbatas pada satu kelas di satu sekolah sehingga generalisasi ke jenjang atau wilayah lain perlu kehati-hatian. Implikasinya, guru dapat mempertimbangkan pembelajaran berbasis proyek sebagai variasi metode, sementara penelitian selanjutnya perlu menguji efeknya pada kelas dengan latar belakang sosial-ekonomi yang lebih beragam.", "source": "Discussion KUAT — menafsirkan bukan mengulang, berdialog dengan literatur, limitations spesifik, implikasi proporsional" }
+      ]
+    },
+    {
+      "id": "16-8",
+      "title": "Kesalahan Umum dalam Menulis Discussion",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Jebakan 'Results part 2' — mengulang angka dari Results dengan kalimat berbeda tanpa benar-benar menafsirkan.",
+          "Overclaiming — menyatakan kausalitas dari data korelasional, atau menggeneralisasi jauh melampaui sampel penelitian.",
+          "Cherry-picking literatur — hanya menyebut penelitian yang sejalan, diam soal yang bertentangan.",
+          "Limitations generik — daftar keterbatasan template tanpa menjelaskan dampaknya terhadap kesimpulan.",
+          "Lupa menjawab hipotesis/tujuan penelitian secara eksplisit — pembaca harus menebak sendiri apakah tujuan penelitian tercapai.",
+          "Menambahkan data atau temuan baru di Discussion yang belum pernah muncul di Results — semua data harus sudah dilaporkan di Results terlebih dulu."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Discussion yang baik membuat pembaca merasa: 'oh, sekarang saya paham kenapa temuan ini penting, dan seberapa jauh saya boleh mempercayainya.' Itu jauh lebih sulit — dan lebih berharga — daripada sekadar melaporkan ulang angka." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-16",
+    "title": "Kuis Level 16",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q16-1",
+        "question": "Jebakan 'Results part 2' terjadi ketika Discussion…",
+        "options": ["Menafsirkan makna temuan", "Hanya mengulang fakta Results dengan kalimat berbeda tanpa menafsirkan", "Membandingkan dengan literatur lain", "Mengakui keterbatasan penelitian"],
+        "answer": 1,
+        "explanation": "Jebakan ini terjadi saat Discussion sekadar memparafrase angka Results tanpa benar-benar menafsirkan maknanya."
+      },
+      {
+        "id": "q16-2",
+        "question": "Klaim 'menyebabkan' pada data yang sebetulnya hanya menunjukkan hubungan korelasional adalah contoh…",
+        "options": ["Hedging yang tepat", "Overclaiming", "Triangulasi", "Limitations yang jujur"],
+        "answer": 1,
+        "explanation": "Menyatakan kausalitas dari data korelasional (tanpa desain eksperimen) adalah bentuk overclaiming."
+      },
+      {
+        "id": "q16-3",
+        "question": "Pola 'menantang/challenge' saat berdialog dengan literatur berarti…",
+        "options": ["Mengabaikan penelitian yang bertentangan", "Menunjukkan hasil bertentangan dengan penelitian lain dan menjelaskan kemungkinan penyebabnya", "Hanya mengutip penelitian yang mendukung", "Menyalin kesimpulan penelitian lain"],
+        "answer": 1,
+        "explanation": "Pola menantang menampilkan temuan yang berbeda dari literatur, lalu menjelaskan kemungkinan alasannya — bukti pemahaman mendalam."
+      },
+      {
+        "id": "q16-4",
+        "question": "Limitations yang baik sebaiknya…",
+        "options": ["Generik agar aman", "Spesifik dan menjelaskan dampaknya terhadap kesimpulan", "Dihilangkan agar penelitian terlihat sempurna", "Ditulis di Abstrak saja"],
+        "answer": 1,
+        "explanation": "Limitations yang berguna spesifik dan menjelaskan sejauh mana keterbatasan itu memengaruhi kepercayaan pada kesimpulan."
+      },
+      {
+        "id": "q16-5",
+        "question": "Hanya mengutip penelitian yang sejalan dengan temuan sendiri dan mengabaikan yang bertentangan disebut…",
+        "options": ["Triangulasi", "Cherry-picking", "Hedging", "Saturasi data"],
+        "answer": 1,
+        "explanation": "Cherry-picking literatur merusak kredibilitas karena menyembunyikan bukti yang bertentangan."
+      },
+      {
+        "id": "q16-6",
+        "question": "Dalam pola jam pasir (Level 2), paragraf penutup Discussion sebaiknya bergerak dari…",
+        "options": ["Umum ke khusus", "Temuan spesifik menuju implikasi yang lebih luas", "Metode ke hasil", "Abstrak ke pendahuluan"],
+        "answer": 1,
+        "explanation": "Discussion menutup dengan melebar dari temuan spesifik ke implikasi yang lebih luas."
+      },
+      {
+        "id": "q16-7",
+        "question": "Data atau temuan baru yang belum pernah disebut di Results tapi muncul tiba-tiba di Discussion adalah…",
+        "options": ["Praktik yang wajar dan dianjurkan", "Kesalahan, karena semua data harus sudah dilaporkan di Results lebih dulu", "Cara menghemat kata di Results", "Standar semua jurnal"],
+        "answer": 1,
+        "explanation": "Discussion menafsirkan data yang sudah dilaporkan; memunculkan data baru di sini melanggar urutan logis IMRaD."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-16",
+    "title": "Ujian Level 16",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e16-1",
+        "question": "Seorang penulis menulis di Discussion: \"Sebagaimana terlihat pada Tabel 2, skor meningkat dari 65 ke 80, yang menunjukkan adanya peningkatan skor sebesar 15 poin.\" Kesalahan pada kalimat ini adalah…",
+        "options": ["Angkanya salah", "Ini hanya mengulang fakta Results tanpa menafsirkan maknanya — jebakan 'Results part 2'", "Seharusnya ditulis di Metode", "Tabel tidak boleh dirujuk di Discussion"],
+        "answer": 1,
+        "explanation": "Kalimat ini murni memparafrase data yang sudah ada di Results tanpa memberi tafsiran atas maknanya."
+      },
+      {
+        "id": "e16-2",
+        "question": "Sebuah penelitian survei (bukan eksperimen) menemukan korelasi antara jam bermain gim dan nilai ujian, lalu menulis di Discussion: \"Bermain gim menyebabkan turunnya nilai ujian siswa.\" Masalah utama kalimat ini adalah…",
+        "options": ["Kalimatnya terlalu pendek", "Desain survei/korelasional tidak bisa membuktikan kausalitas, sehingga kata 'menyebabkan' terlalu berani", "Seharusnya dibahas di Metode", "Tidak masalah karena datanya nyata"],
+        "answer": 1,
+        "explanation": "Tanpa desain eksperimen yang mengontrol variabel, data korelasional tidak bisa membuktikan sebab-akibat; kata yang tepat adalah 'berasosiasi dengan' atau 'berkaitan dengan'."
+      },
+      {
+        "id": "e16-3",
+        "question": "Reviewer menulis komentar: \"Discussion ini hanya mengutip tiga studi yang semuanya mendukung temuan penulis, padahal ada beberapa studi terkenal di bidang ini yang menemukan hasil berbeda.\" Reviewer sedang menuduh penulis melakukan…",
+        "options": ["Triangulasi", "Cherry-picking literatur", "Hedging berlebihan", "Overclaiming metode"],
+        "answer": 1,
+        "explanation": "Hanya mengutip studi yang sejalan dan mengabaikan yang bertentangan adalah cherry-picking, yang merusak kredibilitas argumen."
+      },
+      {
+        "id": "e16-4",
+        "question": "Sebuah naskah menulis limitations: \"Penelitian ini memiliki keterbatasan waktu dan sampel. Semoga penelitian selanjutnya lebih baik.\" Reviewer menilai ini lemah. Alasan paling tepat adalah…",
+        "options": ["Limitations tidak boleh ditulis sama sekali", "Kalimat itu generik, tidak menjelaskan keterbatasan spesifik apa dan dampaknya terhadap kesimpulan", "Seharusnya ditulis di Abstrak", "Limitations harus lebih panjang dari Results"],
+        "answer": 1,
+        "explanation": "Limitations yang berguna menyebutkan keterbatasan spesifik (misalnya jenis sampel, alat ukur) dan menjelaskan bagaimana itu memengaruhi kepercayaan pada temuan — bukan disclaimer template."
+      },
+      {
+        "id": "e16-5",
+        "question": "Penelitian dilakukan pada 30 mahasiswa di satu kampus, namun Discussion-nya menyimpulkan: \"Temuan ini berlaku untuk seluruh mahasiswa di Indonesia.\" Masalah utamanya adalah…",
+        "options": ["Kalimat terlalu singkat", "Generalisasi yang jauh melampaui cakupan sampel penelitian (overclaiming)", "Seharusnya ditulis di Metode", "Tidak masalah karena mahasiswa se-Indonesia mirip"],
+        "answer": 1,
+        "explanation": "Menggeneralisasi temuan dari 30 mahasiswa satu kampus ke seluruh Indonesia melampaui jauh apa yang bisa dijustifikasi oleh desain dan sampel penelitian tersebut."
+      },
+      {
+        "id": "e16-6",
+        "question": "Di tengah Discussion, penulis tiba-tiba menuliskan hasil uji tambahan yang belum pernah muncul di bagian Results. Reviewer menandai ini sebagai masalah struktural karena…",
+        "options": ["Discussion harus lebih pendek dari Results", "Data/temuan baru seharusnya sudah dilaporkan di Results sebelum ditafsirkan di Discussion", "Uji tambahan tidak boleh dilakukan sama sekali", "Hasil tambahan seharusnya di Abstrak"],
+        "answer": 1,
+        "explanation": "IMRaD mensyaratkan semua data dilaporkan di Results terlebih dulu; Discussion hanya menafsirkan data yang sudah disajikan, bukan memunculkan data baru."
+      },
+      {
+        "id": "e16-7",
+        "question": "Seorang penulis menemukan hasilnya BERBEDA dari studi besar sebelumnya di bidang yang sama, lalu memilih untuk sama sekali tidak menyebut studi itu di Discussion agar naskahnya terlihat lebih meyakinkan. Pendekatan ini bermasalah karena…",
+        "options": ["Studi lama tidak relevan lagi", "Menyembunyikan temuan yang bertentangan mengurangi kejujuran ilmiah dan mudah terlihat oleh reviewer yang menguasai bidang tersebut", "Discussion tidak boleh menyebut studi lama", "Seharusnya studi itu dimasukkan ke Metode"],
+        "answer": 1,
+        "explanation": "Discussion yang baik justru harus membahas temuan yang bertentangan (pola 'menantang/challenge') dan menjelaskan kemungkinan penyebab perbedaannya, bukan menyembunyikannya."
+      },
+      {
+        "id": "e16-8",
+        "question": "Sebuah Discussion menutup dengan kalimat: \"Berdasarkan temuan pada satu kelas ini, seluruh kurikulum nasional sebaiknya diubah total.\" Masalah utama penutup ini adalah…",
+        "options": ["Terlalu pendek", "Implikasi yang diusulkan tidak proporsional dengan skala penelitian (satu kelas)", "Seharusnya tidak ada implikasi sama sekali", "Kurikulum tidak boleh dibahas di jurnal"],
+        "answer": 1,
+        "explanation": "Implikasi harus proporsional dengan skala bukti; temuan dari satu kelas tidak cukup untuk menjustifikasi perubahan kurikulum nasional."
+      },
+      {
+        "id": "e16-9",
+        "question": "Seorang penulis pemula menulis Discussion dengan kalimat hedging berlapis: \"Hasil ini mungkin bisa jadi cenderung kemungkinan mengindikasikan adanya pengaruh.\" Reviewer menandai kalimat ini janggal. Perbaikan paling tepat adalah…",
+        "options": ["Menghapus semua hedging dan menyatakan kepastian mutlak", "Memakai satu kata hedging yang cukup, misalnya \"Hasil ini mengindikasikan adanya pengaruh\"", "Menambah lebih banyak kata hedging lagi", "Memindahkan kalimat ke Abstrak"],
+        "answer": 1,
+        "explanation": "Hedging berlebihan (menumpuk beberapa kata hedging sekaligus) membuat kalimat janggal dan lemah; satu penanda hedging yang tepat sudah cukup untuk kejujuran ilmiah."
+      },
+      {
+        "id": "e16-10",
+        "question": "Tujuan penelitian di Introduction adalah menguji efektivitas metode X, tapi Discussion sama sekali tidak pernah menyatakan secara eksplisit apakah tujuan itu tercapai atau tidak — pembaca harus menyimpulkan sendiri dari angka-angka yang tersebar. Ini adalah kelemahan struktural karena…",
+        "options": ["Discussion terlalu panjang", "Discussion seharusnya secara eksplisit menjawab tujuan/hipotesis penelitian, bukan membiarkan pembaca menebak", "Tujuan penelitian tidak perlu dijawab di Discussion", "Seharusnya dijawab di Metode"],
+        "answer": 1,
+        "explanation": "Discussion yang kuat secara eksplisit mengaitkan temuan dengan tujuan/hipotesis yang dinyatakan di Introduction, bukan meninggalkan pembaca menebak sendiri kesimpulannya."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Academic Writing for Graduate Students: Essential Tasks and Skills", "author": "John M. Swales & Christine B. Feak", "publisher": "University of Michigan Press", "note": "Rujukan gerakan (moves) untuk menulis Discussion." },
+    { "title": "Hedging in Scientific Research Articles", "author": "Ken Hyland", "year": 1998, "publisher": "John Benjamins Publishing", "note": "Rujukan utama soal bahasa hedging dan menafsirkan tanpa overclaiming." },
+    { "title": "The case for structuring the discussion of scientific papers", "author": "Murray Docherty & Richard Smith", "year": 1999, "publisher": "BMJ", "note": "Argumen soal struktur Discussion yang jelas dan tidak sekadar mengulang Results." },
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, & Joseph M. Williams", "publisher": "University of Chicago Press", "note": "Prinsip membangun argumen berbasis bukti, termasuk mengakui keterbatasan." },
+    { "title": "Publication Manual of the American Psychological Association", "author": "American Psychological Association", "year": 2020, "publisher": "APA", "note": "Panduan penulisan Discussion dan pelaporan keterbatasan penelitian." }
+  ]
+}
