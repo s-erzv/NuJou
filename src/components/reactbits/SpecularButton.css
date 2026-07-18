@@ -1,0 +1,39 @@
+.specular-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  isolation: isolate;
+  cursor: pointer;
+  --spec-x: 50%;
+  --spec-y: 50%;
+}
+
+.specular-button .specular-sheen {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  background: radial-gradient(
+    140px circle at var(--spec-x) var(--spec-y),
+    rgba(255, 255, 255, 0.55),
+    transparent 60%
+  );
+  mix-blend-mode: soft-light;
+}
+
+.specular-button:hover .specular-sheen {
+  opacity: 1;
+}
+
+.specular-button:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .specular-button .specular-sheen {
+    display: none;
+  }
+}

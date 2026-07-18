@@ -1,0 +1,46 @@
+.border-glow {
+  position: relative;
+  border-radius: inherit;
+  isolation: isolate;
+}
+
+.border-glow__ring {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  background: radial-gradient(
+    220px circle at var(--glow-x, 50%) var(--glow-y, 50%),
+    var(--glow-color, rgba(59, 125, 196, 0.55)),
+    transparent 65%
+  );
+  /* Show only the gradient at the border, masking out the interior. */
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+}
+
+.border-glow:hover .border-glow__ring {
+  opacity: 1;
+}
+
+.border-glow__content {
+  position: relative;
+  z-index: 1;
+  border-radius: inherit;
+  height: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .border-glow__ring {
+    transition: none;
+  }
+}

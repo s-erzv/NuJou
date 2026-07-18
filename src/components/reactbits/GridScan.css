@@ -1,0 +1,44 @@
+.grid-scan {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.grid-scan__grid {
+  position: absolute;
+  inset: -2px;
+  background-image:
+    linear-gradient(to right, var(--gs-line, rgba(139, 188, 237, 0.28)) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--gs-line, rgba(139, 188, 237, 0.28)) 1px, transparent 1px);
+  background-size: var(--gs-cell, 40px) var(--gs-cell, 40px);
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 50%, black 30%, transparent 85%);
+  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 50%, black 30%, transparent 85%);
+}
+
+.grid-scan__beam {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 40%;
+  top: -40%;
+  background: linear-gradient(to bottom, transparent, var(--gs-scan, rgba(139, 188, 237, 0.5)), transparent);
+  filter: blur(6px);
+  animation: gridScanSweep 6s linear infinite;
+}
+
+@keyframes gridScanSweep {
+  0% {
+    top: -40%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grid-scan__beam {
+    animation: none;
+    display: none;
+  }
+}

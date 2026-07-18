@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { AssessmentResult, LevelProgress } from '../types';
 import { levels } from '../data';
+import { isPathStart, prevInPath } from '../data/paths';
 
 interface ProgressState {
   /** Progress keyed by level id (1..5). */
@@ -75,11 +76,15 @@ export const useStore = create<ProgressState>()(
       isExamPassed: (levelId) => Boolean(get().progress[levelId]?.exam?.passed),
 
       isLevelUnlocked: (levelId) => {
-        if (levelId <= 1) return true;
-        // A level unlocks only when the PREVIOUS level's exam is passed.
         const exists = levels.some((l) => l.id === levelId);
         if (!exists) return false;
-        return Boolean(get().progress[levelId - 1]?.exam?.passed);
+        // Each learning path unlocks independently: the first level of a path
+        // is always open, and every later level needs the PREVIOUS level in
+        // its own path passed (not the previous level overall).
+        if (isPathStart(levelId)) return true;
+        const prev = prevInPath(levelId);
+        if (prev === undefined) return false;
+        return Boolean(get().progress[prev]?.exam?.passed);
       },
 
       completedCount: () =>
