@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
  * Reveal-on-scroll: attach the returned ref to a container; any descendant
  * with the `.reveal` class fades/slides in when it enters the viewport.
  */
-export function useReveal<T extends HTMLElement = HTMLDivElement>() {
+export function useReveal<T extends HTMLElement = HTMLDivElement>(deps: any[] = []) {
   const ref = useRef<T>(null);
 
   useEffect(() => {
@@ -33,7 +33,7 @@ export function useReveal<T extends HTMLElement = HTMLDivElement>() {
 
     els.forEach((el) => io.observe(el));
     return () => io.disconnect();
-  }, []);
+  }, deps);
 
   return ref;
 }

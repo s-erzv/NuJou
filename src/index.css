@@ -293,15 +293,24 @@
   }
 
   .glass-surface--svg {
-    background: hsl(0 0% 100% / var(--glass-frost, 0.5));
-    backdrop-filter: var(--filter-id, none) saturate(var(--glass-saturation, 1.2));
-    -webkit-backdrop-filter: saturate(var(--glass-saturation, 1.2));
     box-shadow:
       0 0 2px 1px rgba(59, 125, 196, 0.1) inset,
       0 0 10px 4px rgba(59, 125, 196, 0.06) inset,
       0 8px 32px -8px rgba(59, 125, 196, 0.25),
       0 2px 16px 0 rgba(59, 125, 196, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .glass-surface--svg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: hsl(0 0% 100% / var(--glass-frost, 0.5));
+    backdrop-filter: var(--filter-id, none) saturate(var(--glass-saturation, 1.2));
+    -webkit-backdrop-filter: saturate(var(--glass-saturation, 1.2));
+    clip-path: inset(0 round var(--glass-radius, 20px));
+    z-index: 0;
   }
 
   .glass-surface--fallback {

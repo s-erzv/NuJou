@@ -19,10 +19,11 @@ export default function Dashboard() {
   const progress = useStore((s) => s.progress);
   const isLevelUnlocked = useStore((s) => s.isLevelUnlocked);
   const resetAll = useStore((s) => s.resetAll);
-  const reveal = useReveal<HTMLDivElement>();
-
+  
   const requested = params.get('path');
   const activePath = PATHS.find((p) => p.id === requested) ?? PATHS[0];
+
+  const reveal = useReveal<HTMLDivElement>([activePath.id]);
 
   return (
     <div ref={reveal} className="relative">

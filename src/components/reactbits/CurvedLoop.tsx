@@ -14,7 +14,7 @@ interface CurvedLoopProps {
 }
 
 export default function CurvedLoop({
-  text = 'NuJou',
+  text = 'Master the Craft of Writing',
   className = '',
   color = '#8bbced',
   speed = 18,
@@ -26,7 +26,7 @@ export default function CurvedLoop({
 
   return (
     <div aria-hidden className={`curved-loop ${className}`}>
-      <svg viewBox="0 0 1200 180" className="curved-loop__svg" preserveAspectRatio="none">
+      <svg viewBox="0 0 1200 180" className="curved-loop__svg">
         <defs>
           <path id={pathId} d="M -100 140 Q 300 20 600 90 T 1300 60" fill="none" />
         </defs>

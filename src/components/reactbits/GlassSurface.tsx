@@ -172,6 +172,7 @@ export default function GlassSurface({
     borderRadius: `${borderRadius}px`,
     ['--glass-frost' as string]: backgroundOpacity,
     ['--glass-saturation' as string]: saturation,
+    ['--glass-radius' as string]: `${borderRadius}px`,
     ['--filter-id' as string]: `url(#${filterId})`,
   };
 
