@@ -1,0 +1,271 @@
+{
+  "id": 34,
+  "slug": "newsletter-substack",
+  "title": "Newsletter & Substack",
+  "subtitle": "Membangun hubungan langsung dengan pembaca, bukan cuma follower",
+  "goal": "Memahami kenapa newsletter berbeda dari blog biasa, mampu memilih niche dan cadence yang bisa dipertahankan, menulis welcome email yang menetapkan ekspektasi, menumbuhkan daftar pembaca secara jujur, dan memahami kenapa kebanyakan newsletter berhenti di edisi keempat.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "34-1",
+      "title": "Newsletter Bukan Blog yang Dikirim Email",
+      "blocks": [
+        { "type": "heading", "text": "Bedanya: Kamu Memiliki Daftar Pembaca" },
+        { "type": "paragraph", "text": "Setelah Level 33 membahas Medium, sekarang ke bentuk publikasi personal yang berbeda secara fundamental: newsletter, lewat platform seperti Substack. Perbedaan intinya bukan soal format tulisan, tapi soal kepemilikan hubungan dengan pembaca." },
+        { "type": "paragraph", "text": "Di Medium atau media sosial, algoritma platform yang menentukan siapa melihat tulisanmu — dan itu bisa berubah kapan saja. Di newsletter, kamu punya daftar email pembaca yang sepenuhnya milikmu. Setiap edisi baru langsung masuk kotak masuk mereka, tanpa bergantung pada algoritma siapa pun. Ini yang membuat newsletter terasa lebih 'intim' — kamu benar-benar masuk ke ruang pribadi pembaca." },
+        { "type": "callout", "title": "Konsekuensinya", "text": "Karena masuk ke ruang pribadi (inbox), ekspektasi pembaca newsletter lebih tinggi: mereka mengharapkan sesuatu yang benar-benar layak menyita waktu mereka, bukan sekadar konten yang lewat begitu saja di linimasa." }
+      ]
+    },
+    {
+      "id": "34-2",
+      "title": "Memilih Niche: Spesifik Tapi Bisa Bertahan",
+      "blocks": [
+        { "type": "heading", "text": "Terlalu Luas Tenggelam, Terlalu Sempit Kehabisan Napas" },
+        { "type": "paragraph", "text": "Niche yang baik untuk newsletter berada di antara dua ekstrem. Terlalu luas ('tulisan tentang kehidupan') membuat pembaca sulit tahu kenapa harus berlangganan dibanding sekadar mengikuti akun media sosialmu. Terlalu sempit ('review kedai kopi di satu kecamatan') membuatmu kehabisan bahan setelah beberapa edisi." },
+        { "type": "paragraph", "text": "Niche yang bertahan biasanya adalah irisan antara topik yang benar-benar kamu kuasai/minati JANGKA PANJANG, dan sudut pandang unik yang tidak semua orang punya soal topik itu. 'Newsletter tentang buku' terlalu luas; 'newsletter tentang buku non-fiksi Indonesia yang jarang direview media besar, ditulis dari sudut pandang pekerja penerbitan' jauh lebih tajam dan berkelanjutan." },
+        {
+          "type": "table",
+          "headers": ["Terlalu Luas (Sulit Dikenali)", "Terlalu Sempit (Sulit Bertahan)", "Niche yang Sehat"],
+          "rows": [
+            ["Newsletter tentang produktivitas", "Newsletter tentang cara memakai satu aplikasi to-do list tertentu", "Newsletter tentang produktivitas untuk pekerja lepas dengan banyak klien"],
+            ["Newsletter tentang parenting", "Newsletter tentang jadwal tidur bayi usia 0-3 bulan", "Newsletter tentang parenting untuk orang tua yang bekerja penuh waktu"],
+            ["Newsletter tentang teknologi", "Newsletter tentang satu merek gadget tertentu", "Newsletter tentang teknologi dari sudut pandang pengguna awam, bukan reviewer profesional"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "34-3",
+      "title": "Cadence: Konsistensi Mengalahkan Frekuensi",
+      "blocks": [
+        { "type": "heading", "text": "Lebih Baik Bulanan yang Pasti daripada Mingguan yang Menghilang" },
+        { "type": "paragraph", "text": "Cadence adalah ritme penerbitan — mingguan, dua mingguan, atau bulanan. Kesalahan paling umum penulis baru: memilih cadence paling ambisius (mingguan) tanpa mempertimbangkan apakah itu bisa dipertahankan bertahun-tahun, bukan cuma sebulan pertama saat motivasi masih tinggi." },
+        { "type": "paragraph", "text": "Pembaca newsletter yang baik justru lebih menghargai KEPASTIAN daripada frekuensi tinggi. Newsletter bulanan yang selalu tepat waktu membangun kepercayaan; newsletter mingguan yang sering absen tanpa kabar justru merusak kepercayaan itu — pembaca mulai berhenti menunggu." },
+        { "type": "callout", "title": "Saran Praktis", "text": "Pilih cadence paling jarang yang masih terasa 'cukup sering untuk relevan', lalu buktikan dulu kamu bisa konsisten di situ selama beberapa bulan sebelum mempertimbangkan menambah frekuensi." }
+      ]
+    },
+    {
+      "id": "34-4",
+      "title": "Welcome Email: Kesan Pertama yang Menetapkan Ekspektasi",
+      "blocks": [
+        { "type": "heading", "text": "Email Pertama yang Paling Sering Dibaca" },
+        { "type": "paragraph", "text": "Welcome email adalah email otomatis yang diterima seseorang begitu mendaftar. Ironisnya, welcome email sering jadi email dengan tingkat keterbukaan (open rate) tertinggi dari seluruh newsletter-mu — karena dikirim tepat saat minat pembaca sedang paling tinggi — tapi paling sering diabaikan penulis, dibiarkan jadi teks default platform." },
+        { "type": "paragraph", "text": "Welcome email yang baik menjawab tiga hal: apa yang bisa pembaca harapkan (topik & cadence), kenapa mereka harus meluangkan waktu untuk ini (nilai unik), dan siapa penulisnya (sedikit konteks personal, konsisten dengan voice dari Level 29)." },
+        { "type": "callout", "title": "Jangan Sia-siakan Momen Ini", "text": "Welcome email adalah kesempatan menetapkan ekspektasi jujur di awal — kalau kamu janjikan 'setiap Senin', pastikan itu cadence yang benar-benar bisa kamu penuhi (lihat bagian sebelumnya)." }
+      ]
+    },
+    {
+      "id": "34-5",
+      "title": "Menumbuhkan Daftar Pembaca Secara Jujur",
+      "blocks": [
+        { "type": "heading", "text": "Pertumbuhan Lambat yang Nyata Lebih Baik dari Angka Palsu" },
+        { "type": "paragraph", "text": "Godaan terbesar penulis newsletter baru adalah mengejar angka subscriber secepat mungkin — lewat cara yang sebenarnya merugikan jangka panjang: membeli daftar email, memakai giveaway yang menarik orang tidak relevan, atau memaksa opt-in tanpa kejelasan." },
+        { "type": "list", "ordered": true, "items": [
+          "Cross-promotion jujur: tulis di platform lain (Medium, media sosial) tentang newsletter-mu, biarkan orang yang benar-benar tertarik yang mendaftar.",
+          "Lead magnet yang relevan: tawarkan sesuatu yang bernilai (panduan singkat, daftar rujukan) yang benar-benar berkaitan dengan niche newsletter-mu — bukan hadiah acak yang menarik orang salah.",
+          "Kolaborasi dengan newsletter lain di niche serupa: saling merekomendasikan ke audiens yang sudah relevan.",
+          "Biarkan kualitas isi jadi alasan orang merekomendasikan ke temannya — pertumbuhan organik lebih lambat tapi jauh lebih loyal."
+        ]},
+        { "type": "callout", "title": "Kenapa Daftar 'Murni' Lebih Berharga", "text": "1000 subscriber yang benar-benar tertarik pada niche-mu jauh lebih berharga daripada 10.000 subscriber hasil giveaway yang tidak pernah membuka emailmu. Open rate yang rendah dari daftar yang tidak relevan bahkan bisa merugikan reputasi pengirimanmu di banyak platform email." }
+      ]
+    },
+    {
+      "id": "34-6",
+      "title": "Free vs Paid: Kapan Memasang Paywall",
+      "blocks": [
+        { "type": "heading", "text": "Bangun Kepercayaan Dulu, Baru Tawarkan Berbayar" },
+        { "type": "paragraph", "text": "Platform seperti Substack memungkinkan model gratis, berbayar, atau campuran (sebagian edisi gratis, sebagian khusus pelanggan berbayar). Kesalahan umum: memasang paywall terlalu dini, sebelum pembaca sempat merasakan nilai nyata dari tulisanmu secara konsisten." },
+        { "type": "paragraph", "text": "Pola yang lebih umum dipakai penulis berkelanjutan: bangun basis pembaca gratis dulu dengan konten yang benar-benar bernilai, baru perkenalkan tingkatan berbayar untuk konten tambahan (lebih mendalam, lebih personal, atau lebih sering) — bukan menyandera konten dasar di balik bayar sejak edisi pertama." },
+        {
+          "type": "table",
+          "headers": ["Free Tier", "Paid Tier"],
+          "rows": [
+            ["Membangun kepercayaan & jangkauan awal", "Memonetisasi pembaca yang sudah percaya nilai tulisanmu"],
+            ["Konten reguler sesuai cadence utama", "Konten tambahan: lebih dalam, arsip, sesi tanya-jawab, dsb."],
+            ["Cocok di tahap awal newsletter", "Cocok setelah ada basis pembaca setia yang jelas"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "34-7",
+      "title": "Before/After: Dari Intro Datar ke Value Proposition Jelas",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa Saya Harus Berlangganan Ini?" },
+        { "type": "paragraph", "text": "Bandingkan dua kalimat pembuka halaman 'landing page' newsletter yang menjelaskan apa isinya." },
+        { "type": "quote", "text": "VERSI DATAR:\n\"Halo! Ini newsletter saya tempat saya menulis tentang berbagai hal yang saya pikirkan. Semoga suka!\"", "source": "Contoh intro tanpa value proposition" },
+        { "type": "quote", "text": "VERSI JELAS:\n\"Setiap dua minggu, saya kirim satu cerita nyata dari dapur restoran kecil di Jakarta yang jarang diliput media — mulai dari perang harga bahan baku sampai drama antar-koki. Kalau kamu penasaran dengan sisi industri kuliner yang tidak terlihat di Instagram, ini tempatnya.\"", "source": "Contoh intro dengan value proposition jelas" },
+        { "type": "callout", "title": "Bedanya", "text": "Versi kedua langsung menjawab: apa isinya (cerita dapur restoran), seberapa sering (dua minggu sekali), dan kenapa itu berharga (sisi yang jarang diliput). Calon pembaca bisa langsung memutuskan apakah ini relevan untuknya." }
+      ]
+    },
+    {
+      "id": "34-8",
+      "title": "Kenapa Kebanyakan Newsletter Berhenti di Edisi Keempat",
+      "blocks": [
+        { "type": "heading", "text": "Fenomena yang Sangat Umum Terjadi" },
+        { "type": "paragraph", "text": "Pola yang sering terjadi: edisi 1-2 ditulis dengan penuh semangat awal, edisi 3 mulai terasa seperti kewajiban, dan edisi 4 tidak pernah terkirim. Penyebabnya jarang soal kualitas menulis — biasanya soal sistem dan ekspektasi yang tidak realistis sejak awal." },
+        { "type": "list", "ordered": false, "items": [
+          "Memilih cadence terlalu ambisius (lihat bagian cadence) sehingga menulis jadi beban, bukan kebiasaan.",
+          "Menunggu 'mood' atau inspirasi untuk menulis, alih-alih membangun sistem/jadwal menulis rutin (akan dibahas lebih dalam sebagai kebiasaan menulis di Level 43).",
+          "Tidak punya bank ide — kehabisan topik karena tidak pernah mencatat ide di antara edisi, alih-alih memulai dari nol setiap kali mau menulis.",
+          "Kehilangan motivasi karena pertumbuhan subscriber lambat di awal, padahal pertumbuhan lambat itu normal untuk newsletter niche."
+        ]},
+        { "type": "callout", "title": "Jalan Keluarnya", "text": "Simpan folder ide berjalan (bisa dari journaling di Level 37), pilih cadence yang realistis bahkan saat sedang sibuk, dan ingat bahwa newsletter yang bertahan bertahun-tahun biasanya bukan yang paling sering terbit di awal, tapi yang paling konsisten dalam jangka panjang." }
+      ]
+    },
+    {
+      "id": "34-9",
+      "title": "Kesalahan Umum Newsletter & Substack",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Memilih niche terlalu luas sehingga sulit dibedakan dari media sosial biasa, atau terlalu sempit sehingga kehabisan bahan.",
+          "Memilih cadence paling ambisius tanpa membuktikan dulu bisa konsisten di cadence yang lebih longgar.",
+          "Membiarkan welcome email default platform tanpa menetapkan ekspektasi yang jujur soal isi dan jadwal.",
+          "Menumbuhkan daftar lewat cara yang menarik orang tidak relevan (giveaway acak, daftar dibeli) demi angka besar yang kosong.",
+          "Memasang paywall terlalu dini sebelum pembaca sempat merasakan nilai tulisanmu secara konsisten."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Newsletter adalah maraton, bukan sprint. Edisi keempat yang berhasil terkirim, meski sederhana, jauh lebih berarti daripada edisi pertama yang paling megah tapi tidak pernah punya penerus." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-34",
+    "title": "Kuis Level 34",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q34-1",
+        "question": "Perbedaan mendasar antara newsletter dan platform seperti media sosial/Medium adalah…",
+        "options": ["Newsletter tidak bisa memakai gambar", "Newsletter memberi kepemilikan daftar pembaca yang tidak bergantung pada algoritma platform", "Newsletter hanya boleh berbayar", "Tidak ada perbedaan berarti"],
+        "answer": 1,
+        "explanation": "Daftar email newsletter sepenuhnya milik penulis, tidak bergantung pada algoritma distribusi platform seperti media sosial."
+      },
+      {
+        "id": "q34-2",
+        "question": "Niche newsletter yang sehat berada di antara…",
+        "options": ["Terlalu luas dan terlalu sempit", "Berbayar dan gratis", "Mingguan dan bulanan", "Panjang dan pendek"],
+        "answer": 0,
+        "explanation": "Niche yang terlalu luas sulit dikenali, terlalu sempit sulit menyediakan bahan berkelanjutan; niche sehat berada di antara keduanya."
+      },
+      {
+        "id": "q34-3",
+        "question": "Menurut level ini, faktor yang lebih penting daripada frekuensi penerbitan adalah…",
+        "options": ["Jumlah kata per edisi", "Konsistensi cadence yang bisa dipertahankan jangka panjang", "Jumlah gambar yang disertakan", "Waktu pengiriman email dalam sehari"],
+        "answer": 1,
+        "explanation": "Kepastian dan konsistensi cadence membangun kepercayaan pembaca lebih dari sekadar frekuensi tinggi yang sulit dipertahankan."
+      },
+      {
+        "id": "q34-4",
+        "question": "Kenapa welcome email penting meski sering diabaikan penulis?",
+        "options": ["Karena wajib menurut hukum periklanan", "Karena biasanya memiliki open rate tertinggi dan menetapkan ekspektasi pertama pembaca", "Karena welcome email selalu dibayar oleh platform", "Karena tanpa welcome email, newsletter tidak bisa dikirim"],
+        "answer": 1,
+        "explanation": "Welcome email dibuka saat minat pembaca sedang tinggi, sehingga jadi kesempatan penting menetapkan ekspektasi jujur soal isi dan cadence."
+      },
+      {
+        "id": "q34-5",
+        "question": "Kenapa daftar subscriber hasil giveaway acak dianggap kurang berharga dibanding pertumbuhan organik?",
+        "options": ["Karena giveaway dilarang oleh semua platform newsletter", "Karena subscriber yang tidak relevan cenderung tidak membuka email, yang bisa merugikan reputasi pengiriman", "Karena giveaway selalu ilegal", "Karena subscriber hasil giveaway otomatis dihapus platform"],
+        "answer": 1,
+        "explanation": "Subscriber yang tidak benar-benar tertarik cenderung rendah open rate-nya, yang bisa merugikan deliverability dan tidak mencerminkan audiens yang loyal."
+      },
+      {
+        "id": "q34-6",
+        "question": "Pola yang lebih disarankan soal free vs paid tier menurut level ini adalah…",
+        "options": ["Memasang paywall sejak edisi pertama", "Membangun kepercayaan lewat konten gratis dulu, baru memperkenalkan tingkatan berbayar untuk nilai tambahan", "Selalu gratis selamanya tanpa opsi berbayar", "Berbayar penuh sejak awal agar terlihat eksklusif"],
+        "answer": 1,
+        "explanation": "Pembaca perlu merasakan nilai nyata dulu sebelum diminta membayar; memasang paywall terlalu dini berisiko menghambat pertumbuhan kepercayaan."
+      },
+      {
+        "id": "q34-7",
+        "question": "Menurut level ini, penyebab paling umum newsletter berhenti di edisi keempat adalah…",
+        "options": ["Topiknya selalu buruk", "Cadence yang tidak realistis dan tidak adanya sistem/bank ide, bukan soal kualitas menulis", "Platform yang dipakai bermasalah", "Terlalu banyak subscriber sejak awal"],
+        "answer": 1,
+        "explanation": "Penyebab paling umum adalah sistem yang tidak berkelanjutan (cadence terlalu ambisius, tidak ada bank ide), bukan kualitas tulisan itu sendiri."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-34",
+    "title": "Ujian Level 34",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e34-1",
+        "question": "Seorang calon penulis newsletter ingin menulis tentang 'apa saja yang sedang saya pikirkan setiap minggu', tanpa fokus topik tertentu. Berdasarkan prinsip niche di level ini, risiko terbesar pendekatan ini adalah…",
+        "options": ["Topiknya akan dianggap ilegal oleh platform", "Pembaca akan kesulitan membedakan newsletter ini dari sekadar status media sosial biasa, sehingga sulit menjelaskan kenapa harus berlangganan", "Newsletter tidak akan pernah bisa dikirim", "Cadence-nya otomatis menjadi harian"],
+        "answer": 1,
+        "explanation": "Niche yang terlalu luas membuat newsletter terasa tidak berbeda dari sekadar update pribadi di media sosial, sehingga sulit meyakinkan orang untuk memberi ruang di inbox mereka."
+      },
+      {
+        "id": "e34-2",
+        "question": "Seorang penulis memutuskan menerbitkan newsletter setiap hari agar terlihat produktif, padahal ia juga bekerja penuh waktu. Setelah dua minggu, ia mulai melewatkan beberapa hari tanpa pemberitahuan. Berdasarkan prinsip cadence di level ini, kesalahan awal yang ia buat adalah…",
+        "options": ["Memilih topik yang terlalu sempit", "Memilih cadence paling ambisius tanpa mempertimbangkan apakah itu bisa dipertahankan jangka panjang", "Menulis newsletter sama sekali", "Tidak memasang paywall sejak awal"],
+        "answer": 1,
+        "explanation": "Cadence harian yang tidak realistis untuk kapasitasnya membuat konsistensi runtuh; lebih baik memilih ritme yang benar-benar bisa dipertahankan."
+      },
+      {
+        "id": "e34-3",
+        "question": "Seorang penulis membiarkan welcome email default platform (tanpa personalisasi) terkirim ke setiap pendaftar baru selama setahun. Berdasarkan level ini, ini adalah kesempatan yang terlewat karena…",
+        "options": ["Welcome email tidak pernah dibuka siapa pun", "Welcome email biasanya memiliki open rate tinggi dan seharusnya dipakai menetapkan ekspektasi jujur soal isi dan cadence", "Platform akan menghapus akun jika welcome email tidak dipersonalisasi", "Welcome email hanya penting untuk newsletter berbayar"],
+        "answer": 1,
+        "explanation": "Welcome email adalah momen penting karena dibuka saat minat pembaca tinggi — membiarkannya default berarti kehilangan kesempatan menetapkan ekspektasi sejak awal."
+      },
+      {
+        "id": "e34-4",
+        "question": "Untuk menambah subscriber cepat, seorang penulis membeli daftar email dari pihak ketiga dan langsung mengirim newsletter ke daftar itu tanpa persetujuan mereka. Berdasarkan prinsip pertumbuhan jujur di level ini, tindakan ini paling mungkin berakibat…",
+        "options": ["Subscriber baru akan langsung sangat loyal", "Open rate rendah dan berpotensi merugikan reputasi pengiriman karena daftar tidak relevan/tidak memberi persetujuan", "Newsletter otomatis menjadi lebih populer di semua platform", "Tidak ada risiko apa pun selama isinya berkualitas"],
+        "answer": 1,
+        "explanation": "Daftar yang dibeli/tidak relevan cenderung tidak membuka email, merugikan metrik keterlibatan dan berpotensi merusak reputasi pengiriman jangka panjang."
+      },
+      {
+        "id": "e34-5",
+        "question": "Sebuah newsletter baru langsung memasang seluruh isi di balik paywall sejak edisi pertama, sebelum pembaca sempat merasakan gaya menulis penulisnya. Berdasarkan level ini, langkah paling tepat yang seharusnya diambil adalah…",
+        "options": ["Tetap memasang paywall sejak awal karena itu strategi tercepat menghasilkan uang", "Membangun basis pembaca gratis dulu dengan konten bernilai, baru memperkenalkan tingkatan berbayar setelah kepercayaan terbentuk", "Menghapus newsletter dan memulai dari nol dengan nama baru", "Mengganti seluruh isi dengan konten yang lebih pendek agar terasa lebih murah"],
+        "answer": 1,
+        "explanation": "Paywall terlalu dini menghambat pembaca merasakan nilai nyata tulisan; pola yang lebih berkelanjutan adalah membangun kepercayaan dulu lewat konten gratis."
+      },
+      {
+        "id": "e34-6",
+        "question": "Dua halaman landing page newsletter: (A) 'Newsletter ini tentang hidup saya secara umum.' (B) 'Setiap Jumat, satu analisis singkat soal kebijakan energi terbarukan Indonesia, ditulis dari sudut pandang insinyur yang bekerja langsung di sektor ini.' Berdasarkan prinsip value proposition di level ini, halaman B lebih efektif karena…",
+        "options": ["Halaman B lebih pendek dari halaman A", "Halaman B menjelaskan secara spesifik apa isinya, seberapa sering, dan kenapa sudut pandangnya berharga", "Halaman A memakai bahasa yang lebih sopan", "Keduanya sama efektifnya untuk menarik subscriber"],
+        "answer": 1,
+        "explanation": "Value proposition yang jelas (isi, cadence, sudut pandang unik) membantu calon pembaca memutuskan relevansi, sementara halaman A terlalu umum untuk meyakinkan siapa pun."
+      },
+      {
+        "id": "e34-7",
+        "question": "Seorang penulis newsletter berhenti menulis setelah edisi ketiga karena merasa 'harus menunggu ide bagus datang' sebelum bisa menulis edisi berikutnya. Berdasarkan pembahasan level ini soal newsletter yang berhenti di edisi keempat, saran paling tepat adalah…",
+        "options": ["Berhenti total karena menulis newsletter memang butuh bakat menunggu inspirasi", "Membangun bank ide/catatan berjalan di antara edisi, alih-alih memulai dari nol setiap kali hendak menulis", "Mengganti niche newsletter setiap edisi supaya selalu ada ide baru", "Menunggu subscriber bertambah dulu sebelum menulis lagi"],
+        "answer": 1,
+        "explanation": "Kehabisan ide karena tidak mencatat bahan di antara edisi adalah penyebab umum newsletter berhenti; solusinya sistem bank ide, bukan menunggu inspirasi."
+      },
+      {
+        "id": "e34-8",
+        "question": "Seorang penulis newsletter niche kuliner merasa kecewa karena setelah tiga bulan hanya punya 80 subscriber, sementara temannya yang menulis konten umum di media sosial punya ribuan follower dalam waktu sama. Berdasarkan level ini, penilaian paling tepat atas situasi ini adalah…",
+        "options": ["Newsletter-nya pasti gagal dan sebaiknya dihentikan", "Pertumbuhan newsletter niche yang jujur memang biasanya lebih lambat dari media sosial, dan itu tidak serta-merta menandakan kegagalan", "Ia harus segera membeli daftar subscriber agar setara dengan temannya", "Ia harus mengganti niche menjadi konten umum seperti temannya"],
+        "answer": 1,
+        "explanation": "Newsletter niche memang tumbuh lebih lambat karena audiensnya lebih spesifik; membandingkannya langsung dengan pertumbuhan media sosial umum adalah perbandingan yang tidak setara."
+      },
+      {
+        "id": "e34-9",
+        "question": "Seorang penulis ingin berkolaborasi dengan newsletter lain untuk saling merekomendasikan ke pembaca masing-masing. Berdasarkan prinsip pertumbuhan jujur di level ini, syarat yang paling penting agar kolaborasi ini efektif adalah…",
+        "options": ["Newsletter partner harus memiliki jumlah subscriber yang jauh lebih besar", "Newsletter partner sebaiknya berada di niche yang serupa atau relevan, agar audiens yang direkomendasikan benar-benar tertarik", "Kolaborasi harus dilakukan setiap minggu tanpa jeda", "Newsletter partner harus berbayar agar terlihat lebih profesional"],
+        "answer": 1,
+        "explanation": "Relevansi niche antar-newsletter yang berkolaborasi memastikan audiens yang direkomendasikan benar-benar berminat, bukan sekadar menambah angka subscriber kosong."
+      },
+      {
+        "id": "e34-10",
+        "question": "Seorang penulis mengubah cadence newsletternya dari mingguan menjadi bulanan setelah menyadari ia sering absen dan tidak memberi kabar ke pembaca. Ia khawatir ini akan dianggap kegagalan. Berdasarkan prinsip level ini, penilaian paling tepat atas keputusan ini adalah…",
+        "options": ["Ini kegagalan besar dan sebaiknya ia berhenti menulis newsletter", "Ini keputusan yang tepat — newsletter bulanan yang konsisten dan bisa diandalkan lebih baik daripada mingguan yang sering absen tanpa kabar", "Cadence tidak boleh diubah setelah newsletter dimulai", "Ia seharusnya kembali ke cadence mingguan agar terlihat lebih rajin"],
+        "answer": 1,
+        "explanation": "Konsistensi lebih penting daripada frekuensi; menyesuaikan cadence ke ritme yang benar-benar bisa dipertahankan adalah langkah sehat, bukan kegagalan."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "On Writing Well", "author": "William Zinsser", "year": 2006, "publisher": "Harper Perennial", "note": "Rujukan tentang menulis nonfiksi personal yang konsisten dan jujur ke pembaca dari waktu ke waktu." },
+    { "title": "Permission Marketing: Turning Strangers into Friends and Friends into Customers", "author": "Seth Godin", "year": 1999, "publisher": "Simon & Schuster", "note": "Dasar konsep menumbuhkan audiens lewat kepercayaan dan izin, bukan interupsi atau daftar yang dibeli." },
+    { "title": "Substack Support Center", "publisher": "Substack", "url": "https://support.substack.com", "note": "Rujukan resmi tentang mekanisme welcome email, free vs paid tier, dan pengelolaan daftar subscriber." },
+    { "title": "Writing Tools: 55 Essential Strategies for Every Writer", "author": "Roy Peter Clark", "year": 2006, "publisher": "Little, Brown and Company", "note": "Rujukan tentang menjaga suara personal yang konsisten dalam tulisan berseri." }
+  ]
+}

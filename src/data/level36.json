@@ -1,0 +1,152 @@
+{
+  "id": 36,
+  "slug": "menulis-linkedin",
+  "title": "Menulis Profesional di LinkedIn & Personal Branding",
+  "subtitle": "Kredibel tanpa sombong, dibaca tanpa clickbait",
+  "goal": "Bisa menulis post LinkedIn yang menahan pembaca lewat hook yang jujur, membangun kredibilitas tanpa terdengar menyombongkan diri, memformat untuk feed, dan memahami kenapa engagement bait justru merugikan personal branding jangka panjang.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "36-1",
+      "title": "Personal Branding Bukan Pencitraan",
+      "blocks": [
+        { "type": "heading", "text": "Reputasi yang Kamu Bangun Sengaja" },
+        { "type": "paragraph", "text": "Personal branding sering disalahpahami sebagai memoles citra palsu. Sebenarnya ia lebih sederhana dan lebih jujur: reputasi profesional yang kamu bangun secara sengaja, lewat apa yang kamu tunjukkan dan katakan secara konsisten. Kalau kamu diam, orang tetap membentuk kesan tentangmu — hanya saja kamu tidak ikut mengarahkannya." },
+        { "type": "paragraph", "text": "Di LinkedIn, tulisan adalah alat utama membangun reputasi itu. Bukan karena kamu ingin viral, tapi karena berbagi cara berpikirmu membuat orang yang tepat — perekrut, kolega, klien — mengenali nilaimu sebelum kalian bertemu langsung." },
+        { "type": "callout", "title": "Prinsip Dasar", "text": "Personal branding yang sehat = menunjukkan apa yang benar-benar kamu tahu dan kerjakan, secara konsisten. Bukan berpura-pura jadi orang lain. Yang palsu selalu terasa, cepat atau lambat." }
+      ]
+    },
+    {
+      "id": "36-2",
+      "title": "Baris Pertama Menentukan Segalanya",
+      "blocks": [
+        { "type": "heading", "text": "Feed Memotong di Baris Ketiga" },
+        { "type": "paragraph", "text": "LinkedIn memotong post-mu setelah 1-2 baris dengan tombol '…lihat lebih banyak'. Kalau baris pertama tidak membuat orang penasaran, sisa tulisanmu tidak akan pernah dibaca. Ini persis prinsip hook dari Level 31, tapi ruangnya lebih sempit." },
+        { "type": "quote", "text": "Pembuka lemah: \"Di era digital saat ini, personal branding menjadi semakin penting bagi para profesional.\" → Pembuka kuat: \"Tiga tahun lalu saya ditolak 40 kali. Post ini bukan tentang kegagalan itu.\"", "source": "Contoh hook baris pertama LinkedIn" },
+        { "type": "callout", "title": "Kenapa yang Kedua Berhasil", "text": "Yang kedua konkret (angka 40), personal (pengalaman nyata), dan menciptakan rasa penasaran (\"bukan tentang kegagalan itu\" — lalu tentang apa?). Yang pertama adalah kalimat pemanasan yang bisa dilewati siapa saja." }
+      ]
+    },
+    {
+      "id": "36-3",
+      "title": "Kredibel Tanpa Menyombong",
+      "blocks": [
+        { "type": "heading", "text": "Tunjukkan, Jangan Klaim" },
+        { "type": "paragraph", "text": "Garis antara 'kredibel' dan 'sombong' tipis tapi nyata. Kuncinya: tunjukkan lewat cerita dan pelajaran, jangan sekadar mengumumkan pencapaian. 'Show, don't tell' dari Level 32 berlaku juga di sini." },
+        {
+          "type": "table",
+          "headers": ["Menyombong (tell)", "Kredibel (show)"],
+          "rows": [
+            ["\"Saya berhasil menaikkan penjualan 200%.\"", "\"Yang paling mengubah angka penjualan kami ternyata bukan iklan — tapi mengubah satu kalimat di halaman checkout. Ini ceritanya.\""],
+            ["\"Saya expert di bidang data.\"", "\"Kesalahan analisis data yang paling sering saya lihat (dan dulu saya lakukan) adalah…\""],
+            ["\"Saya pembicara di 10 seminar.\"", "\"Setelah bicara di beberapa seminar, saya belajar bahwa audiens tidak ingat data — mereka ingat cerita.\""]
+          ]
+        },
+        { "type": "callout", "title": "Prinsip Kunci", "text": "Kredibilitas datang dari value yang kamu berikan ke pembaca, bukan dari daftar prestasi. Kalau pembaca belajar sesuatu, mereka menyimpulkan sendiri bahwa kamu kompeten — tanpa kamu perlu mengatakannya." }
+      ]
+    },
+    {
+      "id": "36-4",
+      "title": "Memformat untuk Feed",
+      "blocks": [
+        { "type": "heading", "text": "Ruang Putih Adalah Teman" },
+        { "type": "paragraph", "text": "Post LinkedIn dibaca di layar ponsel, sering sambil lalu. Paragraf padat yang menempel bikin mata lelah dan orang scroll lewat. Beri napas: kalimat pendek, satu-dua kalimat per baris, jeda antar-gagasan." },
+        { "type": "list", "ordered": false, "items": [
+          "Pisahkan gagasan dengan baris kosong — jangan satu blok paragraf panjang.",
+          "Kalimat pendek. Kalau satu kalimat butuh koma tiga kali, pecah.",
+          "Boleh pakai daftar atau poin untuk langkah/rincian.",
+          "Emoji secukupnya sebagai penanda visual, bukan hiasan berlebihan.",
+          "Tutup dengan satu pertanyaan atau ajakan berpikir, bukan 'like dan share ya'."
+        ]},
+        { "type": "callout", "title": "Uji Cepat", "text": "Lihat post-mu di layar ponsel sebelum posting. Kalau terlihat seperti dinding teks, pecah lagi. Mata pembaca menilai 'berat atau ringan' sebelum membaca satu kata pun." }
+      ]
+    },
+    {
+      "id": "36-5",
+      "title": "Kenapa Engagement Bait Merugikan",
+      "blocks": [
+        { "type": "heading", "text": "Untung Sesaat, Rugi Reputasi" },
+        { "type": "paragraph", "text": "Engagement bait adalah trik memancing interaksi kosong: \"Komen 'SETUJU' kalau kamu benci Senin!\", \"Tag 3 temanmu!\", cerita menye-menye palsu yang berakhir dengan jualan. Algoritma mungkin sesaat menaikkannya, tapi harganya mahal: reputasimu." },
+        { "type": "paragraph", "text": "Personal branding dibangun dari kepercayaan. Sekali pembaca merasa dimanipulasi, kepercayaan itu bocor. Perekrut atau klien yang serius justru menandai akun yang penuh bait sebagai tidak substansial." },
+        { "type": "callout", "title": "Bedakan", "text": "Mengajak diskusi tulus (\"Menurutmu, apa yang berubah dari cara kita bekerja?\") berbeda dari memancing interaksi kosong (\"Ketik AMIN!\"). Yang pertama menghormati pembaca; yang kedua memperalatnya." }
+      ]
+    },
+    {
+      "id": "36-6",
+      "title": "Menemukan Sudut yang Hanya Milikmu",
+      "blocks": [
+        { "type": "heading", "text": "Kombinasi yang Membuatmu Berbeda" },
+        { "type": "paragraph", "text": "Kamu tidak perlu jadi orang paling ahli di dunia untuk menulis. Yang membuatmu layak dibaca adalah kombinasi unik pengalaman dan sudut pandangmu. Seorang perawat yang belajar coding punya sudut yang tidak dimiliki programmer murni maupun perawat murni." },
+        { "type": "list", "ordered": true, "items": [
+          "Apa yang orang sering tanyakan padamu? Itu keahlian yang kamu remehkan.",
+          "Kesalahan apa yang sudah kamu lewati? Pelajaran dari kesalahan sangat dihargai.",
+          "Perpotongan bidang apa yang kamu punya? (misalnya hukum + teknologi, seni + data).",
+          "Apa yang membuatmu penasaran belakangan ini? Belajar di depan umum juga menarik."
+        ]},
+        { "type": "callout", "title": "Ingat Level 29", "text": "Voice-mu (Level 29) adalah aset terbesar di LinkedIn. Menulis seperti dirimu sendiri, bukan seperti siaran pers korporat, justru yang membuat orang berhenti scroll." }
+      ]
+    },
+    {
+      "id": "36-7",
+      "title": "Konsistensi Mengalahkan Viral",
+      "blocks": [
+        { "type": "heading", "text": "Satu Post Viral Tidak Membangun Apa-apa" },
+        { "type": "paragraph", "text": "Satu post yang meledak terasa hebat, tapi personal branding dibangun dari kehadiran yang konsisten, bukan satu momen keberuntungan. Lebih baik satu post bermutu tiap minggu selama setahun daripada sepuluh post dalam seminggu lalu hilang." },
+        { "type": "paragraph", "text": "Ini menyambung ke kebiasaan menulis (Level 43): tetapkan ritme yang bisa kamu jaga. Konsistensi membangun ekspektasi — orang mulai menantikan tulisanmu, dan di situlah reputasi tumbuh." },
+        { "type": "callout", "title": "Realistis", "text": "Kalau kamu hanya sanggup menulis dua kali sebulan, tulislah dua kali sebulan dengan sungguh-sungguh. Ritme yang bisa dijaga mengalahkan ambisi yang cepat padam." }
+      ]
+    },
+    {
+      "id": "36-8",
+      "title": "Kesalahan Umum di LinkedIn",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Baris pertama berupa pemanasan (\"Di era digital ini…\") sehingga dipotong feed tanpa dibaca.",
+          "Menyombongkan pencapaian secara telanjang alih-alih menunjukkan pelajaran di baliknya.",
+          "Paragraf padat tanpa ruang putih, melelahkan dibaca di ponsel.",
+          "Engagement bait yang menaikkan angka sesaat tapi menggerus kepercayaan.",
+          "Menulis seperti siaran pers korporat — kehilangan voice yang membuatmu manusia."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Tujuanmu bukan mengumpulkan like, melainkan agar orang yang tepat mengingat cara berpikirmu. Satu komentar tulus dari calon kolega lebih berharga daripada seribu like dari bot." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-36",
+    "title": "Kuis Level 36",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "q36-1", "question": "Personal branding yang sehat paling tepat dipahami sebagai…", "options": ["Memoles citra palsu agar terlihat hebat", "Reputasi profesional yang dibangun sengaja lewat apa yang kamu tunjukkan secara konsisten", "Sekadar sering posting", "Meniru gaya influencer terkenal"], "answer": 1, "explanation": "Personal branding adalah reputasi yang dibangun sengaja dan jujur, bukan citra palsu." },
+      { "id": "q36-2", "question": "Baris pertama post LinkedIn sangat penting karena…", "options": ["Menentukan jumlah karakter maksimal", "Feed memotong post setelah 1-2 baris, jadi baris itu penentu apakah sisanya dibaca", "Wajib berisi hashtag", "Harus menyebut nama perusahaan"], "answer": 1, "explanation": "LinkedIn memotong dengan '…lihat lebih banyak'; baris pertama menentukan apakah pembaca lanjut." },
+      { "id": "q36-3", "question": "Cara membangun kredibilitas tanpa terdengar sombong adalah…", "options": ["Menyebut semua gelar dan prestasi", "Menunjukkan value lewat cerita dan pelajaran, biar pembaca menyimpulkan sendiri kompetensimu", "Mengulang kata 'expert'", "Membandingkan diri dengan orang lain"], "answer": 1, "explanation": "'Show, don't tell' — beri value, pembaca menyimpulkan sendiri kompetensimu." },
+      { "id": "q36-4", "question": "Format post LinkedIn yang enak dibaca di ponsel adalah…", "options": ["Satu blok paragraf panjang tanpa jeda", "Kalimat pendek dengan ruang putih antar-gagasan", "Sebanyak mungkin emoji", "Semua huruf kapital"], "answer": 1, "explanation": "Ruang putih dan kalimat pendek memudahkan mata membaca di layar ponsel." },
+      { "id": "q36-5", "question": "Engagement bait seperti \"Ketik AMIN kalau setuju!\" merugikan karena…", "options": ["Melanggar hukum", "Menaikkan angka sesaat tapi menggerus kepercayaan yang jadi fondasi personal branding", "Terlalu sopan", "Tidak disukai algoritma sama sekali"], "answer": 1, "explanation": "Interaksi kosong mengorbankan kepercayaan jangka panjang demi angka sesaat." },
+      { "id": "q36-6", "question": "Yang membuat seseorang layak dibaca meski bukan ahli nomor satu adalah…", "options": ["Jumlah followers", "Kombinasi unik pengalaman dan sudut pandangnya", "Frekuensi posting tertinggi", "Penggunaan istilah teknis sebanyak mungkin"], "answer": 1, "explanation": "Perpotongan pengalaman dan sudut pandang yang unik membuat tulisan bernilai." },
+      { "id": "q36-7", "question": "Dalam membangun personal branding, yang lebih penting daripada satu post viral adalah…", "options": ["Membeli followers", "Kehadiran dan mutu yang konsisten dari waktu ke waktu", "Sekali posting lalu menghilang", "Menghapus post lama"], "answer": 1, "explanation": "Konsistensi membangun ekspektasi dan reputasi; viral sekali tidak." }
+    ]
+  },
+  "exam": {
+    "id": "exam-36",
+    "title": "Ujian Level 36",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "e36-1", "question": "Seseorang membuka post-nya dengan \"Di era digital yang serba cepat ini, kita semua tahu bahwa networking itu penting.\" Kenapa pembuka ini lemah untuk LinkedIn?", "options": ["Terlalu pendek", "Ini kalimat pemanasan umum yang bisa dilewati siapa saja, sehingga feed memotongnya tanpa pembaca tertarik lanjut", "Menyebut kata 'digital'", "Tidak ada hashtag"], "answer": 1, "explanation": "Pembuka generik tanpa kekhususan membuat pembaca scroll lewat sebelum '…lihat lebih banyak' ditekan." },
+      { "id": "e36-2", "question": "Dua orang menulis soal pencapaian yang sama. A: \"Saya berhasil menaikkan retensi karyawan 30%.\" B: \"Kami hampir kehilangan tiga karyawan terbaik dalam sebulan. Yang menahan mereka ternyata bukan gaji — ini yang saya pelajari.\" Kenapa B lebih efektif untuk kredibilitas?", "options": ["B menyebut angka lebih besar", "B menunjukkan pelajaran lewat cerita sehingga pembaca menyimpulkan sendiri kompetensinya, bukan sekadar mengklaim", "B lebih pendek", "A melanggar aturan LinkedIn"], "answer": 1, "explanation": "B memakai 'show, don't tell': cerita + pelajaran membangun kredibilitas tanpa terdengar menyombong." },
+      { "id": "e36-3", "question": "Sebuah post menempel jadi satu blok paragraf 12 baris tanpa jeda. Dibuka di ponsel, ia terlihat seperti dinding teks. Perbaikan paling tepat adalah…", "options": ["Menambah lebih banyak teks agar lengkap", "Memecah menjadi kalimat-kalimat pendek dengan baris kosong antar-gagasan", "Menghapus semua tanda baca", "Mengubahnya jadi satu kalimat sangat panjang"], "answer": 1, "explanation": "Ruang putih dan kalimat pendek membuat post terbaca ringan di layar ponsel." },
+      { "id": "e36-4", "question": "Seseorang rutin menutup postnya dengan \"Tag 3 temanmu dan komen 'SETUJU'!\" Angka interaksinya naik, tapi setelah beberapa bulan koneksi seriusnya berkurang. Diagnosis paling tepat?", "options": ["Algoritma sedang error", "Engagement bait menaikkan interaksi kosong tapi menggerus kepercayaan, membuat audiens serius menjauh", "Ia kurang sering posting", "Emojinya kurang banyak"], "answer": 1, "explanation": "Interaksi kosong dari bait merusak persepsi substansi dan mengusir audiens bernilai." },
+      { "id": "e36-5", "question": "Seorang perawat yang belajar data analytics ragu menulis karena merasa 'bukan ahli data'. Saran terbaik menurut prinsip level ini adalah…", "options": ["Menunggu sampai jadi ahli penuh", "Justru menulis dari perpotongan unik perawat + data yang tidak dimiliki programmer murni maupun perawat murni", "Meniru gaya penulis data terkenal", "Tidak usah menulis"], "answer": 1, "explanation": "Nilai justru datang dari kombinasi pengalaman yang unik, bukan dari menjadi ahli nomor satu." },
+      { "id": "e36-6", "question": "Seseorang menulis satu post yang viral (ribuan like), lalu menghilang tiga bulan. Kenapa ini kurang membangun personal branding?", "options": ["Viral itu buruk", "Personal branding tumbuh dari kehadiran konsisten yang membentuk ekspektasi, bukan satu ledakan lalu senyap", "Like tidak pernah berarti", "Seharusnya menghapus post viral itu"], "answer": 1, "explanation": "Tanpa konsistensi, momentum satu post hilang dan tidak membentuk reputasi berkelanjutan." },
+      { "id": "e36-7", "question": "Membedakan ajakan diskusi tulus dari engagement bait: mana yang tulus?", "options": ["\"Ketik AMIN kalau kamu benci meeting!\"", "\"Menurut pengalamanmu, apa yang membuat sebuah meeting benar-benar berguna?\"", "\"Tag 5 temanmu sekarang!\"", "\"Like kalau kamu manusia!\""], "answer": 1, "explanation": "Pertanyaan yang mengundang pemikiran nyata menghormati pembaca; sisanya memancing interaksi kosong." },
+      { "id": "e36-8", "question": "Seseorang menulis postnya dengan gaya kaku seperti siaran pers: \"Dengan bangga kami sampaikan bahwa yang bersangkutan telah…\" Kenapa ini melemahkan personal branding-nya?", "options": ["Terlalu jujur", "Ia kehilangan voice yang manusiawi (Level 29), sehingga terasa seperti korporat, bukan seseorang yang layak diikuti", "Terlalu pendek", "Menyebut namanya sendiri"], "answer": 1, "explanation": "Nada korporat menghapus voice personal yang justru membuat orang berhenti scroll dan terhubung." },
+      { "id": "e36-9", "question": "Seorang profesional hanya sanggup menulis dua kali sebulan karena pekerjaannya padat. Nasihat paling realistis adalah…", "options": ["Memaksakan posting harian meski asal-asalan", "Menjaga ritme dua kali sebulan itu dengan sungguh-sungguh, karena konsistensi yang bisa dijaga mengalahkan ambisi yang cepat padam", "Berhenti menulis sama sekali", "Menyalin tulisan orang lain agar sering posting"], "answer": 1, "explanation": "Ritme berkelanjutan lebih membangun reputasi daripada ledakan singkat yang lalu berhenti." },
+      { "id": "e36-10", "question": "Seseorang mengukur keberhasilan postnya semata dari jumlah like. Kenapa metrik ini bisa menyesatkan untuk personal branding?", "options": ["Like selalu akurat", "Tujuannya adalah agar orang yang tepat mengingat cara berpikirmu; satu komentar tulus dari calon kolega bisa lebih berharga daripada ribuan like dangkal", "Like harus disembunyikan", "Semakin sedikit like semakin baik"], "answer": 1, "explanation": "Kualitas audiens dan kesan yang tertinggal lebih penting daripada angka like mentah." }
+    ]
+  },
+  "sources": [
+    { "title": "On Writing Well: The Classic Guide to Writing Nonfiction", "author": "William Zinsser", "publisher": "Harper Perennial", "note": "Prinsip kejelasan dan menghapus kata yang tidak perlu — berlaku untuk post pendek." },
+    { "title": "Made to Stick: Why Some Ideas Survive and Others Die", "author": "Chip Heath, Dan Heath", "year": 2007, "publisher": "Random House", "note": "Kenapa cerita konkret lebih menempel daripada klaim abstrak." },
+    { "title": "How Users Read on the Web", "author": "Jakob Nielsen", "year": 1997, "publisher": "Nielsen Norman Group", "url": "https://www.nngroup.com/articles/how-users-read-on-the-web/", "note": "Pembaca layar memindai, bukan membaca — dasar pentingnya ruang putih dan kalimat pendek." },
+    { "title": "LinkedIn Help — Best practices for creating content", "author": "LinkedIn", "publisher": "LinkedIn", "url": "https://www.linkedin.com/help/linkedin", "note": "Panduan resmi platform soal format dan praktik posting." },
+    { "title": "Show Your Work!: 10 Ways to Share Your Creativity and Get Discovered", "author": "Austin Kleon", "year": 2014, "publisher": "Workman Publishing", "note": "Membangun reputasi dengan berbagi proses secara jujur, bukan pencitraan." }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": 20,
+  "slug": "peer-review",
+  "title": "Memahami Peer Review",
+  "subtitle": "Jenis-jenis review, keputusan editor, dan cara membaca komentar reviewer tanpa baper",
+  "goal": "Mampu membedakan single-blind, double-blind, dan open review; memahami arti tiap jenis keputusan editor (accept, minor revision, major revision, reject, desk reject); membaca komentar reviewer secara objektif tanpa menganggapnya serangan pribadi; dan mengenali apa yang sebenarnya dicari reviewer saat menilai naskah.",
+  "estimatedMinutes": 36,
+  "sections": [
+    {
+      "id": "20-1",
+      "title": "Kenapa Peer Review Ada",
+      "blocks": [
+        { "type": "heading", "text": "Penjaga Gerbang Sebelum Terbit" },
+        { "type": "paragraph", "text": "Peer review adalah proses penilaian naskah oleh sesama peneliti sebidang (peers) sebelum naskah diterbitkan — mekanisme utama yang membedakan jurnal akademik kredibel dari sekadar blog atau media populer. Reviewer menilai apakah metode penelitian sudah tepat, apakah klaim didukung data (ingat overclaiming di Level 16), dan apakah kontribusinya cukup berarti untuk bidang itu." },
+        { "type": "paragraph", "text": "Level 19 sudah membahas bahwa editor melakukan penyaringan awal sebelum naskah sampai ke reviewer. Setelah lolos penyaringan itu, barulah naskah masuk proses peer review yang sesungguhnya — biasanya melibatkan 2-3 reviewer independen yang bekerja tanpa bayaran, sebagai bagian dari kontribusi mereka ke komunitas ilmiah." },
+        { "type": "callout", "title": "Bukan Sistem Sempurna, Tapi Sistem Terbaik yang Kita Punya", "text": "Peer review tidak menjamin kebenaran mutlak — reviewer manusia bisa salah, bias, atau melewatkan sesuatu. Tapi dibanding tanpa filter sama sekali, peer review tetap jadi mekanisme terbaik yang disepakati komunitas ilmiah untuk menjaga standar mutu penelitian yang diterbitkan." }
+      ]
+    },
+    {
+      "id": "20-2",
+      "title": "Tiga Jenis Peer Review",
+      "blocks": [
+        { "type": "heading", "text": "Siapa Tahu Identitas Siapa" },
+        {
+          "type": "table",
+          "headers": ["Jenis", "Penulis Tahu Reviewer?", "Reviewer Tahu Penulis?", "Catatan"],
+          "rows": [
+            ["Single-blind", "Tidak", "Ya", "Paling umum dipakai; reviewer bisa menilai lebih leluasa tanpa takut dibalas, tapi berisiko bias terhadap nama/institusi penulis"],
+            ["Double-blind", "Tidak", "Tidak", "Naskah dan identitas penulis disamarkan (lihat Level 19 soal menghapus identitas dari file utama); mengurangi bias institusi/reputasi"],
+            ["Open review", "Ya", "Ya", "Identitas kedua pihak terbuka, kadang komentar review bahkan diterbitkan bersama artikel; mendorong akuntabilitas tapi reviewer bisa lebih segan mengkritik keras"]
+          ]
+        },
+        { "type": "paragraph", "text": "Tidak ada satu jenis yang mutlak lebih baik — masing-masing punya trade-off. Double-blind mengurangi risiko bias tapi tidak selalu berhasil (kadang identitas penulis tetap bisa ditebak dari gaya sitasi diri sendiri atau topik yang sangat spesifik). Open review meningkatkan akuntabilitas tapi berisiko membuat reviewer junior segan mengkritik peneliti senior secara terbuka." },
+        { "type": "callout", "title": "Cek Kebijakan Jurnal", "text": "Jenis peer review yang dipakai biasanya tercantum di halaman 'Peer Review Process' jurnal — penting kamu tahu ini SEBELUM submit, karena memengaruhi cara kamu menyiapkan file naskah (misalnya menghapus identitas untuk double-blind, lihat Level 19)." }
+      ]
+    },
+    {
+      "id": "20-3",
+      "title": "Jenis-Jenis Keputusan Editor",
+      "blocks": [
+        { "type": "heading", "text": "Lima Kemungkinan Hasil" },
+        {
+          "type": "table",
+          "headers": ["Keputusan", "Artinya"],
+          "rows": [
+            ["Desk reject", "Ditolak editor SEBELUM masuk peer review — biasanya karena scope tidak cocok atau kualitas dasar belum memenuhi standar minimum (dibahas lebih lanjut di Level 22)"],
+            ["Reject (setelah review)", "Ditolak SETELAH dinilai reviewer — biasanya karena kelemahan metodologis serius atau kontribusi dianggap kurang cukup"],
+            ["Major revision", "Diterima bersyarat, tapi butuh revisi substansial — bisa berarti analisis tambahan, data tambahan, atau perubahan besar pada argumen (lihat Level 21)"],
+            ["Minor revision", "Diterima bersyarat, revisi relatif kecil — biasanya perbaikan kejelasan, tambahan penjelasan, atau koreksi teknis (lihat Level 21)"],
+            ["Accept", "Diterima tanpa revisi lebih lanjut — jarang terjadi di percobaan pertama, paling sering muncul setelah revisi mayor/minor selesai"]
+          ]
+        },
+        { "type": "callout", "title": "Major/Minor Bukan Skala Pujian", "text": "Menerima 'major revision' BUKAN berarti naskahmu buruk — ini justru berarti editor melihat potensi cukup kuat untuk memberi kesempatan revisi, alih-alih langsung menolak. Banyak artikel yang akhirnya diterbitkan di jurnal bagus melewati tahap major revision terlebih dahulu." }
+      ]
+    },
+    {
+      "id": "20-4",
+      "title": "Apa yang Sebenarnya Dicari Reviewer",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Mencari-Cari Kesalahan untuk Menjatuhkan" },
+        { "type": "paragraph", "text": "Banyak penulis pemula membayangkan reviewer sebagai 'hakim yang mencari alasan untuk menolak'. Kenyataannya, kebanyakan reviewer justru ingin membantu naskah menjadi lebih baik — mereka membaca dengan pertanyaan: apakah metode ini valid untuk menjawab rumusan masalahnya, apakah klaim di Discussion (Level 16) benar-benar didukung data di Results, dan apakah kontribusinya jelas bagi bidang itu." },
+        { "type": "list", "ordered": false, "items": [
+          "Validitas metode — apakah desain penelitian (kuantitatif/kualitatif/mixed methods, Level 13) cocok untuk menjawab rumusan masalah.",
+          "Kesesuaian klaim dengan bukti — apakah Discussion (Level 16) tidak overclaim melampaui apa yang benar-benar ditunjukkan data.",
+          "Kejelasan penulisan — apakah alur argumen bisa diikuti tanpa reviewer harus menebak-nebak maksud penulis.",
+          "Orisinalitas dan kontribusi — apakah penelitian ini menambah sesuatu yang belum ada di tinjauan pustaka (Level 11), bukan sekadar mengulang penelitian lain.",
+          "Kepatuhan etika — terutama untuk penelitian yang melibatkan manusia (Level 14)."
+        ]},
+        { "type": "callout", "title": "Reviewer Juga Manusia dengan Waktu Terbatas", "text": "Reviewer biasanya mengerjakan review di sela kesibukan lain tanpa bayaran. Naskah yang ditulis rapi dan jelas (mengikuti prinsip-prinsip dari level-level sebelumnya) membuat pekerjaan mereka lebih mudah — dan secara tidak langsung membuat mereka lebih positif terhadap naskahmu." }
+      ]
+    },
+    {
+      "id": "20-5",
+      "title": "Membaca Komentar Reviewer Tanpa Baper",
+      "blocks": [
+        { "type": "heading", "text": "Nada Tajam Bukan Berarti Serangan Pribadi" },
+        { "type": "paragraph", "text": "Komentar reviewer kadang ditulis dengan nada blak-blakan, bahkan terkesan kasar — ini lazim terjadi karena reviewer menulis cepat di sela kesibukan, bukan karena mereka membenci penulis secara pribadi. Reaksi pertama yang wajar adalah kecewa atau tersinggung, tapi reaksi itu perlu diberi jarak sebelum kamu benar-benar membalas (lihat Level 21 soal menulis response letter)." },
+        { "type": "list", "ordered": true, "items": [
+          "Baca semua komentar sekali dulu tanpa langsung membalas — beri jeda satu-dua hari sebelum menyusun rencana revisi.",
+          "Pisahkan NADA dari SUBSTANSI — komentar yang ditulis tajam bisa tetap mengandung poin substansi yang valid dan perlu ditindaklanjuti.",
+          "Kalau ada komentar yang terasa tidak adil atau salah paham, itu SAH untuk direspons dengan argumen dan bukti (Level 21) — tapi tetap dengan nada profesional, bukan defensif emosional.",
+          "Ingat bahwa reviewer menilai NASKAH, bukan menilai kamu sebagai pribadi atau peneliti secara keseluruhan."
+        ]},
+        { "type": "callout", "title": "Semua Peneliti Pernah Mengalami Ini", "text": "Bahkan peneliti senior dan penulis buku metodologi ternama pernah menerima komentar reviewer yang tajam. Ini bagian normal dari proses, bukan tanda kamu tidak becus meneliti." }
+      ]
+    },
+    {
+      "id": "20-6",
+      "title": "Worked Example: Komentar Reviewer, Reaksi Reaktif vs Reaksi Reflektif",
+      "blocks": [
+        { "type": "heading", "text": "Membandingkan Dua Cara Merespons (di Kepala, Sebelum Menulis Balasan)" },
+        { "type": "quote", "text": "Komentar reviewer: \"Metode statistik yang dipakai penulis tidak sesuai untuk data ordinal semacam ini. Saya ragu penulis memahami dasar-dasar analisis data.\"", "source": "Contoh komentar reviewer yang tajam" },
+        { "type": "quote", "text": "Reaksi REAKTIF (di kepala penulis): \"Reviewer ini menghina saya! Dia tidak tahu betapa kerasnya saya bekerja mengumpulkan data ini. Saya akan menolak semua sarannya.\"", "source": "Respons emosional — fokus pada NADA, mengabaikan SUBSTANSI" },
+        { "type": "quote", "text": "Reaksi REFLEKTIF (setelah jeda satu hari): \"Poin substansinya valid — data saya memang ordinal dan saya pakai uji parametrik yang mengasumsikan data interval. Saya perlu mengecek ulang apakah uji non-parametrik lebih tepat, dan kalaupun saya tetap memilih uji ini, saya perlu menjelaskan alasannya lebih eksplisit di respons ke reviewer.\"", "source": "Respons reflektif — memisahkan nada dari substansi, fokus pada tindakan konkret" },
+        { "type": "callout", "title": "Kenapa Reaksi Kedua Lebih Produktif", "text": "Reaksi reflektif tidak mengabaikan bahwa komentarnya terasa tajam, tapi tetap berhasil mengekstrak substansi yang bisa ditindaklanjuti — inilah keterampilan inti yang akan sangat berguna saat menulis response letter di Level 21." }
+      ]
+    },
+    {
+      "id": "20-7",
+      "title": "Kapan Komentar Reviewer Boleh Dianggap Tidak Adil",
+      "blocks": [
+        { "type": "heading", "text": "Tidak Semua Komentar Reviewer Otomatis Benar" },
+        { "type": "paragraph", "text": "Meski reviewer umumnya berniat baik, mereka tetap manusia yang bisa salah paham, membaca terlalu cepat, atau bahkan keliru soal metode di luar keahlian utamanya. Beberapa tanda komentar yang layak direspons dengan argumen (bukan diterima begitu saja):" },
+        { "type": "list", "ordered": false, "items": [
+          "Reviewer meminta sesuatu yang sebenarnya sudah dijelaskan di naskah, tapi mungkin terlewat karena posisinya kurang menonjol — solusinya bukan membalas defensif, tapi mempertegas penempatan informasi itu.",
+          "Reviewer meminta perubahan yang bertentangan dengan konvensi metodologis bidang tertentu — di sinilah kamu perlu argumen berbasis rujukan (lihat Level 21 soal berargumen dengan bukti).",
+          "Dua reviewer memberi saran yang saling bertentangan — ini situasi normal yang perlu didiskusikan dengan editor, bukan ditanggung sendiri.",
+          "Komentar personal yang tidak relevan dengan substansi naskah (jarang, tapi bisa terjadi) — ini bisa dilaporkan ke editor sebagai masalah etika review, bukan sekadar diterima."
+        ]},
+        { "type": "callout", "title": "Editor Adalah Wasit", "text": "Kalau kamu merasa ada komentar reviewer yang benar-benar tidak adil atau di luar substansi ilmiah, editor punya peran menengahi. Kamu boleh menyampaikan keberatan secara profesional dalam response letter (Level 21) — editor yang akan menimbang keputusan akhir." }
+      ]
+    },
+    {
+      "id": "20-8",
+      "title": "Kesalahan Umum Memahami Peer Review",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menganggap peer review sebagai 'ujian yang harus lulus sempurna di percobaan pertama', padahal major/minor revision adalah hasil normal dan umum, bukan tanda kegagalan.",
+          "Membalas komentar reviewer secara defensif dan emosional segera setelah membaca, tanpa jeda untuk memisahkan nada dari substansi.",
+          "Menyamaratakan semua jenis peer review, padahal single-blind, double-blind, dan open review punya implikasi berbeda terhadap cara menyiapkan naskah (Level 19).",
+          "Menerima semua komentar reviewer begitu saja tanpa mengevaluasi apakah komentar itu memang tepat secara metodologis.",
+          "Mengabaikan bahwa reviewer bekerja tanpa bayaran di sela kesibukan lain, sehingga naskah yang berantakan hanya memperlambat dan memperburuk kesan pertama."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Peer review bukan sistem yang mencari-cari alasan menjatuhkanmu — ia mekanisme kolektif untuk menjaga standar mutu. Komentar tajam bukan serangan pribadi, dan revisi (bahkan yang mayor) adalah bagian normal dari perjalanan menuju artikel yang lebih kuat." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-20",
+    "title": "Kuis Level 20",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q20-1",
+        "question": "Jenis peer review di mana penulis dan reviewer sama-sama tidak mengetahui identitas satu sama lain disebut…",
+        "options": ["Single-blind", "Double-blind", "Open review", "Desk review"],
+        "answer": 1,
+        "explanation": "Double-blind menyembunyikan identitas kedua pihak, berbeda dari single-blind (reviewer tahu penulis) dan open review (kedua pihak tahu identitas satu sama lain)."
+      },
+      {
+        "id": "q20-2",
+        "question": "Keputusan editor yang berarti naskah ditolak SEBELUM masuk proses peer review disebut…",
+        "options": ["Major revision", "Minor revision", "Desk reject", "Accept"],
+        "answer": 2,
+        "explanation": "Desk reject terjadi di tahap penyaringan awal editor, sebelum naskah sempat dinilai reviewer."
+      },
+      {
+        "id": "q20-3",
+        "question": "Menerima keputusan 'major revision' pada percobaan pertama sebaiknya dimaknai sebagai…",
+        "options": ["Tanda naskah pasti akan ditolak", "Hasil yang cukup normal, menunjukkan editor melihat potensi untuk direvisi lebih lanjut", "Kesalahan sistem OJS", "Tanda reviewer tidak membaca naskah dengan serius"],
+        "answer": 1,
+        "explanation": "Major revision adalah hasil umum dan bukan tanda kegagalan — banyak artikel bagus melewati tahap ini sebelum akhirnya diterima."
+      },
+      {
+        "id": "q20-4",
+        "question": "Salah satu hal utama yang dicari reviewer saat menilai naskah adalah…",
+        "options": ["Jumlah kata di halaman ucapan terima kasih", "Apakah klaim di bagian Discussion benar-benar didukung oleh data di Results", "Warna sampul jurnal", "Jumlah penulis yang terlibat"],
+        "answer": 1,
+        "explanation": "Reviewer menilai kesesuaian klaim dengan bukti, salah satunya memeriksa apakah Discussion tidak overclaim melampaui data (lihat Level 16)."
+      },
+      {
+        "id": "q20-5",
+        "question": "Langkah yang disarankan saat pertama kali membaca komentar reviewer yang terasa tajam adalah…",
+        "options": ["Langsung membalas dengan argumen penolakan", "Membaca semua komentar dulu, memberi jeda sebelum menyusun rencana revisi", "Menghapus email reviewer tanpa membacanya", "Meminta editor mengganti reviewer segera"],
+        "answer": 1,
+        "explanation": "Memberi jeda sebelum membalas membantu memisahkan reaksi emosional dari evaluasi substansi komentar yang sebenarnya."
+      },
+      {
+        "id": "q20-6",
+        "question": "Jika dua reviewer memberi saran yang saling bertentangan, langkah yang tepat adalah…",
+        "options": ["Mengabaikan kedua saran tersebut", "Memilih saran secara acak tanpa penjelasan", "Menyampaikan situasi ini secara profesional, karena editor berperan menengahi ketidaksepakatan semacam ini", "Menolak revisi sama sekali karena reviewer tidak kompak"],
+        "answer": 2,
+        "explanation": "Saran yang saling bertentangan adalah situasi normal yang perlu didiskusikan lewat response letter dan keputusan editor sebagai penengah."
+      },
+      {
+        "id": "q20-7",
+        "question": "Kenapa naskah yang ditulis rapi dan jelas cenderung mendapat kesan lebih positif dari reviewer?",
+        "options": ["Karena reviewer dibayar berdasarkan kerapian naskah", "Karena reviewer bekerja tanpa bayaran di sela kesibukan lain, sehingga naskah yang jelas memudahkan pekerjaan mereka", "Karena kerapian menjamin metode penelitian pasti benar", "Karena jurnal mewajibkan reviewer menilai kerapian sebagai kriteria utama"],
+        "answer": 1,
+        "explanation": "Reviewer bekerja sukarela dengan waktu terbatas; naskah yang jelas dan rapi memudahkan mereka menilai substansi tanpa hambatan tambahan."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-20",
+    "title": "Ujian Level 20",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e20-1",
+        "question": "Seorang penulis mengirim naskah ke jurnal yang menerapkan double-blind review, tapi menyertakan ucapan terima kasih di dalam naskah utama yang menyebut nama lengkap laboratorium dan pembimbingnya. Masalah dari situasi ini adalah…",
+        "options": ["Ucapan terima kasih memang wajib ada di naskah utama", "Informasi ini berpotensi membocorkan identitas penulis, merusak tujuan anonimitas dari proses double-blind", "Reviewer akan otomatis menolak naskah karena hal ini", "Tidak ada masalah karena reviewer tidak membaca ucapan terima kasih"],
+        "answer": 1,
+        "explanation": "Detail yang bisa mengidentifikasi penulis (nama lab, pembimbing) di naskah utama merusak anonimitas yang seharusnya dijaga pada proses double-blind review."
+      },
+      {
+        "id": "e20-2",
+        "question": "Seorang penulis menerima keputusan 'major revision' dan langsung merasa naskahnya pasti akan ditolak, sehingga berniat menarik naskah dari proses. Penilaian paling tepat atas reaksinya adalah…",
+        "options": ["Reaksinya tepat karena major revision hampir selalu berujung penolakan", "Reaksinya berlebihan — major revision adalah keputusan bersyarat yang menunjukkan editor melihat potensi, bukan tanda pasti ditolak", "Ia seharusnya langsung submit ke jurnal lain tanpa merevisi", "Major revision berarti naskah harus ditulis ulang dari nol"],
+        "answer": 1,
+        "explanation": "Major revision adalah hasil normal yang memberi kesempatan revisi; menariknya secara prematur justru membuang peluang publikasi yang masih terbuka."
+      },
+      {
+        "id": "e20-3",
+        "question": "Seorang reviewer menulis: \"Bagian Metode tidak menjelaskan bagaimana instrumen ini divalidasi. Saya tidak bisa menilai apakah data yang dihasilkan reliabel.\" Penulis merasa tersinggung dan menganggap ini serangan terhadap kompetensinya. Cara membaca komentar ini yang lebih tepat adalah…",
+        "options": ["Menganggapnya serangan pribadi dan membalas dengan nada defensif", "Memisahkan nada dari substansi — komentar ini sebenarnya menunjuk kekurangan konkret (penjelasan validasi instrumen) yang bisa ditindaklanjuti dengan menambah detail di Metode", "Mengabaikan komentar karena reviewer tidak memahami penelitiannya", "Meminta jurnal mengganti reviewer karena dianggap tidak sopan"],
+        "answer": 1,
+        "explanation": "Komentar ini, meski terasa tajam bagi penulis, sebenarnya menunjuk kekurangan spesifik dan bisa ditindaklanjuti — bukan serangan pribadi terhadap kompetensi penulis."
+      },
+      {
+        "id": "e20-4",
+        "question": "Reviewer A menyarankan penulis menambah data kualitatif untuk memperkuat temuan, sementara Reviewer B menyarankan penulis MENGURANGI porsi data kualitatif karena dianggap keluar dari scope penelitian kuantitatif. Langkah paling tepat bagi penulis adalah…",
+        "options": ["Mengikuti saran reviewer yang memberi komentar lebih panjang", "Menyampaikan pertentangan ini secara profesional dalam response letter dan membiarkan editor menimbang keputusan akhir", "Mengabaikan kedua reviewer dan mengirim naskah tanpa revisi", "Menghapus seluruh data kualitatif tanpa penjelasan ke editor"],
+        "answer": 1,
+        "explanation": "Saran reviewer yang saling bertentangan adalah situasi normal yang perlu diserahkan ke editor untuk ditengahi, dengan penjelasan jelas di response letter (lihat juga Level 21)."
+      },
+      {
+        "id": "e20-5",
+        "question": "Sebuah jurnal menerapkan open review, dan seorang reviewer junior merasa segan memberi kritik keras pada naskah seorang profesor senior karena namanya akan terlihat publik. Ini menggambarkan trade-off dari jenis review…",
+        "options": ["Single-blind, yang selalu menyembunyikan nama reviewer", "Open review, yang meningkatkan akuntabilitas tapi berisiko membuat reviewer segan mengkritik secara terbuka", "Double-blind, yang menyembunyikan identitas kedua pihak", "Tidak ada trade-off dalam jenis review apa pun"],
+        "answer": 1,
+        "explanation": "Open review meningkatkan transparansi dan akuntabilitas, tapi salah satu trade-off-nya adalah reviewer (terutama junior) bisa lebih segan mengkritik keras secara terbuka."
+      },
+      {
+        "id": "e20-6",
+        "question": "Seorang penulis menerima komentar reviewer yang menyebut metode statistiknya keliru untuk jenis data yang dipakai. Setelah dicek ulang, penulis menemukan bahwa pilihannya sebenarnya didukung oleh konvensi metodologis bidang tersebut dan referensi yang kredibel. Langkah paling tepat adalah…",
+        "options": ["Menerima begitu saja komentar reviewer tanpa mempertanyakan meski merasa yakin metodenya tepat", "Merespons dengan argumen berbasis rujukan yang menjelaskan kenapa metode tersebut tepat, secara profesional tanpa nada defensif", "Mengabaikan komentar tanpa memberi penjelasan apa pun ke reviewer atau editor", "Menarik naskah dari jurnal karena merasa dipahami keliru"],
+        "answer": 1,
+        "explanation": "Komentar reviewer tidak otomatis benar; penulis boleh dan sebaiknya merespons dengan argumen berbasis bukti/rujukan secara profesional (dikembangkan lebih lanjut di Level 21)."
+      },
+      {
+        "id": "e20-7",
+        "question": "Seorang mahasiswa menganggap bahwa karena naskahnya melewati proses single-blind review dan diterima reviewer, berarti seluruh isi naskahnya pasti benar secara mutlak. Kekeliruan pandangan ini adalah…",
+        "options": ["Anggapannya tepat karena peer review menjamin kebenaran mutlak", "Peer review adalah mekanisme penjagaan mutu terbaik yang tersedia, tapi tidak menjamin kebenaran mutlak karena reviewer manusia bisa salah atau melewatkan sesuatu", "Single-blind review selalu lebih akurat dibanding jenis review lain", "Artikel yang sudah diterima tidak pernah direvisi atau dikoreksi lagi setelah terbit"],
+        "answer": 1,
+        "explanation": "Peer review bukan jaminan kebenaran mutlak — ia mekanisme terbaik yang disepakati komunitas ilmiah, tapi tetap melibatkan penilaian manusia yang bisa keliru."
+      },
+      {
+        "id": "e20-8",
+        "question": "Seorang penulis menerima balasan reviewer dengan nada sangat blak-blakan: \"Saya heran naskah seperti ini bisa sampai ke tahap review.\" Penulis langsung membalas dengan nada emosional yang menyerang balik kompetensi reviewer. Dampak paling mungkin dari respons ini adalah…",
+        "options": ["Editor akan otomatis menerima naskah karena penulis membela diri", "Respons emosional berisiko memperburuk kesan editor terhadap profesionalisme penulis, terlepas dari benar-tidaknya substansi keberatannya", "Reviewer akan meminta maaf secara otomatis", "Tidak ada dampak apa pun terhadap keputusan editor"],
+        "answer": 1,
+        "explanation": "Respons yang emosional dan menyerang balik, bahkan jika substansi keberatan penulis valid, berisiko merusak kesan profesionalisme di mata editor yang membaca korespondensi tersebut."
+      },
+      {
+        "id": "e20-9",
+        "question": "Sebuah naskah mendapat komentar reviewer yang meminta penjelasan tentang sesuatu yang sebenarnya SUDAH dijelaskan di bagian Metode, hanya saja diletakkan di sub-bagian yang kurang menonjol. Respons paling tepat penulis adalah…",
+        "options": ["Membalas dengan nada menyalahkan reviewer karena tidak membaca dengan teliti", "Menegaskan kembali penjelasan tersebut di response letter dan mempertimbangkan memindahkan/mempertegas penempatannya di revisi naskah", "Mengabaikan komentar karena reviewer jelas salah", "Menghapus bagian itu karena dianggap tidak penting"],
+        "answer": 1,
+        "explanation": "Jika informasi kurang menonjol sehingga terlewat reviewer, solusi produktifnya adalah mempertegas penempatan informasi tersebut, bukan menyalahkan reviewer."
+      },
+      {
+        "id": "e20-10",
+        "question": "Seorang mahasiswa merasa satu komentar reviewer bernada merendahkan secara personal dan tidak menyentuh substansi ilmiah apa pun ('penelitian semacam ini seharusnya tidak layak jadi skripsi, apalagi artikel'). Langkah yang paling sesuai dengan prinsip di level ini adalah…",
+        "options": ["Diam saja dan menerima komentar itu tanpa tindakan apa pun", "Menyampaikan keberatan secara profesional ke editor sebagai masalah etika review, karena editor berperan menengahi komentar yang keluar dari substansi ilmiah", "Membalas reviewer secara langsung dengan nada yang sama merendahkannya", "Menarik naskah dari seluruh proses publikasi selamanya"],
+        "answer": 1,
+        "explanation": "Komentar yang murni merendahkan tanpa substansi ilmiah adalah masalah etika review yang sah disampaikan ke editor sebagai penengah, bukan sesuatu yang harus diterima diam-diam atau dibalas dengan nada serupa."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "COPE Ethical Guidelines for Peer Reviewers", "author": "Committee on Publication Ethics (COPE)", "publisher": "COPE", "url": "https://publicationethics.org/resources/guidelines-new/cope-ethical-guidelines-peer-reviewers", "note": "Standar etika dan tanggung jawab reviewer dalam proses peer review." },
+    { "title": "Reviewing the Reviewers: The Impact of Open Peer Review on Reviewer Behavior", "author": "Elsevier / Springer Nature (kebijakan open peer review)", "publisher": "Elsevier & Springer Nature", "note": "Rujukan trade-off single-blind, double-blind, dan open review yang dipakai berbagai penerbit." },
+    { "title": "How to Write and Publish a Scientific Paper", "author": "Robert A. Day & Barbara Gastel", "publisher": "Cambridge University Press", "note": "Panduan memahami proses peer review dari sudut pandang penulis." },
+    { "title": "ICMJE Recommendations", "author": "International Committee of Medical Journal Editors (ICMJE)", "publisher": "ICMJE", "note": "Rujukan peran dan tanggung jawab editor serta reviewer dalam proses penerbitan." }
+  ]
+}

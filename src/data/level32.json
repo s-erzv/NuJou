@@ -1,0 +1,281 @@
+{
+  "id": 32,
+  "slug": "storytelling",
+  "title": "Storytelling & Show, Don't Tell",
+  "subtitle": "Membuat pembaca merasakan, bukan sekadar diberi tahu",
+  "goal": "Memahami perbedaan teknis antara showing dan telling, mampu mengubah pernyataan abstrak menjadi detail sensorik konkret, menyusun ketegangan naratif lewat pola setup-turn-resolution, dan mengenali kapan telling justru pilihan yang lebih tepat.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "32-1",
+      "title": "Dua Cara Menyampaikan Satu Kebenaran",
+      "blocks": [
+        { "type": "heading", "text": "Show, Don't Tell — Bukan Aturan Mutlak" },
+        { "type": "paragraph", "text": "Level 31 mengajarimu memenangkan 3 detik pertama pembaca. Tapi hook yang kuat akan percuma kalau paragraf-paragraf setelahnya jatuh kembali ke kalimat datar. Level ini membahas alat utama untuk menjaga energi itu tetap hidup sepanjang tulisan: storytelling, dengan prinsip intinya bernama show, don't tell." },
+        { "type": "paragraph", "text": "TELLING adalah menyatakan kesimpulan atau label emosi secara langsung: 'Dia sedih.' SHOWING adalah menyajikan bukti konkret — perilaku, detail sensorik, dialog — yang membuat pembaca sampai pada kesimpulan itu sendiri: 'Dia menatap ubin dapur, mengaduk kopi yang sudah dingin sejak setengah jam lalu, tanpa sekali pun menyeruputnya.' Keduanya sama-sama 'benar', tapi hanya satu yang membuat pembaca ikut merasakan." },
+        { "type": "callout", "title": "Asal-usul yang Sering Dikutip", "text": "Prinsip ini sering dikaitkan dengan Anton Chekhov, yang konon menasihati: jangan bilang bulan sedang bersinar, tunjukkan kilau cahaya di pecahan kaca. Atribusi persisnya diperdebatkan, tapi intinya tetap dipakai penulis modern: bukti selalu lebih meyakinkan daripada pernyataan." }
+      ]
+    },
+    {
+      "id": "32-2",
+      "title": "Anatomi Showing: Detail Sensorik yang Bekerja",
+      "blocks": [
+        { "type": "heading", "text": "Lima Indra, Kata Kerja Konkret, Bukan Kata Sifat" },
+        { "type": "paragraph", "text": "Showing yang efektif hampir selalu memakai kata benda dan kata kerja yang spesifik, bukan kata sifat yang menilai ('sangat sedih', 'sangat marah'). Kata sifat memberi tahu pembaca apa yang harus mereka rasakan; detail konkret membiarkan mereka merasakannya sendiri." },
+        { "type": "list", "ordered": false, "items": [
+          "Penglihatan: warna, gerak tubuh kecil, ekspresi wajah spesifik — bukan 'dia terlihat sedih' tapi 'sudut bibirnya turun sebelum dia sempat tersenyum lagi'.",
+          "Pendengaran: suara latar, nada suara, jeda dalam percakapan — bukan 'dia marah' tapi 'suaranya turun jadi bisikan, yang selalu lebih menakutkan dari teriakan'.",
+          "Penciuman & perasa: sering paling jarang dipakai, padahal paling kuat memicu ingatan — bau kapur tulis, rasa kopi yang keburu dingin.",
+          "Perabaan: tekstur, suhu, tekanan — 'tangannya dingin' vs 'jarinya gemetar sedikit saat menjabat tanganku, seperti menahan sesuatu'.",
+          "Gerak tubuh & tindakan kecil: ini paling sering dilupakan penulis pemula — orang jarang mengumumkan perasaannya, mereka melakukan sesuatu sebagai gantinya."
+        ]},
+        {
+          "type": "table",
+          "headers": ["Abstraksi (Tell)", "Konkret (Show)"],
+          "rows": [
+            ["Dia gugup sekali sebelum interview.", "Dia membaca ulang CV-nya untuk kelima kali di lobi, padahal isinya sama sejak tadi."],
+            ["Rumah itu berantakan.", "Ada tiga gelas kopi kosong berjejer di meja, dan sofa masih menyimpan bentuk badan orang yang tidur di situ semalam."],
+            ["Ibu saya orang yang keras.", "Ibu saya tidak pernah bilang 'aku bangga padamu' — dia cuma diam-diam mengisi ulang toples kerupuk kesukaanku setiap kali aku pulang."],
+            ["Kotanya terasa asing bagi saya.", "Petugas SPBU menjawab 'terserah bapak/ibu saja' setiap kali saya bertanya, dan saya belum juga terbiasa dipanggil begitu."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32-3",
+      "title": "Ketegangan Naratif: Setup - Turn - Resolution",
+      "blocks": [
+        { "type": "heading", "text": "Struktur Tiga Babak yang Sederhana" },
+        { "type": "paragraph", "text": "Showing memberi tulisanmu tekstur, tapi tanpa struktur, deretan detail sensorik hanya jadi deskripsi indah tanpa arah. Pola paling dasar untuk membangun ketegangan naratif — dipakai dari cerpen sampai anekdot dua paragraf — adalah SETUP, TURN, dan RESOLUTION." },
+        {
+          "type": "table",
+          "headers": ["Tahap", "Fungsinya", "Pertanyaan Kunci"],
+          "rows": [
+            ["Setup", "Membangun ekspektasi/normal — situasi, siapa, apa yang dipercaya benar saat itu", "Apa yang pembaca (dan tokoh) anggap 'biasa' sebelum semuanya berubah?"],
+            ["Turn", "Titik balik — sesuatu yang mengganggu ekspektasi itu, kejutan, kegagalan, penemuan", "Apa yang tiba-tiba membuat situasi 'biasa' itu tidak bisa dipertahankan lagi?"],
+            ["Resolution", "Keadaan baru setelah turn — bukan selalu 'happy ending', tapi pemahaman/keseimbangan baru", "Apa yang berubah pada tokoh (dan mungkin pembaca) setelah turn itu?"]
+          ]
+        },
+        { "type": "paragraph", "text": "Contoh mini: Setup — 'Saya selalu yakin bisa mengandalkan rekan bisnis saya, sejak kami kuliah bareng.' Turn — 'Sampai suatu pagi saya membuka rekening bersama dan menemukan saldo sudah nol, dipindahkan tiga hari sebelumnya.' Resolution — 'Butuh setahun sebelum saya bisa percaya lagi pada siapa pun yang bilang \\\"kita akan sukses bareng\\\".'" },
+        { "type": "callout", "title": "Bukan Cuma untuk Fiksi", "text": "Pola ini berlaku untuk personal essay (Level 30), opini (Level 35), bahkan satu post LinkedIn (Level 36). Setiap tulisan yang terasa 'kosong' biasanya kehilangan salah satu dari tiga tahap ini." }
+      ]
+    },
+    {
+      "id": "32-4",
+      "title": "Chekhov's Gun: Detail yang Harus Dibayar",
+      "blocks": [
+        { "type": "heading", "text": "Jangan Menabur Detail yang Tak Pernah Dipanen" },
+        { "type": "paragraph", "text": "Prinsip terkait yang juga dikaitkan dengan Chekhov: kalau kamu menonjolkan sebuah detail secara mencolok di awal, pembaca akan (secara sadar atau tidak) menunggu detail itu berarti sesuatu nanti. Detail yang muncul mencolok tapi tidak pernah 'dibayar' membuat pembaca merasa ditipu — energi perhatian mereka terbuang." },
+        { "type": "paragraph", "text": "Ini bukan berarti setiap kalimat harus jadi jebakan plot. Detail latar biasa (warna dinding, cuaca hari itu) boleh saja hanya jadi tekstur. Yang perlu 'dibayar' adalah detail yang kamu SOROT secara khusus — biasanya lewat penempatan di kalimat pertama/terakhir paragraf, atau lewat pengulangan." },
+        { "type": "callout", "title": "Hubungkan ke Bookending", "text": "Teknik bookending dari Level 30 (kembali ke scene pembuka di akhir, dengan pemahaman baru) adalah bentuk paling umum dari 'membayar' detail — kamu menabur sesuatu di setup, lalu memanennya di resolution." }
+      ]
+    },
+    {
+      "id": "32-5",
+      "title": "Kapan Telling Lebih Baik",
+      "blocks": [
+        { "type": "heading", "text": "Showing Bukan Selalu Menang" },
+        { "type": "paragraph", "text": "Penulis pemula yang baru belajar prinsip ini sering jadi terlalu bersemangat dan mencoba 'showing' setiap kalimat — hasilnya justru lambat dan melelahkan dibaca. Telling punya fungsi penting: mengatur kecepatan (pacing) dan memberi informasi latar yang tidak butuh 'dirasakan', hanya perlu 'diketahui'." },
+        { "type": "list", "ordered": true, "items": [
+          "Transisi waktu: 'Dua tahun berlalu tanpa kabar darinya' jauh lebih efisien daripada menceritakan setiap bulan yang lewat.",
+          "Latar belakang faktual: 'Ayah saya bekerja sebagai sopir truk selama 15 tahun' — informasi ini cukup diberi tahu, tidak perlu adegan penuh.",
+          "Merangkum kejadian berulang: 'Setiap Minggu pagi, kami selalu bertengkar soal hal yang sama' merangkum pola, sebelum kamu masuk ke SATU adegan spesifik sebagai contoh.",
+          "Mengatur jeda napas pembaca setelah adegan yang berat secara emosional — tidak semua momen harus diperlambat."
+        ]},
+        { "type": "callout", "title": "Aturan Praktis", "text": "Show momen yang menjadi inti makna tulisanmu (biasanya bagian 'turn'). Tell bagian yang menghubungkan momen-momen itu. Kalau semuanya di-show, pembaca lelah sebelum sampai ke bagian yang benar-benar penting." }
+      ]
+    },
+    {
+      "id": "32-6",
+      "title": "Before/After: Worked Example",
+      "blocks": [
+        { "type": "heading", "text": "Satu Kejadian, Dua Cara Bercerita" },
+        { "type": "paragraph", "text": "Berikut dua versi paragraf yang menceritakan kejadian sama: usaha kecil milik penulis gagal setelah dua tahun berjalan." },
+        { "type": "quote", "text": "VERSI TELLING (datar):\n\"Usaha kecil saya akhirnya gagal setelah dua tahun berjuang. Saya sangat kecewa dan sedih karena sudah berusaha keras. Banyak pelajaran yang saya dapat dari kegagalan ini.\"", "source": "Contoh versi telling" },
+        { "type": "quote", "text": "VERSI SHOWING (hidup):\n\"Saya menghitung stok terakhir jam 11 malam, sendirian, di toko yang lampunya sudah setengah dimatikan untuk hemat listrik. Dua tahun lalu, di rak yang sama, saya berfoto sambil memegang kunci toko untuk pertama kalinya — foto itu masih jadi wallpaper ponsel saya sampai malam itu. Saya menggantinya sebelum menutup pintu untuk terakhir kali.\"", "source": "Contoh versi showing" },
+        { "type": "callout", "title": "Apa yang Berubah", "text": "Versi kedua tidak pernah memakai kata 'sedih' atau 'kecewa' — tapi justru terasa lebih emosional. Ia memakai setup (foto pembukaan toko), turn (menutup toko), dan detail konkret (wallpaper diganti) yang membiarkan pembaca menyimpulkan kesedihan itu sendiri." }
+      ]
+    },
+    {
+      "id": "32-7",
+      "title": "Latihan: Ubah Tell Jadi Show",
+      "blocks": [
+        { "type": "heading", "text": "Uji Cepat Sebelum Menulis Ulang" },
+        { "type": "paragraph", "text": "Ambil kalimat-kalimat telling berikut, lalu tulis ulang masing-masing menjadi satu kalimat/gambaran showing yang spesifik untuk pengalamanmu sendiri:" },
+        { "type": "list", "ordered": true, "items": [
+          "\"Dia sangat bangga pada anaknya.\"",
+          "\"Kami sudah lama tidak akrab.\"",
+          "\"Kota itu sangat sepi malam itu.\"",
+          "\"Saya benar-benar lelah setelah kerja lembur.\"",
+          "\"Pertemuan itu canggung sekali.\""
+        ]},
+        { "type": "callout", "title": "Uji Sebelum Publikasi", "text": "Tanyakan pada tiap kalimat hasil revisimu: 'Kalau saya hapus kata sifat penilai (sedih, marah, bangga, canggung), apakah pembaca masih bisa menyimpulkan perasaan itu dari detail yang tersisa?' Kalau ya, kalimat itu sudah showing." }
+      ]
+    },
+    {
+      "id": "32-8",
+      "title": "Menyatukan dengan Voice dan Hook",
+      "blocks": [
+        { "type": "heading", "text": "Di Sinilah Voice-mu Benar-Benar Terlihat" },
+        { "type": "paragraph", "text": "Ingat rumus voice dari Level 29: kejujuran + kespesifikan. Showing adalah tempat rumus itu menjadi konkret — detail yang kamu pilih untuk ditunjukkan (bukan detail generik yang bisa dipilih siapa saja) adalah voice-mu yang sebenarnya bekerja di level kalimat." },
+        { "type": "paragraph", "text": "Hook dari Level 31 pun, kalau diperhatikan, hampir selalu berupa momen showing (anecdotal atau in medias res) — bukan pernyataan tell. Storytelling yang kamu pelajari di sini pada dasarnya adalah cara menjaga energi hook itu tetap hidup dari kalimat pertama sampai kalimat terakhir, bukan hanya di pembuka." },
+        { "type": "callout", "title": "Ke Depan", "text": "Level 33 dan 34 akan menunjukkan bagaimana storytelling ini beradaptasi ke platform spesifik: Medium yang menghargai narasi panjang, dan newsletter yang butuh ritme personal berkelanjutan." }
+      ]
+    },
+    {
+      "id": "32-9",
+      "title": "Kesalahan Umum Storytelling",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menumpuk kata sifat penilai ('sangat', 'luar biasa', 'begitu') alih-alih memilih satu detail konkret yang tepat.",
+          "Mencoba showing di setiap kalimat, termasuk transisi dan latar belakang, sehingga tulisan jadi lambat dan melelahkan.",
+          "Menulis 'purple prose' — metafora dan deskripsi berlebihan yang menghias tapi tidak menambah makna atau ketegangan.",
+          "Menyorot sebuah detail secara mencolok di awal lalu melupakannya, sehingga terasa seperti janji yang tidak ditepati (Chekhov's gun yang tidak pernah ditembakkan).",
+          "Mengira showing berarti menulis lebih panjang — padahal showing yang baik justru sering lebih ringkas daripada telling yang bertele-tele."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Show don't tell bukan larangan mutlak terhadap telling — ia panduan untuk memilih: tunjukkan momen yang jadi jantung maknamu, ceritakan singkat bagian yang menghubungkannya." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-32",
+    "title": "Kuis Level 32",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q32-1",
+        "question": "Manakah dari berikut yang merupakan contoh SHOWING, bukan telling?",
+        "options": ["Dia sangat gugup sebelum presentasi.", "Presentasi itu membuatnya tidak nyaman.", "Jari-jarinya mengetuk meja tanpa henti, dan ia membaca ulang slide pertama untuk ketiga kalinya.", "Dia merasa tidak siap untuk presentasi itu."],
+        "answer": 2,
+        "explanation": "Opsi ini menunjukkan perilaku dan detail konkret (jari mengetuk, membaca ulang slide) tanpa menyebut label emosi secara langsung — itulah showing."
+      },
+      {
+        "id": "q32-2",
+        "question": "Urutan yang tepat dalam pola ketegangan naratif setup-turn-resolution adalah…",
+        "options": ["Turn, setup, resolution", "Setup (ekspektasi normal), turn (titik balik), resolution (keadaan baru)", "Resolution, turn, setup", "Setup dan resolution digabung, tidak perlu turn"],
+        "answer": 1,
+        "explanation": "Setup membangun apa yang dianggap normal, turn mengganggunya, resolution menunjukkan keadaan/pemahaman baru setelah turn."
+      },
+      {
+        "id": "q32-3",
+        "question": "Prinsip 'Chekhov's gun' dalam level ini mengingatkan penulis untuk…",
+        "options": ["Selalu menulis adegan kekerasan", "Tidak menyorot detail secara mencolok kalau detail itu tidak akan berarti apa-apa nanti", "Menghindari detail sama sekali", "Menulis detail sebanyak mungkin di setiap paragraf"],
+        "answer": 1,
+        "explanation": "Detail yang disorot mencolok menciptakan ekspektasi pembaca bahwa detail itu penting — kalau tidak pernah 'dibayar', pembaca merasa ditipu."
+      },
+      {
+        "id": "q32-4",
+        "question": "Menurut level ini, kapan telling lebih tepat dipakai daripada showing?",
+        "options": ["Saat menceritakan momen inti/turn dari sebuah kisah", "Saat merangkum transisi waktu atau latar belakang faktual yang tidak butuh 'dirasakan'", "Selalu, telling lebih baik daripada showing di semua situasi", "Hanya saat menulis dialog"],
+        "answer": 1,
+        "explanation": "Telling efisien untuk transisi waktu dan informasi latar; showing sebaiknya disimpan untuk momen yang menjadi inti makna tulisan."
+      },
+      {
+        "id": "q32-5",
+        "question": "Kenapa detail sensorik lebih kuat daripada kata sifat penilai seperti 'sangat sedih'?",
+        "options": ["Karena kata sifat dilarang dalam tulisan personal", "Karena detail sensorik membiarkan pembaca menyimpulkan sendiri perasaannya, bukan didikte", "Karena kata sifat selalu salah tata bahasa", "Karena detail sensorik lebih pendek dari kata sifat"],
+        "answer": 1,
+        "explanation": "Kata sifat penilai memberi tahu kesimpulan; detail sensorik memberi bukti yang membuat pembaca sampai pada kesimpulan itu sendiri, yang terasa lebih meyakinkan."
+      },
+      {
+        "id": "q32-6",
+        "question": "Bagaimana hubungan antara showing dan voice (Level 29)?",
+        "options": ["Tidak ada hubungan sama sekali", "Detail yang dipilih untuk ditunjukkan mencerminkan kejujuran dan kespesifikan yang menjadi bahan dasar voice", "Showing menggantikan kebutuhan akan voice", "Voice hanya relevan untuk hook, bukan storytelling"],
+        "answer": 1,
+        "explanation": "Detail konkret yang kamu pilih untuk ditunjukkan (bukan yang generik) adalah wujud nyata dari kejujuran dan kespesifikan yang membentuk voice."
+      },
+      {
+        "id": "q32-7",
+        "question": "Apa yang dimaksud 'purple prose' sebagai kesalahan umum dalam showing?",
+        "options": ["Tulisan yang terlalu pendek", "Deskripsi dan metafora berlebihan yang menghias tanpa menambah makna atau ketegangan", "Tulisan yang hanya berisi dialog", "Kesalahan tata bahasa dalam kalimat showing"],
+        "answer": 1,
+        "explanation": "Purple prose adalah showing yang berlebihan — detail dan metafora menumpuk tanpa memperkuat makna, sehingga justru mengaburkan cerita."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-32",
+    "title": "Ujian Level 32",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e32-1",
+        "question": "Seorang penulis menulis: 'Ayah saya adalah orang yang sangat pekerja keras dan penyayang.' Ia ingin mengubahnya jadi showing. Manakah revisi yang paling sesuai prinsip level ini?",
+        "options": ["\"Ayah saya benar-benar pekerja keras dan sangat penyayang kepada keluarganya.\"", "\"Ayah saya berangkat jam 4 pagi selama 20 tahun, dan setiap pulang, sepasang sepatu kerjanya selalu ia lepas di luar supaya tidak mengotori lantai yang saya pel.\"", "\"Ayah saya bekerja keras dan penyayang, itu fakta yang semua orang tahu.\"", "\"Ayah saya orang baik.\""],
+        "answer": 1,
+        "explanation": "Opsi ini menunjukkan perilaku konkret dan spesifik (jam 4 pagi, sepatu dilepas di luar) tanpa menyebut label 'pekerja keras' atau 'penyayang' secara langsung — pembaca menyimpulkan sendiri."
+      },
+      {
+        "id": "e32-2",
+        "question": "Sebuah draf cerpen menyorot sebuah jam tangan antik milik tokoh utama secara mencolok di paragraf pembuka, lengkap dengan deskripsi detail — tapi jam itu tidak pernah disebut lagi sampai akhir cerita. Menurut prinsip Chekhov's gun, masalah draf ini adalah…",
+        "options": ["Jam tangan seharusnya tidak boleh dideskripsikan sama sekali", "Detail yang disorot mencolok menciptakan ekspektasi pembaca bahwa jam itu penting, tapi tidak pernah 'dibayar' di bagian lain cerita", "Cerita seharusnya dimulai dengan telling, bukan showing", "Jam tangan seharusnya diganti dengan benda yang lebih murah"],
+        "answer": 1,
+        "explanation": "Detail yang disorot secara mencolok menciptakan janji implisit pada pembaca. Kalau tidak pernah relevan lagi, pembaca merasa perhatiannya terbuang percuma."
+      },
+      {
+        "id": "e32-3",
+        "question": "Seorang penulis newsletter mencoba menulis showing untuk SETIAP kalimat dalam ceritanya, termasuk kalimat 'lalu tiga tahun berlalu, dan saya pindah kota sebanyak dua kali'. Hasilnya adalah paragraf sepanjang setengah halaman hanya untuk transisi waktu itu. Berdasarkan level ini, pendekatan penulis ini…",
+        "options": ["Sudah tepat karena showing selalu lebih baik dari telling", "Keliru — transisi waktu semacam ini lebih efisien memakai telling agar tidak menghabiskan energi pembaca sebelum sampai ke momen inti", "Seharusnya dihapus sepenuhnya tanpa keterangan apa pun", "Menunjukkan penulis sudah menguasai teknik storytelling dengan sangat baik"],
+        "answer": 1,
+        "explanation": "Telling lebih efisien untuk transisi waktu dan rangkuman; showing sebaiknya disimpan untuk momen inti (turn), bukan dihabiskan untuk informasi penghubung."
+      },
+      {
+        "id": "e32-4",
+        "question": "Dua draf pembuka personal essay tentang perpisahan: (A) 'Saya sangat sedih dan hancur ketika hubungan itu berakhir, rasanya sulit dijelaskan.' (B) 'Saya masih menyimpan sikat gigi cadangannya di kamar mandi, enam bulan setelah dia pindah keluar kota.' Berdasarkan prinsip show don't tell, draf B lebih kuat karena…",
+        "options": ["Draf B lebih panjang dari draf A", "Draf B menunjukkan detail konkret yang membiarkan pembaca menyimpulkan kesedihan itu sendiri, bukan diberi tahu langsung", "Draf B memakai kata-kata yang lebih sulit dipahami", "Draf A dan B sama kuatnya, hanya beda gaya"],
+        "answer": 1,
+        "explanation": "Draf B tidak pernah menyebut 'sedih' tapi detail sikat gigi cadangan membuat pembaca merasakan kehilangan itu sendiri — inti dari showing yang efektif."
+      },
+      {
+        "id": "e32-5",
+        "question": "Sebuah cerita pribadi disusun: Setup — penulis yakin timnya akan menang lomba karena sudah berlatih setahun. Resolution — penulis menerima kekalahan dengan lapang dada. Draf ini tidak memiliki paragraf yang menjelaskan momen kekalahan itu terjadi. Berdasarkan pola setup-turn-resolution, yang hilang dari draf ini adalah…",
+        "options": ["Setup, karena belum cukup detail", "Turn — titik balik yang menunjukkan momen kekalahan itu sendiri sebagai gangguan terhadap ekspektasi", "Resolution, karena terlalu singkat", "Tidak ada yang hilang, strukturnya sudah lengkap"],
+        "answer": 1,
+        "explanation": "Tanpa turn (momen kekalahan yang ditunjukkan), lompatan dari ekspektasi menang langsung ke penerimaan terasa janggal — pembaca tidak merasakan titik balik yang membuat resolution masuk akal."
+      },
+      {
+        "id": "e32-6",
+        "question": "Seorang editor mengomentari draf: 'Paragraf ini penuh metafora indah tentang senja dan lautan, tapi saya jadi lupa apa sebenarnya yang sedang terjadi pada tokohnya.' Kritik ini menunjukkan draf tersebut kemungkinan besar terjebak dalam…",
+        "options": ["Telling yang berlebihan", "Purple prose — deskripsi/metafora berlebihan yang menghias tanpa menambah makna atau ketegangan cerita", "Struktur setup-turn-resolution yang sudah sempurna", "Penggunaan dialog yang terlalu banyak"],
+        "answer": 1,
+        "explanation": "Deskripsi indah yang mengaburkan kejadian nyata dalam cerita adalah ciri purple prose — showing yang berlebihan sampai kehilangan arah dan makna."
+      },
+      {
+        "id": "e32-7",
+        "question": "Seorang penulis LinkedIn (Level 36) ingin menunjukkan kredibilitasnya tanpa terkesan menyombongkan diri. Berdasarkan prinsip showing di level ini, pendekatan paling tepat adalah…",
+        "options": ["Menulis 'Saya adalah profesional yang sangat berpengalaman dan sukses di bidang ini.'", "Menceritakan situasi konkret yang ia hadapi dan langkah spesifik yang ia ambil, membiarkan pembaca menyimpulkan kompetensinya sendiri", "Menyebutkan gelar dan penghargaan sebanyak mungkin", "Menghindari topik pekerjaan sama sekali di LinkedIn"],
+        "answer": 1,
+        "explanation": "Sama seperti showing menghindari label emosi langsung, kredibilitas juga lebih kuat ditunjukkan lewat cerita/tindakan konkret daripada diklaim secara langsung."
+      },
+      {
+        "id": "e32-8",
+        "question": "Seorang penulis menyusun draf: paragraf 1 menyatakan 'kantor itu sangat sepi dan menyeramkan malam itu', tanpa detail apa pun selain kalimat itu. Untuk memperkuatnya menjadi showing, saran paling tepat adalah…",
+        "options": ["Menambahkan lebih banyak kata 'sangat' dan 'sekali'", "Mengganti dengan detail sensorik spesifik: suara AC yang berdengung sendirian, lampu koridor yang berkedip, langkah kaki yang menggema terlalu keras", "Menghapus paragraf itu sepenuhnya", "Mengubahnya menjadi dialog antar tokoh"],
+        "answer": 1,
+        "explanation": "Detail sensorik spesifik (suara AC, lampu berkedip, gema langkah) membiarkan pembaca merasakan kesepian/keseraman itu sendiri, alih-alih hanya diberi tahu."
+      },
+      {
+        "id": "e32-9",
+        "question": "Sebuah op-ed (Level 35) membuka dengan anekdot penuh detail sensorik tentang antrean panjang di rumah sakit, lalu langsung melompat ke data kebijakan kesehatan tanpa satu kalimat pun yang menghubungkan keduanya. Berdasarkan prinsip level ini, masalah utamanya adalah…",
+        "options": ["Anekdotnya terlalu pendek", "Detail yang disorot di anekdot (setup) tidak 'dibayar' atau dihubungkan secara eksplisit ke argumen berikutnya", "Op-ed tidak boleh memakai anekdot sama sekali", "Data kebijakan seharusnya diletakkan di awal, bukan anekdot"],
+        "answer": 1,
+        "explanation": "Detail yang disorot mencolok (antrean rumah sakit) menciptakan ekspektasi keterkaitan; melompat ke data tanpa menghubungkannya membuat pembaca merasa anekdot itu sia-sia."
+      },
+      {
+        "id": "e32-10",
+        "question": "Seorang penulis pemula menerima masukan: 'Ceritamu bagus, tapi saya capek membacanya karena setiap detik dideskripsikan — bahkan waktu kamu jalan dari parkiran ke kantor pun ditulis lengkap dengan suara sepatu dan warna langit.' Berdasarkan level ini, solusi paling tepat adalah…",
+        "options": ["Menghapus semua showing dan menggantinya dengan telling sepenuhnya", "Menyimpan showing untuk momen inti (turn) cerita, dan memakai telling untuk merangkum bagian transisi seperti perjalanan ke kantor", "Memperpanjang lagi deskripsi supaya lebih detail", "Mengubah seluruh cerita menjadi dialog"],
+        "answer": 1,
+        "explanation": "Showing sebaiknya dipakai selektif untuk momen yang menjadi inti makna; bagian transisi seperti perjalanan biasa lebih tepat dirangkum lewat telling agar pacing tetap terjaga."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "On Writing Well", "author": "William Zinsser", "year": 2006, "publisher": "Harper Perennial", "note": "Rujukan tentang kejelasan dan kekuatan detail konkret dalam nonfiksi personal." },
+    { "title": "On Writing: A Memoir of the Craft", "author": "Stephen King", "year": 2000, "publisher": "Scribner", "note": "Perspektif tentang menulis adegan yang hidup dan menghindari eksposisi yang membosankan." },
+    { "title": "Writing Fiction: A Guide to Narrative Craft", "author": "Janet Burroway", "publisher": "Pearson/Longman", "note": "Sumber utama pembahasan scene vs summary serta struktur ketegangan naratif." },
+    { "title": "Nuts and Bolts: 'Thought' Verbs", "author": "Chuck Palahniuk", "year": 2013, "publisher": "LitReactor", "note": "Esai rujukan tentang menghindari kata kerja pikiran/perasaan demi detail perilaku yang konkret — dasar bagian showing di level ini." },
+    { "title": "Writing Tools: 55 Essential Strategies for Every Writer", "author": "Roy Peter Clark", "year": 2006, "publisher": "Little, Brown and Company", "note": "Rujukan tentang teknik detail sensorik dan pacing narasi." }
+  ]
+}

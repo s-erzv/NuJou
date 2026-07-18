@@ -1,0 +1,259 @@
+{
+  "id": 46,
+  "slug": "policy-brief",
+  "title": "Policy Brief & Ringkasan Eksekutif",
+  "subtitle": "Menulis untuk orang yang tidak akan membaca halaman kedua",
+  "goal": "Bisa menulis policy brief dengan prinsip BLUF (bottom line up front), menjaga disiplin satu halaman, menyusun rekomendasi yang benar-benar bisa ditindaklanjuti (bukan sekadar imbauan umum), dan menulis untuk pengambil keputusan yang sibuk dan mungkin hanya membaca paragraf pertama.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "46-1",
+      "title": "Policy Brief: Dokumen untuk Orang Sibuk yang Harus Memutuskan",
+      "blocks": [
+        { "type": "heading", "text": "Audiens yang Sangat Berbeda dari Artikel Jurnal" },
+        { "type": "paragraph", "text": "Policy brief (ringkasan kebijakan) adalah dokumen singkat yang merangkum sebuah isu, bukti yang relevan, dan rekomendasi tindakan — ditulis untuk pengambil keputusan (pejabat, direktur, anggota dewan, donor) yang biasanya tidak punya waktu dan tidak selalu punya latar belakang teknis di bidang itu." },
+        { "type": "paragraph", "text": "Ini kebalikan total dari artikel jurnal (Level 2) yang ditulis untuk sesama peneliti yang punya waktu membaca Methods secara detail. Pembaca policy brief sering kali hanya membaca PARAGRAF PERTAMA sebelum memutuskan apakah akan terus membaca atau meneruskan ke orang lain untuk ditindaklanjuti. Menulis policy brief berarti menerima kenyataan itu, bukan berharap pembaca akan sabar membaca sampai akhir." },
+        { "type": "callout", "title": "Definisi Kerja", "text": "Policy brief yang efektif adalah dokumen yang bisa dipahami intinya dalam waktu kurang dari satu menit, dan memberi pembaca cukup informasi untuk bertindak — bukan sekadar cukup informasi untuk 'mengerti isu'." }
+      ]
+    },
+    {
+      "id": "46-2",
+      "title": "BLUF: Bottom Line Up Front",
+      "blocks": [
+        { "type": "heading", "text": "Kesimpulan Duluan, Bukan di Akhir" },
+        { "type": "paragraph", "text": "BLUF (bottom line up front) berarti menaruh kesimpulan dan rekomendasi paling penting di KALIMAT ATAU PARAGRAF PERTAMA — bukan menyimpannya untuk 'penutup yang memuaskan' di akhir dokumen seperti struktur naratif atau artikel akademik konvensional." },
+        { "type": "paragraph", "text": "Ini mirip dengan struktur piramida terbalik yang dibahas di Level 41 untuk komunikasi sains populer — tapi lebih ekstrem lagi. Kalau piramida terbalik memberi pembaca ruang beberapa paragraf sebelum sampai ke inti, BLUF menuntut inti langsung tersaji di kalimat pembuka, karena pembaca policy brief mungkin memang berhenti membaca setelah satu paragraf." },
+        { "type": "quote", "text": "TANPA BLUF: \"Isu literasi digital di kalangan pelajar telah menjadi perhatian berbagai pihak sejak beberapa tahun terakhir. Berbagai penelitian menunjukkan tren yang beragam terkait dampaknya. Setelah meninjau data dari 12 provinsi, laporan ini akan membahas tiga faktor utama sebelum akhirnya menyampaikan rekomendasi di bagian akhir.\"", "source": "Kesimpulan dan rekomendasi disembunyikan sampai akhir, pembaca sibuk sudah berhenti sebelum sampai ke sana" },
+        { "type": "quote", "text": "DENGAN BLUF: \"Rekomendasi: Kementerian perlu mengalokasikan minimal 5% anggaran pelatihan guru untuk literasi digital pada tahun ajaran depan, karena data dari 12 provinsi menunjukkan sekolah tanpa pelatihan ini memiliki tingkat penyalahgunaan gawai 3x lebih tinggi.\"", "source": "Rekomendasi dan alasan utamanya langsung tersaji di kalimat pertama" },
+        { "type": "callout", "title": "Kenapa Ini Terasa Tidak Alami", "text": "BLUF terasa berlawanan dengan insting menulis akademik yang terbiasa 'membangun argumen' sebelum sampai ke kesimpulan. Tapi untuk pembaca yang sibuk, membangun argumen dulu berarti berisiko kesimpulanmu tidak pernah terbaca sama sekali." }
+      ]
+    },
+    {
+      "id": "46-3",
+      "title": "Disiplin Satu Halaman",
+      "blocks": [
+        { "type": "heading", "text": "Batasan yang Memaksa Kejelasan" },
+        { "type": "paragraph", "text": "Banyak policy brief punya batas ketat satu halaman (atau dua halaman untuk isu yang lebih kompleks). Batasan ini bukan sekadar aturan administratif — ia memaksa penulis untuk benar-benar memilih apa yang PALING penting, alih-alih memasukkan semua yang mereka tahu tentang isu itu." },
+        { "type": "paragraph", "text": "Godaan terbesar penulis pemula adalah merasa 'harus' memasukkan semua nuansa dan detail yang mereka kuasai, karena mereka mengerjakan riset itu dengan susah payah. Tapi pembaca policy brief tidak butuh melihat semua yang kamu tahu — mereka butuh melihat apa yang PALING RELEVAN untuk keputusan yang harus mereka ambil sekarang." },
+        {
+          "type": "table",
+          "headers": ["Elemen", "Porsi Ideal dalam Satu Halaman", "Godaan yang Harus Dihindari"],
+          "rows": [
+            ["Ringkasan isu", "2-3 kalimat", "Menjelaskan seluruh latar belakang historis isu itu"],
+            ["Bukti pendukung", "1 paragraf pendek, data paling kuat saja", "Memasukkan semua statistik yang berhasil dikumpulkan"],
+            ["Rekomendasi", "Poin-poin singkat, maksimal 3-4 rekomendasi", "Daftar panjang semua kemungkinan tindakan"],
+            ["Detail teknis/metodologi", "Dipindah ke lampiran atau catatan kaki", "Dijelaskan penuh di badan dokumen utama"]
+          ]
+        },
+        { "type": "callout", "title": "Aturan Praktis", "text": "Kalau kamu merasa perlu menjelaskan sesuatu secara panjang lebar agar rekomendasimu 'masuk akal', pertimbangkan apakah penjelasan itu sebaiknya dipindah ke lampiran — bukan dipaksakan masuk ke halaman utama yang harusnya untuk keputusan, bukan edukasi lengkap." }
+      ]
+    },
+    {
+      "id": "46-4",
+      "title": "Rekomendasi yang Bisa Ditindaklanjuti (Actionable)",
+      "blocks": [
+        { "type": "heading", "text": "Bedanya Imbauan dan Rekomendasi" },
+        { "type": "paragraph", "text": "Kesalahan paling umum dalam policy brief adalah menulis rekomendasi yang sebenarnya cuma IMBAUAN umum — sesuatu yang terdengar bijak tapi tidak memberi tahu siapa harus melakukan apa, kapan, dan dengan sumber daya apa. Rekomendasi yang actionable menjawab: SIAPA yang bertindak, APA tepatnya yang harus dilakukan, dan (idealnya) KAPAN atau dengan sumber daya berapa besar." },
+        {
+          "type": "table",
+          "headers": ["Rekomendasi Vague", "Rekomendasi Actionable", "Kenapa Lebih Baik"],
+          "rows": [
+            ["\"Pemerintah perlu meningkatkan kesadaran literasi digital.\"", "\"Kemendikbud mengalokasikan 5% anggaran pelatihan guru 2025 untuk modul literasi digital, dimulai di 12 provinsi prioritas.\"", "Menyebut siapa, tindakan spesifik, sumber daya, dan cakupan"],
+            ["\"Perusahaan harus lebih peduli kesejahteraan karyawan.\"", "\"Divisi HR menerapkan cuti kesehatan mental 3 hari per kuartal, dievaluasi setelah 6 bulan berjalan.\"", "Menyebut divisi yang bertanggung jawab, kebijakan konkret, dan titik evaluasi"],
+            ["\"Perlu penelitian lebih lanjut mengenai isu ini.\"", "\"Tim riset internal menyelesaikan studi lanjutan dalam 3 bulan untuk mengisi kesenjangan data di wilayah timur.\"", "Menyebut siapa, tenggat waktu, dan area spesifik yang perlu diisi"]
+          ]
+        },
+        { "type": "callout", "title": "Uji Actionable", "text": "Tanyakan: kalau rekomendasi ini diserahkan ke seseorang besok pagi, apakah mereka tahu persis harus mulai dari mana? Kalau jawabannya 'tidak, mereka masih harus menerjemahkan ini jadi rencana konkret sendiri', berarti rekomendasimu masih imbauan, belum rekomendasi." }
+      ]
+    },
+    {
+      "id": "46-5",
+      "title": "Menulis untuk Pengambil Keputusan di Luar Bidangmu",
+      "blocks": [
+        { "type": "heading", "text": "Panel yang Tidak Sama dengan Kolegamu" },
+        { "type": "paragraph", "text": "Pengambil keputusan yang membaca policy brief-mu sering kali BUKAN ahli di bidangmu — mereka mungkin harus memutuskan soal anggaran kesehatan, pendidikan, dan infrastruktur dalam satu hari yang sama. Ini menuntut prinsip yang sama dengan Level 41 (komunikasi sains ke publik awam): jargon teknis perlu diterjemahkan, dan curse of knowledge (lupa bahwa pembaca belum tentu paham istilah bidangmu) adalah risiko nyata." },
+        { "type": "paragraph", "text": "Bedanya dengan komunikasi sains populer: pembaca policy brief butuh menindaklanjuti dengan KEPUTUSAN, bukan sekadar memahami. Ini berarti setiap istilah teknis yang tidak dijelaskan berisiko lebih besar — bukan cuma membuat pembaca bingung, tapi membuat mereka mengambil keputusan tanpa benar-benar memahami implikasinya." },
+        { "type": "callout", "title": "Format Visual Membantu", "text": "Karena pembaca sering hanya memindai (scan) dokumen, format visual — bold pada poin kunci, bullet point untuk rekomendasi, tabel untuk data pembanding — membantu inti pesan tertangkap bahkan oleh pembaca yang hanya sempat memindai selama 30 detik." }
+      ]
+    },
+    {
+      "id": "46-6",
+      "title": "Struktur Umum Policy Brief",
+      "blocks": [
+        { "type": "heading", "text": "Kerangka Satu Halaman" },
+        { "type": "list", "ordered": true, "items": [
+          "Judul yang menyatakan isu dan sudut pandang secara jelas (bukan judul umum seperti 'Tentang Literasi Digital').",
+          "BLUF: kesimpulan dan rekomendasi utama di paragraf/kalimat pembuka.",
+          "Konteks isu secara singkat — kenapa ini penting sekarang.",
+          "Bukti kunci yang mendukung rekomendasi (data paling kuat, bukan semua data yang ada).",
+          "Rekomendasi actionable, biasanya dalam bentuk poin-poin bernomor.",
+          "Catatan implikasi atau risiko kalau rekomendasi tidak diambil (opsional, tapi sering membantu urgensi)."
+        ]},
+        { "type": "callout", "title": "Beda dari Ringkasan Eksekutif", "text": "Ringkasan eksekutif (executive summary) biasanya jadi PENGANTAR untuk laporan yang lebih panjang di baliknya — merangkum apa yang ada di laporan itu. Policy brief seringkali BERDIRI SENDIRI sebagai dokumen utuh, tidak selalu punya laporan panjang di belakangnya. Meski begitu, prinsip BLUF dan disiplin ruang berlaku sama untuk keduanya." }
+      ]
+    },
+    {
+      "id": "46-7",
+      "title": "Kesalahan Umum dalam Policy Brief",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menyimpan kesimpulan dan rekomendasi untuk paragraf terakhir, padahal pembaca sibuk mungkin berhenti setelah paragraf pertama.",
+          "Menulis rekomendasi yang sebenarnya imbauan umum ('perlu ditingkatkan', 'perlu diperhatikan') tanpa menyebut siapa, apa, dan kapan.",
+          "Memasukkan semua detail riset yang dikuasai penulis, melanggar disiplin satu halaman demi merasa 'lengkap'.",
+          "Memakai jargon teknis tanpa terjemahan, mengasumsikan pengambil keputusan sudah paham istilah bidang itu.",
+          "Menulis dalam blok paragraf panjang tanpa format visual (bold, bullet, tabel) yang membantu pembaca memindai cepat."
+        ]},
+        { "type": "callout", "title": "Prinsip Inti", "text": "Policy brief bukan tempat untuk memamerkan seberapa banyak yang kamu tahu — ia tempat untuk memberi pengambil keputusan tepat cukup informasi untuk bertindak dengan benar, secepat mungkin." }
+      ]
+    },
+    {
+      "id": "46-8",
+      "title": "Ringkasan Eksekutif: Saudara Dekat Policy Brief",
+      "blocks": [
+        { "type": "heading", "text": "Prinsip yang Sama, Konteks Berbeda" },
+        { "type": "paragraph", "text": "Ringkasan eksekutif dipakai lebih luas — laporan bisnis, proposal, hasil audit — bukan hanya konteks kebijakan publik. Tapi tantangannya identik: pembaca (biasanya eksekutif atau pemberi dana) sering hanya membaca ringkasan ini dan tidak pernah membuka laporan lengkapnya. Ini berarti ringkasan eksekutif harus BISA BERDIRI SENDIRI — memberi cukup informasi untuk keputusan, seolah laporan lengkapnya tidak pernah dibaca sama sekali." },
+        { "type": "callout", "title": "Uji Berdiri Sendiri", "text": "Bayangkan seseorang HANYA membaca ringkasan eksekutifmu, tanpa pernah membuka satu halaman pun dari laporan lengkap. Apakah mereka masih tahu apa masalahnya, apa buktinya, dan apa yang harus dilakukan? Kalau tidak, ringkasanmu masih terlalu bergantung pada laporan di baliknya." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-46",
+    "title": "Kuis Level 46",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q46-1",
+        "question": "BLUF (bottom line up front) berarti…",
+        "options": ["Menaruh kesimpulan dan rekomendasi utama di akhir dokumen", "Menaruh kesimpulan dan rekomendasi paling penting di kalimat/paragraf pembuka", "Menghindari kesimpulan sama sekali dalam dokumen", "Menulis kesimpulan dalam bahasa Inggris"],
+        "answer": 1,
+        "explanation": "BLUF menuntut inti pesan tersaji di awal karena pembaca policy brief mungkin berhenti membaca setelah paragraf pertama."
+      },
+      {
+        "id": "q46-2",
+        "question": "Kenapa disiplin satu halaman dalam policy brief dianggap penting?",
+        "options": ["Karena aturan administratif semata tanpa tujuan lain", "Karena memaksa penulis memilih apa yang paling relevan untuk keputusan, bukan memasukkan semua yang mereka tahu", "Karena pembaca policy brief tidak bisa membaca lebih dari satu halaman fisik", "Karena policy brief tidak boleh mengandung data"],
+        "answer": 1,
+        "explanation": "Batasan ruang memaksa penulis memprioritaskan informasi yang paling relevan bagi keputusan pembaca."
+      },
+      {
+        "id": "q46-3",
+        "question": "Ciri utama rekomendasi yang 'actionable' adalah…",
+        "options": ["Terdengar bijak dan optimis", "Menjawab siapa yang bertindak, apa tindakan spesifiknya, dan idealnya kapan/dengan sumber daya berapa", "Ditulis sepanjang mungkin agar terlihat serius", "Menghindari penyebutan pihak yang bertanggung jawab"],
+        "answer": 1,
+        "explanation": "Rekomendasi actionable memberi kejelasan operasional, bukan sekadar imbauan umum yang terdengar baik tapi tidak bisa langsung dijalankan."
+      },
+      {
+        "id": "q46-4",
+        "question": "Kenapa pengambil keputusan yang membaca policy brief sering butuh istilah teknis diterjemahkan?",
+        "options": ["Karena mereka tidak cukup pintar untuk memahami istilah teknis", "Karena mereka sering bukan ahli di bidang itu dan harus memutuskan berbagai isu berbeda dalam waktu terbatas", "Karena istilah teknis dilarang dalam dokumen resmi", "Karena policy brief tidak boleh membahas topik teknis"],
+        "answer": 1,
+        "explanation": "Pengambil keputusan sering menangani berbagai isu lintas bidang sekaligus, sehingga jargon yang tidak dijelaskan berisiko membuat keputusan diambil tanpa memahami implikasinya."
+      },
+      {
+        "id": "q46-5",
+        "question": "Perbedaan utama antara policy brief dan ringkasan eksekutif adalah…",
+        "options": ["Ringkasan eksekutif tidak pernah memakai BLUF", "Ringkasan eksekutif biasanya jadi pengantar laporan panjang, sementara policy brief seringkali berdiri sendiri sebagai dokumen utuh", "Policy brief hanya berlaku untuk isu kesehatan", "Keduanya sebenarnya dokumen yang identik tanpa perbedaan fungsi"],
+        "answer": 1,
+        "explanation": "Meski prinsipnya serupa, ringkasan eksekutif biasanya merangkum laporan yang lebih panjang, sedangkan policy brief sering berdiri sebagai dokumen mandiri."
+      },
+      {
+        "id": "q46-6",
+        "question": "Kenapa format visual (bold, bullet point, tabel) penting dalam policy brief?",
+        "options": ["Karena membuat dokumen terlihat lebih formal", "Karena membantu pembaca yang hanya memindai dokumen menangkap inti pesan dengan cepat", "Karena wajib secara hukum untuk dokumen kebijakan", "Karena menggantikan kebutuhan akan BLUF"],
+        "answer": 1,
+        "explanation": "Format visual membantu pembaca yang terburu-buru menangkap poin kunci meski hanya memindai dokumen sekilas."
+      },
+      {
+        "id": "q46-7",
+        "question": "Uji 'berdiri sendiri' untuk ringkasan eksekutif berarti…",
+        "options": ["Ringkasan harus lebih panjang daripada laporan lengkapnya", "Pembaca yang hanya membaca ringkasan (tanpa membuka laporan lengkap) tetap memahami masalah, bukti, dan tindakan yang direkomendasikan", "Ringkasan harus ditulis tanpa merujuk laporan lengkap sama sekali", "Ringkasan tidak boleh menyertakan data apa pun"],
+        "answer": 1,
+        "explanation": "Ringkasan eksekutif yang baik memberi cukup informasi untuk keputusan meski pembaca tidak pernah membuka laporan lengkapnya."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-46",
+    "title": "Ujian Level 46",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e46-1",
+        "question": "Sebuah policy brief membuka dengan dua paragraf latar belakang historis isu, baru menyebutkan rekomendasinya di paragraf ketiga. Berdasarkan prinsip BLUF, masalah utama struktur ini adalah…",
+        "options": ["Latar belakang historis seharusnya dihapus seluruhnya", "Rekomendasi ditunda terlalu lama, berisiko tidak terbaca oleh pembaca sibuk yang berhenti sebelum paragraf ketiga", "Policy brief tidak boleh punya latar belakang sama sekali", "Struktur ini sudah sesuai standar BLUF"],
+        "answer": 1,
+        "explanation": "BLUF menuntut kesimpulan dan rekomendasi tersaji di awal, bukan ditunda sampai pembaca melewati beberapa paragraf latar belakang."
+      },
+      {
+        "id": "e46-2",
+        "question": "Seorang analis menulis rekomendasi: \"Instansi terkait perlu lebih serius menangani masalah ini ke depannya.\" Berdasarkan prinsip rekomendasi actionable, kelemahan utama kalimat ini adalah…",
+        "options": ["Kalimatnya terlalu pendek untuk sebuah rekomendasi", "Tidak menyebutkan instansi spesifik, tindakan konkret, atau kerangka waktu — sehingga sulit langsung ditindaklanjuti", "Kalimat ini seharusnya ditulis dalam bahasa Inggris", "Rekomendasi seharusnya tidak menyebut instansi sama sekali"],
+        "answer": 1,
+        "explanation": "Rekomendasi ini adalah imbauan umum tanpa kejelasan siapa, apa, dan kapan — tidak actionable karena pembacanya masih harus menerjemahkannya sendiri jadi rencana konkret."
+      },
+      {
+        "id": "e46-3",
+        "question": "Seorang penulis policy brief memasukkan seluruh 40 halaman temuan risetnya ke dalam dokumen 'ringkasan' setebal 6 halaman karena merasa semua temuan itu penting. Berdasarkan prinsip disiplin ruang, langkah yang lebih tepat adalah…",
+        "options": ["Mempertahankan semua temuan karena lebih lengkap selalu lebih baik", "Memilih bukti paling kuat dan relevan untuk rekomendasi, memindahkan detail lain ke lampiran", "Menghapus rekomendasi karena dianggap tidak penting dibanding data", "Menambahkan lebih banyak halaman lagi agar semua nuansa tercakup"],
+        "answer": 1,
+        "explanation": "Disiplin ruang memaksa penulis memilih yang paling relevan untuk keputusan pembaca, bukan memasukkan semua yang dikuasai penulis."
+      },
+      {
+        "id": "e46-4",
+        "question": "Sebuah policy brief tentang kebijakan pajak ditulis penuh istilah teknis ekonomi tanpa penjelasan, dan ditujukan untuk anggota dewan yang berlatar belakang hukum, bukan ekonomi. Risiko utama dari pendekatan ini adalah…",
+        "options": ["Dokumen jadi terlalu pendek", "Pembaca bisa mengambil keputusan penting tanpa benar-benar memahami implikasi teknis dari rekomendasi yang diajukan", "Istilah teknis membuat dokumen terlihat kurang profesional", "Tidak ada risiko selama datanya akurat"],
+        "answer": 1,
+        "explanation": "Pengambil keputusan yang bukan ahli di bidang itu berisiko membuat keputusan tanpa memahami implikasi sebenarnya jika jargon tidak diterjemahkan."
+      },
+      {
+        "id": "e46-5",
+        "question": "Dua rekomendasi dibandingkan: (A) \"Perlu ada perhatian lebih terhadap kesejahteraan pekerja\" dan (B) \"Divisi HR menerapkan cuti kesehatan mental 3 hari per kuartal mulai Q3, dievaluasi setelah 6 bulan.\" Rekomendasi B lebih baik karena…",
+        "options": ["Rekomendasi B lebih panjang kalimatnya", "Rekomendasi B menyebutkan pihak bertanggung jawab, tindakan spesifik, dan titik evaluasi yang jelas", "Rekomendasi A lebih aman secara politis", "Keduanya sebenarnya sama efektifnya"],
+        "answer": 1,
+        "explanation": "Rekomendasi B memenuhi kriteria actionable — siapa, apa, dan kapan — sementara rekomendasi A adalah imbauan umum tanpa arah tindakan yang jelas."
+      },
+      {
+        "id": "e46-6",
+        "question": "Seorang direktur hanya sempat membaca ringkasan eksekutif sebuah laporan audit 50 halaman sebelum rapat, dan ternyata ringkasan itu tidak menyebutkan temuan utama atau rekomendasi tindak lanjut apa pun — hanya menyebutkan bahwa 'laporan lengkap membahas berbagai aspek operasional'. Masalah ringkasan ini adalah…",
+        "options": ["Ringkasan seharusnya sepanjang laporan aslinya", "Ringkasan gagal berdiri sendiri — pembaca yang hanya membacanya tidak mendapat informasi cukup untuk bertindak", "Ringkasan seharusnya tidak menyebut laporan lengkap sama sekali", "Tidak ada masalah selama laporan lengkapnya tersedia"],
+        "answer": 1,
+        "explanation": "Ringkasan eksekutif harus bisa berdiri sendiri memberi cukup informasi untuk keputusan, bahkan jika pembaca tidak pernah membuka laporan lengkapnya."
+      },
+      {
+        "id": "e46-7",
+        "question": "Sebuah policy brief menulis rekomendasinya dalam satu paragraf panjang tanpa bullet point atau penekanan visual apa pun, membuat pembaca yang memindai cepat kesulitan menemukan poin rekomendasi di antara kalimat-kalimat penjelas. Perbaikan yang paling tepat adalah…",
+        "options": ["Memperpanjang paragraf itu dengan lebih banyak penjelasan", "Mengubah rekomendasi menjadi poin-poin bernomor dengan bagian kunci ditebalkan agar mudah dipindai", "Menghapus rekomendasi dan hanya menyajikan data", "Meminta pembaca membaca ulang paragraf itu dua kali"],
+        "answer": 1,
+        "explanation": "Format visual seperti bullet point dan bold membantu pembaca yang terburu-buru menangkap rekomendasi kunci tanpa harus membaca setiap kata."
+      },
+      {
+        "id": "e46-8",
+        "question": "Seorang penulis membuat policy brief dengan judul 'Tentang Pendidikan di Indonesia' yang mencakup nyaris semua isu pendidikan sekaligus tanpa fokus spesifik. Berdasarkan prinsip level ini, masalah utama pendekatan ini adalah…",
+        "options": ["Judulnya terlalu pendek", "Cakupan yang terlalu luas membuat dokumen sulit memberi rekomendasi spesifik dan actionable dalam disiplin satu halaman", "Pendidikan bukan topik yang cocok untuk policy brief", "Seharusnya ditulis sebagai artikel jurnal, bukan policy brief"],
+        "answer": 1,
+        "explanation": "Policy brief yang efektif berfokus pada satu isu spesifik agar rekomendasinya bisa konkret dan sesuai disiplin ruang satu halaman."
+      },
+      {
+        "id": "e46-9",
+        "question": "Seorang penulis policy brief tentang kebijakan kesehatan menuliskan seluruh metodologi statistik yang dipakai dalam studi rujukan di badan dokumen utama, membuat halaman pertama penuh detail teknis sebelum sampai ke rekomendasi. Solusi paling tepat adalah…",
+        "options": ["Mempertahankan detail metodologi karena menunjukkan kredibilitas penulis", "Memindahkan detail metodologi ke lampiran atau catatan kaki, menyisakan ruang utama untuk BLUF dan rekomendasi", "Menghapus rekomendasi karena metodologi dianggap lebih penting", "Menambahkan lebih banyak detail statistik lagi untuk memperkuat argumen"],
+        "answer": 1,
+        "explanation": "Detail teknis yang tidak langsung mendukung keputusan sebaiknya dipindah ke lampiran, menjaga halaman utama fokus pada BLUF dan rekomendasi actionable."
+      },
+      {
+        "id": "e46-10",
+        "question": "Seorang staf kementerian menerima dua policy brief tentang isu yang sama: satu ditulis dengan gaya naratif akademik yang membangun argumen bertahap sebelum kesimpulan di akhir, satu lagi memakai BLUF dengan rekomendasi di kalimat pertama. Berdasarkan konteks pembaca yang sibuk, dokumen mana yang lebih mungkin efektif dan kenapa?",
+        "options": ["Dokumen naratif akademik, karena argumen yang dibangun bertahap selalu lebih meyakinkan", "Dokumen BLUF, karena pembaca sibuk mungkin hanya membaca bagian awal sebelum memutuskan tindak lanjut", "Keduanya sama efektifnya selama datanya akurat", "Dokumen naratif akademik, karena format itu dianggap lebih formal untuk instansi pemerintah"],
+        "answer": 1,
+        "explanation": "Untuk pembaca yang sibuk dan mungkin hanya membaca awal dokumen, BLUF memastikan pesan inti tersampaikan meski pembaca tidak menyelesaikan seluruh dokumen."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Made to Stick: Why Some Ideas Survive and Others Die", "author": "Chip Heath dan Dan Heath", "year": 2007, "publisher": "Random House", "note": "Prinsip menyampaikan inti pesan lebih dulu dan membuatnya konkret, dipakai di 46-2 dan 46-4." },
+    { "title": "The Pyramid Principle: Logic in Writing and Thinking", "author": "Barbara Minto", "publisher": "Pearson Education", "note": "Sumber utama prinsip BLUF dan struktur piramida untuk dokumen bisnis/kebijakan, dipakai di 46-2 dan 46-6." },
+    { "title": "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century", "author": "Steven Pinker", "year": 2014, "publisher": "Viking", "note": "Prinsip menghindari curse of knowledge saat menulis untuk pembaca lintas bidang, dipakai di 46-5." },
+    { "title": "Writing for Policy Makers", "author": "Overseas Development Institute (ODI)", "publisher": "ODI", "note": "Panduan praktis format dan struktur policy brief satu halaman, dipakai di 46-3 dan 46-6." }
+  ]
+}

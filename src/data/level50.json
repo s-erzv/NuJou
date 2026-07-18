@@ -1,0 +1,155 @@
+{
+  "id": 50,
+  "slug": "portofolio-menulis",
+  "title": "Membangun Portofolio Menulis",
+  "subtitle": "Menyatukan seluruh perjalanan menjadi identitas sebagai penulis",
+  "goal": "Bisa menyusun portofolio menulis yang mewakili dirimu, memadukan karya akademik dan personal, memilih tempat menampilkannya, menyusun writer's CV, dan melangkah keluar dari kurikulum ini sebagai penulis yang terus bertumbuh.",
+  "estimatedMinutes": 30,
+  "sections": [
+    {
+      "id": "50-1",
+      "title": "Kamu Sudah Sampai di Sini",
+      "blocks": [
+        { "type": "heading", "text": "Lihat ke Belakang Sejenak" },
+        { "type": "paragraph", "text": "Kalau kamu di level ini setelah menempuh 49 sebelumnya, berhenti sejenak dan sadari betapa jauhnya perjalananmu. Kamu memulai dari membedakan tulisan akademik dari tulisan biasa (Level 1). Kamu belajar tulang punggung jurnal (IMRaD, Level 2), cara merujuk tanpa plagiat (Level 3), dan nada akademik (Level 4)." },
+        { "type": "paragraph", "text": "Lalu kamu menyelami metode penelitian dan data (Level 7-14), menembus dunia publikasi jurnal (Level 15-22), menaklukkan skripsi dan sidang (Level 23-28). Kamu berbelok ke sisi yang lebih personal — menemukan voice, menulis esai, cerita, dan terbit di Medium atau Substack (Level 29-38). Kamu mengasah tulisan untuk publik digital (Level 39-44), lalu masuk ke wilayah lanjutan: book review, policy brief, authorship, hibah, dan etika publikasi (Level 45-49)." },
+        { "type": "callout", "title": "Yang Sebenarnya Berubah", "text": "Yang berubah bukan cuma pengetahuanmu, tapi caramu memandang tulisan: dari 'tugas yang harus selesai' menjadi 'alat berpikir dan cara hadir di dunia'. Level terakhir ini tentang menyatukan semua itu menjadi identitas yang bisa kamu tunjukkan." }
+      ]
+    },
+    {
+      "id": "50-2",
+      "title": "Kenapa Perlu Portofolio",
+      "blocks": [
+        { "type": "heading", "text": "Bukti Lebih Kuat daripada Klaim" },
+        { "type": "paragraph", "text": "Di CV, kamu bisa menulis 'mampu menulis dengan baik'. Di portofolio, kamu membuktikannya. Portofolio adalah kumpulan karya nyata yang menunjukkan apa yang bisa kamu lakukan — untuk pelamar kerja, calon klien, penerima beasiswa, atau editor yang mempertimbangkan tulisanmu." },
+        { "type": "paragraph", "text": "Ini adalah penerapan 'show, don't tell' (Level 32/36) pada skala karier. Kamu tidak mengatakan kamu bisa menulis; kamu menunjukkannya, dan membiarkan pembaca menyimpulkan sendiri." },
+        { "type": "callout", "title": "Portofolio Itu Hidup", "text": "Portofolio bukan dokumen sekali jadi lalu dilupakan. Ia tumbuh bersamamu — kamu menambah karya terbaik, membuang yang sudah tak mewakili, dan mengarahkannya sesuai tujuanmu saat ini." }
+      ]
+    },
+    {
+      "id": "50-3",
+      "title": "Memilih Apa yang Masuk",
+      "blocks": [
+        { "type": "heading", "text": "Kurasi, Bukan Menumpuk" },
+        { "type": "paragraph", "text": "Godaan terbesar: memasukkan segalanya. Justru sebaliknya — portofolio yang kuat adalah hasil kurasi. Lima karya terbaik yang mewakili dirimu jauh lebih berkesan daripada dua puluh karya campur aduk. Ini seperti 'kill your darlings' (Level 38) pada level koleksi." },
+        { "type": "list", "ordered": true, "items": [
+          "Pilih karya yang sesuai TUJUAN portofolio ini (melamar kerja jurnalistik butuh koleksi berbeda dari melamar S2).",
+          "Utamakan variasi yang menunjukkan rentang: satu esai personal, satu tulisan analitis, satu karya yang terbit.",
+          "Sertakan konteks singkat tiap karya: apa ini, ditulis untuk apa, apa perannya.",
+          "Buang karya yang sudah tidak mewakili kualitasmu sekarang, sebaik apa pun kenanganmu padanya."
+        ]},
+        { "type": "callout", "title": "Kualitas Menular", "text": "Satu karya lemah menyeret persepsi terhadap seluruh portofolio. Lebih baik sedikit tapi semuanya kuat. Pembaca menilai koleksimu dari titik terlemahnya, bukan terkuatnya." }
+      ]
+    },
+    {
+      "id": "50-4",
+      "title": "Memadukan Akademik dan Personal",
+      "blocks": [
+        { "type": "heading", "text": "Kamu Tidak Harus Memilih Satu Sisi" },
+        { "type": "paragraph", "text": "Kurikulum ini sengaja mengajarkan dua dunia: ketelitian akademik dan kehangatan personal. Portofoliomu boleh — bahkan sebaiknya — menunjukkan keduanya. Seorang peneliti yang juga menulis esai personal yang indah punya daya tarik unik: ia bisa berbicara ke sesama akademisi DAN ke publik luas." },
+        {
+          "type": "table",
+          "headers": ["Sisi", "Contoh Karya", "Menunjukkan"],
+          "rows": [
+            ["Akademik", "Artikel jurnal, ringkasan skripsi, literature review", "Ketelitian, penguasaan metode, kredibilitas"],
+            ["Personal/publik", "Esai di Medium, newsletter, op-ed, book review", "Voice, kemampuan menjangkau pembaca awam"],
+            ["Perpaduan", "Komunikasi sains, artikel populer dari risetmu", "Kemampuan menjembatani dua dunia — langka dan bernilai"]
+          ]
+        },
+        { "type": "callout", "title": "Perpaduan Itu Kekuatanmu", "text": "Di dunia yang makin butuh orang yang bisa menerjemahkan hal rumit ke bahasa manusia (Level 41), kemampuan berpijak di dua dunia justru membuatmu menonjol. Jangan sembunyikan salah satunya." }
+      ]
+    },
+    {
+      "id": "50-5",
+      "title": "Di Mana Menampilkannya",
+      "blocks": [
+        { "type": "heading", "text": "Rumah untuk Karyamu" },
+        { "type": "paragraph", "text": "Portofolio butuh tempat tinggal yang mudah dibagikan. Pilihannya beragam sesuai kebutuhan dan kenyamananmu." },
+        { "type": "list", "ordered": false, "items": [
+          "Situs pribadi sederhana — kendali penuh, kesan profesional; bisa dibuat dengan pembuat situs tanpa koding.",
+          "Halaman Medium/Substack — kalau fokusmu tulisan personal/publik (Level 33/34), koleksi tulisanmu di sana sudah jadi portofolio.",
+          "Google Scholar / ORCID (Level 5) — untuk karya akademik, ini portofolio otomatis yang kredibel.",
+          "Dokumen PDF terkurasi — sederhana, mudah dikirim via email untuk lamaran tertentu."
+        ]},
+        { "type": "callout", "title": "Mulai Sederhana", "text": "Jangan tunda karena ingin situs sempurna. Satu halaman berisi tiga tautan ke karya terbaikmu sudah jauh lebih baik daripada portofolio megah yang tak pernah selesai dibuat. Kamu bisa memperbaikinya seiring waktu." }
+      ]
+    },
+    {
+      "id": "50-6",
+      "title": "Writer's CV",
+      "blocks": [
+        { "type": "heading", "text": "Riwayat Menulismu" },
+        { "type": "paragraph", "text": "Berbeda dari CV kerja biasa, writer's CV berfokus pada jejak menulismu: publikasi (akademik dan populer), tempat tulisanmu muncul, penghargaan atau seleksi (misalnya esai terpilih), dan keahlian menulis spesifik. Ia melengkapi portofolio — portofolio menunjukkan karyanya, CV meringkas rekam jejaknya." },
+        { "type": "list", "ordered": false, "items": [
+          "Cantumkan publikasi dengan format sitasi yang konsisten (Level 3).",
+          "Sebutkan media/jurnal tempat karyamu terbit — nama yang dikenal menambah bobot.",
+          "Masukkan peran menulis lain: editor, kontributor tetap, penulis newsletter dengan sekian pembaca.",
+          "Jujur dan spesifik — hindari melebih-lebihkan (Level 36 soal kredibel tanpa menyombong)."
+        ]}
+      ]
+    },
+    {
+      "id": "50-7",
+      "title": "Menulis Selamanya",
+      "blocks": [
+        { "type": "heading", "text": "Kurikulum Selesai, Belajar Tidak" },
+        { "type": "paragraph", "text": "Lima puluh level ini memberimu peta, bukan garis akhir. Menulis adalah keterampilan yang tak pernah benar-benar 'tamat' — bahkan penulis paling hebat masih merasa pemula di depan halaman kosong. Yang membedakan penulis yang tumbuh dari yang mandek adalah kebiasaan (Level 43): terus menulis, terus membaca, terus merevisi." },
+        { "type": "paragraph", "text": "Semua konsep di kurikulum ini hanya jadi milikmu lewat latihan. Kamu tidak akan menguasai hook, voice, atau argumen dengan menghafalnya — kamu menguasainya dengan menulis buruk berkali-kali sampai perlahan membaik. Itu bukan tanda kegagalan; itu proses setiap penulis." },
+        { "type": "quote", "text": "Tulisan pertamamu tidak akan sempurna. Tidak apa-apa. Yang penting mulai dulu, lalu revisi. Dan sekarang kamu tahu caranya.", "source": "Penutup NuJou" }
+      ]
+    },
+    {
+      "id": "50-8",
+      "title": "Langkah Berikutnya",
+      "blocks": [
+        { "type": "heading", "text": "Kesalahan Umum & Ajakan Terakhir" },
+        { "type": "paragraph", "text": "Kesalahan paling umum di titik ini justru satu: berhenti. Menyelesaikan kurikulum lalu tidak menulis apa-apa lagi. Peta tanpa perjalanan tidak membawamu ke mana-mana." },
+        { "type": "list", "ordered": true, "items": [
+          "Menunggu 'siap' — kamu tidak akan pernah merasa sepenuhnya siap; mulai saja.",
+          "Menyimpan semua tulisan untuk diri sendiri — beranikan diri menerbitkan, sekecil apa pun.",
+          "Membandingkan draf pertamamu dengan karya jadi orang lain — mereka juga menulis draf buruk lebih dulu.",
+          "Berhenti belajar — bacaan bagus adalah guru menulis terbaik yang selalu tersedia."
+        ]},
+        { "type": "callout", "title": "Dari NuJou, untukmu", "text": "Kamu datang untuk belajar menulis, dan kamu bertahan sampai level terakhir — itu sendiri bukti bahwa kamu punya yang dibutuhkan seorang penulis: ketekunan. Sekarang tutup halaman ini, buka halaman kosong, dan tulis sesuatu. Dunia butuh apa yang hanya bisa kamu katakan. Selamat menulis." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-50",
+    "title": "Kuis Level 50",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "q50-1", "question": "Fungsi utama sebuah portofolio menulis adalah…", "options": ["Menggantikan CV sepenuhnya", "Membuktikan kemampuanmu lewat karya nyata, bukan sekadar mengklaimnya", "Menyimpan semua tulisan yang pernah kamu buat", "Menambah jumlah publikasi"], "answer": 1, "explanation": "Portofolio menerapkan 'show, don't tell' pada karier — bukti mengalahkan klaim." },
+      { "id": "q50-2", "question": "Prinsip memilih isi portofolio yang tepat adalah…", "options": ["Memasukkan sebanyak mungkin karya", "Mengkurasi beberapa karya terbaik yang sesuai tujuan, bukan menumpuk semuanya", "Hanya karya akademik", "Hanya karya terbaru"], "answer": 1, "explanation": "Kurasi karya terkuat lebih berkesan daripada menumpuk banyak karya campur aduk." },
+      { "id": "q50-3", "question": "Kenapa memadukan karya akademik dan personal dalam portofolio bernilai?", "options": ["Agar terlihat sibuk", "Karena kemampuan berbicara ke akademisi DAN publik luas adalah perpaduan langka yang membuatmu menonjol", "Karena wajib menampilkan keduanya", "Karena personal selalu lebih baik"], "answer": 1, "explanation": "Kemampuan menjembatani dua dunia langka dan bernilai." },
+      { "id": "q50-4", "question": "Untuk karya akademik, portofolio kredibel yang hampir otomatis bisa memakai…", "options": ["Akun media sosial pribadi", "Google Scholar atau ORCID", "Buku harian", "Grup chat"], "answer": 1, "explanation": "Google Scholar/ORCID (Level 5) menampilkan jejak akademik secara kredibel." },
+      { "id": "q50-5", "question": "Perbedaan writer's CV dari portofolio adalah…", "options": ["Keduanya sama", "Portofolio menunjukkan karyanya; writer's CV meringkas rekam jejak menulismu", "CV berisi karya lengkap", "Portofolio hanya daftar judul"], "answer": 1, "explanation": "Portofolio memperlihatkan karya; CV meringkas riwayat dan rekam jejak." },
+      { "id": "q50-6", "question": "Nasihat 'mulai sederhana' untuk portofolio berarti…", "options": ["Menunda sampai bisa membuat situs sempurna", "Satu halaman berisi tautan ke karya terbaik sudah lebih baik daripada portofolio megah yang tak pernah selesai", "Tidak perlu portofolio", "Menyalin portofolio orang lain"], "answer": 1, "explanation": "Portofolio sederhana yang selesai mengalahkan yang megah tapi tak pernah jadi." },
+      { "id": "q50-7", "question": "Kesalahan paling umum setelah menyelesaikan kurikulum menulis adalah…", "options": ["Terlalu banyak menulis", "Berhenti — menyelesaikan kurikulum lalu tidak menulis apa-apa lagi", "Merevisi terlalu sering", "Membaca terlalu banyak"], "answer": 1, "explanation": "Peta tanpa perjalanan sia-sia; berhenti menulis adalah jebakan terbesar." }
+    ]
+  },
+  "exam": {
+    "id": "exam-50",
+    "title": "Ujian Level 50",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "e50-1", "question": "Dua pelamar melamar posisi penulis. A menulis di CV \"mampu menulis dengan sangat baik\". B melampirkan tautan ke tiga karya terbaiknya. Kenapa pendekatan B lebih kuat?", "options": ["B menulis lebih banyak kata", "B membuktikan kemampuannya lewat karya nyata ('show, don't tell'), membiarkan pembaca menyimpulkan sendiri", "A lebih jujur", "B melanggar aturan lamaran"], "answer": 1, "explanation": "Portofolio membuktikan; klaim di CV hanya menyatakan. Bukti lebih meyakinkan." },
+      { "id": "e50-2", "question": "Seseorang memasukkan 20 karya ke portofolionya, termasuk beberapa tulisan lama yang lemah, 'agar terlihat produktif'. Kenapa ini merugikan?", "options": ["Tidak merugikan, makin banyak makin baik", "Pembaca menilai koleksi dari titik terlemahnya; karya lemah menyeret persepsi terhadap seluruh portofolio", "Karya lama selalu terbaik", "Portofolio harus berisi ratusan karya"], "answer": 1, "explanation": "Satu karya lemah menular ke persepsi keseluruhan — kurasi mengalahkan penumpukan." },
+      { "id": "e50-3", "question": "Seorang peneliti ragu memasukkan esai personalnya ke portofolio akademik karena takut 'terlihat tidak serius'. Menurut level ini, saran terbaiknya adalah…", "options": ["Buang semua karya personal", "Justru tunjukkan keduanya — kemampuan berbicara ke akademisi dan publik luas adalah perpaduan langka yang menonjolkan dirinya", "Hanya tampilkan karya personal", "Sembunyikan karya akademik"], "answer": 1, "explanation": "Perpaduan dua dunia adalah kekuatan, bukan kelemahan, di era yang butuh penjembatan." },
+      { "id": "e50-4", "question": "Seseorang menunda membuat portofolio selama setahun karena ingin situs webnya 'sempurna dulu'. Nasihat paling tepat adalah…", "options": ["Teruskan menunggu sampai sempurna", "Mulai sederhana — satu halaman dengan tautan ke karya terbaik sekarang jauh lebih berguna daripada situs megah yang tak pernah selesai", "Tidak usah membuat portofolio", "Menyewa orang membuat situs mahal dulu"], "answer": 1, "explanation": "Portofolio sederhana yang ada mengalahkan yang sempurna tapi tak pernah jadi." },
+      { "id": "e50-5", "question": "Melamar program S2 riset vs melamar posisi penulis konten butuh portofolio yang…", "options": ["Persis sama", "Dikurasi berbeda sesuai tujuan — S2 menonjolkan karya akademik/analitis, penulis konten menonjolkan tulisan publik yang menjangkau pembaca", "Selalu berisi semua karya", "Tanpa karya sama sekali"], "answer": 1, "explanation": "Portofolio dikurasi menurut tujuannya; audiens berbeda butuh penekanan berbeda." },
+      { "id": "e50-6", "question": "Dalam writer's CV-nya, seseorang menulis \"penulis newsletter dengan puluhan ribu pembaca\" padahal pembacanya baru puluhan. Kenapa ini keputusan buruk?", "options": ["Karena angka tidak penting", "Karena melebih-lebihkan merusak kredibilitas (Level 36) dan mudah diperiksa — kejujuran spesifik lebih kuat", "Karena newsletter tidak layak dicantumkan", "Karena CV tidak boleh menyebut angka"], "answer": 1, "explanation": "Melebih-lebihkan menggerus kredibilitas; kredibel-tanpa-menyombong lebih meyakinkan." },
+      { "id": "e50-7", "question": "Seseorang menyelesaikan seluruh 50 level lalu tidak menulis apa pun selama enam bulan, merasa 'sudah tamat belajar'. Diagnosis paling tepat adalah…", "options": ["Ia sudah jadi penulis sempurna", "Ia terjebak kesalahan paling umum: berhenti — peta (kurikulum) tanpa perjalanan (menulis) tidak membawanya ke mana pun", "Ia harus mengulang semua level", "Menulis memang harus berhenti setelah belajar"], "answer": 1, "explanation": "Keterampilan menulis tumbuh lewat latihan berkelanjutan; berhenti membuat ilmu itu mengendap sia-sia." },
+      { "id": "e50-8", "question": "Seorang pemula membandingkan draf pertamanya dengan esai jadi seorang penulis terkenal, lalu putus asa. Menurut prinsip level ini (dan Level 37/38), yang perlu ia ingat adalah…", "options": ["Ia memang tidak berbakat", "Penulis terkenal itu pun menulis draf buruk lebih dulu; yang ia bandingkan adalah hasil akhir setelah banyak revisi, bukan draf pertama", "Sebaiknya berhenti menulis", "Draf pertama harus langsung sempurna"], "answer": 1, "explanation": "Membandingkan draf mentah dengan karya jadi tidak adil; semua penulis merevisi dari awal yang buruk." },
+      { "id": "e50-9", "question": "Seorang peneliti yang juga menulis artikel populer dari risetnya ingin menampilkan kemampuan menjembatani dua dunia. Kategori karya yang paling tepat menonjolkan ini adalah…", "options": ["Hanya artikel jurnal murni", "Karya perpaduan seperti komunikasi sains/artikel populer dari risetnya sendiri (Level 41)", "Hanya cuitan media sosial", "Daftar gelar akademik"], "answer": 1, "explanation": "Karya yang menerjemahkan riset ke bahasa publik memperlihatkan kemampuan menjembatani dua dunia." },
+      { "id": "e50-10", "question": "Setelah menuntaskan kurikulum, cara paling tepat memperlakukan '50 level' ini adalah menganggapnya sebagai…", "options": ["Garis akhir — belajar menulis sudah tamat", "Peta, bukan garis akhir — bekal untuk terus menulis, membaca, dan merevisi seumur hidup", "Sertifikat yang cukup dipajang", "Sesuatu yang bisa dilupakan"], "answer": 1, "explanation": "Kurikulum memberi peta; penguasaan sejati datang dari terus menulis setelahnya." }
+    ]
+  },
+  "sources": [
+    { "title": "Show Your Work!: 10 Ways to Share Your Creativity and Get Discovered", "author": "Austin Kleon", "year": 2014, "publisher": "Workman Publishing", "note": "Membangun kehadiran dan portofolio dengan berbagi karya secara jujur." },
+    { "title": "On Writing: A Memoir of the Craft", "author": "Stephen King", "year": 2000, "publisher": "Scribner", "note": "Menulis sebagai kebiasaan seumur hidup dan pentingnya membaca banyak." },
+    { "title": "Bird by Bird: Some Instructions on Writing and Life", "author": "Anne Lamott", "year": 1994, "publisher": "Pantheon", "note": "Menerima draf buruk dan terus menulis meski tidak merasa siap." },
+    { "title": "ORCID — Connecting Research and Researchers", "author": "ORCID", "publisher": "orcid.org", "url": "https://orcid.org", "note": "Identitas dan portofolio akademik digital yang kredibel." },
+    { "title": "On Writing Well: The Classic Guide to Writing Nonfiction", "author": "William Zinsser", "publisher": "Harper Perennial", "note": "Prinsip menulis yang menemani penulis sepanjang karier." }
+  ]
+}

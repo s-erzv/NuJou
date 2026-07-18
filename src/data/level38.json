@@ -1,0 +1,162 @@
+{
+  "id": 38,
+  "slug": "mengedit-tulisan-sendiri",
+  "title": "Mengedit Tulisan Sendiri",
+  "subtitle": "Read-aloud, kill your darlings, dan aturan potong 10%",
+  "goal": "Bisa merevisi draf sendiri secara sistematis: memisahkan menulis dari mengedit, membaca nyaring untuk menangkap kalimat kaku, memangkas tanpa ampun, dan memakai checklist penyuntingan mandiri sebelum sebuah tulisan dianggap selesai.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "38-1",
+      "title": "Draf Pertama Memang Buruk — dan Itu Wajar",
+      "blocks": [
+        { "type": "heading", "text": "Menulis dan Mengedit Adalah Dua Pekerjaan" },
+        { "type": "paragraph", "text": "Level 37 sudah menanam prinsipnya: menulis (mencipta) dan mengedit (menilai) adalah dua mode berbeda yang tak boleh bekerja bersamaan. Level ini fokus pada mode kedua — dan kabar baiknya, mengedit adalah keterampilan yang bisa dilatih, bukan bakat." },
+        { "type": "paragraph", "text": "Yang membedakan tulisan amatir dan matang sering bukan draf pertamanya (keduanya sama-sama berantakan), melainkan berapa kali dan sebaik apa draf itu direvisi. Penulis profesional adalah editor yang tega terhadap tulisannya sendiri." },
+        { "type": "callout", "title": "Beri Jeda", "text": "Edit draf setelah didiamkan — beberapa jam, idealnya semalam. Draf yang baru selesai masih terasa 'benar' karena kamu masih ingat maksudnya. Setelah jeda, kamu membacanya lebih seperti pembaca asing yang melihat apa yang benar-benar tertulis, bukan yang kamu maksud." }
+      ]
+    },
+    {
+      "id": "38-2",
+      "title": "Membaca Nyaring",
+      "blocks": [
+        { "type": "heading", "text": "Telinga Menangkap yang Mata Lewatkan" },
+        { "type": "paragraph", "text": "Teknik penyuntingan tunggal paling ampuh: baca tulisanmu dengan suara keras. Kalimat yang bagus di mata sering tersandung di lidah. Kalau kamu kehabisan napas sebelum titik, kalimatnya terlalu panjang. Kalau lidahmu terpeleset, susunannya kaku." },
+        { "type": "quote", "text": "Sebelum: \"Berdasarkan hasil analisis yang telah dilakukan terhadap data yang dikumpulkan melalui proses observasi, dapat disimpulkan bahwa terdapat kecenderungan peningkatan.\" (kehabisan napas) → Sesudah: \"Data observasi menunjukkan kecenderungan meningkat.\"", "source": "Contoh kalimat yang ketahuan saat dibaca nyaring" },
+        { "type": "callout", "title": "Kenapa Berhasil", "text": "Otak diam-diam 'memperbaiki' tulisan sendiri saat membaca dalam hati — mengisi kata yang hilang, memuluskan yang janggal. Membaca nyaring memaksa kamu menghadapi teks apa adanya, kata demi kata." }
+      ]
+    },
+    {
+      "id": "38-3",
+      "title": "Kill Your Darlings",
+      "blocks": [
+        { "type": "heading", "text": "Kalimat Terindah Sering Justru Beban" },
+        { "type": "paragraph", "text": "'Kill your darlings' berarti berani membuang bagian yang paling kamu banggakan kalau ia tidak melayani tulisan secara keseluruhan. Sering kali kalimat yang paling kita cintai — metafora yang keren, lelucon yang pintar — sebenarnya menarik perhatian ke dirinya sendiri dan mengalihkan pembaca dari inti." },
+        { "type": "paragraph", "text": "Ini sulit karena melibatkan ego. Kamu menghabiskan waktu memoles kalimat itu; membuangnya terasa rugi. Tapi tulisan bukan tempat memamerkan kalimat cantik — ia alat menyampaikan sesuatu ke pembaca (Level 4). Kalau kalimat cantik tidak membantu penyampaian itu, ia beban." },
+        { "type": "callout", "title": "Uji Sederhana", "text": "Untuk tiap kalimat yang kamu banggakan, tanya: \"Kalau ini kubuang, apakah pembaca kehilangan pemahaman?\" Kalau tidak — kalau ia cuma cantik — pertimbangkan membuangnya. Simpan di file terpisah kalau berat berpisah." }
+      ]
+    },
+    {
+      "id": "38-4",
+      "title": "Aturan Potong 10%",
+      "blocks": [
+        { "type": "heading", "text": "Draf Kedua = Draf Pertama Dikurangi 10%" },
+        { "type": "paragraph", "text": "Aturan lama editor: draf revisi seharusnya lebih pendek dari draf asli, target minimal potong 10%. Bukan karena pendek selalu lebih baik, tapi karena draf pertama hampir selalu penuh lemak: kata pengulang, frasa pemanasan, penjelasan yang tak perlu." },
+        { "type": "list", "ordered": false, "items": [
+          "Buang frasa pemanasan: 'perlu diketahui bahwa', 'pada dasarnya', 'dapat dikatakan bahwa'.",
+          "Ganti frasa panjang dengan satu kata: 'melakukan pengukuran' → 'mengukur' (Level 4).",
+          "Hapus kata keterangan yang lemah: 'sangat', 'cukup', 'agak' sering bisa dibuang.",
+          "Gabung kalimat yang mengulang gagasan yang sama.",
+          "Hapus paragraf yang, saat dibuang, ternyata tidak dirindukan pembaca."
+        ]},
+        { "type": "callout", "title": "Menyambung Level 4", "text": "Kalimat efektif (Level 4) adalah tentang menulis padat sejak awal. Aturan potong 10% adalah versi revisinya: menyaring lemak yang terlanjur masuk ke draf pertama." }
+      ]
+    },
+    {
+      "id": "38-5",
+      "title": "Mengedit Berlapis, Bukan Sekaligus",
+      "blocks": [
+        { "type": "heading", "text": "Dari Besar ke Kecil" },
+        { "type": "paragraph", "text": "Kesalahan umum: mencoba memperbaiki struktur, alur, kalimat, dan ejaan sekaligus dalam sekali baca. Otak kewalahan dan hasilnya setengah-setengah. Edit berlapis: perbaiki hal besar dulu, baru turun ke yang kecil." },
+        {
+          "type": "table",
+          "headers": ["Lapisan", "Pertanyaan Utama"],
+          "rows": [
+            ["Struktur", "Apakah urutan gagasannya masuk akal? Ada bagian yang perlu dipindah/dibuang?"],
+            ["Paragraf", "Apakah tiap paragraf punya satu ide jelas dan mengalir ke berikutnya?"],
+            ["Kalimat", "Apakah ada kalimat panjang, kaku, atau pasif yang bisa dipadatkan?"],
+            ["Kata", "Ada kata mubazir, tidak baku, atau pengulangan? (Level 4)"],
+            ["Ejaan & tanda baca", "Terakhir — koreksi typo dan tanda baca (Level 3 untuk sitasi)"]
+          ]
+        },
+        { "type": "callout", "title": "Kenapa Urutan Ini Penting", "text": "Percuma memoles ejaan sebuah paragraf yang nanti akan kamu buang karena strukturnya salah. Selesaikan keputusan besar (buang/pindah) dulu, baru poles yang tersisa." }
+      ]
+    },
+    {
+      "id": "38-6",
+      "title": "Trik Menipu Mata yang Lelah",
+      "blocks": [
+        { "type": "heading", "text": "Membuat Teksmu Terasa Asing" },
+        { "type": "paragraph", "text": "Setelah menatap tulisan yang sama berjam-jam, mata jadi buta terhadap kesalahannya. Beberapa trik memaksa otak melihatnya dengan segar kembali." },
+        { "type": "list", "ordered": false, "items": [
+          "Ubah font atau ukuran teks — tampilan baru menipu otak agar membaca lebih teliti.",
+          "Baca dari paragraf terakhir ke awal (untuk memeriksa ejaan/kalimat, bukan alur).",
+          "Cetak di kertas — kesalahan yang tak terlihat di layar sering menonjol di cetakan.",
+          "Baca nyaring (Bagian 2) — telinga menangkap yang mata lewatkan.",
+          "Minta orang lain membaca — mereka tidak tahu maksudmu, jadi melihat apa yang benar-benar tertulis."
+        ]}
+      ]
+    },
+    {
+      "id": "38-7",
+      "title": "Checklist Penyuntingan Mandiri",
+      "blocks": [
+        { "type": "heading", "text": "Sebelum Bilang 'Selesai'" },
+        { "type": "list", "ordered": true, "items": [
+          "Sudah kudiamkan minimal beberapa jam sebelum diedit?",
+          "Apakah baris pertama/pembuka sudah menarik (Level 31)?",
+          "Apakah tiap paragraf punya satu ide dan mengalir ke berikutnya?",
+          "Sudah kubaca nyaring untuk menangkap kalimat kaku?",
+          "Sudah kupotong minimal 10% dari draf pertama?",
+          "Adakah 'darling' cantik yang sebenarnya tidak melayani tulisan?",
+          "Apakah penutupnya meninggalkan sesuatu untuk pembaca (bukan sekadar mengulang)?",
+          "Terakhir: typo, ejaan baku (Level 4), dan tanda baca sudah bersih?"
+        ]},
+        { "type": "callout", "title": "Kapan Berhenti", "text": "Tulisan tidak pernah 'sempurna' — ada titik ketika revisi tambahan hanya menggeser kata bolak-balik tanpa memperbaiki. Kenali titik itu: saat perubahanmu mulai membatalkan satu sama lain, tulisanmu sudah selesai. Terbitkan." }
+      ]
+    },
+    {
+      "id": "38-8",
+      "title": "Kesalahan Umum dalam Menyunting Sendiri",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Mengedit langsung setelah menulis, tanpa jeda, sehingga masih 'buta' terhadap tulisan sendiri.",
+          "Memperbaiki ejaan lebih dulu, lalu membuang paragraf yang sudah dipoles itu karena strukturnya salah.",
+          "Mempertahankan kalimat cantik yang sebenarnya mengalihkan pembaca dari inti.",
+          "Menambah, bukan memotong — draf revisi malah lebih gemuk dari aslinya.",
+          "Merevisi tanpa henti sampai tulisan yang tadinya baik jadi rusak karena diutak-atik berlebihan."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Mengedit bukan menghukum draf pertamamu — ia menghormatinya, dengan mengubah bahan mentah yang jujur menjadi sesuatu yang jernih untuk pembaca. Menulis adalah menulis ulang." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-38",
+    "title": "Kuis Level 38",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "q38-1", "question": "Yang paling sering membedakan tulisan amatir dan matang adalah…", "options": ["Kualitas draf pertamanya", "Berapa kali dan sebaik apa draf itu direvisi", "Panjang tulisannya", "Jumlah istilah asing"], "answer": 1, "explanation": "Draf pertama sama-sama berantakan; revisi yang membedakan hasil akhir." },
+      { "id": "q38-2", "question": "Kenapa sebaiknya memberi jeda sebelum mengedit draf sendiri?", "options": ["Agar lupa isinya sama sekali", "Setelah jeda kamu membaca lebih seperti pembaca asing — melihat yang benar-benar tertulis, bukan yang kamu maksud", "Agar tulisan menghilang", "Tidak ada alasannya"], "answer": 1, "explanation": "Jeda mengurangi 'kebutaan penulis' terhadap tulisannya sendiri." },
+      { "id": "q38-3", "question": "Membaca nyaring ampuh untuk menyunting karena…", "options": ["Membuat tulisan lebih panjang", "Telinga menangkap kalimat kaku dan kepanjangan yang dilewatkan mata", "Menggantikan kebutuhan berpikir", "Memperbaiki ejaan otomatis"], "answer": 1, "explanation": "Membaca nyaring memaksa menghadapi teks apa adanya, kata demi kata." },
+      { "id": "q38-4", "question": "'Kill your darlings' berarti…", "options": ["Membuang seluruh tulisan", "Berani membuang bagian yang paling kamu banggakan kalau ia tidak melayani tulisan secara keseluruhan", "Tidak pernah menulis kalimat indah", "Menyalin kalimat orang lain"], "answer": 1, "explanation": "Kalimat cantik yang tidak membantu penyampaian justru jadi beban." },
+      { "id": "q38-5", "question": "Aturan potong 10% menyarankan bahwa draf revisi sebaiknya…", "options": ["Lebih panjang dari draf asli", "Lebih pendek, dengan memangkas lemak seperti frasa pemanasan dan pengulangan", "Sama persis panjangnya", "Dua kali lebih panjang"], "answer": 1, "explanation": "Draf pertama hampir selalu penuh lemak yang bisa dipangkas." },
+      { "id": "q38-6", "question": "Mengedit berlapis berarti…", "options": ["Memperbaiki semua hal sekaligus dalam sekali baca", "Menyelesaikan hal besar (struktur) dulu, baru turun ke kecil (kata, ejaan)", "Hanya mengoreksi typo", "Mengedit dari akhir ke awal saja"], "answer": 1, "explanation": "Dari besar ke kecil agar tidak memoles bagian yang nanti dibuang." },
+      { "id": "q38-7", "question": "Kapan sebuah tulisan sebaiknya dianggap selesai?", "options": ["Saat sempurna tanpa cela", "Saat perubahan tambahan mulai membatalkan satu sama lain tanpa memperbaiki", "Tidak pernah selesai", "Setelah tepat 10 revisi"], "answer": 1, "explanation": "Titik selesai adalah saat revisi hanya menggeser kata tanpa perbaikan nyata." }
+    ]
+  },
+  "exam": {
+    "id": "exam-38",
+    "title": "Ujian Level 38",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "e38-1", "question": "Seorang penulis selesai menulis draf jam 2 pagi, langsung mengeditnya saat itu juga, dan merasa 'sudah bagus'. Keesokan paginya ia menemukan banyak kejanggalan. Pelajaran utamanya adalah…", "options": ["Ia harus tidur lebih larut", "Mengedit tanpa jeda membuatnya masih buta terhadap tulisan sendiri; jeda semalam mengembalikan kacamata pembaca asing", "Draf jangan pernah diedit", "Menulis di malam hari selalu buruk"], "answer": 1, "explanation": "Tanpa jeda, penulis masih 'mengisi' maksud yang tak tertulis; jeda memunculkan teks apa adanya." },
+      { "id": "e38-2", "question": "Saat membaca nyaring, seorang penulis kehabisan napas sebelum sampai titik pada satu kalimat. Yang paling tepat ia simpulkan adalah…", "options": ["Paru-parunya lemah", "Kalimatnya terlalu panjang dan perlu dipecah atau dipadatkan", "Kalimatnya sudah sempurna", "Ia harus membaca lebih cepat"], "answer": 1, "explanation": "Kehabisan napas adalah sinyal kalimat terlalu panjang — dipadatkan seperti contoh di level ini." },
+      { "id": "e38-3", "question": "Seorang penulis punya satu metafora yang sangat ia banggakan, tapi saat diuji ternyata metafora itu menarik perhatian ke dirinya dan mengaburkan poin utama paragraf. Menurut prinsip 'kill your darlings', ia sebaiknya…", "options": ["Mempertahankannya karena indah", "Mempertimbangkan membuangnya karena ia tidak melayani penyampaian, meski cantik", "Menambah dua metafora lagi", "Memindahnya ke judul"], "answer": 1, "explanation": "Keindahan yang mengaburkan inti adalah beban; darling seperti ini layak dipangkas." },
+      { "id": "e38-4", "question": "Seorang penulis merevisi esainya dan hasilnya justru 15% lebih panjang dari draf pertama, penuh penjelasan tambahan. Menurut aturan potong 10%, kemungkinan besar yang terjadi adalah…", "options": ["Revisinya sempurna", "Ia menambah alih-alih memangkas lemak; draf revisi yang sehat biasanya lebih ramping, bukan lebih gemuk", "Panjang tidak pernah masalah", "Esai memang harus selalu memanjang"], "answer": 1, "explanation": "Revisi yang membengkak sering menandakan lemak belum dipangkas, bukan tanda perbaikan." },
+      { "id": "e38-5", "question": "Seorang penulis menghabiskan 20 menit memperbaiki ejaan dan tanda baca sebuah paragraf, lalu menyadari paragraf itu harus dibuang karena strukturnya salah tempat. Kesalahan prosesnya adalah…", "options": ["Ia terlalu teliti", "Ia mengedit dari kecil ke besar; seharusnya keputusan struktur (buang/pindah) diselesaikan dulu sebelum memoles ejaan", "Ejaan tidak penting", "Paragraf tidak boleh dibuang"], "answer": 1, "explanation": "Edit berlapis dari besar ke kecil mencegah memoles bagian yang akan dibuang." },
+      { "id": "e38-6", "question": "Setelah menatap tulisannya berjam-jam, seorang penulis tak lagi bisa melihat kesalahannya. Trik yang TIDAK membantu membuat teks terasa asing kembali adalah…", "options": ["Mengubah font atau mencetaknya di kertas", "Membaca nyaring", "Terus menatap layar yang sama tanpa jeda dan berharap kesalahan muncul sendiri", "Meminta orang lain membacanya"], "answer": 2, "explanation": "Menatap teks yang sama tanpa mengubah apa pun justru mempertahankan kebutaan; trik lain menyegarkan pandangan." },
+      { "id": "e38-7", "question": "Seorang penulis merevisi esainya belasan kali sampai tulisan yang tadinya mengalir malah jadi kaku dan aneh. Diagnosis paling tepat adalah…", "options": ["Ia kurang merevisi", "Ia melewati titik selesai — revisi berlebihan mulai merusak, bukan memperbaiki", "Esai memang harus direvisi tanpa batas", "Draf pertamanya buruk"], "answer": 1, "explanation": "Ada titik ketika revisi tambahan menggeser kata tanpa perbaikan atau malah merusak; itu tanda selesai." },
+      { "id": "e38-8", "question": "Kalimat \"Berdasarkan hasil analisis yang telah dilakukan, dapat dikatakan bahwa pada dasarnya terdapat peningkatan.\" Menerapkan aturan potong 10% dan Level 4, versi terbaik adalah…", "options": ["\"Berdasarkan hasil analisis yang telah dilakukan, dapat dikatakan bahwa pada dasarnya memang benar-benar terdapat suatu peningkatan.\"", "\"Analisis menunjukkan peningkatan.\"", "\"Peningkatan.\"", "\"Pada dasarnya, dapat dikatakan bahwa ada peningkatan menurut analisis.\""], "answer": 1, "explanation": "Frasa pemanasan ('dapat dikatakan bahwa', 'pada dasarnya') dibuang; inti dipadatkan jadi kalimat efektif." },
+      { "id": "e38-9", "question": "Seorang penulis ingin memeriksa ejaan dan typo secara khusus (bukan alur). Trik yang tepat untuk memaksa mata memperlambat adalah…", "options": ["Membaca cepat dari awal ke akhir", "Membaca dari kalimat/paragraf terakhir mundur ke awal, agar otak tidak terbuai alur dan fokus ke kata", "Melewati bagian yang sudah yakin benar", "Mengandalkan ingatan"], "answer": 1, "explanation": "Membaca mundur memutus alur sehingga mata memeriksa kata demi kata untuk typo/ejaan." },
+      { "id": "e38-10", "question": "Seorang penulis menganggap kebutuhan merevisi berkali-kali sebagai tanda bahwa ia 'penulis buruk'. Kenapa anggapan ini keliru?", "options": ["Karena penulis bagus tidak pernah merevisi", "Karena menulis adalah menulis ulang — revisi adalah inti pekerjaan penulis matang, bukan tanda kegagalan", "Karena draf pertama seharusnya sempurna", "Karena revisi hanya untuk pemula"], "answer": 1, "explanation": "Revisi berulang adalah ciri kerja penulis matang; 'menulis adalah menulis ulang'." }
+    ]
+  },
+  "sources": [
+    { "title": "On Writing Well: The Classic Guide to Writing Nonfiction", "author": "William Zinsser", "publisher": "Harper Perennial", "note": "Memangkas kata mubazir dan menulis padat — inti aturan potong 10%." },
+    { "title": "The Elements of Style", "author": "William Strunk Jr., E. B. White", "publisher": "Longman", "note": "\"Omit needless words\" — prinsip klasik penyuntingan." },
+    { "title": "On Writing: A Memoir of the Craft", "author": "Stephen King", "year": 2000, "publisher": "Scribner", "note": "Sumber aturan 'draf kedua = draf pertama - 10%' dan 'kill your darlings'." },
+    { "title": "Bird by Bird: Some Instructions on Writing and Life", "author": "Anne Lamott", "year": 1994, "publisher": "Pantheon", "note": "Draf pertama yang buruk sebagai bahan mentah revisi." },
+    { "title": "Several Short Sentences About Writing", "author": "Verlyn Klinkenborg", "year": 2012, "publisher": "Alfred A. Knopf", "note": "Menyunting kalimat satu per satu dan mendengarkan iramanya." }
+  ]
+}

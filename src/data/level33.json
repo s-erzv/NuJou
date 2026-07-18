@@ -1,0 +1,265 @@
+{
+  "id": 33,
+  "slug": "menulis-di-medium",
+  "title": "Menulis di Medium",
+  "subtitle": "Memahami platform, bukan cuma menulisnya",
+  "goal": "Memahami cara kerja Medium sebagai platform (publication, tag, kurasi, read ratio), memformat tulisan supaya nyaman dibaca di feed-nya, dan mengetahui langkah realistis untuk mengirim tulisan ke sebuah publication.",
+  "estimatedMinutes": 30,
+  "sections": [
+    {
+      "id": "33-1",
+      "title": "Medium Bukan Sekadar 'Blog Gratis'",
+      "blocks": [
+        { "type": "heading", "text": "Platform dengan Ekosistem Kurasi" },
+        { "type": "paragraph", "text": "Setelah Level 29-32 membangun fondasi voice, struktur, hook, dan storytelling, sekarang saatnya bicara tempat: di mana tulisan itu akan dibaca orang. Medium adalah salah satu platform menulis publik paling populer, tapi banyak penulis baru memperlakukannya seperti blog pribadi biasa — padahal Medium adalah ekosistem dengan aturan mainnya sendiri: publication, tag, dan sistem kurasi yang menentukan siapa yang melihat tulisanmu." },
+        { "type": "paragraph", "text": "Bedanya dengan blog pribadi: di blog, distribusi sepenuhnya tanggung jawabmu (kamu yang harus promosikan). Di Medium, ada mekanisme bawaan platform yang bisa membantu tulisanmu ditemukan pembaca baru — tapi hanya kalau kamu memahami cara kerjanya, bukan asal unggah." },
+        { "type": "callout", "title": "Istilah Kunci", "text": "'Publication' adalah semacam 'majalah' terkurasi dalam Medium (dikelola editor, punya banyak kontributor). 'Tag' adalah kategori topik yang membantu kurator dan mesin pencari menemukan tulisanmu. Keduanya akan dibahas mendetail di bagian selanjutnya." }
+      ]
+    },
+    {
+      "id": "33-2",
+      "title": "Publications: Menulis Sendiri vs Menulis untuk 'Majalah'",
+      "blocks": [
+        { "type": "heading", "text": "Profil Pribadi vs Publication" },
+        { "type": "paragraph", "text": "Kamu bisa menerbitkan tulisan langsung di profil pribadimu, atau mengirimkannya ke sebuah publication yang relevan dengan topikmu. Publication biasanya punya audiens follower sendiri yang lebih besar dari profil individu penulis baru, sehingga tulisanmu berpotensi dilihat lebih banyak orang begitu diterima." },
+        { "type": "paragraph", "text": "Tapi publication juga punya editor yang menyeleksi — tidak semua submission diterima, dan masing-masing punya gaya serta fokus topik sendiri. Menulis untuk publication berarti menyesuaikan diri dengan suara editorial mereka, sedikit berbeda dari menulis bebas di profil sendiri." },
+        {
+          "type": "table",
+          "headers": ["Profil Pribadi", "Publication"],
+          "rows": [
+            ["Kontrol penuh atas apa & kapan diterbitkan", "Melewati proses submission & review editor"],
+            ["Audiens awal biasanya kecil (follower sendiri)", "Berpotensi menjangkau audiens publication yang sudah ada"],
+            ["Gaya bebas sesuai voice-mu", "Perlu menyesuaikan dengan fokus/gaya publication"],
+            ["Cocok untuk eksperimen & topik personal", "Cocok untuk topik yang cocok dengan niche publication tertentu"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "33-3",
+      "title": "Tag & Kurasi: Bagaimana Tulisan Ditemukan",
+      "blocks": [
+        { "type": "heading", "text": "Lima Tag, Satu Kesempatan Ditemukan" },
+        { "type": "paragraph", "text": "Setiap tulisan di Medium bisa diberi hingga lima tag (kategori topik). Tag membantu tulisanmu muncul di halaman topik yang relevan dan membantu kurator internal Medium menemukan tulisan untuk direkomendasikan lebih luas. Pilih tag yang benar-benar mencerminkan isi tulisan — bukan tag populer yang tidak relevan hanya demi jangkauan." },
+        { "type": "paragraph", "text": "'Kurasi' adalah proses ketika tim/algoritma Medium memilih sebuah tulisan untuk direkomendasikan lebih luas dalam sebuah topik. Menurut panduan resmi Medium, tulisan yang berpeluang dikurasi biasanya orisinal, jelas fokusnya, dan mengikuti pedoman format dasar platform — bukan sekadar soal panjang atau seberapa 'viral' judulnya." },
+        { "type": "callout", "title": "Jangan Kejar Tag Populer yang Tidak Relevan", "text": "Menaruh tulisan tentang keuangan pribadi di tag 'Fiksi' agar terlihat oleh lebih banyak orang justru bisa merusak kepercayaan pembaca dan peluang kurasi — kurator dan pembaca sama-sama menghargai relevansi." }
+      ]
+    },
+    {
+      "id": "33-4",
+      "title": "Read Ratio: Metrik yang Sering Diabaikan Penulis Baru",
+      "blocks": [
+        { "type": "heading", "text": "Views Bukan Segalanya" },
+        { "type": "paragraph", "text": "Dashboard statistik Medium menampilkan beberapa angka: views (berapa kali halaman dibuka), reads (berapa banyak yang benar-benar membaca sampai porsi signifikan), dan read ratio (persentase reads dibanding views). Banyak penulis baru hanya fokus ke angka views, padahal read ratio adalah indikator yang lebih jujur soal apakah tulisanmu benar-benar menahan perhatian pembaca — bukan cuma berhasil membuat orang klik judulnya." },
+        { "type": "paragraph", "text": "Read ratio yang rendah biasanya menandakan masalah di salah satu dari tiga hal: hook yang menjanjikan sesuatu yang tidak dipenuhi isi (Level 31), paragraf pembuka yang lambat, atau format yang membuat pembaca lelah secara visual sebelum sempat masuk ke isi." },
+        { "type": "callout", "title": "Kenapa Ini Penting bagi Kurator", "text": "Read ratio yang sehat menjadi sinyal bahwa tulisanmu benar-benar dinikmati, bukan cuma diklik — ini salah satu alasan kenapa hook yang jujur (Level 31) jauh lebih berguna jangka panjang daripada judul clickbait." }
+      ]
+    },
+    {
+      "id": "33-5",
+      "title": "Memformat untuk Feed Medium",
+      "blocks": [
+        { "type": "heading", "text": "Menulis untuk Dibaca di Layar, Bukan di Kertas" },
+        { "type": "paragraph", "text": "Prinsip 3 detik pertama dari Level 31 berlanjut ke seluruh tulisan: pembaca digital memindai sebelum berkomitmen membaca. Format Medium yang bekerja dengan baik biasanya memakai paragraf pendek (2-4 kalimat), subheading untuk memecah bagian panjang, dan sesekali highlight/bold pada kalimat kunci — bukan menebalkan semua kalimat, yang justru menghilangkan fungsi penekanan itu sendiri." },
+        { "type": "list", "ordered": false, "items": [
+          "Paragraf pendek: satu ide per paragraf, beri banyak jeda visual (white space).",
+          "Subheading tiap beberapa ratus kata untuk pembaca yang memindai sebelum berkomitmen.",
+          "Gambar/pull quote sesekali untuk memecah teks panjang secara visual.",
+          "Highlight hanya kalimat yang benar-benar penting — highlight yang terlalu sering kehilangan fungsinya."
+        ]},
+        { "type": "callout", "title": "Cross-Reference", "text": "Ini prinsip yang sama dengan riset perilaku baca digital Nielsen Norman Group yang dibahas di Level 31 — pembaca Medium tetap pembaca web, dengan kebiasaan scan yang sama." }
+      ]
+    },
+    {
+      "id": "33-6",
+      "title": "Before/After: Dari Wall of Text ke Format Medium",
+      "blocks": [
+        { "type": "heading", "text": "Isi Sama, Keterbacaan Berbeda" },
+        { "type": "paragraph", "text": "Bandingkan dua cara menyajikan isi yang sama: sebuah paragraf panjang tak terbagi versus versi yang diformat untuk feed Medium." },
+        { "type": "quote", "text": "VERSI WALL OF TEXT:\n\"Ketika saya pertama kali pindah kerja remote saya pikir semuanya akan lebih santai ternyata malah lebih susah mengatur waktu karena batas antara kerja dan istirahat jadi kabur saya sering baru sadar sudah kerja 10 jam padahal niatnya cuma mau cek email sebentar dan ini terjadi hampir setiap hari selama tiga bulan pertama sampai akhirnya saya sadar perlu bikin aturan sendiri soal jam kerja.\"", "source": "Contoh draf tak terformat" },
+        { "type": "quote", "text": "VERSI FORMAT MEDIUM:\n\"Saya pikir kerja remote akan lebih santai.\n\nTernyata lebih susah mengatur batas.\n\nSaya sering baru sadar sudah kerja 10 jam — padahal niatnya cuma mau cek email sebentar. Ini terjadi hampir setiap hari, selama tiga bulan pertama.\n\nSampai akhirnya saya sadar: saya butuh aturan sendiri soal jam kerja.\"", "source": "Contoh setelah diformat untuk feed" },
+        { "type": "callout", "title": "Yang Berubah Bukan Isinya", "text": "Kata-katanya nyaris sama. Yang berubah adalah jeda visual dan ritme baca — versi kedua memberi pembaca 'napas' di antara ide, membuatnya jauh lebih nyaman dipindai di layar ponsel." }
+      ]
+    },
+    {
+      "id": "33-7",
+      "title": "Mengirim Tulisan ke Sebuah Publication",
+      "blocks": [
+        { "type": "heading", "text": "Proses yang Butuh Kesabaran" },
+        { "type": "paragraph", "text": "Untuk mengirim tulisan ke publication, kamu perlu terlebih dahulu menjadi 'writer' di publication itu (biasanya lewat permintaan atau undangan editor), lalu draf tulisanmu dikirim (submit) ke publication tersebut untuk direview sebelum diterbitkan atas nama publication itu." },
+        { "type": "list", "ordered": true, "items": [
+          "Baca beberapa tulisan yang sudah terbit di publication itu — pahami topik, gaya, dan panjang tulisan yang biasa mereka terima.",
+          "Cek guidelines/panduan submission publication tersebut kalau tersedia (biasanya dicantumkan di halaman 'About' publication).",
+          "Kirim draf yang sudah matang, bukan draf mentah — editor publication punya keterbatasan waktu untuk membantu merevisi total.",
+          "Bersiap menunggu — proses review bisa memakan waktu, dan tidak semua submission diterima meski kualitasnya baik.",
+          "Kalau ditolak, tanyakan alasan singkat bila memungkinkan, revisi, dan pertimbangkan publication lain yang lebih cocok."
+        ]},
+        { "type": "callout", "title": "Jangan Mengirim ke Banyak Publication Sekaligus untuk Draf yang Sama", "text": "Kebanyakan publication mengharapkan submission eksklusif sampai ada keputusan — kirim ke satu publication dulu, tunggu keputusannya, baru coba yang lain kalau ditolak." }
+      ]
+    },
+    {
+      "id": "33-8",
+      "title": "Membangun Kehadiran di Medium",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Sekali Unggah Lalu Selesai" },
+        { "type": "paragraph", "text": "Satu tulisan bagus jarang langsung membangun audiens. Penulis yang bertahan di Medium biasanya konsisten menulis di niche yang mereka kuasai, mengikuti (follow) dan berinteraksi jujur dengan penulis lain di bidang yang sama, dan menaruh bio profil yang jelas menjelaskan siapa mereka dan apa yang bisa pembaca harapkan." },
+        { "type": "paragraph", "text": "Prinsip niche ini akan dibahas lebih dalam di Level 34 soal newsletter — tapi berlaku sama di sini: penulis dengan fokus topik yang jelas lebih mudah dikenali dan diikuti dibanding penulis yang menulis apa saja tanpa pola." },
+        { "type": "callout", "title": "Cross-Reference", "text": "Distribusi lewat SEO dan headline yang menarik klik akan dibahas lebih dalam di Level 39-40 — keduanya melengkapi strategi distribusi di Medium." }
+      ]
+    },
+    {
+      "id": "33-9",
+      "title": "Kesalahan Umum Menulis di Medium",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menaruh tag yang tidak relevan hanya demi jangkauan, alih-alih tag yang benar-benar mencerminkan isi tulisan.",
+          "Menulis satu paragraf raksasa tanpa jeda visual, mengabaikan kebiasaan scan pembaca digital.",
+          "Mengirim draf mentah/belum direvisi ke publication, berharap editor yang menyelesaikan pekerjaan revisi.",
+          "Hanya fokus pada angka views dan mengabaikan read ratio, padahal read ratio lebih jujur soal kualitas tulisan.",
+          "Mengirim draf yang sama ke banyak publication sekaligus tanpa menunggu keputusan, yang bisa merusak hubungan dengan editor."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Medium hanyalah wadah — voice, hook, dan storytelling dari Level 29-32 tetap fondasi utama. Memahami platform hanya membantu tulisan yang sudah kuat itu ditemukan lebih banyak orang." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-33",
+    "title": "Kuis Level 33",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q33-1",
+        "question": "Perbedaan utama menerbitkan tulisan di profil pribadi vs di sebuah publication Medium adalah…",
+        "options": ["Profil pribadi tidak bisa memakai tag", "Publication melewati proses submission & review editor, dan berpotensi menjangkau audiens yang sudah ada", "Publication hanya untuk penulis berbayar", "Tidak ada perbedaan sama sekali"],
+        "answer": 1,
+        "explanation": "Publication punya editor yang menyeleksi submission, tapi berpotensi memperluas jangkauan lewat audiens yang sudah mengikuti publication itu."
+      },
+      {
+        "id": "q33-2",
+        "question": "Fungsi utama tag di Medium adalah…",
+        "options": ["Menentukan panjang minimal tulisan", "Membantu tulisan ditemukan lewat halaman topik dan proses kurasi", "Menentukan siapa yang boleh membaca tulisan", "Mengganti kebutuhan akan judul"],
+        "answer": 1,
+        "explanation": "Tag mengkategorikan tulisan agar muncul di halaman topik relevan dan membantu kurator menemukannya."
+      },
+      {
+        "id": "q33-3",
+        "question": "Apa yang ditunjukkan oleh 'read ratio' yang tidak ditunjukkan oleh 'views'?",
+        "options": ["Berapa banyak orang yang mengklik judul", "Persentase pembaca yang benar-benar membaca sampai porsi signifikan, bukan cuma membuka halaman", "Jumlah tag yang dipakai", "Panjang tulisan dalam kata"],
+        "answer": 1,
+        "explanation": "Views hanya menghitung klik/pembukaan halaman; read ratio menunjukkan seberapa banyak yang benar-benar bertahan membaca."
+      },
+      {
+        "id": "q33-4",
+        "question": "Format yang dianjurkan untuk tulisan di feed Medium meliputi…",
+        "options": ["Satu paragraf panjang tanpa jeda agar terlihat serius", "Paragraf pendek, subheading berkala, dan highlight secukupnya", "Menebalkan seluruh isi tulisan", "Menghindari subheading agar terlihat seperti esai sastra"],
+        "answer": 1,
+        "explanation": "Paragraf pendek dan subheading memberi jeda visual yang membantu pembaca memindai sebelum berkomitmen membaca penuh."
+      },
+      {
+        "id": "q33-5",
+        "question": "Langkah yang tepat sebelum mengirim tulisan ke sebuah publication adalah…",
+        "options": ["Mengirim draf sementah mungkin agar editor punya banyak ruang revisi", "Membaca tulisan yang sudah terbit di publication itu untuk memahami gaya dan topik yang biasa diterima", "Mengirim ke sebanyak mungkin publication sekaligus", "Menghindari membaca guidelines karena setiap publication sama saja"],
+        "answer": 1,
+        "explanation": "Memahami gaya dan fokus publication lewat tulisan yang sudah terbit meningkatkan peluang diterima dan menghemat waktu editor."
+      },
+      {
+        "id": "q33-6",
+        "question": "Kenapa menaruh tag populer yang tidak relevan dianggap berisiko?",
+        "options": ["Karena tag populer selalu dilarang platform", "Karena bisa merusak kepercayaan pembaca dan peluang kurasi yang menghargai relevansi", "Karena tag populer membuat tulisan otomatis dihapus", "Karena tag tidak berpengaruh apa pun terhadap distribusi"],
+        "answer": 1,
+        "explanation": "Tag yang tidak relevan menyesatkan pembaca dan kurator; relevansi topik lebih dihargai daripada sekadar mengejar jangkauan tag populer."
+      },
+      {
+        "id": "q33-7",
+        "question": "Kenapa penting membangun 'niche' yang konsisten di Medium, bukan menulis topik acak?",
+        "options": ["Karena Medium melarang menulis lebih dari satu topik", "Karena penulis dengan fokus topik jelas lebih mudah dikenali dan diikuti pembaca", "Karena niche menentukan jumlah tag maksimal", "Karena topik acak otomatis dianggap spam"],
+        "answer": 1,
+        "explanation": "Fokus topik yang konsisten membuat pembaca tahu apa yang bisa mereka harapkan, sehingga lebih mudah membangun audiens yang loyal."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-33",
+    "title": "Ujian Level 33",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e33-1",
+        "question": "Seorang penulis menulis esai tentang manajemen keuangan pribadi, lalu menandainya dengan tag 'Fiksi' dan 'Puisi' karena kedua tag itu sedang populer di Medium. Berdasarkan level ini, langkah ini…",
+        "options": ["Tepat, karena tag populer selalu meningkatkan jangkauan apa pun topiknya", "Keliru — tag harus mencerminkan isi tulisan; tag tidak relevan bisa merusak kepercayaan pembaca dan peluang kurasi", "Tidak berpengaruh sama sekali terhadap pembaca atau kurator", "Hanya masalah kecil yang tidak perlu diperbaiki"],
+        "answer": 1,
+        "explanation": "Tag berfungsi membantu pembaca dan kurator menemukan tulisan yang relevan; memakai tag populer yang tidak sesuai isi menyesatkan keduanya."
+      },
+      {
+        "id": "e33-2",
+        "question": "Statistik Medium seorang penulis menunjukkan views tinggi tapi read ratio sangat rendah. Berdasarkan level ini, kemungkinan besar masalahnya ada pada…",
+        "options": ["Jumlah tag yang terlalu sedikit", "Hook atau paragraf pembuka yang menjanjikan sesuatu tapi tidak dipenuhi isi tulisan, atau format yang melelahkan dibaca", "Publication yang dipilih terlalu populer", "Judul yang terlalu pendek"],
+        "answer": 1,
+        "explanation": "Views tinggi tapi read ratio rendah berarti banyak orang mengklik tapi berhenti membaca cepat — biasanya karena hook tidak ditepati atau format tidak nyaman dibaca."
+      },
+      {
+        "id": "e33-3",
+        "question": "Seorang penulis mengirim draf mentah (belum direvisi, banyak kalimat belum jelas) ke sebuah publication besar, berharap editor publication yang menyelesaikan revisinya. Berdasarkan level ini, pendekatan ini…",
+        "options": ["Sudah tepat karena editor memang bertugas merevisi total draf apa pun", "Berisiko ditolak, karena editor publication punya keterbatasan waktu dan mengharapkan draf yang sudah cukup matang", "Tidak masalah selama topiknya menarik", "Merupakan cara terbaik untuk lolos kurasi"],
+        "answer": 1,
+        "explanation": "Editor publication menyeleksi berdasarkan draf yang diterima; mengirim draf mentah menurunkan peluang diterima karena dianggap belum siap terbit."
+      },
+      {
+        "id": "e33-4",
+        "question": "Dua paragraf berikut membahas hal sama, tapi satu ditulis sebagai satu blok panjang tanpa jeda dan satu lagi dipecah jadi beberapa paragraf pendek dengan baris kosong di antaranya. Berdasarkan level ini, format kedua lebih cocok untuk feed Medium karena…",
+        "options": ["Format kedua mengubah isi menjadi lebih ringkas", "Format kedua memberi jeda visual yang membantu pembaca memindai sebelum berkomitmen membaca penuh, sesuai kebiasaan baca digital", "Format kedua otomatis dikurasi oleh Medium", "Format pertama dilarang oleh kebijakan Medium"],
+        "answer": 1,
+        "explanation": "Paragraf pendek dengan jeda visual sesuai kebiasaan scan pembaca digital, meningkatkan kenyamanan baca tanpa mengubah isi tulisan."
+      },
+      {
+        "id": "e33-5",
+        "question": "Seorang penulis baru mengirim draf yang sama secara bersamaan ke tiga publication berbeda, berharap peluang diterima lebih besar. Berdasarkan etika submission di level ini, tindakan ini berisiko…",
+        "options": ["Meningkatkan peluang diterima tanpa efek samping apa pun", "Merusak hubungan dengan editor karena kebanyakan publication mengharapkan submission eksklusif sampai ada keputusan", "Dianggap ilegal oleh Medium", "Membuat tulisan otomatis dikurasi oleh ketiga publication"],
+        "answer": 1,
+        "explanation": "Mengirim ke banyak publication sekaligus tanpa menunggu keputusan melanggar ekspektasi eksklusivitas submission dan bisa merusak hubungan profesional dengan editor."
+      },
+      {
+        "id": "e33-6",
+        "question": "Seorang penulis menulis tentang topik berbeda-beda setiap minggu — kadang resep masakan, kadang analisis politik, kadang puisi cinta — tanpa pola yang jelas. Ia bingung kenapa followernya di Medium tidak bertambah. Berdasarkan level ini, kemungkinan penyebabnya adalah…",
+        "options": ["Medium membatasi jumlah follower per penulis", "Tidak adanya niche yang konsisten membuat pembaca sulit tahu apa yang bisa mereka harapkan dari profilnya", "Ia menulis terlalu sering", "Followernya tidak bertambah karena ia tidak memakai tag sama sekali"],
+        "answer": 1,
+        "explanation": "Topik yang berpindah-pindah tanpa pola membuat pembaca kesulitan mengenali fokus penulis, sehingga lebih sulit membangun audiens yang loyal."
+      },
+      {
+        "id": "e33-7",
+        "question": "Seorang penulis menghighlight (menebalkan) hampir seluruh paragraf dalam tulisannya karena merasa 'semua bagian ini penting'. Berdasarkan prinsip format di level ini, kebiasaan ini…",
+        "options": ["Sangat dianjurkan karena membantu pembaca memahami semua poin", "Menghilangkan fungsi highlight itu sendiri — kalau semua ditebalkan, tidak ada yang benar-benar menonjol", "Wajib dilakukan menurut pedoman resmi Medium", "Tidak berpengaruh pada pengalaman baca sama sekali"],
+        "answer": 1,
+        "explanation": "Highlight berfungsi menonjolkan kalimat kunci; menebalkan semuanya membuat penekanan kehilangan makna dan justru melelahkan mata pembaca."
+      },
+      {
+        "id": "e33-8",
+        "question": "Sebuah tulisan tentang produktivitas kerja remote dikirim ke publication yang selama ini fokus menerbitkan tulisan tentang fiksi pendek dan puisi. Tulisan ditolak. Berdasarkan level ini, kemungkinan besar alasannya adalah…",
+        "options": ["Kualitas tulisannya pasti buruk", "Topik dan gaya tulisan tidak sesuai fokus editorial publication tersebut", "Publication itu tidak menerima submission dari siapa pun", "Tulisan terlalu pendek untuk publication apa pun"],
+        "answer": 1,
+        "explanation": "Setiap publication punya fokus topik dan gaya editorial sendiri; ketidakcocokan topik adalah alasan umum penolakan, terlepas dari kualitas tulisan secara umum."
+      },
+      {
+        "id": "e33-9",
+        "question": "Seorang penulis menerima penolakan dari sebuah publication. Berdasarkan langkah yang disarankan level ini, respons paling produktif adalah…",
+        "options": ["Berhenti menulis di Medium sepenuhnya", "Menanyakan alasan singkat bila memungkinkan, merevisi, dan mempertimbangkan publication lain yang lebih cocok", "Mengirim ulang draf yang sama persis ke publication yang sama berkali-kali", "Menuduh editor tidak kompeten di kolom komentar publik"],
+        "answer": 1,
+        "explanation": "Penolakan adalah bagian normal dari proses; mencari umpan balik, merevisi, dan mencoba publication lain yang lebih sesuai adalah respons yang lebih produktif."
+      },
+      {
+        "id": "e33-10",
+        "question": "Seorang penulis membandingkan dua strategi: (A) menulis judul dan tag yang tidak relevan demi klik sebanyak mungkin, (B) menulis hook yang jujur (Level 31) dan tag yang sesuai isi, meski awalnya klik lebih sedikit. Berdasarkan konsep read ratio dan kurasi di level ini, strategi yang lebih berkelanjutan adalah…",
+        "options": ["Strategi A, karena views yang tinggi selalu berarti kesuksesan", "Strategi B, karena read ratio yang sehat dan relevansi tag lebih dihargai kurator serta membangun kepercayaan pembaca jangka panjang", "Keduanya sama saja secara jangka panjang", "Strategi A, karena Medium hanya menilai jumlah views"],
+        "answer": 1,
+        "explanation": "Read ratio yang rendah akibat hook/tag yang menyesatkan justru merugikan jangka panjang; kejujuran dan relevansi membangun kepercayaan yang lebih berkelanjutan."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Medium Help Center", "publisher": "Medium", "url": "https://help.medium.com", "note": "Rujukan resmi tentang mekanisme publication, tag, kurasi, dan statistik (views/reads/read ratio)." },
+    { "title": "How Users Read on the Web", "author": "Jakob Nielsen", "publisher": "Nielsen Norman Group", "note": "Dasar prinsip memformat tulisan untuk kebiasaan scan pembaca digital, dipakai pada bagian format feed." },
+    { "title": "On Writing Well", "author": "William Zinsser", "year": 2006, "publisher": "Harper Perennial", "note": "Rujukan tentang kejelasan dan keringkasan tulisan yang mendukung keterbacaan di platform digital." },
+    { "title": "Writing Tools: 55 Essential Strategies for Every Writer", "author": "Roy Peter Clark", "year": 2006, "publisher": "Little, Brown and Company", "note": "Rujukan tentang teknik menyusun paragraf pendek dan ritme baca yang nyaman." }
+  ]
+}

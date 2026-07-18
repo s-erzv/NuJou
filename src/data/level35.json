@@ -1,0 +1,269 @@
+{
+  "id": 35,
+  "slug": "opini-op-ed",
+  "title": "Menulis Opini & Op-Ed",
+  "subtitle": "Argumen di depan, bukan di akhir",
+  "goal": "Memahami struktur op-ed yang membalik kebiasaan akademik (thesis di depan), memakai news peg untuk relevansi waktu, menyesuaikan tulisan dengan batasan kata media, dan memahami langkah realistis pitching ke media Indonesia seperti Kompas, Tempo, The Conversation Indonesia, dan Detik.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "35-1",
+      "title": "Op-Ed Membalik Kebiasaan Akademikmu",
+      "blocks": [
+        { "type": "heading", "text": "Thesis di Depan, Bukan di Bab Kesimpulan" },
+        { "type": "paragraph", "text": "Kalau kamu terbiasa menulis akademik (Level 1-28), kamu terlatih membangun argumen perlahan: latar belakang, tinjauan pustaka, metode, baru kesimpulan di akhir. Op-ed (opinion editorial) bekerja dengan logika terbalik: pendirianmu (thesis) harus sudah jelas di paragraf pertama atau kedua — pembaca media harus langsung tahu apa yang kamu perjuangkan, sebelum mereka memutuskan meluangkan waktu membaca alasannya." },
+        { "type": "paragraph", "text": "Ini bukan berarti op-ed dangkal — ia tetap butuh bukti dan penalaran kuat, hanya saja urutannya dibalik: klaim dulu, baru pembuktian. Editor media punya ruang terbatas dan pembaca punya kesabaran terbatas; keduanya tidak akan menunggu sampai paragraf keenam untuk tahu kamu sebenarnya pro atau kontra terhadap sesuatu." },
+        { "type": "callout", "title": "Uji Cepat", "text": "Coba tutup tulisanmu setelah paragraf kedua. Kalau pembaca masih belum tahu posisimu terhadap isu itu, op-ed-mu masih memakai struktur akademik — perlu dibalik." }
+      ]
+    },
+    {
+      "id": "35-2",
+      "title": "Anatomi Struktur Op-Ed",
+      "blocks": [
+        { "type": "heading", "text": "Lima Bagian yang Biasa Dipakai" },
+        { "type": "paragraph", "text": "Meski setiap media punya gaya sedikit berbeda, kebanyakan op-ed yang efektif mengikuti kerangka berikut:" },
+        {
+          "type": "table",
+          "headers": ["Bagian", "Isi"],
+          "rows": [
+            ["Hook + News Peg", "Kaitan dengan peristiwa terkini yang membuat topik ini relevan SEKARANG (lihat bagian selanjutnya)"],
+            ["Thesis", "Pendirianmu dinyatakan jelas — apa yang kamu ingin pembaca yakini/lakukan setelah membaca"],
+            ["Argumen & Bukti", "2-3 alasan utama, masing-masing didukung data/contoh konkret, bukan sekadar opini tanpa dasar"],
+            ["Mengakui Counter-Argument", "Menyebutkan pandangan yang berlawanan secara jujur, lalu menjelaskan kenapa posisimu tetap lebih kuat"],
+            ["Ajakan/Penutup", "Kesimpulan tegas — apa yang seharusnya terjadi, bukan sekadar 'menarik untuk didiskusikan lebih lanjut'"]
+          ]
+        },
+        { "type": "callout", "title": "Beda dengan Essay Akademik", "text": "Essay akademik boleh berakhir dengan 'penelitian lebih lanjut diperlukan'. Op-ed hampir tidak pernah begitu — pembaca media mengharapkan penulis benar-benar berpihak dan berani menyimpulkan." }
+      ]
+    },
+    {
+      "id": "35-3",
+      "title": "News Peg: Kenapa Sekarang?",
+      "blocks": [
+        { "type": "heading", "text": "Relevansi Waktu adalah Tiketmu Masuk" },
+        { "type": "paragraph", "text": "'News peg' adalah kaitan antara tulisanmu dan peristiwa yang sedang jadi perhatian publik — kebijakan baru, kejadian viral, hari peringatan tertentu, atau laporan yang baru dirilis. Editor media menerima ratusan pitch opini setiap minggu; topik yang terikat pada sesuatu yang sedang terjadi jauh lebih mudah dipertimbangkan daripada opini umum tanpa alasan kenapa harus dimuat SEKARANG." },
+        { "type": "paragraph", "text": "News peg tidak harus berupa berita besar nasional — bisa juga laporan riset yang baru terbit, sebuah RUU yang sedang dibahas, atau bahkan tren media sosial yang sedang ramai dan relevan dengan bidang keahlianmu." },
+        { "type": "callout", "title": "Tanpa News Peg, Opini Terasa Mengambang", "text": "Opini tentang 'pentingnya literasi keuangan' tanpa kaitan apa pun akan terasa seperti bisa ditulis kapan saja — bandingkan dengan opini yang sama, dikaitkan dengan laporan OJK yang baru dirilis minggu itu tentang lonjakan pinjaman online bermasalah." }
+      ]
+    },
+    {
+      "id": "35-4",
+      "title": "Batasan Kata dan Kenapa Itu Penting Ditaati",
+      "blocks": [
+        { "type": "heading", "text": "Media Punya Ruang Terbatas, Bukan Sekadar Formalitas" },
+        { "type": "paragraph", "text": "Media cetak dan online umumnya memberi panduan jumlah kata untuk kolom opini — sering berkisar di angka ratusan hingga sekitar seribu kata, tergantung media dan rubriknya. Angka pastinya berbeda-beda dan bisa berubah, jadi selalu cek pedoman penulisan/submission terbaru dari media yang kamu tuju sebelum menulis, bukan menebak-nebak." },
+        { "type": "paragraph", "text": "Menaati batas kata bukan sekadar sopan santun — ia sinyal bahwa kamu memahami cara kerja media itu dan menghormati waktu editor. Naskah yang jauh melebihi batas biasanya langsung dipotong sepihak (berisiko merusak argumenmu) atau ditolak tanpa dibaca sampai selesai." },
+        { "type": "callout", "title": "Latihan Kompresi", "text": "Kalau draftmu kelebihan 300 kata dari batas, jangan cuma memotong kalimat penutup — cari paragraf argumen yang paling lemah atau paling repetitif, itulah yang paling pertama dibuang." }
+      ]
+    },
+    {
+      "id": "35-5",
+      "title": "Mengenal Media Tujuan di Indonesia",
+      "blocks": [
+        { "type": "heading", "text": "Setiap Media Punya Karakter Sendiri" },
+        { "type": "paragraph", "text": "Sebelum menulis, kenali dulu karakter media yang kamu tuju — bacaan opini yang pernah mereka muat adalah cara paling akurat memahami gaya dan fokus mereka, jauh lebih andal daripada asumsi umum." },
+        {
+          "type": "table",
+          "headers": ["Media", "Karakter Umum"],
+          "rows": [
+            ["Kompas", "Rubrik opini di media cetak dan online dengan pembaca luas lintas bidang; umumnya menghargai argumen yang matang dan bahasa yang tertata."],
+            ["Tempo", "Dikenal dengan opini yang tajam dan kritis, sering terkait isu politik, hukum, dan kebijakan publik."],
+            ["The Conversation Indonesia", "Secara eksplisit ditujukan untuk akademisi/peneliti yang menulis untuk publik awam berbasis riset; mensyaratkan penulis mencantumkan keahlian dan potensi conflict of interest, serta punya pedoman pitching yang dipublikasikan terbuka."],
+            ["Detik", "Menjangkau pembaca online yang sangat luas dengan berbagai rubrik opini/kolom pembaca; kecepatan dan relevansi dengan isu yang sedang viral cenderung dihargai."]
+          ]
+        },
+        { "type": "callout", "title": "Selalu Cek Pedoman Terbaru", "text": "Detail seperti alamat email pengiriman, format naskah, dan batas kata bisa berubah dari waktu ke waktu — jangan mengandalkan informasi lama, selalu cek halaman pedoman/'tentang kami' media itu langsung sebelum mengirim." }
+      ]
+    },
+    {
+      "id": "35-6",
+      "title": "Before/After: Dari Build-Up Akademik ke Thesis di Depan",
+      "blocks": [
+        { "type": "heading", "text": "Argumen Sama, Urutan Dibalik" },
+        { "type": "paragraph", "text": "Bandingkan paragraf pembuka untuk topik yang sama: kebijakan kerja 4 hari seminggu." },
+        { "type": "quote", "text": "VERSI AKADEMIK (build-up):\n\"Berbagai penelitian mengenai produktivitas kerja telah dilakukan di banyak negara. Beberapa di antaranya membahas dampak jam kerja terhadap kesejahteraan karyawan. Salah satu isu yang belakangan mendapat perhatian adalah wacana penerapan kerja empat hari seminggu, yang akan dibahas lebih lanjut dalam tulisan ini.\"", "source": "Contoh build-up akademik" },
+        { "type": "quote", "text": "VERSI OP-ED (thesis di depan):\n\"Pemerintah harus mulai uji coba kebijakan kerja empat hari seminggu tahun ini — bukan nanti, bukan setelah kajian lanjutan, tahun ini. Sementara negara lain sudah membuktikan produktivitas tidak turun, kita masih berkutat dengan wacana yang sama sejak lima tahun lalu.\"", "source": "Contoh thesis di depan" },
+        { "type": "callout", "title": "Bedanya", "text": "Versi kedua langsung menyatakan posisi ('harus mulai uji coba tahun ini') dan menyertakan news peg implisit (perbandingan dengan negara lain yang sudah membuktikan). Pembaca tahu persis apa yang diperjuangkan penulis sejak kalimat pertama." }
+      ]
+    },
+    {
+      "id": "35-7",
+      "title": "Mengakui Counter-Argument Tanpa Melemahkan Posisimu",
+      "blocks": [
+        { "type": "heading", "text": "Kejujuran yang Justru Memperkuat Argumen" },
+        { "type": "paragraph", "text": "Op-ed yang kuat tidak berpura-pura tidak ada pandangan berlawanan. Justru menyebutkan argumen lawan secara jujur — lalu menjelaskan kenapa posisimu tetap lebih kuat — membuat tulisanmu terasa lebih dipercaya daripada op-ed yang terdengar seperti hanya mendengar satu sisi." },
+        { "type": "paragraph", "text": "Polanya: 'Memang benar [argumen lawan], tapi [alasan kenapa argumenmu tetap lebih kuat/relevan].' Hindari meniru argumen lawan dalam bentuk yang paling lemah (straw man) hanya supaya mudah dipatahkan — pembaca yang kritis akan menyadarinya dan justru meragukan keseluruhan tulisanmu." },
+        { "type": "callout", "title": "Cross-Reference", "text": "Sama seperti storytelling di Level 32 yang butuh 'turn' untuk hidup, op-ed butuh ketegangan dari counter-argument yang jujur — tanpa itu, tulisan terasa satu dimensi." }
+      ]
+    },
+    {
+      "id": "35-8",
+      "title": "Proses Pitching yang Realistis",
+      "blocks": [
+        { "type": "heading", "text": "Menulis Naskah Jadi, Bukan Sekadar Ide" },
+        { "type": "paragraph", "text": "Berbeda dari beberapa media internasional yang menerima 'pitch' berupa ringkasan ide sebelum naskah lengkap ditulis, kebanyakan media opini di Indonesia mengharapkan naskah yang sudah selesai dikirim langsung — bukan sekadar proposal ide. Pengecualian umumnya adalah media yang secara eksplisit meminta proses pitching lebih dulu, seperti pedoman resmi The Conversation." },
+        { "type": "list", "ordered": true, "items": [
+          "Tulis naskah lengkap sesuai batas kata media tujuan, bukan draf setengah jadi.",
+          "Sertakan email pengantar singkat: siapa kamu, kenapa kamu relevan menulis topik ini, dan ringkasan satu-dua kalimat isi tulisan.",
+          "Kirim ke satu media dulu sesuai alamat/format yang mereka minta, tunggu keputusan sebelum mengirim ke media lain — sama seperti etika submission publication di Level 33.",
+          "Siapkan diri untuk revisi dari editor — op-ed yang dimuat sering mengalami penyuntingan, termasuk pemotongan untuk menyesuaikan ruang.",
+          "Kalau ditolak, jangan menganggapnya penilaian atas kualitas dirimu sebagai penulis — sering kali murni soal ruang, timing, atau kesesuaian fokus rubrik saat itu."
+        ]}
+      ]
+    },
+    {
+      "id": "35-9",
+      "title": "Kesalahan Umum Menulis Opini & Op-Ed",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis dengan struktur build-up akademik, menunda thesis sampai paragraf-paragraf terakhir.",
+          "Mengirim opini tanpa news peg yang jelas, sehingga terasa bisa dimuat kapan saja dan tidak mendesak.",
+          "Mengabaikan batas kata media tujuan, berharap editor yang akan memangkas naskah dengan hati-hati.",
+          "Membangun straw man dari argumen lawan alih-alih menghadapi versi terkuat dari pandangan berlawanan.",
+          "Mengirim naskah yang sama ke banyak media sekaligus tanpa menunggu keputusan, melanggar etika submission media."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Op-ed adalah tempat kamu berani menyatakan pendirian di depan, dengan bukti yang menopangnya di belakang — kebalikan tepat dari kebiasaan akademik yang selama ini kamu latih. Level 36 akan menunjukkan prinsip serupa (kredibilitas tanpa bertele-tele) dalam konteks personal branding di LinkedIn." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-35",
+    "title": "Kuis Level 35",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q35-1",
+        "question": "Perbedaan struktural utama antara op-ed dan tulisan akademik adalah…",
+        "options": ["Op-ed tidak membutuhkan bukti sama sekali", "Op-ed menempatkan thesis/pendirian di depan, bukan di akhir setelah build-up panjang", "Tulisan akademik selalu lebih pendek dari op-ed", "Op-ed tidak boleh membahas kebijakan publik"],
+        "answer": 1,
+        "explanation": "Op-ed membalik kebiasaan akademik — pendirian penulis harus jelas sejak awal, karena pembaca media dan editor tidak menunggu sampai akhir untuk tahu posisi penulis."
+      },
+      {
+        "id": "q35-2",
+        "question": "Apa yang dimaksud 'news peg' dalam op-ed?",
+        "options": ["Judul yang menarik perhatian", "Kaitan antara topik tulisan dan peristiwa yang sedang jadi perhatian publik saat ini", "Nama media yang dituju", "Jumlah kata maksimal yang diizinkan"],
+        "answer": 1,
+        "explanation": "News peg memberi alasan kenapa topik itu relevan dibahas SEKARANG, mengaitkannya dengan peristiwa/isu yang sedang berlangsung."
+      },
+      {
+        "id": "q35-3",
+        "question": "Kenapa penting mengecek pedoman batas kata media tujuan sebelum menulis op-ed?",
+        "options": ["Karena batas kata sama di semua media dan tidak pernah berubah", "Karena media punya ruang terbatas, dan pedoman bisa berbeda serta berubah antar media/waktu", "Karena op-ed tidak boleh punya batas kata", "Karena batas kata hanya berlaku untuk media cetak"],
+        "answer": 1,
+        "explanation": "Setiap media punya kebijakan berbeda dan bisa berubah; selalu cek pedoman terbaru langsung dari media tersebut, bukan mengandalkan asumsi atau informasi lama."
+      },
+      {
+        "id": "q35-4",
+        "question": "Kenapa mengakui counter-argument secara jujur dianggap memperkuat, bukan melemahkan, sebuah op-ed?",
+        "options": ["Karena aturan media mewajibkannya", "Karena itu membuat tulisan terasa lebih dipercaya dibanding op-ed yang terkesan hanya mendengar satu sisi", "Karena counter-argument selalu lebih penting dari argumen utama", "Karena tanpa counter-argument, op-ed tidak akan lolos batas kata"],
+        "answer": 1,
+        "explanation": "Mengakui pandangan berlawanan secara jujur menunjukkan penulis memahami isu secara menyeluruh, membuat argumennya lebih kredibel di mata pembaca kritis."
+      },
+      {
+        "id": "q35-5",
+        "question": "The Conversation Indonesia secara khusus dikenal menuntut penulis untuk…",
+        "options": ["Menulis secara anonim", "Menyertakan keahlian dan potensi conflict of interest karena berfokus pada penulisan berbasis riset akademik untuk publik awam", "Mengirim naskah tanpa batas kata sama sekali", "Menulis hanya dalam bahasa Inggris"],
+        "answer": 1,
+        "explanation": "The Conversation berfokus pada tulisan berbasis riset oleh akademisi/peneliti, dan mensyaratkan transparansi keahlian serta potensi konflik kepentingan."
+      },
+      {
+        "id": "q35-6",
+        "question": "Kesalahan 'straw man' dalam op-ed berarti…",
+        "options": ["Menyebutkan argumen lawan dalam bentuk paling lemah agar mudah dipatahkan", "Menyertakan terlalu banyak data pendukung", "Menulis dengan kalimat yang terlalu panjang", "Mengirim naskah ke media yang salah"],
+        "answer": 0,
+        "explanation": "Straw man adalah menyederhanakan argumen lawan menjadi versi terlemahnya supaya mudah dikalahkan — pembaca kritis biasanya menyadari taktik ini dan meragukan tulisan secara keseluruhan."
+      },
+      {
+        "id": "q35-7",
+        "question": "Berdasarkan level ini, sikap yang tepat kalau naskah op-ed ditolak sebuah media adalah…",
+        "options": ["Menganggapnya penilaian mutlak atas kualitas diri sebagai penulis", "Menyadari penolakan sering soal ruang, timing, atau kesesuaian fokus rubrik, bukan semata kualitas tulisan", "Berhenti menulis opini selamanya", "Mengirim naskah yang sama tanpa perubahan ke media yang sama berulang kali"],
+        "answer": 1,
+        "explanation": "Penolakan op-ed sering dipengaruhi faktor di luar kualitas tulisan seperti ketersediaan ruang dan kesesuaian waktu, bukan semata penilaian personal."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-35",
+    "title": "Ujian Level 35",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e35-1",
+        "question": "Sebuah draf op-ed dimulai dengan tiga paragraf latar belakang sejarah kebijakan pendidikan, dan baru di paragraf keempat menyatakan 'oleh karena itu, kurikulum ini harus dihentikan'. Berdasarkan level ini, masalah struktural draf ini adalah…",
+        "options": ["Latar belakang sejarah dilarang dalam op-ed", "Thesis ditunda terlalu lama; op-ed seharusnya menyatakan posisi sejak paragraf pertama atau kedua", "Draf ini terlalu pendek", "Draf ini seharusnya tidak menyebutkan kesimpulan sama sekali"],
+        "answer": 1,
+        "explanation": "Op-ed membalik struktur akademik — pendirian penulis harus jelas di awal, bukan ditunda sampai paragraf keempat seperti build-up akademik."
+      },
+      {
+        "id": "e35-2",
+        "question": "Seorang penulis ingin mengirim opini tentang pentingnya literasi digital, tanpa mengaitkannya dengan kejadian atau data terkini apa pun. Berdasarkan konsep news peg, risiko terbesar naskah ini adalah…",
+        "options": ["Naskah pasti akan dimuat karena topiknya penting", "Naskah terasa bisa dimuat kapan saja, sehingga editor tidak punya alasan mendesak untuk memprioritaskannya sekarang", "Naskah menjadi terlalu pendek", "News peg tidak relevan untuk topik literasi digital"],
+        "answer": 1,
+        "explanation": "Tanpa news peg, opini terasa mengambang dan tidak mendesak — editor lebih memprioritaskan tulisan yang terikat pada isu yang sedang relevan saat itu."
+      },
+      {
+        "id": "e35-3",
+        "question": "Seorang penulis mengirim naskah op-ed sepanjang 1800 kata ke media yang pedomannya meminta maksimal 900 kata, dengan asumsi 'editor akan memotong bagian yang tidak perlu'. Berdasarkan level ini, risiko dari pendekatan ini adalah…",
+        "options": ["Editor pasti akan memotong dengan sangat hati-hati sesuai maksud penulis", "Naskah berisiko ditolak tanpa dibaca sampai selesai, atau dipotong sepihak dengan cara yang bisa merusak argumen penulis", "Tidak ada risiko karena panjang naskah tidak berpengaruh", "Media akan otomatis menaikkan batas kata untuk naskah ini"],
+        "answer": 1,
+        "explanation": "Mengabaikan batas kata berisiko naskah ditolak langsung atau dipotong sepihak oleh editor tanpa mempertimbangkan alur argumen yang diinginkan penulis."
+      },
+      {
+        "id": "e35-4",
+        "question": "Sebuah op-ed tentang kebijakan subsidi menyebutkan argumen lawan sebagai 'mereka yang tidak peduli rakyat kecil', tanpa menjelaskan alasan substantif di balik pandangan itu. Berdasarkan level ini, ini adalah contoh kesalahan…",
+        "options": ["News peg yang lemah", "Straw man — menyederhanakan argumen lawan ke bentuk terlemah/tidak adil agar mudah dipatahkan", "Batas kata yang terlampaui", "Thesis yang tidak jelas"],
+        "answer": 1,
+        "explanation": "Menyebut argumen lawan secara tidak adil tanpa substansi adalah straw man, yang justru bisa membuat pembaca kritis meragukan keseluruhan argumen penulis."
+      },
+      {
+        "id": "e35-5",
+        "question": "Seorang akademisi ingin mengirim opini berbasis hasil risetnya ke sebuah media yang secara eksplisit meminta penulis mencantumkan keahlian dan potensi conflict of interest sebelum naskah ditinjau. Media dengan karakter ini yang paling sesuai deskripsi tersebut adalah…",
+        "options": ["Detik", "The Conversation Indonesia", "Kompas cetak", "Tidak ada media Indonesia dengan kebijakan seperti itu"],
+        "answer": 1,
+        "explanation": "The Conversation dikenal secara eksplisit mensyaratkan penulis mencantumkan keahlian dan potensi konflik kepentingan, sesuai fokusnya pada tulisan berbasis riset akademik untuk publik awam."
+      },
+      {
+        "id": "e35-6",
+        "question": "Seorang penulis mengirim naskah op-ed yang identik ke tiga media berbeda secara bersamaan tanpa memberi tahu media mana pun, lalu satu media memutuskan memuatnya sementara ia belum membatalkan pengiriman ke dua media lain. Berdasarkan etika pitching di level ini, kesalahan penulis adalah…",
+        "options": ["Tidak ada kesalahan, ini strategi yang dianjurkan agar peluang dimuat lebih besar", "Mengirim naskah yang sama ke banyak media sekaligus tanpa menunggu keputusan melanggar etika submission, mirip prinsip yang sama di Level 33 untuk publication Medium", "Kesalahannya hanya soal jumlah media yang terlalu sedikit", "Kesalahannya karena naskah terlalu pendek untuk tiga media sekaligus"],
+        "answer": 1,
+        "explanation": "Sama seperti submission ke publication Medium, mengirim naskah yang sama ke banyak media opini sekaligus tanpa menunggu keputusan melanggar etika dan bisa merusak hubungan dengan editor."
+      },
+      {
+        "id": "e35-7",
+        "question": "Dua kalimat pembuka op-ed tentang RUU tertentu: (A) 'Berbagai pandangan mengenai RUU ini telah muncul di masyarakat dalam beberapa waktu terakhir.' (B) 'RUU ini harus ditolak DPR minggu ini — bukan direvisi, ditolak sepenuhnya, karena pasal 12-nya membuka celah yang sudah terbukti disalahgunakan di kasus serupa tahun lalu.' Berdasarkan prinsip thesis-di-depan, kalimat yang lebih sesuai struktur op-ed adalah…",
+        "options": ["Kalimat A, karena lebih netral dan aman", "Kalimat B, karena langsung menyatakan posisi tegas disertai alasan awal yang konkret", "Keduanya sama-sama sesuai struktur op-ed", "Kalimat A, karena op-ed harus dimulai dengan netralitas seperti tulisan akademik"],
+        "answer": 1,
+        "explanation": "Kalimat B langsung menyatakan posisi tegas ('harus ditolak') dengan alasan awal yang konkret — sesuai prinsip op-ed yang menempatkan thesis di depan, bukan pernyataan netral yang menunda posisi."
+      },
+      {
+        "id": "e35-8",
+        "question": "Seorang penulis pemula menerima penolakan op-ed dari sebuah media dan langsung menyimpulkan 'saya tidak berbakat menulis opini'. Berdasarkan pandangan level ini, respons yang lebih tepat adalah…",
+        "options": ["Menerima kesimpulan itu dan berhenti mencoba", "Mempertimbangkan bahwa penolakan sering dipengaruhi faktor ruang, timing, atau kesesuaian rubrik saat itu, lalu mencoba merevisi atau mengirim ke media lain yang lebih sesuai", "Mengirim naskah yang sama tanpa revisi ke media itu berulang kali sampai diterima", "Menyalahkan editor secara terbuka di media sosial"],
+        "answer": 1,
+        "explanation": "Penolakan bukan indikator mutlak kualitas penulis; faktor eksternal seperti ruang dan kesesuaian rubrik sering berperan, sehingga revisi dan mencoba media lain lebih produktif."
+      },
+      {
+        "id": "e35-9",
+        "question": "Seorang penulis menyusun op-ed dengan argumen kuat, tapi menutupnya dengan kalimat 'ini adalah topik yang menarik untuk didiskusikan lebih lanjut'. Berdasarkan level ini, penutup ini kurang sesuai karakter op-ed karena…",
+        "options": ["Kalimat itu terlalu panjang", "Op-ed umumnya menuntut kesimpulan tegas soal apa yang seharusnya terjadi, bukan sekadar membuka diskusi tanpa arah", "Penutup op-ed harus selalu berupa pertanyaan", "Kalimat itu seharusnya diletakkan di paragraf pertama"],
+        "answer": 1,
+        "explanation": "Op-ed mengharapkan penulis berani menyimpulkan dan menyatakan apa yang seharusnya terjadi, bukan menutup dengan pernyataan mengambang seperti tulisan akademik yang menunda kesimpulan."
+      },
+      {
+        "id": "e35-10",
+        "question": "Seorang penulis diminta merevisi op-ednya karena kelebihan 400 kata dari batas media tujuan. Ia mempertimbangkan dua opsi: (A) memotong kalimat penutup saja, (B) mencari dan memotong paragraf argumen yang paling lemah/repetitif. Berdasarkan saran kompresi di level ini, opsi yang lebih tepat adalah…",
+        "options": ["Opsi A, karena penutup selalu bagian yang paling boleh dipotong", "Opsi B, karena memotong argumen paling lemah/repetitif menjaga kekuatan keseluruhan argumen dibanding sekadar memotong penutup", "Keduanya sama-sama tidak akan menyelesaikan masalah panjang naskah", "Naskah sebaiknya dikirim apa adanya tanpa revisi"],
+        "answer": 1,
+        "explanation": "Kompresi yang efektif berarti mengidentifikasi bagian paling lemah/repetitif untuk dipotong, bukan sekadar memangkas penutup yang justru penting untuk menegaskan posisi penulis."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "On Writing Well", "author": "William Zinsser", "year": 2006, "publisher": "Harper Perennial", "note": "Rujukan tentang kejelasan argumen dan keringkasan yang relevan untuk penulisan opini." },
+    { "title": "Writing Tools: 55 Essential Strategies for Every Writer", "author": "Roy Peter Clark", "year": 2006, "publisher": "Little, Brown and Company", "note": "Rujukan tentang teknik menyusun argumen dan struktur jurnalistik termasuk lede yang tegas." },
+    { "title": "The Elements of Style", "author": "William Strunk Jr., E. B. White", "publisher": "Longman", "note": "Prinsip keringkasan yang mendukung latihan kompresi naskah sesuai batas kata media." },
+    { "title": "Pitching Guide for Authors", "author": "The Conversation", "publisher": "The Conversation", "note": "Rujukan tentang proses pitching dan pedoman penulisan opini berbasis riset akademik untuk publik awam." }
+  ]
+}

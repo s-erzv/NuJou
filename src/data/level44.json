@@ -1,0 +1,248 @@
+{
+  "id": 44,
+  "slug": "writers-block",
+  "title": "Menaklukkan Writer's Block",
+  "subtitle": "Diagnosis dulu, baru obati",
+  "goal": "Bisa mendiagnosis penyebab sebenarnya di balik writer's block (bukan menganggapnya satu masalah tunggal), memisahkan proses menulis draf dari proses menyunting, menulis 'draf jelek pertama' tanpa rasa bersalah, dan memakai freewriting sebagai jalan keluar konkret ketika buntu.",
+  "estimatedMinutes": 30,
+  "sections": [
+    {
+      "id": "44-1",
+      "title": "Writer's Block Bukan Satu Penyakit",
+      "blocks": [
+        { "type": "heading", "text": "Gejala, Bukan Diagnosis" },
+        { "type": "paragraph", "text": "'Writer's block' sering dipakai sebagai satu label besar untuk segala macam kebuntuan menulis — padahal di baliknya ada penyebab yang sangat berbeda-beda, dan masing-masing butuh solusi yang berbeda pula. Menyebut semuanya 'writer's block' seperti menyebut semua rasa sakit di badan 'sakit' tanpa membedakan sakit kepala dari sakit perut — kamu jadi sulit mengobatinya karena belum tahu apa yang sebenarnya terjadi." },
+        { "type": "paragraph", "text": "Langkah pertama menaklukkan kebuntuan bukan langsung mencari 'trik supaya lancar menulis lagi', tapi berhenti sejenak dan bertanya: kebuntuan ini sebenarnya datang dari mana?" },
+        { "type": "callout", "title": "Definisi Kerja", "text": "Writer's block adalah istilah umum untuk ketidakmampuan melanjutkan tulisan — tapi di baliknya selalu ada penyebab spesifik: rasa takut, pikiran yang belum jernih, kurangnya bahan, atau mencampur proses menulis dengan menyunting. Obatnya berbeda untuk tiap penyebab." }
+      ]
+    },
+    {
+      "id": "44-2",
+      "title": "Empat Penyebab Paling Umum",
+      "blocks": [
+        { "type": "heading", "text": "Diagnosis Sebelum Mengobati" },
+        { "type": "paragraph", "text": "Sebagian besar kebuntuan menulis bisa ditelusuri ke salah satu (atau kombinasi) dari empat akar berikut. Mengenali yang mana yang sedang kamu alami adalah setengah dari solusinya." },
+        {
+          "type": "table",
+          "headers": ["Penyebab", "Ciri yang Terlihat", "Solusi yang Sesuai"],
+          "rows": [
+            ["Ketakutan / perfeksionisme", "Sudah tahu apa yang mau ditulis, tapi takut hasilnya jelek atau dinilai buruk orang lain", "Menulis 'draf jelek pertama' — izinkan diri menulis buruk dulu, perbaiki nanti (lihat 44-4)"],
+            ["Pikiran belum jernih", "Bingung sendiri mau menulis apa, gagasan masih kabur di kepala", "Freewriting untuk memancing dan merapikan pikiran sebelum menulis formal (lihat 44-6, Level 37)"],
+            ["Kurang bahan/riset", "Sudah jelas mau menulis apa, tapi tidak punya cukup fakta/contoh/data untuk mengisinya", "Berhenti menulis, kembali riset atau kumpulkan bahan dulu — ini bukan writer's block, ini kekurangan bahan"],
+            ["Mencampur menulis & menyunting", "Berhenti tiap kalimat untuk memperbaiki kata, lalu kehilangan alur pikiran", "Pisahkan dua proses jadi dua sesi berbeda (lihat 44-3, Level 38)"]
+          ]
+        },
+        { "type": "callout", "title": "Kenapa Diagnosis Penting", "text": "Memakai solusi yang salah untuk penyebab yang salah justru memperparah kebuntuan. Freewriting tidak akan menolong kalau masalahmu sebenarnya kurang bahan riset — yang kamu butuhkan saat itu bukan menulis lebih banyak, tapi membaca/mencari lebih banyak dulu." }
+      ]
+    },
+    {
+      "id": "44-3",
+      "title": "Memisahkan Menulis Draf dari Menyunting (Ingat Level 38)",
+      "blocks": [
+        { "type": "heading", "text": "Dua Mode Otak yang Saling Bertabrakan" },
+        { "type": "paragraph", "text": "Menulis draf dan menyunting adalah dua aktivitas mental yang sangat berbeda. Menulis draf butuh mode GENERATIF — mengalirkan ide tanpa banyak sensor. Menyunting butuh mode KRITIS — menilai, memangkas, memperbaiki. Masalahnya, banyak penulis mencoba melakukan keduanya BERSAMAAN: menulis satu kalimat, langsung menghakiminya, menghapus, menulis ulang, menghakimi lagi — dan proses ini melelahkan sekaligus menghentikan momentum menulis sebelum draf itu sendiri selesai." },
+        { "type": "paragraph", "text": "Level 38 membahas mengedit tulisan sendiri sebagai tahap TERPISAH setelah draf selesai — read-aloud, kill your darlings, memangkas 10%. Prinsip yang sama berlaku terbalik di sini: kalau kamu mencampur proses editing itu ke dalam proses menulis draf, kedua prosesnya jadi saling merusak. Otak kritis yang seharusnya dipakai NANTI justru menyabotase otak generatif yang sedang bekerja SEKARANG." },
+        { "type": "callout", "title": "Aturan Praktis", "text": "Saat menulis draf pertama, matikan (atau abaikan) suara di kepala yang berkata 'kalimat ini jelek'. Catat saja di pinggir kalau ada bagian yang terasa lemah ('perbaiki nanti'), lalu terus jalan. Editing punya sesinya sendiri, dan sesi itu bukan sekarang." }
+      ]
+    },
+    {
+      "id": "44-4",
+      "title": "Shitty First Draft: Izin untuk Menulis Jelek",
+      "blocks": [
+        { "type": "heading", "text": "Draf Jelek Bukan Kegagalan, Tapi Bahan Baku" },
+        { "type": "paragraph", "text": "Anne Lamott, dalam bukunya Bird by Bird, memakai istilah 'shitty first draft' (draf pertama yang jelek) untuk menegaskan sesuatu yang dibutuhkan hampir semua penulis: draf pertama MEMANG boleh dan wajar jelek. Tugas draf pertama bukan menghasilkan tulisan bagus — tugasnya hanya menghasilkan SESUATU yang bisa diperbaiki nanti. Halaman kosong jauh lebih sulit diperbaiki daripada draf yang jelek." },
+        { "type": "quote", "text": "\"Perfeksionisme adalah suara penindas utama musuh rakyat. Ia akan membuatmu gila sepanjang hidup...\"", "source": "Anne Lamott, Bird by Bird" },
+        { "type": "paragraph", "text": "Perfeksionisme sering menyamar sebagai 'standar tinggi', padahal efeknya adalah kelumpuhan: karena setiap kalimat yang belum sempurna terasa seperti kegagalan, penulis berhenti menulis sama sekali daripada menghasilkan sesuatu yang 'kurang sempurna'. Mengizinkan diri menulis jelek di draf pertama adalah cara langsung melawan kelumpuhan ini." },
+        { "type": "callout", "title": "Uji Realistis", "text": "Tanyakan pada dirimu: apakah draf pertama sebuah tulisan yang kamu kagumi juga langsung sempurna? Hampir pasti tidak — yang kamu baca dan kagumi adalah hasil REVISI berkali-kali, bukan draf pertamanya. Draf pertamamu tidak perlu bersaing dengan hasil akhir orang lain." }
+      ]
+    },
+    {
+      "id": "44-5",
+      "title": "Ketakutan vs Kurang Bahan: Membedakan Dua Hal yang Mirip",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa Sering Tertukar" },
+        { "type": "paragraph", "text": "Ketakutan/perfeksionisme dan kurang bahan sering terasa SAMA dari luar — sama-sama 'aku tidak bisa melanjutkan tulisan ini'. Tapi keduanya butuh tindakan yang berlawanan. Kalau penyebabnya ketakutan, solusinya adalah TERUS MENULIS (draf jelek, freewriting) untuk melewati rasa takut itu. Kalau penyebabnya kurang bahan, solusinya adalah BERHENTI MENULIS dulu dan kembali riset — memaksa diri menulis tanpa bahan yang cukup hanya menghasilkan kalimat kosong yang diputar-putar." },
+        { "type": "list", "ordered": false, "items": [
+          "Tanya: 'kalau aku disuruh menjelaskan poin berikutnya secara lisan ke teman, bisa tidak?' Kalau bisa tapi takut menuliskannya — itu ketakutan. Kalau tidak bisa sama sekali karena memang belum tahu — itu kurang bahan.",
+          "Ketakutan biasanya disertai draf yang berulang kali dihapus dan ditulis ulang di kalimat yang SAMA.",
+          "Kurang bahan biasanya disertai perasaan 'aku tidak tahu apa yang mau kukatakan selanjutnya', bukan 'aku takut ini jelek'."
+        ]},
+        { "type": "callout", "title": "Kenapa Ini Penting", "text": "Memakai freewriting terus-menerus padahal masalahnya kurang bahan hanya akan menghasilkan lebih banyak kalimat kosong. Sebaliknya, kembali riset terus-menerus padahal masalahnya ketakutan hanya akan jadi cara menunda menulis dengan alasan yang terdengar produktif." }
+      ]
+    },
+    {
+      "id": "44-6",
+      "title": "Freewriting: Jalan Keluar Konkret (Ingat Level 37)",
+      "blocks": [
+        { "type": "heading", "text": "Menulis untuk Memancing Pikiran, Bukan untuk Hasil Akhir" },
+        { "type": "paragraph", "text": "Level 37 memperkenalkan freewriting (menulis bebas tanpa henti dan tanpa sensor selama waktu tertentu) sebagai latihan journaling. Teknik yang sama berguna sebagai jalan keluar konkret dari kebuntuan menulis, khususnya untuk penyebab 'pikiran belum jernih' dan 'ketakutan/perfeksionisme'." },
+        { "type": "paragraph", "text": "Caranya: alih-alih memaksa diri menulis paragraf 'resmi' yang buntu, alihkan dulu ke freewriting selama 5-10 menit tentang topik yang sama — tulis apa pun yang muncul di kepala, tanpa berhenti, tanpa menghapus, tanpa menghakimi. Sering kali, di tengah tumpukan kalimat yang tampak berantakan itu, muncul satu-dua kalimat yang justru jadi jalan masuk ke paragraf yang tadinya buntu." },
+        { "type": "callout", "title": "Kenapa Ini Bekerja", "text": "Freewriting melepaskan tekanan untuk langsung menghasilkan kalimat final — dan justru karena tekanan itu dilepas, pikiran jadi lebih bebas menemukan sudut pandang atau kalimat pembuka yang tadinya tersembunyi di balik rasa takut mengecewakan." }
+      ]
+    },
+    {
+      "id": "44-7",
+      "title": "Contoh: Buntu Tanpa Diagnosis vs Buntu yang Sudah Didiagnosis",
+      "blocks": [
+        { "type": "heading", "text": "Perbandingan Nyata" },
+        { "type": "quote", "text": "TANPA DIAGNOSIS: \"Aku buntu menulis bab ini sudah tiga hari. Aku sudah coba duduk lebih lama, minum kopi lebih banyak, dan menunggu mood datang, tapi tetap saja tidak ada kemajuan.\"", "source": "Kebuntuan diperlakukan sebagai satu masalah tunggal, dicoba diobati dengan cara acak" },
+        { "type": "quote", "text": "SUDAH DIDIAGNOSIS: \"Aku sadar aku menghapus kalimat pembuka yang sama berulang kali karena takut terdengar naif — bukan karena tidak tahu apa yang mau kukatakan. Berarti ini ketakutan, bukan kurang bahan. Aku coba freewriting 10 menit dulu tanpa menghapus apa pun, baru nanti kupilih kalimat terbaiknya untuk draf resmi.\"", "source": "Kebuntuan diidentifikasi penyebabnya, lalu dipasangkan solusi yang tepat" },
+        { "type": "callout", "title": "Bedanya", "text": "Versi kedua tidak menjamin langsung lancar 100%, tapi ia menyerang penyebab yang benar — bukan menembak solusi acak dan berharap salah satunya kebetulan cocok." }
+      ]
+    },
+    {
+      "id": "44-8",
+      "title": "Kesalahan Umum Menghadapi Writer's Block",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menganggap semua kebuntuan sebagai 'writer's block' generik, tanpa mendiagnosis penyebab spesifiknya lebih dulu.",
+          "Menyunting kalimat sambil menulis draf pertama, sehingga momentum menulis terus-menerus terganggu oleh mode kritis.",
+          "Memaksa diri menulis paragraf 'sempurna' sejak draf pertama, padahal tugas draf pertama hanya menghasilkan bahan untuk direvisi.",
+          "Memakai freewriting terus-menerus padahal masalah sebenarnya adalah kurangnya bahan/riset, bukan pikiran yang belum jernih.",
+          "Menunggu buntu 'hilang sendiri' tanpa mengambil tindakan konkret apa pun, sampai berhari-hari berlalu tanpa kemajuan."
+        ]},
+        { "type": "callout", "title": "Ingat Ini", "text": "Writer's block hampir selalu punya penyebab yang bisa diidentifikasi dan dipasangkan solusi yang tepat. Pertanyaan yang paling berguna bukan 'kenapa aku buntu?' secara umum, tapi 'buntu jenis apa ini — ketakutan, pikiran kabur, kurang bahan, atau mencampur menulis dengan menyunting?'" }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-44",
+    "title": "Kuis Level 44",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q44-1",
+        "question": "Kenapa level ini menganjurkan mendiagnosis penyebab writer's block sebelum mencari solusi?",
+        "options": ["Karena writer's block sebenarnya tidak nyata", "Karena penyebab yang berbeda (ketakutan, pikiran kabur, kurang bahan, mencampur menulis-menyunting) membutuhkan solusi yang berbeda pula", "Karena diagnosis selalu memakan waktu lebih lama daripada solusinya", "Karena hanya penulis pemula yang mengalami writer's block"],
+        "answer": 1,
+        "explanation": "Memakai solusi yang salah untuk penyebab yang salah tidak akan menolong dan bisa memperparah kebuntuan."
+      },
+      {
+        "id": "q44-2",
+        "question": "Ciri khas kebuntuan yang disebabkan oleh 'mencampur menulis dan menyunting' adalah…",
+        "options": ["Tidak tahu sama sekali apa yang mau ditulis", "Berhenti tiap kalimat untuk memperbaiki kata, sehingga kehilangan alur pikiran", "Sudah tahu apa yang mau ditulis tapi takut hasilnya dinilai buruk", "Kekurangan data atau contoh untuk mengisi tulisan"],
+        "answer": 1,
+        "explanation": "Mencampur dua mode (generatif dan kritis) membuat penulis terus berhenti menilai tiap kalimat sebelum draf selesai."
+      },
+      {
+        "id": "q44-3",
+        "question": "Istilah 'shitty first draft' dari Anne Lamott menekankan bahwa…",
+        "options": ["Draf pertama sebaiknya dihapus seluruhnya", "Draf pertama wajar dan boleh jelek karena tugasnya hanya menghasilkan bahan untuk direvisi, bukan tulisan final", "Semua penulis profesional langsung menghasilkan draf sempurna", "Draf pertama tidak perlu ditulis sama sekali"],
+        "answer": 1,
+        "explanation": "Prinsip ini melawan perfeksionisme dengan mengizinkan draf pertama jelek, karena halaman kosong jauh lebih sulit diperbaiki daripada draf yang sudah ada."
+      },
+      {
+        "id": "q44-4",
+        "question": "Bagaimana cara membedakan kebuntuan akibat ketakutan dari kebuntuan akibat kurang bahan?",
+        "options": ["Keduanya selalu butuh solusi yang sama sehingga tidak perlu dibedakan", "Ketakutan biasanya disertai draf yang dihapus dan ditulis ulang di kalimat yang sama; kurang bahan disertai perasaan benar-benar tidak tahu apa yang mau dikatakan", "Kurang bahan hanya terjadi pada penulis pemula", "Ketakutan hanya terjadi saat menulis untuk publikasi resmi"],
+        "answer": 1,
+        "explanation": "Ketakutan menunjukkan penulis sudah tahu isinya tapi ragu menuliskannya; kurang bahan menunjukkan penulis memang belum punya cukup materi."
+      },
+      {
+        "id": "q44-5",
+        "question": "Freewriting sebagai jalan keluar dari writer's block paling efektif digunakan untuk penyebab…",
+        "options": ["Kurangnya bahan/riset", "Pikiran belum jernih dan ketakutan/perfeksionisme", "Mencampur menulis dengan menyunting", "Kesalahan tata bahasa dalam draf"],
+        "answer": 1,
+        "explanation": "Freewriting membantu memancing dan merapikan pikiran serta melepaskan tekanan perfeksionisme, tapi tidak menyelesaikan masalah kurang bahan."
+      },
+      {
+        "id": "q44-6",
+        "question": "Kenapa memisahkan proses menulis draf dari proses menyunting membantu mengatasi writer's block?",
+        "options": ["Karena menyunting sama sekali tidak penting", "Karena kedua proses memakai mode mental yang berbeda (generatif vs kritis) dan saling mengganggu bila dilakukan bersamaan", "Karena menulis draf seharusnya selalu dilakukan setelah menyunting", "Karena draf dan editing sebenarnya proses yang identik"],
+        "answer": 1,
+        "explanation": "Mode generatif (menulis) dan mode kritis (menyunting) saling bertabrakan bila dilakukan bersamaan, menghambat momentum menulis."
+      },
+      {
+        "id": "q44-7",
+        "question": "Kalau seorang penulis buntu karena memang belum punya cukup data untuk mendukung argumennya, tindakan paling tepat adalah…",
+        "options": ["Melakukan freewriting terus-menerus sampai data muncul dengan sendirinya", "Berhenti menulis sejenak dan kembali riset atau mengumpulkan bahan yang kurang", "Memaksa menulis draf jelek meski tanpa bahan sama sekali", "Menunggu mood menulis muncul kembali"],
+        "answer": 1,
+        "explanation": "Kurang bahan bukan diselesaikan dengan menulis lebih banyak, tapi dengan mengisi kekosongan informasi lewat riset lebih dulu."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-44",
+    "title": "Ujian Level 44",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e44-1",
+        "question": "Seorang penulis menghapus dan menulis ulang kalimat pembuka esainya lebih dari sepuluh kali dalam satu jam, padahal ia sebenarnya sudah tahu persis apa yang ingin disampaikan. Penyebab kebuntuannya paling mungkin adalah…",
+        "options": ["Kurang bahan riset", "Ketakutan/perfeksionisme — ia tahu isinya tapi takut kalimatnya belum sempurna", "Mencampur menulis dengan menyunting di level kalimat berbeda-beda", "Pikiran yang belum jernih sama sekali"],
+        "answer": 1,
+        "explanation": "Menulis ulang kalimat yang sama berkali-kali padahal isinya sudah jelas menandakan ketakutan/perfeksionisme, bukan kekurangan bahan atau kejelasan pikiran."
+      },
+      {
+        "id": "e44-2",
+        "question": "Seorang mahasiswa menulis satu kalimat, langsung berhenti untuk memperbaiki pilihan katanya, lalu menulis kalimat berikutnya dan mengulang pola yang sama — sehingga setelah satu jam ia baru punya dua paragraf yang terasa terputus-putus. Solusi paling tepat berdasarkan level ini adalah…",
+        "options": ["Menambah waktu menulis menjadi dua jam", "Memisahkan sesi menulis draf (tanpa menyunting) dari sesi menyunting terpisah setelahnya, seperti prinsip di Level 38", "Mengganti topik tulisannya", "Menunggu sampai mood menulis membaik"],
+        "answer": 1,
+        "explanation": "Mencampur menulis dan menyunting dalam waktu bersamaan menghambat momentum; memisahkan keduanya jadi dua sesi berbeda adalah solusi yang tepat sasaran."
+      },
+      {
+        "id": "e44-3",
+        "question": "Seorang penulis merasa buntu menulis bagian argumen esainya. Setelah ditelusuri, ternyata ia memang belum membaca cukup sumber untuk mendukung klaimnya. Tindakan yang PALING TIDAK tepat dalam situasi ini adalah…",
+        "options": ["Berhenti menulis sejenak dan kembali membaca sumber tambahan", "Memaksakan diri melakukan freewriting terus-menerus dengan harapan data akan muncul dari dalam kepala tanpa riset tambahan", "Menandai bagian itu sebagai perlu bahan lebih lanjut, lalu lanjut ke bagian lain dulu", "Mencari data pendukung sebelum melanjutkan menulis bagian itu"],
+        "answer": 1,
+        "explanation": "Freewriting membantu masalah pikiran kabur atau ketakutan, bukan masalah kekurangan bahan; memaksakannya di sini hanya menghasilkan kalimat kosong."
+      },
+      {
+        "id": "e44-4",
+        "question": "Seorang penulis pemula membaca draf pertama novel favoritnya (yang ternyata berantakan dan jauh dari versi terbitnya) dan merasa lega. Reaksi ini paling menggambarkan pemahaman terhadap prinsip…",
+        "options": ["Salami slicing", "Shitty first draft — draf pertama yang jelek adalah hal wajar, bahkan bagi penulis yang karyanya kamu kagumi", "Text recycling", "Curse of knowledge"],
+        "answer": 1,
+        "explanation": "Melihat bahwa draf pertama karya favorit juga berantakan menegaskan bahwa perfeksionisme di draf pertama tidak realistis dan tidak perlu."
+      },
+      {
+        "id": "e44-5",
+        "question": "Seorang penulis menyebut semua kebuntuannya selama sebulan terakhir sebagai 'writer's block' tanpa membedakan penyebabnya, lalu mencoba berbagai trik acak (ganti tempat duduk, dengar musik baru, minum kopi lebih banyak) tanpa hasil. Masalah utama pendekatannya adalah…",
+        "options": ["Ia seharusnya berhenti menulis selamanya", "Ia memperlakukan writer's block sebagai satu masalah tunggal, tanpa mendiagnosis penyebab spesifiknya lebih dulu sebelum memilih solusi", "Trik-trik yang dicobanya semuanya salah secara mutlak", "Kopi dan musik memang tidak pernah membantu menulis"],
+        "answer": 1,
+        "explanation": "Tanpa diagnosis, solusi yang dicoba jadi acak dan berpeluang tidak menyasar penyebab sebenarnya di balik kebuntuannya."
+      },
+      {
+        "id": "e44-6",
+        "question": "Seorang penulis merasa buntu menulis bagian pembuka artikelnya. Ia lalu menulis bebas selama 10 menit tanpa berhenti tentang topik yang sama, tanpa menghapus apa pun, dan menemukan satu kalimat di tengah tulisan bebas itu yang ternyata cocok jadi kalimat pembuka. Teknik yang ia gunakan adalah…",
+        "options": ["Text recycling", "Freewriting, seperti yang diperkenalkan di Level 37, dipakai sebagai jalan keluar dari kebuntuan", "Salami slicing", "Peer review informal"],
+        "answer": 1,
+        "explanation": "Menulis bebas tanpa sensor untuk memancing pikiran dan menemukan kalimat yang berguna adalah penerapan langsung freewriting dari Level 37."
+      },
+      {
+        "id": "e44-7",
+        "question": "Seorang penulis berkata, 'kalau ditanya lisan, aku bisa langsung menjelaskan poin berikutnya dengan lancar — tapi begitu mau menuliskannya, aku selalu ragu dan menghapusnya lagi.' Berdasarkan cara membedakan penyebab kebuntuan, ini adalah tanda…",
+        "options": ["Kurang bahan riset yang serius", "Ketakutan/perfeksionisme, karena isi pikirannya sebenarnya sudah ada dan bisa dijelaskan, hanya ragu saat menuliskannya", "Mencampur draf dengan revisi", "Masalah keterampilan tata bahasa"],
+        "answer": 1,
+        "explanation": "Kemampuan menjelaskan secara lisan menunjukkan isi pikirannya sudah cukup jelas; keraguan hanya muncul saat menuliskannya — ciri khas ketakutan, bukan kurang bahan."
+      },
+      {
+        "id": "e44-8",
+        "question": "Seorang penulis menulis draf pertama esainya dengan cepat tanpa berhenti menyunting sama sekali, meski ia tahu banyak kalimatnya masih kasar. Ia berencana memperbaikinya di sesi terpisah nanti. Pendekatan ini selaras dengan prinsip…",
+        "options": ["Hedging berlebihan", "Memisahkan proses menulis draf dari proses menyunting, sesuai prinsip di Level 44 dan Level 38", "Overclaim", "Plagiarisme ide"],
+        "answer": 1,
+        "explanation": "Menyelesaikan draf dulu tanpa menyunting, lalu menyunting di sesi terpisah, adalah penerapan langsung prinsip memisahkan dua mode mental yang berbeda."
+      },
+      {
+        "id": "e44-9",
+        "question": "Seorang penulis skripsi merasa buntu di Bab 4 karena datanya sebenarnya belum selesai dianalisis. Ia mencoba mengatasi kebuntuan itu dengan journaling pagi hari selama seminggu, tapi tidak ada kemajuan pada Bab 4. Penjelasan paling mungkin dari kegagalan ini adalah…",
+        "options": ["Journaling memang tidak pernah berguna untuk penulis akademik", "Penyebab kebuntuannya adalah kurang bahan (data belum selesai dianalisis), sehingga freewriting/journaling tidak menyasar akar masalahnya", "Bab 4 seharusnya tidak perlu dianalisis sama sekali", "Ia seharusnya menulis Bab 4 di pagi hari juga"],
+        "answer": 1,
+        "explanation": "Karena masalahnya adalah data yang belum selesai dianalisis (kurang bahan), solusi yang tepat adalah menyelesaikan analisis dulu, bukan menulis bebas tentang topik yang belum ada datanya."
+      },
+      {
+        "id": "e44-10",
+        "question": "Seorang editor menyarankan penulis pemula, 'jangan pernah menghapus kalimat saat menulis draf pertama — catat saja di pinggir kalau terasa lemah, lalu terus jalan.' Saran ini paling selaras dengan prinsip…",
+        "options": ["Salami slicing dalam publikasi ilmiah", "Memisahkan mode generatif (menulis) dari mode kritis (menyunting) agar momentum draf pertama tidak terganggu", "Data minimization dalam etika penelitian", "AIDA dalam copywriting"],
+        "answer": 1,
+        "explanation": "Menahan diri untuk tidak menyunting saat menulis draf menjaga mode generatif tetap berjalan tanpa gangguan dari mode kritis yang seharusnya dipakai nanti."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Bird by Bird: Some Instructions on Writing and Life", "author": "Anne Lamott", "year": 1994, "publisher": "Anchor Books", "note": "Sumber utama konsep 'shitty first draft' dan izin menulis jelek di draf pertama, dipakai di 44-4." },
+    { "title": "On Writing: A Memoir of the Craft", "author": "Stephen King", "year": 2000, "publisher": "Scribner", "note": "Prinsip memisahkan menulis draf dari menyunting ('menulis dengan pintu tertutup, mengedit dengan pintu terbuka'), dipakai di 44-3." },
+    { "title": "On Writing Well: The Classic Guide to Writing Nonfiction", "author": "William Zinsser", "year": 1976, "publisher": "Harper Perennial", "note": "Prinsip menulis ulang sebagai proses bertahap, mendukung pemisahan draf dan revisi di 44-3." },
+    { "title": "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century", "author": "Steven Pinker", "year": 2014, "publisher": "Viking", "note": "Dipakai untuk membahas hubungan antara kejelasan berpikir dan kelancaran menulis di 44-2 dan 44-5." }
+  ]
+}

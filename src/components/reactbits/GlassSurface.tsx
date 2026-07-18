@@ -60,7 +60,7 @@ export default function GlassSurface({
   borderWidth = 0.07,
   brightness = 50,
   opacity = 0.93,
-  blur = 11,
+  blur = 30,
   displace = 0,
   backgroundOpacity = 0.5,
   saturation = 1.2,

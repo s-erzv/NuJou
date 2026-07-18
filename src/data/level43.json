@@ -1,0 +1,250 @@
+{
+  "id": 43,
+  "slug": "kebiasaan-menulis",
+  "title": "Membangun Kebiasaan Menulis",
+  "subtitle": "Sistem mengalahkan motivasi",
+  "goal": "Bisa merancang sistem menulis yang tidak bergantung pada mood, membangun sesi menulis kecil yang konsisten, melacak progres dengan cara yang membantu (bukan menghukum), dan melindungi jam menulismu dari gangguan sehari-hari.",
+  "estimatedMinutes": 30,
+  "sections": [
+    {
+      "id": "43-1",
+      "title": "Kenapa 'Menulis Kalau Lagi Mood' Selalu Gagal",
+      "blocks": [
+        { "type": "heading", "text": "Mood Adalah Cuaca, Bukan Rencana Perjalanan" },
+        { "type": "paragraph", "text": "Hampir semua penulis pemula punya rencana yang sama: 'aku akan menulis kalau lagi mood/inspirasi datang'. Rencana ini terdengar masuk akal, tapi gagal hampir selalu — karena mood menulis itu TIDAK BISA diprediksi dan sering kali baru muncul SETELAH kamu mulai menulis, bukan sebelum." },
+        { "type": "paragraph", "text": "Menunggu mood berarti menyerahkan keputusan penting (apakah hari ini aku menulis atau tidak) kepada sesuatu yang sepenuhnya di luar kendalimu. Penulis yang produktif bukan mereka yang selalu mood — mereka yang punya SISTEM yang jalan terus, mood atau tidak." },
+        { "type": "callout", "title": "Definisi Kerja", "text": "Sistem menulis adalah rutinitas kecil dan berulang — waktu, tempat, dan pemicu yang sama — yang membuat kamu duduk dan menulis TANPA harus menunggu perasaan siap. Sistem yang baik membuat 'mau menulis atau tidak' berhenti jadi keputusan harian." }
+      ]
+    },
+    {
+      "id": "43-2",
+      "title": "Sistem Mengalahkan Motivasi (dan Tujuan)",
+      "blocks": [
+        { "type": "heading", "text": "Bedanya Tujuan dan Sistem" },
+        { "type": "paragraph", "text": "Tujuan (goal) adalah hasil yang ingin kamu capai — 'aku ingin menyelesaikan naskah dalam 6 bulan'. Sistem (system) adalah proses harian yang kamu jalankan untuk sampai ke sana — 'aku menulis 300 kata setiap pagi sebelum kerja'. Masalah dengan hanya punya tujuan tanpa sistem: begitu tujuan tercapai (atau gagal tercapai), motivasimu ikut hilang — dan besoknya kamu tidak tahu harus berbuat apa." },
+        { "type": "paragraph", "text": "Motivasi juga tidak konsisten sifatnya — ia naik-turun tergantung suasana hati, tidur, stres kerja. Kalau kamu bergantung penuh pada motivasi untuk menulis, kamu akan menulis secara acak: rajin seminggu, hilang sebulan. Sistem tidak peduli motivasimu sedang tinggi atau rendah — ia tetap berjalan karena sudah jadi kebiasaan, bukan keputusan." },
+        {
+          "type": "table",
+          "headers": ["Aspek", "Mengandalkan Motivasi", "Mengandalkan Sistem"],
+          "rows": [
+            ["Pemicu menulis", "Menunggu 'lagi mood' atau 'ada inspirasi'", "Waktu dan tempat yang sama setiap hari, apa pun suasana hatinya"],
+            ["Konsistensi", "Naik-turun tidak terduga", "Stabil karena sudah jadi rutinitas otomatis"],
+            ["Yang terjadi saat gagal sehari", "Sering jadi alasan untuk berhenti sepenuhnya", "Kembali lagi besok, satu hari lewat tidak menghancurkan sistemnya"],
+            ["Sumber energi", "Perasaan (bisa habis kapan saja)", "Rutinitas (tidak butuh perasaan positif untuk jalan)"]
+          ]
+        },
+        { "type": "callout", "title": "Bukan Berarti Tujuan Tidak Penting", "text": "Tujuan tetap perlu untuk tahu arah — tapi tujuan yang baik selalu diterjemahkan jadi sistem harian yang konkret. 'Aku ingin jadi penulis yang lebih baik' bukan sistem. 'Aku menulis 20 menit tiap pagi jam 6' adalah sistem." }
+      ]
+    },
+    {
+      "id": "43-3",
+      "title": "Sesi Kecil yang Konsisten Mengalahkan Sesi Besar yang Jarang",
+      "blocks": [
+        { "type": "heading", "text": "Minimum Viable Session" },
+        { "type": "paragraph", "text": "Kesalahan umum penulis pemula: merancang target yang terlalu besar ('aku akan menulis 2 jam setiap hari') sehingga begitu satu hari sibuk dan tidak sempat 2 jam penuh, targetnya terasa gagal total dan mereka berhenti sama sekali. Lebih efektif menetapkan sesi minimum yang SANGAT kecil dan hampir mustahil untuk dilewatkan — 10 menit, 200 kata, satu paragraf." },
+        { "type": "paragraph", "text": "Sesi kecil punya dua manfaat tersembunyi: pertama, karena targetnya kecil, kamu jarang punya alasan untuk melewatkannya (semua orang punya 10 menit). Kedua, begitu kamu mulai menulis, dorongan untuk melanjutkan lebih lama sering muncul dengan sendirinya — momentum lebih mudah didapat setelah kamu sudah duduk dan mulai, dibanding sebelum kamu mulai sama sekali." },
+        { "type": "callout", "title": "Aturan 'Jangan Pernah Nol'", "text": "Prinsip sederhana: jangan biarkan sehari berlalu dengan nol kata. Bahkan satu kalimat lebih baik daripada tidak sama sekali, karena ini menjaga rutinitas tetap hidup — sesuatu yang jauh lebih berharga daripada jumlah kata di satu sesi tertentu." }
+      ]
+    },
+    {
+      "id": "43-4",
+      "title": "Melacak Progres: Membantu, Bukan Menghukum",
+      "blocks": [
+        { "type": "heading", "text": "Habit Tracker dan 'Jangan Putus Rantainya'" },
+        { "type": "paragraph", "text": "Melacak progres — menandai kalender, mencatat jumlah kata, atau memakai aplikasi pelacak kebiasaan — membantu karena membuat konsistensi jadi TERLIHAT. Ada teknik populer 'don't break the chain' (jangan putus rantainya): tandai X di kalender setiap hari kamu menulis, dan biarkan rantai X yang memanjang jadi motivasi visual untuk tidak melewatkan hari berikutnya." },
+        { "type": "paragraph", "text": "Tapi pelacakan bisa berbalik jadi beban kalau dipakai untuk menghukum diri sendiri. Kalau satu hari terlewat lalu kamu merasa 'sudah gagal total, buat apa lanjut', pelacakan itu sudah salah arah. Pelacakan yang sehat memperlakukan hari yang terlewat sebagai DATA (informasi untuk diperbaiki), bukan bukti kegagalan personal." },
+        { "type": "callout", "title": "Aturan Dua Hari", "text": "Boleh melewatkan satu hari sesekali — hidup memang begitu. Tapi usahakan tidak pernah melewatkan DUA hari berturut-turut. Melewatkan sehari adalah kecelakaan; melewatkan dua hari berturut-turut mulai membentuk kebiasaan baru untuk berhenti." }
+      ]
+    },
+    {
+      "id": "43-5",
+      "title": "Melindungi Jam Menulismu",
+      "blocks": [
+        { "type": "heading", "text": "Perlakukan Jam Menulis Seperti Janji Temu Penting" },
+        { "type": "paragraph", "text": "Jam menulis yang tidak dilindungi akan selalu kalah dari hal lain yang terasa lebih mendesak — email, chat, permintaan mendadak. Solusinya: perlakukan jam menulis sebagai JANJI TEMU yang sudah dikunci di kalender, sama seriusnya dengan rapat kerja. Kalau seseorang minta waktu di jam itu, jawabannya sama seperti kalau kamu sedang rapat: 'aku ada agenda di jam itu'." },
+        { "type": "paragraph", "text": "Desain lingkungan juga membantu: kurangi FRIKSI untuk mulai menulis (dokumen sudah terbuka dari malam sebelumnya, draf sudah siap di layar) dan tambah FRIKSI untuk gangguan (ponsel di ruangan lain, notifikasi dimatikan selama sesi). Semakin mudah memulai dan semakin sulit teralihkan, semakin besar peluang sesi itu benar-benar terjadi." },
+        { "type": "list", "ordered": false, "items": [
+          "Kunci jam menulis di kalender seperti rapat — beri nama spesifik, bukan 'waktu luang'.",
+          "Siapkan dokumen dan bahan SEBELUM jam menulis dimulai, bukan mencari-cari saat jam sudah berjalan.",
+          "Beri tahu orang di sekitarmu bahwa jam itu adalah jam kerja fokus, bukan waktu kosong yang bisa diganggu.",
+          "Habit stacking: tempelkan sesi menulis SETELAH kebiasaan yang sudah mapan (misalnya 'setelah menyeduh kopi pagi, aku langsung membuka dokumen dan menulis 15 menit')."
+        ]},
+        { "type": "callout", "title": "Habit Stacking", "text": "Rumus sederhana: 'Setelah [kebiasaan yang sudah otomatis], aku akan [menulis selama X menit]'. Menempelkan kebiasaan baru ke kebiasaan lama yang sudah kuat jauh lebih mudah daripada mencoba membangun kebiasaan baru dari nol tanpa pemicu apa pun." }
+      ]
+    },
+    {
+      "id": "43-6",
+      "title": "Identitas: 'Aku Penulis' vs 'Aku Ingin Menulis'",
+      "blocks": [
+        { "type": "heading", "text": "Kebiasaan yang Bertahan Lama Dibangun dari Identitas" },
+        { "type": "paragraph", "text": "Ada perbedaan halus tapi penting antara 'aku ingin menulis lebih rajin' dan 'aku adalah orang yang menulis setiap hari'. Yang pertama menaruh menulis sebagai sesuatu yang kamu KEJAR (dan bisa gagal dikejar). Yang kedua menaruh menulis sebagai bagian dari SIAPA KAMU — dan begitu kamu memutuskan sebuah kebiasaan adalah bagian dari identitasmu, mempertahankannya terasa lebih alami, bukan seperti tugas eksternal." },
+        { "type": "paragraph", "text": "Setiap kali kamu menyelesaikan satu sesi menulis kecil, itu adalah 'bukti' kecil untuk identitas barumu sebagai penulis — bukan sekadar mencentang target harian. Pergeseran ini membuat kebiasaan lebih tahan lama karena tidak bergantung pada seberapa besar hasilnya hari itu, tapi pada konsistensi tindakannya." },
+        { "type": "callout", "title": "Ingat Level 29", "text": "Level 29 membahas menemukan voice menulismu — dan voice itu sendiri hanya terasah lewat pengulangan. Sistem menulis yang konsisten bukan cuma soal menghasilkan lebih banyak kata; ia juga jadi ruang latihan tempat voice-mu terus terasah dari waktu ke waktu." }
+      ]
+    },
+    {
+      "id": "43-7",
+      "title": "Contoh: Rencana Vague vs Sistem yang Konkret",
+      "blocks": [
+        { "type": "heading", "text": "Perbandingan Nyata" },
+        { "type": "quote", "text": "RENCANA VAGUE: \"Aku akan lebih rajin menulis mulai bulan depan. Kalau ada waktu luang dan lagi mood, aku akan buka laptop dan nulis sebisanya.\"", "source": "Tidak ada waktu, tempat, pemicu, atau ukuran keberhasilan yang jelas" },
+        { "type": "quote", "text": "SISTEM KONKRET: \"Setiap pagi jam 6.15, setelah menyeduh kopi, aku duduk di meja yang sama dan menulis minimal 200 kata sebelum membuka ponsel. Aku menandai kalender setiap kali selesai. Kalau satu hari terlewat, aku tetap lanjut besok — tidak menunggu 'mulai dari awal lagi'.\"", "source": "Waktu, tempat, pemicu, ukuran minimum, dan cara menghadapi kegagalan semua jelas" },
+        { "type": "callout", "title": "Kenapa yang Kedua Bertahan Lebih Lama", "text": "Sistem konkret tidak menyisakan ruang untuk negosiasi harian ('apa aku lagi mood?'). Keputusan sudah dibuat sekali di awal (waktu, tempat, jumlah minimum) — yang tersisa tinggal menjalankannya, bukan memutuskannya lagi setiap hari." }
+      ]
+    },
+    {
+      "id": "43-8",
+      "title": "Kesalahan Umum dalam Membangun Kebiasaan Menulis",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menetapkan target harian terlalu besar (2 jam, 2000 kata) sehingga satu hari sibuk membuat seluruh sistem terasa gagal.",
+          "Menunggu mood atau inspirasi sebelum mau duduk menulis, padahal mood sering muncul SETELAH mulai menulis, bukan sebelum.",
+          "Memakai pelacakan progres untuk menghukum diri sendiri saat terlewat, alih-alih memperlakukannya sebagai data untuk diperbaiki.",
+          "Tidak melindungi jam menulis dari gangguan — membiarkan siapa pun/apa pun mengambil alih waktu itu karena dianggap 'cuma waktu luang'.",
+          "Berhenti total setelah melewatkan satu hari, padahal aturan yang lebih sehat adalah jangan sampai melewatkan dua hari berturut-turut."
+        ]},
+        { "type": "callout", "title": "Prinsip Inti", "text": "Penulis yang produktif bukan yang paling berbakat atau paling sering dapat inspirasi — mereka yang paling konsisten menunjukkan diri di depan halaman kosong, hari demi hari, apa pun suasana hatinya." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-43",
+    "title": "Kuis Level 43",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q43-1",
+        "question": "Kenapa mengandalkan 'menulis kalau lagi mood' cenderung gagal?",
+        "options": ["Karena mood selalu buruk", "Karena mood tidak bisa diprediksi dan sering baru muncul setelah mulai menulis, bukan sebelumnya", "Karena mood hanya penting untuk penulis pemula", "Karena menulis tanpa mood dilarang secara etika"],
+        "answer": 1,
+        "explanation": "Menunggu mood menyerahkan keputusan menulis ke sesuatu yang di luar kendali, padahal mood sering datang setelah proses dimulai."
+      },
+      {
+        "id": "q43-2",
+        "question": "Perbedaan mendasar antara 'tujuan' dan 'sistem' dalam membangun kebiasaan menulis adalah…",
+        "options": ["Tujuan dan sistem sebenarnya hal yang sama", "Tujuan adalah hasil yang ingin dicapai, sistem adalah proses harian konkret untuk sampai ke sana", "Sistem hanya berlaku untuk penulis profesional", "Tujuan selalu lebih penting daripada sistem"],
+        "answer": 1,
+        "explanation": "Tujuan menetapkan arah, tapi tanpa sistem harian yang konkret, motivasi untuk mencapainya mudah hilang."
+      },
+      {
+        "id": "q43-3",
+        "question": "Kenapa sesi menulis kecil (misalnya 10 menit) sering lebih efektif daripada target besar yang jarang tercapai?",
+        "options": ["Karena sesi kecil menghasilkan tulisan yang lebih bagus", "Karena target kecil jarang punya alasan untuk dilewatkan dan bisa memicu momentum begitu dimulai", "Karena sesi besar dilarang oleh prinsip menulis yang baik", "Karena sesi kecil tidak membutuhkan kalender pelacakan"],
+        "answer": 1,
+        "explanation": "Target minimum yang kecil sulit dihindari dan sering memicu momentum untuk melanjutkan lebih lama begitu proses dimulai."
+      },
+      {
+        "id": "q43-4",
+        "question": "Fungsi utama pelacakan progres (habit tracker) yang sehat adalah…",
+        "options": ["Menghukum diri sendiri setiap kali terlewat satu hari", "Membuat konsistensi terlihat dan memberi data untuk diperbaiki, bukan alat untuk menghukum diri", "Menentukan kualitas tulisan yang dihasilkan", "Menggantikan kebutuhan menulis itu sendiri"],
+        "answer": 1,
+        "explanation": "Pelacakan yang sehat memvisualisasikan konsistensi dan memperlakukan hari yang terlewat sebagai informasi, bukan bukti kegagalan."
+      },
+      {
+        "id": "q43-5",
+        "question": "Apa yang dimaksud dengan 'melindungi jam menulis'?",
+        "options": ["Menulis hanya ketika benar-benar sendirian di rumah", "Memperlakukan waktu menulis seperti janji temu penting yang dikunci di kalender dan tidak mudah diganggu", "Menulis di tempat yang sama setiap hari tanpa terkecuali", "Menghindari menulis di jam kerja kantor"],
+        "answer": 1,
+        "explanation": "Jam menulis yang tidak dijadwalkan dan dilindungi seperti agenda penting akan selalu kalah dari hal lain yang terasa lebih mendesak."
+      },
+      {
+        "id": "q43-6",
+        "question": "Habit stacking dalam konteks kebiasaan menulis berarti…",
+        "options": ["Menulis beberapa jam sekaligus untuk mengejar ketertinggalan", "Menempelkan sesi menulis baru setelah kebiasaan lama yang sudah otomatis dilakukan", "Menumpuk banyak proyek menulis dalam satu waktu", "Mengganti kebiasaan lama sepenuhnya dengan kebiasaan menulis"],
+        "answer": 1,
+        "explanation": "Habit stacking memakai kebiasaan yang sudah mapan sebagai pemicu otomatis untuk kebiasaan baru, dalam hal ini menulis."
+      },
+      {
+        "id": "q43-7",
+        "question": "Kenapa berpikir 'aku adalah penulis' (identitas) cenderung membentuk kebiasaan yang lebih tahan lama dibanding 'aku ingin menulis lebih rajin' (tujuan)?",
+        "options": ["Karena identitas tidak membutuhkan tindakan nyata", "Karena menganggap menulis sebagai bagian dari siapa kamu membuat mempertahankannya terasa alami, bukan tugas eksternal yang bisa gagal dikejar", "Karena tujuan selalu lebih mudah dicapai", "Karena identitas hanya relevan untuk penulis profesional"],
+        "answer": 1,
+        "explanation": "Kebiasaan yang terhubung ke identitas terasa sebagai bagian dari diri, bukan target eksternal yang naik-turun tergantung motivasi."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-43",
+    "title": "Ujian Level 43",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e43-1",
+        "question": "Seorang penulis menetapkan target 'menulis 2 jam setiap hari'. Setelah dua minggu, ia mulai sering melewatkan hari-hari sibuk sepenuhnya karena merasa 'kalau tidak sempat 2 jam penuh, percuma saja mulai'. Saran paling tepat berdasarkan prinsip level ini adalah…",
+        "options": ["Menaikkan target jadi 3 jam agar lebih serius", "Menurunkan target minimum jadi sangat kecil (misalnya 10-15 menit) agar jarang punya alasan untuk dilewatkan", "Berhenti menulis sampai jadwal benar-benar longgar", "Menulis hanya di akhir pekan saja"],
+        "answer": 1,
+        "explanation": "Target besar yang sering gagal tercapai justru merusak konsistensi; sesi minimum yang kecil jauh lebih sulit dihindari dan menjaga rutinitas tetap hidup."
+      },
+      {
+        "id": "e43-2",
+        "question": "Seorang penulis melewatkan sesi menulisnya hari Senin karena sakit, lalu berkata pada dirinya 'sudah gagal minggu ini, mending mulai lagi minggu depan saja'. Kesalahan dalam pola pikir ini adalah…",
+        "options": ["Seharusnya ia memang berhenti sampai minggu depan", "Ia memperlakukan satu hari yang terlewat sebagai kegagalan total, padahal aturan yang sehat adalah kembali lagi besok dan menghindari dua hari berturut-turut terlewat", "Sakit bukan alasan yang sah untuk melewatkan sesi menulis", "Ia seharusnya menggandakan target di hari berikutnya untuk mengganti yang terlewat"],
+        "answer": 1,
+        "explanation": "Melewatkan satu hari adalah hal wajar; masalah baru muncul kalau itu berubah jadi dua hari berturut-turut yang mulai membentuk kebiasaan berhenti."
+      },
+      {
+        "id": "e43-3",
+        "question": "Seorang penulis berkata, \"Aku akan menulis kalau nanti ada waktu luang dan sedang mood.\" Berdasarkan perbedaan sistem vs motivasi, kelemahan utama rencana ini adalah…",
+        "options": ["Rencana ini terlalu spesifik", "Tidak ada waktu, tempat, atau pemicu yang jelas — keputusan menulis diserahkan sepenuhnya pada mood yang tidak bisa diprediksi", "Rencana ini sebenarnya sudah cukup sebagai sistem", "Waktu luang seharusnya tidak dipakai untuk menulis"],
+        "answer": 1,
+        "explanation": "Tanpa waktu, tempat, dan pemicu yang konkret, rencana ini masih sepenuhnya bergantung pada motivasi harian, bukan sistem yang berjalan otomatis."
+      },
+      {
+        "id": "e43-4",
+        "question": "Seorang penulis mengunci jam 6 pagi di kalendernya untuk menulis, dan ketika rekan kerja mengajak rapat dadakan di jam itu, ia menjawab \"aku sudah ada agenda saat itu.\" Tindakan ini paling tepat menggambarkan…",
+        "options": ["Sikap tidak kooperatif terhadap tim", "Melindungi jam menulis dengan memperlakukannya sebagai janji temu penting, bukan waktu kosong yang bisa diambil siapa saja", "Kebiasaan yang berlebihan dan tidak fleksibel", "Pelanggaran terhadap prinsip habit stacking"],
+        "answer": 1,
+        "explanation": "Jam menulis yang tidak dilindungi akan selalu kalah dari hal lain yang terasa mendesak; menjadwalkannya seperti rapat adalah cara melindunginya."
+      },
+      {
+        "id": "e43-5",
+        "question": "Seorang penulis memakai kalender 'jangan putus rantai' dan setiap kali melewatkan satu hari, ia merasa sangat bersalah sampai berhenti menulis selama sebulan penuh. Berdasarkan prinsip level ini, masalah utamanya adalah…",
+        "options": ["Kalender pelacak seharusnya tidak pernah dipakai", "Ia memakai pelacakan untuk menghukum diri sendiri, bukan sebagai data untuk kembali dan melanjutkan", "Ia seharusnya menghapus semua data yang tercatat", "Rantai yang terputus tidak bisa disambung lagi"],
+        "answer": 1,
+        "explanation": "Pelacakan yang sehat memperlakukan hari yang terlewat sebagai informasi untuk diperbaiki, bukan bukti kegagalan yang membenarkan berhenti total."
+      },
+      {
+        "id": "e43-6",
+        "question": "Seorang penulis berkata, \"Setelah aku menyeduh kopi pagi seperti biasa, aku langsung duduk dan menulis 15 menit sebelum membuka ponsel.\" Ini adalah contoh penerapan dari…",
+        "options": ["Salami slicing", "Habit stacking — menempelkan kebiasaan menulis baru ke kebiasaan lama yang sudah otomatis", "Hedging berlebihan", "Curse of knowledge"],
+        "answer": 1,
+        "explanation": "Menempelkan kebiasaan baru pada kebiasaan lama yang sudah mapan (menyeduh kopi) adalah contoh khas habit stacking."
+      },
+      {
+        "id": "e43-7",
+        "question": "Dua penulis punya pola pikir berbeda: penulis A berkata 'aku ingin menulis lebih rajin tahun ini', penulis B berkata 'aku adalah orang yang menulis setiap pagi'. Berdasarkan prinsip identitas dalam kebiasaan, perbedaan yang paling mungkin terjadi adalah…",
+        "options": ["Keduanya akan punya hasil yang identik karena kata-kata tidak memengaruhi tindakan", "Penulis B lebih mungkin bertahan karena menulis sudah jadi bagian dari identitasnya, bukan target eksternal yang bisa gagal dikejar", "Penulis A pasti akan menulis lebih banyak karena ambisinya lebih besar", "Perbedaan kalimat ini tidak relevan dengan konsistensi menulis"],
+        "answer": 1,
+        "explanation": "Kebiasaan yang terikat pada identitas ('aku adalah penulis') cenderung lebih tahan lama daripada kebiasaan yang hanya berupa keinginan atau target eksternal."
+      },
+      {
+        "id": "e43-8",
+        "question": "Seorang penulis menyiapkan dokumennya sudah terbuka di layar sejak malam sebelumnya, dan meletakkan ponselnya di ruangan lain selama jam menulis. Prinsip yang diterapkan di sini adalah…",
+        "options": ["Menambah friksi untuk memulai menulis dan mengurangi friksi untuk gangguan", "Mengurangi friksi untuk memulai menulis dan menambah friksi untuk gangguan seperti ponsel", "Menghapus kebutuhan akan sistem sama sekali", "Mengganti kebutuhan pelacakan progres"],
+        "answer": 1,
+        "explanation": "Desain lingkungan yang baik membuat langkah memulai menulis semudah mungkin, sekaligus membuat gangguan (ponsel) sesulit mungkin dijangkau."
+      },
+      {
+        "id": "e43-9",
+        "question": "Seorang manajer proyek menyarankan penulis di timnya untuk 'menulis dokumentasi kapan pun ada waktu senggang di sela rapat'. Berdasarkan prinsip level ini, saran ini kemungkinan besar akan gagal karena…",
+        "options": ["Dokumentasi tidak penting untuk ditulis rutin", "Tidak ada waktu, tempat, atau pemicu tetap — menulis diserahkan pada kondisi yang tidak terjadwal dan tidak konsisten", "Rapat seharusnya dihapus dari jadwal", "Menulis di sela waktu justru lebih efektif daripada waktu terjadwal"],
+        "answer": 1,
+        "explanation": "Tanpa waktu dan pemicu yang tetap, aktivitas menulis akan selalu kalah prioritas dibanding hal lain yang lebih mendesak di jadwal yang padat."
+      },
+      {
+        "id": "e43-10",
+        "question": "Seorang penulis pemula bertanya, 'kalau aku menulis konsisten tapi hasil tiap sesi jelek, apakah sistem ini gagal?' Jawaban yang paling sesuai dengan prinsip level ini adalah…",
+        "options": ["Ya, sistem yang baik selalu menghasilkan tulisan bagus di setiap sesi", "Tidak — tujuan sistem adalah menjaga konsistensi tindakan, bukan menjamin setiap sesi menghasilkan tulisan sempurna; kualitas diasah lewat pengulangan", "Sistem seharusnya dihentikan sampai kualitas membaik", "Konsistensi hanya penting untuk penulis pemula, bukan yang sudah mahir"],
+        "answer": 1,
+        "explanation": "Sistem menulis dirancang untuk menjaga kebiasaan tetap berjalan; kualitas adalah hasil jangka panjang dari latihan berulang, bukan ukuran keberhasilan tiap sesi."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones", "author": "James Clear", "year": 2018, "publisher": "Avery", "note": "Sumber utama konsep sistem vs tujuan, habit stacking, dan identitas dalam kebiasaan, dipakai di 43-2, 43-5, dan 43-6." },
+    { "title": "Deep Work: Rules for Focused Success in a Distracted World", "author": "Cal Newport", "year": 2016, "publisher": "Grand Central Publishing", "note": "Prinsip melindungi waktu fokus dan mengurangi friksi lingkungan kerja, dipakai di 43-5." },
+    { "title": "The Power of Habit: Why We Do What We Do in Life and Business", "author": "Charles Duhigg", "year": 2012, "publisher": "Random House", "note": "Konsep pemicu-rutinitas-ganjaran yang mendasari pembahasan pelacakan kebiasaan di 43-4." },
+    { "title": "Bird by Bird: Some Instructions on Writing and Life", "author": "Anne Lamott", "year": 1994, "publisher": "Anchor Books", "note": "Perspektif tentang menulis sedikit demi sedikit secara konsisten, mendukung 43-3." }
+  ]
+}

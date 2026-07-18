@@ -1,0 +1,155 @@
+{
+  "id": 49,
+  "slug": "self-plagiarism",
+  "title": "Self-Plagiarism & Publikasi Ganda",
+  "subtitle": "Salami slicing, daur ulang teks, dan batas reuse yang wajar",
+  "goal": "Memahami bahwa menjiplak karya sendiri pun bermasalah, mengenali publikasi ganda dan salami slicing, membedakan reuse yang wajar (metode, preprint) dari yang tidak, serta memahami konsekuensi retraction.",
+  "estimatedMinutes": 30,
+  "sections": [
+    {
+      "id": "49-1",
+      "title": "Menjiplak Diri Sendiri? Kok Bisa Salah?",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Soal Kepemilikan, Tapi Kejujuran" },
+        { "type": "paragraph", "text": "Level 3 membahas plagiarisme — mengambil karya orang lain. Terdengar aneh bahwa mengambil karyamu SENDIRI juga bisa bermasalah. Bukankah itu milikmu? Kuncinya: masalahnya bukan kepemilikan, melainkan menyesatkan pembaca. Ketika kamu menyajikan sesuatu sebagai baru padahal sudah pernah terbit, kamu menipu pembaca, penerbit, dan sistem sains." },
+        { "type": "paragraph", "text": "Self-plagiarism juga bisa melanggar hak cipta — sering kali penerbit, bukan kamu, yang memegang hak cipta atas artikel yang sudah terbit. Menerbitkan ulang tanpa izin bisa jadi pelanggaran hukum, bukan cuma etika." },
+        { "type": "callout", "title": "Prinsip Inti", "text": "Sains bergerak dengan asumsi bahwa tiap publikasi menyumbang sesuatu yang baru. Menyajikan karya lama sebagai baru mengotori catatan ilmiah — inflasi semu jumlah temuan yang membuat orang lain (dan dirimu di masa depan) tersesat." }
+      ]
+    },
+    {
+      "id": "49-2",
+      "title": "Publikasi Ganda (Duplicate Publication)",
+      "blocks": [
+        { "type": "heading", "text": "Satu Penelitian, Dua Kali Terbit" },
+        { "type": "paragraph", "text": "Publikasi ganda (redundant/duplicate publication) adalah menerbitkan penelitian yang sama — atau nyaris sama — di lebih dari satu jurnal tanpa pemberitahuan. Motivasinya sering menambah jumlah publikasi di CV, tapi konsekuensinya serius." },
+        { "type": "list", "ordered": false, "items": [
+          "Membuang sumber daya editor dan reviewer untuk menilai hal yang sama dua kali.",
+          "Menggelembungkan bobot temuan dalam meta-analisis (satu studi dihitung dua kali).",
+          "Melanggar perjanjian eksklusivitas yang biasanya ditandatangani saat submit.",
+          "Berujung retraction dan sanksi bila ketahuan."
+        ]},
+        { "type": "callout", "title": "Pengecualian yang Sah", "text": "Menerbitkan ulang secara transparan kadang dibolehkan: misalnya terjemahan ke bahasa lain untuk audiens berbeda, ATAU versi yang diperluas — asalkan diberitahukan ke kedua editor dan disebutkan sumber aslinya. Kunci pembedanya: transparansi dan izin." }
+      ]
+    },
+    {
+      "id": "49-3",
+      "title": "Salami Slicing",
+      "blocks": [
+        { "type": "heading", "text": "Memotong Satu Studi Jadi Banyak Makalah" },
+        { "type": "paragraph", "text": "Salami slicing (atau salami publication) adalah memecah satu penelitian utuh menjadi beberapa makalah 'seiris-seiris' yang seharusnya jadi satu, demi menambah jumlah publikasi. Misalnya satu survei besar dipecah jadi lima artikel, masing-masing melaporkan sepotong kecil yang sebenarnya tak berdiri sendiri secara bermakna." },
+        { "type": "quote", "text": "Salami slicing: satu studi kepuasan mahasiswa dipecah jadi 'kepuasan terhadap dosen', 'kepuasan terhadap fasilitas', 'kepuasan terhadap administrasi' — tiga artikel terpisah dari satu dataset yang seharusnya dibahas utuh. → Sah: satu artikel komprehensif, atau pemecahan hanya jika tiap bagian benar-benar berdiri sendiri dengan pertanyaan riset berbeda.", "source": "Contoh membedakan salami slicing" },
+        { "type": "callout", "title": "Uji 'Least Publishable Unit'", "text": "Tanya: apakah tiap potongan benar-benar menyampaikan temuan yang utuh dan bermakna sendiri, atau kamu sekadar mencari 'unit terkecil yang bisa diterbitkan' demi menambah angka? Kalau memecahnya justru mengaburkan gambaran utuh, itu salami slicing." }
+      ]
+    },
+    {
+      "id": "49-4",
+      "title": "Daur Ulang Teks (Text Recycling)",
+      "blocks": [
+        { "type": "heading", "text": "Menyalin Kalimatmu Sendiri" },
+        { "type": "paragraph", "text": "Text recycling adalah menyalin kata demi kata bagian dari tulisanmu yang sudah terbit ke tulisan baru tanpa keterangan. Ini area abu-abu — tidak semua daur ulang sama beratnya, dan konvensinya berbeda antar-bidang." },
+        {
+          "type": "table",
+          "headers": ["Situasi", "Umumnya"],
+          "rows": [
+            ["Menyalin bagian metode yang identik dari studimu sebelumnya", "Sering ditoleransi (metode memang sama), tapi lebih baik disitasi/dinyatakan"],
+            ["Menyalin paragraf pendahuluan/pembahasan kata per kata", "Bermasalah — bagian ini diharapkan orisinal tiap artikel"],
+            ["Menyalin seluruh bagian hasil dan disajikan sebagai temuan baru", "Serius — mendekati publikasi ganda"]
+          ]
+        },
+        { "type": "callout", "title": "Aturan Aman", "text": "Kalau ragu, parafrase (Level 3) dan sitasi karyamu sendiri seperti kamu menyitasi orang lain. Menyebut 'seperti dijelaskan dalam [karyamu, tahun]' selalu lebih aman daripada diam-diam menyalin." }
+      ]
+    },
+    {
+      "id": "49-5",
+      "title": "Reuse yang Wajar",
+      "blocks": [
+        { "type": "heading", "text": "Tidak Semua Pengulangan Itu Dosa" },
+        { "type": "paragraph", "text": "Penting untuk tidak paranoid. Ada bentuk pemakaian ulang yang justru normal dan diterima." },
+        { "type": "list", "ordered": false, "items": [
+          "Preprint — mengunggah versi awal ke repositori (arXiv, dsb., Level 5) sebelum submit ke jurnal umumnya diterima; kebanyakan jurnal mengizinkannya, cek kebijakannya.",
+          "Deskripsi metode standar yang memang identik antar-studimu — reuse dengan sitasi lazim ditoleransi.",
+          "Tesis/disertasi lalu diterbitkan jadi artikel — umumnya sah karena tesis bukan 'publikasi' dalam arti jurnal; tetap sebutkan asalnya.",
+          "Konferensi lalu diperluas jadi artikel jurnal — sering diterima asalkan ada pengembangan substansial dan diberitahukan."
+        ]},
+        { "type": "callout", "title": "Benang Merahnya", "text": "Reuse jadi wajar ketika: (1) transparan (disebutkan/disitasi), (2) diizinkan kebijakan jurnal, dan (3) tidak menyesatkan pembaca menganggap yang lama sebagai baru. Ketiganya kembali ke prinsip kejujuran." }
+      ]
+    },
+    {
+      "id": "49-6",
+      "title": "Retraction: Konsekuensi Terberat",
+      "blocks": [
+        { "type": "heading", "text": "Saat Sebuah Artikel Ditarik" },
+        { "type": "paragraph", "text": "Retraction adalah penarikan resmi sebuah artikel dari catatan ilmiah, biasanya karena pelanggaran serius: data palsu, plagiarisme, atau publikasi ganda. Artikel tetap terlihat tapi ditandai 'RETRACTED' selamanya, dan reputasi penulis tercoreng — kadang permanen." },
+        { "type": "paragraph", "text": "Self-plagiarism berat (publikasi ganda, salami slicing ekstrem) bisa berujung retraction. Di era mesin pemeriksa kemiripan (Level 5) dan basis data seperti Retraction Watch, pelanggaran jauh lebih mudah terdeteksi daripada dulu." },
+        { "type": "callout", "title": "Pencegahan Lebih Murah", "text": "Satu retraction bisa merusak karier yang dibangun bertahun-tahun. Godaan menambah satu-dua publikasi lewat jalan pintas tidak sebanding dengan risikonya. Kalau ragu soal reuse, tanya editor sebelum submit — bertanya selalu aman." }
+      ]
+    },
+    {
+      "id": "49-7",
+      "title": "Praktik Aman Sehari-hari",
+      "blocks": [
+        { "type": "heading", "text": "Kebiasaan yang Menjauhkan dari Masalah" },
+        { "type": "list", "ordered": true, "items": [
+          "Sitasi karyamu sendiri seperti kamu menyitasi orang lain — jangan istimewakan.",
+          "Beritahu editor bila naskah punya kaitan dengan karyamu yang lain (misalnya dataset sama).",
+          "Kirim satu naskah ke satu jurnal pada satu waktu (jangan submit ganda paralel).",
+          "Cek kebijakan preprint dan reuse tiap jurnal sebelum submit (Level 18).",
+          "Kalau memperluas karya lama, nyatakan dengan jelas apa yang baru."
+        ]}
+      ]
+    },
+    {
+      "id": "49-8",
+      "title": "Kesalahan Umum Seputar Self-Plagiarism",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Mengira 'karya sendiri bebas dipakai ulang sesuka hati' — padahal bisa menyesatkan pembaca dan melanggar hak cipta penerbit.",
+          "Memecah satu studi jadi banyak makalah tipis (salami slicing) demi menambah jumlah publikasi.",
+          "Submit naskah yang sama ke dua jurnal sekaligus untuk 'mempercepat peluang'.",
+          "Menyalin pendahuluan/pembahasan kata per kata dari artikel lama tanpa keterangan.",
+          "Tidak memberi tahu editor soal preprint atau versi konferensi dari naskah yang sama."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Menyambung Level 14 (etika) dan Level 3 (plagiarisme): integritas ilmiah bertumpu pada kejujuran soal apa yang baru dan apa yang bukan. Transparansi menyelesaikan hampir semua keraguan — kalau kamu terbuka soal reuse dan mendapat izin, kamu aman." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-49",
+    "title": "Kuis Level 49",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "q49-1", "question": "Kenapa menjiplak karya sendiri (self-plagiarism) bisa bermasalah?", "options": ["Karena karya itu bukan milikmu", "Karena menyajikan sesuatu yang lama sebagai baru menyesatkan pembaca dan bisa melanggar hak cipta penerbit", "Karena dilarang menulis dua artikel", "Tidak pernah bermasalah"], "answer": 1, "explanation": "Masalahnya soal menyesatkan pembaca dan hak cipta, bukan kepemilikan." },
+      { "id": "q49-2", "question": "Publikasi ganda (duplicate publication) adalah…", "options": ["Menerbitkan dua topik berbeda", "Menerbitkan penelitian yang sama/nyaris sama di lebih dari satu jurnal tanpa pemberitahuan", "Menulis dengan dua penulis", "Menerbitkan preprint"], "answer": 1, "explanation": "Publikasi ganda menerbitkan hal yang sama berkali-kali tanpa transparansi." },
+      { "id": "q49-3", "question": "Salami slicing berarti…", "options": ["Menggabungkan banyak studi jadi satu", "Memecah satu penelitian utuh jadi beberapa makalah tipis demi menambah jumlah publikasi", "Menerjemahkan artikel", "Menulis metode yang sama"], "answer": 1, "explanation": "Salami slicing memotong satu studi jadi banyak makalah yang seharusnya utuh." },
+      { "id": "q49-4", "question": "Menyalin bagian metode yang identik dari studimu sebelumnya…", "options": ["Selalu pelanggaran berat", "Sering ditoleransi karena metodenya memang sama, tapi lebih baik disitasi/dinyatakan", "Sama beratnya dengan memalsukan data", "Dilarang mutlak"], "answer": 1, "explanation": "Metode identik sering ditoleransi; menyebutkannya tetap lebih aman." },
+      { "id": "q49-5", "question": "Mengunggah preprint ke repositori sebelum submit ke jurnal…", "options": ["Selalu dilarang", "Umumnya diterima banyak jurnal, tapi cek kebijakannya dulu", "Sama dengan publikasi ganda", "Otomatis retraction"], "answer": 1, "explanation": "Preprint umumnya sah; tetap periksa kebijakan jurnal tujuan." },
+      { "id": "q49-6", "question": "Retraction adalah…", "options": ["Revisi minor artikel", "Penarikan resmi artikel dari catatan ilmiah karena pelanggaran serius", "Penambahan penulis", "Terjemahan artikel"], "answer": 1, "explanation": "Retraction menarik artikel dan menandainya, mencoreng reputasi penulis." },
+      { "id": "q49-7", "question": "Benang merah yang membuat reuse menjadi wajar adalah…", "options": ["Selama tidak ketahuan", "Transparan, diizinkan kebijakan jurnal, dan tidak menyesatkan pembaca", "Selama karyamu sendiri", "Selama menambah jumlah publikasi"], "answer": 1, "explanation": "Reuse wajar bila transparan, diizinkan, dan tidak menyesatkan." }
+    ]
+  },
+  "exam": {
+    "id": "exam-49",
+    "title": "Ujian Level 49",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "e49-1", "question": "Seorang peneliti berkata, \"Ini artikelku sendiri, jadi aku bebas menerbitkannya ulang di jurnal lain apa adanya.\" Kenapa alasan ini keliru?", "options": ["Tidak keliru sama sekali", "Menerbitkan ulang tanpa keterangan menyesatkan pembaca menganggapnya baru, dan hak cipta sering dipegang penerbit — bisa jadi pelanggaran hukum sekaligus etika", "Karena artikel tidak boleh diterbitkan dua kali dalam bentuk apa pun", "Karena penulis tidak memiliki karyanya"], "answer": 1, "explanation": "Kepemilikan bukan intinya; menyesatkan pembaca dan hak cipta penerbit yang jadi masalah." },
+      { "id": "e49-2", "question": "Seorang peneliti punya satu survei besar kepuasan mahasiswa. Ia memecahnya jadi lima artikel — kepuasan terhadap dosen, fasilitas, administrasi, kantin, parkir — masing-masing sepotong kecil. Praktik ini paling tepat disebut…", "options": ["Reuse yang wajar", "Salami slicing — memecah satu studi utuh demi menambah jumlah publikasi", "Publikasi preprint", "Text recycling metode"], "answer": 1, "explanation": "Memecah satu dataset jadi banyak makalah tipis yang tak berdiri sendiri adalah salami slicing." },
+      { "id": "e49-3", "question": "Untuk menghemat waktu, seorang peneliti mengirim naskah yang identik ke dua jurnal sekaligus, berharap salah satu menerima lebih cepat. Masalah utamanya adalah…", "options": ["Tidak ada masalah, itu efisien", "Ia melanggar eksklusivitas submission dan berisiko publikasi ganda bila keduanya menerima — bisa berujung retraction", "Ia harus mengirim ke tiga jurnal", "Jurnal akan senang"], "answer": 1, "explanation": "Submit ganda paralel melanggar perjanjian eksklusivitas dan berisiko publikasi ganda." },
+      { "id": "e49-4", "question": "Seorang peneliti menyalin seluruh bagian pendahuluan artikel lamanya kata per kata ke artikel baru tanpa keterangan. Menurut tabel text recycling, ini…", "options": ["Selalu dapat diterima", "Bermasalah, karena pendahuluan diharapkan orisinal tiap artikel; lebih baik ditulis ulang atau disitasi", "Sama amannya dengan menyalin metode", "Wajib dilakukan"], "answer": 1, "explanation": "Berbeda dari metode, pendahuluan diharapkan orisinal; menyalinnya diam-diam bermasalah." },
+      { "id": "e49-5", "question": "Seorang mahasiswa menerbitkan bab tesisnya menjadi artikel jurnal, dan menyebutkan bahwa artikel itu berasal dari tesisnya. Ini…", "options": ["Pelanggaran berat", "Umumnya sah, karena tesis biasanya bukan 'publikasi' jurnal, dan ia transparan menyebutkan asalnya", "Sama dengan salami slicing", "Otomatis retraction"], "answer": 1, "explanation": "Menerbitkan artikel dari tesis lazim dan sah bila asalnya disebutkan." },
+      { "id": "e49-6", "question": "Seorang peneliti ingin mengunggah versi awal naskahnya ke arXiv sebelum submit ke jurnal. Langkah paling tepat adalah…", "options": ["Langsung unggah tanpa cek apa pun", "Memeriksa kebijakan preprint jurnal tujuan dulu, karena kebanyakan mengizinkan tapi tidak semua", "Membatalkan rencana submit ke jurnal", "Menganggapnya publikasi ganda dan menghindarinya"], "answer": 1, "explanation": "Preprint umumnya diperbolehkan, tapi kebijakan jurnal perlu dicek lebih dulu." },
+      { "id": "e49-7", "question": "Sebuah tim mempertimbangkan memecah studinya. Uji terbaik untuk membedakan pemecahan yang sah dari salami slicing adalah…", "options": ["Apakah menghasilkan lebih banyak artikel", "Apakah tiap bagian benar-benar menyampaikan temuan utuh dengan pertanyaan riset berbeda, bukan sekadar 'unit terkecil yang bisa diterbitkan'", "Apakah jurnalnya berbeda", "Apakah penulisnya berbeda"], "answer": 1, "explanation": "Pemecahan sah bila tiap bagian berdiri sendiri secara bermakna, bukan demi menambah angka." },
+      { "id": "e49-8", "question": "Di era mesin pemeriksa kemiripan dan basis data retraction, seorang peneliti berpikir 'daur ulang teks berat tidak akan ketahuan'. Kenapa asumsi ini berbahaya?", "options": ["Karena mesin tidak pernah bekerja", "Karena pelanggaran justru jauh lebih mudah terdeteksi sekarang, dan satu retraction bisa merusak karier bertahun-tahun", "Karena daur ulang teks selalu legal", "Karena editor tidak peduli"], "answer": 1, "explanation": "Deteksi kini lebih mudah; risiko retraction jauh lebih besar daripada keuntungan jalan pintas." },
+      { "id": "e49-9", "question": "Seorang peneliti ragu apakah reuse tertentu diperbolehkan. Tindakan paling aman adalah…", "options": ["Diam-diam melakukannya dan berharap tidak ketahuan", "Bertanya ke editor jurnal sebelum submit dan bersikap transparan soal kaitannya dengan karya lain", "Membatalkan seluruh publikasi", "Menyalin dan tidak menyebutkan apa pun"], "answer": 1, "explanation": "Transparansi dan bertanya lebih dulu menyelesaikan hampir semua keraguan reuse." },
+      { "id": "e49-10", "question": "Seorang peneliti ingin menerbitkan versi terjemahan artikelnya untuk audiens berbahasa berbeda. Cara melakukannya yang etis adalah…", "options": ["Menerbitkannya diam-diam sebagai artikel baru", "Memberitahu kedua editor, mendapat izin, dan menyebutkan sumber aslinya secara jelas", "Mengubah sedikit datanya agar terlihat beda", "Menghindari menyebut artikel aslinya"], "answer": 1, "explanation": "Terjemahan bisa sah bila transparan, seizin editor, dan menyebutkan sumber asli." }
+    ]
+  },
+  "sources": [
+    { "title": "COPE Guidelines: Text Recycling and Redundant Publication", "author": "Committee on Publication Ethics", "publisher": "COPE", "url": "https://publicationethics.org/guidance", "note": "Panduan etika soal publikasi ganda, daur ulang teks, dan salami slicing." },
+    { "title": "ICMJE Recommendations: Overlapping Publications", "author": "International Committee of Medical Journal Editors", "publisher": "ICMJE", "url": "https://www.icmje.org/recommendations/", "note": "Aturan soal publikasi tumpang tindih dan pemberitahuan ke editor." },
+    { "title": "The ethics of self-plagiarism", "author": "iThenticate / Turnitin", "publisher": "iThenticate", "url": "https://www.ithenticate.com/resources/papers", "note": "Pembahasan jenis self-plagiarism dan cara menghindarinya." },
+    { "title": "Retraction Watch", "author": "The Center for Scientific Integrity", "publisher": "retractionwatch.com", "url": "https://retractionwatch.com", "note": "Basis data dan liputan kasus retraction, termasuk akibat publikasi ganda." },
+    { "title": "Publication Manual of the American Psychological Association", "author": "American Psychological Association", "publisher": "APA", "note": "Kaidah menghindari self-plagiarism dan menyitasi karya sendiri." }
+  ]
+}

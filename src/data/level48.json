@@ -1,0 +1,156 @@
+{
+  "id": 48,
+  "slug": "proposal-hibah",
+  "title": "Proposal Hibah & Pendanaan Riset",
+  "subtitle": "Membaca call, menjual signifikansi, dan menyusun anggaran",
+  "goal": "Bisa membaca call for proposals secara cermat, membedakan signifikansi dari inovasi, menyusun rencana kerja dan timeline yang realistis, menulis justifikasi anggaran yang meyakinkan, dan menulis untuk panel reviewer yang belum tentu ahli di subbidangmu.",
+  "estimatedMinutes": 34,
+  "sections": [
+    {
+      "id": "48-1",
+      "title": "Proposal Hibah Bukan Skripsi",
+      "blocks": [
+        { "type": "heading", "text": "Menjual Masa Depan, Bukan Melaporkan Masa Lalu" },
+        { "type": "paragraph", "text": "Skripsi (Level 23-28) melaporkan penelitian yang sudah selesai. Proposal hibah melakukan hal yang jauh lebih sulit: meyakinkan orang mendanai penelitian yang BELUM kamu lakukan. Kamu menjual janji — bahwa uang mereka akan menghasilkan sesuatu yang berharga dan bahwa kamu orang yang tepat untuk melakukannya." },
+        { "type": "paragraph", "text": "Karena itu proposal hibah punya logika berbeda: bukan cuma 'apa yang akan saya teliti', tapi 'kenapa ini layak didanai dibanding puluhan proposal lain di meja reviewer'. Kompetisinya ketat; sebagian besar proposal ditolak bukan karena buruk, tapi karena kurang meyakinkan dibanding yang lain." },
+        { "type": "callout", "title": "Pergeseran Sudut Pandang", "text": "Tulis dari sisi pemberi dana, bukan sisi peneliti. Mereka bertanya: 'Kalau saya beri uang ini, apa yang saya dan masyarakat dapatkan?' Proposal yang menang menjawab pertanyaan itu dengan jelas dan meyakinkan." }
+      ]
+    },
+    {
+      "id": "48-2",
+      "title": "Membaca Call for Proposals",
+      "blocks": [
+        { "type": "heading", "text": "Aturan Main Ada di Dokumen Panggilan" },
+        { "type": "paragraph", "text": "Kesalahan mahal dan sangat umum: melewatkan call for proposals (panggilan proposal) dan menulis proposal generik. Padahal call berisi persis apa yang pemberi dana cari — tema prioritas, kriteria penilaian, format, batasan dana, dan syarat kelayakan. Proposal yang tidak cocok dengan call langsung disingkirkan tanpa dibaca isinya." },
+        { "type": "list", "ordered": true, "items": [
+          "Cek kelayakan (eligibility) dulu — jangan buang waktu kalau kamu tidak memenuhi syarat.",
+          "Tandai tema prioritas: proposalmu harus jelas menjawab salah satunya.",
+          "Baca kriteria penilaian — di situ tertulis bobot tiap aspek (signifikansi, metode, dsb.). Tulis untuk memaksimalkan skor pada kriteria berbobot besar.",
+          "Patuhi format dan batas halaman/dana secara ketat — pelanggaran teknis sering langsung mendiskualifikasi."
+        ]},
+        { "type": "callout", "title": "Trik Reviewer", "text": "Reviewer sering menilai memakai formulir dengan kriteria dari call. Kalau kamu memakai kata dan struktur yang sama dengan kriteria itu, kamu memudahkan mereka memberi skor tinggi — mereka bisa langsung menemukan tiap poin yang mereka cari." }
+      ]
+    },
+    {
+      "id": "48-3",
+      "title": "Signifikansi vs Inovasi",
+      "blocks": [
+        { "type": "heading", "text": "Dua Pertanyaan Berbeda" },
+        { "type": "paragraph", "text": "Dua kriteria yang paling sering menentukan, dan sering tertukar." },
+        {
+          "type": "table",
+          "headers": ["Aspek", "Menjawab", "Contoh"],
+          "rows": [
+            ["Signifikansi", "Kenapa masalah ini PENTING? Apa dampaknya kalau terpecahkan?", "Stunting menurunkan produktivitas satu generasi — memecahkannya berdampak nasional"],
+            ["Inovasi", "Apa yang BARU dari pendekatanmu? Apa bedanya dari yang sudah ada?", "Memakai data ponsel real-time, bukan survei tahunan yang lambat"]
+          ]
+        },
+        { "type": "paragraph", "text": "Proposal kuat butuh keduanya: masalah yang penting (signifikansi) DAN cara baru yang menjanjikan untuk menyelesaikannya (inovasi). Masalah penting dengan metode basi kalah dari masalah penting dengan pendekatan segar." },
+        { "type": "callout", "title": "Kesalahan Umum", "text": "Banyak proposal panjang lebar soal betapa canggih metodenya (inovasi) tapi lupa meyakinkan kenapa masalahnya penting (signifikansi). Reviewer bisa berpikir: 'metode keren, tapi kenapa saya harus peduli?'" }
+      ]
+    },
+    {
+      "id": "48-4",
+      "title": "Rencana Kerja & Timeline",
+      "blocks": [
+        { "type": "heading", "text": "Membuktikan Ini Bisa Dikerjakan" },
+        { "type": "paragraph", "text": "Ide bagus saja tidak cukup; reviewer perlu yakin kamu bisa menyelesaikannya dalam waktu dan dana yang tersedia. Rencana kerja (work plan) memecah proyek menjadi tahap-tahap konkret dengan luaran (deliverable) di tiap tahap, dan timeline menempatkannya di garis waktu." },
+        { "type": "list", "ordered": false, "items": [
+          "Pecah proyek jadi paket kerja (work package) yang jelas: apa, oleh siapa, kapan.",
+          "Sertakan luaran terukur tiap tahap (misalnya: 'bulan 6 — instrumen tervalidasi').",
+          "Gunakan diagram Gantt sederhana agar reviewer melihat alurnya sekilas.",
+          "Antisipasi risiko: sebutkan risiko utama dan rencana mitigasinya — ini menunjukkan kematangan, bukan kelemahan."
+        ]},
+        { "type": "callout", "title": "Realistis Menang", "text": "Timeline yang terlalu ambisius (menjanjikan terlalu banyak dalam waktu singkat) justru menurunkan kepercayaan reviewer. Rencana yang realistis dan sadar risiko lebih meyakinkan daripada janji muluk." }
+      ]
+    },
+    {
+      "id": "48-5",
+      "title": "Justifikasi Anggaran",
+      "blocks": [
+        { "type": "heading", "text": "Setiap Rupiah Harus Punya Alasan" },
+        { "type": "paragraph", "text": "Anggaran bukan sekadar daftar harga; ia adalah argumen. Tiap pos harus jelas kaitannya dengan rencana kerja — kenapa dibutuhkan, dan kenapa jumlahnya segitu. Anggaran yang 'digelembungkan' atau tidak masuk akal langsung memicu kecurigaan reviewer." },
+        { "type": "quote", "text": "Buruk: \"Perjalanan: Rp 50.000.000.\" (tanpa penjelasan) → Baik: \"Perjalanan: Rp 12.000.000 — 4 kali kunjungan lapangan ke 2 lokasi (Rp 1.500.000/orang/kunjungan × 2 peneliti), diperlukan untuk pengumpulan data primer pada Paket Kerja 2.\"", "source": "Contoh justifikasi anggaran" },
+        { "type": "callout", "title": "Kaitkan ke Rencana Kerja", "text": "Anggaran yang baik bisa 'dibaca mundur' ke rencana kerja: tiap pos menunjuk ke aktivitas tertentu. Kalau ada pos yang tidak terkait aktivitas mana pun, reviewer bertanya-tanya untuk apa uang itu." }
+      ]
+    },
+    {
+      "id": "48-6",
+      "title": "Menulis untuk Panel yang Bukan Ahli Subbidangmu",
+      "blocks": [
+        { "type": "heading", "text": "Reviewer Pintar, Tapi Bukan Spesialismu" },
+        { "type": "paragraph", "text": "Panel penilai hibah biasanya terdiri dari akademisi cerdas dari bidang luas — tapi belum tentu ada yang persis di subbidangmu. Kalau proposalmu penuh jargon subbidang tanpa penjelasan, reviewer yang tidak paham akan memberi skor rendah, bukan karena idemu buruk, tapi karena mereka tidak menangkapnya. Ini menyambung komunikasi sains (Level 41)." },
+        { "type": "list", "ordered": false, "items": [
+          "Jelaskan signifikansi dengan bahasa yang bisa dipahami akademisi bidang lain.",
+          "Gloss istilah teknis subbidang saat pertama muncul.",
+          "Pakai satu-dua analogi untuk konsep sulit (Level 41).",
+          "Simpan detail teknis paling dalam untuk bagian metode, bukan di bagian yang harus meyakinkan semua reviewer."
+        ]},
+        { "type": "callout", "title": "Uji Sederhana", "text": "Minta kolega dari bidang berbeda membaca ringkasan proposalmu. Kalau ia bisa menjelaskan kembali kenapa penelitianmu penting, kamu berhasil. Kalau ia bingung, reviewer non-spesialis juga akan bingung." }
+      ]
+    },
+    {
+      "id": "48-7",
+      "title": "Ringkasan Eksekutif yang Menjual",
+      "blocks": [
+        { "type": "heading", "text": "Bagian yang Dibaca Semua Reviewer" },
+        { "type": "paragraph", "text": "Seperti abstrak pada artikel (Level 15), ringkasan/abstrak proposal sering jadi satu-satunya bagian yang dibaca SELURUH panel (bukan cuma reviewer utama). Ia harus, dalam satu halaman atau kurang, menjawab: apa masalahnya, kenapa penting, apa yang akan kamu lakukan, apa yang baru, dan apa dampaknya." },
+        { "type": "callout", "title": "Tulis Terakhir, Taruh Pertama", "text": "Tulis ringkasan setelah seluruh proposal jadi (biar akurat), tapi sadari ia diletakkan dan dibaca pertama. Kesan awal reviewer sering terbentuk di sini — kalau ringkasannya lemah, sisanya dibaca dengan skeptis." }
+      ]
+    },
+    {
+      "id": "48-8",
+      "title": "Kesalahan Umum dalam Proposal Hibah",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Mengabaikan call for proposals dan mengirim proposal generik yang tak menjawab tema prioritas.",
+          "Menonjolkan inovasi metode tapi lupa meyakinkan kenapa masalahnya signifikan.",
+          "Timeline terlalu ambisius sehingga reviewer ragu proyek bisa selesai.",
+          "Anggaran tanpa justifikasi, atau digelembungkan, memicu kecurigaan.",
+          "Penuh jargon subbidang sehingga reviewer non-spesialis tak menangkap nilainya.",
+          "Melanggar format/batas halaman — sering langsung mendiskualifikasi tanpa penilaian isi."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Ditolak dalam kompetisi hibah adalah hal biasa, bahkan bagi peneliti hebat (menyambung Level 22). Minta komentar reviewer bila tersedia, perbaiki, dan ajukan lagi. Proposal yang menang sering adalah proposal yang sudah beberapa kali direvisi dan diajukan ulang." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-48",
+    "title": "Kuis Level 48",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "q48-1", "question": "Perbedaan mendasar proposal hibah dari skripsi adalah…", "options": ["Proposal lebih pendek", "Proposal meyakinkan orang mendanai penelitian yang belum dilakukan (menjual janji), bukan melaporkan yang sudah selesai", "Proposal tidak butuh metode", "Skripsi lebih kompetitif"], "answer": 1, "explanation": "Proposal menjual masa depan penelitian; skripsi melaporkan masa lalu." },
+      { "id": "q48-2", "question": "Kenapa membaca call for proposals itu krusial?", "options": ["Sekadar formalitas", "Call berisi tema prioritas, kriteria penilaian, dan syarat; proposal yang tak cocok langsung disingkirkan", "Agar proposal lebih panjang", "Untuk mengetahui nama reviewer"], "answer": 1, "explanation": "Call menetapkan aturan main; proposal yang mengabaikannya langsung tersingkir." },
+      { "id": "q48-3", "question": "Signifikansi sebuah proposal menjawab pertanyaan…", "options": ["Apa yang baru dari metodenya?", "Kenapa masalah ini penting dan apa dampaknya kalau terpecahkan?", "Berapa anggarannya?", "Siapa penulisnya?"], "answer": 1, "explanation": "Signifikansi soal pentingnya masalah dan dampaknya; inovasi soal kebaruan pendekatan." },
+      { "id": "q48-4", "question": "Timeline proposal yang paling meyakinkan reviewer adalah yang…", "options": ["Menjanjikan hasil sebanyak mungkin secepat mungkin", "Realistis dan sadar risiko, dengan luaran terukur tiap tahap", "Tanpa batas waktu", "Hanya satu tahap besar"], "answer": 1, "explanation": "Timeline realistis dan sadar risiko lebih dipercaya daripada janji muluk." },
+      { "id": "q48-5", "question": "Justifikasi anggaran yang baik…", "options": ["Cukup mencantumkan total per pos", "Mengaitkan tiap pos ke aktivitas dalam rencana kerja dan menjelaskan kenapa jumlahnya segitu", "Sebisa mungkin digelembungkan", "Tidak perlu rincian"], "answer": 1, "explanation": "Anggaran adalah argumen; tiap pos harus terkait aktivitas dan dijelaskan." },
+      { "id": "q48-6", "question": "Menulis untuk panel hibah yang bukan spesialis subbidangmu berarti…", "options": ["Memakai sebanyak mungkin jargon agar terlihat pintar", "Menjelaskan signifikansi dengan bahasa yang bisa dipahami akademisi bidang lain dan menggloss istilah teknis", "Menghindari menjelaskan apa pun", "Menulis dalam bahasa asing"], "answer": 1, "explanation": "Panel luas butuh penjelasan yang jelas; jargon tanpa gloss menurunkan skor." },
+      { "id": "q48-7", "question": "Ringkasan eksekutif proposal penting karena…", "options": ["Hanya syarat administratif", "Sering jadi satu-satunya bagian yang dibaca seluruh panel, membentuk kesan awal", "Tidak pernah dibaca", "Menggantikan seluruh proposal"], "answer": 1, "explanation": "Ringkasan dibaca semua reviewer dan membentuk kesan awal terhadap proposal." }
+    ]
+  },
+  "exam": {
+    "id": "exam-48",
+    "title": "Ujian Level 48",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "e48-1", "question": "Seorang peneliti menyalin proposal lamanya dan mengirimkannya ke sebuah panggilan hibah baru tanpa membaca call-nya. Proposal ditolak tanpa masuk penilaian isi. Penyebab paling mungkin adalah…", "options": ["Idenya buruk", "Proposal tidak cocok dengan tema prioritas/syarat di call, sehingga tersingkir di tahap kelayakan", "Terlalu inovatif", "Anggarannya terlalu kecil"], "answer": 1, "explanation": "Mengabaikan call membuat proposal gagal memenuhi tema/syarat dan tersingkir sebelum isinya dinilai." },
+      { "id": "e48-2", "question": "Sebuah proposal menghabiskan tiga halaman menjelaskan betapa canggih dan barunya metode yang dipakai, tapi hampir tak menyinggung kenapa masalahnya penting. Reaksi reviewer yang paling mungkin adalah…", "options": ["\"Sempurna, langsung didanai.\"", "\"Metodenya keren, tapi kenapa saya harus peduli pada masalah ini?\" — signifikansi kurang tergarap", "\"Terlalu banyak signifikansi.\"", "\"Anggarannya pasti benar.\""], "answer": 1, "explanation": "Inovasi tanpa signifikansi membuat reviewer tak yakin masalahnya layak didanai." },
+      { "id": "e48-3", "question": "Sebuah proposal menjanjikan menyelesaikan survei nasional, analisis penuh, dan tiga publikasi dalam waktu 6 bulan dengan dua peneliti. Efek pada penilaian reviewer cenderung…", "options": ["Positif, karena ambisius", "Negatif, karena timeline terlalu ambisius menurunkan kepercayaan bahwa proyek bisa selesai", "Netral", "Membuat proposal otomatis menang"], "answer": 1, "explanation": "Janji berlebihan yang tak realistis menurunkan kredibilitas rencana kerja." },
+      { "id": "e48-4", "question": "Sebuah anggaran mencantumkan \"Peralatan: Rp 80.000.000\" tanpa penjelasan apa pun. Masalah utamanya adalah…", "options": ["Angkanya terlalu kecil", "Tidak ada justifikasi yang mengaitkan pos ini ke aktivitas rencana kerja, memicu kecurigaan reviewer", "Peralatan tidak boleh dianggarkan", "Harus ditulis dalam dolar"], "answer": 1, "explanation": "Pos tanpa justifikasi/kaitan aktivitas membuat reviewer meragukan kebutuhannya." },
+      { "id": "e48-5", "question": "Panel penilai sebuah hibah terdiri dari akademisi berbagai bidang, tak ada yang persis di subbidang pelamar. Proposal penuh jargon subbidang tanpa penjelasan. Kemungkinan besar hasilnya…", "options": ["Skor tinggi karena terlihat canggih", "Skor rendah bukan karena idenya buruk, tapi karena reviewer tak menangkap nilainya", "Otomatis didanai", "Tidak berpengaruh"], "answer": 1, "explanation": "Jargon tanpa gloss membuat panel non-spesialis gagal menangkap nilai proposal." },
+      { "id": "e48-6", "question": "Seorang pelamar melebihi batas halaman yang ditetapkan call sebanyak tiga halaman karena 'isinya penting semua'. Risiko paling nyata adalah…", "options": ["Reviewer akan senang membaca lebih banyak", "Pelanggaran format bisa langsung mendiskualifikasi proposal tanpa penilaian isi", "Tidak ada risiko", "Otomatis mendapat dana tambahan"], "answer": 1, "explanation": "Batas format di call sering ketat; melanggarnya bisa mendiskualifikasi." },
+      { "id": "e48-7", "question": "Untuk memastikan signifikansi proposalnya tertangkap panel lintas-bidang, seorang peneliti sebaiknya…", "options": ["Menambah lebih banyak jargon", "Meminta kolega dari bidang berbeda membaca ringkasannya dan menjelaskan kembali kenapa penelitian itu penting", "Tidak menunjukkan proposal ke siapa pun", "Menulisnya dalam bahasa yang paling teknis"], "answer": 1, "explanation": "Kalau non-spesialis bisa menjelaskan ulang signifikansinya, panel luas juga akan menangkapnya." },
+      { "id": "e48-8", "question": "Dua proposal membahas masalah sama pentingnya. Proposal A memakai metode survei tahunan standar; Proposal B memakai data ponsel real-time yang belum banyak dipakai. Pada kriteria inovasi, kemungkinan besar…", "options": ["A unggul karena lebih aman", "B unggul karena menawarkan pendekatan baru yang menjanjikan untuk masalah yang sama", "Keduanya identik", "Inovasi tidak pernah dinilai"], "answer": 1, "explanation": "Untuk signifikansi setara, pendekatan yang lebih baru dan menjanjikan unggul pada inovasi." },
+      { "id": "e48-9", "question": "Seorang peneliti menulis ringkasan eksekutif seadanya karena 'yang penting isi proposalnya'. Kenapa ini keputusan berisiko?", "options": ["Ringkasan tidak pernah dibaca", "Ringkasan sering jadi satu-satunya bagian yang dibaca seluruh panel dan membentuk kesan awal; ringkasan lemah membuat sisanya dibaca dengan skeptis", "Ringkasan menggantikan metode", "Ringkasan hanya untuk arsip"], "answer": 1, "explanation": "Ringkasan membentuk kesan awal seluruh panel; melemahkannya merugikan seluruh proposal." },
+      { "id": "e48-10", "question": "Proposal hibah seorang peneliti berpengalaman ditolak. Sikap paling produktif, menyambung Level 22, adalah…", "options": ["Berhenti melamar hibah selamanya", "Meminta komentar reviewer bila ada, memperbaiki proposal, dan mengajukan ulang — penolakan adalah bagian normal kompetisi hibah", "Menyalin proposal yang menang", "Menuduh panel bias tanpa bukti"], "answer": 1, "explanation": "Penolakan hibah lazim; memperbaiki berdasarkan masukan dan mengajukan ulang adalah jalur yang matang." }
+    ]
+  },
+  "sources": [
+    { "title": "Proposals That Work: A Guide for Planning Dissertations and Grant Proposals", "author": "Lawrence F. Locke, Waneen Wyrick Spirduso, Stephen J. Silverman", "publisher": "SAGE Publications", "note": "Panduan menyusun rencana kerja, signifikansi, dan struktur proposal." },
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, Joseph Bizup, William T. FitzGerald", "publisher": "University of Chicago Press", "note": "Merumuskan signifikansi masalah dan argumen penelitian." },
+    { "title": "Writing Successful Science Proposals", "author": "Andrew J. Friedland, Carol L. Folt, Jennifer L. Mercer", "publisher": "Yale University Press", "note": "Menulis proposal riset yang meyakinkan panel dan menyusun anggaran." },
+    { "title": "Panduan Penelitian dan Pengabdian kepada Masyarakat", "author": "Direktorat Riset dan Pengabdian Masyarakat, Kemendikbudristek", "publisher": "Kemendikbudristek", "note": "Acuan skema dan format hibah penelitian di Indonesia." },
+    { "title": "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century", "author": "Steven Pinker", "year": 2014, "publisher": "Viking", "note": "Curse of knowledge — menulis agar dipahami pembaca di luar subbidang." }
+  ]
+}

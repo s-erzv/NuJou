@@ -1,0 +1,159 @@
+{
+  "id": 28,
+  "slug": "sidang-skripsi",
+  "title": "Menghadapi Sidang",
+  "subtitle": "Presentasi, menjawab penguji, dan revisi pasca-sidang",
+  "goal": "Bisa menyiapkan slide dan presentasi sidang yang padat, mengantisipasi pertanyaan penguji, menjawab dengan tenang termasuk saat tidak tahu, serta menangani revisi pasca-sidang secara terstruktur.",
+  "estimatedMinutes": 34,
+  "sections": [
+    {
+      "id": "28-1",
+      "title": "Sidang Bukan Ujian Jebakan",
+      "blocks": [
+        { "type": "heading", "text": "Apa yang Sebenarnya Dinilai" },
+        { "type": "paragraph", "text": "Banyak mahasiswa membayangkan sidang sebagai arena di mana penguji berusaha menjatuhkan. Padahal yang dinilai sederhana: apakah kamu benar-benar memahami penelitianmu sendiri, dan apakah kamu bisa mempertanggungjawabkan setiap keputusan di dalamnya. Penguji yang baik menguji pemahaman, bukan mempermalukan." },
+        { "type": "paragraph", "text": "Ini kabar baik: kamu adalah orang yang paling tahu tentang skripsimu di ruangan itu. Kamu sudah menghabiskan berbulan-bulan dengannya. Penguji baru membacanya beberapa hari lalu. Sidang adalah kesempatanmu menunjukkan penguasaan, bukan menebak jawaban yang penguji inginkan." },
+        { "type": "callout", "title": "Ubah Kerangka Pikirmu", "text": "Jangan datang sebagai terdakwa yang menunggu vonis. Datang sebagai peneliti yang mempresentasikan karyanya kepada kolega yang lebih senior. Perubahan sikap ini terlihat jelas dan memengaruhi kesan penguji." }
+      ]
+    },
+    {
+      "id": "28-2",
+      "title": "Menyusun Slide yang Padat",
+      "blocks": [
+        { "type": "heading", "text": "Satu Slide, Satu Gagasan" },
+        { "type": "paragraph", "text": "Slide sidang bukan salinan skripsimu yang dipadatkan ke layar. Ia adalah alat bantu visual untuk presentasi lisanmu. Kesalahan paling umum: menjejalkan paragraf penuh ke slide lalu membacanya kata per kata. Penguji bisa membaca sendiri — mereka ingin mendengar kamu menjelaskan." },
+        {
+          "type": "table",
+          "headers": ["Bagian", "Jumlah Slide", "Isi"],
+          "rows": [
+            ["Pembuka", "1-2", "Judul, identitas, latar belakang singkat"],
+            ["Masalah & tujuan", "1-2", "Rumusan masalah dan tujuan penelitian"],
+            ["Metode", "1-2", "Desain, populasi/sampel, cara analisis"],
+            ["Hasil", "2-4", "Temuan utama — tabel/grafik, bukan paragraf"],
+            ["Simpulan", "1", "Jawaban atas rumusan masalah + saran"]
+          ]
+        },
+        { "type": "callout", "title": "Aturan Praktis", "text": "Target sekitar 10-15 slide untuk presentasi 15 menit. Kalau satu slide butuh lebih dari 1,5 menit dijelaskan, pecah jadi dua. Pakai grafik dari Bab 4 (Level 26), bukan tabel angka mentah yang tidak terbaca dari kejauhan." }
+      ]
+    },
+    {
+      "id": "28-3",
+      "title": "Presentasi 15 Menit",
+      "blocks": [
+        { "type": "heading", "text": "Cerita, Bukan Pembacaan" },
+        { "type": "paragraph", "text": "Presentasi sidang punya alur yang sama dengan jam pasir di Level 2: mulai dari gambaran umum (kenapa topik ini penting), menyempit ke penelitianmu (apa yang kamu lakukan dan temukan), lalu melebar lagi (apa artinya). Latih sampai kamu bisa bercerita tanpa membaca slide." },
+        { "type": "list", "ordered": true, "items": [
+          "Latihan lisan minimal 3 kali dengan timer — bukan sekadar membaca dalam hati.",
+          "Rekam dirimu sendiri sekali; kamu akan menemukan kata 'eee', 'anu', dan pengulangan yang tak kamu sadari.",
+          "Siapkan kalimat pembuka dan penutup yang kamu hafal betul — dua momen paling gugup.",
+          "Patuhi waktu. Penguji sering memotong presentasi yang molor, dan itu bukan awal yang baik."
+        ]},
+        { "type": "callout", "title": "Kalau Grogi", "text": "Grogi itu normal dan tidak terlihat separah yang kamu rasakan. Tarik napas, pegang sesuatu (pointer/pulpen), dan ingat: kamu menjelaskan sesuatu yang sudah kamu kuasai. Bicara sedikit lebih lambat dari yang terasa nyaman — saat grogi, kita cenderung terlalu cepat." }
+      ]
+    },
+    {
+      "id": "28-4",
+      "title": "Mengantisipasi Pertanyaan Penguji",
+      "blocks": [
+        { "type": "heading", "text": "Pertanyaan yang Hampir Pasti Muncul" },
+        { "type": "paragraph", "text": "Sebagian besar pertanyaan penguji bisa ditebak karena berasal dari titik-titik lemah yang wajar. Kalau kamu sudah menyiapkan jawabannya, kamu tidak akan terkejut." },
+        { "type": "list", "ordered": false, "items": [
+          "\"Kenapa kamu memilih metode ini, bukan yang lain?\" — kaitkan ke rumusan masalah (Level 8/7).",
+          "\"Apa keterbatasan penelitianmu?\" — kalau kamu jujur menyebutnya lebih dulu di Bab 5, kamu terlihat sadar-diri, bukan lemah.",
+          "\"Apa kebaruan (novelty) penelitianmu?\" — kaitkan ke celah riset dari Bab 2 (Level 25).",
+          "\"Kenapa sampelnya cuma sekian?\" — siapkan justifikasi (saturasi data untuk kualitatif, atau perhitungan untuk kuantitatif).",
+          "\"Bagaimana kamu memastikan datanya valid?\" — rujuk validitas/reliabilitas (Level 10) atau triangulasi (Level 9)."
+        ]},
+        { "type": "callout", "title": "Trik Persiapan", "text": "Minta teman membaca skripsimu dan menyerang bagian terlemahnya. Titik yang membuatmu paling gugup saat ditanya itulah yang paling mungkin ditanyakan penguji sungguhan." }
+      ]
+    },
+    {
+      "id": "28-5",
+      "title": "Menjawab dengan Tenang",
+      "blocks": [
+        { "type": "heading", "text": "Dengar Dulu, Baru Jawab" },
+        { "type": "paragraph", "text": "Kesalahan umum: buru-buru menjawab sebelum penguji selesai bertanya, atau menjawab pertanyaan yang berbeda dari yang ditanyakan. Dengarkan sampai selesai. Kalau perlu, ulangi inti pertanyaannya untuk memastikan: \"Jadi, Bapak menanyakan kenapa saya tidak memakai uji X, benar?\"" },
+        { "type": "quote", "text": "Penguji: \"Kenapa kamu tidak membandingkan dengan kelompok kontrol?\" — Jawaban buruk (defensif): \"Kan sudah saya jelaskan di metode.\" Jawaban baik: \"Betul, penelitian ini memang deskriptif tanpa kontrol karena tujuannya memetakan kondisi, bukan menguji sebab-akibat. Kalau ingin klaim sebab-akibat, kontrol memang diperlukan — itu jadi saran untuk penelitian lanjutan.\"", "source": "Contoh menjawab pertanyaan penguji" },
+        { "type": "callout", "title": "Jangan Berdebat Menang-menangan", "text": "Kamu boleh mempertahankan pendirian dengan bukti, tapi tujuannya menunjukkan kamu berpikir jernih — bukan memenangkan adu argumen. Kalau penguji benar, akui: \"Poin yang bagus, itu memang bisa memperkuat penelitian ini.\"" }
+      ]
+    },
+    {
+      "id": "28-6",
+      "title": "Cara Mengatakan \"Saya Tidak Tahu\"",
+      "blocks": [
+        { "type": "heading", "text": "Jujur Lebih Aman daripada Mengarang" },
+        { "type": "paragraph", "text": "Akan ada pertanyaan yang jawabannya tidak kamu tahu. Ini normal — bahkan peneliti senior pun begitu. Yang fatal bukan tidak tahu, melainkan mengarang jawaban yang lalu dibongkar penguji. Mengarang menghancurkan kredibilitas seluruh sidang." },
+        { "type": "list", "ordered": false, "items": [
+          "Akui dengan tenang: \"Terus terang saya belum mendalami aspek itu.\"",
+          "Tunjukkan arah berpikir: \"Tapi kalau saya harus menduga, mungkin berkaitan dengan… karena…\"",
+          "Tawarkan tindak lanjut: \"Itu masukan yang bagus untuk saya pelajari saat revisi.\"",
+          "Jangan panik atau minta maaf berlebihan — satu pengakuan jujur sudah cukup."
+        ]},
+        { "type": "callout", "title": "Kenapa Ini Berhasil", "text": "Penguji menghargai kejujuran intelektual. Mengakui batas pengetahuan dengan tenang justru menunjukkan kedewasaan akademik — kualitas yang mereka nilai." }
+      ]
+    },
+    {
+      "id": "28-7",
+      "title": "Revisi Pasca-Sidang",
+      "blocks": [
+        { "type": "heading", "text": "Sidang Selesai, Pekerjaan Belum" },
+        { "type": "paragraph", "text": "Hampir tidak ada skripsi yang lulus tanpa revisi. Selama sidang, catat SETIAP masukan penguji — jangan andalkan ingatan. Idealnya minta seorang teman mencatat untukmu sementara kamu fokus menjawab, atau rekam sidang (dengan izin)." },
+        { "type": "paragraph", "text": "Setelah sidang, susun daftar revisi seperti response letter pada peer review (Level 21): setiap masukan, halaman yang terpengaruh, dan apa yang kamu ubah. Bawa daftar ini saat menghadap pembimbing dan penguji untuk pengesahan — ini membuktikan kamu menanggapi setiap poin." },
+        { "type": "callout", "title": "Kalau Tidak Setuju dengan Revisi", "text": "Sama seperti menjawab reviewer (Level 21): kamu boleh tidak setuju, tapi dengan bukti dan sopan, bukan dengan mengabaikan. Kadang penguji sekadar ingin melihat kamu sudah mempertimbangkannya." }
+      ]
+    },
+    {
+      "id": "28-8",
+      "title": "Kesalahan Umum Saat Sidang",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Membaca slide kata per kata, punggung membelakangi penguji.",
+          "Menjawab defensif atau tersinggung saat dikritik — penguji mengkritik naskah, bukan pribadimu.",
+          "Mengarang jawaban untuk pertanyaan yang tak dikuasai, lalu ketahuan.",
+          "Tidak mencatat revisi saat sidang, lalu lupa separuhnya keesokan harinya.",
+          "Presentasi molor jauh dari waktu sehingga bagian hasil malah tidak sempat dijelaskan."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Kamu sudah sampai di titik ini karena penelitianmu layak disidangkan. Sidang hanyalah percakapan terakhir tentang karya yang sudah kamu selesaikan — bukan penentu nilai dirimu sebagai manusia." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-28",
+    "title": "Kuis Level 28",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "q28-1", "question": "Yang sebenarnya dinilai penguji dalam sidang adalah…", "options": ["Seberapa tebal skripsimu", "Apakah kamu memahami dan bisa mempertanggungjawabkan penelitianmu sendiri", "Seberapa banyak istilah asing yang kamu pakai", "Kecepatanmu bicara"], "answer": 1, "explanation": "Sidang menguji penguasaan dan pertanggungjawaban atas keputusan penelitian, bukan ketebalan atau gaya bicara." },
+      { "id": "q28-2", "question": "Prinsip menyusun slide sidang yang baik adalah…", "options": ["Menyalin paragraf skripsi ke slide", "Satu slide satu gagasan, sebagai alat bantu visual", "Sebanyak mungkin teks agar lengkap", "Tanpa grafik agar sederhana"], "answer": 1, "explanation": "Slide adalah alat bantu visual — satu gagasan per slide, bukan salinan naskah." },
+      { "id": "q28-3", "question": "Saat tidak tahu jawaban sebuah pertanyaan, tindakan terbaik adalah…", "options": ["Mengarang jawaban yang terdengar meyakinkan", "Mengakui dengan tenang lalu menunjukkan arah berpikir", "Diam total", "Menyalahkan pembimbing"], "answer": 1, "explanation": "Kejujuran intelektual lebih aman dan dihargai daripada mengarang yang bisa dibongkar." },
+      { "id": "q28-4", "question": "Untuk presentasi 15 menit, jumlah slide yang wajar sekitar…", "options": ["3-5 slide", "10-15 slide", "40-50 slide", "Sebanyak halaman skripsi"], "answer": 1, "explanation": "Sekitar 10-15 slide agar tiap slide mendapat waktu penjelasan yang cukup." },
+      { "id": "q28-5", "question": "Alur presentasi sidang yang baik mengikuti pola…", "options": ["Acak sesuai mood", "Jam pasir: umum → penelitianmu → implikasi luas", "Hanya hasil saja", "Dari simpulan ke latar belakang"], "answer": 1, "explanation": "Pola jam pasir (Level 2) menuntun penguji dari konteks umum ke temuanmu lalu ke implikasinya." },
+      { "id": "q28-6", "question": "Cara terbaik menangani masukan revisi saat sidang adalah…", "options": ["Mengandalkan ingatan", "Mencatat setiap masukan secara rinci (atau merekam dengan izin)", "Mengabaikan yang tidak disetujui", "Langsung merevisi di tempat"], "answer": 1, "explanation": "Mencatat setiap masukan mencegah lupa dan jadi dasar daftar revisi pasca-sidang." },
+      { "id": "q28-7", "question": "Saat penguji mengkritik bagian metodemu, sikap yang tepat adalah…", "options": ["Tersinggung karena merasa diserang pribadi", "Menanggapi dengan bukti dan tenang; kritik ditujukan ke naskah, bukan pribadi", "Membantah mati-matian agar menang", "Menangis"], "answer": 1, "explanation": "Kritik menyasar naskah, bukan pribadi; tanggapi dengan bukti dan sikap tenang." }
+    ]
+  },
+  "exam": {
+    "id": "exam-28",
+    "title": "Ujian Level 28",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "e28-1", "question": "Seorang mahasiswa memindahkan seluruh paragraf Bab 4 ke slide dan membacanya menghadap layar selama presentasi. Masalah utamanya adalah…", "options": ["Slide-nya terlalu sedikit", "Slide dijadikan naskah untuk dibaca, bukan alat bantu visual, dan ia kehilangan kontak dengan penguji", "Seharusnya tanpa slide sama sekali", "Warnanya kurang menarik"], "answer": 1, "explanation": "Membaca slide kata per kata sambil membelakangi penguji menggagalkan fungsi presentasi lisan." },
+      { "id": "e28-2", "question": "Penguji bertanya soal aspek yang benar-benar tidak dikuasai mahasiswa. Ia menjawab dengan mengarang teori yang terdengar canggih. Risiko terbesarnya adalah…", "options": ["Tidak ada risiko kalau terdengar meyakinkan", "Kalau penguji membongkar karangan itu, kredibilitas seluruh jawaban lain ikut runtuh", "Penguji pasti terkesan", "Waktu jadi lebih hemat"], "answer": 1, "explanation": "Mengarang yang lalu ketahuan merusak kepercayaan penguji terhadap seluruh sidang." },
+      { "id": "e28-3", "question": "Penguji berkata: \"Sampelmu cuma 30 orang, itu terlalu sedikit.\" Respons paling matang adalah…", "options": ["\"Kan sudah dijelaskan di metode, Pak.\"", "Menjelaskan justifikasi ukuran sampel (misalnya perhitungan atau keterbatasan) lalu mengakuinya sebagai keterbatasan untuk riset lanjutan", "Diam saja", "Langsung menambah data saat itu juga"], "answer": 1, "explanation": "Menjelaskan justifikasi sambil mengakui keterbatasan menunjukkan kesadaran metodologis, bukan sikap defensif." },
+      { "id": "e28-4", "question": "Seorang mahasiswa tidak mencatat masukan penguji karena yakin akan ingat. Seminggu kemudian ia hanya bisa mengingat separuh revisi. Konsekuensinya…", "options": ["Tidak masalah, pembimbing pasti ingat semua", "Revisi jadi tidak lengkap, dan pengesahan bisa tertunda karena poin yang terlewat", "Skripsi otomatis lulus tanpa revisi", "Penguji akan mengirim ulang daftarnya"], "answer": 1, "explanation": "Tanpa catatan, revisi mudah terlewat, memperlambat pengesahan akhir." },
+      { "id": "e28-5", "question": "Mahasiswa menyebut sendiri keterbatasan penelitiannya di Bab 5 dan saat presentasi. Efeknya terhadap penilaian penguji cenderung…", "options": ["Negatif, karena menunjukkan penelitiannya lemah", "Positif, karena menunjukkan ia sadar-diri dan jujur soal batas penelitiannya", "Netral, penguji tidak peduli", "Membuat penguji menggagalkannya"], "answer": 1, "explanation": "Mengakui keterbatasan lebih dulu memperlihatkan kematangan akademik, bukan kelemahan." },
+      { "id": "e28-6", "question": "Presentasi seorang mahasiswa molor sehingga bagian hasil tidak sempat dijelaskan sebelum waktu habis. Pelajaran utamanya adalah…", "options": ["Waktu presentasi tidak penting", "Ia harus berlatih dengan timer agar bagian terpenting (hasil) mendapat porsi waktu", "Seharusnya menghapus bagian hasil", "Penguji pasti memberi waktu tambahan"], "answer": 1, "explanation": "Latihan bertimer memastikan bagian inti tidak terkorbankan oleh pembukaan yang bertele-tele." },
+      { "id": "e28-7", "question": "Penguji mengajukan kritik yang menurut mahasiswa keliru. Cara menanggapi yang tepat, seperti pada peer review (Level 21), adalah…", "options": ["Mengabaikannya karena merasa benar", "Mempertahankan pendirian dengan bukti dan sopan, sambil menunjukkan sudah mempertimbangkannya", "Menyerah dan mengubah semua meski tidak yakin", "Menuduh penguji tidak membaca"], "answer": 1, "explanation": "Ketidaksetujuan disampaikan dengan bukti dan sopan — bukan diabaikan, bukan pula menyerah buta." },
+      { "id": "e28-8", "question": "Seorang mahasiswa datang ke sidang dengan sikap seperti terdakwa yang menunggu vonis. Bagaimana kerangka pikir yang lebih membantu?", "options": ["Menganggap penguji musuh yang harus dikalahkan", "Menganggap dirinya peneliti yang mempresentasikan karya kepada kolega senior", "Menghafal semua jawaban tanpa memahami", "Berharap tidak ditanya sama sekali"], "answer": 1, "explanation": "Kerangka 'peneliti mempresentasikan karya' menampilkan penguasaan dan mengurangi sikap defensif." },
+      { "id": "e28-9", "question": "Untuk menyiapkan diri menghadapi pertanyaan tersulit, strategi paling efektif adalah…", "options": ["Berdoa saja tanpa persiapan teknis", "Meminta teman menyerang bagian terlemah skripsi sebelum sidang", "Menghindari membaca ulang skripsi agar tidak cemas", "Menghafal seluruh isi skripsi kata per kata"], "answer": 1, "explanation": "Titik yang membuatmu paling gugup saat 'diserang' teman biasanya yang paling mungkin ditanya penguji." },
+      { "id": "e28-10", "question": "Saat menjawab, seorang mahasiswa langsung menyahut sebelum penguji selesai bertanya, dan ternyata menjawab hal yang berbeda. Perbaikan yang tepat adalah…", "options": ["Bicara lebih cepat lagi", "Dengarkan pertanyaan sampai selesai, bila perlu ulangi intinya untuk memastikan sebelum menjawab", "Selalu minta pertanyaan diulang tiga kali", "Menjawab semua kemungkinan sekaligus"], "answer": 1, "explanation": "Mendengarkan sampai tuntas dan mengonfirmasi inti pertanyaan mencegah salah sasaran." }
+    ]
+  },
+  "sources": [
+    { "title": "Metode Penelitian Kuantitatif, Kualitatif, dan R&D", "author": "Sugiyono", "publisher": "Alfabeta", "note": "Rujukan umum di kampus Indonesia untuk mempertanggungjawabkan metode saat sidang." },
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, Joseph Bizup, William T. FitzGerald", "publisher": "University of Chicago Press", "note": "Cara mempertahankan argumen dan menjawab keberatan atas penelitian." },
+    { "title": "How to Give a Good Colloquium / Presentation Zen", "author": "Garr Reynolds", "publisher": "New Riders", "note": "Prinsip desain slide: satu gagasan per slide, visual mengalahkan teks." },
+    { "title": "Presentation Zen: Simple Ideas on Presentation Design and Delivery", "author": "Garr Reynolds", "publisher": "New Riders", "note": "Merancang presentasi lisan yang bercerita, bukan membacakan slide." },
+    { "title": "The Unwritten Rules of PhD Research", "author": "Marian Petre, Gordon Rugg", "publisher": "Open University Press", "note": "Mengantisipasi pertanyaan penguji dan menghadapi ujian lisan (viva)." }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": 47,
+  "slug": "menulis-kolaboratif",
+  "title": "Menulis Kolaboratif & Urutan Authorship",
+  "subtitle": "Kriteria ICMJE, urutan penulis, dan menghindari sengketa",
+  "goal": "Memahami siapa yang berhak menjadi penulis menurut kriteria ICMJE, arti urutan authorship (first/corresponding/last author), mengenali gift dan ghost authorship, serta menyepakati urutan dan mengelola versi naskah bersama sebelum konflik terjadi.",
+  "estimatedMinutes": 33,
+  "sections": [
+    {
+      "id": "47-1",
+      "title": "Siapa yang Berhak Jadi Penulis?",
+      "blocks": [
+        { "type": "heading", "text": "Authorship Bukan Hadiah, Bukan Basa-basi" },
+        { "type": "paragraph", "text": "Sengketa authorship adalah salah satu sumber konflik paling pahit di dunia riset. Akarnya sederhana: orang punya definisi berbeda tentang siapa yang 'pantas' jadi penulis. Untuk mengakhiri kekaburan itu, ICMJE (International Committee of Medical Journal Editors) menyusun empat kriteria yang kini dipakai luas di banyak bidang." },
+        { "type": "list", "ordered": true, "items": [
+          "Kontribusi substansial pada konsep/desain, ATAU pengumpulan, analisis, atau tafsir data.",
+          "Menyusun draf atau merevisinya secara kritis untuk isi intelektual penting.",
+          "Menyetujui versi final yang akan diterbitkan.",
+          "Bersedia bertanggung jawab atas seluruh isi karya (akuntabilitas)."
+        ]},
+        { "type": "callout", "title": "Kuncinya: Keempat-empatnya", "text": "Menurut ICMJE, penulis harus memenuhi KEEMPAT kriteria, bukan salah satu. Menyediakan dana, menyediakan lab, atau sekadar mengumpulkan data tanpa terlibat penulisan/tafsir TIDAK cukup untuk jadi penulis — itu masuk ucapan terima kasih (acknowledgment)." }
+      ]
+    },
+    {
+      "id": "47-2",
+      "title": "Arti Urutan Penulis",
+      "blocks": [
+        { "type": "heading", "text": "Posisi Membawa Makna" },
+        { "type": "paragraph", "text": "Dalam banyak bidang, urutan nama penulis bukan sekadar abjad — ia menyampaikan siapa berkontribusi apa. Memahami konvensinya penting agar kontribusimu dihargai secara adil." },
+        {
+          "type": "table",
+          "headers": ["Posisi", "Umumnya Berarti"],
+          "rows": [
+            ["First author", "Kontributor terbesar; biasanya yang menjalankan penelitian dan menulis draf utama"],
+            ["Corresponding author", "Penanggung jawab komunikasi dengan jurnal dan pembaca; sering supervisor/pemimpin proyek"],
+            ["Last author (senior)", "Di banyak bidang: kepala lab/pembimbing yang mengarahkan penelitian"],
+            ["Middle authors", "Kontributor pendukung, urutan sering mencerminkan besar kontribusi"]
+          ]
+        },
+        { "type": "callout", "title": "Konvensi Berbeda Antar-bidang", "text": "Konvensi ini tidak universal. Di sebagian bidang (misalnya matematika) urutan justru abjad tanpa makna hierarki. Selalu cek norma bidang dan jurnal tujuanmu (Level 18) sebelum berasumsi." }
+      ]
+    },
+    {
+      "id": "47-3",
+      "title": "Gift & Ghost Authorship",
+      "blocks": [
+        { "type": "heading", "text": "Dua Bentuk Kecurangan Authorship" },
+        { "type": "paragraph", "text": "Dua pelanggaran etika authorship yang paling umum, dan keduanya merusak integritas ilmiah (menyambung Level 14)." },
+        { "type": "list", "ordered": false, "items": [
+          "Gift (honorary) authorship — mencantumkan nama seseorang yang tidak memenuhi kriteria, misalnya menambah nama profesor senior 'agar naskah lebih mudah diterima' atau sebagai balas budi.",
+          "Ghost authorship — seseorang yang memenuhi kriteria penulis TIDAK dicantumkan, misalnya penulis bayaran dari industri yang disembunyikan, atau mahasiswa yang kontribusinya dihapus."
+        ]},
+        { "type": "callout", "title": "Kenapa Berbahaya", "text": "Gift authorship mengencerkan makna authorship dan bisa menyeret orang yang tak paham isi ke tanggung jawab kalau ada masalah. Ghost authorship menyembunyikan konflik kepentingan dan merampas kredit dari yang berhak. Keduanya bisa berujung penyelidikan integritas." }
+      ]
+    },
+    {
+      "id": "47-4",
+      "title": "Sepakati Urutan SEBELUM Menulis",
+      "blocks": [
+        { "type": "heading", "text": "Percakapan Canggung yang Menyelamatkan Pertemanan" },
+        { "type": "paragraph", "text": "Kesalahan paling mahal dalam kolaborasi: menunda pembicaraan authorship sampai naskah hampir selesai. Saat itu ego dan lelah sudah tinggi, dan sengketa jadi panas. Percakapan yang canggung di awal jauh lebih murah daripada konflik di akhir." },
+        { "type": "quote", "text": "Buruk (menunda): naskah selesai, lalu tiga orang berdebat siapa first author sambil saling menuduh 'aku kerja lebih banyak'. → Baik (di awal): \"Sebelum mulai, yuk sepakati — siapa yang menjalankan analisis utama dan menulis draf jadi first author, dan kita tinjau ulang kalau kontribusi berubah signifikan.\"", "source": "Contoh menyepakati authorship" },
+        { "type": "callout", "title": "Tulis, Jangan Cuma Lisan", "text": "Catat kesepakatan awal (bahkan sekadar di chat grup atau dokumen bersama): urutan sementara, dan janji untuk meninjau ulang kalau kontribusi berubah. Kesepakatan tertulis mencegah 'katanya-katanya' di belakang hari." }
+      ]
+    },
+    {
+      "id": "47-5",
+      "title": "Contributor Roles (CRediT)",
+      "blocks": [
+        { "type": "heading", "text": "Merinci Siapa Melakukan Apa" },
+        { "type": "paragraph", "text": "Banyak jurnal kini meminta pernyataan kontribusi memakai taksonomi CRediT (Contributor Roles Taxonomy) — daftar peran seperti conceptualization, methodology, data curation, writing – original draft, writing – review & editing, supervision, funding acquisition. Alih-alih berdebat 'siapa lebih penting', tiap orang dicatat perannya secara eksplisit." },
+        { "type": "callout", "title": "Kenapa Ini Membantu", "text": "CRediT mengurangi sengketa karena kontribusi jadi transparan dan spesifik. Seseorang yang 'hanya' menyediakan dana dicatat sebagai funding acquisition — dihargai, tapi tidak otomatis jadi penulis utama. Ini menerjemahkan kriteria ICMJE ke bentuk yang bisa dicek." }
+      ]
+    },
+    {
+      "id": "47-6",
+      "title": "Mengelola Versi Naskah Bersama",
+      "blocks": [
+        { "type": "heading", "text": "Neraka Bernama 'draf_final_FIX_revisi2_ok.docx'" },
+        { "type": "paragraph", "text": "Kolaborasi sering berantakan bukan karena konten, tapi karena kekacauan versi: lima orang mengedit lima salinan berbeda, lalu bingung mana yang terbaru. Ini membuang waktu dan memunculkan kesalahan (perubahan yang hilang, konflik yang tak terdeteksi)." },
+        { "type": "list", "ordered": false, "items": [
+          "Pakai satu sumber kebenaran: dokumen daring bersama (Google Docs, Overleaf untuk LaTeX — Level 5) yang semua orang edit di tempat yang sama.",
+          "Nyalakan track changes / riwayat versi agar tiap perubahan bisa dilacak dan dibatalkan.",
+          "Tetapkan satu orang (biasanya corresponding author) sebagai pemegang versi resmi.",
+          "Sepakati aturan main: siapa boleh mengubah apa, dan kapan naskah 'dibekukan' untuk submit."
+        ]},
+        { "type": "callout", "title": "Menyambung Level 21", "text": "Saat menjawab revisi reviewer (Level 21) sebagai tim, satu orang mengoordinasi response letter agar suara naskah konsisten — bukan tiga orang menjawab reviewer dengan nada berbeda-beda." }
+      ]
+    },
+    {
+      "id": "47-7",
+      "title": "Menangani Sengketa yang Terlanjur Muncul",
+      "blocks": [
+        { "type": "heading", "text": "Kalau Konflik Sudah Terjadi" },
+        { "type": "paragraph", "text": "Meski sudah hati-hati, sengketa bisa muncul — kontribusi berubah, seseorang merasa dilewati. Yang penting: selesaikan berbasis kriteria dan bukti kontribusi, bukan senioritas atau siapa yang paling keras bersuara." },
+        { "type": "list", "ordered": true, "items": [
+          "Kembali ke kriteria ICMJE dan catatan kontribusi (CRediT) yang objektif.",
+          "Rujuk kesepakatan tertulis di awal, kalau ada.",
+          "Libatkan pihak netral (pembimbing lain, komisi etik, atau editor jurnal) bila buntu.",
+          "Ingat: menyeret sengketa authorship ke publik bisa merugikan semua pihak — utamakan penyelesaian yang adil dan tenang."
+        ]}
+      ]
+    },
+    {
+      "id": "47-8",
+      "title": "Kesalahan Umum dalam Menulis Kolaboratif",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menunda pembicaraan authorship sampai naskah hampir jadi, saat konflik paling panas.",
+          "Menambah nama profesor yang tidak berkontribusi (gift authorship) demi memuluskan penerbitan.",
+          "Menghapus kontribusi mahasiswa/junior yang sebenarnya memenuhi kriteria penulis (ghost authorship).",
+          "Mengedit banyak salinan terpisah tanpa satu sumber kebenaran, sehingga perubahan hilang.",
+          "Menganggap urutan penulis sepele padahal di banyak bidang ia sangat bermakna bagi karier."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Authorship adalah soal kredit sekaligus tanggung jawab. Namamu di sebuah naskah berarti kamu ikut bertanggung jawab atas isinya — jadi jangan menerima gift authorship pada karya yang tidak kamu pahami, dan jangan merampas kredit orang lain." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-47",
+    "title": "Kuis Level 47",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "q47-1", "question": "Menurut ICMJE, seseorang berhak jadi penulis jika…", "options": ["Memenuhi salah satu dari empat kriteria", "Memenuhi KEEMPAT kriteria, termasuk terlibat penulisan/revisi dan bertanggung jawab atas isi", "Menyediakan dana penelitian", "Namanya diminta dicantumkan"], "answer": 1, "explanation": "ICMJE menuntut keempat kriteria dipenuhi, bukan salah satu." },
+      { "id": "q47-2", "question": "Menyediakan dana atau lab saja, tanpa terlibat penulisan/tafsir, sebaiknya diakui sebagai…", "options": ["First author", "Ucapan terima kasih (acknowledgment), bukan penulis", "Corresponding author", "Last author"], "answer": 1, "explanation": "Kontribusi yang tak memenuhi kriteria ICMJE masuk acknowledgment, bukan authorship." },
+      { "id": "q47-3", "question": "First author dalam banyak bidang umumnya adalah…", "options": ["Yang namanya paling pendek", "Kontributor terbesar yang menjalankan penelitian dan menulis draf utama", "Yang paling senior", "Yang menyediakan dana"], "answer": 1, "explanation": "First author biasanya kontributor terbesar dan penulis draf utama." },
+      { "id": "q47-4", "question": "Gift (honorary) authorship adalah…", "options": ["Mencantumkan nama orang yang tidak memenuhi kriteria, misalnya profesor senior sebagai balas budi", "Menghapus nama penulis sah", "Menulis untuk orang lain secara sukarela", "Urutan penulis berdasarkan abjad"], "answer": 0, "explanation": "Gift authorship mencantumkan orang yang tak memenuhi kriteria — pelanggaran etika." },
+      { "id": "q47-5", "question": "Kapan sebaiknya urutan authorship disepakati?", "options": ["Setelah naskah selesai", "Sebelum menulis dimulai, dengan janji meninjau ulang jika kontribusi berubah", "Setelah naskah diterima jurnal", "Tidak perlu disepakati"], "answer": 1, "explanation": "Menyepakati di awal mencegah konflik panas saat naskah hampir jadi." },
+      { "id": "q47-6", "question": "Taksonomi CRediT berguna karena…", "options": ["Menghapus kebutuhan penulis", "Merinci peran tiap kontributor secara transparan sehingga mengurangi sengketa", "Menentukan honorarium", "Menggantikan daftar pustaka"], "answer": 1, "explanation": "CRediT mencatat peran spesifik tiap orang, membuat kontribusi transparan." },
+      { "id": "q47-7", "question": "Cara terbaik mengelola versi naskah bersama adalah…", "options": ["Tiap orang menyimpan salinan sendiri dan menggabungkan di akhir", "Satu sumber kebenaran (dokumen daring bersama) dengan riwayat versi/track changes", "Mengirim file bolak-balik lewat email", "Menulis di kertas"], "answer": 1, "explanation": "Satu dokumen bersama dengan pelacakan versi mencegah perubahan hilang dan konflik versi." }
+    ]
+  },
+  "exam": {
+    "id": "exam-47",
+    "title": "Ujian Level 47",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "e47-1", "question": "Seorang teknisi mengumpulkan seluruh data lapangan tapi tidak terlibat merancang, menganalisis, menafsir, atau menulis naskah. Tim ingin menjadikannya penulis. Menurut ICMJE, yang paling tepat adalah…", "options": ["Ia otomatis jadi first author karena mengumpulkan data", "Kontribusinya belum memenuhi keempat kriteria; sebaiknya diakui di acknowledgment kecuali ia juga terlibat tafsir/penulisan dan setuju bertanggung jawab", "Ia harus jadi corresponding author", "Data collector tidak pernah boleh disebut sama sekali"], "answer": 1, "explanation": "Pengumpulan data saja tak memenuhi seluruh kriteria ICMJE; acknowledgment lebih tepat kecuali ia memenuhi kriteria lainnya." },
+      { "id": "e47-2", "question": "Seorang mahasiswa diminta pembimbingnya menambahkan nama seorang profesor yang tidak pernah terlibat, 'supaya naskah lebih gampang diterima jurnal'. Ini adalah contoh…", "options": ["Praktik normal dan etis", "Gift (honorary) authorship — pelanggaran etika authorship", "Ghost authorship", "Corresponding authorship"], "answer": 1, "explanation": "Menambah nama yang tak berkontribusi demi memuluskan penerbitan adalah gift authorship." },
+      { "id": "e47-3", "question": "Sebuah perusahaan farmasi menulis sebagian besar naskah lewat penulis bayaran yang namanya sengaja tidak dicantumkan, dan menaruh nama seorang dokter sebagai penulis. Pelanggaran di sini mencakup…", "options": ["Hanya gift authorship", "Ghost authorship (penulis sah disembunyikan) dan berpotensi gift authorship (dokter yang mungkin tak memenuhi kriteria)", "Tidak ada pelanggaran", "Hanya masalah tata bahasa"], "answer": 1, "explanation": "Penulis sah yang disembunyikan = ghost authorship; menyembunyikan penulis bayaran juga menutupi konflik kepentingan." },
+      { "id": "e47-4", "question": "Tiga peneliti menunda membahas urutan penulis sampai naskah selesai. Kini ketiganya berdebat panas siapa first author. Pelajaran utamanya adalah…", "options": ["Sebaiknya urutan ditentukan editor jurnal", "Percakapan authorship seharusnya dilakukan di awal, saat ego dan kelelahan belum tinggi", "First author harus selalu yang paling senior", "Mereka seharusnya tidak berkolaborasi"], "answer": 1, "explanation": "Menyepakati urutan di awal jauh lebih murah daripada sengketa saat naskah hampir jadi." },
+      { "id": "e47-5", "question": "Sebuah tim bingung mengukur 'siapa lebih penting'. Alih-alih berdebat, mereka mengisi pernyataan CRediT. Manfaat langsungnya adalah…", "options": ["Menghapus kebutuhan first author", "Kontribusi tiap orang tercatat spesifik dan transparan, sehingga sengketa berkurang", "Menaikkan impact factor jurnal", "Mempercepat peer review"], "answer": 1, "explanation": "CRediT membuat kontribusi eksplisit dan bisa dicek, mengurangi perselisihan subjektif." },
+      { "id": "e47-6", "question": "Lima ko-penulis mengedit lima salinan Word berbeda dan menggabungkannya lewat email. Dua perubahan penting hilang di proses penggabungan. Solusi paling tepat adalah…", "options": ["Menambah lebih banyak salinan", "Memakai satu dokumen daring bersama dengan riwayat versi/track changes sebagai sumber kebenaran tunggal", "Melarang revisi sama sekali", "Kembali menulis di kertas"], "answer": 1, "explanation": "Satu sumber kebenaran dengan pelacakan versi mencegah perubahan hilang dan konflik versi." },
+      { "id": "e47-7", "question": "Seseorang ditawari menjadi penulis pada naskah yang isinya sama sekali tidak ia pahami, sebagai 'bonus' karena ia atasan tim. Kenapa sebaiknya ia menolak?", "options": ["Karena namanya akan salah eja", "Karena authorship berarti ikut bertanggung jawab atas isi; menerima kredit pada karya yang tak dipahami adalah gift authorship yang berisiko", "Karena penulis tidak dibayar", "Karena akan menambah beban administrasi"], "answer": 1, "explanation": "Nama pada naskah = tanggung jawab atas isi; menerima kredit tanpa memahami/berkontribusi tidak etis dan berisiko." },
+      { "id": "e47-8", "question": "Dalam bidang matematika, sebuah tim mengurutkan penulis secara abjad. Seorang anggota dari bidang biomedis protes karena mengira urutan abjad 'meremehkan' kontribusi utama. Tanggapan paling tepat adalah…", "options": ["Urutan penulis selalu bermakna hierarki di semua bidang", "Konvensi authorship berbeda antar-bidang; di sebagian bidang urutan abjad memang norma tanpa makna hierarki — cek norma bidang/jurnal", "Abjad selalu salah", "Biomedis selalu benar"], "answer": 1, "explanation": "Konvensi urutan bervariasi antar-bidang; menyamaratakan satu norma ke semua bidang keliru." },
+      { "id": "e47-9", "question": "Sebuah sengketa authorship buntu dan memanas. Cara penyelesaian paling sehat adalah…", "options": ["Yang paling senior otomatis menang", "Kembali ke kriteria ICMJE dan catatan kontribusi objektif, dan bila perlu melibatkan pihak netral seperti editor jurnal", "Yang paling keras bersuara menang", "Membatalkan seluruh publikasi"], "answer": 1, "explanation": "Sengketa diselesaikan berbasis kriteria dan bukti kontribusi, bukan senioritas atau volume suara." },
+      { "id": "e47-10", "question": "Saat menjawab revisi reviewer sebagai tim (Level 21), tiga ko-penulis masing-masing menulis balasan dengan nada berbeda ke reviewer. Perbaikan yang tepat adalah…", "options": ["Membiarkan tiap orang menjawab sendiri-sendiri", "Menugaskan satu orang (biasanya corresponding author) mengoordinasi response letter agar suara naskah konsisten", "Tidak menjawab reviewer", "Mengirim tiga versi terpisah ke jurnal"], "answer": 1, "explanation": "Satu koordinator menjaga konsistensi suara dan menghindari kebingungan bagi editor/reviewer." }
+    ]
+  },
+  "sources": [
+    { "title": "ICMJE Recommendations: Defining the Role of Authors and Contributors", "author": "International Committee of Medical Journal Editors", "publisher": "ICMJE", "url": "https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html", "note": "Sumber empat kriteria authorship." },
+    { "title": "CRediT — Contributor Roles Taxonomy", "author": "NISO / CASRAI", "publisher": "credit.niso.org", "url": "https://credit.niso.org", "note": "Taksonomi peran kontributor untuk pernyataan kontribusi." },
+    { "title": "What constitutes authorship? (COPE guidance)", "author": "Committee on Publication Ethics", "publisher": "COPE", "url": "https://publicationethics.org/authorship", "note": "Panduan etika soal gift, ghost, dan sengketa authorship." },
+    { "title": "Publication Manual of the American Psychological Association", "author": "American Psychological Association", "publisher": "APA", "note": "Prinsip menentukan kredit authorship dan urutan penulis." },
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams, Joseph Bizup, William T. FitzGerald", "publisher": "University of Chicago Press", "note": "Kolaborasi riset dan tanggung jawab bersama atas karya." }
+  ]
+}

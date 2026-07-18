@@ -1,5 +1,6 @@
 import { NavLink, Outlet, Link } from 'react-router-dom';
 import GlassSurface from './reactbits/GlassSurface';
+import TargetCursor from './reactbits/TargetCursor';
 import { HomeIcon, MapIcon, PenIcon, EcosystemIcon } from './icons';
 
 const navLinks = [
@@ -12,6 +13,9 @@ const navLinks = [
 export default function Layout() {
   return (
     <div className="min-h-full bg-white">
+      {/* Custom cursor — desktop only, brackets any .cursor-target on hover */}
+      <TargetCursor targetSelector=".cursor-target" spinDuration={4} />
+
       {/* Desktop sidebar — vertically centered, height fits its icons */}
       <aside className="fixed left-4 top-1/2 z-20 hidden -translate-y-1/2 md:block">
         <GlassSurface borderRadius={28} width={72}>
@@ -26,7 +30,7 @@ export default function Layout() {
                   to={to}
                   end={end}
                   className={({ isActive }) =>
-                    `group relative grid h-11 w-11 place-items-center rounded-full transition ${
+                    `cursor-target group relative grid h-11 w-11 place-items-center rounded-full transition ${
                       isActive ? 'bg-sky-600 text-white' : 'text-slate-500 hover:bg-sky-50 hover:text-sky-700'
                     }`
                   }

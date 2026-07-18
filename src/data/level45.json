@@ -1,0 +1,248 @@
+{
+  "id": 45,
+  "slug": "book-review",
+  "title": "Menulis Book Review & Literature Essay",
+  "subtitle": "Bukan ringkasan berbalut opini",
+  "goal": "Bisa membedakan review, ringkasan (summary), dan laporan (report) buku, menyusun sebuah argumen tentang buku yang direview (bukan sekadar menyampaikan isinya), menempatkan buku itu dalam percakapan yang lebih luas, dan menyeimbangkan porsi ringkasan dengan analisis dalam satu tulisan.",
+  "estimatedMinutes": 32,
+  "sections": [
+    {
+      "id": "45-1",
+      "title": "Review, Ringkasan, dan Laporan: Tiga Hal yang Berbeda",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa Ketiganya Sering Tertukar" },
+        { "type": "paragraph", "text": "Banyak orang yang diminta menulis 'book review' malah menulis ringkasan panjang tentang isi buku, ditambah satu-dua kalimat 'buku ini bagus' di akhir. Itu bukan review — itu ringkasan dengan opini tempelan. Review sejati, ringkasan, dan laporan adalah tiga jenis tulisan yang berbeda tujuannya, meski ketiganya sama-sama membahas sebuah buku." },
+        {
+          "type": "table",
+          "headers": ["Jenis Tulisan", "Tujuan Utama", "Pertanyaan yang Dijawab"],
+          "rows": [
+            ["Ringkasan (summary)", "Menyampaikan isi buku seakurat mungkin", "Apa isi buku ini?"],
+            ["Laporan (report)", "Mendeskripsikan buku secara netral untuk keperluan tertentu (misalnya katalog, tugas kuliah)", "Buku ini tentang apa, oleh siapa, disusun bagaimana?"],
+            ["Review/Literature essay", "Membangun argumen tentang nilai, keberhasilan, atau posisi buku itu", "Apakah buku ini berhasil melakukan apa yang ingin dilakukannya, dan kenapa itu penting?"]
+          ]
+        },
+        { "type": "callout", "title": "Definisi Kerja", "text": "Book review yang baik adalah tulisan yang memakai isi buku sebagai BUKTI untuk mendukung sebuah argumen tentang buku itu — bukan tulisan yang menceritakan ulang isi buku dari depan ke belakang." }
+      ]
+    },
+    {
+      "id": "45-2",
+      "title": "Review yang Baik Punya Argumen, Bukan Sekadar Kesan",
+      "blocks": [
+        { "type": "heading", "text": "Tesis: Klaim Kamu tentang Buku Ini" },
+        { "type": "paragraph", "text": "Sama seperti esai akademik butuh tesis (ingat Level 24 tentang pendahuluan yang meyakinkan), review yang kuat juga butuh tesis — satu klaim jelas tentang buku itu yang akan kamu buktikan sepanjang tulisan. Tesis review BUKAN 'buku ini bagus/jelek' (terlalu umum untuk jadi argumen), tapi klaim yang lebih spesifik tentang APA yang buku itu lakukan dengan baik atau gagal lakukan, dan KENAPA itu penting." },
+        { "type": "paragraph", "text": "Contoh tesis yang lemah: 'Buku ini menarik dan layak dibaca.' Contoh tesis yang kuat: 'Buku ini berhasil menghidupkan sejarah ekonomi yang kering lewat cerita personal, tapi mengorbankan kedalaman analisis di bab-bab akhir demi menjaga alur naratifnya tetap ringan.' Tesis kedua memberi pembaca sesuatu yang konkret untuk diperdebatkan — bukan sekadar rating bintang dalam bentuk kalimat." },
+        { "type": "callout", "title": "Uji Tesis", "text": "Tanyakan: bisakah seseorang secara masuk akal TIDAK SETUJU dengan tesismu? Kalau tidak ada ruang untuk perdebatan sama sekali ('buku ini bagus'), tesismu belum cukup spesifik untuk jadi argumen review." }
+      ]
+    },
+    {
+      "id": "45-3",
+      "title": "Menempatkan Buku dalam Sebuah Percakapan",
+      "blocks": [
+        { "type": "heading", "text": "Buku Tidak Berdiri Sendiri" },
+        { "type": "paragraph", "text": "Review yang matang tidak membahas buku itu seolah muncul dari ruang hampa — ia menempatkan buku dalam PERCAKAPAN yang lebih luas: bagaimana buku ini dibandingkan dengan karya lain penulisnya, dengan buku sejenis di bidang yang sama, atau dengan perdebatan yang sedang berlangsung di masyarakat/akademia tentang topik itu. Ini prinsip yang mirip dengan tinjauan pustaka kritis di Level 11 — bukan sekadar meringkas satu per satu, tapi menunjukkan bagaimana karya-karya itu saling berhubungan." },
+        { "type": "paragraph", "text": "Menyituasikan buku juga membantu pembaca review memutuskan apakah buku ini relevan bagi mereka — misalnya, 'kalau kamu sudah baca buku X tentang topik serupa, buku ini menawarkan sudut pandang yang berbeda karena...' jauh lebih berguna daripada sekadar 'buku ini bagus untuk siapa saja'." },
+        { "type": "callout", "title": "Cara Praktis Memulai", "text": "Tanyakan tiga pertanyaan sebelum menulis: buku apa lagi yang membahas topik serupa? Bagaimana posisi buku ini dibanding karya penulis sebelumnya (kalau ada)? Perdebatan atau isu apa yang sedang berlangsung yang buku ini masuki?" }
+      ]
+    },
+    {
+      "id": "45-4",
+      "title": "Struktur Umum Book Review",
+      "blocks": [
+        { "type": "heading", "text": "Kerangka yang Bisa Dipakai sebagai Titik Awal" },
+        { "type": "list", "ordered": true, "items": [
+          "Pembuka: hook yang menarik perhatian + konteks singkat tentang buku dan penulisnya (ingat prinsip hook di Level 31).",
+          "Ringkasan SINGKAT (bukan lengkap) — cukup untuk pembaca yang belum baca buku ini memahami konteks argumenmu, biasanya 2-3 paragraf saja dari keseluruhan review.",
+          "Tesis/argumen utamamu tentang buku ini, dinyatakan jelas.",
+          "Bukti dan analisis — kutipan atau contoh spesifik dari buku yang mendukung argumenmu, disertai interpretasimu kenapa itu penting.",
+          "Situasikan dalam percakapan yang lebih luas (bandingkan dengan karya lain, ingat 45-3).",
+          "Evaluasi dan rekomendasi — untuk siapa buku ini cocok, dan kenapa."
+        ]},
+        { "type": "callout", "title": "Bukan Rumus Kaku", "text": "Urutan ini bisa fleksibel — beberapa review yang bagus memulai dari argumen, baru menyelipkan ringkasan di tengah. Yang wajib ada hanyalah: ringkasan secukupnya, argumen yang jelas, bukti konkret dari teks, dan konteks yang lebih luas." }
+      ]
+    },
+    {
+      "id": "45-5",
+      "title": "Seberapa Banyak Ringkasan yang Cukup?",
+      "blocks": [
+        { "type": "heading", "text": "Godaan Terbesar: Menceritakan Ulang Seluruh Isi Buku" },
+        { "type": "paragraph", "text": "Kesalahan paling umum penulis review pemula adalah menghabiskan 70-80% tulisan untuk menceritakan ulang isi buku bab demi bab, lalu baru menyelipkan analisis di paragraf-paragraf terakhir. Padahal porsi ideal biasanya terbalik: ringkasan singkat secukupnya (cukup untuk memberi konteks), dan sebagian besar tulisan dicurahkan untuk ANALISIS dan ARGUMEN." },
+        { "type": "paragraph", "text": "Ukuran praktis: kalau pembaca yang belum pernah baca bukunya bisa mengikuti argumenmu tanpa perlu tahu detail plot/isi setiap bab, ringkasanmu sudah cukup. Kalau reviewmu terasa seperti daftar isi yang dijabarkan, kamu masih terlalu banyak meringkas dan terlalu sedikit menganalisis." },
+        { "type": "callout", "title": "Uji Cepat", "text": "Coba hapus semua paragraf ringkasan dari draf reviewmu. Apakah argumen intinya masih berdiri dan bisa dipahami? Kalau ya, berarti ringkasanmu memang berfungsi sebagai pendukung, bukan tulang punggung, review itu." }
+      ]
+    },
+    {
+      "id": "45-6",
+      "title": "Contoh: Review Bergaya Ringkasan vs Review Berargumen",
+      "blocks": [
+        { "type": "heading", "text": "Perbandingan Nyata" },
+        { "type": "quote", "text": "BERGAYA RINGKASAN: \"Buku ini terdiri dari 10 bab. Bab 1 membahas latar belakang penulis meneliti topik ini. Bab 2 sampai 5 menjelaskan sejarah perkembangan isu tersebut secara kronologis. Bab 6 hingga 9 membahas studi kasus di berbagai negara. Bab 10 menyimpulkan bahwa isu ini masih relevan hingga sekarang. Secara keseluruhan, buku ini informatif dan layak dibaca.\"", "source": "Hampir seluruhnya ringkasan bab-per-bab, argumen hanya satu kalimat generik di akhir" },
+        { "type": "quote", "text": "BERARGUMEN: \"Kekuatan terbesar buku ini bukan pada cakupannya yang luas, melainkan pada caranya menghubungkan studi kasus di Bab 6-9 kembali ke kerangka teori di Bab 2 — sesuatu yang jarang dilakukan buku-buku sejenis, yang biasanya membiarkan studi kasus berdiri terpisah dari teorinya. Namun, ambisi cakupan ini membuat Bab 10 terasa terburu-buru: kesimpulan yang seharusnya menyatukan sepuluh bab sebelumnya malah terasa seperti ringkasan eksekutif yang dipaksakan dalam lima halaman.\"", "source": "Argumen spesifik, dibuktikan dengan struktur konkret buku, dan ada evaluasi kritis" },
+        { "type": "callout", "title": "Kenapa yang Kedua Lebih Berguna", "text": "Pembaca review kedua langsung tahu APA yang membuat buku ini istimewa dan APA kelemahannya secara spesifik — informasi yang jauh lebih berguna untuk memutuskan apakah mereka perlu membaca buku itu, dibanding sekadar tahu urutan babnya." }
+      ]
+    },
+    {
+      "id": "45-7",
+      "title": "Book Review vs Literature Essay",
+      "blocks": [
+        { "type": "heading", "text": "Beda Ranah, Prinsip yang Sama" },
+        { "type": "paragraph", "text": "Book review biasanya lebih pendek, ditujukan untuk pembaca umum, dan sering menyertakan rekomendasi eksplisit ('layak dibaca untuk...'). Literature essay (esai sastra/kritik akademik) biasanya lebih panjang, ditujukan untuk pembaca yang sudah familiar dengan karya atau bidang itu, dan lebih berfokus pada analisis mendalam terhadap teknik, tema, atau posisi karya dalam tradisi tertentu — kadang tanpa perlu menyertakan rekomendasi sama sekali." },
+        { "type": "paragraph", "text": "Meski begitu, prinsip intinya sama: keduanya butuh argumen (bukan ringkasan), bukti dari teks (bukan kesan umum), dan penempatan dalam konteks yang lebih luas (bukan analisis dalam ruang hampa)." },
+        { "type": "callout", "title": "Menyambung ke Level 16", "text": "Level 16 membahas menulis Discussion yang menafsirkan temuan tanpa overclaim. Prinsip yang sama berlaku di review/esai sastra: interpretasimu tentang buku harus didukung bukti konkret dari teksnya, bukan klaim yang melebihi apa yang benar-benar ada di dalam buku itu." }
+      ]
+    },
+    {
+      "id": "45-8",
+      "title": "Kesalahan Umum dalam Menulis Book Review",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menghabiskan sebagian besar tulisan untuk meringkas isi buku bab demi bab, dengan analisis hanya di paragraf terakhir.",
+          "Menulis tesis yang terlalu umum ('buku ini bagus/jelek') sehingga tidak ada argumen konkret yang bisa diperdebatkan.",
+          "Membahas buku seolah berdiri sendiri, tanpa menempatkannya dalam percakapan dengan karya lain atau isu yang lebih luas.",
+          "Mencampur ringkasan plot dengan opini tanpa bukti spesifik dari teks untuk mendukung setiap klaim evaluatif.",
+          "Menulis review berdasarkan kesan pertama semata tanpa mengutip atau merujuk bagian spesifik buku sebagai bukti."
+        ]},
+        { "type": "callout", "title": "Prinsip Inti", "text": "Review yang baik memperlakukan buku sebagai OBJEK ANALISIS, bukan sekadar objek yang diceritakan ulang. Tugasmu bukan menggantikan pengalaman membaca buku itu, tapi membantu pembaca memutuskan APAKAH dan BAGAIMANA mereka harus membacanya." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-45",
+    "title": "Kuis Level 45",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q45-1",
+        "question": "Perbedaan mendasar antara ringkasan (summary) dan review buku adalah…",
+        "options": ["Ringkasan lebih panjang daripada review", "Ringkasan menyampaikan isi buku, sementara review membangun argumen tentang nilai/keberhasilan buku itu", "Keduanya sebenarnya sama, hanya beda nama", "Review tidak boleh menyebutkan isi buku sama sekali"],
+        "answer": 1,
+        "explanation": "Ringkasan berfokus pada 'apa isinya', sementara review memakai isi buku sebagai bukti untuk argumen tentang nilai atau keberhasilan buku itu."
+      },
+      {
+        "id": "q45-2",
+        "question": "Kenapa tesis 'buku ini bagus dan layak dibaca' dianggap terlalu lemah untuk sebuah review?",
+        "options": ["Karena kalimatnya terlalu pendek", "Karena terlalu umum sehingga tidak ada ruang untuk argumen atau perdebatan yang konkret", "Karena kata 'bagus' dilarang dipakai dalam review", "Karena review tidak boleh memberi kesimpulan positif"],
+        "answer": 1,
+        "explanation": "Tesis yang baik harus cukup spesifik sehingga ada sesuatu yang bisa diperdebatkan, bukan sekadar penilaian umum."
+      },
+      {
+        "id": "q45-3",
+        "question": "Menempatkan sebuah buku 'dalam percakapan yang lebih luas' berarti…",
+        "options": ["Mengabaikan karya lain sama sekali dan fokus hanya pada buku itu", "Membandingkan buku itu dengan karya lain penulisnya atau buku sejenis, dan isu yang sedang berlangsung terkait topiknya", "Mewawancarai penulis buku secara langsung", "Menyalin ulasan buku lain sebagai bagian dari review"],
+        "answer": 1,
+        "explanation": "Review yang matang menunjukkan bagaimana buku itu berhubungan dengan karya lain dan perdebatan yang lebih luas, bukan membahasnya dalam ruang hampa."
+      },
+      {
+        "id": "q45-4",
+        "question": "Kesalahan paling umum yang membuat sebuah review terasa 'seperti daftar isi yang dijabarkan' adalah…",
+        "options": ["Terlalu sedikit meringkas isi buku", "Menghabiskan sebagian besar tulisan untuk meringkas bab demi bab tanpa cukup analisis", "Terlalu banyak mengutip bagian spesifik buku", "Menempatkan buku dalam konteks yang lebih luas"],
+        "answer": 1,
+        "explanation": "Porsi ringkasan yang berlebihan tanpa analisis membuat review kehilangan fungsi utamanya sebagai tulisan yang berargumen."
+      },
+      {
+        "id": "q45-5",
+        "question": "Cara menguji apakah porsi ringkasan dalam reviewmu sudah pas adalah…",
+        "options": ["Menghitung jumlah kata ringkasan dan memastikan lebih dari separuh tulisan", "Menghapus semua paragraf ringkasan dan memeriksa apakah argumen intinya masih bisa dipahami", "Menambahkan lebih banyak detail plot agar pembaca yakin kamu sudah membaca bukunya", "Menghindari menyebut isi buku sama sekali"],
+        "answer": 1,
+        "explanation": "Jika argumen tetap berdiri tanpa paragraf ringkasan, itu tanda ringkasan berfungsi sebagai pendukung, bukan tulang punggung tulisan."
+      },
+      {
+        "id": "q45-6",
+        "question": "Perbedaan umum antara book review dan literature essay adalah…",
+        "options": ["Literature essay tidak boleh memberi analisis", "Book review biasanya lebih pendek dan untuk pembaca umum; literature essay biasanya lebih panjang, mendalam, dan untuk pembaca yang lebih familiar dengan bidang itu", "Keduanya harus selalu memberi rekomendasi eksplisit", "Book review hanya boleh ditulis oleh akademisi"],
+        "answer": 1,
+        "explanation": "Keduanya berbagi prinsip inti (argumen, bukti, konteks) tapi berbeda dalam panjang, audiens, dan kedalaman analisisnya."
+      },
+      {
+        "id": "q45-7",
+        "question": "Bagian mana dari review yang seharusnya menyertakan bukti/kutipan spesifik dari buku untuk mendukung argumen?",
+        "options": ["Hanya bagian pembuka", "Bagian bukti dan analisis, tempat argumen utama dibuktikan dengan contoh konkret dari teks", "Hanya bagian evaluasi dan rekomendasi di akhir", "Bukti tidak perlu disertakan sama sekali dalam review"],
+        "answer": 1,
+        "explanation": "Argumen dalam review perlu ditopang bukti spesifik dari buku, bukan sekadar kesan umum tanpa rujukan konkret."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-45",
+    "title": "Ujian Level 45",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e45-1",
+        "question": "Seorang penulis diminta membuat book review, tapi hasilnya adalah tiga halaman yang menceritakan isi setiap bab secara berurutan, ditutup dengan kalimat 'buku ini menarik dan direkomendasikan'. Masalah utama tulisan ini adalah…",
+        "options": ["Terlalu banyak mengutip buku secara langsung", "Ini sebenarnya ringkasan berbalut opini, bukan review — tidak ada argumen yang dibangun dan dibuktikan sepanjang tulisan", "Panjang tulisannya kurang dari standar", "Tidak menyebutkan nama penulis buku"],
+        "answer": 1,
+        "explanation": "Tulisan yang didominasi ringkasan bab-per-bab dengan opini generik di akhir adalah ciri khas ringkasan, bukan review yang berargumen."
+      },
+      {
+        "id": "e45-2",
+        "question": "Dua tesis review dibandingkan: (A) \"Buku ini bagus dan penuh wawasan\" dan (B) \"Buku ini berhasil menyederhanakan teori ekonomi lewat studi kasus, tapi analogi yang dipakai di Bab 3 justru menyesatkan pembaca awam.\" Tesis B lebih kuat karena…",
+        "options": ["Tesis B lebih panjang kalimatnya", "Tesis B memberi klaim spesifik yang bisa diperdebatkan dan dibuktikan dengan bagian konkret buku", "Tesis A tidak menyebutkan judul buku", "Tesis B tidak perlu bukti lebih lanjut untuk mendukungnya"],
+        "answer": 1,
+        "explanation": "Tesis yang spesifik dan bisa diperdebatkan (bukan sekadar 'bagus') memberi kerangka argumen yang jelas untuk dibuktikan sepanjang review."
+      },
+      {
+        "id": "e45-3",
+        "question": "Seorang reviewer menulis tentang sebuah novel tanpa sekali pun menyinggung karya lain penulis yang sama, tren genre serupa, atau perdebatan sastra yang relevan — seolah novel itu muncul dalam ruang hampa. Kekurangan review ini adalah…",
+        "options": ["Terlalu banyak menyinggung karya lain", "Tidak menempatkan buku dalam percakapan yang lebih luas, sehingga pembaca kesulitan menilai posisi dan relevansi buku itu", "Reviewnya terlalu pendek", "Tidak menyebutkan nama penerbit"],
+        "answer": 1,
+        "explanation": "Review yang matang menempatkan buku dalam konteks karya lain atau perdebatan yang sedang berlangsung, bukan membahasnya secara terisolasi."
+      },
+      {
+        "id": "e45-4",
+        "question": "Seorang mahasiswa menghapus semua paragraf ringkasan dari draf book review-nya sebagai uji coba, dan menyadari argumen utamanya masih bisa dipahami sepenuhnya tanpa paragraf-paragraf itu. Ini menandakan bahwa…",
+        "options": ["Ringkasan yang dihapus sebenarnya tidak diperlukan sama sekali dan boleh dibuang", "Ringkasannya sudah berfungsi sebagai pendukung argumen, bukan tulang punggung tulisan — porsi yang tepat", "Reviewnya kurang informasi tentang isi buku", "Argumennya sebenarnya lemah karena tidak butuh ringkasan"],
+        "answer": 1,
+        "explanation": "Uji ini menunjukkan bahwa argumen sudah cukup kuat berdiri sendiri, dan ringkasan berfungsi memberi konteks tambahan, bukan menjadi inti tulisan."
+      },
+      {
+        "id": "e45-5",
+        "question": "Sebuah literature essay akademik menganalisis teknik naratif sebuah novel secara mendalam untuk pembaca yang sudah familiar dengan genre itu, tanpa menyertakan rekomendasi eksplisit 'layak dibaca atau tidak'. Berdasarkan perbedaan book review dan literature essay, ini adalah…",
+        "options": ["Kesalahan karena literature essay wajib memberi rekomendasi", "Hal yang wajar, karena literature essay lebih berfokus pada analisis mendalam untuk audiens spesifik, tidak selalu perlu rekomendasi eksplisit seperti review umum", "Tanda bahwa esai itu sebenarnya ringkasan, bukan analisis", "Pelanggaran terhadap prinsip argumen dalam tulisan kritik"],
+        "answer": 1,
+        "explanation": "Literature essay memang berbeda dari book review dalam audiens dan tujuan; tidak menyertakan rekomendasi eksplisit bukan berarti melanggar prinsip argumen."
+      },
+      {
+        "id": "e45-6",
+        "question": "Seorang reviewer menulis, \"Bab 6-9 buku ini menghubungkan studi kasus kembali ke kerangka teori di Bab 2, sesuatu yang jarang dilakukan buku sejenis.\" Kalimat ini adalah contoh dari…",
+        "options": ["Ringkasan plot semata", "Argumen yang didukung bukti konkret dari struktur buku, bukan sekadar kesan umum", "Plagiarisme ide dari review lain", "Overclaim tanpa dasar"],
+        "answer": 1,
+        "explanation": "Kalimat ini memberi klaim spesifik (kekuatan buku) yang didukung rujukan konkret ke struktur bab dalam buku itu sendiri."
+      },
+      {
+        "id": "e45-7",
+        "question": "Seorang penulis review merasa reviewnya 'terasa hambar' meski sudah menyebutkan pendapatnya di setiap paragraf. Setelah ditelusuri, ternyata setiap klaim evaluatifnya ('bagian ini lemah', 'bagian ini kuat') tidak pernah disertai kutipan atau contoh spesifik dari buku. Masalah utamanya adalah…",
+        "options": ["Reviewnya terlalu banyak opini", "Klaim evaluatif tidak didukung bukti spesifik dari teks, sehingga argumennya terasa mengambang tanpa dasar konkret", "Reviewnya seharusnya tidak menyertakan opini sama sekali", "Buku yang direview memang tidak layak dianalisis"],
+        "answer": 1,
+        "explanation": "Argumen evaluatif dalam review perlu dibuktikan dengan rujukan konkret ke bagian tertentu buku, bukan sekadar pernyataan pendapat tanpa dasar."
+      },
+      {
+        "id": "e45-8",
+        "question": "Seorang penulis membandingkan sebuah buku sejarah dengan dua buku lain bertopik serupa yang terbit lebih dulu, menunjukkan bagaimana buku ini menawarkan pendekatan yang berbeda terhadap sumber primer. Pendekatan ini paling tepat menerapkan prinsip…",
+        "options": ["Ringkasan bab-per-bab", "Menempatkan buku dalam percakapan yang lebih luas dengan karya sejenis", "Text recycling", "AIDA dalam copywriting"],
+        "answer": 1,
+        "explanation": "Membandingkan buku dengan karya sejenis untuk menunjukkan posisi dan kontribusi uniknya adalah penerapan langsung prinsip menyituasikan buku dalam konteks yang lebih luas."
+      },
+      {
+        "id": "e45-9",
+        "question": "Seorang reviewer menulis tesis: \"Buku ini mengklaim menyajikan sejarah yang objektif, tapi pemilihan studi kasusnya secara konsisten mengabaikan perspektif kelompok minoritas yang justru relevan dengan topik yang dibahas.\" Tesis ini kuat karena…",
+        "options": ["Tesis ini terlalu kontroversial untuk sebuah review", "Tesis ini spesifik, bisa diperdebatkan, dan memberi arah jelas tentang apa yang akan dibuktikan sepanjang review", "Tesis ini menghindari opini pribadi sepenuhnya", "Tesis ini tidak memerlukan bukti pendukung karena sudah jelas"],
+        "answer": 1,
+        "explanation": "Tesis yang spesifik dan terbuka untuk diperdebatkan memberi kerangka argumen yang jelas — ciri tesis review yang kuat, berbeda dari penilaian umum seperti 'buku ini bagus'."
+      },
+      {
+        "id": "e45-10",
+        "question": "Seorang penulis review menyelesaikan draf dan menyadari 80% tulisannya adalah ringkasan kronologis isi buku, sementara analisis dan argumennya hanya muncul di dua kalimat terakhir. Langkah revisi yang paling tepat adalah…",
+        "options": ["Menambahkan lebih banyak detail ringkasan agar pembaca lebih yakin isi bukunya sudah dibaca", "Memangkas sebagian besar ringkasan dan memperluas bagian analisis/argumen yang didukung bukti spesifik dari buku", "Menghapus seluruh tesis karena dianggap tidak perlu", "Membiarkan struktur itu karena ringkasan yang detail selalu dianggap lebih kredibel"],
+        "answer": 1,
+        "explanation": "Porsi ringkasan yang mendominasi menandakan review belum menjalankan fungsi utamanya; revisi yang tepat adalah memangkas ringkasan dan memperkuat analisis argumentatif."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "The Craft of Research", "author": "Wayne C. Booth, Gregory G. Colomb, Joseph M. Williams", "publisher": "University of Chicago Press", "note": "Prinsip menyusun argumen yang bisa diperdebatkan dan didukung bukti, dipakai di 45-2 dan 45-6." },
+    { "title": "On Writing Well: The Classic Guide to Writing Nonfiction", "author": "William Zinsser", "year": 1976, "publisher": "Harper Perennial", "note": "Prinsip menulis kritik/review nonfiksi yang jujur dan tidak bertele-tele, dipakai di 45-1 dan 45-5." },
+    { "title": "How to Write a Book Review", "author": "The Writing Center, University of North Carolina at Chapel Hill", "publisher": "UNC Writing Center", "note": "Panduan struktur umum book review akademik, dipakai di 45-4." },
+    { "title": "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century", "author": "Steven Pinker", "year": 2014, "publisher": "Viking", "note": "Prinsip menghindari overclaim dalam interpretasi teks, dipakai di 45-7." }
+  ]
+}

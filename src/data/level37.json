@@ -1,0 +1,147 @@
+{
+  "id": 37,
+  "slug": "journaling-menulis-bebas",
+  "title": "Journaling & Menulis Bebas",
+  "subtitle": "Menulis untuk berpikir, bukan untuk diterbitkan",
+  "goal": "Memahami menulis sebagai alat berpikir, mempraktikkan morning pages dan freewriting untuk mengatasi kebuntuan, serta menambang jurnal pribadi menjadi bahan tulisan yang layak terbit.",
+  "estimatedMinutes": 30,
+  "sections": [
+    {
+      "id": "37-1",
+      "title": "Menulis untuk Menemukan, Bukan Melaporkan",
+      "blocks": [
+        { "type": "heading", "text": "Kamu Tidak Selalu Tahu Sebelum Menulis" },
+        { "type": "paragraph", "text": "Ada anggapan keliru bahwa kita harus tahu persis apa yang mau ditulis sebelum mulai menulis. Padahal sering kali sebaliknya: menulis adalah cara berpikir. Kalimat yang keluar memancing kalimat berikutnya, dan kamu menemukan gagasan yang tak kamu sadari kamu punya." },
+        { "type": "paragraph", "text": "Journaling dan menulis bebas memisahkan dua pekerjaan yang biasanya bertabrakan: menemukan gagasan dan merapikannya. Di tahap menemukan, tugasmu cuma satu — terus menulis tanpa menghakimi. Merapikan itu urusan nanti (Level 38)." },
+        { "type": "callout", "title": "Pergeseran Pola Pikir", "text": "Berhenti berpikir 'menulis = menghasilkan tulisan bagus'. Mulai berpikir 'menulis = berpikir di atas kertas'. Kebanyakan tulisan bagus lahir dari tumpukan tulisan buruk yang tidak pernah dilihat orang lain." }
+      ]
+    },
+    {
+      "id": "37-2",
+      "title": "Freewriting: Menulis Tanpa Rem",
+      "blocks": [
+        { "type": "heading", "text": "Satu Aturan: Jangan Berhenti" },
+        { "type": "paragraph", "text": "Freewriting adalah menulis terus-menerus selama waktu tertentu (misalnya 10 menit) tanpa berhenti, tanpa mengoreksi, tanpa menghapus. Kalau macet, tulis 'aku macet aku macet' sampai gagasan berikutnya datang. Aturannya cuma satu: pena tidak boleh berhenti." },
+        { "type": "list", "ordered": true, "items": [
+          "Setel timer, misalnya 10 menit.",
+          "Tulis apa saja yang muncul di kepala tentang topikmu (atau tanpa topik).",
+          "Jangan mengoreksi ejaan, jangan menghapus, jangan menilai.",
+          "Kalau buntu, tulis kata terakhir berulang sampai ide baru muncul.",
+          "Berhenti hanya saat timer bunyi — lalu baca ulang untuk mencari butiran bernilai."
+        ]},
+        { "type": "callout", "title": "Kenapa Ini Ampuh", "text": "Rem terbesar dalam menulis adalah editor internal yang menghakimi tiap kalimat. Freewriting mematikan rem itu sementara, sehingga gagasan mentah bisa keluar sebelum sempat disensor. Yang penting kuantitas dulu, mutu belakangan." }
+      ]
+    },
+    {
+      "id": "37-3",
+      "title": "Morning Pages",
+      "blocks": [
+        { "type": "heading", "text": "Tiga Halaman Setiap Pagi" },
+        { "type": "paragraph", "text": "Morning pages, dipopulerkan Julia Cameron, adalah praktik menulis tiga halaman tulisan tangan setiap pagi tentang apa saja — keluhan, rencana, kekhawatiran, kekosongan. Tujuannya bukan menghasilkan karya, melainkan 'membersihkan pikiran' agar hari lebih jernih." },
+        { "type": "paragraph", "text": "Bedanya dengan freewriting: morning pages adalah rutinitas harian yang lebih luas dan tidak harus bertema, sementara freewriting sering dipakai untuk menembus kebuntuan pada tugas tertentu. Keduanya berbagi prinsip yang sama: menulis tanpa menghakimi." },
+        { "type": "callout", "title": "Tidak untuk Dibaca Ulang (Awalnya)", "text": "Morning pages ditulis untuk dilepaskan, bukan untuk dinilai. Justru karena tahu tak seorang pun (termasuk kamu) akan menilainya, pikiranmu berani jujur — dan kejujuran itulah bahan mentah paling berharga." }
+      ]
+    },
+    {
+      "id": "37-4",
+      "title": "Menambang Jurnal Jadi Tulisan",
+      "blocks": [
+        { "type": "heading", "text": "Dari Catatan Pribadi ke Karya Publik" },
+        { "type": "paragraph", "text": "Jurnal pribadi adalah tambang bahan. Personal essay yang bagus (Level 30) sering berawal dari satu kalimat jujur yang tak sengaja tertulis di jurnal pagi. Kuncinya: baca ulang jurnalmu sesekali dengan mata pencari, tandai kalimat yang 'menyala'." },
+        { "type": "quote", "text": "Catatan jurnal mentah: \"Capek banget hari ini, rasanya semua orang lebih maju dari aku.\" → Bisa jadi benih esai: \"Tentang membandingkan diri dengan highlight reel orang lain — dan kenapa perbandingan itu selalu curang.\"", "source": "Contoh menambang jurnal jadi bahan esai" },
+        { "type": "callout", "title": "Bedakan Dua Fungsi", "text": "Jurnal = tempat jujur tanpa filter (privat). Esai = jurnal yang sudah disaring, dibentuk, dan diberi makna universal untuk pembaca (publik). Jangan menerbitkan jurnal mentah; tambang gagasannya lalu tulis ulang untuk pembaca." }
+      ]
+    },
+    {
+      "id": "37-5",
+      "title": "Journaling untuk Menembus Kebuntuan Riset",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Cuma untuk Tulisan Personal" },
+        { "type": "paragraph", "text": "Menulis bebas juga ampuh di dunia akademik. Saat bingung merumuskan masalah penelitian atau macet menulis discussion, freewriting selama 10 menit dengan pertanyaan 'sebenarnya apa yang ingin aku katakan di sini?' sering membuka jalan yang tidak muncul saat menatap layar kosong." },
+        { "type": "list", "ordered": false, "items": [
+          "Buntu merumuskan masalah? Tulis bebas: 'yang sebenarnya mengganggu aku soal topik ini adalah…'",
+          "Bingung struktur? Tulis bebas menjelaskan penelitianmu ke teman imajiner yang awam.",
+          "Macet di discussion? Tulis bebas: 'kalau aku harus meringkas temuan ini dalam satu kalimat, itu adalah…'"
+        ]},
+        { "type": "callout", "title": "Jembatan ke Level 44", "text": "Freewriting adalah salah satu senjata utama melawan writer's block (Level 44). Ia mengubah tugas menakutkan 'menulis sempurna' menjadi tugas ringan 'sekadar menulis apa saja dulu'." }
+      ]
+    },
+    {
+      "id": "37-6",
+      "title": "Menjinakkan Editor Internal",
+      "blocks": [
+        { "type": "heading", "text": "Dua Peran yang Tak Boleh Bekerja Bersamaan" },
+        { "type": "paragraph", "text": "Di dalam kepala setiap penulis ada dua sosok: sang pencipta (yang menuangkan gagasan) dan sang editor (yang menilai dan merapikan). Masalah muncul ketika keduanya bekerja bersamaan — kamu menulis satu kalimat, langsung menghapusnya, menulis lagi, hapus lagi. Hasilnya: layar kosong dan frustrasi." },
+        { "type": "paragraph", "text": "Journaling dan freewriting melatih otot memisahkan keduanya. Saat menemukan, biarkan pencipta bekerja bebas; matikan editor. Merapikan (Level 38) adalah giliran editor — dan itu tahap terpisah." },
+        { "type": "callout", "title": "Analogi", "text": "Menulis sambil mengedit itu seperti mengendarai mobil dengan satu kaki di gas dan satu di rem. Bunyinya berisik, jaraknya sedikit, mesinnya cepat rusak. Pisahkan: gas dulu (menulis bebas), rem belakangan (mengedit)." }
+      ]
+    },
+    {
+      "id": "37-7",
+      "title": "Membuat Kebiasaan Journaling Bertahan",
+      "blocks": [
+        { "type": "heading", "text": "Kecil dan Konsisten" },
+        { "type": "paragraph", "text": "Journaling gagal bukan karena orang tidak mampu, tapi karena target terlalu besar. 'Menulis satu jam tiap hari' cepat runtuh. 'Menulis lima menit setelah bangun tidur' bertahan. Ini menyambung ke Level 43 tentang kebiasaan menulis." },
+        { "type": "list", "ordered": false, "items": [
+          "Kaitkan ke kebiasaan yang sudah ada: setelah menyeduh kopi, langsung menulis.",
+          "Turunkan ambang: kalau berat, targetkan tiga kalimat saja, bukan tiga halaman.",
+          "Simpan buku/aplikasi di tempat yang terlihat, agar tidak lupa.",
+          "Jangan patahkan rantai — tapi kalau bolong satu hari, lanjutkan, jangan menyerah."
+        ]}
+      ]
+    },
+    {
+      "id": "37-8",
+      "title": "Kesalahan Umum dalam Journaling",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Mengedit sambil menulis, sehingga editor internal membunuh gagasan sebelum lahir.",
+          "Menetapkan target terlalu besar sehingga kebiasaan runtuh dalam seminggu.",
+          "Menerbitkan jurnal mentah apa adanya tanpa menyaring dan membentuknya jadi karya.",
+          "Berhenti karena merasa tulisannya 'jelek' — padahal jurnal memang bukan untuk bagus.",
+          "Menunggu inspirasi datang, alih-alih menulis untuk memancing inspirasi."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Menulis bebas bukan buang-buang waktu meski hasilnya tak diterbitkan. Ia adalah pemanasan, penemuan, dan pembersih pikiran sekaligus. Penulis produktif hampir selalu punya tumpukan tulisan yang tak pernah dilihat siapa pun." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-37",
+    "title": "Kuis Level 37",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "q37-1", "question": "Gagasan inti 'menulis untuk berpikir' adalah…", "options": ["Kamu harus tahu persis isi tulisan sebelum mulai", "Menulis sering menjadi cara menemukan gagasan yang belum kamu sadari", "Menulis hanya untuk diterbitkan", "Berpikir dan menulis tidak berhubungan"], "answer": 1, "explanation": "Menulis adalah alat berpikir — kalimat memancing gagasan berikutnya." },
+      { "id": "q37-2", "question": "Aturan utama freewriting adalah…", "options": ["Koreksi setiap kalimat", "Terus menulis tanpa berhenti, tanpa mengoreksi, selama waktu tertentu", "Hanya menulis kalimat sempurna", "Berhenti setiap kali buntu"], "answer": 1, "explanation": "Freewriting = pena tidak boleh berhenti; koreksi diabaikan sementara." },
+      { "id": "q37-3", "question": "Morning pages menurut Julia Cameron adalah…", "options": ["Tiga halaman tulisan tangan tiap pagi tentang apa saja untuk membersihkan pikiran", "Esai formal yang diterbitkan tiap pagi", "Ringkasan berita pagi", "Daftar tugas harian"], "answer": 0, "explanation": "Morning pages: tiga halaman bebas tiap pagi, untuk menjernihkan pikiran, bukan menghasilkan karya." },
+      { "id": "q37-4", "question": "Hubungan jurnal pribadi dengan personal essay adalah…", "options": ["Keduanya sama persis", "Jurnal adalah tambang bahan mentah; esai adalah hasil yang sudah disaring dan diberi makna untuk pembaca", "Jurnal tidak berguna untuk esai", "Esai harus ditulis tanpa jurnal"], "answer": 1, "explanation": "Jurnal menyediakan bahan jujur; esai menyaring dan membentuknya untuk publik." },
+      { "id": "q37-5", "question": "Masalah 'menulis sambil mengedit' diibaratkan sebagai…", "options": ["Mengendarai mobil dengan satu kaki di gas dan satu di rem", "Berlari cepat", "Membaca buku", "Tidur siang"], "answer": 0, "explanation": "Gas (mencipta) dan rem (mengedit) bersamaan bikin berisik, lambat, dan melelahkan." },
+      { "id": "q37-6", "question": "Agar kebiasaan journaling bertahan, sebaiknya…", "options": ["Menetapkan target sebesar mungkin", "Menetapkan target kecil yang bisa dijaga dan mengaitkannya ke kebiasaan yang sudah ada", "Menunggu mood datang", "Menulis hanya saat liburan"], "answer": 1, "explanation": "Target kecil dan konsisten (Level 43) bertahan lebih lama daripada ambisi besar." },
+      { "id": "q37-7", "question": "Freewriting membantu melawan writer's block karena…", "options": ["Membuat tulisan langsung sempurna", "Mengubah tugas menakutkan 'menulis sempurna' jadi tugas ringan 'sekadar menulis apa saja dulu'", "Menghapus kebutuhan berpikir", "Menggantikan riset"], "answer": 1, "explanation": "Dengan menurunkan taruhan, freewriting membuka jalan yang tertutup oleh tuntutan kesempurnaan." }
+    ]
+  },
+  "exam": {
+    "id": "exam-37",
+    "title": "Ujian Level 37",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "e37-1", "question": "Seseorang menatap layar kosong selama sejam, menghapus tiap kalimat yang ia ketik karena merasa belum cukup bagus. Menurut level ini, akar masalahnya adalah…", "options": ["Ia kurang berbakat", "Editor internal bekerja bersamaan dengan pencipta, membunuh gagasan sebelum sempat lahir", "Ia perlu laptop baru", "Topiknya salah"], "answer": 1, "explanation": "Menulis sambil mengedit menghentikan aliran gagasan; keduanya harus dipisah." },
+      { "id": "e37-2", "question": "Saat freewriting, seorang penulis tiba-tiba kehabisan ide di menit ke-4. Sesuai aturan freewriting, yang seharusnya ia lakukan adalah…", "options": ["Berhenti dan istirahat", "Tetap menulis, misalnya mengulang 'aku macet aku macet' sampai gagasan berikutnya datang", "Mulai mengoreksi tulisan sebelumnya", "Menghapus semua yang sudah ditulis"], "answer": 1, "explanation": "Pena tidak boleh berhenti; menulis apa pun menjaga aliran sampai ide baru muncul." },
+      { "id": "e37-3", "question": "Seorang mahasiswa macet menulis bagian discussion skripsinya. Cara memakai freewriting yang tepat adalah…", "options": ["Menyalin discussion orang lain", "Menulis bebas 10 menit menjawab 'kalau aku ringkas temuan ini dalam satu kalimat, itu adalah…'", "Menunggu sampai inspirasi datang sendiri", "Menghapus seluruh bab dan mulai dari nol"], "answer": 1, "explanation": "Freewriting berpandu pertanyaan membuka gagasan yang tak muncul saat menatap layar kosong." },
+      { "id": "e37-4", "question": "Seseorang menyalin langsung entri jurnal paginya yang mentah — \"capek, semua orang lebih maju dari aku\" — ke blog publik tanpa perubahan. Masalahnya adalah…", "options": ["Tidak ada masalah, jujur itu bagus", "Jurnal mentah adalah bahan privat; untuk publik ia perlu disaring, dibentuk, dan diberi makna universal dulu", "Seharusnya ditulis dalam bahasa Inggris", "Terlalu panjang"], "answer": 1, "explanation": "Jurnal menyediakan benih; esai butuh penyaringan dan pembentukan sebelum layak dibaca publik." },
+      { "id": "e37-5", "question": "Seorang penulis menargetkan 'menulis jurnal satu jam penuh setiap hari', lalu berhenti total setelah lima hari kelelahan. Perbaikan paling realistis adalah…", "options": ["Menaikkan target jadi dua jam", "Menurunkan target ke lima menit atau tiga kalimat dan mengaitkannya ke kebiasaan yang sudah ada", "Berhenti journaling selamanya", "Menulis hanya saat libur panjang"], "answer": 1, "explanation": "Target kecil yang bisa dijaga bertahan; ambisi besar cepat runtuh." },
+      { "id": "e37-6", "question": "Perbedaan paling tepat antara morning pages dan freewriting untuk sebuah tugas tertentu adalah…", "options": ["Keduanya identik", "Morning pages rutinitas harian luas tanpa harus bertema; freewriting sering dipakai menembus kebuntuan pada tugas spesifik — keduanya sama-sama tanpa menghakimi", "Morning pages harus diketik, freewriting harus tangan", "Freewriting untuk pagi, morning pages untuk malam"], "answer": 1, "explanation": "Keduanya berbagi prinsip 'tanpa menghakimi' tapi berbeda cakupan dan tujuan pemakaian." },
+      { "id": "e37-7", "question": "Seorang penulis menolak journaling karena 'tulisannya jelek dan tidak ada yang membacanya'. Kenapa alasan ini salah kaprah?", "options": ["Jurnal memang harus bagus", "Jurnal memang bukan untuk bagus atau untuk dibaca — fungsinya menemukan gagasan dan menjernihkan pikiran, dan tulisan buruk adalah bahan mentah yang normal", "Seharusnya ia menerbitkan semuanya", "Ia harus berhenti menulis"], "answer": 1, "explanation": "Jurnal dinilai dari fungsinya (menemukan/menjernihkan), bukan dari mutu prosanya." },
+      { "id": "e37-8", "question": "Seorang penulis selalu menunggu 'inspirasi' sebelum mulai menulis apa pun, dan sering tidak menulis berhari-hari. Prinsip level ini menyarankan…", "options": ["Terus menunggu sampai inspirasi datang", "Menulis (misalnya freewriting) justru untuk memancing inspirasi, bukan menunggunya", "Berhenti menulis sampai merasa siap", "Meniru tulisan orang lain sampai inspirasi muncul"], "answer": 1, "explanation": "Menulis memancing gagasan; menunggu inspirasi pasif sering berarti tidak pernah mulai." },
+      { "id": "e37-9", "question": "Setelah sebulan morning pages, seorang penulis membaca ulang entrinya dan menandai beberapa kalimat yang 'menyala'. Ini adalah praktik…", "options": ["Membuang waktu", "Menambang jurnal — mengubah catatan pribadi jadi benih tulisan yang layak dikembangkan untuk publik", "Melanggar aturan journaling", "Mengedit sambil menulis"], "answer": 1, "explanation": "Membaca ulang dengan mata pencari mengubah bahan mentah jurnal jadi benih karya." },
+      { "id": "e37-10", "question": "Seorang penulis mengeluh freewriting 'membuang waktu karena hasilnya tidak diterbitkan'. Tanggapan paling tepat adalah…", "options": ["Setuju, freewriting tidak berguna", "Freewriting adalah pemanasan, penemuan, dan pembersih pikiran; penulis produktif hampir selalu punya banyak tulisan yang tak pernah dilihat siapa pun", "Freewriting harus selalu diterbitkan", "Sebaiknya berhenti menulis"], "answer": 1, "explanation": "Nilai freewriting ada pada prosesnya, bukan pada apakah keluarannya diterbitkan." }
+    ]
+  },
+  "sources": [
+    { "title": "The Artist's Way: A Spiritual Path to Higher Creativity", "author": "Julia Cameron", "year": 1992, "publisher": "Tarcher/Putnam", "note": "Sumber konsep morning pages." },
+    { "title": "Writing Without Teachers", "author": "Peter Elbow", "year": 1973, "publisher": "Oxford University Press", "note": "Sumber klasik teknik freewriting dan memisahkan mencipta dari mengedit." },
+    { "title": "Bird by Bird: Some Instructions on Writing and Life", "author": "Anne Lamott", "year": 1994, "publisher": "Pantheon", "note": "Konsep 'shitty first drafts' — menulis buruk dulu sebagai bahan mentah." },
+    { "title": "On Writing: A Memoir of the Craft", "author": "Stephen King", "year": 2000, "publisher": "Scribner", "note": "Menulis rutin dan memisahkan drafting dari revisi." },
+    { "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones", "author": "James Clear", "year": 2018, "publisher": "Avery", "note": "Mengaitkan kebiasaan baru (journaling) ke kebiasaan yang sudah ada dan menurunkan ambang." }
+  ]
+}

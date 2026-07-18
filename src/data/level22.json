@@ -1,0 +1,265 @@
+{
+  "id": 22,
+  "slug": "ditolak-submit-ulang",
+  "title": "Ditolak? Bangkit & Submit Ulang",
+  "subtitle": "Membaca alasan penolakan secara jujur, lalu memilih langkah paling tepat sebelum submit ulang",
+  "goal": "Mampu membedakan desk reject dan penolakan pasca-review, membaca surat penolakan untuk menemukan apa yang benar-benar perlu diperbaiki, memutuskan naskah mana yang butuh revisi besar sebelum submit ulang vs yang sudah cukup dikirim ke jurnal lain, dan memahami bahwa penolakan adalah bagian normal dan universal dari publikasi ilmiah.",
+  "estimatedMinutes": 36,
+  "sections": [
+    {
+      "id": "22-1",
+      "title": "Penolakan Itu Normal — Bukan Kegagalan Personal",
+      "blocks": [
+        { "type": "heading", "text": "Statistik yang Jarang Diceritakan" },
+        { "type": "paragraph", "text": "Sebagian besar peneliti, bahkan yang sudah menerbitkan puluhan artikel, pernah ditolak — bahkan sering. Jurnal bereputasi tinggi (Q1, SINTA 1-2) umumnya menolak jauh lebih banyak naskah daripada yang mereka terima; sebagian jurnal terkemuka punya tingkat penolakan di atas 80-90%. Artinya, ditolak bukan indikasi kamu peneliti buruk — itu adalah pengalaman yang dialami hampir setiap orang yang pernah submit ke jurnal manapun." },
+        { "type": "paragraph", "text": "Level 20 sudah menjelaskan bahwa peer review adalah mekanisme kolektif menjaga standar, bukan alat menghakimi pribadi. Level ini melanjutkan dari titik itu: bagaimana bersikap KETIKA hasil akhirnya benar-benar penolakan, bukan revisi." },
+        { "type": "callout", "title": "Bahkan Karya Klasik Pernah Ditolak", "text": "Banyak artikel dan buku yang kini dianggap berpengaruh di bidangnya pernah ditolak satu atau lebih jurnal/penerbit sebelum akhirnya diterima di tempat lain. Penolakan sering mencerminkan ketidakcocokan (fit) di satu titik waktu tertentu, bukan penilaian final atas nilai sebuah karya." }
+      ]
+    },
+    {
+      "id": "22-2",
+      "title": "Desk Reject vs Penolakan Pasca-Review",
+      "blocks": [
+        { "type": "heading", "text": "Dua Jenis Penolakan, Dua Makna Berbeda" },
+        { "type": "paragraph", "text": "Level 20 memperkenalkan istilah desk reject sebagai penolakan editor SEBELUM naskah masuk peer review. Penting membedakan ini dari penolakan SETELAH direview, karena implikasinya terhadap langkah selanjutnya sangat berbeda." },
+        {
+          "type": "table",
+          "headers": ["Aspek", "Desk Reject", "Penolakan Pasca-Review"],
+          "rows": [
+            ["Kapan terjadi", "Sebelum naskah dikirim ke reviewer, biasanya dalam hitungan hari-minggu", "Setelah reviewer menilai, biasanya berbulan-bulan"],
+            ["Alasan tipikal", "Scope tidak cocok, format tidak sesuai Author Guidelines, kualitas dasar di bawah standar minimum", "Kelemahan metodologis, kontribusi dianggap kurang, klaim tidak didukung data (Level 16)"],
+            ["Umpan balik yang didapat", "Biasanya singkat, kadang hanya template umum tanpa detail spesifik", "Biasanya lebih detail karena berdasarkan penilaian substansi oleh reviewer ahli"],
+            ["Makna bagi penulis", "Sering soal ketidakcocokan jurnal (fit), bukan berarti naskah lemah secara keseluruhan", "Perlu evaluasi lebih hati-hati — bisa jadi memang ada kelemahan substansial yang perlu diperbaiki sebelum ke jurnal lain"]
+          ]
+        },
+        { "type": "callout", "title": "Desk Reject Bukan Berarti Naskahmu Buruk", "text": "Desk reject sering terjadi murni karena ketidakcocokan scope — ingat pelajaran Level 18 soal riset scope sebelum submit. Kalau kamu mendapat desk reject, pertama-tama cek dulu: apakah kamu benar-benar sudah membaca isu terbaru jurnal itu sebelum memilihnya?" }
+      ]
+    },
+    {
+      "id": "22-3",
+      "title": "Membaca di Antara Baris Surat Penolakan",
+      "blocks": [
+        { "type": "heading", "text": "Surat Formal, Pesan yang Sering Tersembunyi" },
+        { "type": "paragraph", "text": "Surat penolakan jurnal sering ditulis dengan bahasa formal yang halus, kadang terkesan generik. Tugasmu adalah membaca lebih dalam untuk memahami APA sebenarnya masalah utamanya, bukan cuma menyerap kalimat template di permukaan." },
+        {
+          "type": "table",
+          "headers": ["Kalimat di Surat Penolakan", "Kemungkinan Makna di Baliknya"],
+          "rows": [
+            ["\"Naskah ini berada di luar scope jurnal kami saat ini.\"", "Bisa jadi memang scope tidak cocok — tapi juga bisa jadi eufemisme untuk 'kontribusinya kurang cukup kuat'; cek juga komentar reviewer (bila ada) untuk konfirmasi"],
+            ["\"Kami menerima banyak naskah berkualitas dan hanya bisa menerima sebagian kecil.\"", "Kalimat standar penolakan kompetitif — sering muncul di jurnal bereputasi tinggi dengan tingkat penolakan besar, tidak selalu berarti naskahmu lemah"],
+            ["\"Reviewer mencatat sejumlah keterbatasan metodologis yang mendasar.\"", "Ini sinyal jelas: ada masalah substansial di desain/metode yang perlu diperbaiki secara serius sebelum dikirim ke jurnal manapun berikutnya"]
+          ]
+        },
+        { "type": "callout", "title": "Kalau Ada Komentar Reviewer, Baca Itu Dulu", "text": "Penolakan pasca-review biasanya disertai komentar reviewer, meski naskah sudah ditolak. Komentar ini adalah sumber informasi paling berharga — perlakukan dengan cara yang sama seperti membaca komentar reviewer di Level 20, meski kali ini tidak ada kesempatan merevisi di jurnal yang sama." }
+      ]
+    },
+    {
+      "id": "22-4",
+      "title": "Apa yang Perlu Diperbaiki Sebelum Submit Ulang",
+      "blocks": [
+        { "type": "heading", "text": "Jangan Kirim Naskah yang Sama Persis ke Jurnal Berikutnya" },
+        { "type": "paragraph", "text": "Kesalahan paling umum setelah ditolak adalah langsung mengirim naskah yang PERSIS SAMA ke jurnal lain tanpa perubahan apa pun — berharap reviewer di jurnal berikutnya akan lebih 'baik hati'. Ini jarang berhasil, apalagi kalau alasan penolakan sebelumnya menunjuk kelemahan substansial yang sama kemungkinan besar akan dideteksi reviewer manapun." },
+        { "type": "list", "ordered": true, "items": [
+          "Kalau penolakan karena desk reject (scope tidak cocok): cek ulang shortlist jurnal (Level 18), pastikan jurnal berikutnya benar-benar cocok berdasarkan isu terbaru, bukan sekadar tebakan.",
+          "Kalau ada komentar metodologis dari reviewer: perbaiki kelemahan itu SEBELUM submit ulang ke jurnal manapun, bukan hanya ke jurnal yang menolak.",
+          "Kalau alasan penolakan soal kontribusi kurang cukup kuat: pertimbangkan apakah perlu jurnal dengan level lebih realistis (SINTA/kuartil lebih sesuai, Level 18), atau perlu memperkuat argumen kebaruan di Tinjauan Pustaka (Level 11).",
+          "Perbarui format naskah sesuai Author Guidelines jurnal BARU — jangan asumsikan format yang sama berlaku di semua jurnal (Level 17, 18)."
+        ]},
+        { "type": "callout", "title": "Etika: Jangan Sembunyikan Riwayat Review Sebelumnya Kalau Diminta", "text": "Beberapa jurnal secara eksplisit meminta pengungkapan apakah naskah pernah direview di tempat lain. Selalu jujur mengungkapkan ini bila diminta — menyembunyikannya adalah pelanggaran etika publikasi, bukan sekadar detail administratif." }
+      ]
+    },
+    {
+      "id": "22-5",
+      "title": "Worked Example: Reaksi Setelah Ditolak",
+      "blocks": [
+        { "type": "heading", "text": "Dua Jalan Setelah Menerima Email Penolakan" },
+        { "type": "quote", "text": "Reaksi PANIK: Penulis membaca email penolakan, langsung merasa penelitiannya sia-sia, lalu tengah malam itu juga mengirim naskah yang sama persis (tanpa perubahan) ke lima jurnal lain sekaligus supaya 'salah satu pasti ada yang terima'.", "source": "Respons LEMAH — emosional, melanggar aturan simultaneous submission (Level 19), tidak mengevaluasi alasan penolakan sama sekali" },
+        { "type": "quote", "text": "Reaksi KOMPOSISI: Penulis membaca email penolakan, memberi jeda dua hari, lalu membaca ulang komentar reviewer (bila ada) untuk memahami akar masalahnya. Ia menemukan reviewer mencatat desain survei tanpa kontrol tidak cukup untuk klaim yang diajukan di Discussion. Ia merevisi klaim menjadi lebih hedged (Level 16), menambah pembahasan keterbatasan, lalu memilih jurnal cadangan dari shortlist (Level 18) yang levelnya sedikit lebih realistis, dan submit satu per satu sesuai etika (Level 19).", "source": "Respons KUAT — jeda emosional, evaluasi substansi, revisi konkret, submit ulang secara etis" },
+        { "type": "callout", "title": "Bedanya Apa?", "text": "Respons panik mengulang kesalahan yang sama dan bahkan menambah pelanggaran baru (simultaneous submission). Respons komposisi memakai penolakan sebagai informasi untuk memperbaiki naskah, sehingga peluang diterima di submission berikutnya jauh lebih besar." }
+      ]
+    },
+    {
+      "id": "22-6",
+      "title": "Kapan Naskah Sudah Cukup untuk Dikirim ke Jurnal Lain Tanpa Revisi Besar",
+      "blocks": [
+        { "type": "heading", "text": "Tidak Semua Penolakan Butuh Revisi Total" },
+        { "type": "paragraph", "text": "Penting juga menghindari ekstrem sebaliknya: merevisi berlebihan atau menunda submit ulang bertahun-tahun karena terlalu takut ditolak lagi. Beberapa penolakan memang murni soal ketidakcocokan (fit), bukan kelemahan substansial." },
+        { "type": "list", "ordered": false, "items": [
+          "Kalau alasan penolakan murni desk reject soal scope, dan kamu sudah memverifikasi jurnal berikutnya benar-benar cocok, naskah sering bisa dikirim dengan penyesuaian format saja — tanpa perlu menulis ulang substansi.",
+          "Kalau tidak ada komentar reviewer yang substansial (karena memang desk reject terjadi sebelum tahap itu), tidak ada 'kelemahan tersembunyi' yang perlu ditebak-tebak — fokus saja pada kecocokan scope jurnal baru.",
+          "Kalau komentar reviewer di penolakan sebelumnya sudah kamu tindak lanjuti dengan revisi konkret, tidak perlu menunggu 'sempurna' — submit ulang setelah revisi yang wajar, bukan revisi tanpa akhir."
+        ]},
+        { "type": "callout", "title": "Perfeksionisme Juga Bisa Jadi Jebakan", "text": "Beberapa penulis menahan naskah bertahun-tahun karena trauma penolakan pertama, terus merevisi tanpa henti tanpa pernah submit ulang. Ingat: publikasi yang tertunda selamanya sama saja dengan tidak pernah diterbitkan — tenggat yang wajar tetap perlu ditetapkan untuk submit ulang." }
+      ]
+    },
+    {
+      "id": "22-7",
+      "title": "Menjaga Motivasi Setelah Ditolak",
+      "blocks": [
+        { "type": "heading", "text": "Penolakan Bagian dari Proses, Bukan Akhir Cerita" },
+        { "type": "list", "ordered": false, "items": [
+          "Beri dirimu waktu berduka sebentar (satu-dua hari) — perasaan kecewa itu wajar dan tidak perlu ditekan, tapi juga jangan dibiarkan berlarut sampai menghentikan langkah berikutnya.",
+          "Diskusikan hasil penolakan dengan pembimbing atau rekan sejawat — perspektif orang lain sering membantu melihat apakah masalahnya benar substansial atau sekadar ketidakcocokan.",
+          "Simpan semua komentar reviewer, bahkan dari naskah yang ditolak — komentar ini adalah bahan revisi paling berharga yang sudah kamu dapatkan gratis dari ahli di bidangmu.",
+          "Ingat kembali shortlist jurnal cadangan (Level 18) yang sudah kamu siapkan — penolakan tidak berarti mulai dari nol, karena kamu sudah punya rencana lanjutan."
+        ]},
+        { "type": "callout", "title": "Cerita yang Jarang Dibagikan di Media Sosial Akademik", "text": "Media sosial akademik sering hanya menampilkan kabar 'artikel saya diterima!' — jarang ada yang membagikan cerita penolakan, sehingga penulis pemula merasa seolah cuma dirinya yang gagal. Kenyataannya, hampir setiap peneliti yang kamu kagumi punya folder tersembunyi berisi email-email penolakan." }
+      ]
+    },
+    {
+      "id": "22-8",
+      "title": "Kesalahan Umum Setelah Ditolak",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Mengirim naskah yang persis sama tanpa revisi apa pun ke jurnal lain, berharap hasil berbeda tanpa mengubah apa pun.",
+          "Melanggar aturan simultaneous submission dengan mengirim ke banyak jurnal sekaligus karena panik setelah ditolak (lihat Level 19).",
+          "Mengabaikan komentar reviewer yang menyertai penolakan, padahal itu sumber informasi paling berharga untuk revisi berikutnya.",
+          "Menganggap semua penolakan sebagai bukti naskah buruk, padahal desk reject sering murni soal ketidakcocokan scope, bukan kelemahan substansial.",
+          "Terjebak perfeksionisme — menahan naskah bertahun-tahun tanpa pernah submit ulang karena trauma penolakan pertama.",
+          "Menyembunyikan riwayat penolakan/review sebelumnya saat jurnal baru secara eksplisit menanyakannya."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Penolakan adalah bagian normal dan universal dari perjalanan publikasi ilmiah — bukan cerminan nilai dirimu sebagai peneliti. Yang membedakan penulis yang akhirnya berhasil terbit dari yang berhenti di tengah jalan bukanlah jarang ditolak, tapi kemampuan membaca penolakan sebagai informasi, lalu bangkit dan mencoba lagi dengan lebih baik." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-22",
+    "title": "Kuis Level 22",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q22-1",
+        "question": "Perbedaan mendasar antara desk reject dan penolakan pasca-review adalah…",
+        "options": ["Desk reject hanya terjadi pada jurnal predator", "Desk reject terjadi sebelum naskah dikirim ke reviewer, sementara penolakan pasca-review terjadi setelah reviewer menilai substansinya", "Penolakan pasca-review selalu lebih cepat dari desk reject", "Keduanya sebenarnya sama saja tanpa perbedaan berarti"],
+        "answer": 1,
+        "explanation": "Desk reject adalah keputusan editor di tahap penyaringan awal, sedangkan penolakan pasca-review terjadi setelah proses peer review berlangsung."
+      },
+      {
+        "id": "q22-2",
+        "question": "Kenapa desk reject tidak selalu berarti naskah secara keseluruhan buruk?",
+        "options": ["Karena desk reject hanya berlaku untuk jurnal predator", "Karena desk reject sering murni soal ketidakcocokan scope dengan jurnal tersebut, bukan penilaian mendalam atas kualitas substansi", "Karena desk reject berarti naskah pasti akan diterima di jurnal lain", "Karena editor tidak pernah membaca naskah sebelum desk reject"],
+        "answer": 1,
+        "explanation": "Desk reject sering terjadi karena ketidakcocokan scope, sebuah masalah fit yang bisa diperbaiki dengan memilih jurnal lain yang lebih sesuai."
+      },
+      {
+        "id": "q22-3",
+        "question": "Langkah yang PALING TIDAK disarankan setelah menerima penolakan adalah…",
+        "options": ["Membaca ulang komentar reviewer untuk memahami akar masalah", "Mengirim naskah yang persis sama tanpa revisi ke banyak jurnal lain sekaligus", "Mendiskusikan hasil penolakan dengan pembimbing atau rekan sejawat", "Memberi diri jeda waktu sebelum memutuskan langkah selanjutnya"],
+        "answer": 1,
+        "explanation": "Mengirim naskah yang sama tanpa revisi ke banyak jurnal sekaligus mengulang kesalahan yang sama dan melanggar aturan simultaneous submission (Level 19)."
+      },
+      {
+        "id": "q22-4",
+        "question": "Kalimat 'Reviewer mencatat sejumlah keterbatasan metodologis yang mendasar' dalam surat penolakan sebaiknya dimaknai sebagai…",
+        "options": ["Kalimat template yang tidak perlu ditanggapi", "Sinyal jelas bahwa ada masalah substansial yang perlu diperbaiki serius sebelum dikirim ke jurnal manapun berikutnya", "Bukti bahwa reviewer tidak memahami penelitian", "Alasan untuk langsung mengganti topik penelitian"],
+        "answer": 1,
+        "explanation": "Kalimat ini menunjuk masalah metodologis nyata yang perlu ditindaklanjuti serius, bukan sekadar formalitas penolakan."
+      },
+      {
+        "id": "q22-5",
+        "question": "Jika jurnal baru secara eksplisit menanyakan apakah naskah pernah direview di tempat lain, sikap yang tepat adalah…",
+        "options": ["Menyembunyikan riwayat tersebut agar proses lebih lancar", "Mengungkapkannya dengan jujur, karena menyembunyikannya adalah pelanggaran etika publikasi", "Hanya mengungkapkan jika ditanya dua kali", "Mengungkapkan sebagian saja yang menguntungkan"],
+        "answer": 1,
+        "explanation": "Kejujuran soal riwayat review sebelumnya adalah bagian dari etika publikasi; menyembunyikannya melanggar prinsip integritas ilmiah."
+      },
+      {
+        "id": "q22-6",
+        "question": "Risiko dari perfeksionisme berlebihan setelah ditolak adalah…",
+        "options": ["Naskah menjadi lebih mudah diterima karena terus direvisi", "Naskah tertahan bertahun-tahun tanpa pernah disubmit ulang, yang secara efektif sama saja dengan tidak pernah diterbitkan", "Tidak ada risiko karena revisi tanpa henti selalu meningkatkan kualitas", "Reviewer akan memberi nilai tambahan untuk naskah yang direvisi berkali-kali"],
+        "answer": 1,
+        "explanation": "Menahan naskah tanpa batas demi kesempurnaan berarti publikasi tertunda selamanya — sama saja dengan tidak pernah diterbitkan."
+      },
+      {
+        "id": "q22-7",
+        "question": "Kenapa media sosial akademik bisa membuat penulis pemula merasa hanya dirinya yang sering ditolak?",
+        "options": ["Karena penolakan memang jarang terjadi pada peneliti lain", "Karena yang biasa dibagikan adalah kabar diterima, bukan cerita penolakan, sehingga penolakan terlihat seperti pengalaman langka padahal universal", "Karena media sosial akademik melarang membahas penolakan", "Karena peneliti senior tidak pernah mengalami penolakan"],
+        "answer": 1,
+        "explanation": "Bias tampilan di media sosial (hanya kabar baik yang dibagikan) membuat penolakan terkesan langka, padahal hampir semua peneliti mengalaminya."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-22",
+    "title": "Ujian Level 22",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e22-1",
+        "question": "Seorang mahasiswa menerima desk reject dengan alasan \"di luar scope jurnal kami\" tanpa komentar reviewer apa pun. Ia langsung menyimpulkan penelitiannya secara keseluruhan buruk dan mempertimbangkan berhenti mempublikasikannya. Penilaian paling tepat atas kesimpulannya adalah…",
+        "options": ["Kesimpulannya tepat karena desk reject selalu berarti penelitian buruk", "Kesimpulannya terburu-buru — desk reject sering murni soal ketidakcocokan scope, sehingga langkah yang lebih tepat adalah mengevaluasi ulang shortlist jurnal (Level 18), bukan menyerah", "Ia seharusnya menuntut jurnal memberi komentar reviewer meski di-desk reject", "Semua desk reject wajib disertai komentar reviewer secara hukum"],
+        "answer": 1,
+        "explanation": "Desk reject tanpa komentar reviewer biasanya murni soal ketidakcocokan scope; langkah yang tepat adalah mengevaluasi ulang pemilihan jurnal, bukan menyimpulkan penelitian secara keseluruhan buruk."
+      },
+      {
+        "id": "e22-2",
+        "question": "Seorang penulis menerima penolakan pasca-review dengan komentar reviewer yang menyoroti bahwa sampel penelitiannya terlalu kecil untuk klaim generalisasi yang diajukan. Ia langsung mengirim naskah yang identik ke jurnal lain tanpa mengubah apa pun. Kekeliruan dalam langkahnya adalah…",
+        "options": ["Tidak ada kekeliruan karena reviewer jurnal lain mungkin lebih longgar", "Ia mengabaikan kelemahan substansial yang sudah diidentifikasi reviewer, padahal kelemahan itu kemungkinan besar juga akan terdeteksi reviewer di jurnal manapun", "Mengirim naskah identik selalu meningkatkan peluang diterima", "Reviewer di jurnal berbeda tidak pernah memberi komentar yang sama"],
+        "answer": 1,
+        "explanation": "Kelemahan metodologis yang sudah diidentifikasi satu reviewer kemungkinan besar akan dideteksi juga oleh reviewer lain; perlu direvisi dulu sebelum submit ulang ke jurnal manapun."
+      },
+      {
+        "id": "e22-3",
+        "question": "Setelah menerima penolakan, seorang mahasiswa malam itu juga mengirim naskah yang sama ke empat jurnal berbeda sekaligus tanpa menunggu keputusan resmi dari jurnal yang menolaknya (yang sudah final). Bagian mana dari tindakan ini yang bermasalah?",
+        "options": ["Mengirim ke jurnal lain setelah menerima keputusan final tidak melanggar aturan, tapi mengirim ke EMPAT jurnal SEKALIGUS secara bersamaan tetap melanggar prinsip submit satu per satu secara berurutan", "Tidak ada masalah sama sekali karena keputusan dari jurnal pertama sudah final", "Masalahnya hanya soal waktu (malam hari), bukan soal jumlah jurnal", "Mengirim ke banyak jurnal sekaligus dianjurkan agar prosesnya lebih cepat"],
+        "answer": 0,
+        "explanation": "Meski keputusan dari jurnal pertama sudah final (sehingga tidak masuk kategori simultaneous submission terhadap jurnal itu), etika submission tetap menganjurkan proses satu per satu secara berurutan ke shortlist cadangan (Level 18-19), bukan mengirim serentak ke banyak jurnal."
+      },
+      {
+        "id": "e22-4",
+        "question": "Seorang penulis membaca surat penolakan yang berbunyi \"kami menerima banyak naskah berkualitas dan hanya bisa menerima sebagian kecil\" dari sebuah jurnal Q1 dengan tingkat penerimaan sangat rendah. Interpretasi paling tepat adalah…",
+        "options": ["Ini bukti pasti bahwa naskahnya memiliki kelemahan serius", "Ini kalimat standar penolakan kompetitif yang umum di jurnal bereputasi tinggi, tidak selalu berarti naskah lemah — perlu dicek juga apakah ada komentar reviewer lain yang lebih spesifik", "Ini berarti jurnal tersebut sebenarnya jurnal predator", "Kalimat ini berarti penulis harus berhenti submit ke jurnal manapun"],
+        "answer": 1,
+        "explanation": "Kalimat ini adalah bahasa standar penolakan kompetitif di jurnal dengan tingkat penolakan tinggi; penulis perlu mengecek komentar reviewer lain (jika ada) untuk kesimpulan yang lebih akurat."
+      },
+      {
+        "id": "e22-5",
+        "question": "Seorang mahasiswa menerima penolakan dan langsung mengganti topik penelitiannya sepenuhnya tanpa mengevaluasi dulu apakah masalahnya di topik, metode, atau kecocokan jurnal. Kekeliruan dalam pendekatannya adalah…",
+        "options": ["Mengganti topik memang selalu langkah pertama yang benar setelah ditolak", "Ia melompat ke solusi drastis tanpa dulu membaca dan mengevaluasi alasan penolakan secara spesifik, padahal masalahnya bisa jadi hanya soal kecocokan jurnal, bukan topik itu sendiri", "Topik penelitian harus selalu diganti setiap kali menerima penolakan pertama", "Evaluasi alasan penolakan tidak pernah berguna untuk keputusan berikutnya"],
+        "answer": 1,
+        "explanation": "Langkah pertama yang tepat adalah mengevaluasi akar masalah penolakan secara spesifik — bisa jadi soal fit jurnal, bukan topik penelitian yang perlu diganti total."
+      },
+      {
+        "id": "e22-6",
+        "question": "Seorang penulis merevisi naskahnya sesuai komentar reviewer dari penolakan sebelumnya, lalu menunggu 'sampai benar-benar sempurna' selama dua tahun tanpa pernah submit ulang ke jurnal manapun. Penilaian paling tepat atas pendekatan ini adalah…",
+        "options": ["Pendekatan yang bijak karena kesempurnaan harus diutamakan di atas segalanya", "Perfeksionisme berlebihan — menahan naskah tanpa batas waktu sama saja dengan tidak pernah menerbitkannya, padahal revisi yang wajar seharusnya cukup untuk submit ulang", "Dua tahun adalah waktu yang wajar untuk revisi apa pun", "Menunggu tanpa batas selalu meningkatkan peluang diterima di jurnal Q1"],
+        "answer": 1,
+        "explanation": "Menahan naskah tanpa batas waktu demi kesempurnaan adalah jebakan perfeksionisme yang secara efektif menghambat publikasi selamanya."
+      },
+      {
+        "id": "e22-7",
+        "question": "Seorang mahasiswa yang naskahnya ditolak jurnal SINTA 2 memutuskan submit ulang ke jurnal SINTA 6 tanpa mempertimbangkan apakah alasan penolakan sebenarnya soal kecocokan scope atau kelemahan substansial. Risiko dari keputusan asal pindah kuartil/SINTA ini adalah…",
+        "options": ["Tidak ada risiko karena SINTA 6 pasti menerima naskah apa pun", "Kalau alasan penolakan sebenarnya soal kecocokan scope, pindah ke SINTA 6 tanpa evaluasi tetap tidak menjamin diterima, dan kalau soal kelemahan substansial, masalahnya belum tentu terselesaikan hanya dengan turun level jurnal", "Turun ke SINTA 6 selalu menyelesaikan semua jenis penolakan", "SINTA 6 tidak melakukan proses review sama sekali"],
+        "answer": 1,
+        "explanation": "Keputusan pindah level jurnal tanpa mengevaluasi akar masalah penolakan tidak menjamin hasil berbeda — evaluasi alasan penolakan tetap harus dilakukan dulu."
+      },
+      {
+        "id": "e22-8",
+        "question": "Sebuah jurnal baru meminta penulis mengisi form yang menanyakan apakah naskah pernah direview di jurnal lain. Penulis, yang naskahnya memang pernah ditolak jurnal lain sebelumnya, memilih tidak mencentang kotak tersebut karena khawatir dianggap naskah bermasalah. Tindakan ini merupakan…",
+        "options": ["Strategi yang wajar dan dianjurkan untuk meningkatkan peluang diterima", "Pelanggaran etika publikasi karena menyembunyikan riwayat review yang secara eksplisit ditanyakan jurnal", "Bukan pelanggaran karena riwayat review adalah privasi penulis sepenuhnya", "Tidak relevan karena jurnal baru tidak pernah benar-benar mengecek riwayat submission"],
+        "answer": 1,
+        "explanation": "Menyembunyikan riwayat review sebelumnya saat secara eksplisit ditanyakan adalah pelanggaran etika publikasi, bukan strategi yang sah."
+      },
+      {
+        "id": "e22-9",
+        "question": "Seorang penulis menerima desk reject dari sebuah jurnal, lalu memeriksa kembali shortlist yang sudah ia siapkan di Level 18 dan menemukan bahwa jurnal cadangannya memang lebih relevan berdasarkan pola isu terbitan terbaru. Langkah selanjutnya yang paling tepat adalah…",
+        "options": ["Mengabaikan shortlist dan mencari jurnal baru dari nol tanpa evaluasi", "Menyesuaikan format naskah dengan Author Guidelines jurnal cadangan tersebut, lalu submit ulang setelah memastikan tidak ada isu simultaneous submission", "Menunggu satu tahun sebelum berani submit ke jurnal manapun lagi", "Mengirim ke jurnal cadangan tanpa menyesuaikan format sama sekali karena scope-nya sudah dianggap cocok"],
+        "answer": 1,
+        "explanation": "Setelah memverifikasi kecocokan jurnal cadangan, penulis tetap perlu menyesuaikan format naskah sesuai Author Guidelines jurnal baru sebelum submit ulang secara etis."
+      },
+      {
+        "id": "e22-10",
+        "question": "Seorang mahasiswa merasa sangat terpukul setelah menerima penolakan pertamanya dan mulai meragukan kemampuannya sebagai peneliti secara keseluruhan. Berdasarkan prinsip di level ini, respons yang paling sehat dan tepat adalah…",
+        "options": ["Menerima bahwa penolakan adalah pengalaman universal yang dialami hampir semua peneliti, memberi diri jeda wajar, lalu mengevaluasi komentar secara objektif sebelum melangkah ke submission berikutnya", "Menganggap penolakan pertama sebagai bukti definitif bahwa dirinya tidak cocok jadi peneliti", "Menutup diri dari mendiskusikan hasil ini dengan siapa pun termasuk pembimbing", "Segera berhenti meneliti topik apa pun yang berkaitan dengan naskah yang ditolak"],
+        "answer": 0,
+        "explanation": "Penolakan adalah pengalaman normal dan universal, bukan penilaian atas nilai diri sebagai peneliti; respons sehat adalah memberi jeda, mengevaluasi objektif, dan melanjutkan proses dengan perbaikan konkret."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "Writing Your Journal Article in Twelve Weeks", "author": "Wendy Laura Belcher", "publisher": "SAGE Publications", "note": "Rujukan menghadapi penolakan jurnal dan menyusun rencana submit ulang secara sistematis." },
+    { "title": "COPE Core Practices", "author": "Committee on Publication Ethics (COPE)", "publisher": "COPE", "url": "https://publicationethics.org/core-practices", "note": "Standar etika terkait pengungkapan riwayat review dan larangan simultaneous submission." },
+    { "title": "How to Write and Publish a Scientific Paper", "author": "Robert A. Day & Barbara Gastel", "publisher": "Cambridge University Press", "note": "Rujukan membaca surat penolakan dan memutuskan langkah submit ulang." },
+    { "title": "ICMJE Recommendations", "author": "International Committee of Medical Journal Editors (ICMJE)", "publisher": "ICMJE", "note": "Rujukan prinsip transparansi status naskah selama proses submission dan review." }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "id": 18,
+  "slug": "memilih-jurnal",
+  "title": "Memilih Jurnal Tujuan",
+  "subtitle": "Kenapa jurnal yang tepat harus dipilih sebelum naskah selesai, bukan setelahnya",
+  "goal": "Mampu memilih jurnal tujuan berdasarkan kecocokan scope, target kuartil/SINTA yang realistis, waktu tunggu, model biaya (APC/open access/subscription), serta mengenali dan menghindari jurnal predator.",
+  "estimatedMinutes": 36,
+  "sections": [
+    {
+      "id": "18-1",
+      "title": "Memilih Jurnal Bukan Langkah Terakhir",
+      "blocks": [
+        { "type": "heading", "text": "Kebiasaan yang Terbalik" },
+        { "type": "paragraph", "text": "Kebanyakan penulis pemula menulis naskah dulu sampai selesai, baru mulai mencari-cari 'jurnal mana ya yang cocok' di minggu terakhir. Urutan ini terbalik. Author Guidelines tiap jurnal menentukan struktur abstrak (Level 15), format judul (Level 17), gaya sitasi, panjang maksimal, bahkan apakah boleh memakai subjudul — kalau kamu menulis dulu tanpa tahu aturan jurnal tujuan, kemungkinan besar kamu harus merombak ulang naskah, bukan sekadar menyesuaikan sedikit." },
+        { "type": "paragraph", "text": "Idealnya, jurnal tujuan (atau minimal 2-3 kandidat) sudah kamu tentukan SEBELUM menulis draft final — supaya panjang, gaya, dan struktur naskah langsung mengikuti format yang benar sejak awal, bukan disesuaikan belakangan dengan menambal sana-sini." },
+        { "type": "callout", "title": "Analoginya", "text": "Memilih jurnal di akhir itu seperti menjahit baju dulu baru mengukur badan orangnya. Ukur dulu (baca Author Guidelines jurnal tujuan), baru potong kainnya (tulis naskah final)." }
+      ]
+    },
+    {
+      "id": "18-2",
+      "title": "Cocokkan Scope: Aims & Scope Saja Tidak Cukup",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa Halaman 'Aims & Scope' Bisa Menipu" },
+        { "type": "paragraph", "text": "Setiap jurnal punya halaman 'Aims & Scope' yang menjelaskan topik apa saja yang mereka terima. Masalahnya, halaman ini sering ditulis SANGAT luas dan umum — 'jurnal ini menerima penelitian pendidikan dalam segala bentuknya' bisa berarti apa saja, sehingga tidak banyak membantumu menilai apakah naskahmu benar-benar cocok." },
+        { "type": "paragraph", "text": "Tes yang jauh lebih akurat: buka 2-3 isu (issue) TERBARU jurnal itu, baca daftar isinya, dan perhatikan pola nyata — bukan yang mereka klaim di halaman Aims & Scope, tapi apa yang benar-benar mereka terbitkan belakangan ini." },
+        {
+          "type": "table",
+          "headers": ["Yang Perlu Dicek di Isu Terbaru", "Kenapa Penting"],
+          "rows": [
+            ["Topik & subtopik yang benar-benar terbit", "Aims & Scope bisa terlalu luas; isu terbaru menunjukkan preferensi editor yang sesungguhnya"],
+            ["Metode penelitian yang diterima (kuantitatif/kualitatif/mixed methods, lihat Level 13)", "Sebagian jurnal ternyata jarang menerbitkan studi kualitatif meski Aims & Scope tidak melarangnya secara eksplisit"],
+            ["Populasi/konteks yang sering muncul (mis. pendidikan dasar vs perguruan tinggi)", "Naskahmu perlu 'senasib' dengan artikel yang biasa mereka terbitkan, bukan sekadar sama-sama bertema pendidikan"],
+            ["Panjang artikel & jumlah rujukan tipikal", "Memberi gambaran realistis, di luar batas resmi yang tertulis di Author Guidelines"]
+          ]
+        },
+        { "type": "callout", "title": "Kalau Ragu, Cari Editor Fit", "text": "Sebagian jurnal mencantumkan area keahlian tiap anggota editorial board. Kalau tidak ada satupun editor yang keahliannya dekat dengan topikmu, itu sinyal jurnal tersebut mungkin bukan tempat terbaik — meski Aims & Scope-nya kelihatan cocok di atas kertas." }
+      ]
+    },
+    {
+      "id": "18-3",
+      "title": "Kuartil & SINTA: Target yang Realistis, Bukan Sekadar Prestisius",
+      "blocks": [
+        { "type": "heading", "text": "Menyambung Level 5" },
+        { "type": "paragraph", "text": "Level 5 sudah menjelaskan kuartil Scopus (Q1-Q4) dan peringkat SINTA (S1-S6). Sekarang saatnya memakai pengetahuan itu untuk membuat keputusan: target kuartil/SINTA MANA yang realistis untuk naskahmu, mengingat rekam jejak, topik, dan tenggat yang kamu miliki." },
+        { "type": "paragraph", "text": "Menembak Q1 langsung untuk publikasi pertamamu bukan hal yang mustahil, tapi risikonya tinggi: proses review di jurnal Q1 sering lebih ketat dan lebih lama, sementara peluang diterima jauh lebih kecil dibanding jurnal Q3/Q4 atau SINTA 3-4 yang levelnya lebih sesuai dengan pengalaman penulis pemula." },
+        {
+          "type": "table",
+          "headers": ["Situasi Penulis", "Target yang Umumnya Realistis"],
+          "rows": [
+            ["Publikasi pertama, tenggat skripsi/kelulusan ketat", "SINTA 3-4 atau Scopus Q3-Q4 — proses lebih cepat, standar tetap kredibel"],
+            ["Sudah punya 1-2 publikasi, topik cukup solid dan orisinal", "SINTA 1-2 atau Scopus Q2-Q3"],
+            ["Naskah kuat, kontribusi teori jelas, tidak terikat tenggat ketat", "Boleh mencoba Scopus Q1, dengan jurnal cadangan di kuartil lebih realistis untuk jaga-jaga (lihat Level 22 soal ditolak dan submit ulang)"]
+          ]
+        },
+        { "type": "callout", "title": "Bukan Berarti Asal Rendah", "text": "Sebaliknya, jangan juga under-target — mengirim naskah kuat ke jurnal SINTA 6 atau jurnal tak terindeks sama sekali karena 'yang penting cepat terbit' membuang potensi sitasi dan pengakuan yang sebenarnya bisa kamu dapat kalau menembak level yang sepadan dengan kualitas naskahmu." }
+      ]
+    },
+    {
+      "id": "18-4",
+      "title": "Waktu Tunggu (Turnaround Time)",
+      "blocks": [
+        { "type": "heading", "text": "Tiga Angka yang Perlu Kamu Cari" },
+        { "type": "paragraph", "text": "Kalau kamu punya tenggat kelulusan atau syarat publikasi dari kampus, waktu tunggu jurnal menjadi pertimbangan penting — bukan cuma soal reputasi. Sebagian jurnal mencantumkan statistik ini di halaman 'Journal Information' atau 'Editorial Statistics'." },
+        {
+          "type": "table",
+          "headers": ["Metrik", "Artinya", "Kenapa Penting"],
+          "rows": [
+            ["Time to first decision", "Lama waktu dari submit sampai kamu menerima keputusan pertama (lihat Level 20 soal jenis keputusan editor)", "Sebagian jurnal butuh 1-2 bulan, sebagian lain bisa 6 bulan lebih"],
+            ["Review time", "Lama waktu proses peer review berlangsung, bagian dari time to first decision", "Jurnal dengan reviewer pool kecil sering lebih lambat"],
+            ["Acceptance to publication time", "Lama waktu dari naskah diterima (accepted) sampai benar-benar terbit dengan DOI", "Beberapa jurnal punya antrean terbit yang panjang meski sudah accepted"]
+          ]
+        },
+        { "type": "callout", "title": "Waspada Angka yang Terlalu Bagus", "text": "Kalau sebuah jurnal mengklaim 'keputusan dalam 3 hari, terbit dalam seminggu', itu justru harus membuatmu curiga, bukan senang — peer review yang jujur (lihat Level 20) butuh waktu untuk reviewer membaca dan menilai naskah secara serius. Klaim kecepatan ekstrem adalah salah satu ciri jurnal predator (lihat 18-6)." }
+      ]
+    },
+    {
+      "id": "18-5",
+      "title": "APC, Open Access, dan Subscription",
+      "blocks": [
+        { "type": "heading", "text": "Siapa yang Membayar Supaya Artikel Bisa Dibaca" },
+        { "type": "paragraph", "text": "APC (Article Processing Charge) adalah biaya yang dibayarkan penulis (atau institusinya) supaya artikel bisa terbit — biasanya berlaku untuk model open access, di mana pembaca bisa mengakses artikel gratis karena biayanya sudah ditanggung di sisi penulis, bukan pembaca." },
+        {
+          "type": "table",
+          "headers": ["Model", "Siapa yang Membayar", "Catatan"],
+          "rows": [
+            ["Subscription (berlangganan)", "Pembaca/institusi lewat biaya langganan jurnal", "Penulis biasanya tidak membayar APC; pembaca di luar institusi berlangganan harus membayar untuk akses"],
+            ["Full open access (Gold OA)", "Penulis membayar APC", "Artikel langsung terbuka gratis untuk siapa pun sejak terbit"],
+            ["Hybrid", "Bisa memilih: bayar APC untuk buka akses, atau tidak bayar tapi artikel tetap di balik paywall", "Perlu baca kebijakan jurnal dengan cermat karena dua pilihan berjalan di jurnal yang sama"],
+            ["Diamond/Platinum OA", "Tidak ada yang membayar — biaya ditanggung institusi/lembaga penyelenggara", "Model paling ideal secara akses, tapi jumlahnya masih terbatas dibanding model lain"]
+          ]
+        },
+        { "type": "callout", "title": "Cek APC Sebelum Submit, Bukan Setelah Accepted", "text": "APC bisa berkisar dari nol sampai jutaan rupiah bahkan puluhan juta untuk jurnal internasional bereputasi tinggi. Banyak jurnal memberi keringanan atau pembebasan (waiver) untuk penulis dari negara berpenghasilan rendah-menengah — cek kebijakan ini di halaman APC jurnal, jangan berasumsi kamu otomatis harus membayar penuh atau otomatis dibebaskan." }
+      ]
+    },
+    {
+      "id": "18-6",
+      "title": "Memperdalam Kewaspadaan Jurnal Predator",
+      "blocks": [
+        { "type": "heading", "text": "Lebih dari Sekadar 'Terbit Cepat, Bayar Mahal'" },
+        { "type": "paragraph", "text": "Level 5 sudah memperkenalkan ciri dasar jurnal predator: janji terbit sangat cepat, biaya tidak transparan, proses review tidak jelas. Saat kamu benar-benar mulai membandingkan kandidat jurnal, ada beberapa ciri lanjutan yang lebih halus dan sering mengecoh penulis yang sudah cukup waspada sekalipun." },
+        { "type": "list", "ordered": false, "items": [
+          "Hijacked journal — situs palsu yang meniru nama dan tampilan jurnal asli bereputasi baik (kadang dengan ISSN yang dicuri), lengkap dengan alamat web yang mirip tapi bukan alamat resmi jurnal itu.",
+          "Klaim 'impact factor' dari lembaga tidak dikenal (bukan Clarivate/Web of Science) yang dibuat-buat sendiri, seolah setara Impact Factor resmi.",
+          "Dewan editor (editorial board) berisi nama-nama pakar ternama yang, saat dihubungi langsung, mengaku tidak pernah menyetujui atau bahkan tidak tahu namanya dicantumkan.",
+          "Badge/logo indeksasi (Scopus, DOAJ, dll) ditampilkan di situs jurnal tapi tidak bisa diverifikasi saat dicek langsung di situs resmi indeks tersebut."
+        ]},
+        { "type": "callout", "title": "Verifikasi, Jangan Percaya Tampilan", "text": "Prinsip Think. Check. Submit. dari Level 5 tetap berlaku di sini: cek klaim indeksasi langsung di situs resmi Scopus/DOAJ/SINTA, jangan percaya badge yang ditempel di halaman jurnal itu sendiri — badge bisa dipasang siapa saja tanpa verifikasi." }
+      ]
+    },
+    {
+      "id": "18-7",
+      "title": "Worked Example: Memilih Jurnal Asal-Asalan vs Memilih dengan Cermat",
+      "blocks": [
+        { "type": "heading", "text": "Dua Pendekatan, Dua Hasil Berbeda" },
+        { "type": "quote", "text": "Naskah tentang efektivitas metode diskusi kelompok di SMA. Penulis googling \"jurnal pendidikan cepat terbit\", memilih jurnal dari hasil pertama yang menjanjikan 'review 5 hari, terbit 2 minggu', membayar APC Rp 2.500.000 tanpa cek indeksasi lebih lanjut.", "source": "Pendekatan LEMAH — tidak cek scope, tidak cek indeksasi resmi, tergoda kecepatan" },
+        { "type": "quote", "text": "Naskah yang sama. Penulis membuat daftar 5 kandidat jurnal SINTA 3-4 yang relevan, membaca 2 isu terbaru tiap kandidat untuk cek kecocokan topik dan metode, membandingkan waktu tunggu dan APC di halaman resmi tiap jurnal, lalu memverifikasi status SINTA-nya langsung di sinta.kemdikbud.go.id sebelum menentukan jurnal utama dan cadangan.", "source": "Pendekatan KUAT — scope, indeksasi, waktu tunggu, dan biaya semua dicek dari sumber resmi sebelum memutuskan" },
+        { "type": "callout", "title": "Bedanya Apa?", "text": "Pendekatan lemah mengoptimalkan satu variabel saja (kecepatan) dan mengabaikan risiko besar (kemungkinan predator, ketidakcocokan scope). Pendekatan kuat menyeimbangkan semua faktor — scope, reputasi, waktu, biaya — dan memverifikasi klaim lewat sumber resmi, bukan lewat klaim jurnal itu sendiri." }
+      ]
+    },
+    {
+      "id": "18-8",
+      "title": "Membuat Shortlist: Jurnal Utama dan Cadangan",
+      "blocks": [
+        { "type": "heading", "text": "Jangan Taruh Semua Harapan di Satu Jurnal" },
+        { "type": "paragraph", "text": "Karena penolakan itu normal dan universal (lihat Level 22), praktik yang bijak adalah menyiapkan daftar pendek (shortlist) 3-5 kandidat jurnal sejak awal — satu jurnal utama yang paling cocok, dan beberapa cadangan dengan level kuartil/SINTA yang sedikit lebih longgar, untuk berjaga-jaga kalau naskah ditolak di jurnal utama." },
+        { "type": "list", "ordered": true, "items": [
+          "Kumpulkan 5-8 kandidat jurnal yang scope-nya relevan dengan topikmu.",
+          "Cek isu terbaru tiap kandidat untuk menilai kecocokan topik dan metode secara nyata (bukan hanya Aims & Scope).",
+          "Verifikasi status indeksasi (Scopus/SINTA/DOAJ) langsung di situs resmi masing-masing.",
+          "Bandingkan waktu tunggu, APC, dan model akses (open access/subscription) antar kandidat.",
+          "Urutkan jadi jurnal utama (target realistis terbaik) dan 2-3 cadangan dengan level sedikit lebih longgar."
+        ]},
+        { "type": "callout", "title": "Simpan Shortlist-mu", "text": "Catat shortlist ini di satu dokumen bersama tautan Author Guidelines masing-masing — dokumen ini akan sangat berguna kalau kamu perlu submit ulang ke jurnal cadangan setelah ditolak di jurnal utama (Level 22)." }
+      ]
+    },
+    {
+      "id": "18-9",
+      "title": "Kesalahan Umum Memilih Jurnal Tujuan",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis naskah final dulu, baru mencari jurnal tujuan belakangan, sehingga naskah harus dirombak ulang mengikuti format jurnal.",
+          "Menilai kecocokan scope hanya dari halaman Aims & Scope tanpa membaca isu terbitan terbaru.",
+          "Menembak kuartil/SINTA yang jauh melampaui rekam jejak dan tenggat yang dimiliki, tanpa jurnal cadangan yang lebih realistis.",
+          "Tergoda klaim waktu tunggu yang tidak masuk akal (review dalam hitungan hari) tanpa curiga itu ciri jurnal predator.",
+          "Tidak mengecek kebijakan APC dan kemungkinan waiver sebelum submit, sehingga terkejut dengan tagihan setelah naskah diterima.",
+          "Percaya badge indeksasi yang ditampilkan di situs jurnal tanpa memverifikasinya langsung di situs resmi Scopus/DOAJ/SINTA."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Jurnal tujuan yang tepat adalah titik temu antara empat hal: scope yang benar-benar cocok, level reputasi yang realistis, waktu tunggu yang sesuai tenggatmu, dan biaya yang transparan — bukan sekadar jurnal pertama yang muncul di hasil pencarian." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-18",
+    "title": "Kuis Level 18",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q18-1",
+        "question": "Alasan utama jurnal tujuan sebaiknya ditentukan SEBELUM naskah selesai ditulis adalah…",
+        "options": ["Karena jurnal selalu meminta uang muka di awal", "Karena Author Guidelines menentukan format, panjang, dan struktur naskah yang seharusnya diikuti sejak awal penulisan", "Karena jurnal tidak menerima naskah yang sudah selesai", "Karena editor hanya menerima naskah yang dikirim dalam bentuk proposal"],
+        "answer": 1,
+        "explanation": "Menentukan jurnal di awal membuat naskah bisa langsung ditulis mengikuti format yang benar, alih-alih dirombak ulang setelah selesai."
+      },
+      {
+        "id": "q18-2",
+        "question": "Cara yang lebih akurat menilai kecocokan scope dibanding hanya membaca halaman Aims & Scope adalah…",
+        "options": ["Menghitung jumlah kata di Aims & Scope", "Membaca 2-3 isu terbaru jurnal untuk melihat pola topik dan metode yang benar-benar diterbitkan", "Menanyakan langsung ke teman sekelas", "Melihat warna desain situs jurnal"],
+        "answer": 1,
+        "explanation": "Isu terbaru menunjukkan preferensi nyata editor, sementara Aims & Scope sering ditulis terlalu luas untuk benar-benar menilai kecocokan."
+      },
+      {
+        "id": "q18-3",
+        "question": "Untuk publikasi pertama dengan tenggat kelulusan yang ketat, target kuartil/SINTA yang umumnya lebih realistis adalah…",
+        "options": ["Scopus Q1 saja, tanpa cadangan", "SINTA 3-4 atau Scopus Q3-Q4", "SINTA 6 saja karena paling cepat tanpa syarat", "Jurnal tak terindeks apa pun"],
+        "answer": 1,
+        "explanation": "Level ini biasanya menyeimbangkan kredibilitas dengan proses yang tidak terlalu lama dan ketat dibanding Q1, cocok untuk penulis dengan rekam jejak awal."
+      },
+      {
+        "id": "q18-4",
+        "question": "Metrik 'time to first decision' mengukur…",
+        "options": ["Lama waktu dari accepted sampai terbit", "Lama waktu dari submit sampai keputusan pertama diterima penulis", "Jumlah reviewer yang terlibat", "Jumlah revisi yang diminta"],
+        "answer": 1,
+        "explanation": "Time to first decision adalah rentang waktu dari pengiriman naskah sampai penulis menerima keputusan awal dari editor."
+      },
+      {
+        "id": "q18-5",
+        "question": "APC (Article Processing Charge) pada model open access biasanya dibayarkan oleh…",
+        "options": ["Pembaca setiap kali mengunduh artikel", "Penulis atau institusinya, supaya artikel bisa diakses gratis oleh pembaca", "Reviewer sebagai kompensasi", "Perpustakaan nasional"],
+        "answer": 1,
+        "explanation": "Pada model open access, biaya penerbitan dialihkan ke penulis/institusi supaya pembaca bisa mengakses artikel tanpa membayar."
+      },
+      {
+        "id": "q18-6",
+        "question": "Istilah 'hijacked journal' merujuk pada…",
+        "options": ["Jurnal resmi yang mengalami keterlambatan terbit", "Situs palsu yang meniru nama dan tampilan jurnal asli bereputasi baik untuk menipu penulis", "Jurnal yang baru pertama kali terbit", "Jurnal yang mengubah nama karena merger"],
+        "answer": 1,
+        "explanation": "Hijacked journal adalah situs tiruan yang menyamar sebagai jurnal asli, sering memakai ISSN curian, untuk menjebak penulis yang tidak waspada."
+      },
+      {
+        "id": "q18-7",
+        "question": "Kenapa klaim waktu tunggu yang sangat singkat (misalnya review dalam 3 hari) sebaiknya membuat penulis curiga?",
+        "options": ["Karena review cepat selalu ilegal", "Karena peer review yang jujur membutuhkan waktu bagi reviewer membaca dan menilai naskah secara serius, sehingga klaim ekstrem adalah ciri predator", "Karena jurnal cepat pasti tidak terindeks", "Karena waktu tunggu tidak memengaruhi kualitas jurnal sama sekali"],
+        "answer": 1,
+        "explanation": "Proses peer review yang serius membutuhkan waktu; klaim kecepatan yang tidak masuk akal adalah salah satu sinyal jurnal predator."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-18",
+    "title": "Ujian Level 18",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e18-1",
+        "question": "Seorang mahasiswa sudah menulis naskah lengkap sebelum mulai mencari jurnal, lalu menemukan jurnal incarannya membatasi artikel maksimal 4000 kata sementara naskahnya 7000 kata dengan struktur abstrak yang berbeda dari yang diminta. Akar masalah situasi ini adalah…",
+        "options": ["Jurnal tersebut terlalu ketat aturannya", "Ia menentukan jurnal tujuan setelah naskah selesai, bukan sebelum menulis, sehingga naskah tidak dirancang mengikuti format jurnal sejak awal", "Naskah 7000 kata pasti berkualitas rendah", "Semua jurnal seharusnya punya batas kata yang sama"],
+        "answer": 1,
+        "explanation": "Menentukan jurnal tujuan di awal mencegah situasi harus merombak ulang naskah demi menyesuaikan format setelah selesai ditulis."
+      },
+      {
+        "id": "e18-2",
+        "question": "Sebuah jurnal mencantumkan Aims & Scope yang sangat luas ('menerima segala penelitian pendidikan'), tapi setelah membaca 2 isu terakhirnya, seorang penulis menyadari jurnal itu hanya pernah menerbitkan studi kuantitatif eksperimen, padahal naskahnya kualitatif. Langkah paling tepat adalah…",
+        "options": ["Tetap submit karena Aims & Scope tidak melarang studi kualitatif secara eksplisit", "Mempertimbangkan jurnal lain yang polanya lebih cocok dengan metode kualitatif, karena isu terbaru menunjukkan preferensi nyata editor melampaui apa yang tertulis di Aims & Scope", "Mengubah metode penelitiannya menjadi kuantitatif agar cocok", "Mengirim ke jurnal itu dua kali dengan judul berbeda"],
+        "answer": 1,
+        "explanation": "Pola nyata di isu terbitan lebih dapat diandalkan daripada Aims & Scope yang ditulis luas; ketidakcocokan pola metode adalah sinyal kuat untuk mencari kandidat lain."
+      },
+      {
+        "id": "e18-3",
+        "question": "Seorang mahasiswa dengan tenggat kelulusan dua bulan lagi bersikeras hanya mau submit ke jurnal Scopus Q1 tanpa jurnal cadangan, meski ini publikasi pertamanya. Risiko terbesar dari keputusan ini adalah…",
+        "options": ["Tidak ada risiko karena Q1 selalu menerima naskah bagus", "Proses review Q1 yang cenderung lebih lama dan ketat berisiko tidak selesai sebelum tenggat, tanpa ada jurnal cadangan yang lebih realistis sebagai jaring pengaman", "Jurnal Q1 tidak pernah menolak naskah mahasiswa", "APC jurnal Q1 selalu lebih murah dari Q3"],
+        "answer": 1,
+        "explanation": "Tanpa cadangan yang levelnya lebih realistis, penulis dengan tenggat ketat mengambil risiko besar jika proses di jurnal Q1 molor atau berujung penolakan."
+      },
+      {
+        "id": "e18-4",
+        "question": "Sebuah jurnal di situsnya mengklaim 'terindeks Scopus Q2' dan menampilkan badge Scopus, tapi saat dicek langsung di situs Scimago/Scopus resmi, nama jurnal tersebut tidak ditemukan sama sekali. Kesimpulan paling tepat adalah…",
+        "options": ["Scopus mungkin belum memperbarui data terbaru mereka", "Ini kemungkinan besar klaim palsu — badge di situs jurnal tidak bisa dijadikan bukti, verifikasi harus dilakukan di situs resmi indeks tersebut", "Penulis harus tetap percaya karena jurnal tidak mungkin berbohong", "Ini normal terjadi pada semua jurnal SINTA"],
+        "answer": 1,
+        "explanation": "Badge indeksasi yang ditampilkan sendiri oleh jurnal tidak terverifikasi otomatis; ketidakcocokan dengan data resmi adalah red flag kuat jurnal predator/hijacked."
+      },
+      {
+        "id": "e18-5",
+        "question": "Seorang penulis menerima email yang menjanjikan APC 'khusus promo' yang jauh lebih murah dari harga normal jurnal tersebut, dengan syarat membayar dalam 24 jam sebelum naskah bahkan direview. Sikap yang paling tepat adalah…",
+        "options": ["Segera membayar agar tidak kehilangan promo", "Curiga dan memverifikasi ulang identitas serta indeksasi jurnal tersebut sebelum membayar apa pun, karena tekanan waktu dan diskon mendadak adalah pola umum penipuan", "Membayar setengah dulu sebagai tanda jadi", "Meneruskan email itu ke teman lain untuk ikut submit"],
+        "answer": 1,
+        "explanation": "Tekanan waktu dan diskon tak wajar sebelum proses review apa pun adalah pola khas penipuan/jurnal predator, bukan praktik jurnal kredibel."
+      },
+      {
+        "id": "e18-6",
+        "question": "Seorang mahasiswa memilih jurnal open access dengan APC yang cukup tinggi tanpa mengecek kebijakan waiver, padahal institusinya berpotensi memenuhi syarat pembebasan biaya untuk penulis dari negara berpenghasilan menengah. Kesalahan dalam prosesnya adalah…",
+        "options": ["Tidak ada kesalahan, karena APC memang wajib dibayar penuh selalu", "Ia tidak mengecek kebijakan APC dan kemungkinan waiver sebelum submit, padahal ini seharusnya dicek di awal, bukan setelah naskah diterima", "Jurnal open access tidak pernah memberi waiver", "Waiver hanya berlaku untuk jurnal subscription, bukan open access"],
+        "answer": 1,
+        "explanation": "Kebijakan APC dan kemungkinan waiver seharusnya dicek sebelum submit agar tidak terkejut dengan tagihan atau kehilangan kesempatan pembebasan biaya."
+      },
+      {
+        "id": "e18-7",
+        "question": "Sebuah jurnal mencantumkan nama-nama profesor ternama internasional sebagai anggota editorial board, tapi saat seorang mahasiswa mencoba mengecek lewat halaman profil resmi salah satu profesor tersebut, tidak ada jejak afiliasi dengan jurnal itu di mana pun. Interpretasi paling tepat adalah…",
+        "options": ["Profesor tersebut mungkin lupa memperbarui profilnya", "Ini pola umum jurnal predator/hijacked yang mencantumkan nama pakar tanpa persetujuan mereka untuk terlihat kredibel", "Jurnal tersebut pasti kredibel karena mencantumkan nama besar", "Editorial board tidak perlu diverifikasi sama sekali"],
+        "answer": 1,
+        "explanation": "Mencatut nama pakar ternama tanpa persetujuan adalah ciri lanjutan jurnal predator yang lebih sulit dideteksi dibanding ciri-ciri dasar."
+      },
+      {
+        "id": "e18-8",
+        "question": "Dua kandidat jurnal punya scope yang sama-sama cocok. Jurnal A adalah subscription murni tanpa opsi open access, jurnal B adalah hybrid yang menawarkan opsi membayar APC untuk akses terbuka atau tidak membayar sama sekali. Seorang penulis yang ingin artikelnya bisa dibaca gratis oleh siapa pun sejak terbit sebaiknya…",
+        "options": ["Memilih jurnal A karena subscription selalu lebih murah", "Memilih jurnal B dan secara sadar memilih opsi membayar APC untuk akses terbuka, karena hybrid memberi pilihan yang tidak tersedia di model subscription murni", "Kedua jurnal sama saja soal akses pembaca", "Menghindari kedua jurnal karena hybrid dianggap otomatis predator"],
+        "answer": 1,
+        "explanation": "Model hybrid memberi opsi membayar APC untuk membuka akses; kalau tujuannya akses terbuka gratis bagi pembaca, penulis perlu secara sadar memilih opsi itu di jurnal B."
+      },
+      {
+        "id": "e18-9",
+        "question": "Seorang mahasiswa membuat shortlist 5 jurnal, tapi urutan prioritasnya semata berdasarkan APC termurah tanpa mempertimbangkan kecocokan scope atau waktu tunggu. Kelemahan pendekatan ini adalah…",
+        "options": ["APC memang satu-satunya faktor yang penting", "Mengabaikan scope dan waktu tunggu berisiko naskah ditolak karena tidak relevan atau molor melewati tenggat, meski biayanya murah", "Jurnal termurah selalu memiliki scope yang paling luas", "Shortlist tidak perlu mempertimbangkan lebih dari satu faktor"],
+        "answer": 1,
+        "explanation": "Shortlist yang baik menyeimbangkan scope, reputasi, waktu tunggu, dan biaya sekaligus — mengoptimalkan satu faktor saja mengabaikan risiko penting lainnya."
+      },
+      {
+        "id": "e18-10",
+        "question": "Setelah membaca isu terbaru, mengecek indeksasi resmi, membandingkan waktu tunggu, dan memverifikasi kebijakan APC dari 5 kandidat jurnal, seorang mahasiswa masih ragu jurnal mana yang harus dijadikan target utama. Langkah paling sesuai dengan prinsip di level ini adalah…",
+        "options": ["Memilih jurnal secara acak karena semua sudah terverifikasi kredibel", "Mengurutkan kandidat menjadi satu jurnal utama yang paling sesuai keseluruhan faktor, dengan 2-3 jurnal cadangan untuk berjaga-jaga bila ditolak", "Mengirim naskah ke seluruh 5 jurnal sekaligus secara bersamaan", "Menunggu sampai benar-benar yakin 100% sebelum submit ke mana pun"],
+        "answer": 1,
+        "explanation": "Praktik yang tepat adalah menetapkan satu jurnal utama dan menyiapkan cadangan — bukan mengirim ke banyak jurnal sekaligus (yang melanggar etika submit tunggal) atau menunda tanpa batas."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "How to Write and Publish a Scientific Paper", "author": "Robert A. Day & Barbara Gastel", "publisher": "Cambridge University Press", "note": "Rujukan memilih jurnal tujuan berdasarkan scope dan audiens yang tepat." },
+    { "title": "Think. Check. Submit.", "author": "Think. Check. Submit.", "publisher": "thinkchecksubmit.org", "url": "https://thinkchecksubmit.org", "note": "Daftar periksa memverifikasi kredibilitas jurnal sebelum submit, diperdalam dari Level 5." },
+    { "title": "Predatory journals: no definition, no defence", "author": "Agnes Grudniewicz et al.", "year": 2019, "publisher": "Nature, 576, 210-212", "url": "https://www.nature.com/articles/d41586-019-03759-y", "note": "Ciri-ciri lanjutan jurnal predator, termasuk hijacked journal dan editorial board palsu." },
+    { "title": "Journal Author Hub: choosing a journal", "author": "Elsevier", "publisher": "Elsevier Author Hub", "note": "Panduan mempertimbangkan scope, APC, dan open access saat memilih jurnal." },
+    { "title": "Directory of Open Access Journals (DOAJ)", "author": "DOAJ", "publisher": "DOAJ", "url": "https://doaj.org", "note": "Rujukan verifikasi status open access dan indeksasi jurnal." },
+    { "title": "COPE Core Practices", "author": "Committee on Publication Ethics (COPE)", "publisher": "COPE", "url": "https://publicationethics.org/core-practices", "note": "Standar praktik penerbitan etis yang membedakan jurnal kredibel dari predator." }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": 19,
+  "slug": "cover-letter",
+  "title": "Cover Letter & Submission",
+  "subtitle": "Surat pengantar yang meyakinkan editor untuk mengirim naskahmu ke reviewer",
+  "goal": "Mampu menulis cover letter yang tepat sasaran, memahami apa yang sebenarnya dicari editor sebelum mengirim naskah ke reviewer, memilih reviewer yang disarankan (suggested reviewers) secara etis, dan menjalani alur submission di OJS tanpa panik.",
+  "estimatedMinutes": 34,
+  "sections": [
+    {
+      "id": "19-1",
+      "title": "Cover Letter Bukan Basa-Basi",
+      "blocks": [
+        { "type": "heading", "text": "Surat Pertama yang Dibaca Editor, Bukan Reviewer" },
+        { "type": "paragraph", "text": "Cover letter (surat pengantar) adalah dokumen pendek yang menyertai naskahmu saat submit, ditujukan langsung ke editor — bukan ke reviewer, dan bukan pengulangan abstrak (Level 15). Banyak penulis pemula menganggap ini formalitas basa-basi, padahal cover letter adalah kesempatan pertamamu meyakinkan editor bahwa naskah ini pantas dikirim ke tahap peer review (Level 20), bukan langsung di-desk reject." },
+        { "type": "paragraph", "text": "Editor jurnal menerima puluhan hingga ratusan naskah setiap bulan. Sebelum membaca naskah lengkap, editor sering membaca cover letter dulu untuk menilai cepat: apakah ini cocok scope-nya, apakah orisinal, apakah pantas diteruskan ke reviewer yang waktunya terbatas dan berharga." },
+        { "type": "callout", "title": "Bukan Tempat Menjilat", "text": "Cover letter yang baik singkat, jujur, dan berbasis fakta tentang naskahmu — bukan pujian berlebihan terhadap jurnal ('jurnal Bapak/Ibu adalah yang terbaik di dunia') yang justru terkesan dibuat-buat dan tidak menambah nilai apa pun di mata editor." }
+      ]
+    },
+    {
+      "id": "19-2",
+      "title": "Anatomi Cover Letter yang Efektif",
+      "blocks": [
+        { "type": "heading", "text": "Elemen yang Perlu Ada" },
+        { "type": "list", "ordered": true, "items": [
+          "Sapaan ke editor spesifik (nama editor-in-chief atau 'Dear Editor' bila nama tidak diketahui) — bukan 'To Whom It May Concern' yang terasa generik.",
+          "Judul naskah dan jenis artikel (original research, review article, case study, dll — lihat Level 12 untuk systematic review).",
+          "Satu-dua kalimat kontribusi utama naskah — BUKAN menyalin abstrak kata demi kata, tapi versi paling ringkas dari 'kenapa ini penting'.",
+          "Pernyataan kesesuaian scope — kenapa naskah ini cocok untuk jurnal INI secara spesifik (bukti kamu benar-benar membaca Level 18 dengan serius, bukan mengirim massal).",
+          "Pernyataan orisinalitas dan status: naskah belum pernah diterbitkan, tidak sedang dikirim ke jurnal lain secara bersamaan (simultaneous submission, lihat 19-4), dan bebas konflik kepentingan.",
+          "Nama-nama reviewer yang disarankan (opsional, tergantung jurnal — lihat 19-3).",
+          "Info kontak penulis koresponden yang jelas."
+        ]},
+        {
+          "type": "table",
+          "headers": ["Elemen", "Contoh Kalimat Singkat"],
+          "rows": [
+            ["Kesesuaian scope", "\"Naskah ini kami ajukan karena fokus jurnal Bapak/Ibu pada pendidikan digital sejalan dengan topik penelitian kami tentang notifikasi aplikasi belajar.\""],
+            ["Kontribusi utama", "\"Penelitian ini menemukan bahwa frekuensi notifikasi tinggi berasosiasi dengan penurunan durasi fokus belajar siswa SMA, temuan yang belum banyak dibahas dalam konteks sekolah menengah di Indonesia.\""],
+            ["Pernyataan orisinalitas", "\"Naskah ini orisinal, belum pernah diterbitkan, dan tidak sedang dalam proses review di jurnal lain.\""]
+          ]
+        },
+        { "type": "callout", "title": "Panjang yang Wajar", "text": "Cover letter yang baik biasanya muat dalam satu halaman — cukup 3-5 paragraf pendek. Editor tidak akan membaca surat lima halaman sebelum membaca naskahnya sendiri." }
+      ]
+    },
+    {
+      "id": "19-3",
+      "title": "Suggested Reviewers: Menyarankan, Bukan Menitipkan",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa Jurnal Meminta Ini" },
+        { "type": "paragraph", "text": "Banyak jurnal meminta penulis menyarankan 2-4 nama reviewer potensial (suggested reviewers) untuk mempercepat proses — editor tidak perlu mencari sendiri dari nol siapa yang punya keahlian relevan. Ini bagian normal dari alur submission, BUKAN celah untuk 'menitipkan' review ke teman atau kolega yang akan otomatis memberi penilaian baik." },
+        { "type": "list", "ordered": false, "items": [
+          "Sarankan peneliti yang benar-benar ahli di topik terkait, dikenal lewat publikasi mereka — bukan sekadar kenalan atau dosen pembimbingmu sendiri.",
+          "Hindari conflict of interest: jangan menyarankan rekan satu institusi, pembimbing, atau co-author dari publikasi sebelumnya — banyak jurnal secara eksplisit melarang ini.",
+          "Sertakan afiliasi dan email institusi resmi reviewer yang disarankan, bukan alamat email pribadi yang mencurigakan.",
+          "Kamu juga boleh mengajukan daftar 'non-preferred reviewers' (reviewer yang ingin dihindari) kalau ada alasan objektif, misalnya konflik akademik yang diketahui."
+        ]},
+        { "type": "callout", "title": "Kasus yang Pernah Terjadi", "text": "Beberapa kasus penipuan peer review (peer review fraud) yang pernah ditarik kembali (retraction) oleh penerbit besar melibatkan penulis yang menyarankan reviewer palsu — nama asli tapi alamat email yang sebenarnya mengarah ke penulis sendiri atau rekannya. COPE (Committee on Publication Ethics) menganggap ini pelanggaran etika publikasi yang serius." }
+      ]
+    },
+    {
+      "id": "19-4",
+      "title": "Simultaneous Submission: Kenapa Dilarang",
+      "blocks": [
+        { "type": "heading", "text": "Satu Naskah, Satu Jurnal, dalam Satu Waktu" },
+        { "type": "paragraph", "text": "Simultaneous submission — mengirim naskah yang sama ke lebih dari satu jurnal secara bersamaan — dilarang di hampir semua jurnal akademik. Alasannya: peer review menghabiskan waktu dan tenaga reviewer yang terbatas dan tidak dibayar; kalau dua jurnal memproses naskah yang sama lalu keduanya menerima, akan terjadi duplikasi publikasi yang melanggar etika (lihat Level 49 soal publikasi ganda)." },
+        { "type": "paragraph", "text": "Ini berbeda dari shortlist jurnal cadangan yang dibahas di Level 18 — shortlist itu untuk submit SECARA BERURUTAN (satu per satu, submit ulang setelah ditolak), bukan mengirim ke semua kandidat sekaligus di waktu yang sama." },
+        { "type": "callout", "title": "Tunggu Keputusan Dulu", "text": "Kamu boleh dan sebaiknya menyiapkan jurnal cadangan sejak awal (Level 18), tapi baru kirim ke jurnal berikutnya SETELAH menerima keputusan resmi (ditolak, atau menarik naskah secara resmi) dari jurnal sebelumnya — bukan sebelum atau bersamaan." }
+      ]
+    },
+    {
+      "id": "19-5",
+      "title": "Alur Submission di OJS",
+      "blocks": [
+        { "type": "heading", "text": "Open Journal Systems: Platform yang Paling Umum Dipakai" },
+        { "type": "paragraph", "text": "Level 5 sudah menyebut OJS (Open Journal Systems) sebagai sistem daring tempat naskah dikirim. Kebanyakan jurnal Indonesia (dan banyak jurnal internasional skala kecil-menengah) memakai OJS. Berikut alur umum yang perlu kamu lalui." },
+        {
+          "type": "table",
+          "headers": ["Tahap", "Yang Perlu Disiapkan"],
+          "rows": [
+            ["Registrasi akun", "Data penulis lengkap, termasuk ORCID iD (identitas peneliti unik) bila jurnal memintanya"],
+            ["Unggah naskah utama", "File tanpa identitas penulis bila jurnal memakai double-blind review (lihat Level 20)"],
+            ["Unggah dokumen pendukung", "Cover letter, halaman judul terpisah (title page) berisi identitas penulis, tabel/gambar terpisah bila diminta"],
+            ["Metadata", "Judul, abstrak, keywords (Level 17), daftar penulis dan urutannya (lihat Level 47 soal authorship)"],
+            ["Pernyataan & checklist submission", "Konfirmasi orisinalitas, kepatuhan etika penelitian (Level 14), kadang unggah bukti lolos komisi etik"],
+            ["Konfirmasi & menunggu", "Status naskah bisa dipantau di dashboard OJS — biasanya berubah dari 'Submitted' ke 'In Review' lalu ke status keputusan"]
+          ]
+        },
+        { "type": "callout", "title": "Baca Ulang Sebelum Klik Submit", "text": "Kesalahan teknis paling umum di OJS: lupa menghapus identitas penulis dari file naskah utama pada jurnal double-blind, salah unggah versi draft yang belum final, atau metadata (judul/abstrak) yang tidak sinkron dengan isi file PDF yang diunggah." }
+      ]
+    },
+    {
+      "id": "19-6",
+      "title": "Apa yang Sebenarnya Dicari Editor",
+      "blocks": [
+        { "type": "heading", "text": "Sebelum Naskah Sampai ke Reviewer" },
+        { "type": "paragraph", "text": "Editor melakukan penyaringan awal (initial screening) sebelum memutuskan mengirim naskah ke reviewer atau langsung menolaknya (desk reject, akan dibahas lebih lanjut di Level 20 dan 22). Berikut yang biasanya jadi pertimbangan utama di tahap ini." },
+        { "type": "list", "ordered": false, "items": [
+          "Kesesuaian scope — apakah topik benar-benar relevan dengan fokus jurnal (Level 18), bukan sekadar 'agak nyambung'.",
+          "Kepatuhan format dasar — apakah naskah mengikuti Author Guidelines (panjang, struktur, gaya sitasi) tanpa perlu editor menebak-nebak.",
+          "Kejelasan kontribusi — apakah cover letter dan abstrak sama-sama menunjukkan naskah ini menambah sesuatu yang baru, bukan replikasi tanpa nilai tambah.",
+          "Kelengkapan etika — pernyataan orisinalitas, kepatuhan etika penelitian (Level 14), dan pengungkapan konflik kepentingan sudah ada dan jelas."
+        ]},
+        { "type": "callout", "title": "Cover Letter Menjawab Pertanyaan Editor Sebelum Ditanya", "text": "Cover letter yang baik secara implisit menjawab keempat pertanyaan di atas SEBELUM editor perlu mencari-cari jawabannya sendiri di dalam naskah — itulah kenapa cover letter yang jelas mempercepat keputusan editor." }
+      ]
+    },
+    {
+      "id": "19-7",
+      "title": "Worked Example: Cover Letter Generik vs Cover Letter Tepat Sasaran",
+      "blocks": [
+        { "type": "heading", "text": "Membandingkan Dua Versi" },
+        { "type": "quote", "text": "\"Dear Editor, terlampir naskah kami untuk dipertimbangkan di jurnal Bapak/Ibu yang sangat prestisius ini. Kami yakin naskah ini akan menjadi kontribusi luar biasa bagi bidang ilmu. Mohon dipertimbangkan dengan baik. Terima kasih.\"", "source": "Cover letter LEMAH — generik, bisa dikirim ke jurnal mana pun tanpa perubahan, tidak menyebut kontribusi konkret atau alasan kecocokan scope" },
+        { "type": "quote", "text": "\"Dear Dr. [Nama Editor-in-Chief], kami mengajukan naskah berjudul 'Frekuensi Notifikasi Aplikasi Belajar dan Durasi Fokus Siswa SMA' untuk dipertimbangkan sebagai artikel penelitian asli di [Nama Jurnal]. Naskah ini kami pilih karena fokus jurnal pada pendidikan digital sejalan dengan temuan kami bahwa notifikasi berfrekuensi tinggi berasosiasi dengan penurunan fokus belajar — topik yang belum banyak dibahas dalam konteks SMA di Indonesia berdasarkan penelusuran kami di dua isu terakhir jurnal ini. Naskah orisinal, belum pernah diterbitkan, dan tidak sedang dalam proses review di jurnal lain. Kami menyarankan tiga reviewer potensial (terlampir) yang telah menerbitkan pada topik terkait. Terima kasih atas pertimbangannya.\"", "source": "Cover letter KUAT — spesifik ke jurnal ini, menyebut kontribusi konkret, bukti riset scope (Level 18), pernyataan orisinalitas, dan suggested reviewers" },
+        { "type": "callout", "title": "Kenapa Versi Kedua Lebih Baik", "text": "Versi kedua tidak bisa ditempel begitu saja ke jurnal lain tanpa diedit — ia spesifik menyebut nama jurnal, bukti pembacaan isu terbaru, dan kontribusi konkret. Ini menunjukkan ke editor bahwa penulis sudah melakukan riset sebelum submit, bukan mengirim massal ke banyak jurnal." }
+      ]
+    },
+    {
+      "id": "19-8",
+      "title": "Kesalahan Umum Cover Letter & Submission",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis cover letter generik yang bisa dikirim ke jurnal mana pun tanpa mengubah satu kata pun, tanpa menyebut kecocokan scope spesifik.",
+          "Menyalin abstrak kata demi kata sebagai isi cover letter, alih-alih meringkas kontribusi dalam bahasa yang berbeda dan lebih personal.",
+          "Menyarankan reviewer yang punya konflik kepentingan (pembimbing, rekan satu institusi, co-author sebelumnya) tanpa mengungkapkannya.",
+          "Melakukan simultaneous submission — mengirim naskah yang sama ke beberapa jurnal sebelum menerima keputusan resmi dari jurnal pertama.",
+          "Lupa menghapus identitas penulis dari file naskah utama pada jurnal yang memakai double-blind review.",
+          "Tidak mengecek ulang metadata (judul, abstrak, keywords) di form OJS agar sinkron dengan isi file yang diunggah."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Cover letter yang baik adalah argumen singkat dan jujur tentang KENAPA naskah ini pantas dikirim ke reviewer jurnal INI — bukan surat pujian generik, dan bukan tempat menitipkan reviewer yang menguntungkan penulis." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-19",
+    "title": "Kuis Level 19",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q19-1",
+        "question": "Cover letter dalam proses submission ditujukan langsung kepada…",
+        "options": ["Reviewer", "Editor", "Penerbit percetakan", "Komisi etik kampus"],
+        "answer": 1,
+        "explanation": "Cover letter adalah surat pengantar ke editor, yang memutuskan apakah naskah diteruskan ke tahap peer review atau tidak."
+      },
+      {
+        "id": "q19-2",
+        "question": "Isi cover letter sebaiknya…",
+        "options": ["Menyalin abstrak kata demi kata", "Meringkas kontribusi utama dan alasan kecocokan scope dengan jurnal spesifik yang dituju", "Berisi pujian berlebihan terhadap reputasi jurnal", "Hanya berisi ucapan terima kasih tanpa isi lain"],
+        "answer": 1,
+        "explanation": "Cover letter yang efektif menjelaskan kontribusi dan kecocokan scope secara ringkas dan spesifik, bukan menyalin abstrak atau memuji berlebihan."
+      },
+      {
+        "id": "q19-3",
+        "question": "Suggested reviewers yang disarankan penulis idealnya…",
+        "options": ["Dosen pembimbing atau rekan satu institusi", "Peneliti yang ahli di topik terkait dan bebas dari konflik kepentingan", "Siapa saja yang bersedia memberi penilaian positif", "Reviewer yang belum pernah menerbitkan apa pun"],
+        "answer": 1,
+        "explanation": "Suggested reviewers harus benar-benar ahli dan bebas konflik kepentingan, bukan kenalan yang berpotensi memberi penilaian bias."
+      },
+      {
+        "id": "q19-4",
+        "question": "Simultaneous submission dilarang karena…",
+        "options": ["Membuat naskah lebih cepat diterima", "Memboroskan waktu dan tenaga reviewer yang terbatas dan berisiko menyebabkan duplikasi publikasi", "Jurnal tidak mengizinkan lebih dari satu penulis", "Hanya berlaku untuk naskah kualitatif"],
+        "answer": 1,
+        "explanation": "Mengirim naskah yang sama ke beberapa jurnal sekaligus memboroskan sumber daya reviewer dan berisiko menghasilkan duplikasi publikasi yang melanggar etika."
+      },
+      {
+        "id": "q19-5",
+        "question": "Platform daring yang paling umum dipakai jurnal untuk proses submission adalah…",
+        "options": ["Turnitin", "OJS (Open Journal Systems)", "Zotero", "Overleaf"],
+        "answer": 1,
+        "explanation": "OJS adalah platform submission daring yang paling umum dipakai jurnal, termasuk banyak jurnal Indonesia."
+      },
+      {
+        "id": "q19-6",
+        "question": "Salah satu hal yang biasanya dicek editor pada tahap penyaringan awal (initial screening) adalah…",
+        "options": ["Warna latar belakang file PDF", "Kesesuaian scope dan kepatuhan format dasar naskah dengan Author Guidelines", "Jumlah pengikut media sosial penulis", "Ukuran font di halaman judul"],
+        "answer": 1,
+        "explanation": "Editor menyaring berdasarkan kesesuaian scope, kepatuhan format, kejelasan kontribusi, dan kelengkapan etika sebelum meneruskan ke reviewer."
+      },
+      {
+        "id": "q19-7",
+        "question": "Kesalahan teknis yang umum terjadi pada jurnal double-blind review adalah…",
+        "options": ["Menyebut nama jurnal di cover letter", "Lupa menghapus identitas penulis dari file naskah utama", "Mengunggah keywords yang terlalu sedikit", "Menuliskan judul terlalu pendek"],
+        "answer": 1,
+        "explanation": "Pada double-blind review, identitas penulis harus dihapus dari naskah utama; lupa melakukannya adalah kesalahan teknis umum saat submission."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-19",
+    "title": "Ujian Level 19",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e19-1",
+        "question": "Seorang penulis mengirim cover letter yang sama persis ke lima jurnal berbeda, hanya mengganti nama jurnal di baris pertama. Masalah utama pendekatan ini adalah…",
+        "options": ["Tidak ada masalah karena mengefisienkan waktu penulis", "Cover letter generik tidak menunjukkan kecocokan scope spesifik dengan jurnal yang dituju, sehingga kurang meyakinkan editor", "Jurnal akan otomatis menolak surat yang sama persis", "Cover letter seharusnya memang identik untuk semua jurnal"],
+        "answer": 1,
+        "explanation": "Cover letter yang efektif spesifik ke jurnal yang dituju, menunjukkan penulis benar-benar meneliti kecocokan scope, bukan mengirim massal tanpa penyesuaian."
+      },
+      {
+        "id": "e19-2",
+        "question": "Seorang penulis menyarankan tiga reviewer dalam cover letter-nya: dosen pembimbing skripsinya, rekan satu laboratorium, dan co-author dari artikel sebelumnya. Masalah dari daftar ini adalah…",
+        "options": ["Ketiganya terlalu sedikit, seharusnya lebih dari lima", "Ketiganya punya konflik kepentingan yang seharusnya dihindari dalam suggested reviewers", "Suggested reviewers memang wajib berasal dari lingkaran terdekat penulis", "Tidak ada masalah selama nama-namanya adalah peneliti asli"],
+        "answer": 1,
+        "explanation": "Menyarankan reviewer yang punya hubungan dekat (pembimbing, rekan satu institusi, co-author) menciptakan konflik kepentingan yang melanggar prinsip suggested reviewers yang objektif."
+      },
+      {
+        "id": "e19-3",
+        "question": "Seorang mahasiswa mengirim naskah yang sama ke Jurnal A hari Senin, lalu karena belum ada kabar setelah dua minggu, ia juga mengirimkannya ke Jurnal B tanpa menarik naskah dari Jurnal A. Pelanggaran yang terjadi adalah…",
+        "options": ["Tidak ada pelanggaran karena keduanya jurnal berbeda", "Simultaneous submission — mengirim naskah yang sama ke lebih dari satu jurnal sebelum menerima keputusan resmi dari jurnal pertama", "Pelanggaran hak cipta terhadap Jurnal A", "Pelanggaran karena naskah dikirim di hari Senin"],
+        "answer": 1,
+        "explanation": "Mengirim naskah yang sama ke jurnal lain sebelum menerima keputusan resmi dari jurnal sebelumnya adalah simultaneous submission, pelanggaran etika publikasi yang serius."
+      },
+      {
+        "id": "e19-4",
+        "question": "Seorang penulis submit ke jurnal yang menerapkan double-blind review, tapi lupa menghapus nama dan afiliasinya dari header setiap halaman file naskah utama. Konsekuensi paling mungkin adalah…",
+        "options": ["Tidak ada konsekuensi karena editor akan otomatis menyembunyikannya", "Proses blind review menjadi tidak efektif karena reviewer bisa mengetahui identitas penulis, berpotensi memengaruhi objektivitas penilaian", "Naskah otomatis diterima tanpa review", "Reviewer akan menolak menilai naskah apa pun alasannya"],
+        "answer": 1,
+        "explanation": "Identitas penulis yang bocor pada naskah double-blind merusak tujuan anonimitas, berisiko memengaruhi objektivitas penilaian reviewer."
+      },
+      {
+        "id": "e19-5",
+        "question": "Seorang editor membaca cover letter yang hanya berisi pujian umum terhadap jurnal tanpa menjelaskan kontribusi naskah atau alasan kecocokan scope. Reaksi paling mungkin dari editor adalah…",
+        "options": ["Langsung meneruskan naskah ke reviewer tanpa membaca isinya", "Kurang yakin dengan relevansi naskah dan perlu membaca naskah lengkap sendiri untuk menilai kecocokan, karena cover letter tidak membantu penyaringan awal", "Menolak otomatis tanpa membaca naskah sama sekali", "Meminta penulis membayar APC lebih mahal"],
+        "answer": 1,
+        "explanation": "Cover letter yang tidak menjelaskan kontribusi dan kecocokan scope gagal membantu editor pada tahap penyaringan awal, sehingga tidak memberikan nilai tambah."
+      },
+      {
+        "id": "e19-6",
+        "question": "Seorang penulis mencantumkan nama reviewer potensial dengan alamat email yang terlihat pribadi dan tidak berafiliasi dengan institusi akademik mana pun, meski nama tersebut memang seorang peneliti asli. Kekhawatiran yang wajar muncul di sini adalah…",
+        "options": ["Tidak ada kekhawatiran karena nama penelitinya asli", "Ini pola yang mirip kasus peer review fraud, di mana email yang dicantumkan sebenarnya mengarah ke penulis sendiri atau rekannya", "Email pribadi selalu lebih cepat merespons", "Reviewer dengan email pribadi pasti lebih objektif"],
+        "answer": 1,
+        "explanation": "Alamat email yang tidak terverifikasi dari institusi resmi adalah pola yang pernah ditemukan dalam kasus-kasus peer review fraud yang berujung retraction."
+      },
+      {
+        "id": "e19-7",
+        "question": "Seorang penulis mengisi form OJS dengan judul dan abstrak yang sedikit berbeda dari yang tertulis di file PDF naskah yang diunggah. Masalah dari ketidaksesuaian ini adalah…",
+        "options": ["Tidak masalah karena editor pasti membaca file PDF saja", "Metadata yang tidak sinkron dengan isi file bisa membingungkan proses indeksasi dan penilaian editor pada tahap awal", "OJS akan otomatis memperbaiki ketidaksesuaian ini", "Abstrak di form OJS tidak pernah dibaca siapa pun"],
+        "answer": 1,
+        "explanation": "Metadata (judul, abstrak, keywords) yang tidak sinkron dengan file yang diunggah bisa menimbulkan kebingungan dan kesan kurang teliti sejak tahap submission."
+      },
+      {
+        "id": "e19-8",
+        "question": "Seorang mahasiswa berpikir bahwa menyiapkan jurnal cadangan di Level 18 berarti ia boleh mengirim ke jurnal cadangan itu sekarang juga, bersamaan dengan jurnal utama yang sedang dalam proses review. Pemahaman yang keliru di sini adalah…",
+        "options": ["Menyiapkan cadangan memang berarti submit ke semuanya sekaligus", "Jurnal cadangan seharusnya baru dikirim SETELAH menerima keputusan resmi dari jurnal utama, bukan bersamaan, agar tidak melanggar aturan simultaneous submission", "Jurnal cadangan hanya boleh dipakai jika jurnal utama menerima naskah", "Tidak boleh ada jurnal cadangan sama sekali"],
+        "answer": 1,
+        "explanation": "Shortlist cadangan dari Level 18 dipakai secara berurutan — submit ke cadangan hanya setelah menerima keputusan resmi (biasanya penolakan) dari jurnal sebelumnya."
+      },
+      {
+        "id": "e19-9",
+        "question": "Seorang mahasiswa menulis cover letter yang menyebutkan secara spesifik bahwa ia telah membaca dua isu terakhir jurnal tersebut dan menemukan kesamaan pola metode dengan naskahnya sendiri. Efek dari detail ini terhadap penilaian editor kemungkinan besar adalah…",
+        "options": ["Tidak berpengaruh sama sekali terhadap keputusan editor", "Menunjukkan penulis telah melakukan riset kecocokan scope secara serius (sejalan dengan Level 18), yang cenderung meningkatkan keyakinan editor akan relevansi naskah", "Membuat editor curiga penulis terlalu detail", "Editor akan menganggap ini pelanggaran etika"],
+        "answer": 1,
+        "explanation": "Detail konkret yang menunjukkan riset kecocokan scope memperkuat kepercayaan editor bahwa naskah memang relevan untuk jurnal tersebut, bukan kiriman massal."
+      },
+      {
+        "id": "e19-10",
+        "question": "Seorang penulis mencantumkan pernyataan 'naskah ini orisinal dan tidak sedang dalam proses review di jurnal lain' di cover letter-nya, padahal kenyataannya naskah yang sama sedang direview jurnal lain. Konsekuensi paling serius dari pelanggaran ini adalah…",
+        "options": ["Tidak ada konsekuensi selama salah satu jurnal menerima naskahnya", "Berpotensi dianggap pelanggaran etika publikasi yang serius (simultaneous submission dengan pernyataan palsu), yang bisa berujung penolakan atau bahkan pelaporan ke institusi", "Editor akan memberi diskon APC sebagai kompensasi", "Hanya berdampak pada kecepatan proses review, tidak lebih dari itu"],
+        "answer": 1,
+        "explanation": "Pernyataan palsu tentang status submission adalah pelanggaran etika publikasi serius, bukan sekadar kesalahan administratif, dan bisa berujung sanksi dari jurnal maupun institusi."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "COPE Core Practices", "author": "Committee on Publication Ethics (COPE)", "publisher": "COPE", "url": "https://publicationethics.org/core-practices", "note": "Standar etika publikasi terkait suggested reviewers, konflik kepentingan, dan simultaneous submission." },
+    { "title": "How to Write and Publish a Scientific Paper", "author": "Robert A. Day & Barbara Gastel", "publisher": "Cambridge University Press", "note": "Panduan menyusun cover letter dan berkomunikasi dengan editor." },
+    { "title": "Academic Writing for Graduate Students: Essential Tasks and Skills", "author": "John M. Swales & Christine B. Feak", "publisher": "University of Michigan Press", "note": "Rujukan gaya menulis surat akademik yang ringkas dan tepat sasaran." },
+    { "title": "Open Journal Systems (OJS) Documentation", "author": "Public Knowledge Project (PKP)", "publisher": "PKP", "note": "Rujukan alur teknis submission naskah lewat OJS." },
+    { "title": "ICMJE Recommendations", "author": "International Committee of Medical Journal Editors (ICMJE)", "publisher": "ICMJE", "note": "Rujukan prinsip pernyataan orisinalitas dan pengungkapan konflik kepentingan saat submission." }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "id": 21,
+  "slug": "revisi-mayor-minor",
+  "title": "Menjawab Revisi Mayor & Minor",
+  "subtitle": "Menulis response letter point-by-point yang meyakinkan editor kamu layak diterbitkan",
+  "goal": "Mampu menyusun response letter point-by-point yang sistematis, membedakan revisi mayor dan minor secara praktis, berargumen dengan sopan dan berbasis bukti saat tidak setuju dengan reviewer, serta mengelola tracked changes agar revisi mudah diverifikasi editor dan reviewer.",
+  "estimatedMinutes": 38,
+  "sections": [
+    {
+      "id": "21-1",
+      "title": "Dari Membaca Komentar ke Menulis Balasan",
+      "blocks": [
+        { "type": "heading", "text": "Level 20 Selesai, Sekarang Saatnya Merespons" },
+        { "type": "paragraph", "text": "Level 20 mengajarkan cara membaca komentar reviewer secara objektif — memisahkan nada dari substansi, memberi jeda sebelum bereaksi. Level ini melanjutkan ke langkah berikutnya: menyusun response letter (surat balasan), dokumen resmi yang menyertai naskah revisimu, menjelaskan SATU PER SATU bagaimana kamu menanggapi tiap komentar reviewer dan editor." },
+        { "type": "paragraph", "text": "Response letter yang baik bukan sekadar daftar perubahan — ia adalah argumen terstruktur yang meyakinkan editor dan reviewer bahwa naskah revisimu sudah menjawab semua keberatan mereka, atau menjelaskan dengan alasan kuat kenapa kamu memilih tidak mengikuti saran tertentu." },
+        { "type": "callout", "title": "Kenapa Ini Sepenting Revisi Itu Sendiri", "text": "Reviewer dan editor sering tidak membaca ulang seluruh naskah dari nol saat menilai revisi — mereka mengandalkan response letter untuk cepat memverifikasi apakah keberatan mereka sudah ditangani. Response letter yang berantakan bisa membuat revisi yang sebenarnya sudah bagus terlihat tidak lengkap." }
+      ]
+    },
+    {
+      "id": "21-2",
+      "title": "Format Point-by-Point yang Sistematis",
+      "blocks": [
+        { "type": "heading", "text": "Struktur yang Memudahkan Reviewer Memverifikasi" },
+        { "type": "paragraph", "text": "Format response letter yang paling umum dan paling disukai editor adalah format point-by-point: setiap komentar reviewer disalin ulang, diikuti balasan penulis, lalu ditutup rujukan ke lokasi perubahan di naskah revisi (nomor halaman/baris)." },
+        {
+          "type": "table",
+          "headers": ["Elemen", "Fungsi"],
+          "rows": [
+            ["Komentar reviewer (disalin ulang)", "Memastikan reviewer/editor tidak perlu membuka kembali review asli untuk mengingat konteks komentar"],
+            ["Balasan penulis", "Menjelaskan tindakan yang diambil: direvisi sesuai saran, direvisi dengan pendekatan berbeda, atau tidak direvisi dengan alasan"],
+            ["Rujukan lokasi perubahan", "Menunjuk halaman/baris/bagian spesifik di naskah revisi, mempercepat verifikasi reviewer"]
+          ]
+        },
+        { "type": "list", "ordered": true, "items": [
+          "Kelompokkan komentar per reviewer (Reviewer 1, Reviewer 2, dst), lalu per nomor urut komentar dari masing-masing.",
+          "Salin ulang komentar asli secara verbatim (kata demi kata) sebelum balasanmu, biasanya diberi format berbeda (italic/warna berbeda) supaya jelas mana komentar reviewer dan mana balasan penulis.",
+          "Tulis balasan dengan kalimat aktif dan spesifik: \"Kami telah menambahkan...\" bukan \"Bagian ini mungkin sudah cukup jelas\".",
+          "Tutup tiap balasan dengan rujukan lokasi perubahan, misalnya \"(lihat halaman 8, paragraf 2 pada naskah revisi)\"."
+        ]},
+        { "type": "callout", "title": "Jangan Lewati Satu Komentar pun", "text": "Reviewer dan editor akan memperhatikan kalau ada komentar yang tidak dijawab sama sekali — bahkan komentar yang tampak kecil sekalipun butuh balasan eksplisit, walau hanya satu kalimat singkat." }
+      ]
+    },
+    {
+      "id": "21-3",
+      "title": "Revisi Mayor vs Minor: Bedanya di Praktik",
+      "blocks": [
+        { "type": "heading", "text": "Bukan Cuma soal 'Kecil-Besar'" },
+        { "type": "paragraph", "text": "Level 20 sudah menjelaskan definisi dasarnya. Secara praktik, perbedaan revisi mayor dan minor terlihat dari JENIS pekerjaan yang dibutuhkan, bukan sekadar jumlah komentarnya." },
+        {
+          "type": "table",
+          "headers": ["Aspek", "Revisi Minor", "Revisi Mayor"],
+          "rows": [
+            ["Jenis perubahan", "Kejelasan bahasa, tambahan penjelasan, koreksi rujukan/kutipan", "Analisis data ulang, data tambahan, perubahan kerangka argumen"],
+            ["Waktu pengerjaan", "Biasanya beberapa hari sampai 1-2 minggu", "Bisa berminggu-minggu, kadang perlu mengumpulkan data tambahan"],
+            ["Risiko bila ditangani asal-asalan", "Naskah tetap solid substansinya, tapi terlihat kurang teliti", "Bisa berujung reject di ronde review berikutnya bila hanya ditambal sekadarnya"],
+            ["Perlu review ulang penuh?", "Biasanya cukup dicek editor saja", "Biasanya dikirim kembali ke reviewer yang sama untuk verifikasi"]
+          ]
+        },
+        { "type": "callout", "title": "Revisi Mayor Bukan Alasan Menyerah", "text": "Banyak penulis menyerah begitu melihat revisi mayor karena terkesan seperti menulis ulang dari nol. Padahal revisi mayor biasanya berarti FONDASI naskahmu sudah cukup kuat — editor sudah melihat potensi cukup besar untuk memberi kesempatan investasi waktu tambahan, bukan menolaknya langsung." }
+      ]
+    },
+    {
+      "id": "21-4",
+      "title": "Berargumen dengan Sopan dan Berbasis Bukti",
+      "blocks": [
+        { "type": "heading", "text": "Tidak Setuju Bukan Berarti Tidak Sopan" },
+        { "type": "paragraph", "text": "Level 20 sudah menyinggung bahwa tidak semua komentar reviewer otomatis benar. Kamu berhak tidak setuju — tapi ketidaksetujuan harus disampaikan dengan argumen berbasis bukti (rujukan metodologis, data tambahan, penjelasan logis), bukan sekadar penolakan tanpa dasar atau nada defensif." },
+        { "type": "list", "ordered": false, "items": [
+          "Mulai dengan mengakui poin reviewer (\"Kami memahami kekhawatiran reviewer mengenai...\") sebelum menjelaskan posisi berbeda kamu.",
+          "Sertakan rujukan konkret — buku metodologi, artikel lain di bidang sejenis, atau pedoman resmi (COPE, ICMJE) yang mendukung pilihanmu.",
+          "Kalau memang ada keterbatasan yang diakui reviewer benar, jangan bersikeras menutup-nutupi — akui dan jelaskan sebagai keterbatasan (ingat Level 27 soal keterbatasan yang jujur).",
+          "Hindari kalimat yang menyalahkan reviewer secara langsung (\"Reviewer jelas tidak paham...\") — ganti dengan kalimat netral yang fokus ke argumen (\"Kami ingin mengklarifikasi bahwa...\")."
+        ]},
+        { "type": "callout", "title": "Editor Membaca Nada, Bukan Cuma Isi", "text": "Editor sering menilai kematangan penulis dari CARA merespons ketidaksepakatan, bukan cuma dari benar-salahnya argumen. Response letter yang sopan tapi tegas berbasis bukti meninggalkan kesan jauh lebih baik dibanding yang defensif, meski substansi argumennya sama-sama valid." }
+      ]
+    },
+    {
+      "id": "21-5",
+      "title": "Worked Example: Response Letter Defensif vs Response Letter Gracious",
+      "blocks": [
+        { "type": "heading", "text": "Komentar yang Sama, Dua Cara Merespons" },
+        { "type": "quote", "text": "Komentar Reviewer 2: \"Penulis mengklaim metode diskusi kelompok 'terbukti efektif', tapi desain penelitian ini adalah survei cross-sectional tanpa kelompok kontrol. Klaim kausal semacam ini tidak didukung oleh desain penelitian.\"", "source": "Komentar reviewer asli" },
+        { "type": "quote", "text": "Balasan DEFENSIF: \"Kami tidak setuju dengan komentar ini. Data kami jelas menunjukkan peningkatan yang signifikan, jadi klaim efektivitas sudah tepat. Reviewer sepertinya kurang memahami konteks penelitian pendidikan di lapangan.\"", "source": "Respons LEMAH — menyalahkan reviewer, mengabaikan substansi soal desain penelitian yang tidak mendukung klaim kausal" },
+        { "type": "quote", "text": "Balasan GRACIOUS: \"Terima kasih atas catatan penting ini. Kami setuju bahwa desain survei cross-sectional kami memang tidak memungkinkan klaim kausalitas yang kuat. Kami telah merevisi klaim di bagian Discussion dari 'metode ini terbukti efektif' menjadi 'metode ini berasosiasi dengan peningkatan skor', dan menambahkan kalimat eksplisit di bagian Keterbatasan mengenai perlunya desain eksperimental pada penelitian selanjutnya untuk menguji hubungan kausal (lihat halaman 11, paragraf 3).\"", "source": "Respons KUAT — mengakui poin valid, menjelaskan tindakan konkret, merujuk lokasi perubahan" },
+        { "type": "callout", "title": "Kenapa Respons Kedua Lebih Efektif", "text": "Respons gracious tidak berarti selalu setuju dengan reviewer — tapi di sini reviewer memang benar secara metodologis (klaim kausal butuh desain eksperimental, ingat Level 13 soal desain penelitian). Mengakui itu secara terbuka dan menunjukkan tindakan konkret jauh lebih meyakinkan daripada bersikeras mempertahankan klaim yang memang tidak didukung desainnya." }
+      ]
+    },
+    {
+      "id": "21-6",
+      "title": "Tracked Changes: Membuat Revisi Terlihat, Bukan Tersembunyi",
+      "blocks": [
+        { "type": "heading", "text": "Kenapa Reviewer Perlu Melihat APA yang Berubah" },
+        { "type": "paragraph", "text": "Selain response letter, hampir semua jurnal meminta naskah revisi disertai versi tracked changes (perubahan bergaris bawah/warna, memakai fitur 'Track Changes' di Word atau \\diff di LaTeX) — supaya reviewer bisa langsung melihat kalimat mana yang berubah, tanpa harus membandingkan dua draft kata per kata secara manual." },
+        { "type": "list", "ordered": false, "items": [
+          "Aktifkan Track Changes SEJAK AWAL revisi, bukan menyalakannya belakangan setelah separuh revisi selesai — supaya tidak ada perubahan yang lolos tercatat.",
+          "Jangan menerima (accept) semua perubahan sebelum submit — reviewer justru butuh melihat versi dengan tanda perubahan yang masih aktif.",
+          "Kalau revisi sangat ekstensif (paragraf ditulis ulang total), jelaskan ini secara eksplisit di response letter alih-alih hanya mengandalkan tracked changes yang jadi terlalu ramai untuk dibaca.",
+          "Siapkan juga versi bersih (clean version) tanpa tanda perubahan sebagai salah satu file terpisah, sesuai permintaan kebanyakan jurnal."
+        ]},
+        { "type": "callout", "title": "Dua File, Bukan Satu", "text": "Submission revisi biasanya butuh MINIMAL dua file naskah: versi tracked changes (untuk memverifikasi apa yang berubah) dan versi bersih (untuk dibaca sebagai naskah utuh) — belum termasuk response letter sebagai dokumen ketiga." }
+      ]
+    },
+    {
+      "id": "21-7",
+      "title": "Menyusun Response Letter Langkah demi Langkah",
+      "blocks": [
+        { "type": "heading", "text": "Dari Komentar Mentah ke Dokumen Siap Kirim" },
+        { "type": "list", "ordered": true, "items": [
+          "Salin semua komentar reviewer dan editor ke satu dokumen, dikelompokkan per reviewer.",
+          "Untuk tiap komentar, tentukan kategorinya: setuju dan sudah direvisi, setuju sebagian dengan penyesuaian, atau tidak setuju dengan argumen.",
+          "Tulis balasan singkat dan spesifik untuk tiap komentar, merujuk lokasi perubahan di naskah revisi.",
+          "Baca ulang seluruh response letter dari sudut pandang reviewer — apakah tiap komentar sudah dijawab tanpa ada yang terlewat?",
+          "Siapkan surat pengantar singkat di awal response letter, mengucapkan terima kasih atas waktu reviewer dan merangkum perubahan utama yang dilakukan.",
+          "Sertakan tiga file: response letter, naskah tracked changes, dan naskah bersih — sesuai instruksi jurnal di sistem OJS (lihat Level 19)."
+        ]},
+        { "type": "callout", "title": "Cek Ulang Konsistensi Antar Dokumen", "text": "Kesalahan yang sering terjadi: response letter menyebut 'sudah direvisi di halaman 8', tapi ternyata di naskah yang diunggah perubahan itu justru ada di halaman 10 karena penomoran bergeser setelah revisi lain. Cek ulang semua rujukan halaman SETELAH revisi selesai, bukan sambil jalan." }
+      ]
+    },
+    {
+      "id": "21-8",
+      "title": "Kesalahan Umum Menjawab Revisi",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Menulis response letter yang hanya berisi 'sudah direvisi' tanpa menjelaskan APA yang diubah dan DI MANA lokasinya.",
+          "Melewatkan satu-dua komentar kecil karena dianggap tidak penting, padahal reviewer akan memperhatikan kalau ada komentar yang tidak dijawab.",
+          "Membalas ketidaksetujuan dengan nada defensif atau menyalahkan reviewer, alih-alih argumen berbasis bukti yang sopan.",
+          "Menyerah atau menganggap major revision sebagai penolakan terselubung, padahal itu kesempatan yang perlu ditindaklanjuti serius.",
+          "Mengirim naskah revisi tanpa tracked changes, membuat reviewer harus membandingkan draft lama dan baru secara manual.",
+          "Rujukan lokasi halaman di response letter tidak dicek ulang setelah revisi, sehingga tidak sinkron dengan naskah final yang diunggah."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "Response letter yang baik adalah bukti tertulis bahwa kamu memperlakukan setiap komentar dengan serius — baik yang kamu ikuti maupun yang kamu tanggapi dengan argumen berbeda. Itulah yang membangun kepercayaan editor dan reviewer terhadap naskah revisimu." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-21",
+    "title": "Kuis Level 21",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "q21-1",
+        "question": "Fungsi utama response letter dalam proses revisi adalah…",
+        "options": ["Menggantikan naskah revisi sepenuhnya", "Menjelaskan satu per satu bagaimana penulis menanggapi tiap komentar reviewer dan editor", "Meminta editor mengganti reviewer", "Menyampaikan permintaan maaf atas keterlambatan revisi"],
+        "answer": 1,
+        "explanation": "Response letter adalah dokumen yang menjelaskan tindakan penulis terhadap tiap komentar, membantu reviewer/editor memverifikasi revisi dengan cepat."
+      },
+      {
+        "id": "q21-2",
+        "question": "Format response letter yang paling umum dan disukai editor adalah…",
+        "options": ["Ringkasan umum tanpa menyalin komentar reviewer", "Point-by-point: komentar disalin ulang, diikuti balasan dan rujukan lokasi perubahan", "Surat naratif panjang tanpa struktur poin", "Daftar perubahan tanpa menyebut komentar reviewer sama sekali"],
+        "answer": 1,
+        "explanation": "Format point-by-point memudahkan reviewer/editor memverifikasi bahwa setiap komentar sudah dijawab secara spesifik."
+      },
+      {
+        "id": "q21-3",
+        "question": "Perbedaan praktis utama revisi mayor dan minor terletak pada…",
+        "options": ["Jumlah kata di response letter", "Jenis pekerjaan yang dibutuhkan — minor biasanya perbaikan kejelasan, mayor bisa berarti analisis ulang atau data tambahan", "Warna sampul naskah revisi", "Nama reviewer yang menilai"],
+        "answer": 1,
+        "explanation": "Revisi minor umumnya soal kejelasan/koreksi kecil, sementara revisi mayor melibatkan perubahan substansial seperti analisis ulang atau data tambahan."
+      },
+      {
+        "id": "q21-4",
+        "question": "Saat penulis tidak setuju dengan komentar reviewer, sikap yang tepat adalah…",
+        "options": ["Mengabaikan komentar tanpa penjelasan", "Menyampaikan ketidaksetujuan dengan argumen berbasis bukti dan nada sopan", "Membalas dengan nada menyalahkan reviewer secara langsung", "Menarik naskah dari proses review"],
+        "answer": 1,
+        "explanation": "Ketidaksetujuan yang sah perlu disampaikan dengan argumen berbasis bukti dan nada profesional, bukan penolakan tanpa dasar atau nada defensif."
+      },
+      {
+        "id": "q21-5",
+        "question": "Tracked changes berguna dalam proses revisi karena…",
+        "options": ["Membuat naskah terlihat lebih panjang", "Memungkinkan reviewer melihat langsung kalimat mana yang berubah tanpa membandingkan draft secara manual", "Menggantikan kebutuhan response letter", "Hanya berguna untuk naskah berbahasa Inggris"],
+        "answer": 1,
+        "explanation": "Tracked changes mempercepat verifikasi reviewer karena perubahan terlihat langsung, tanpa perlu membandingkan draft lama dan baru secara manual."
+      },
+      {
+        "id": "q21-6",
+        "question": "Selain response letter, dokumen revisi yang biasanya diminta jurnal adalah…",
+        "options": ["Hanya satu file naskah final tanpa versi lain", "Versi tracked changes dan versi bersih (clean version) naskah", "Salinan ijazah penulis", "Surat rekomendasi dari dosen pembimbing"],
+        "answer": 1,
+        "explanation": "Submission revisi umumnya membutuhkan minimal dua versi naskah: tracked changes dan versi bersih, selain response letter itu sendiri."
+      },
+      {
+        "id": "q21-7",
+        "question": "Kesalahan yang sering terjadi terkait rujukan lokasi halaman di response letter adalah…",
+        "options": ["Rujukan halaman selalu otomatis benar tanpa perlu dicek", "Rujukan halaman tidak dicek ulang setelah revisi selesai, sehingga tidak sinkron dengan naskah final akibat pergeseran penomoran", "Rujukan halaman dilarang dicantumkan di response letter", "Halaman hanya perlu dirujuk untuk revisi minor, bukan mayor"],
+        "answer": 1,
+        "explanation": "Penomoran halaman bisa bergeser setelah revisi lain ditambahkan, sehingga rujukan di response letter perlu dicek ulang di tahap akhir sebelum dikirim."
+      }
+    ]
+  },
+  "exam": {
+    "id": "exam-21",
+    "title": "Ujian Level 21",
+    "passRatio": 0.7,
+    "questions": [
+      {
+        "id": "e21-1",
+        "question": "Seorang penulis menyusun response letter yang hanya berbunyi \"Semua komentar reviewer telah kami perhatikan dan revisi telah dilakukan\" tanpa merinci komentar mana yang direvisi bagaimana. Masalah dari pendekatan ini adalah…",
+        "options": ["Response letter memang seharusnya sesingkat mungkin", "Reviewer/editor tidak bisa memverifikasi tindakan konkret apa yang dilakukan terhadap tiap komentar, sehingga revisi terlihat tidak lengkap meski substansinya mungkin sudah dikerjakan", "Response letter tidak wajib menyebut komentar reviewer sama sekali", "Ini adalah format yang paling disukai editor"],
+        "answer": 1,
+        "explanation": "Response letter yang tidak merinci per komentar membuat reviewer sulit memverifikasi apakah tiap keberatan benar-benar sudah ditangani, meski revisinya sendiri sudah dilakukan."
+      },
+      {
+        "id": "e21-2",
+        "question": "Seorang mahasiswa menerima 8 komentar dari Reviewer 1 dan 5 komentar dari Reviewer 2. Ia hanya membalas 10 dari 13 komentar karena menganggap sisanya 'tidak terlalu penting'. Risiko dari pendekatan ini adalah…",
+        "options": ["Tidak ada risiko karena komentar kecil boleh diabaikan", "Reviewer kemungkinan besar akan memperhatikan komentar yang tidak dijawab dan menganggap revisi belum lengkap", "Reviewer tidak pernah membandingkan jumlah komentar dengan jumlah balasan", "Komentar yang tidak dijawab otomatis dianggap disetujui oleh reviewer"],
+        "answer": 1,
+        "explanation": "Setiap komentar, sekecil apa pun, perlu balasan eksplisit — reviewer akan memperhatikan kalau ada yang terlewat dan bisa menilai revisi belum tuntas."
+      },
+      {
+        "id": "e21-3",
+        "question": "Seorang penulis menerima keputusan 'major revision' dan langsung memutuskan menarik naskahnya karena menganggap revisi sebesar ini setara dengan penolakan. Penilaian paling tepat terhadap keputusan ini adalah…",
+        "options": ["Keputusan menarik naskah sudah tepat karena major revision memang jarang berujung diterima", "Keputusan ini terburu-buru — major revision biasanya berarti editor melihat potensi kuat pada naskah dan memberi kesempatan revisi, bukan penolakan terselubung", "Menarik naskah adalah satu-satunya cara menghormati waktu reviewer", "Major revision hanya diberikan pada naskah yang pasti akan ditolak di ronde berikutnya"],
+        "answer": 1,
+        "explanation": "Major revision adalah kesempatan, bukan penolakan — menariknya secara prematur membuang peluang publikasi yang sebenarnya masih terbuka."
+      },
+      {
+        "id": "e21-4",
+        "question": "Seorang reviewer meminta penulis mengubah klaim \"metode ini meningkatkan hasil belajar\" karena desainnya korelasional, bukan eksperimental. Penulis menulis balasan: \"Reviewer jelas tidak memahami konteks pendidikan di lapangan, klaim kami sudah tepat.\" Masalah utama dari balasan ini adalah…",
+        "options": ["Balasan ini sudah tepat karena penulis membela naskahnya sendiri", "Balasan ini defensif dan menyalahkan reviewer secara langsung tanpa argumen berbasis bukti, alih-alih menjelaskan posisi dengan sopan atau merevisi klaim yang memang tidak didukung desain penelitian", "Reviewer seharusnya tidak boleh mengomentari klaim kausal", "Penulis seharusnya menghapus seluruh Discussion daripada membalas komentar ini"],
+        "answer": 1,
+        "explanation": "Ketidaksetujuan yang sah tetap perlu disampaikan dengan argumen berbasis bukti dan nada profesional; menyalahkan reviewer secara langsung tanpa dasar merusak kesan profesionalisme, apalagi jika substansi komentarnya memang valid secara metodologis."
+      },
+      {
+        "id": "e21-5",
+        "question": "Seorang penulis mengubah lebih dari separuh isi Bab Pembahasan tapi baru mengaktifkan fitur Track Changes setelah revisi hampir selesai, sehingga banyak perubahan awal tidak tercatat. Konsekuensi paling mungkin adalah…",
+        "options": ["Tidak ada konsekuensi karena Track Changes hanya formalitas", "Reviewer akan kesulitan memverifikasi perubahan yang sebenarnya terjadi karena sebagian besar perubahan tidak tercatat sejak awal", "Editor akan otomatis menganggap seluruh naskah tidak direvisi sama sekali", "Reviewer tidak pernah memeriksa Track Changes"],
+        "answer": 1,
+        "explanation": "Track Changes perlu diaktifkan sejak awal revisi agar seluruh perubahan tercatat dan bisa diverifikasi reviewer secara akurat, bukan hanya sebagian."
+      },
+      {
+        "id": "e21-6",
+        "question": "Reviewer 1 meminta penulis menambah data wawancara untuk memperkuat temuan, sementara Reviewer 2 menyarankan penulis mengurangi porsi wawancara karena dianggap keluar dari fokus kuantitatif penelitian. Pendekatan paling tepat penulis dalam response letter adalah…",
+        "options": ["Mengikuti saran reviewer yang lebih senior tanpa penjelasan ke reviewer lainnya", "Menjelaskan pertentangan ini secara eksplisit di response letter, memberi argumen pertimbangan penulis, dan membiarkan editor menimbang keputusan akhir", "Mengabaikan kedua saran karena saling bertentangan", "Menghapus seluruh bagian yang menjadi subjek perdebatan tanpa penjelasan"],
+        "answer": 1,
+        "explanation": "Saran yang saling bertentangan dari reviewer berbeda perlu disampaikan secara transparan di response letter, dengan argumen penulis, agar editor bisa menengahi keputusan akhir."
+      },
+      {
+        "id": "e21-7",
+        "question": "Seorang penulis menulis di response letter \"sudah direvisi, lihat halaman 8\", tapi karena ada penambahan paragraf baru di halaman 5, isi yang dimaksud sebenarnya kini berada di halaman 9 pada naskah final. Masalah dari situasi ini adalah…",
+        "options": ["Tidak masalah karena selisih satu halaman dianggap wajar", "Rujukan lokasi yang tidak sinkron dengan naskah final bisa membuat reviewer kesulitan memverifikasi, karena penomoran halaman berubah setelah revisi lain ditambahkan", "Reviewer selalu menghitung ulang halaman secara manual sehingga tidak masalah", "Response letter tidak perlu mencantumkan nomor halaman sama sekali"],
+        "answer": 1,
+        "explanation": "Rujukan lokasi di response letter perlu dicek ulang di tahap akhir setelah semua revisi selesai, karena penomoran halaman mudah bergeser akibat penambahan/pengurangan teks di bagian lain."
+      },
+      {
+        "id": "e21-8",
+        "question": "Seorang penulis menerima komentar reviewer yang secara metodologis keliru (meminta uji statistik yang sebenarnya tidak sesuai untuk desain penelitian tersebut). Penulis merasa yakin dengan pilihannya sendiri, didukung rujukan buku metodologi yang kredibel. Langkah paling tepat adalah…",
+        "options": ["Mengikuti saran reviewer meski penulis yakin itu keliru, demi menghindari konflik", "Menjelaskan dengan sopan di response letter, disertai rujukan metodologis yang mendukung pilihan penulis, tanpa nada menyalahkan reviewer", "Mengabaikan komentar tanpa penjelasan apa pun ke reviewer atau editor", "Menarik naskah karena merasa reviewer tidak kompeten"],
+        "answer": 1,
+        "explanation": "Ketidaksetujuan yang berdasar tetap perlu disampaikan secara sopan dan didukung bukti/rujukan, bukan diikuti begitu saja atau diabaikan tanpa penjelasan."
+      },
+      {
+        "id": "e21-9",
+        "question": "Seorang mahasiswa mendapat revisi minor berupa permintaan memperjelas satu kalimat di Metode dan menambah dua rujukan di Tinjauan Pustaka (Level 11). Ia mengerjakannya asal-asalan karena menganggap 'cuma minor, gampang'. Risiko dari sikap ini adalah…",
+        "options": ["Tidak ada risiko karena revisi minor selalu otomatis diterima setelah direvisi apa pun caranya", "Meski jenis pekerjaannya kecil, response letter dan revisi tetap perlu dikerjakan teliti — editor tetap memverifikasi kualitas penanganan komentar sebelum accept final", "Revisi minor tidak pernah dicek ulang oleh editor", "Revisi minor tidak memerlukan response letter sama sekali"],
+        "answer": 1,
+        "explanation": "Revisi minor tetap perlu dikerjakan dengan teliti — editor tetap memverifikasi bahwa komentar sudah ditangani dengan baik sebelum memberi keputusan accept final."
+      },
+      {
+        "id": "e21-10",
+        "question": "Seorang penulis menyusun response letter yang di setiap balasannya selalu diawali \"Terima kasih atas masukannya\" sebelum menjelaskan tindakan konkret dan lokasi perubahan, bahkan untuk komentar yang ia tanggapi dengan argumen berbeda. Pendekatan ini paling tepat dinilai sebagai…",
+        "options": ["Berlebihan dan tidak perlu karena membuang-buang kata", "Praktik yang baik — mengakui poin reviewer terlebih dahulu sebelum menjelaskan posisi berbeda adalah cara sopan dan profesional untuk membangun kesan gracious, sejalan dengan prinsip di level ini", "Hanya perlu dilakukan untuk komentar yang disetujui sepenuhnya, bukan yang ditanggapi berbeda", "Praktik yang salah karena response letter seharusnya bersifat netral tanpa basa-basi apa pun"],
+        "answer": 1,
+        "explanation": "Mengakui poin reviewer sebelum menjelaskan posisi berbeda adalah pola respons gracious yang membangun kesan profesional dan matang, baik untuk komentar yang disetujui maupun yang ditanggapi dengan argumen berbeda."
+      }
+    ]
+  },
+  "sources": [
+    { "title": "How to Write and Publish a Scientific Paper", "author": "Robert A. Day & Barbara Gastel", "publisher": "Cambridge University Press", "note": "Rujukan menyusun response letter dan menanggapi komentar reviewer secara profesional." },
+    { "title": "COPE Ethical Guidelines for Peer Reviewers", "author": "Committee on Publication Ethics (COPE)", "publisher": "COPE", "url": "https://publicationethics.org/resources/guidelines-new/cope-ethical-guidelines-peer-reviewers", "note": "Rujukan standar interaksi etis antara penulis, reviewer, dan editor selama proses revisi." },
+    { "title": "Writing Your Journal Article in Twelve Weeks", "author": "Wendy Laura Belcher", "publisher": "SAGE Publications", "note": "Panduan praktis menyusun response letter point-by-point dan mengelola revisi mayor/minor." },
+    { "title": "Academic Writing for Graduate Students: Essential Tasks and Skills", "author": "John M. Swales & Christine B. Feak", "publisher": "University of Michigan Press", "note": "Rujukan gaya bahasa sopan dan tegas saat berargumen tertulis dalam konteks akademik." }
+  ]
+}
