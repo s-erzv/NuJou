@@ -17,7 +17,7 @@ interface SpotlightCardProps {
 export default function SpotlightCard({
   children,
   className = '',
-  spotlightColor = 'rgba(56, 189, 248, 0.28)',
+  spotlightColor = 'rgba(139, 188, 237, 0.28)',
 }: SpotlightCardProps) {
   const { ref, onMouseMove } = useSpotlight<HTMLDivElement>();
 

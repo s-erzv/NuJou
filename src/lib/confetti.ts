@@ -22,7 +22,7 @@ export function burstConfetti(durationMs = 1800) {
 
   const W = window.innerWidth;
   const H = window.innerHeight;
-  const colors = ['#0284c7', '#0ea5e9', '#38bdf8', '#7dd3fc', '#f59e0b', '#fbbf24'];
+  const colors = ['#3b7dc4', '#62a0e0', '#8bbced', '#aed3f2', '#f59e0b', '#fbbf24'];
   const N = 140;
 
   type P = {

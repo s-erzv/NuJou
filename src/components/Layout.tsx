@@ -12,14 +12,14 @@ const navLinks = [
 export default function Layout() {
   return (
     <div className="min-h-full bg-white">
-      {/* Desktop sidebar */}
-      <aside className="fixed inset-y-4 left-4 z-20 hidden md:block">
-        <GlassSurface borderRadius={28} width={72} height="100%">
-          <div className="flex h-full flex-col items-center py-5">
-            <Link to="/" aria-label="NuJou — beranda" className="mb-6 shrink-0">
+      {/* Desktop sidebar — vertically centered, height fits its icons */}
+      <aside className="fixed left-4 top-1/2 z-20 hidden -translate-y-1/2 md:block">
+        <GlassSurface borderRadius={28} width={72}>
+          <div className="flex flex-col items-center gap-2 py-4">
+            <Link to="/" aria-label="NuJou — beranda" className="mb-2 shrink-0">
               <img src="/logo.png" alt="NuJou" className="h-9 w-9 object-contain" />
             </Link>
-            <nav className="flex flex-1 flex-col items-center gap-2">
+            <nav className="flex flex-col items-center gap-2">
               {navLinks.map(({ to, label, end, icon: Icon }) => (
                 <NavLink
                   key={to}
@@ -68,29 +68,24 @@ export default function Layout() {
         style={{ bottom: 'calc(1rem + env(safe-area-inset-bottom))' }}
       >
         <GlassSurface borderRadius={24}>
-          <div className="flex h-16 items-center justify-around px-2">
+          {/* Icons only on mobile — labels are hard to read at this size */}
+          <div className="flex h-14 items-center justify-around px-2">
             {navLinks.map(({ to, label, end, icon: Icon }) => (
               <NavLink
                 key={to}
                 to={to}
                 end={end}
-                className={({ isActive }) =>
-                  `flex flex-1 flex-col items-center gap-1 py-1 text-[10px] font-semibold transition ${
-                    isActive ? 'text-sky-700' : 'text-slate-500'
-                  }`
-                }
+                aria-label={label}
+                className="flex flex-1 items-center justify-center py-1"
               >
                 {({ isActive }) => (
-                  <>
-                    <span
-                      className={`grid h-8 w-8 place-items-center rounded-full transition ${
-                        isActive ? 'bg-sky-600 text-white' : ''
-                      }`}
-                    >
-                      <Icon className="h-4 w-4" />
-                    </span>
-                    {label}
-                  </>
+                  <span
+                    className={`grid h-10 w-10 place-items-center rounded-full transition ${
+                      isActive ? 'bg-sky-600 text-white' : 'text-slate-500'
+                    }`}
+                  >
+                    <Icon className="h-5 w-5" />
+                  </span>
                 )}
               </NavLink>
             ))}

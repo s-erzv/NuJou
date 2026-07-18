@@ -28,8 +28,8 @@ export default function Landing() {
           <DotGrid
             dotSize={5}
             gap={26}
-            baseColor="#e0f2fe"
-            activeColor="#0284c7"
+            baseColor="#e7f2fc"
+            activeColor="#3b7dc4"
             proximity={130}
             shockRadius={220}
             shockStrength={4}
@@ -148,9 +148,9 @@ export default function Landing() {
               gridSize={6}
               maxAngle={55}
               radius={3}
-              borderStyle="1px solid #7dd3fc"
-              faceColor="#f0f9ff"
-              rippleColor="#0284c7"
+              borderStyle="1px solid #aed3f2"
+              faceColor="#f4f9fe"
+              rippleColor="#3b7dc4"
               rippleSpeed={1.6}
               cellGap={6}
               autoAnimate

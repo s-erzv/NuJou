@@ -16,7 +16,7 @@ import type {
   ToolMode,
 } from '../components/whiteboard/types';
 
-const COLORS = ['#0f172a', '#0284c7', '#0ea5e9', '#a35f2c', '#ef4444', '#436233', '#f59e0b'];
+const COLORS = ['#0f172a', '#3b7dc4', '#62a0e0', '#a35f2c', '#ef4444', '#436233', '#f59e0b'];
 const SIZES = [2, 4, 8, 16];
 
 interface FrameworkSection {
@@ -553,7 +553,7 @@ export default function Whiteboard() {
         y: baseY,
         text: tpl.title,
         fontSize: 24,
-        fill: '#0369a1',
+        fill: '#33659f',
         width: 420,
       },
       {
@@ -563,8 +563,8 @@ export default function Whiteboard() {
         y: baseY + 40,
         width: 320,
         height: 2,
-        fill: '#bae6fd',
-        stroke: '#bae6fd',
+        fill: '#cfe6fa',
+        stroke: '#cfe6fa',
       },
     ];
 
@@ -742,7 +742,7 @@ export default function Whiteboard() {
             }`}
             style={{
               background: COLORS.includes(color)
-                ? 'conic-gradient(#ef4444, #f59e0b, #16a34a, #0ea5e9, #6366f1, #ec4899, #ef4444)'
+                ? 'conic-gradient(#ef4444, #f59e0b, #16a34a, #62a0e0, #6366f1, #ec4899, #ef4444)'
                 : color,
             }}
           >

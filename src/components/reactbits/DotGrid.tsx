@@ -55,8 +55,8 @@ function hexToRgb(hex: string) {
 export default function DotGrid({
   dotSize = 16,
   gap = 32,
-  baseColor = '#bae6fd',
-  activeColor = '#0284c7',
+  baseColor = '#cfe6fa',
+  activeColor = '#3b7dc4',
   proximity = 150,
   speedTrigger = 100,
   shockRadius = 250,

@@ -4,18 +4,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Sky blue — the primary accent across the whole app.
+        // Real sky blue — anchored on #8BBCED (the brand sky). Lighter and
+        // airier than the previous scale; 400 is the exact brand color, with
+        // darker shades kept legible on white for text and buttons.
         sky: {
-          50: '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8',
-          500: '#0ea5e9',
-          600: '#0284c7',
-          700: '#0369a1',
-          800: '#075985',
-          900: '#0c4a6e',
+          50: '#f4f9fe',
+          100: '#e7f2fc',
+          200: '#cfe6fa',
+          300: '#aed3f2',
+          400: '#8bbced',
+          500: '#62a0e0',
+          600: '#3b7dc4',
+          700: '#33659f',
+          800: '#2e5680',
+          900: '#294863',
         },
         // Sienna — the "editor's pen" accent for marginalia, tips, and the
         // handwritten margin-note signature element. Used sparingly.
@@ -52,8 +54,8 @@ export default {
         hand: ['Kalam', 'cursive'],
       },
       boxShadow: {
-        card: '0 1px 3px rgba(62, 65, 131, 0.08), 0 1px 2px rgba(62, 65, 131, 0.06)',
-        lift: '0 10px 30px -12px rgba(62, 65, 131, 0.35)',
+        card: '0 1px 3px rgba(59, 125, 196, 0.1), 0 1px 2px rgba(59, 125, 196, 0.07)',
+        lift: '0 10px 30px -12px rgba(59, 125, 196, 0.4)',
       },
     },
   },
