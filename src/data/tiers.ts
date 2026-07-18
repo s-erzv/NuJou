@@ -62,6 +62,13 @@ export const TIERS: Tier[] = [
     from: 45,
     to: 50,
   },
+  {
+    id: 'bonus',
+    name: 'Modul Tambahan',
+    blurb: 'Topik pelengkap di luar jalur utama — mis. menulis dengan bantuan AI.',
+    from: 51,
+    to: 60,
+  },
 ];
 
 export const tierOf = (levelId: number): Tier | undefined =>

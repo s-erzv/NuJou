@@ -1,0 +1,146 @@
+{
+  "id": 51,
+  "slug": "menulis-dengan-ai",
+  "title": "Menulis dengan Bantuan AI",
+  "subtitle": "Batas etis LLM dalam tulisan akademik & personal",
+  "goal": "Memahami apa yang etis dan tidak etis saat memakai AI generatif (LLM) untuk menulis — akademik maupun personal — berdasarkan pedoman ICMJE/COPE dan rekomendasi jurnal ilmiah, serta bisa menulis pernyataan pengungkapan (disclosure) yang benar.",
+  "estimatedMinutes": 34,
+  "sections": [
+    {
+      "id": "51-1",
+      "title": "Kenapa Modul Ini Ada",
+      "blocks": [
+        { "type": "heading", "text": "Alat Baru, Pertanyaan Lama" },
+        { "type": "paragraph", "text": "Sejak ChatGPT rilis akhir 2022, alat AI generatif berbasis model bahasa besar (Large Language Model / LLM) mengubah cara banyak orang menulis. Institusi pendidikan awalnya panik dan melarang, lalu bergeser ke mengatur pemanfaatannya. Volume riset soal ini meledak — dari ratusan publikasi pada 2023 menjadi ribuan pada 2024." },
+        { "type": "paragraph", "text": "Modul ini BUKAN opini penulis NuJou. Isinya disusun dari pedoman resmi penerbit (ICMJE, COPE) dan rekomendasi yang terbit di jurnal ilmiah — sumbernya tercantum di 'Sumber Materi', dan dua di antaranya bisa kamu unduh langsung. Tujuannya: memberimu peta batas yang jelas, bukan menakut-nakuti atau menyuruh." },
+        { "type": "callout", "title": "Prinsip Payung", "text": "Menurut ICMJE, AI tidak bisa menjadi penulis (author) karena tidak bisa bertanggung jawab atas akurasi, integritas, dan orisinalitas karya — dan tanggung jawab itu syarat mutlak authorship (ingat Level 47). Manusia tetap penuh bertanggung jawab atas seluruh isi." }
+      ]
+    },
+    {
+      "id": "51-2",
+      "title": "Spektrum Pemakaian: dari Aman ke Terlarang",
+      "blocks": [
+        { "type": "heading", "text": "Tidak Semua Pemakaian AI Sama" },
+        { "type": "paragraph", "text": "Cheng, Calhoun, dan Reedy (2025) menyusun kerangka bertingkat: ada pemakaian yang paling bisa diterima secara etis, ada yang bersyarat (butuh pengawasan ketat), dan ada yang tidak dapat diterima. Kuncinya bukan 'AI = curang', melainkan UNTUK APA AI dipakai." },
+        {
+          "type": "table",
+          "headers": ["Tingkat", "Contoh Pemakaian"],
+          "rows": [
+            ["Paling bisa diterima", "Koreksi tata bahasa/ejaan, memperbaiki keterbacaan, terjemahan (dengan tinjauan penutur asli), merestrukturisasi teks yang sudah ada"],
+            ["Bersyarat (butuh pengawasan)", "Membuat outline dari isi naskahmu sendiri, meringkas bagian yang sudah kamu tulis, memperjelas paragraf yang sudah ada, brainstorm argumen/bantahan (dengan atribusi)"],
+            ["Tidak dapat diterima", "Menulis konten baru dari nol tanpa gagasanmu, membuat/menghasilkan sitasi, menafsir data primer, melakukan tinjauan pustaka secara mandiri, mengecek plagiarisme"]
+          ]
+        },
+        { "type": "callout", "title": "Benang Merahnya", "text": "AI aman dipakai untuk MEMPOLES apa yang sudah kamu pikirkan; berbahaya saat dipakai MENGGANTIKAN pemikiranmu. Semakin dekat ke 'gagasan dan tafsiran inti', semakin AI harus menjauh." }
+      ]
+    },
+    {
+      "id": "51-3",
+      "title": "Bahaya Nyata #1: Sitasi Palsu",
+      "blocks": [
+        { "type": "heading", "text": "AI Bisa Mengarang Referensi yang Terlihat Sah" },
+        { "type": "paragraph", "text": "Rekomendasi paling tegas dari literatur: JANGAN memakai LLM untuk menghasilkan referensi. LLM bisa 'berhalusinasi' — memunculkan judul, penulis, tahun, bahkan DOI yang terlihat meyakinkan tapi TIDAK ADA. Ini menyambung langsung ke Level 3 (plagiarisme & sitasi): sitasi palsu jauh lebih merusak daripada tidak menyitasi." },
+        { "type": "paragraph", "text": "Bahkan saat AI menyebut sumber yang benar-benar ada, ia bisa salah mengaitkan klaim ke sumber itu. Maka: setiap referensi yang menyentuh AI wajib kamu verifikasi manual sampai ke sumber aslinya — persis kebiasaan yang diajarkan di Level 11 (tinjauan pustaka)." },
+        { "type": "callout", "title": "Aturan Praktis", "text": "Kalau kamu tidak membuka dan membaca sendiri sumber yang dikutip, jangan mencantumkannya. AI tidak menghapus kewajiban ini — ia justru menambah risikonya." }
+      ]
+    },
+    {
+      "id": "51-4",
+      "title": "Bahaya Nyata #2: Kehilangan Kompetensi",
+      "blocks": [
+        { "type": "heading", "text": "Otot yang Tak Dilatih Akan Melemah" },
+        { "type": "paragraph", "text": "Salah satu dari empat pertanyaan penjaga yang diajukan literatur adalah: apakah manusia tetap mempertahankan kompetensi inti dalam meneliti dan menulis? Kalau setiap draf pertama, setiap argumen, setiap paragraf diserahkan ke AI, keterampilan yang justru sedang kamu bangun di 50 level sebelumnya — menemukan voice (Level 29), menyusun argumen (Level 30), merevisi (Level 38) — tidak pernah terlatih." },
+        { "type": "paragraph", "text": "Ini terutama penting untuk pembelajar. AI yang dipakai sebagai 'jalan pintas menghindari berpikir' merampas proses belajar itu sendiri. Dipakai sebagai 'partner diskusi yang menantang gagasanmu', ia bisa memperkuat pembelajaran." },
+        { "type": "callout", "title": "Uji Sederhana", "text": "Tanya: setelah AI membantu, apakah aku jadi LEBIH paham materiku, atau sekadar punya teks tanpa memahaminya? Yang pertama menumbuhkan; yang kedua mengeropos." }
+      ]
+    },
+    {
+      "id": "51-5",
+      "title": "Kewajiban Pengungkapan (Disclosure)",
+      "blocks": [
+        { "type": "heading", "text": "Transparan Itu Wajib, Bukan Opsional" },
+        { "type": "paragraph", "text": "ICMJE mewajibkan: saat submit, penulis harus mengungkapkan apakah memakai teknologi berbantuan AI, dan menjelaskan — di cover letter (Level 19) DAN di naskah — bagaimana AI dipakai. Literatur menyarankan menaruh pengungkapan di bagian METODE, bukan sekadar di ucapan terima kasih, karena bagian metode lebih pasti dibaca." },
+        { "type": "quote", "text": "Buruk (kabur / disembunyikan): tidak menyebut apa pun, atau menaruh satu baris samar di acknowledgment. → Baik (di Metode): \"Penulis menggunakan model bahasa besar (GPT-4) untuk memperbaiki tata bahasa dan keterbacaan draf yang sudah ditulis penulis. Seluruh gagasan, analisis, dan referensi disusun serta diverifikasi oleh penulis. AI tidak digunakan untuk menghasilkan konten baru maupun sitasi.\"", "source": "Contoh pernyataan disclosure pemakaian AI" },
+        { "type": "callout", "title": "Kenapa Ini Penting", "text": "Menyembunyikan pemakaian AI menyesatkan pembaca dan editor soal siapa yang sebenarnya berpikir — sama masalahnya dengan ghost authorship (Level 47). Transparansi menyelesaikan hampir semua keraguan." }
+      ]
+    },
+    {
+      "id": "51-6",
+      "title": "Empat Pertanyaan Penjaga",
+      "blocks": [
+        { "type": "heading", "text": "Checklist Sebelum Memakai AI" },
+        { "type": "paragraph", "text": "Literatur menyaring seluruh pertimbangan etis menjadi empat pertanyaan yang harus kamu jawab YA sebelum memakai AI dalam tulisan yang akan dipublikasikan:" },
+        { "type": "list", "ordered": true, "items": [
+          "Apakah gagasan, wawasan, tafsiran, dan analisis kritis intinya benar-benar milikmu sendiri?",
+          "Apakah kamu tetap menjaga kompetensi inti dalam meneliti dan menulis (tidak menyerahkan proses belajarnya)?",
+          "Apakah kamu sudah MEMERIKSA ULANG konten dan referensi untuk akurasi, keandalan, dan bias?",
+          "Apakah kamu sudah memberikan pengungkapan yang jelas soal bagaimana AI dipakai?"
+        ]},
+        { "type": "callout", "title": "Kalau Ada yang 'Tidak'", "text": "Kalau salah satu jawabannya 'tidak', kamu belum berada di wilayah aman. Perbaiki dulu sebelum menekan tombol submit." }
+      ]
+    },
+    {
+      "id": "51-7",
+      "title": "AI dalam Tulisan Personal",
+      "blocks": [
+        { "type": "heading", "text": "Aturannya Beda, Tapi Prinsipnya Sama" },
+        { "type": "paragraph", "text": "Untuk tulisan personal (blog, Medium, Substack, esai — Level 29-38), tidak ada 'ICMJE' yang mengatur, dan platform punya kebijakan sendiri. Tapi prinsip intinya bertahan: yang membuat tulisan personal bernilai adalah VOICE dan pengalamanmu yang unik (Level 29). AI, yang menulis dari rata-rata pola internet, cenderung menghasilkan teks yang benar tapi hambar — kehilangan justru hal yang membuat pembaca peduli." },
+        { "type": "paragraph", "text": "Pemakaian yang sehat: AI sebagai teman brainstorming, pemberi umpan balik pada draf, atau alat mengecek keterbacaan. Pemakaian yang mengeroposkan: menyuruh AI 'tulis esai personal tentang X' lalu menempelkannya sebagai pengalamanmu — itu bukan cuma hambar, tapi juga tidak jujur pada pembaca yang mengira itu ceritamu." },
+        { "type": "callout", "title": "Untuk Blog/Substack", "text": "Banyak pembaca dan platform makin peka terhadap teks yang terasa 'AI banget'. Kepercayaan audiens (Level 36) adalah aset paling rapuh — sekali pembaca merasa dibohongi soal keaslian, sulit dipulihkan." }
+      ]
+    },
+    {
+      "id": "51-8",
+      "title": "Kesalahan Umum Memakai AI untuk Menulis",
+      "blocks": [
+        { "type": "heading", "text": "Jebakan yang Sering Terjadi" },
+        { "type": "list", "ordered": true, "items": [
+          "Mencantumkan sitasi hasil AI tanpa memverifikasi — banyak yang ternyata halusinasi (tidak ada).",
+          "Menyuruh AI menulis konten/argumen baru dari nol, lalu mengakuinya sebagai pemikiran sendiri.",
+          "Menyembunyikan pemakaian AI, alih-alih mengungkapkannya di bagian metode/cover letter.",
+          "Menyerahkan proses berpikir dan menulis sepenuhnya ke AI sehingga kompetensimu tak pernah terlatih.",
+          "Menempelkan 'esai personal' buatan AI sebagai pengalaman pribadimu — hambar dan tidak jujur."
+        ]},
+        { "type": "callout", "title": "Ingat", "text": "AI adalah alat, seperti kalkulator bagi ahli matematika: memperkuat orang yang sudah bisa berpikir, tapi tidak bisa menggantikan pemikiran itu sendiri. Pakai untuk memoles, bukan untuk menggantikan gagasanmu — dan selalu transparan." }
+      ]
+    }
+  ],
+  "quiz": {
+    "id": "quiz-51",
+    "title": "Kuis Level 51",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "q51-1", "question": "Menurut ICMJE, AI (LLM/chatbot) tidak bisa menjadi penulis (author) karena…", "options": ["Terlalu pintar", "Tidak bisa bertanggung jawab atas akurasi, integritas, dan orisinalitas karya", "Tidak punya nama", "Dilarang undang-undang"], "answer": 1, "explanation": "Authorship menuntut tanggung jawab atas isi; AI tidak bisa memikulnya." },
+      { "id": "q51-2", "question": "Pemakaian AI yang paling bisa diterima secara etis menurut literatur adalah…", "options": ["Menulis argumen baru dari nol", "Koreksi tata bahasa/ejaan dan memperbaiki keterbacaan teks yang sudah kamu tulis", "Menghasilkan daftar referensi", "Menafsir data primer"], "answer": 1, "explanation": "Memoles teks yang sudah ada berada di tingkat paling aman; menghasilkan konten/sitasi baru tidak." },
+      { "id": "q51-3", "question": "Kenapa jangan memakai AI untuk menghasilkan referensi?", "options": ["Referensi AI selalu benar", "AI bisa berhalusinasi — memunculkan sumber yang terlihat sah tapi tidak ada", "Referensi tidak penting", "AI tidak tahu apa itu sitasi"], "answer": 1, "explanation": "LLM bisa mengarang sitasi meyakinkan yang sebenarnya fiktif — sitasi palsu sangat merusak." },
+      { "id": "q51-4", "question": "ICMJE mewajibkan penulis yang memakai AI untuk…", "options": ["Merahasiakannya", "Mengungkapkan pemakaiannya dan menjelaskan bagaimana AI dipakai (di cover letter dan naskah)", "Menjadikan AI sebagai co-author", "Menghapus semua sitasi"], "answer": 1, "explanation": "Disclosure transparan wajib; menyembunyikan pemakaian AI menyesatkan." },
+      { "id": "q51-5", "question": "Literatur menyarankan menaruh pernyataan pemakaian AI di bagian…", "options": ["Judul", "Metode (karena lebih pasti dibaca daripada acknowledgment)", "Abstrak saja", "Tidak perlu ditaruh di mana pun"], "answer": 1, "explanation": "Bagian metode lebih pasti dibaca; acknowledgment mudah terlewat." },
+      { "id": "q51-6", "question": "Salah satu 'pertanyaan penjaga' sebelum memakai AI adalah…", "options": ["Apakah AI-nya gratis?", "Apakah gagasan, tafsiran, dan analisis intinya benar-benar milikmu sendiri?", "Apakah AI-nya cepat?", "Apakah temanmu juga pakai?"], "answer": 1, "explanation": "Gagasan inti harus tetap milik penulis — itu syarat pemakaian yang etis." },
+      { "id": "q51-7", "question": "Dalam tulisan personal, risiko utama menyerahkan penulisan ke AI adalah…", "options": ["Tulisan jadi terlalu bagus", "Kehilangan voice dan keaslian yang justru membuat pembaca peduli, plus tidak jujur soal pengalaman", "Tidak ada risiko", "Melanggar ICMJE"], "answer": 1, "explanation": "AI menulis dari rata-rata pola; voice unik dan kejujuran pengalaman hilang." }
+    ]
+  },
+  "exam": {
+    "id": "exam-51",
+    "title": "Ujian Level 51",
+    "passRatio": 0.7,
+    "questions": [
+      { "id": "e51-1", "question": "Seorang mahasiswa meminta ChatGPT membuat daftar 10 referensi untuk skripsinya dan langsung mencantumkannya tanpa mengecek. Saat sidang, penguji menemukan 4 referensi itu tidak pernah ada. Akar masalahnya adalah…", "options": ["Penguji terlalu teliti", "Ia memakai AI untuk menghasilkan sitasi — yang bisa berhalusinasi — dan tidak memverifikasi ke sumber asli", "Skripsinya terlalu panjang", "AI-nya versi lama"], "answer": 1, "explanation": "Menghasilkan referensi lewat AI tanpa verifikasi berisiko sitasi fiktif (halusinasi)." },
+      { "id": "e51-2", "question": "Seorang peneliti memakai LLM hanya untuk memperbaiki tata bahasa draf yang seluruh gagasannya ia tulis sendiri, lalu menuliskannya jelas di bagian metode. Menurut kerangka etis, ini…", "options": ["Tidak dapat diterima", "Berada di wilayah yang paling bisa diterima, dan disclosure-nya sudah benar", "Sama dengan plagiarisme", "Menjadikan AI sebagai author"], "answer": 1, "explanation": "Memoles bahasa teks sendiri + disclosure di metode adalah pemakaian paling aman dan transparan." },
+      { "id": "e51-3", "question": "Seorang penulis menyuruh AI 'tuliskan esai personal 800 kata tentang kehilangan', lalu menerbitkannya di Medium seolah itu pengalamannya sendiri. Dua masalah utamanya adalah…", "options": ["Terlalu pendek dan terlalu formal", "Kehilangan voice/keaslian (hambar) DAN tidak jujur pada pembaca yang mengira itu ceritanya", "Melanggar ICMJE dan COPE", "Tidak ada masalah"], "answer": 1, "explanation": "Untuk tulisan personal, keaslian voice dan kejujuran pengalaman adalah intinya — keduanya dilanggar." },
+      { "id": "e51-4", "question": "Seorang dosen khawatir mahasiswanya 'tidak pernah belajar menulis' karena selalu menyuruh AI membuat draf pertama. Kekhawatiran ini paling tepat dikaitkan dengan pertanyaan penjaga yang mana?", "options": ["Apakah AI-nya berbayar?", "Apakah manusia tetap menjaga kompetensi inti meneliti dan menulis?", "Apakah disclosure sudah dibuat?", "Apakah referensinya benar?"], "answer": 1, "explanation": "Menyerahkan proses menulis sepenuhnya mengeroposkan kompetensi inti — salah satu pertanyaan penjaga." },
+      { "id": "e51-5", "question": "Sebuah jurnal menerima naskah yang jelas dibantu AI tapi penulis tidak menyebutkannya sama sekali. Pelanggaran yang terjadi paling tepat disebut…", "options": ["Tidak ada pelanggaran", "Kegagalan disclosure — ICMJE mewajibkan pengungkapan pemakaian AI", "Gift authorship", "Salami slicing"], "answer": 1, "explanation": "Tidak mengungkapkan pemakaian AI melanggar kewajiban disclosure ICMJE." },
+      { "id": "e51-6", "question": "Manakah pemakaian AI yang tergolong 'bersyarat' (boleh, tapi butuh pengawasan ketat), bukan 'paling aman' maupun 'terlarang'?", "options": ["Menghasilkan sitasi", "Membuat outline dari isi naskah yang sudah kamu tulis, dengan atribusi", "Koreksi ejaan murni", "Menafsir data primer"], "answer": 1, "explanation": "Membuat outline/meringkas dari isimu sendiri bersifat kontingen: boleh dengan pengawasan dan atribusi." },
+      { "id": "e51-7", "question": "Seorang mahasiswa berdebat: 'ini karyaku, aku bebas pakai AI sesukaku tanpa memberi tahu siapa pun.' Kenapa argumen ini keliru dalam konteks publikasi?", "options": ["Karya memang tidak pernah miliknya", "Transparansi/disclosure diwajibkan agar pembaca dan editor tidak disesatkan soal siapa yang sebenarnya berpikir", "AI selalu dilarang total", "Karena AI harus jadi author"], "answer": 1, "explanation": "Kepemilikan tak menghapus kewajiban transparansi; menyembunyikan pemakaian menyesatkan seperti ghost authorship." },
+      { "id": "e51-8", "question": "Seorang peneliti memakai AI untuk MENAFSIRKAN data mentah penelitiannya dan menuliskan temuannya. Menurut kerangka etis, tindakan ini…", "options": ["Paling bisa diterima", "Tidak dapat diterima — tafsir data primer adalah inti pemikiran yang harus dilakukan manusia", "Bersyarat", "Wajib dilakukan"], "answer": 1, "explanation": "Menafsir data primer termasuk pemakaian yang tidak dapat diterima; itu gagasan inti peneliti." },
+      { "id": "e51-9", "question": "Setelah AI membantu, cara terbaik menilai apakah pemakaiannya sehat (menyambung tema belajar NuJou) adalah bertanya…", "options": ["Apakah teksnya jadi lebih panjang?", "Apakah aku jadi LEBIH paham materiku, atau sekadar punya teks tanpa memahaminya?", "Apakah AI-nya cepat?", "Apakah gratis?"], "answer": 1, "explanation": "Pemakaian yang menumbuhkan pemahaman sehat; yang menghasilkan teks tanpa pemahaman mengeropos." },
+      { "id": "e51-10", "question": "Seorang penulis blog memakai AI sebagai teman brainstorming dan untuk mengecek keterbacaan draf yang ia tulis sendiri, lalu tetap menyunting dengan voice-nya. Penilaian paling tepat adalah…", "options": ["Ini tidak jujur", "Ini pemakaian yang sehat — AI memoles dan menantang, bukan menggantikan voice dan gagasannya", "Ini melanggar ICMJE", "Ini sama dengan menempelkan esai buatan AI"], "answer": 1, "explanation": "Memakai AI untuk brainstorming/umpan balik sambil menjaga voice dan gagasan sendiri adalah pemakaian yang sehat." }
+    ]
+  },
+  "sources": [
+    { "title": "Artificial intelligence-assisted academic writing: recommendations for ethical use", "author": "Adam Cheng, Aaron Calhoun, Gabriel Reedy", "year": 2025, "publisher": "Advances in Simulation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12007126/", "note": "Sumber utama: kerangka bertingkat pemakaian AI yang aman/bersyarat/terlarang dan empat pertanyaan penjaga." },
+    { "title": "ICMJE Recommendations: Use of Artificial Intelligence-Assisted Technology in Scholarly Work", "author": "International Committee of Medical Journal Editors", "publisher": "ICMJE", "url": "https://www.icmje.org/recommendations/", "note": "AI tidak bisa jadi author; kewajiban disclosure pemakaian AI." },
+    { "title": "Authorship and AI tools (COPE position statement)", "author": "Committee on Publication Ethics", "publisher": "COPE", "url": "https://publicationethics.org/cope-position-statements/ai-author", "note": "Sikap etika penerbit soal AI dan authorship." },
+    { "title": "Generative AI in Higher Education: Seeing ChatGPT Through Universities' Policies, Resources, and Guidelines", "author": "Nora McDonald, Aditya Johri, Areej Ali, dkk.", "year": 2023, "publisher": "arXiv:2312.05235", "url": "/references/genai-higher-education-policies-2023.pdf", "note": "Analisis kebijakan kampus soal ChatGPT (PDF tersedia untuk diunduh)." },
+    { "title": "Generative Artificial Intelligence in Higher Education: Evidence from an Analysis of Institutional Policies and Guidelines", "author": "Nazila Zarghami, dkk.", "year": 2024, "publisher": "arXiv:2402.01659", "url": "/references/genai-institutional-policies-2024.pdf", "note": "Bukti dari analisis kebijakan institusi (PDF tersedia untuk diunduh)." }
+  ]
+}

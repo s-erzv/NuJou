@@ -49,6 +49,7 @@ import level47 from './level47.json';
 import level48 from './level48.json';
 import level49 from './level49.json';
 import level50 from './level50.json';
+import level51 from './level51.json';
 
 // Static, ordered course data. Cast is safe because the JSON is authored
 // to match the `Level` shape in ../types. Levels unlock sequentially (level N
@@ -104,6 +105,7 @@ export const levels: Level[] = [
   level48,
   level49,
   level50,
+  level51,
 ] as unknown as Level[];
 
 export const getLevel = (idOrSlug: number | string): Level | undefined =>
